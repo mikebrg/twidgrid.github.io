@@ -4310,50 +4310,6 @@ a {
     padding: 1rem;
   }
 }
-.cid-u3vYSHJbh7 {
-  padding-top: 10rem;
-  padding-bottom: 0rem;
-  background-color: #9c98cf;
-}
-.cid-u3vYSHJbh7 .mbr-fallback-image.disabled {
-  display: none;
-}
-.cid-u3vYSHJbh7 .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-u3vYSHJbh7 .card-wrapper {
-  background: #9c98cf;
-}
-@media (max-width: 767px) {
-  .cid-u3vYSHJbh7 .card-wrapper {
-    padding: 1.5rem;
-  }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .cid-u3vYSHJbh7 .card-wrapper {
-    padding: 2.25rem;
-  }
-}
-@media (min-width: 992px) {
-  .cid-u3vYSHJbh7 .card-wrapper {
-    padding: 4rem;
-  }
-}
-.cid-u3vYSHJbh7 .mbr-text,
-.cid-u3vYSHJbh7 .mbr-section-btn {
-  color: #ffd7ef;
-}
-.cid-u3vYSHJbh7 .card-title,
-.cid-u3vYSHJbh7 .card-box {
-  text-align: center;
-  color: #000000;
-}
 .cid-u3usuqRW4o {
   padding-top: 10rem;
   padding-bottom: 6rem;
@@ -4416,70 +4372,6 @@ a {
   text-align: center;
 }
 .cid-u3usuqRW4o .content-head {
-  max-width: 800px;
-}
-.cid-u3vZdPNa1q {
-  padding-top: 10rem;
-  padding-bottom: 6rem;
-  background-color: #9c98cf;
-}
-.cid-u3vZdPNa1q h6 {
-  line-height: 1.2;
-}
-.cid-u3vZdPNa1q img,
-.cid-u3vZdPNa1q .item-img {
-  width: 100%;
-}
-.cid-u3vZdPNa1q .item:focus,
-.cid-u3vZdPNa1q span:focus {
-  outline: none;
-}
-.cid-u3vZdPNa1q .item {
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-u3vZdPNa1q .item {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    margin-bottom: 1rem;
-  }
-}
-@media (max-width: 767px) {
-  .cid-u3vZdPNa1q .mbr-section-content {
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
-  }
-}
-.cid-u3vZdPNa1q .item-wrapper {
-  position: relative;
-  display: flex;
-  flex-flow: column nowrap;
-}
-.cid-u3vZdPNa1q .mbr-section-btn {
-  margin-top: auto !important;
-  text-align: center;
-}
-.cid-u3vZdPNa1q .mbr-section-title {
-  color: #000000;
-}
-.cid-u3vZdPNa1q .mbr-text,
-.cid-u3vZdPNa1q .mbr-section-btn {
-  color: #000000;
-}
-.cid-u3vZdPNa1q .item-title {
-  color: #000000;
-  text-align: center;
-}
-.cid-u3vZdPNa1q .item-subtitle {
-  color: #000000;
-  text-align: center;
-}
-.cid-u3vZdPNa1q .item-text {
-  color: #000000;
-  text-align: center;
-}
-.cid-u3vZdPNa1q .content-head {
   max-width: 800px;
 }
 .cid-u31hngbEC4 {
@@ -35737,38 +35629,55 @@ a {
 .cid-u3wF79Uwh1 .content-head {
   max-width: 800px;
 }
-.cid-u3wF7bzKJ9 {
-  padding-top: 6rem;
+.cid-u3B5IFkhne {
+  padding-top: 10rem;
   padding-bottom: 6rem;
   background-color: #9c98cf;
 }
-.cid-u3wF7bzKJ9 .mbr-fallback-image.disabled {
-  display: none;
+.cid-u3B5IFkhne .item-wrapper img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50% !important;
 }
-.cid-u3wF7bzKJ9 .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-}
-.cid-u3wF7bzKJ9 .item-wrapper {
-  display: flex;
+.cid-u3B5IFkhne .item-wrapper {
+  background: #dbd8fc;
   margin-bottom: 2rem;
+  padding: 2.25rem;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .cid-u3B5IFkhne .item-wrapper {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
 }
 @media (max-width: 767px) {
-  .cid-u3wF7bzKJ9 .item-wrapper {
+  .cid-u3B5IFkhne .item-wrapper {
+    padding: 1.5rem;
     margin-bottom: 1rem;
   }
 }
-.cid-u3wF7bzKJ9 .img-wrapper {
-  width: 10rem;
-  padding-right: 1.5rem;
+.cid-u3B5IFkhne .card-title,
+.cid-u3B5IFkhne .iconfont-wrapper {
+  color: #000000;
 }
-.cid-u3wF7bzKJ9 .content-head {
+.cid-u3B5IFkhne .card-text {
+  color: #000000;
+  text-align: center;
+}
+.cid-u3B5IFkhne .content-head {
   max-width: 800px;
+}
+.cid-u3B5IFkhne .mbr-section-title {
+  color: #000000;
+}
+.cid-u3B5IFkhne .card-title,
+.cid-u3B5IFkhne .img-wrapper {
+  text-align: center;
+}
+.cid-u3B5IFkhne .img-wrapper {
+  display: flex;
+  justify-content: center;
 }
 .cid-u3wF7ccg1F {
   padding-top: 1rem;
