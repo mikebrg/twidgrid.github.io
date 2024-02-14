@@ -5068,7 +5068,7 @@ a {
 }
 .cid-u2L6Hc4yBv {
   padding-top: 10rem;
-  padding-bottom: 2rem;
+  padding-bottom: 10rem;
   background-color: #ffffff;
 }
 .cid-u2L6Hc4yBv .mbr-section-title {
@@ -5100,6 +5100,23 @@ a {
 }
 .cid-u2L6Hc4yBv .gdpr-block {
   display: none;
+}
+.cid-u4g4xjirSp {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #ffffff;
+}
+.cid-u4g4xjirSp .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-u4g4xjirSp .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
 }
 .cid-u31hngbEC4 {
   padding-top: 1rem;
