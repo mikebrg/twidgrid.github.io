@@ -19,7 +19,7 @@ http://www.tipue.com/search
      background-color: #edefeb;
      padding: 9px 0 10px 18px;
      height: 70px;
-     border-radius: 100px;
+     border-radius: 5px;
      border-style: solid;
      border-color: #dbd8fc;
 	margin: 0;
@@ -42,7 +42,7 @@ http://www.tipue.com/search
      height: 70px;
      margin-left: 10px;
      background-color: #393193;
-     border-radius: 100px;
+     border-radius: 5px;
      cursor: pointer;
 	outline: 0;
      font-size: 18px;

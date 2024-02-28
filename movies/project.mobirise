@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TwidGrid Movies",
-    "currentPage": "2010s-movies.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -24,9 +24,9 @@
         "display7Size": 1.4,
         "display4Font": "Inter Tight",
         "display4Size": "1",
-        "isRoundedImages": true,
-        "isRoundedButtons": true,
-        "isLargeButtons": true,
+        "isRoundedImages": false,
+        "isRoundedButtons": false,
+        "isLargeButtons": false,
         "isGhostButtonBorder": true,
         "underlinedLinks": false,
         "isAnimatedOnScroll": true,
