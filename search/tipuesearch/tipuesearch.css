@@ -55,13 +55,14 @@ http://www.tipue.com/search
 
 .tipue_search_icon
 {
-     float: centre;
+     float:left;
      font: 24px/1 'Open Sans', sans-serif;
      color: #333;
 	box-sizing: border-box;
      box-shadow: none;
 	outline: 0;	
-	margin: -1px 0 0 16px;
+	padding: 20px 0 0 0px;
+    
 }
 .tipue_search_group:after
 {
