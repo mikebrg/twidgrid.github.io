@@ -164,8 +164,8 @@ http://www.tipue.com/search
 .tipue_search_img
 {
      width: 100%;
-     max-width: 330px;
-     height: auto;
+     height: 100%;
+     max-height: 100px;
      transition: 0.5s;
      border-radius: 2px;
 }
