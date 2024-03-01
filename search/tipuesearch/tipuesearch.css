@@ -18,7 +18,7 @@ http://www.tipue.com/search
      width: 70%;
      background-color: #edefeb;
      padding: 9px 0 10px 18px;
-     height: 70px;
+     height: 60px;
      border-radius: 5px;
      border-style: solid;
      border-color: #dbd8fc;
@@ -38,14 +38,14 @@ http://www.tipue.com/search
 {
      position: relative;
      float: left;
-     width: 70px;
-     height: 70px;
-     margin-left: 10px;
+     width: 60px;
+     height: 60px;
+     margin-left: 5px;
      background-color: #393193;
      border-radius: 5px;
      cursor: pointer;
 	outline: 0;
-     font-size: 18px;
+     font-size: 14px;
      color: white;
 }
 .tipue_search_button:hover
@@ -56,7 +56,7 @@ http://www.tipue.com/search
 .tipue_search_icon
 {
      float: left;
-     font: 60px/1 'Open Sans', sans-serif;
+     font: 50px/1 'Open Sans', sans-serif;
      -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
      color: #fff;
@@ -66,7 +66,7 @@ http://www.tipue.com/search
 	box-sizing: border-box;
      box-shadow: none;
 	outline: 0;	
-	margin: -1px 0 0 16px;
+	margin: -1px 0 0 15px;
     
 }
 .tipue_search_group:after
@@ -270,8 +270,8 @@ http://www.tipue.com/search
 {
      background-color: #dbd8fc;
 	color: #666;
-	padding: 10px 27px 11px 27px;
-     border-radius: 100px;
+	padding: 10px 20px 11px 20px;
+     border-radius: 5px;
 	margin-right: 7px;
 	text-decoration: none;
 	text-align: center;
@@ -281,8 +281,8 @@ http://www.tipue.com/search
 {
      background: #393193;
 	color: white;
-	padding: 10px 27px 11px 27px;
-     border-radius: 100px;
+	padding: 10px 20px 11px 20px;
+     border-radius: 5px;
 	margin-right: 7px;
 	text-align: center;
 }
