@@ -955,6 +955,9 @@ blockquote {
     width: 300% !important;
     left: -100% !important;
   }
+}
+.popover {
+  position: absolute;
 }.engine {
 	position: absolute;
 	text-indent: -2400px;
