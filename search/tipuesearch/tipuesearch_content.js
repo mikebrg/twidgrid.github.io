@@ -1,6 +1,10 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	V	", "text": "	Born December 30, 1995 - South Korea	", "img": "../music/assets/images/	v-474x525.jpeg	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/V_(singer)	'target='_blank'><img src='../music/assets/images/	wikipedia.png	'></a>", "url": "	../music/artists	"},
+{"title": "	The Black Crowes	", "text": "	Since 1984 - United States	", "img": "../music/assets/images/	black-crowes-1.webp	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/The_Black_Crowes	'target='_blank'><img src='../music/assets/images/	wikipedia.png	'></a>", "url": "	../music/artists	"},
+{"title": "	Lynyrd Skynyrd	", "text": "	Since 1964 - United States	", "img": "../music/assets/images/	lynyrd-skynyrd-264x264.jpg	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/Lynyrd_Skynyrd	'target='_blank'><img src='../music/assets/images/	wikipedia.png	'></a>", "url": "	../music/artists	"},
+
      {"title": "	Enough (Miami)	", "text": "	Single by Cardi B - Released March 15, 2024	", "img": "../music/assets/images/	enough-miamicardi-b-340x340.png	", "tags": "		", "note": "<a href='	https://www.youtube.com/watch?v=narFtb5tdTQ	'target='_blank'><img src='../music/assets/images/	youtube.png	'></a>", "url": "	../music/songs#2024-Top-Charted-Songs	"},
      {"title": "	Get It Sexyy	", "text": "	Single by Sexyy Red - Released March 15, 2024	", "img": "../music/assets/images/	get-it-sexyysexyy-red-340x340.png	", "tags": "		", "note": "<a href='	https://www.youtube.com/watch?v=bQ1PBw9MP3I	'target='_blank'><img src='../music/assets/images/	youtube.png	'></a>", "url": "	../music/songs#2024-Top-Charted-Songs	"},
      {"title": "	Prada Dem	", "text": "	Single by Gunna Featuring Offset - Released March 15, 2024	", "img": "../music/assets/images/	prada-demgunna-featuring-offset-340x340.png	", "tags": "		", "note": "<a href='	https://www.youtube.com/watch?v=Tqjw-H4QyG0	'target='_blank'><img src='../music/assets/images/	youtube.png	'></a>", "url": "	../music/songs#2024-Top-Charted-Songs	"},
