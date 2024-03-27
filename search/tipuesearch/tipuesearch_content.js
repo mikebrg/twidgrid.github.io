@@ -1,6 +1,14 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Sexy Beast	", "text": "	TV Show Released 2024 (1 Season)	", "img": "../tv/assets/images/	sexybeast2024.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt18259204	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2020tvshows#2024-tvshows	"},
+{"title": "	Gangs of London	", "text": "	TV Show Released 2020 (3 Seasons)	", "img": "../tv/assets/images/	gangsoflondon2020.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt7661390	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2020tvshows#2020-TV-Shows	"},
+{"title": "	Brassic	", "text": "	TV Show Released 2019 (6 Seasons)	", "img": "../tv/assets/images/	brassic2019.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt9174582	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2010tvshows#2019-TV-Shows	"},
+{"title": "	The Wingfeather Saga	", "text": "	TV Show Released 2022 (2 Seasons)	", "img": "../tv/assets/images/	thewingfeathersaga2022.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt20978970	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2020tvshows#2022-tvshows	"},
+
+     {"title": "	Snatch	", "text": "	Movie Released 2000 January 19	", "img": "../movies/assets/images/	snatch2000.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt0208092	'target='_blank'><img src='../movies/assets/images/imdb.png'></a>	", "url": "	../movies/2000s-movies#	2000	-Movies"},
+     {"title": "	The Shift	", "text": "	Movie Released 2023 December 1	", "img": "../movies/assets/images/	theshift2023.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt19406606	'target='_blank'><img src='../movies/assets/images/imdb.png'></a>	", "url": "	../movies/2020s-movies#	2023	-Movies"},
+     
      {"title": "	V	", "text": "	Born December 30, 1995 - South Korea	", "img": "../music/assets/images/	v-474x525.jpeg	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/V_(singer)	'target='_blank'><img src='../music/assets/images/	wikipedia.png	'></a>", "url": "	../music/artists	"},
 {"title": "	The Black Crowes	", "text": "	Since 1984 - United States	", "img": "../music/assets/images/	black-crowes-1.webp	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/The_Black_Crowes	'target='_blank'><img src='../music/assets/images/	wikipedia.png	'></a>", "url": "	../music/artists	"},
 {"title": "	Lynyrd Skynyrd	", "text": "	Since 1964 - United States	", "img": "../music/assets/images/	lynyrd-skynyrd-264x264.jpg	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/Lynyrd_Skynyrd	'target='_blank'><img src='../music/assets/images/	wikipedia.png	'></a>", "url": "	../music/artists	"},
