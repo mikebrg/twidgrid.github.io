@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	History Timelines	", "text": "	Explore history through interactive timelines! Dive into key events, eras, and figures with our comprehensive collection, covering everything from ancient civilizations to the modern world. Find the perfect timeline for your research or simply browse and discover fascinating stories from the past.	", "img": "../	timelines	/assets/images/	closeup-shot-spinning-globe-beige-181624-19367-1380x920.jpeg	", "tags": "		", "note": "		", "url": "	../timelines/all-timelines#History-Timelines	"},
+
      {"title": "	Sexy Beast	", "text": "	TV Show Released 2024 (1 Season)	", "img": "../tv/assets/images/	sexybeast2024.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt18259204	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2020tvshows#2024-tvshows	"},
 {"title": "	Gangs of London	", "text": "	TV Show Released 2020 (3 Seasons)	", "img": "../tv/assets/images/	gangsoflondon2020.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt7661390	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2020tvshows#2020-TV-Shows	"},
 {"title": "	Brassic	", "text": "	TV Show Released 2019 (6 Seasons)	", "img": "../tv/assets/images/	brassic2019.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt9174582	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2010tvshows#2019-TV-Shows	"},
