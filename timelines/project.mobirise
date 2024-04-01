@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TwidGrid - Timelines",
-    "currentPage": "all-timelines.html",
+    "currentPage": "911.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -60,7 +60,7 @@
     "witsec-white-label": true,
     "witsec-search": false,
     "witsec-mailform": false,
-    "uniqCompNum": 662,
+    "uniqCompNum": 666,
     "versionPublish": "5.9.17",
     "screenshot": "screenshot.png",
     "google-analytics": "<script src=\"https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js\"></script>\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css\">\n\n<style type=\"text/css\">\n::-webkit-scrollbar {\n  width: 15px;\n  height: 15px;\n}\n::-webkit-scrollbar-button {\n  width: 0px;\n  height: 0px;\n}\n::-webkit-scrollbar-thumb {\n  background: #9c98cf;\n  border: 0px none #ffffff;\n  border-radius: 0px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #dbd8fc;\n}\n::-webkit-scrollbar-thumb:active {\n  background: #9c98cf;\n}\n::-webkit-scrollbar-track {\n  background: #393193;\n  border: 0px none #ffffff;\n  border-radius: 0px;\n}\n::-webkit-scrollbar-track:hover {\n  background: #260a30;\n}\n::-webkit-scrollbar-track:active {\n  background: #393193;\n}\n::-webkit-scrollbar-corner {\n  background: transparent;\n}\n\n.pace {\n\t-webkit-pointer-events: none;\n\tpointer-events: none;\n\n\t-webkit-user-select: none;\n\t-moz-user-select: none;\n\tuser-select: none;\n}\n\n.pace-inactive {\n\tdisplay: none;\n}\n\n.pace .pace-progress {\n\tbackground: #393193;\n\tposition: fixed;\n\tz-index: 2000;\n\ttop: 0;\n\tright: 100%;\n\twidth: 100%;\n\theight: 2px;\n}\n</style>"
@@ -6472,7 +6472,7 @@
           },
           "_name": "features013",
           "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features13\" group=\"Features\">\n    <mbr-parameters>\n      <header>Size</header>\n      <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n      <select title=\"Columns\" name=\"cardsWidth\">\n        <option value=\"12\">1</option>\n        <option value=\"6\">2</option>\n        <option value=\"4\">3</option>\n        <option value=\"3\">4</option>\n        <option value=\"2\" selected>6</option>\n      </select>\n      <header>Show/Hide</header>\n      <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n      <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\" checked>\n      <header>Cards</header>\n      <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n      <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"2\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n      <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n      <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n      <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n      <input type=\"checkbox\" name=\"showText\" title=\"Text\">\n      <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n      <header>Background</header>\n      <fieldset type=\"background\" name=\"bg\" required>\n        <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n        <input type=\"color\" title=\"Color\" value=\"#9c98cf\" selected>\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#edefeb\" condition=\"overlay && bg.type == 'image'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n      <div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle\">\n        <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n          <b>History Timelines</b></h4>\n        <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Explore history through interactive timelines! Dive into key events, eras, and figures with our comprehensive collection, covering everything from ancient civilizations to the modern world. Find the perfect timeline for your research or simply browse and discover fascinating stories from the past.</h5>\n      </div>\n      <div class=\"row\">\n        \n        \n        \n        \n        \n        <div class=\"item features-image mb-4 col-6 col-md-4 col-lg-{{cardsWidth}} active\">\n          <div class=\"item-wrapper\">\n            <div class=\"item-img mb-3\">\n              <a href=\"ancient-history.html\"><img src=\"@PROJECT_PATH@/assets/images/akkadian-cuneiform-assyrian-sumerian-writing-script-alphabet-babylon-105738-1288-376x376.jpg\" alt=\"Ancient History Timeline\" title data-slide-to=\"0\" data-bs-slide-to=\"0\"></a>\n            </div>\n            <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n              <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\">Ancient History</h5>\n              <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">\n                Lorem ipsum dolor sit amet, adipiscing elit.\n              </h6>\n              <p class=\"item-text mbr-fonts-style mt-1 mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".item-text, .mbr-section-btn\">\n                20 may, 20 min\n              </p>\n            </div>\n            <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n              <a href class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Start Now</a>\n            </div>\n          </div>\n        </div><div class=\"item features-image mb-4 col-6 col-md-4 col-lg-{{cardsWidth}}\">\n          <div class=\"item-wrapper\">\n            <div class=\"item-img mb-3\">\n              <a href=\"ukraine-russia-invasion-2023-2024.html\"><img src=\"@PROJECT_PATH@/assets/images/ukr-rus-375x375.png\" alt=\"Russian invasion of Ukraine\" title data-slide-to=\"1\" data-bs-slide-to=\"1\"></a>\n            </div>\n            <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n              <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\">Russian invasion of Ukraine<br>(in progress)</h5>\n              <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">\n                Lorem ipsum dolor sit amet, adipiscing elit.\n              </h6>\n              <p class=\"item-text mbr-fonts-style mt-1 mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".item-text, .mbr-section-btn\">\n                20 may, 20 min\n              </p>\n            </div>\n            <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n              <a href class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Start Now</a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features13\" group=\"Features\">\n    <mbr-parameters>\n      <header>Size</header>\n      <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n      <select title=\"Columns\" name=\"cardsWidth\">\n        <option value=\"12\">1</option>\n        <option value=\"6\">2</option>\n        <option value=\"4\">3</option>\n        <option value=\"3\">4</option>\n        <option value=\"2\" selected>6</option>\n      </select>\n      <header>Show/Hide</header>\n      <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n      <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\" checked>\n      <header>Cards</header>\n      <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n      <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"2\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n      <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n      <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n      <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\">\n      <input type=\"checkbox\" name=\"showText\" title=\"Text\">\n      <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n      <header>Background</header>\n      <fieldset type=\"background\" name=\"bg\" required>\n        <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n        <input type=\"color\" title=\"Color\" value=\"#9c98cf\" selected>\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#edefeb\" condition=\"overlay && bg.type == 'image'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n      <div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle\">\n        <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n          <b>History Timelines</b></h4>\n        <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Explore history through interactive timelines! Dive into key events, eras, and figures with our comprehensive collection, covering everything from ancient civilizations to the modern world. Find the perfect timeline for your research or simply browse and discover fascinating stories from the past.</h5>\n      </div>\n      <div class=\"row\">\n        \n        \n        \n        \n        \n        <div class=\"item features-image mb-4 col-6 col-md-4 col-lg-{{cardsWidth}} active\">\n          <div class=\"item-wrapper\">\n            <div class=\"item-img mb-3\">\n              <a href=\"ukraine-russia-invasion-2023-2024.html\"><img src=\"@PROJECT_PATH@/assets/images/ukr-rus-375x375.png\" alt=\"Russian invasion of Ukraine\" title data-slide-to=\"0\" data-bs-slide-to=\"0\"></a>\n            </div>\n            <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n              <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\">Russian invasion of Ukraine<br>(in progress)</h5>\n              <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">\n                Lorem ipsum dolor sit amet, adipiscing elit.\n              </h6>\n              <p class=\"item-text mbr-fonts-style mt-1 mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".item-text, .mbr-section-btn\">\n                20 may, 20 min\n              </p>\n            </div>\n            <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n              <a href class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Start Now</a>\n            </div>\n          </div>\n        </div><div class=\"item features-image mb-4 col-6 col-md-4 col-lg-{{cardsWidth}} active\">\n          <div class=\"item-wrapper\">\n            <div class=\"item-img mb-3\">\n              <img src=\"@PROJECT_PATH@/assets/images/patriot-day-emblems-or-logo-september-11-we-vector-18869046-885x885.jpg\" alt=\"Russian invasion of Ukraine\" title data-slide-to=\"1\" data-bs-slide-to=\"1\">\n            </div>\n            <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n              <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\">9/11 Attacks on the USA<br>(coming soon)</h5>\n              <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">\n                Lorem ipsum dolor sit amet, adipiscing elit.\n              </h6>\n              <p class=\"item-text mbr-fonts-style mt-1 mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".item-text, .mbr-section-btn\">\n                20 may, 20 min\n              </p>\n            </div>\n            <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n              <a href class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Start Now</a>\n            </div>\n          </div>\n        </div><div class=\"item features-image mb-4 col-6 col-md-4 col-lg-{{cardsWidth}}\">\n          <div class=\"item-wrapper\">\n            <div class=\"item-img mb-3\">\n              <a href=\"ancient-history.html\"><img src=\"@PROJECT_PATH@/assets/images/akkadian-cuneiform-assyrian-sumerian-writing-script-alphabet-babylon-105738-1288-376x376.jpg\" alt=\"Ancient History Timeline\" title data-slide-to=\"2\" data-bs-slide-to=\"2\"></a>\n            </div>\n            <div class=\"item-content align-left\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n              <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\">Ancient History</h5>\n              <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">\n                Lorem ipsum dolor sit amet, adipiscing elit.\n              </h6>\n              <p class=\"item-text mbr-fonts-style mt-1 mb-0\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".item-text, .mbr-section-btn\">\n                20 may, 20 min\n              </p>\n            </div>\n            <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n              <a href class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\">Start Now</a>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </section>",
           "_anchor": "History-Timelines",
           "_isUserblock": true,
           "_cid": "u5uuBGerp5",
@@ -6790,7 +6790,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ukr-rus-375x375.png",
-        "order": "12"
+        "order": "13"
       },
       "components": [
         {
@@ -8600,7 +8600,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ukr-rus-375x375.png",
-        "order": "11"
+        "order": "12"
       },
       "components": [
         {
@@ -9523,7 +9523,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ukr-rus-375x375.png",
-        "order": "10"
+        "order": "11"
       },
       "components": [
         {
@@ -10447,7 +10447,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ukr-rus-375x375.png",
-        "order": "9"
+        "order": "10"
       },
       "components": [
         {
@@ -11371,7 +11371,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/ukr-rus-375x375.png",
-        "order": "8"
+        "order": "9"
       },
       "components": [
         {
@@ -12284,6 +12284,913 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
+        }
+      ]
+    },
+    "911.html": {
+      "settings": {
+        "title": "9/11 Attacks on the USA | TwidGrid",
+        "meta_descr": "Explore the timeline of ancient civilizations, from the rise of empires to the fall of kingdoms. Learn about key events, influential figures, and major discoveries that shaped the ancient world.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/patriot-day-emblems-or-logo-september-11-we-vector-18869046-885x885.jpg",
+        "order": "8"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "z-index": "1000",
+            "width": "100%",
+            "position": "relative",
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            "@media (max-width: 767px)": {
+              ".navbar-toggler": {
+                "transform": "scale(0.8)"
+              }
+            },
+            ".navbar-brand": {
+              "img": {
+                "max-width": "100%",
+                "max-height": "100%",
+                "border-radius": "0px !important"
+              },
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".navbar-nav": {
+              "margin": "auto",
+              "margin-left": "0",
+              "& when (@contentAlign = '2')": {
+                "margin-left": "auto"
+              },
+              "& when (@contentAlign = '3')": {
+                "margin-left": "auto",
+                "margin-right": "0"
+              },
+              ".nav-item": {
+                "padding": "0 !important",
+                "transition": ".3s all !important",
+                ".nav-link": {
+                  "padding": "16px !important",
+                  "margin": "0 !important",
+                  "border-radius": "1rem !important",
+                  "transition": ".3s all !important",
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  },
+                  "& when not (@isRoundedButtons)": {
+                    "border-radius": "4px !important"
+                  }
+                }
+              },
+              ".open": {
+                ".nav-link": {
+                  "&::after": {
+                    "transform": "rotate(180deg)"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&::before": {
+                      "content": "\"\"",
+                      "width": "100%",
+                      "height": "20px",
+                      "top": "100%",
+                      "background": "transparent",
+                      "position": "absolute"
+                    }
+                  }
+                }
+              },
+              ".dropdown-item": {
+                "padding": "12px !important",
+                "border-radius": "0.5rem !important",
+                "margin": "0 8px !important",
+                "transition": ".3s all !important",
+                "&:hover": {
+                  "background-color": "rgba(27, 31, 10, 0.06)"
+                },
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              "& when not (@showLogo), (@showBrand)": {
+                "@media (min-width: 992px)": {
+                  "padding-left": "1.5rem"
+                }
+              },
+              "& when not (@showBrand)": {
+                "@media (min-width: 992px)": {
+                  "padding-left": "1.5rem"
+                }
+              }
+            },
+            ".nav-link": {
+              "width": "fit-content",
+              "position": "relative"
+            },
+            ".navbar-logo": {
+              "padding-left": "2rem",
+              "margin": "0 !important",
+              "@media (max-width: 767px)": {
+                "padding-left": "1rem"
+              }
+            },
+            ".navbar-caption": {
+              "padding-left": "1rem",
+              "padding-right": ".5rem",
+              "& when not (@showLogo)": {
+                "@media (min-width: 767px)": {
+                  "padding-left": "2rem"
+                }
+              }
+            },
+            ".nav-dropdown": {
+              "@media (max-width: 767px)": {
+                "padding-bottom": "0.5rem"
+              }
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem",
+              "transition": ".3s all"
+            },
+            ".container": {
+              "display": "flex",
+              "height": "90px",
+              "padding": "0.5rem 0.6rem",
+              "flex-wrap": "nowrap",
+              "& when not (@collapsed)": {
+                "@media (min-width: 992px)": {},
+                "& when (@transparent)": {
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                }
+              },
+              "left": "0",
+              "right": "0",
+              "-webkit-box-pack": "justify",
+              "-ms-flex-pack": "justify",
+              "justify-content": "flex-end",
+              "-webkit-box-align": "center",
+              "-webkit-align-items": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "border-radius": "100vw",
+              "margin-top": "1rem",
+              "background-color": "@menuBgColor",
+              "box-shadow": "0 30px 60px 0 rgba(27, 31, 10, 0.08)",
+              "@media (max-width: 992px)": {
+                "padding-right": "2rem"
+              },
+              "@media (max-width: 767px)": {
+                "width": "95%",
+                "height": "56px !important",
+                "padding-right": "1rem",
+                "margin-top": "0rem"
+              },
+              "& when not (@isRoundedButtons)": {
+                "border-radius": "4px !important"
+              }
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".dropdown-menu": {
+              "flex-wrap": "wrap",
+              "flex-direction": "column",
+              "max-width": "100%",
+              "padding": "12px 4px !important",
+              "border-radius": "1.5rem",
+              "transition": ".3s all !important",
+              "min-width": "auto",
+              "background": "@menuBgColor",
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+              },
+              "& when not (@isRoundedButtons)": {
+                "border-radius": "4px !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "90px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "background": "transparent !important",
+              "&:not(.navbar-short)": {},
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "1",
+                "justify-content": "flex-end"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 767px)": {
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2rem !important"
+                  }
+                },
+                "min-height": "72px"
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {}
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "10px"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2rem"
+                  }
+                }
+              },
+              "padding": "0 !important",
+              "border": "none !important",
+              "box-shadow": "none !important",
+              "border-radius": "0 !important"
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "105%",
+                  "transform": "none",
+                  "top": "-12px"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "flex"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "140px",
+              "@media (max-width: 992px)": {
+                "text-align": "left"
+              }
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem"
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center",
+              "@media (max-width: 992px)": {
+                "justify-content": "flex-start",
+                "margin-bottom": ".5rem"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            },
+            ".navbar .dropdown > .dropdown-menu": {
+              "display": "none",
+              "width": "max-content",
+              "max-width": "500px !important",
+              "transform": "translateX(-50%)",
+              "top": "calc(~'100% + 20px')",
+              "left": "50%",
+              ".dropdown-item": {
+                "line-height": "1 !important"
+              },
+              ".dropdown": {
+                ".dropdown-item": {
+                  "align-items": "center",
+                  "display": "flex",
+                  "height": "max-content !important",
+                  "min-height": "max-content !important",
+                  "&::after": {
+                    "display": "inline-block",
+                    "position": "static",
+                    "margin-left": "0.5rem",
+                    "margin-top": "0",
+                    "margin-right": "0",
+                    "margin-bottom": "0",
+                    "transition": ".3s all",
+                    "transform": "rotate(-90deg)"
+                  }
+                }
+              },
+              ".dropdown.open": {
+                ".dropdown-item": {
+                  "&::after": {
+                    "transform": "rotate(0deg)"
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "margin": "-0.6rem -0.6rem"
+            },
+            ".navbar-toggler": {
+              "margin-left": "12px",
+              "margin-right": "8px",
+              "order": "1000"
+            },
+            "& when (@collapsed)": {
+              ".navbar-brand": {
+                "margin-right": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "-1 !important",
+                "position": "absolute",
+                "top": "110%",
+                "left": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "border-radius": "1.5rem",
+                "background": "@menuBgColor",
+                "& when (@transparent)": {
+                  "border-color": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important",
+                  "opacity": "1",
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                },
+                "backdrop-filter": "blur(8px)",
+                "@media (max-width: 575px)": {
+                  "padding": "1rem"
+                },
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              ".navbar-nav": {
+                ".nav-item": {
+                  ".nav-link": {
+                    "&::after": {
+                      "margin-left": "10px"
+                    }
+                  }
+                },
+                ".dropdown-item": {
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  }
+                }
+              },
+              ".navbar .dropdown > .dropdown-menu": {
+                "display": "none",
+                "max-width": "100% !important",
+                "transform": "translateX(0)",
+                "top": "10px",
+                "left": "0",
+                "padding": "8px !important",
+                "border-radius": "0.5rem",
+                "background-color": "rgba(27, 31, 10, 0.04) !important",
+                ".dropdown-item": {
+                  "padding": "8px !important",
+                  "line-height": "1 !important",
+                  "margin-bottom": "4px !important"
+                },
+                ".dropdown": {
+                  ".dropdown-item": {
+                    "align-items": "center",
+                    "display": "flex",
+                    "height": "max-content !important",
+                    "min-height": "max-content !important",
+                    "&::after": {
+                      "display": "inline-block",
+                      "position": "static",
+                      "margin-left": "0.5rem",
+                      "margin-top": "0",
+                      "margin-right": "0",
+                      "margin-bottom": "0",
+                      "transition": ".3s all",
+                      "transform": "rotate(0deg)"
+                    }
+                  }
+                },
+                ".dropdown.open": {
+                  ".dropdown-item": {
+                    "&::after": {
+                      "transform": "rotate(180deg)"
+                    }
+                  }
+                },
+                ".dropdown-submenu": {
+                  "position": "static",
+                  "width": "100%",
+                  "max-width": "100% !important",
+                  "transform": "translateX(0) !important",
+                  "top": "0",
+                  "left": "0",
+                  "padding": "8px !important",
+                  "border-radius": "0.5rem",
+                  "background-color": "rgba(27, 31, 10, 0.04) !important"
+                }
+              },
+              ".navbar .dropdown.open > .dropdown-menu": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              },
+              ".navbar .dropdown > .dropdown-submenu.show": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-brand": {
+                "margin-right": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "-1 !important",
+                "position": "absolute",
+                "top": "110%",
+                "left": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "border-radius": "1.5rem",
+                "background": "@menuBgColor",
+                "& when (@transparent)": {
+                  "opacity": "1",
+                  "border-color": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important",
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                },
+                "backdrop-filter": "blur(8px)",
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              ".navbar-nav": {
+                ".nav-item": {
+                  ".nav-link": {
+                    "&::after": {
+                      "margin-left": "10px"
+                    }
+                  }
+                },
+                ".dropdown-item": {
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  }
+                }
+              },
+              ".navbar .dropdown > .dropdown-menu": {
+                "max-width": "100% !important",
+                "transform": "translateX(0)",
+                "top": "10px",
+                "left": "0",
+                "padding": "8px !important",
+                "border-radius": "1rem",
+                "background-color": "rgba(27, 31, 10, 0.04) !important",
+                ".dropdown-item": {
+                  "padding": "8px !important",
+                  "line-height": "1 !important",
+                  "margin-bottom": "4px !important"
+                },
+                ".dropdown": {
+                  ".dropdown-item": {
+                    "align-items": "center",
+                    "display": "flex",
+                    "height": "max-content !important",
+                    "min-height": "max-content !important",
+                    "&::after": {
+                      "display": "inline-block",
+                      "position": "static",
+                      "margin-left": "0.5rem",
+                      "margin-top": "0",
+                      "margin-right": "0",
+                      "margin-bottom": "0",
+                      "transition": ".3s all",
+                      "transform": "rotate(0deg)"
+                    }
+                  }
+                },
+                ".dropdown.open": {
+                  ".dropdown-item": {
+                    "&::after": {
+                      "transform": "rotate(180deg)"
+                    }
+                  }
+                },
+                ".dropdown-submenu": {
+                  "position": "static",
+                  "width": "100%",
+                  "max-width": "100% !important",
+                  "transform": "translateX(0) !important",
+                  "top": "0",
+                  "left": "0",
+                  "padding": "8px !important",
+                  "border-radius": "1rem",
+                  "background-color": "rgba(27, 31, 10, 0.04) !important"
+                }
+              },
+              ".navbar .dropdown.open > .dropdown-menu": {
+                "display": "flex !important",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              }
+            },
+            ".navbar-collapse": {
+              "@media (max-width: 575px)": {
+                "padding": "1rem"
+              }
+            }
+          },
+          "_name": "menu01",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\t<mbr-parameters>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"3.5\" condition=\"showLogo\">\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n\t\t<select title=\"Menu Items Align\" name=\"contentAlign\" condition=\"showItems\">\n\t\t\t<option value=\"1\" selected>Left</option>\n\t\t\t<option value=\"2\">Center</option>\n\t\t\t<option value=\"3\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n\t\t<select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Styles</header>\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" condition=\"none\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n\t\t<input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"transparent\">\n\t\t<input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#dbd8fc\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"https://twidgrid.com/\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/twidgrid-96x96.png\" alt=\"TwidGrid\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black text-primary\" data-app-selector=\".navbar-caption\" href=\"https://twidgrid.com/\" data-app-placeholder=\"Type Text\">TwidGrid</a></span>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../movies\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">Movies</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-658\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/2020s-movies\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Movies</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/2020s-movies#2024-Movies\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Latest Movies</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/best-movies\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Best Movies</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/actors\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Actors<br></a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/best-actors\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Best Actors<br></a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/studios\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Movie Studios</a></div>\n\t\t\t\t\t</li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../tv\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">TV Shows</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-928\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/2020tvshows\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TV Shows</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/2020tvshows#2024-tvshows\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Latest TV Shows</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/tvshows\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Best TV Shows</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/franchises\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TV Show Franchises</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/streaming\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Streaming Platforms</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/networks\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TV Networks</a></div></li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">Music</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-436\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/songs\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Top Charted Songs</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/best-songs\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Best Songs</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/artists\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Music Artists</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/music-streaming\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Music Streaming</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/music-downloading\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Music Downloading</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/eurovision\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Eurovision Song Contest</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../sports\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">Sports</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-716\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/fifa-world-cup\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FIFA World Cup</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/uefa-euro\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">UEFA Euro<br></a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/champions\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">UEFA Champions League<br></a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/f1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Formula 1</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/nba\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">NBA</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/nfl\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">NFL</a></div>\n\t\t\t\t\t</li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../websites\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">Websites</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-985\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/top-websites\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Top Websites</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/categories\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Websites Categories</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/browsers\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Web Browsers</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/web-builders\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Website Builders</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/domains\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Domain Name Registrars</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/e-commerce\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">E-Commerce Platforms</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../timelines\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">Timelines</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-703\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/timelines/all-timelines.html#History-Timelines\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">History Timelines</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/timelines/all-timelines#People-Timelines\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">People Timelines</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/timelines/all-timelines#Technology-Timelines\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Technology Timelines</a></div></li></ul>\n\t\t\t\t<div class=\"icons-menu\" mbr-if=\"showIcons\">\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-phone mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-shopping-cart mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://twidgrid.com/search\" data-app-placeholder=\"Type Text\">Search</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "u8uKVyyee2",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu01-ie"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".mbr-text": {
+              "color": "#000000",
+              "text-align": "left",
+              "margin-bottom": "2em",
+              "@media (max-width: 992px)": {
+                "margin-bottom": "1.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".mbr-section-subtitle": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".content-head": {
+              "max-width": "800px"
+            },
+            ".mbr-card-subtitle": {
+              "color": "#000000",
+              "text-align": "left"
+            },
+            ".mbr-card-title": {
+              "text-align": "left",
+              "color": "#000000"
+            }
+          },
+          "_name": "timeline02",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"timeline02\" group=\"News\">\n  <mbr-parameters>\n    <header>Size</header>\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n    <input type=\"checkbox\" name=\"reverseContent\" title=\"Reverse\">\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n    <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"8\" value=\"8\" step=\"1\">\n    <header>Show/Hide</header>\n    <input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n    <input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\" checked>\n    <input type=\"checkbox\" title=\"Event\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Date\" name=\"showSubtitle\" checked>\n    <header>Background</header>\n    <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#9c98cf\">\n  </mbr-parameters>\n  <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n    <div class=\"row justify-content-center\">\n      <div class=\"col-12 mb-5 content-head\" mbr-if=\"showMainTitle || showMainSubtitle\">\n        <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>9/11 Attacks on the USA Timeline</b></h3>\n        <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">The September 11 attacks, commonly known as 9/11, were four coordinated Islamist suicide terrorist attacks carried out by Al-Qaeda against the United States on September 11, 2001. That morning, 19 terrorists hijacked four commercial airliners scheduled to travel from the East Coast to California. The hijackers crashed the first two planes into the Twin Towers of the World Trade Center in New York City, two of the world's five tallest buildings at the time, and aimed the next two flights toward targets in or near Washington, D.C., in an attack on the nation's capital. The third team succeeded in striking the Pentagon, the headquarters of the U.S. Department of Defense in Arlington County, Virginia, while the fourth plane crashed in rural Pennsylvania during a passenger revolt. The September 11 attacks killed 2,977 people, making them the deadliest terrorist attack in history, and instigated the multi-decade global war on terror, fought in Afghanistan, Iraq, and elsewhere.</h5>\n      </div>\n    </div>\n    \n    <div class=\"row justify-content-center item features-without-image active\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2023</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>September 13</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The Ronald O. Perelman Performing Arts Center opens at the World Trade Center.<br><br>The Perelman Performing Arts Center, branded as PAC NYC, is a multi-space performing arts center at the northeast corner of the World Trade Center complex in Manhattan, New York City. The Performing Arts Center is located at the intersection of Vesey, Fulton, and Greenwich Streets in Lower Manhattan. The building is named for billionaire Ronald Perelman, who donated $75 million to its construction.\n<br>\n<br>Plans for the Performing Arts Center were first announced by the Lower Manhattan Development Corporation (LMDC) in 2004 as part of the rebuilding of the World Trade Center site after the September 11 attacks. After a previous design was scrapped, Joshua Ramus and Davis Brody Bond were selected as architects in 2015. Below-ground construction began in August 2017, followed by the construction of the above-ground frame in 2020. The center, known during construction as the Ronald O. Perelman Performing Arts Center at the World Trade Center, opened on September 13, 2023. The Performing Arts Center includes approximately 90,000 square feet (8,400 m) across three floors.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/clad-in-translucent-marble-slabs-the-perelman-performing-arts-center-opens-in-new-yorks-ground-zero-3-1696x1131.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"1\" data-bs-slide-to=\"1\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2022</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>December 6</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">St. Nicholas Greek Orthodox Church is fully opened for regular services on December 6, 2022, the Feast of Saint Nicholas.<br><br>The St. Nicholas Greek Orthodox Church, officially the St. Nicholas Greek Orthodox Church and National Shrine, is a church and shrine in the World Trade Center in Lower Manhattan, New York City. It is administered by the Greek Orthodox Archdiocese of America and has been developed by the Port Authority of New York and New Jersey, based upon the design of Spanish architect Santiago Calatrava. The church was consecrated on July 4, 2022.\n<br>\n<br>St. Nicholas replaced the original church of the same name that was destroyed during the September 11 attacks in 2001—the only house of worship, and only building outside the original World Trade Center complex, to be completely destroyed. The new church is located in Liberty Park, overlooking the National September 11 Memorial &amp; Museum. Its architecture draws from Byzantine influences, namely the Church of the Savior and the Hagia Sophia in Istanbul, as well as from the Parthenon in Athens. In addition to serving as a Greek Orthodox parish, St. Nicholas is officially planned as a \"House of Prayer for all people\" that will function as a national shrine and community center, incorporating a secular bereavement space, social hall, and various educational and interfaith programs.\n<br>\n<br>Initially scheduled to open in 2016, St. Nicholas' rebuilding effort was beset by delays, cost overruns, and claims of financial impropriety. In 2019, the nonprofit Friends of St. Nicholas was founded to help complete the project, which continued under the auspices of the newly elected Archbishop Elpidophoros. The church was partially opened for a memorial service commemorating the 20th anniversary of the September 11 attacks. The church fully opened on December 6, 2022, the Feast of Saint Nicholas.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/st.-nicholas-greek-orthodox-church-195245115-1213x1024.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"1\" data-bs-slide-to=\"2\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2022</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>July 31</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The second emir of Al-Qaeda, Ayman al-Zawahiri, who helped plan the September 11 attacks, was killed in a drone strike at his home in Kabul, Afghanistan. President Biden would later announce al-Zawahiri's death in a statement the day after on August 1.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/biden-afghanistan-38458.jpg-8984a.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"2\" data-bs-slide-to=\"3\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2021</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>September 11</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Ceremonies are held across the United States and the world to commemorate the 20th anniversary of the attacks. President Joe Biden, First Lady Jill Biden, former presidents Bill Clinton and Barack Obama accompanied with their respective spouses, and several federal, state, local officials attend a remembrance ceremony at the National September 11 Memorial &amp; Museum in New York. Vice President Kamala Harris and former president George W. Bush speak at a memorial service held the Flight 93 National Memorial in Somerset County, Pennsylvania. Secretary of Defense Lloyd Austin and Chairman of the Joint Chiefs of Staff Mark Milley also preside over a memorial service at the Pentagon Memorial, which was held concurrently with the aforementioned events.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/486814c2a7c10b51cdaae330acf3eead.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"3\" data-bs-slide-to=\"4\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2021</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>September 10</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">After numerous delays, St. Nicholas Greek Orthodox Church is partially reopened and illuminated for an outdoor memorial service ahead of 20th anniversary commemorations the follow day.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/ap21254043750256.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"4\" data-bs-slide-to=\"5\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2020</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>December 18</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">After being repeatedly delayed because of the COVID-19 pandemic, a judge indefinitely postpones the U.S. vs. KLM trial.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/xpdvrj3qvrksbmiafystzpccva-1696x1138.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"5\" data-bs-slide-to=\"6\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2019</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>August 30</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The United States v. Khalid Sheikh Mohammed trial is scheduled for January 11, 2021.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/106046408-1564428493929ap-3030205294-1696x1130.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"6\" data-bs-slide-to=\"7\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2019</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>July 29</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">President Donald Trump signs the Never Forget the Heroes Act permanently authorizing the September 11th Victim Compensation Fund.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/donald-trump648.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"7\" data-bs-slide-to=\"8\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2018</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>September 8</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The WTC Cortlandt station destroyed in the attacks is reopened after reconstruction is completed.<br><br>The WTC Cortlandt station (signed as World Trade Center on walls and historically known as Cortlandt Street and Cortlandt Street–World Trade Center) is a station on the IRT Broadway–Seventh Avenue Line of the New York City Subway in Lower Manhattan. The station is located under the intersection of Greenwich Street and Cortlandt Way within the World Trade Center. It is served by the 1 train at all times.\n<br>\n<br>The original Cortlandt Street station was built by the Interborough Rapid Transit Company (IRT) and opened in 1918 as part of the Dual Contracts. The station was renovated in the 1960s when the original World Trade Center was built. Around that time, the portion of Cortlandt Street above the station was demolished to make way for the World Trade Center. The Cortlandt Street station was destroyed in the September 11, 2001 attacks. Although service on the Broadway–Seventh Avenue Line through the area was restored in September 2002, the station's reconstruction was delayed until 2015 because the Port Authority of New York and New Jersey had to first rebuild the World Trade Center PATH station beneath it. After an extensive reconstruction, the Cortlandt Street station reopened on September 8, 2018, as WTC Cortlandt.\n<br>\n<br>The station contains connections to PATH at the World Trade Center station, as well as an out-of-system passageway to the Chambers Street–World Trade Center/Park Place/Cortlandt Street and Fulton Street subway complexes via the World Trade Center Transportation Hub.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/1280px-wtccortlandtsubwayplatformsreopeningdaywideshot-1280x960.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"8\" data-bs-slide-to=\"9\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2018</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>June 11</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The new 3 World Trade Center opens.<br><br>3 World Trade Center (3 WTC; also known as 175 Greenwich Street) is a skyscraper constructed as part of the new World Trade Center in Lower Manhattan, New York City. The tower is located on Greenwich Street along the eastern side of the World Trade Center site. The building was designed by Rogers Stirk Harbour + Partners, and is managed by Silverstein Properties through a ground lease with the Port Authority of New York and New Jersey (PANYNJ), the landowner. It is 1,079 ft (329 m) high, with 80 stories. As of 2023, it is the ninth-tallest building in the city.\n<br>\n<br>The current edifice is the second on the World Trade Center site to bear the address 3 World Trade Center. The original building was the Marriott World Trade Center, a 22-story, 825-room hotel located in the southwest corner of the World Trade Center complex. Opened in July 1981 as the Vista International Hotel, it was destroyed during the September 11 attacks in 2001, along with the rest of the World Trade Center.\n<br>\n<br>The current 3 World Trade Center was planned as a skyscraper measuring 1,240 feet (378 m) tall. The building's groundbreaking took place in January 2008, but only the lower stories were built because the skyscraper lacked an anchor tenant. Construction resumed in 2014 after advertising company GroupM was signed on as anchor tenant. The building's concrete core was topped out during August 2016, with the perimeter steel structure following on October 6, 2016. The building opened on June 11, 2018.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/world-trade-center-january-2019-edited-1573x3799.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"9\" data-bs-slide-to=\"10\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2016</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>September 28</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Congress passes the Justice Against Sponsors of Terrorism Act, overturning President Barack Obama's veto for the only time in his presidency, allowing victims of the September 11 attacks to sue the Government of Saudi Arabia for the attacks.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/congress-saudi-arabia-horo2-1024x576.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"10\" data-bs-slide-to=\"11\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2016</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>September 11</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Ceremonies are held across the United States and the world to mark the 15th anniversary of the attacks, including a vigil at the World Trade Center site attended by both major candidates of the 2016 United States presidential election, Donald Trump and Hillary Rodham Clinton.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/ap-trump-wtc-ac-160911-16x9-992-992x558.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"11\" data-bs-slide-to=\"12\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2016</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>July 15</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The U.S. federal government declassifies the redacted \"28 pages\" of the Joint Inquiry into Intelligence Community Activities before and after the Terrorist Attacks of September 11, 2001 revealing that al-Qaeda was assisted by individuals affiliated with the Saudi government.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/gettyimages-51720075-crop.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"12\" data-bs-slide-to=\"13\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2016</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>June 29</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Liberty Park opens at the World Trade Center site.<br><br>Liberty Park is a one-acre (0.40 ha) elevated public park at the World Trade Center in Manhattan, New York City, overlooking the National September 11 Memorial &amp; Museum in Lower Manhattan. The park, which opened on June 29, 2016, is located above the World Trade Center's Vehicular Security Center. The St. Nicholas National Shrine is located within the park, as well as Fritz Koenig's The Sphere, the iconic sculpture salvaged from the World Trade Center site. Another statue, America's Response Monument, is also located in the park.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/liberty-park-sep-2018-18-1280x960.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"13\" data-bs-slide-to=\"14\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2016</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>March 3</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The World Trade Center Transportation Hub opens.<br><br>World Trade Center station is a terminal station on the PATH system, within the World Trade Center complex in the Financial District of Manhattan, New York City. It is served by the Newark–World Trade Center line at all times, as well as by the Hoboken–World Trade Center line on weekdays, and is the eastern terminus of both.\n<br>\n<br>The World Trade Center station is near the site of the Hudson and Manhattan Railroad's (H&amp;M) Hudson Terminal, which opened in 1909. The Port Authority of New York and New Jersey bought the bankrupt H&amp;M system in 1961, rebranded it as PATH, and redeveloped Hudson Terminal as part of the World Trade Center. The World Trade Center station opened on July 6, 1971, as a replacement for Hudson Terminal, which was closed and demolished as part of the construction of the World Trade Center. Following the September 11, 2001 attacks, a temporary PATH station opened in 2003 while the World Trade Center complex was being rebuilt. Work on a permanent station building commenced in 2008. The main station house, the Oculus, opened on March 3, 2016, and the terminal was renamed the World Trade Center Transportation Hub, or \"World Trade Center\" for short.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/oculus-world-trade-center-august-18-2016-1280x853.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"14\" data-bs-slide-to=\"15\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2014</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>December 4</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The U.S. Supreme Court rejects Cedar &amp; Washington's appeal in its lawsuit.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/gettyimages-1496255592-wide-5accb6b86ae2f6c553867c422a9cc327152c2776-s1400-c100-1400x787.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"15\" data-bs-slide-to=\"16\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2014</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>November 3</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">One World Trade Center formally opens to new tenants with Condé Nast moving in.<br><br>One World Trade Center, also known as One World Trade, One WTC, and formerly called the Freedom Tower during initial planning stages, is the main building of the rebuilt World Trade Center complex in Lower Manhattan, New York City. Designed by David Childs of Skidmore, Owings &amp; Merrill, One World Trade Center is the tallest building in the United States, the tallest building in the Western Hemisphere, and the seventh-tallest in the world. The supertall structure has the same name as the North Tower of the original World Trade Center, which was destroyed in the terrorist attacks of September 11, 2001. The new skyscraper stands on the northwest corner of the 16-acre (6.5 ha) World Trade Center site, on the site of the original 6 World Trade Center. It is bounded by West Street to the west, Vesey Street to the north, Fulton Street to the south, and Washington Street to the east.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/one-world-trade-center.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"16\" data-bs-slide-to=\"17\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2014</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>May 15</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The museum at the National September 11 Memorial at the World Trade Center site, which includes a repository for unidentified remains from the attacks, is inaugurated during a private ceremony with victims' families and friends. The facility is opened to the public six days later.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/national-september-11-memorial-museum-by-snohetta-opens-in-new-york-dezeen-784-1-784x560.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"17\" data-bs-slide-to=\"18\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2014</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>May 2</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The U.S. Court of Appeals for the Second Circuit rules in a lawsuit from Cedar &amp; Washington Associates that American Airlines Group Inc., United Continental Holdings, the Port Authority of New York &amp; New Jersey, and Larry Silverstein are exempt from having to pay for environmental damage from 9/11 under the Comprehensive Environmental Response, Compensation, and Liability Act of 1980 since the attacks were an act of war.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/court-type-federal-2ndcircuit-1200x1200.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"18\" data-bs-slide-to=\"19\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2013</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>November 13</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The new 4 World Trade Center opens.<br><br>4 World Trade Center (4 WTC; also known as 150 Greenwich Street) is a skyscraper constructed as part of the new World Trade Center in Lower Manhattan, New York City. The tower is located on Greenwich Street at the southeastern corner of the World Trade Center site. Fumihiko Maki designed the 978 ft-tall (298 m) building. It houses the headquarters of the Port Authority of New York and New Jersey (PANYNJ).\n<br>\n<br>The current 4 World Trade Center is the second building at the site to bear this address. The original building was a nine-story structure at the southeast corner of the World Trade Center complex. It was destroyed during the September 11 attacks in 2001, along with the rest of the World Trade Center. The current building's groundbreaking took place in January 2008, and it opened to tenants and the public on November 13, 2013. The building has 2.3 million square feet (210,000 m) of space.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/a626-4-world-trade-center-with-reflection-of-one-world-trade-center-manhattan-july-2019-1200x1776.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"19\" data-bs-slide-to=\"20\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2013</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>May 10</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Construction of the new One World Trade Center is completed with the installation of the spire at 1,776 feet, making it the tallest building in both the United States and the Western Hemisphere.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/20130510-20130511-a19-nd11wtcp1-526x349.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"20\" data-bs-slide-to=\"21\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2013</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>May 10</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Construction of the new One World Trade Center is completed with the installation of the spire at 1,776 feet, making it the tallest building in both the United States and the Western Hemisphere.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/spire-horiz-wide-ce26658a9219f95b36520e5873ade3fcb2a547fa-1696x955.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"21\" data-bs-slide-to=\"22\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2012</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>December 19</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">The Journal of the American Medical Association publishes an article indicating an increased risk of cancer from exposure to the 9/11 attacks.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/180426-firefighter-world-trade-center-911-mn-1355-1500x1118.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"22\" data-bs-slide-to=\"23\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2012</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>August 30</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Construction of 1 World Trade Center's main structure tops out at 104 floors.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/main-1200-1200x767.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"23\" data-bs-slide-to=\"24\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2012</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>May 5</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Khalid Sheikh Mohammed and five other alleged conspirators of the September 11 attacks are arraigned by a U.S. military court presided by Colonel James L. Pohl.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/afp-514686882-16.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"24\" data-bs-slide-to=\"25\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2011</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>September 11</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Ceremonies are held across the United States and the world to mark the tenth anniversary of the attacks. The National September 11 Memorial at the World Trade Center site is dedicated in a ceremony attended by President Obama, former President Bush, their respective First Ladies, and several federal, state, and local government officials. One day earlier, the Flight 93 National Memorial in Shanksville, Pennsylvania was inaugurated in a ceremony attended by Vice President Joe Biden.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/p091111sa-161-1696x1131.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"25\" data-bs-slide-to=\"26\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2011</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>May 2</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Osama bin Laden, the founder of the terrorist organization al-Qaeda who was responsible for the September 11 attacks, was killed by U.S. Navy SEALs in Abbottabad, Pakistan. The death of bin Laden was announced by the President of the United States Barack Obama in a nationwide address.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/al-qaeda-leader-osama-bin-laden-35536667-16x9.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"26\" data-bs-slide-to=\"27\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2011</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>April 5</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">Attorney General Holder transfers the KSM trial back to military jurisdiction.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/eyjidwnrzxqioijwawn0dxjlcy5jlxnwyw52awrlby5vcmcilcjrzxkioijgawxlc1wvzjnlxc8yotawodqtmtaxlw0uanbniiwizwrpdhmionsicmvzaxplijp7imzpdci6imnvdmvyiiwiagvpz2h0ijo1mdz9fx0.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"27\" data-bs-slide-to=\"28\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2011</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>January 2</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">President Barack Obama signs the James Zadroga 9/11 Health and Compensation Act creating the World Trade Center Health Program for 9/11 victims.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/5316959019-f1fdb53b26-b-1024x683.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"28\" data-bs-slide-to=\"29\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2010</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>June 23</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">District Judge Alvin Hellerstein approves a $700 million settlement between the World Trade Center Captive Insurance Company and 95 percent of plaintiffs for reimbursement of 9/11 first responders exposed to toxic dust at Ground Zero.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/g-usn-100319-groundzero-237p.webp\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"29\" data-bs-slide-to=\"30\">\n        </div>\n      </div>\n\n    </div><div class=\"row justify-content-center item features-without-image\">\n      <div class=\"col-12 col-lg\">\n        <p class=\"mbr-card-subtitle mbr-fonts-style mt-0 mb-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-card-subtitle\" mbr-theme-style=\"display-7\">\n          2009</p>\n        <h5 class=\"mbr-card-title mbr-fonts-style mt-0 mb-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-card-title\" mbr-theme-style=\"display-5\"><b>November 13</b></h5>\n        <p class=\"mbr-text mbr-fonts-style mt-0\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-4\">U.S. Attorney General Eric Holder announces that Khalid Sheikh Mohammed's trial will be transferred from a military commission to the civilian U.S. District Court for the Southern District of New York.<br></p>\n      </div>\n      <div class=\"col-md-12 col-lg-{{textWidth}} item-wrapper \">\n        <div class=\"image-wrapper mb-5\">\n          <img src=\"@PROJECT_PATH@/assets/images/aterrortrials-p1-894x600.jpg\" alt=\"9/11 Attacks on the USA Timeline\" data-slide-to=\"30\" data-bs-slide-to=\"31\">\n        </div>\n      </div>\n\n    </div>\n  </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "timeline02-ih",
+          "_isUserblock": true,
+          "_cid": "u8uOa2EndD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = \"video\")": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".copyright": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".center": {
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "center"
+            },
+            ".row": {
+              "@media (max-width: 991px)": {
+                "flex-direction": "column-reverse !important",
+                ".copyright": {
+                  "margin": "1rem 0 0 0"
+                }
+              }
+            },
+            ".row-links": {
+              "width": "100%",
+              "justify-content": "center",
+              ".row-links-soc": {
+                "list-style": "none",
+                "display": "flex",
+                "justify-content": "right",
+                "@media (max-width: 991px)": {
+                  "justify-content": "center"
+                },
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 0rem 1rem",
+                  "@media (max-width: 767px)": {
+                    "padding": "0 1rem 1rem 1rem"
+                  },
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".copyright": {
+                "text-align": "center"
+              }
+            },
+            "row-links-soc-item": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "footer02",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"showLinks\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopy\" checked>\n        <input type=\"checkbox\" title=\"Links\" name=\"showLinks\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#393193\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback\n          Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6 center mt-2 mb-3\">\n                <p class=\"mbr-fonts-style copyright mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".copyright\" mbr-if=\"showCopy\">\n                    © Copyright 2024 TwidGrid - All Rights Reserved\n                </p>\n            </div>\n            <div class=\"col-12 col-lg-6 center\" mbr-if=\"menuItems > 0 &amp;&amp; showLinks\">\n                <div class=\"row-links mt-2 mb-3\">\n                    <ul class=\"row-links-soc\" mbr-list mbr-list-grow=\"menuItems\">\n                        <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"https://twidgrid.com/contact\" class=\"text-white text-primary\">Contact Us</a></li>\n                        \n                        \n                        \n                    </ul>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "u8uKVDUDgB",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer02-ig"
         }
       ]
     }
