@@ -1,6 +1,13 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Dead Boy Detectives	", "text": "	TV Show Released 2024 (1 Season)	", "img": "../tv/assets/images/	deadboydetectives2024.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt15358446/	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2020tvshows#2024-tvshows	"},
+
+     {"title": "	Abigail	", "text": "	Movie Released 2024 April 19	", "img": "../movies/assets/images/	abigail2024.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt27489557	'target='_blank'><img src='../movies/assets/images/imdb.png'></a>	", "url": "	../movies/2020s-movies#	2024	-Movies"},
+{"title": "	Cuckoo	", "text": "	Movie Released 2024 August 9	", "img": "../movies/assets/images/	cuckoo2024.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt12349832	'target='_blank'><img src='../movies/assets/images/imdb.png'></a>	", "url": "	../movies/2020s-movies#	2024	-Movies"},
+{"title": "	Janet Planet	", "text": "	Movie Released 2024 June 21	", "img": "../movies/assets/images/	janetplanet2024.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt28366692	'target='_blank'><img src='../movies/assets/images/imdb.png'></a>	", "url": "	../movies/2020s-movies#	2024	-Movies"},
+{"title": "	Babes	", "text": "	Movie Released 2024 May 17	", "img": "../movies/assets/images/	babes2024.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt21276958/	'target='_blank'><img src='../movies/assets/images/imdb.png'></a>	", "url": "	../movies/2020s-movies#	2024	-Movies"},
+
      {"title": "	The Maze Runner	", "text": "	Movie Released 2014 September 19	", "img": "../movies/assets/images/	themazerunner2014.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt1790864/	'target='_blank'><img src='../movies/assets/images/imdb.png'></a>	", "url": "	../movies/2010s-movies#	2014	-Movies"},
 
      {"title": "	The Asunta Case	", "text": "	TV Show Released 2024 (Mini Series)	", "img": "../tv/assets/images/	theasuntacase2024.webp	", "tags": "	El caso Asunta	", "note": "<a href='	https://www.imdb.com/title/tt27788849	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2020tvshows#2024-tvshows	"},
