@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "TwidGrid - Sports",
-    "currentPage": "fifa-world-cup.html",
+    "currentPage": "nhl.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -60,7 +60,7 @@
     "witsec-white-label": true,
     "witsec-search": false,
     "witsec-mailform": false,
-    "uniqCompNum": 637,
+    "uniqCompNum": 642,
     "versionPublish": "5.9.17",
     "screenshot": "screenshot.png",
     "google-analytics": "<script src=\"https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js\"></script>\n    <link rel=\"stylesheet\" href=\"https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css\">\n\n<style type=\"text/css\">\n::-webkit-scrollbar {\n  width: 15px;\n  height: 15px;\n}\n::-webkit-scrollbar-button {\n  width: 0px;\n  height: 0px;\n}\n::-webkit-scrollbar-thumb {\n  background: #9c98cf;\n  border: 0px none #ffffff;\n  border-radius: 0px;\n}\n::-webkit-scrollbar-thumb:hover {\n  background: #dbd8fc;\n}\n::-webkit-scrollbar-thumb:active {\n  background: #9c98cf;\n}\n::-webkit-scrollbar-track {\n  background: #393193;\n  border: 0px none #ffffff;\n  border-radius: 0px;\n}\n::-webkit-scrollbar-track:hover {\n  background: #260a30;\n}\n::-webkit-scrollbar-track:active {\n  background: #393193;\n}\n::-webkit-scrollbar-corner {\n  background: transparent;\n}\n\n.pace {\n\t-webkit-pointer-events: none;\n\tpointer-events: none;\n\n\t-webkit-user-select: none;\n\t-moz-user-select: none;\n\tuser-select: none;\n}\n\n.pace-inactive {\n\tdisplay: none;\n}\n\n.pace .pace-progress {\n\tbackground: #393193;\n\tposition: fixed;\n\tz-index: 2000;\n\ttop: 0;\n\tright: 100%;\n\twidth: 100%;\n\theight: 2px;\n}\n</style>"
@@ -1041,7 +1041,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/still-life-colombia-national-soccer-team_23-2149728328-740x1110.jpg",
-        "order": "35"
+        "order": "3"
       },
       "components": [
         {
@@ -2065,7 +2065,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/flat-lay-football-with-copy-space_23-2148796956-1380x920.jpg",
-        "order": "33"
+        "order": "1"
       },
       "components": [
         {
@@ -3139,7 +3139,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/front-view-footballs-bouncing-around_23-2148803997-996x730.jpg",
-        "order": "34"
+        "order": "2"
       },
       "components": [
         {
@@ -4215,7 +4215,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/pink-race-car-with-number-01-side_889227-7807-626x417.jpg",
-        "order": "36"
+        "order": "4"
       },
       "components": [
         {
@@ -5291,7 +5291,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/top-view-basketball-with-copy-space_23-2148796951-1380x920.jpg",
-        "order": "37"
+        "order": "5"
       },
       "components": [
         {
@@ -6377,7 +6377,7 @@
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/playing-american-football-rugby-ball-red-blue-background-3d-render_407474-4654-626x417.jpg",
-        "order": "38"
+        "order": "6"
       },
       "components": [
         {
@@ -7448,6 +7448,1095 @@
           "_isUserblock": true,
           "_cid": "u450q4t6zJ",
           "_anchor": "footer02-c9",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "nhl.html": {
+      "settings": {
+        "title": "NHL | TwidGrid",
+        "meta_descr": "Relive the glory! Explore a complete history of NHL champions. Find every Stanley Cup winner, year by year, with team details and iconic moments.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/hockey-player-with-equipment-pink_155003-43872-740x805.jpg",
+        "order": "7"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "z-index": "1000",
+            "width": "100%",
+            "position": "relative",
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "\"\\e966\"",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            "@media (max-width: 767px)": {
+              ".navbar-toggler": {
+                "transform": "scale(0.8)"
+              }
+            },
+            ".navbar-brand": {
+              "img": {
+                "max-width": "100%",
+                "max-height": "100%",
+                "border-radius": "0px !important"
+              },
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "10px 0",
+              "transition": "all 0.3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".navbar-nav": {
+              "margin": "auto",
+              "margin-left": "0",
+              "& when (@contentAlign = '2')": {
+                "margin-left": "auto"
+              },
+              "& when (@contentAlign = '3')": {
+                "margin-left": "auto",
+                "margin-right": "0"
+              },
+              ".nav-item": {
+                "padding": "0 !important",
+                "transition": ".3s all !important",
+                ".nav-link": {
+                  "padding": "16px !important",
+                  "margin": "0 !important",
+                  "border-radius": "1rem !important",
+                  "transition": ".3s all !important",
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  },
+                  "& when not (@isRoundedButtons)": {
+                    "border-radius": "4px !important"
+                  }
+                }
+              },
+              ".open": {
+                ".nav-link": {
+                  "&::after": {
+                    "transform": "rotate(180deg)"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&::before": {
+                      "content": "\"\"",
+                      "width": "100%",
+                      "height": "20px",
+                      "top": "100%",
+                      "background": "transparent",
+                      "position": "absolute"
+                    }
+                  }
+                }
+              },
+              ".dropdown-item": {
+                "padding": "12px !important",
+                "border-radius": "0.5rem !important",
+                "margin": "0 8px !important",
+                "transition": ".3s all !important",
+                "&:hover": {
+                  "background-color": "rgba(27, 31, 10, 0.06)"
+                },
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              "& when not (@showLogo), (@showBrand)": {
+                "@media (min-width: 992px)": {
+                  "padding-left": "1.5rem"
+                }
+              },
+              "& when not (@showBrand)": {
+                "@media (min-width: 992px)": {
+                  "padding-left": "1.5rem"
+                }
+              }
+            },
+            ".nav-link": {
+              "width": "fit-content",
+              "position": "relative"
+            },
+            ".navbar-logo": {
+              "padding-left": "2rem",
+              "margin": "0 !important",
+              "@media (max-width: 767px)": {
+                "padding-left": "1rem"
+              }
+            },
+            ".navbar-caption": {
+              "padding-left": "1rem",
+              "padding-right": ".5rem",
+              "& when not (@showLogo)": {
+                "@media (min-width: 767px)": {
+                  "padding-left": "2rem"
+                }
+              }
+            },
+            ".nav-dropdown": {
+              "@media (max-width: 767px)": {
+                "padding-bottom": "0.5rem"
+              }
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem",
+              "transition": ".3s all"
+            },
+            ".container": {
+              "display": "flex",
+              "height": "90px",
+              "padding": "0.5rem 0.6rem",
+              "flex-wrap": "nowrap",
+              "& when not (@collapsed)": {
+                "@media (min-width: 992px)": {},
+                "& when (@transparent)": {
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                }
+              },
+              "left": "0",
+              "right": "0",
+              "-webkit-box-pack": "justify",
+              "-ms-flex-pack": "justify",
+              "justify-content": "flex-end",
+              "-webkit-box-align": "center",
+              "-webkit-align-items": "center",
+              "-ms-flex-align": "center",
+              "align-items": "center",
+              "border-radius": "100vw",
+              "margin-top": "1rem",
+              "background-color": "@menuBgColor",
+              "box-shadow": "0 30px 60px 0 rgba(27, 31, 10, 0.08)",
+              "@media (max-width: 992px)": {
+                "padding-right": "2rem"
+              },
+              "@media (max-width: 767px)": {
+                "width": "95%",
+                "height": "56px !important",
+                "padding-right": "1rem",
+                "margin-top": "0rem"
+              },
+              "& when not (@isRoundedButtons)": {
+                "border-radius": "4px !important"
+              }
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": "0.5rem"
+            },
+            ".dropdown-menu": {
+              "flex-wrap": "wrap",
+              "flex-direction": "column",
+              "max-width": "100%",
+              "padding": "12px 4px !important",
+              "border-radius": "1.5rem",
+              "transition": ".3s all !important",
+              "min-width": "auto",
+              "background": "@menuBgColor",
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+              },
+              "& when not (@isRoundedButtons)": {
+                "border-radius": "4px !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-right": "0.5rem",
+                "vertical-align": "sub",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "90px",
+              "transition": "all 0.3s",
+              "border-bottom": "1px solid transparent",
+              "background": "transparent !important",
+              "&:not(.navbar-short)": {},
+              "&.opened": {
+                "transition": "all 0.3s"
+              },
+              ".dropdown-item": {
+                "padding": "0.5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "1",
+                "justify-content": "flex-end"
+              },
+              "&.collapsed": {
+                "justify-content": "center",
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "41%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "@media (max-width: 767px)": {
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2rem !important"
+                  }
+                },
+                "min-height": "72px"
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "40%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {}
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": "0.25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "10px"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0.5rem",
+                  "padding-bottom": "0.5rem"
+                }
+              },
+              "&.navbar-short": {
+                ".navbar-logo": {
+                  "img": {
+                    "height": "2rem"
+                  }
+                }
+              },
+              "padding": "0 !important",
+              "border": "none !important",
+              "box-shadow": "none !important",
+              "border-radius": "0 !important"
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "105%",
+                  "transform": "none",
+                  "top": "-12px"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "flex"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "140px",
+              "@media (max-width: 992px)": {
+                "text-align": "left"
+              }
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all 0.2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all 0.2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all 0.15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all 0.2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all 0.25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all 0.2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": "0 1rem"
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "padding-top": "0.3rem",
+              "text-align": "center",
+              "@media (max-width: 992px)": {
+                "justify-content": "flex-start",
+                "margin-bottom": ".5rem"
+              }
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "70px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~\"+\" 2rem)",
+                "left": "-1rem"
+              }
+            },
+            ".navbar .dropdown > .dropdown-menu": {
+              "display": "none",
+              "width": "max-content",
+              "max-width": "500px !important",
+              "transform": "translateX(-50%)",
+              "top": "calc(~'100% + 20px')",
+              "left": "50%",
+              ".dropdown-item": {
+                "line-height": "1 !important"
+              },
+              ".dropdown": {
+                ".dropdown-item": {
+                  "align-items": "center",
+                  "display": "flex",
+                  "height": "max-content !important",
+                  "min-height": "max-content !important",
+                  "&::after": {
+                    "display": "inline-block",
+                    "position": "static",
+                    "margin-left": "0.5rem",
+                    "margin-top": "0",
+                    "margin-right": "0",
+                    "margin-bottom": "0",
+                    "transition": ".3s all",
+                    "transform": "rotate(-90deg)"
+                  }
+                }
+              },
+              ".dropdown.open": {
+                ".dropdown-item": {
+                  "&::after": {
+                    "transform": "rotate(0deg)"
+                  }
+                }
+              }
+            },
+            ".mbr-section-btn": {
+              "margin": "-0.6rem -0.6rem"
+            },
+            ".navbar-toggler": {
+              "margin-left": "12px",
+              "margin-right": "8px",
+              "order": "1000"
+            },
+            "& when (@collapsed)": {
+              ".navbar-brand": {
+                "margin-right": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "-1 !important",
+                "position": "absolute",
+                "top": "110%",
+                "left": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "border-radius": "1.5rem",
+                "background": "@menuBgColor",
+                "& when (@transparent)": {
+                  "border-color": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important",
+                  "opacity": "1",
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                },
+                "backdrop-filter": "blur(8px)",
+                "@media (max-width: 575px)": {
+                  "padding": "1rem"
+                },
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              ".navbar-nav": {
+                ".nav-item": {
+                  ".nav-link": {
+                    "&::after": {
+                      "margin-left": "10px"
+                    }
+                  }
+                },
+                ".dropdown-item": {
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  }
+                }
+              },
+              ".navbar .dropdown > .dropdown-menu": {
+                "display": "none",
+                "max-width": "100% !important",
+                "transform": "translateX(0)",
+                "top": "10px",
+                "left": "0",
+                "padding": "8px !important",
+                "border-radius": "0.5rem",
+                "background-color": "rgba(27, 31, 10, 0.04) !important",
+                ".dropdown-item": {
+                  "padding": "8px !important",
+                  "line-height": "1 !important",
+                  "margin-bottom": "4px !important"
+                },
+                ".dropdown": {
+                  ".dropdown-item": {
+                    "align-items": "center",
+                    "display": "flex",
+                    "height": "max-content !important",
+                    "min-height": "max-content !important",
+                    "&::after": {
+                      "display": "inline-block",
+                      "position": "static",
+                      "margin-left": "0.5rem",
+                      "margin-top": "0",
+                      "margin-right": "0",
+                      "margin-bottom": "0",
+                      "transition": ".3s all",
+                      "transform": "rotate(0deg)"
+                    }
+                  }
+                },
+                ".dropdown.open": {
+                  ".dropdown-item": {
+                    "&::after": {
+                      "transform": "rotate(180deg)"
+                    }
+                  }
+                },
+                ".dropdown-submenu": {
+                  "position": "static",
+                  "width": "100%",
+                  "max-width": "100% !important",
+                  "transform": "translateX(0) !important",
+                  "top": "0",
+                  "left": "0",
+                  "padding": "8px !important",
+                  "border-radius": "0.5rem",
+                  "background-color": "rgba(27, 31, 10, 0.04) !important"
+                }
+              },
+              ".navbar .dropdown.open > .dropdown-menu": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              },
+              ".navbar .dropdown > .dropdown-submenu.show": {
+                "display": "flex",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-brand": {
+                "margin-right": "auto"
+              },
+              ".navbar-collapse": {
+                "z-index": "-1 !important",
+                "position": "absolute",
+                "top": "110%",
+                "left": "0",
+                "width": "100%",
+                "padding": "1rem",
+                "border-radius": "1.5rem",
+                "background": "@menuBgColor",
+                "& when (@transparent)": {
+                  "opacity": "1",
+                  "border-color": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important",
+                  "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity) !important"
+                },
+                "backdrop-filter": "blur(8px)",
+                "& when not (@isRoundedButtons)": {
+                  "border-radius": "4px !important"
+                }
+              },
+              ".navbar-nav": {
+                ".nav-item": {
+                  ".nav-link": {
+                    "&::after": {
+                      "margin-left": "10px"
+                    }
+                  }
+                },
+                ".dropdown-item": {
+                  "&:hover": {
+                    "background-color": "rgba(27, 31, 10, 0.06)"
+                  }
+                }
+              },
+              ".navbar .dropdown > .dropdown-menu": {
+                "max-width": "100% !important",
+                "transform": "translateX(0)",
+                "top": "10px",
+                "left": "0",
+                "padding": "8px !important",
+                "border-radius": "1rem",
+                "background-color": "rgba(27, 31, 10, 0.04) !important",
+                ".dropdown-item": {
+                  "padding": "8px !important",
+                  "line-height": "1 !important",
+                  "margin-bottom": "4px !important"
+                },
+                ".dropdown": {
+                  ".dropdown-item": {
+                    "align-items": "center",
+                    "display": "flex",
+                    "height": "max-content !important",
+                    "min-height": "max-content !important",
+                    "&::after": {
+                      "display": "inline-block",
+                      "position": "static",
+                      "margin-left": "0.5rem",
+                      "margin-top": "0",
+                      "margin-right": "0",
+                      "margin-bottom": "0",
+                      "transition": ".3s all",
+                      "transform": "rotate(0deg)"
+                    }
+                  }
+                },
+                ".dropdown.open": {
+                  ".dropdown-item": {
+                    "&::after": {
+                      "transform": "rotate(180deg)"
+                    }
+                  }
+                },
+                ".dropdown-submenu": {
+                  "position": "static",
+                  "width": "100%",
+                  "max-width": "100% !important",
+                  "transform": "translateX(0) !important",
+                  "top": "0",
+                  "left": "0",
+                  "padding": "8px !important",
+                  "border-radius": "1rem",
+                  "background-color": "rgba(27, 31, 10, 0.04) !important"
+                }
+              },
+              ".navbar .dropdown.open > .dropdown-menu": {
+                "display": "flex !important",
+                "flex-direction": "column",
+                "align-items": "flex-start"
+              }
+            },
+            ".navbar-collapse": {
+              "@media (max-width: 575px)": {
+                "padding": "1rem"
+              }
+            }
+          },
+          "_name": "menu01",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu menu1\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\t<mbr-parameters>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n\t\t<input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"3.5\" condition=\"showLogo\">\n\t\t<input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\" checked>\n\t\t<input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n\t\t<select title=\"Menu Items Align\" name=\"contentAlign\" condition=\"showItems\">\n\t\t\t<option value=\"1\" selected>Left</option>\n\t\t\t<option value=\"2\">Center</option>\n\t\t\t<option value=\"3\">Right</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Icons\" name=\"showIcons\">\n\t\t<select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\" selected>3</option>\n\t\t\t<option value=\"4\">4</option>\n\t\t</select>\n\t\t<input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n\t\t<input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n\t\t<header>Styles</header>\n\t\t<input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\" condition=\"none\">\n\t\t<input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n\t\t<input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n\t\t<input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"transparent\">\n\t\t<input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#dbd8fc\">\n\t\t<input type=\"color\" title=\"Hamburger\" name=\"hamburgerColor\" value=\"#000000\">\n\t</mbr-parameters>\n\n\t<nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"navbar-brand\">\n\t\t\t\t<span mbr-if=\"showLogo\" class=\"navbar-logo\">\n\t\t\t\t\t<a href=\"https://twidgrid.com/\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/twidgrid-96x96.png\" alt=\"TwidGrid\" mbr-style=\"{'height': logoSize + 'rem'}\">\n\t\t\t\t\t</a>\n\t\t\t\t</span>\n\t\t\t\t<span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-iconFont\"><a class=\"navbar-caption text-black text-primary\" data-app-selector=\".navbar-caption\" href=\"https://twidgrid.com/\" data-app-placeholder=\"Type Text\">TwidGrid</a></span>\n\t\t\t</div>\n\t\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<div class=\"hamburger\">\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t\t<span></span>\n\t\t\t\t</div>\n\t\t\t</button>\n\t\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\" mbr-if=\"showItems || showIcons || showButtons\">\n\t\t\t\t<ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-if=\"showItems\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../movies\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">Movies</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-658\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/2020s-movies\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Movies</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/2020s-movies#2024-Movies\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Latest Movies</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/best-movies\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Best Movies</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/actors\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Actors<br></a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/best-actors\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Best Actors<br></a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/movies/studios\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Movie Studios</a></div>\n\t\t\t\t\t</li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../tv\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">TV Shows</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-928\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/2020tvshows\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TV Shows</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/2020tvshows#2024-tvshows\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Latest TV Shows</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/tvshows\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Best TV Shows</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/franchises\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TV Show Franchises</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/streaming\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Streaming Platforms</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/tv/networks\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">TV Networks</a></div></li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../music\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">Music</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-436\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/songs\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Top Charted Songs</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/best-songs\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Best Songs</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/artists\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Music Artists</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/music-streaming\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Music Streaming</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/music-downloading\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Music Downloading</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/music/eurovision\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Eurovision Song Contest</a></div>\n\t\t\t\t\t</li>\n\t\t\t\t\t<li class=\"nav-item dropdown\">\n\t\t\t\t\t\t<a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../sports\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">Sports</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-716\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/fifa-world-cup\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">FIFA World Cup</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/uefa-euro\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">UEFA Euro<br></a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/champions\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">UEFA Champions League<br></a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/f1\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Formula 1</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/nba\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">NBA</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/sports/nfl\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">NFL</a></div>\n\t\t\t\t\t</li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../websites\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">Websites</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-985\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/top-websites\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Top Websites</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/categories\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Websites Categories</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/browsers\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Web Browsers</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/web-builders\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Website Builders</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/domains\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Domain Name Registrars</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/websites/e-commerce\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">E-Commerce Platforms</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-black text-primary dropdown-toggle\" href=\"../timelines\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">Timelines</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-703\"><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/timelines/all-timelines.html#History-Timelines\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">History Timelines</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/timelines/all-timelines#People-Timelines\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">People Timelines</a><a class=\"text-black text-primary dropdown-item\" href=\"https://twidgrid.com/timelines/all-timelines#Technology-Timelines\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Technology Timelines</a></div></li></ul>\n\t\t\t\t<div class=\"icons-menu\" mbr-if=\"showIcons\">\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-phone mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 1\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-letter mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 2\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-map-pin mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"iconfont-wrapper\" href=\"https://mobiri.se\" mbr-if=\"iconsAmount > 3\">\n\t\t\t\t\t\t<span mbr-icon class=\"p-2 mbr-iconfont mobi-mbri-shopping-cart mobi-mbri\"></span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t\t<div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-primary\" href=\"https://twidgrid.com/search\" data-app-placeholder=\"Type Text\">Search</a></div>\n\t\t\t</div>\n\t\t</div>\n\t</nav>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "u9D09UwoVI",
+          "_anchor": "menu01-hp",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card-wrapper": {
+              "background": "@wrapBgColor",
+              "@media (max-width: 767px)": {
+                "padding": "1.5rem"
+              },
+              "@media (min-width: 768px) and (max-width: 991px)": {
+                "padding": "2.25rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "4rem"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000"
+            },
+            ".card-title, .card-box": {
+              "text-align": "center",
+              "color": "#000000"
+            }
+          },
+          "_name": "article13",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article13\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Content Width\" name=\"contentWidth\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"color\" title=\"Wrap Bg\" name=\"wrapBgColor\" value=\"#9c98cf\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n           <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#9c98cf\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-md-12 col-lg-{{contentWidth}}\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-left\">\n                        <h4 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>National Hockey League</b></h4>\n                        <p class=\"mbr-text mbr-fonts-style mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">The 2024 Stanley Cup playoffs will be the playoff tournament of the National Hockey League (NHL) for the 2023–24 season. The playoffs will begin on April 20, 2024, and will conclude no later than June 24, 2024, with the 2024 Stanley Cup Finals, to determine the winner of the Stanley Cup.</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-4\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"nhl.html#Stanley-Cup-Champions\" data-app-placeholder=\"Type Text\">Stanley Cup Champions</a> <a class=\"btn btn-primary-outline\" href=\"nfl.html#Super-Bowl-Championships\" data-app-placeholder=\"Type Text\">Stanley Cup Championships</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "u9D09UPV5v",
+          "_anchor": "article13-hq",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
+                }
+              }
+            },
+            "h6": {
+              "line-height": "1.2"
+            },
+            "img, .item-img": {
+              "width": "100%",
+              "& when (@autoSize)": {
+                "height": "100%",
+                "object-fit": "cover",
+                "& when (@showCardTitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showCardSubtitle)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showText)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                },
+                "& when (@showButtons)": {
+                  "height": "(@imageHeight * 100px)",
+                  "object-fit": "cover"
+                }
+              }
+            },
+            ".item:focus, span:focus": {
+              "outline": "none"
+            },
+            ".item": {
+              "cursor": "pointer",
+              "margin-bottom": "2rem",
+              "@media (max-width: 767px)": {
+                "padding-left": "0.5rem",
+                "padding-right": "0.5rem",
+                "margin-bottom": "1rem"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-section-content": {
+                "margin-left": "-0.5rem",
+                "margin-right": "-0.5rem"
+              }
+            },
+            "& when not (@spacing)": {
+              ".row": {
+                "margin-left": "0",
+                "margin-right": "0"
+              },
+              ".item": {
+                "padding": "0",
+                "margin": "0"
+              }
+            },
+            ".item-wrapper": {
+              "position": "relative",
+              "display": "flex",
+              "flex-flow": "column nowrap"
+            },
+            ".mbr-section-btn": {
+              "margin-top": "auto !important",
+              "text-align": "center"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#000000"
+            },
+            ".item-title": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".item-subtitle": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".item-text": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".content-head": {
+              "max-width": "800px"
+            },
+            ".item-subtitle, .mbr-section-btn": {
+              "text-align": "center"
+            }
+          },
+          "_name": "features013",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features13 start\" group=\"Features\" mbr-class=\"{ 'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n      <header>Size</header>\n      <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n      <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n      <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n      <select title=\"Columns\" name=\"cardsWidth\">\n        <option value=\"12\">1</option>\n        <option value=\"6\">2</option>\n        <option value=\"4\">3</option>\n        <option value=\"3\">4</option>\n        <option value=\"2\" selected>6</option>\n      </select>\n      <header>Show/Hide</header>\n      <input type=\"checkbox\" name=\"showTitle\" title=\"Title\" checked>\n      <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n      <header>Cards</header>\n      <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\">\n      <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"2\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n      <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n      <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n      <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n      <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n      <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n      <header>Background</header>\n      <fieldset type=\"background\" parallax name=\"bg\" required>\n        <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\">\n        <input type=\"color\" title=\"Color\" value=\"#9c98cf\" selected>\n      </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n      <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#edefeb\" condition=\"overlay && bg.type == 'image'\">\n      <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n  <div class=\"row justify-content-center\">\n    <div class=\"col-12 content-head\">\n      <div class=\"mbr-section-head mb-5\" mbr-if=\"showTitle || showSubtitle\">\n        <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Stanley Cup Champions</b></h4>\n        <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n          To add more cards, hover on a card and click 'Add items'.\n        </h5>\n      </div>\n    </div>\n  </div>\n  <div class=\"row mbr-section-content\">\n    <div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}} active\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Montreal_Canadiens\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/montreal-canadiens.svg-300x300.png\" alt=\"Montreal Canadiens\" title data-slide-to=\"0\" data-bs-slide-to=\"0\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Montreal Canadiens</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1916,&nbsp;1924,&nbsp;1930,&nbsp;1931, 1944,&nbsp;1946,&nbsp;1953,&nbsp;1956, 1957,&nbsp;1958,&nbsp;1959,&nbsp;1960, 1965,&nbsp;1966,&nbsp;1968,&nbsp;1969, 1971,&nbsp;1973,&nbsp;1976,&nbsp;1977, 1978,&nbsp;1979,&nbsp;1986, 1993</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(24)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.imdb.com/title/tt2531336/\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Toronto_Maple_Leafs\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/toronto-maple-leafs-2016-logo.svg-300x300.png\" alt=\"Toronto Maple Leafs\" title data-slide-to=\"1\" data-bs-slide-to=\"1\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Toronto Maple Leafs</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1918,&nbsp;1922,&nbsp;1932,&nbsp;1942, 1945,&nbsp;1947,&nbsp;1948,&nbsp;1949, 1951,&nbsp;1962,&nbsp;1963,&nbsp;1964, 1967</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(13)<br></p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Detroit_Red_Wings\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/detroit-red-wings-logo.svg-300x300.png\" alt=\"Detroit Red Wings\" title data-slide-to=\"2\" data-bs-slide-to=\"2\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Detroit Red Wings</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1936,&nbsp;1937,&nbsp;1943,&nbsp;1950, 1952,&nbsp;1954,&nbsp;1955,&nbsp;1997, 1998,&nbsp;2002,&nbsp;2008</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(11)<br></p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Ottawa_Senators_(original)\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/ottawa-hockey-club-ottawa-hc-235x235.png\" alt=\"Ottawa HC\" title data-slide-to=\"3\" data-bs-slide-to=\"3\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Ottawa HC</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1903,&nbsp;1904,&nbsp;1905,&nbsp;1906, 1909,&nbsp;1910,&nbsp;1911</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(7)<br></p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Boston_Bruins\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/boston-bruins.svg-300x300.png\" alt=\"Boston Bruins\" title data-slide-to=\"4\" data-bs-slide-to=\"4\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Boston Bruins</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1929,&nbsp;1939,&nbsp;1941,&nbsp;1970, 1972,&nbsp;2011</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(6)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Chicago_Blackhawks\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/chicago-blackhawks-logo.svg-300x300.png\" alt=\"Chicago Blackhawks\" title data-slide-to=\"5\" data-bs-slide-to=\"5\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Chicago Blackhawks</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1934,&nbsp;1938, 1961,&nbsp;2010, 2013,&nbsp;2015</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(6)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Montreal_Victorias\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/montreal-victorias-removebg-preview-235x235.png\" alt=\"Montreal Victorias\" title data-slide-to=\"6\" data-bs-slide-to=\"6\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Montreal Victorias</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1895, 1896,&nbsp;1897,&nbsp;1898, 1899</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(5)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Edmonton_Oilers\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/logo-edmonton-oilers.svg-300x300.png\" alt=\"Edmonton Oilers\" title data-slide-to=\"7\" data-bs-slide-to=\"7\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Edmonton Oilers</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1984,&nbsp;1985,&nbsp;1987,&nbsp;1988, 1990</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(5)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Pittsburgh_Penguins\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/pittsburgh-penguins-logo-2016.svg-300x300.png\" alt=\"Pittsburgh Penguins\" title data-slide-to=\"8\" data-bs-slide-to=\"8\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Pittsburgh Penguins</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1991,&nbsp;1992,&nbsp;2009,&nbsp;2016, 2017</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(5)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Montreal_Wanderers\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/montreal-wanderers-logo.svg-300x300.png\" alt=\"Montreal Wanderers\" title data-slide-to=\"9\" data-bs-slide-to=\"9\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Montreal Wanderers</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1906, 1907,&nbsp;1908,&nbsp;1910</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(4)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Montreal_Hockey_Club\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/montreal-hockey-club-removebg-preview-376x376.png\" alt=\"Montreal HC\" title data-slide-to=\"10\" data-bs-slide-to=\"10\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Montreal HC</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1893,&nbsp;1894, 1902,&nbsp;1903</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(4)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/New_York_Islanders\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/logo-new-york-islanders.svg-300x300.png\" alt=\"New York Islanders\" title data-slide-to=\"11\" data-bs-slide-to=\"11\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>New York Islanders</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1980,&nbsp;1981,&nbsp;1982,&nbsp;1983</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(4)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/New_York_Rangers\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/1024px-new-york-rangers.svg-300x300.png\" alt=\"New York Rangers\" title data-slide-to=\"12\" data-bs-slide-to=\"12\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>New York Rangers</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1928,&nbsp;1933,&nbsp;1940,&nbsp;1994</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(4)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Ottawa_Senators_(original)\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/original-ottawa-sens-logo.svg-1-300x300.png\" alt=\"Ottawa Senators\" title data-slide-to=\"13\" data-bs-slide-to=\"13\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Ottawa Senators</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1920,&nbsp;1921,&nbsp;1923,&nbsp;1927</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(4)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Winnipeg_Victorias\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/winnipeg-victorias-300x300.png\" alt=\"Winnipeg Victorias\" title data-slide-to=\"14\" data-bs-slide-to=\"14\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Winnipeg Victorias</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1896,&nbsp;1901,&nbsp;1902</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(3)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Colorado_Avalanche\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/colorado-avalanche-logo.svg-300x300.png\" alt=\"Colorado Avalanche\" title data-slide-to=\"15\" data-bs-slide-to=\"15\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Colorado Avalanche</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1996,&nbsp;2001,&nbsp;2022</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(3)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/New_Jersey_Devils\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/new-jersey-devils-logo.svg-300x300.png\" alt=\"New Jersey Devils\" title data-slide-to=\"16\" data-bs-slide-to=\"16\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>New Jersey Devils</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1995,&nbsp;2000,&nbsp;2003</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(3)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Tampa_Bay_Lightning\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/tampa-bay-lightning-2011.svg-300x300.png\" alt=\"Tampa Bay Lightning\" title data-slide-to=\"17\" data-bs-slide-to=\"17\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Tampa Bay Lightning</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">2004,&nbsp;2020,&nbsp;2021</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(3)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Montreal_Shamrocks\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/montrealshamrocks-removebg-preview-328x328.png\" alt=\"Montreal Shamrocks\" title data-slide-to=\"18\" data-bs-slide-to=\"18\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Montreal Shamrocks</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1899,&nbsp;1900</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(2)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Quebec_Bulldogs\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/quebec-bulldogs-1911-logo-300x300.png\" alt=\"Quebec Bulldogs\" title data-slide-to=\"19\" data-bs-slide-to=\"19\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Quebec Bulldogs</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1912,&nbsp;1913</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(2)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Los_Angeles_Kings\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/los-angeles-kings-logo.svg-300x300.png\" alt=\"Los Angeles Kings\" title data-slide-to=\"20\" data-bs-slide-to=\"20\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Los Angeles Kings</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">2012,&nbsp;2014</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(2)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Montreal_Maroons\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/montreal-maroons-logo.svg-300x300.png\" alt=\"Montreal Maroons\" title data-slide-to=\"21\" data-bs-slide-to=\"21\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Montreal Maroons</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1926, 1935</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(2)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Philadelphia_Flyers\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/philadelphia-flyers.svg-300x300.png\" alt=\"Philadelphia Flyers\" title data-slide-to=\"22\" data-bs-slide-to=\"22\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Philadelphia Flyers</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1974,&nbsp;1975</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(2)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Kenora_Thistles\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/kenora-thistles-removebg-preview-300x300.png\" alt=\"Rat Portage/Kenora Thistles\" title data-slide-to=\"23\" data-bs-slide-to=\"23\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Rat Portage/Kenora Thistles</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1907</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Toronto_Blueshirts\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/800px-toronto-arenas-logo.svg-300x300.png\" alt=\"Toronto Blueshirts\" title data-slide-to=\"24\" data-bs-slide-to=\"24\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Toronto Blueshirts</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1914</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Anaheim_Ducks\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/anaheim-ducks.svg-300x300.png\" alt=\"Anaheim Ducks\" title data-slide-to=\"25\" data-bs-slide-to=\"25\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Anaheim Ducks</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">2007</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Calgary_Flames\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/calgary-flames-logo.svg-300x300.png\" alt=\"Calgary Flames\" title data-slide-to=\"26\" data-bs-slide-to=\"26\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Calgary Flames</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1989</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Carolina_Hurricanes\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/carolina-hurricanes.svg-300x300.png\" alt=\"Carolina Hurricanes\" title data-slide-to=\"27\" data-bs-slide-to=\"27\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Carolina Hurricanes</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">2006</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Dallas_Stars\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/dallas-stars-logo-2013.svg-300x300.png\" alt=\"Dallas Stars\" title data-slide-to=\"28\" data-bs-slide-to=\"28\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Dallas Stars</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1999</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Seattle_Metropolitans\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/800px-seattle-metropolitans-logo.svg-300x300.png\" alt=\"Seattle Metropolitans\" title data-slide-to=\"29\" data-bs-slide-to=\"29\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Seattle Metropolitans</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1917</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/St._Louis_Blues\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/st.-louis-blues-logo.svg-300x300.png\" alt=\"St. Louis Blues\" title data-slide-to=\"30\" data-bs-slide-to=\"30\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>St. Louis Blues</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">2019</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Vancouver_Millionaires\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/vancouver-millionaires-maroon-with-cream-lettering-logo.svg-300x300.png\" alt=\"Vancouver Millionaires\" title data-slide-to=\"31\" data-bs-slide-to=\"31\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Vancouver Millionaires</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1915</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Vegas_Golden_Knights\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/vegas-golden-knights-logo.svg-300x300.png\" alt=\"Vegas Golden Knights\" title data-slide-to=\"32\" data-bs-slide-to=\"32\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Vegas Golden Knights</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">2023</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Victoria_Cougars\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/victoria-cougars-logo.svg-300x300.png\" alt=\"Victoria Cougars\" title data-slide-to=\"33\" data-bs-slide-to=\"33\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Victoria Cougars</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">1925</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div><div class=\"item features-image col-6 col-md-4 col-lg-{{cardsWidth}}\">\n      <div class=\"item-wrapper\">\n        <div class=\"item-img\">\n          <a href=\"https://en.wikipedia.org/wiki/Washington_Capitals\" target=\"_blank\"><img src=\"@PROJECT_PATH@/assets/images/washington-capitals.svg-300x300.png\" alt=\"Washington Capitals\" title data-slide-to=\"34\" data-bs-slide-to=\"34\"></a>\n        </div>\n        <div class=\"item-content align-left mt-3\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n          <h5 class=\"item-title mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-title, .mbr-section-btn\" mbr-if=\"showCardTitle\"><b>Washington Capitals</b></h5>\n          <h6 class=\"item-subtitle mbr-fonts-style mb-3\" mbr-theme-style=\"display-4\" data-app-selector=\".item-subtitle, .mbr-section-btn\" mbr-if=\"showCardSubtitle\">2018</h6>\n          <p class=\"item-title mbr-fonts-style mb-3\" mbr-if=\"showText\" mbr-theme-style=\"display-4\" data-app-selector=\".item-text, .mbr-section-btn\">(1)</p>\n        </div>\n        <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\"><a href=\"https://www.youtube.com/watch?v=eB6txyhHFG4&pp=ygUXWWVzLCBBbmQ_IEFyaWFuYSBHcmFuZGU%3D\" class=\"btn item-btn btn-primary\" data-app-placeholder=\"Type Text\" target=\"_blank\">YouTube</a></div>\n      </div>\n    </div>\n    \n    \n    \n    \n    \n\n  </div>\n</div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "u9D09V371M",
+          "_anchor": "Stanley-Cup-Champions",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".item-wrapper img": {
+              "width": "80px",
+              "height": "80px",
+              "object-fit": "cover",
+              "border-radius": "50% !important"
+            },
+            ".item-wrapper": {
+              "background": "@cardbg",
+              "margin-bottom": "2rem",
+              "padding": "2.25rem",
+              "@media (min-width: 992px) and (max-width: 1200px)": {
+                "padding": "1.5rem",
+                "margin-bottom": "2rem"
+              },
+              "@media (max-width: 767px)": {
+                "padding": "1.5rem",
+                "margin-bottom": "1rem"
+              }
+            },
+            ".card-title, .iconfont-wrapper": {
+              "color": "#000000"
+            },
+            ".card-text": {
+              "color": "#000000",
+              "text-align": "center"
+            },
+            ".content-head": {
+              "max-width": "800px"
+            },
+            ".mbr-section-title": {
+              "color": "#000000"
+            },
+            ".card-title, .img-wrapper": {
+              "text-align": "center"
+            },
+            ".img-wrapper": {
+              "display": "flex",
+              "justify-content": "center"
+            }
+          },
+          "_name": "people04",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"people04\" plugins=\"Masonry\" group=\"People\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showMainTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showMainSubtitle\">\n\t\t<header>Card</header>\n\t\t<select title=\"Columns\" name=\"columns\">\n\t\t\t<option value=\"12\">1</option>\n\t\t\t<option value=\"6\" selected>2</option>\n\t\t\t<option value=\"4\">3</option>\n\t\t\t<option value=\"3\">4</option>\n\t\t</select>\n\t\t<input type=\"checkbox\" title=\"Image\" name=\"showImage\">\n\t\t<input type=\"checkbox\" title=\"Name\" name=\"showTitle\">\n\t\t<input type=\"color\" title=\"Card BG\" name=\"cardbg\" value=\"#dbd8fc\" selected>\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#9c98cf\" selected>\n\t\t</fieldset>\n\t\t\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row mb-5 justify-content-center\" mbr-if=\"showMainTitle || showMainSubtitle\">\n\t\t\t<div class=\"col-12 mb-0 content-head\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-5\" mbr-if=\"showMainTitle\" data-app-selector=\".mbr-section-title\"><b>Super Bowl Championships</b></h3>\n\t\t\t\t<h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showMainSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tList your customers' testimonials in this block.</h5>\n\t\t\t</div>\n\t\t</div>\n\t\t<div class=\"row mbr-masonry\" data-masonry=\"{&quot;percentPosition&quot;: true }\">\n\t\t\t<div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}} active\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 11, 2024&nbsp;\n<br>\n<br>Kansas City Chiefs   25–22   San Francisco 49ers\n<br>\n<br>Allegiant Stadium\n<br>Paradise, Nevada<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/manchester-city-fc-badge.svg-216x216.png\" alt data-slide-to=\"1\" data-bs-slide-to=\"2\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Sarah</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 12, 2023&nbsp;\n<br>\n<br>Kansas City Chiefs   38–35   Philadelphia Eagles\n<br>\n<br>State Farm Stadium&nbsp;\n<br>Glendale, Arizona<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/real-madrid-cf.svg-216x216.png\" data-slide-to=\"2\" data-bs-slide-to=\"1\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Rachel</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 13, 2022&nbsp;\n<br>\n<br>Los Angeles Rams   23–20   Cincinnati Bengals\n<br>\n<br>SoFi Stadium\n<br>Inglewood, California&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/chelsea-fc.svg-216x216.png\" data-slide-to=\"2\" data-bs-slide-to=\"2\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Emily</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 7, 2021&nbsp;\n<br>\n<br>Tampa Bay Buccaneers   31–9   Kansas City Chiefs\n<br>\n<br>Raymond James Stadium&nbsp;\n<br>Tampa, Florida&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-bayern-mnchen-logo-2017.svg-216x216.png\" data-slide-to=\"3\" data-bs-slide-to=\"3\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>David</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t\n\t\t\t<div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 2, 2020&nbsp;\n<br>\n<br>Kansas City Chiefs   31–20&nbsp;   San Francisco 49ers\n<br>\n<br>Hard Rock Stadium&nbsp;\n<br>Miami Gardens, Florida&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/liverpool-fc.svg-216x216.png\" data-slide-to=\"5\" data-bs-slide-to=\"5\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Michael</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 3, 2019&nbsp;\n<br>\n<br>New England Patriots   13–3&nbsp;   Los Angeles Rams\n<br>\n<br>Mercedes-Benz Stadium\n<br>Atlanta, Georgia&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/real-madrid-cf.svg-216x216.png\" data-slide-to=\"6\" data-bs-slide-to=\"6\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 4, 2018&nbsp;\n<br>\n<br>Philadelphia Eagles   41–33   New England Patriots\n<br>\n<br>U.S. Bank Stadium\n<br>Minneapolis, Minnesota&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-barcelona-crest.svg-216x216.png\" data-slide-to=\"6\" data-bs-slide-to=\"6\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 5, 2017&nbsp;\n<br>\n<br>New England Patriots   34–28   Atlanta Falcons\n<br>\n<br>NRG Stadium&nbsp;\n<br>Houston, Texas&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/real-madrid-cf.svg-216x216.png\" data-slide-to=\"7\" data-bs-slide-to=\"7\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 7, 2016&nbsp;\n<br>\n<br>Denver Broncos   24–10   Carolina Panthers\n<br>\n<br>Levi's Stadium\n<br>Santa Clara, California&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/real-madrid-cf.svg-216x216.png\" data-slide-to=\"8\" data-bs-slide-to=\"8\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 1, 2015&nbsp;\n<br>\n<br>New England Patriots   28–24   Seattle Seahawks\n<br>\n<br>University of Phoenix Stadium&nbsp;\n<br>Glendale, Arizona&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/real-madrid-cf.svg-216x216.png\" data-slide-to=\"10\" data-bs-slide-to=\"10\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 2, 2014&nbsp;\n<br>\n<br>Seattle Seahawks   43–8   Denver Broncos\n<br>\n<br>MetLife Stadium\n<br>East Rutherford, New Jersey&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-bayern-mnchen-logo-2017.svg-216x216.png\" data-slide-to=\"11\" data-bs-slide-to=\"11\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 3, 2013&nbsp;\n<br>\n<br>Baltimore Ravens   34–31   San Francisco 49ers\n<br>\n<br>Mercedes-Benz Superdome&nbsp;\n<br>New Orleans, Louisiana&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/chelsea-fc.svg-216x216.png\" data-slide-to=\"12\" data-bs-slide-to=\"12\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 5, 2012&nbsp;\n<br>\n<br>New York Giants   21–17   New England Patriots\n<br>\n<br>Lucas Oil Stadium\n<br>Indianapolis, Indiana&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-barcelona-crest.svg-216x216.png\" data-slide-to=\"13\" data-bs-slide-to=\"13\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 6, 2011&nbsp;\n<br>\n<br>Green Bay Packers   31–25   Pittsburgh Steelers\n<br>\n<br>Cowboys Stadium\n<br>Arlington, Texas&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-internazionale-milano-2021.svg-216x216.png\" data-slide-to=\"14\" data-bs-slide-to=\"14\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 7, 2010&nbsp;\n<br>\n<br>New Orleans Saints   31–17   Indianapolis Colts\n<br>\n<br>Sun Life Stadium&nbsp;\n<br>Miami Gardens, Florida&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-barcelona-crest.svg-216x216.png\" data-slide-to=\"15\" data-bs-slide-to=\"15\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 1, 2009&nbsp;\n<br>\n<br>Pittsburgh Steelers   27–23   Arizona Cardinals\n<br>\n<br>Raymond James Stadium&nbsp;\n<br>Tampa, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/manchester-united-fc-crest.svg-216x216.png\" data-slide-to=\"16\" data-bs-slide-to=\"16\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 3, 2008&nbsp;\n<br>\n<br>New York Giants   17–14   New England Patriots\n<br>\n<br>University of Phoenix Stadium\n<br>Glendale, Arizona&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-of-ac-milan.svg-216x216.png\" data-slide-to=\"17\" data-bs-slide-to=\"17\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 4, 2007&nbsp;\n<br>\n<br>Indianapolis Colts   29–17   Chicago Bears\n<br>\n<br>Dolphin Stadium&nbsp;\n<br>Miami Gardens, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-barcelona-crest.svg-216x216.png\" data-slide-to=\"18\" data-bs-slide-to=\"18\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 5, 2006&nbsp;\n<br>\n<br>Pittsburgh Steelers   21–10   Seattle Seahawks\n<br>\n<br>Ford Field\n<br>Detroit, Michigan&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/liverpool-fc.svg-216x216.png\" data-slide-to=\"19\" data-bs-slide-to=\"19\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 6, 2005&nbsp;\n<br>\n<br>New England Patriots   24–21   Philadelphia Eagles\n<br>\n<br>Alltel Stadium\n<br>Jacksonville, Florida&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-porto.svg-216x216.png\" data-slide-to=\"20\" data-bs-slide-to=\"20\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 1, 2004&nbsp;\n<br>\n<br>New England Patriots   32–29   Carolina Panthers\n<br>\n<br>Reliant Stadium\n<br>Houston, Texas&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-of-ac-milan.svg-216x216.png\" data-slide-to=\"21\" data-bs-slide-to=\"21\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 26, 2003&nbsp;\n<br>\n<br>Tampa Bay Buccaneers   48–21   Oakland Raiders\n<br>\n<br>Qualcomm Stadium&nbsp;\n<br>San Diego, California&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/real-madrid-cf.svg-216x216.png\" data-slide-to=\"22\" data-bs-slide-to=\"22\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">February 3, 2002&nbsp;\n<br>\n<br>New England Patriots   20–17   St. Louis Rams\n<br>\n<br>Louisiana Superdome&nbsp;\n<br>New Orleans, Louisiana&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-bayern-mnchen-logo-2017.svg-216x216.png\" data-slide-to=\"23\" data-bs-slide-to=\"23\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 28, 2001&nbsp;\n<br>\n<br>Baltimore Ravens   34–7&nbsp;   New York Giants\n<br>\n<br>Raymond James Stadium\n<br>Tampa, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/real-madrid-cf.svg-216x216.png\" data-slide-to=\"24\" data-bs-slide-to=\"24\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 30, 2000&nbsp;\n<br>\n<br>St. Louis Rams   23–16   Tennessee Titans\n<br>\n<br>Georgia Dome&nbsp;\n<br>Atlanta, Georgia&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/manchester-united-fc-crest.svg-216x216.png\" data-slide-to=\"25\" data-bs-slide-to=\"25\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 31, 1999&nbsp;\n<br>\n<br>Denver Broncos   34–19   Atlanta Falcons\n<br>\n<br>Pro Player Stadium&nbsp;\n<br>Miami, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/real-madrid-cf.svg-216x216.png\" data-slide-to=\"26\" data-bs-slide-to=\"26\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 25, 1998&nbsp;\n<br>\n<br>Denver Broncos   31–24   Green Bay Packers\n<br>\n<br>Qualcomm Stadium&nbsp;\n<br>San Diego, California&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/borussia-dortmund-logo.svg-216x216.png\" data-slide-to=\"27\" data-bs-slide-to=\"27\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 26, 1997&nbsp;\n<br>\n<br>Green Bay Packers   35–21   New England Patriots\n<br>\n<br>Louisiana Superdome&nbsp;\n<br>New Orleans, Louisiana&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/juventus-fc-2017-icon-black.svg-216x216.png\" data-slide-to=\"28\" data-bs-slide-to=\"28\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 28, 1996&nbsp;\n<br>\n<br>Dallas Cowboys   27–17   Pittsburgh Steelers\n<br>\n<br>Sun Devil Stadium\n<br>Tempe, Arizona&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/ajax-amsterdam.svg-192x192.png\" data-slide-to=\"29\" data-bs-slide-to=\"29\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 29, 1995&nbsp;\n<br>\n<br>San Francisco 49ers   49–26   San Diego Chargers\n<br>\n<br>Joe Robbie Stadium&nbsp;\n<br>Miami, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-of-ac-milan.svg-216x216.png\" data-slide-to=\"30\" data-bs-slide-to=\"30\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 30, 1994&nbsp;\n<br>\n<br>Dallas Cowboys   30–13   Buffalo Bills\n<br>\n<br>Georgia Dome\n<br>Atlanta, Georgia&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/olympique-marseille-logo.svg-216x216.png\" data-slide-to=\"31\" data-bs-slide-to=\"31\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 31, 1993&nbsp;\n<br>\n<br>Dallas Cowboys   52–17   Buffalo Bills\n<br>\n<br>Rose Bowl&nbsp;\n<br>Pasadena, California&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-barcelona-crest.svg-216x216.png\" data-slide-to=\"32\" data-bs-slide-to=\"32\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 26, 1992&nbsp;\n<br>\n<br>Washington Redskins   37–24   Buffalo Bills\n<br>\n<br>Metrodome\n<br>Minneapolis, Minnesota&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/grb-fk-crvena-zvezda.svg-216x216.png\" data-slide-to=\"33\" data-bs-slide-to=\"33\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 27, 1991&nbsp;\n<br>\n<br>New York Giants   20–19   Buffalo Bills\n<br>\n<br>Tampa Stadium&nbsp;\n<br>Tampa, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-of-ac-milan.svg-216x216.png\" data-slide-to=\"34\" data-bs-slide-to=\"34\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 28, 1990&nbsp;\n<br>\n<br>San Francisco 49ers   55–10   Denver Broncos\n<br>\n<br>Louisiana Superdome&nbsp;\n<br>New Orleans, Louisiana&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-of-ac-milan.svg-216x216.png\" data-slide-to=\"35\" data-bs-slide-to=\"35\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 22, 1989&nbsp;\n<br>\n<br>San Francisco 49ers   20–16   Cincinnati Bengals\n<br>\n<br>Joe Robbie Stadium\n<br>Miami, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/psv-eindhoven.svg-216x216.png\" data-slide-to=\"36\" data-bs-slide-to=\"36\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 31, 1988&nbsp;\n<br>\n<br>Washington Redskins   42–10   Denver Broncos\n<br>\n<br>San Diego–Jack Murphy Stadium\n<br>San Diego, California&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-porto.svg-216x216.png\" data-slide-to=\"37\" data-bs-slide-to=\"37\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 25, 1987&nbsp;\n<br>\n<br>New York Giants   39–20   Denver Broncos\n<br>\n<br>Rose Bowl&nbsp;\n<br>Pasadena, California&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fcsb-logo.svg-216x216.png\" data-slide-to=\"38\" data-bs-slide-to=\"38\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 26, 1986&nbsp;\n<br>\n<br>Chicago Bears   46–10   New England Patriots\n<br>\n<br>Louisiana Superdome&nbsp;\n<br>New Orleans, Louisiana&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/juventus-fc-2017-icon-black.svg-216x216.png\" data-slide-to=\"39\" data-bs-slide-to=\"39\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 20, 1985&nbsp;\n<br>\n<br>San Francisco 49ers   38–16   Miami Dolphins\n<br>\n<br>Stanford Stadium\n<br>Stanford, California&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/liverpool-fc.svg-216x216.png\" data-slide-to=\"40\" data-bs-slide-to=\"40\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 22, 1984&nbsp;\n<br>\n<br>Los Angeles Raiders   38–9&nbsp;   Washington Redskins\n<br>\n<br>Tampa Stadium\n<br>Tampa, Florida&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/hamburger-sv-logo.svg-216x216.png\" data-slide-to=\"41\" data-bs-slide-to=\"41\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 30, 1983&nbsp;\n<br>\n<br>Washington Redskins   27–17   Miami Dolphins\n<br>\n<br>Rose Bowl&nbsp;\n<br>Pasadena, California&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/aston-villa-logo.svg-216x216.png\" data-slide-to=\"42\" data-bs-slide-to=\"42\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 24, 1982&nbsp;\n<br>\n<br>San Francisco 49ers   26–21   Cincinnati Bengals\n<br>\n<br>Pontiac Silverdome\n<br>Pontiac, Michigan&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/liverpool-fc.svg-216x216.png\" data-slide-to=\"43\" data-bs-slide-to=\"43\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 25, 1981&nbsp;\n<br>\n<br>Oakland Raiders   27–10   Philadelphia Eagles\n<br>\n<br>Louisiana Superdome&nbsp;\n<br>New Orleans, Louisiana&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/nottingham-forest-f.c.-logo.svg-216x216.png\" data-slide-to=\"44\" data-bs-slide-to=\"44\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 20, 1980&nbsp;\n<br>\n<br>Pittsburgh Steelers   31–19   Los Angeles Rams\n<br>\n<br>Rose Bowl&nbsp;\n<br>Pasadena, California&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/nottingham-forest-f.c.-logo.svg-216x216.png\" data-slide-to=\"45\" data-bs-slide-to=\"45\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 21, 1979&nbsp;\n<br>\n<br>Pittsburgh Steelers   35–31   Dallas Cowboys\n<br>\n<br>Miami Orange Bowl&nbsp;\n<br>Miami, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/liverpool-fc.svg-216x216.png\" data-slide-to=\"46\" data-bs-slide-to=\"46\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 15, 1978&nbsp;\n<br>\n<br>Dallas Cowboys   27–10   Denver Broncos\n<br>\n<br>Louisiana Superdome\n<br>New Orleans, Louisiana&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/liverpool-fc.svg-216x216.png\" data-slide-to=\"47\" data-bs-slide-to=\"47\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 9, 1977&nbsp;\n<br>\n<br>Oakland Raiders   32–14   Minnesota Vikings\n<br>\n<br>Rose Bowl\n<br>Pasadena, California&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-bayern-mnchen-logo-2017.svg-216x216.png\" data-slide-to=\"48\" data-bs-slide-to=\"48\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 18, 1976&nbsp;\n<br>\n<br>Pittsburgh Steelers   21–17   Dallas Cowboys\n<br>\n<br>Miami Orange Bowl&nbsp;\n<br>Miami, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-bayern-mnchen-logo-2017.svg-216x216.png\" data-slide-to=\"49\" data-bs-slide-to=\"49\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 12, 1975&nbsp;\n<br>\n<br>Pittsburgh Steelers   16–6&nbsp;   Minnesota Vikings\n<br>\n<br>Tulane Stadium&nbsp;\n<br>New Orleans, Louisiana&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/fc-bayern-mnchen-logo-2017.svg-216x216.png\" data-slide-to=\"50\" data-bs-slide-to=\"50\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 13, 1974&nbsp;\n<br>\n<br>Miami Dolphins   24–7&nbsp;   Minnesota Vikings\n<br>\n<br>Rice Stadium\n<br>Houston, Texas&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/ajax-amsterdam.svg-192x192.png\" data-slide-to=\"51\" data-bs-slide-to=\"51\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 14, 1973&nbsp;\n<br>\n<br>Miami Dolphins   14–7&nbsp;   Washington Redskins\n<br>\n<br>Los Angeles Memorial Coliseum&nbsp;\n<br>Los Angeles, California&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/ajax-amsterdam.svg-192x192.png\" data-slide-to=\"52\" data-bs-slide-to=\"52\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 16, 1972&nbsp;\n<br>\n<br>Dallas Cowboys   24–3&nbsp;   Miami Dolphins\n<br>\n<br>Tulane Stadium&nbsp;\n<br>New Orleans, Louisiana&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/ajax-amsterdam.svg-192x192.png\" data-slide-to=\"53\" data-bs-slide-to=\"53\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 17, 1971&nbsp;\n<br>\n<br>Baltimore Colts   16–13   Dallas Cowboys\n<br>\n<br>Miami Orange Bowl&nbsp;\n<br>Miami, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/feyenoord-logo.svg-216x216.png\" data-slide-to=\"54\" data-bs-slide-to=\"54\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 11, 1970&nbsp;\n<br>\n<br>Kansas City Chiefs   23–7&nbsp;   Minnesota Vikings\n<br>\n<br>Tulane Stadium\n<br>New Orleans, Louisiana&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/logo-of-ac-milan.svg-216x216.png\" data-slide-to=\"55\" data-bs-slide-to=\"55\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 12, 1969&nbsp;\n<br>\n<br>New York Jets   16–7&nbsp;   Baltimore Colts\n<br>\n<br>Miami Orange Bowl&nbsp;\n<br>Miami, Florida&nbsp;&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/manchester-united-fc-crest.svg-216x216.png\" data-slide-to=\"56\" data-bs-slide-to=\"56\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 14, 1968&nbsp;\n<br>\n<br>Green Bay Packers   33–14   Oakland Raiders\n<br>\n<br>Miami Orange Bowl\n<br>Miami, Florida<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/celtic-fc-logo-216x216.png\" data-slide-to=\"57\" data-bs-slide-to=\"57\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div><div class=\"item features-without-image col-12 col-md-6 col-lg-{{columns}}\">\n\t\t\t\t<div class=\"item-wrapper\">\n\t\t\t\t\t<div class=\"card-box align-left\">\n\t\t\t\t\t\t<p class=\"card-text mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".card-text\">January 15, 1967&nbsp;\n<br>\n<br>Green Bay Packers   35–10   Kansas City Chiefs\n<br>\n<br>Los Angeles Memorial Coliseum\n<br>Los Angeles, California&nbsp;<br></p>\n\t\t\t\t\t\t<div class=\"img-wrapper mt-4 mb-2\" mbr-if=\"showImage\">\n\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/real-madrid-cf.svg-216x216.png\" data-slide-to=\"58\" data-bs-slide-to=\"58\" alt>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<h5 class=\"card-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .img-wrapper\">\n\t\t\t\t\t\t\t<b>Jessica</b>\n\t\t\t\t\t\t</h5>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "u9D09VNiAK",
+          "_anchor": "people04-hs",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = \"video\")": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".copyright": {
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            ".center": {
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "center"
+            },
+            ".row": {
+              "@media (max-width: 991px)": {
+                "flex-direction": "column-reverse !important",
+                ".copyright": {
+                  "margin": "1rem 0 0 0"
+                }
+              }
+            },
+            ".row-links": {
+              "width": "100%",
+              "justify-content": "center",
+              ".row-links-soc": {
+                "list-style": "none",
+                "display": "flex",
+                "justify-content": "right",
+                "@media (max-width: 991px)": {
+                  "justify-content": "center"
+                },
+                "flex-wrap": "wrap",
+                "padding": "0",
+                "margin-bottom": "0",
+                "li": {
+                  "padding": "0 1rem 0rem 1rem",
+                  "@media (max-width: 767px)": {
+                    "padding": "0 1rem 1rem 1rem"
+                  },
+                  "p": {
+                    "margin": "0"
+                  }
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".copyright": {
+                "text-align": "center"
+              }
+            },
+            "row-links-soc-item": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "footer02",
+          "_sourceTheme": "startm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer2\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"showLinks\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopy\" checked>\n        <input type=\"checkbox\" title=\"Links\" name=\"showLinks\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#393193\" selected>\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback\n          Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"row\" mbr-class=\"{'flex-row-reverse' : reverseContent}\">\n            <div class=\"col-12 col-lg-6 center mt-2 mb-3\">\n                <p class=\"mbr-fonts-style copyright mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".copyright\" mbr-if=\"showCopy\">\n                    © Copyright 2024 TwidGrid - All Rights Reserved\n                </p>\n            </div>\n            <div class=\"col-12 col-lg-6 center\" mbr-if=\"menuItems > 0 &amp;&amp; showLinks\">\n                <div class=\"row-links mt-2 mb-3\">\n                    <ul class=\"row-links-soc\" mbr-list mbr-list-grow=\"menuItems\">\n                        <li mbr-text class=\"row-links-soc-item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\"row-links-soc-item\"><a href=\"https://twidgrid.com/contact\" class=\"text-white text-primary\">Contact Us</a></li>\n                        \n                        \n                        \n                    </ul>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "u9D09Y91ag",
+          "_anchor": "footer02-ht",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
