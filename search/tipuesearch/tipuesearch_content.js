@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Outer Range	", "text": "	TV Show Released 2022 - Series - A rancher fighting for his land and family discovers an unfathomable mystery at the edge of Wyoming's wilderness.	", "img": "../tv/assets/images/	outerrange2022.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt11685912	'target='_blank'><img src='../tv/assets/images/imdb.png'></a>	", "url": "	../tv/2020tvshows#2022-tvshows	"},
+
      {"title": "	Alice Kremelberg	", "text": "	Actress born February 28, 1990 (United States)	", "img": "	../movies/assets/images/alice-kremelberg-300x300.jpg	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/Alice_Kremelberg	'target='_blank'><img src='../movies/assets/images/wikipedia.png'></a>	", "url": "	../movies/actors	"},
 {"title": "	Amanda Bynes	", "text": "	Actress born April 3, 1986 (United States)	", "img": "	../movies/assets/images/amanda-bynes.webp	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/Amanda_Bynes	'target='_blank'><img src='../movies/assets/images/wikipedia.png'></a>	", "url": "	../movies/actors	"},
 {"title": "	Andrew Scott	", "text": "	Actor born October 21, 1976 (Ireland)	", "img": "	../movies/assets/images/andrew-scott.webp	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/Andrew_Scott_(actor)	'target='_blank'><img src='../movies/assets/images/wikipedia.png'></a>	", "url": "	../movies/actors	"},
