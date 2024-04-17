@@ -11527,6 +11527,73 @@ a {
   text-align: center;
   color: #000000;
 }
+.cid-uabIq0xx7r {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  background-color: #9c98cf;
+}
+.cid-uabIq0xx7r h6 {
+  line-height: 1.2;
+}
+.cid-uabIq0xx7r img,
+.cid-uabIq0xx7r .item-img {
+  width: 100%;
+  height: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.cid-uabIq0xx7r .item:focus,
+.cid-uabIq0xx7r span:focus {
+  outline: none;
+}
+.cid-uabIq0xx7r .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-uabIq0xx7r .item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-uabIq0xx7r .mbr-section-content {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+}
+.cid-uabIq0xx7r .item-wrapper {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.cid-uabIq0xx7r .mbr-section-btn {
+  margin-top: auto !important;
+  text-align: center;
+}
+.cid-uabIq0xx7r .mbr-section-title {
+  color: #000000;
+}
+.cid-uabIq0xx7r .mbr-text,
+.cid-uabIq0xx7r .mbr-section-btn {
+  color: #000000;
+}
+.cid-uabIq0xx7r .item-title {
+  color: #000000;
+  text-align: center;
+}
+.cid-uabIq0xx7r .item-subtitle {
+  color: #000000;
+  text-align: center;
+}
+.cid-uabIq0xx7r .item-text {
+  color: #000000;
+  text-align: center;
+}
+.cid-uabIq0xx7r .content-head {
+  max-width: 800px;
+}
 .cid-u56YE0DyAA {
   padding-top: 10rem;
   padding-bottom: 6rem;
@@ -12403,6 +12470,73 @@ a {
   text-align: center;
 }
 .cid-u57llFEOqN .content-head {
+  max-width: 800px;
+}
+.cid-uabNJSCVlt {
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  background-color: #9c98cf;
+}
+.cid-uabNJSCVlt h6 {
+  line-height: 1.2;
+}
+.cid-uabNJSCVlt img,
+.cid-uabNJSCVlt .item-img {
+  width: 100%;
+  height: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.cid-uabNJSCVlt .item:focus,
+.cid-uabNJSCVlt span:focus {
+  outline: none;
+}
+.cid-uabNJSCVlt .item {
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-uabNJSCVlt .item {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-uabNJSCVlt .mbr-section-content {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+  }
+}
+.cid-uabNJSCVlt .item-wrapper {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.cid-uabNJSCVlt .mbr-section-btn {
+  margin-top: auto !important;
+  text-align: center;
+}
+.cid-uabNJSCVlt .mbr-section-title {
+  color: #000000;
+}
+.cid-uabNJSCVlt .mbr-text,
+.cid-uabNJSCVlt .mbr-section-btn {
+  color: #000000;
+}
+.cid-uabNJSCVlt .item-title {
+  color: #000000;
+  text-align: center;
+}
+.cid-uabNJSCVlt .item-subtitle {
+  color: #000000;
+  text-align: center;
+}
+.cid-uabNJSCVlt .item-text {
+  color: #000000;
+  text-align: center;
+}
+.cid-uabNJSCVlt .content-head {
   max-width: 800px;
 }
 .cid-u57llFScad {
