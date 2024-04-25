@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Israel–Hamas War Timeline	", "text": "	The Israel–Hamas war began on 7 October 2023 when Hamas launched an unprecedented multi-faceted and sustained assault on Israel from the Gaza Strip. As of 8 April 2024, over 34,000 people (33,091 Palestinian and 1,410 Israeli) have been reported as killed in the Israel–Hamas war, including 95 journalists (90 Palestinian, 2 Israeli and 3 Lebanese) and over 224 humanitarian aid workers, including 179 employees of UNRWA.	", "img": "../	timelines	/assets/images/	war-661878017-scaled-700x700.jpg	", "tags": "		", "note": "		", "url": "	../timelines/israel-hamas.html	"},
+
      {"title": "	ATP Finals	", "text": "	Discover the champions crowned at the ATP Finals! Explore a complete list of winners from the prestigious year-end event featuring the top eight singles players.  This page showcases the history of the ATP Finals and its champions.	", "img": "../	sports	/assets/images/	1920px-nitto-atp-finals-logo-650x650.jpg	", "tags": "		", "note": "		", "url": "	../sports/atp.html	"},
 {"title": "	Major League Baseball	", "text": "	Discover a comprehensive history of Major League Baseball champions! Explore all World Series winners from the league's inception to the present day.	", "img": "../	sports	/assets/images/	major-league-baseball-logo.svg-522x522.png	", "tags": "		", "note": "		", "url": "	../sports/mlb.html	"},
 {"title": "	National Hockey League	", "text": "	Relive the glory! Explore a complete history of NHL champions. Find every Stanley Cup winner, year by year, with team details and iconic moments.	", "img": "../	sports	/assets/images/	05-nhl-shield.svg-522x522.png	", "tags": "		", "note": "		", "url": "	../sports/nhl.html	"},
