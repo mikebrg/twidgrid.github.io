@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
      
+     {"title": "	Prom Dates	", "text": "	Movie released 2024 May 3 - Jess and Hannah, at 13 years old made a pact to have the perfect prom, only 24 hours before the big event, everything is ruined when they break up with their dates. Now they have one night to find new dates and make the fantasy comes true.	", "img": "../movies/assets/images/	promdates2024.webp	", "tags": "		", "note": "<a href='	https://www.imdb.com/title/tt29919979	'target='_blank'><img src='../movies/assets/images/imdb.png'></a>	", "url": "	../movies/	202	0s-movies#	2024	-Movies"},
+
      {"title": "	Martina Navratilova	", "text": "	Tennis player with 8 WTA singles championships won in 1978–79, 1981, 1983–86.	", "img": "	../sports/assets/images/martina-navratilova.webp	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/Martina_Navratilova	'target='_blank'><img src='../sports/assets/images/wikipedia.png'></a>	", "url": "	../sports/wta#Singles-Champions	"},
 {"title": "	Steffi Graf	", "text": "	Tennis player with 5 WTA singles championships won in 1987, 1989, 1993, 1995–96.	", "img": "	../sports/assets/images/steffi-graf.webp	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/Steffi_Graf	'target='_blank'><img src='../sports/assets/images/wikipedia.png'></a>	", "url": "	../sports/wta#Singles-Champions	"},
 {"title": "	Serena Williams	", "text": "	Tennis player with 5 WTA singles championships won in 2001, 2009, 2012–14.	", "img": "	../sports/assets/images/serena-williams-376x376.jpg	", "tags": "		", "note": "<a href='	https://en.wikipedia.org/wiki/Serena_Williams	'target='_blank'><img src='../sports/assets/images/wikipedia.png'></a>	", "url": "	../sports/wta#Singles-Champions	"},
