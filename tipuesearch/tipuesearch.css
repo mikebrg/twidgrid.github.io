@@ -125,7 +125,7 @@ http://www.tipue.com/search
 }
 .tipue_search_content_url a, .tipue_search_note a, .tipue_search_related a, #tipue_search_replace a, #tipue_search_replace a:hover
 {
-     color: #339e41;
+     color:#000;
      text-decoration: none;
 }
 .tipue_search_content_url a:hover, .tipue_search_note a:hover, .tipue_search_related a:hover

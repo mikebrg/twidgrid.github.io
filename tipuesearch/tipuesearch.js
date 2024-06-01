@@ -19,16 +19,16 @@ http://www.tipue.com/search
           'debug'                  : false,
           'descriptiveWords'       : 300,
           'footerPages'            : 3,
-          'highlightTerms'         : false,
+          'highlightTerms'         : true,
           'imageZoom'              : false,
           'minimumLength'          : 1,
-          'newWindow'              : false,
+          'newWindow'              : true,
           'show'                   : 10,
           'showContext'            : true,
           'showRelated'            : true,
           'showTime'               : true,
           'showTitleCount'         : true,
-          'showURL'                : false,
+          'showURL'                : true,
           'wholeWords'             : true
           }, options);
           
