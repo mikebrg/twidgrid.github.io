@@ -19,7 +19,8 @@ http://www.tipue.com/search
      background-color: #edefeb;
      padding: 9px 0 10px 18px;
      height: 60px;
-     border-radius: 5px;
+     border-top-left-radius: 50px;
+     border-bottom-left-radius: 50px;
      border-style: solid;
      border-color: #dbd8fc;
 	margin: 0;
@@ -42,7 +43,8 @@ http://www.tipue.com/search
      height: 60px;
      margin-left: 5px;
      background-color: #393193;
-     border-radius: 5px;
+     border-top-right-radius: 50px;
+     border-bottom-right-radius: 50px;
      cursor: pointer;
 	outline: 0;
      font-size: 14px;
@@ -66,7 +68,7 @@ http://www.tipue.com/search
 	box-sizing: border-box;
      box-shadow: none;
 	outline: 0;	
-	margin: -1px 0 0 17px;
+	margin: -1px 0 0 15px;
     
 }
 .tipue_search_group:after
