@@ -1,6 +1,7 @@
 
 var tipuesearch = {"pages": [
 
+     
      {"title": "	Chess.com	", "text": "	Chess.com is an internet chess server and social networking website. The site has a freemium model in which some features are available for free, and others are available for accounts with subscriptions. Live online chess can be played against other users in daily, rapid, blitz or bullet time controls, with a number of chess variants available. Chess versus a chess engine, computer analysis, chess puzzles and teaching resources are offered.	", "img": "assets/images/	chess-376x376.jpg	", "tags": "	game games	", "note": "		", "url": "	https://www.chess.com/	"},
      {"title": "	Poki	", "text": "	Poki is the #1 website for playing free online games on your mobile, tablet or computer. No downloads, no login. Play now!	", "img": "assets/images/	poki-225x225.png	", "tags": "	game games	", "note": "		", "url": "	https://poki.com/	"},
      {"title": "	Steam Community	", "text": "	Community and official content for all games and software on Steam.	", "img": "assets/images/	share-steam-logo-700x700.png	", "tags": "	game games	", "note": "		", "url": "	https://steamcommunity.com/	"},
