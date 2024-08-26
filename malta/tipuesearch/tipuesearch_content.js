@@ -1,6 +1,7 @@
 
 var tipuesearch = {"pages": [
      
+
      {"title": "	Victoria Lions	", "text": "	Victoria Lions, cricket club Gozo -Malta..	", "img": "	assets/images/victoria-lions-1-450x450.png	", "tags": "	cricket club clubs	", "note": "						", "url": "	https://www.facebook.com/profile.php?id=100081225986304	"},
      {"title": "	Ġebla	", "text": "	Indoor, or outside on the rocks, climbing is one of the best full body workouts going. It develops endurance, core strength, flexibility and is an incredible performance booster when combined with other sports. It improves your balance, agility, mental endurance and of course, strength. It’s also accessible for everyone and is a lot of fun!	", "img": "	assets/images/ebla-376x376.jpg	", "tags": "	rock climbing club clubs gebla	", "note": "						", "url": "	https://gebla.mt/	"},
      {"title": "	Malta Climbing Club	", "text": "	The MCC is a non-commercial organisation that brings together all who are interested in the climbing scene in the Maltese islands, whether bouldering, traditional leading, sport climbing, alpinism or mountaineering. If you’ve climbed or want to know about climbing in Malta, this club is for you. We promote the sport at a national level, develop international relations, organise climbing-related activities and represent climbers on access issues, amongst other roles.	", "img": "	assets/images/malta-climbing-club-376x376.jpg	", "tags": "	rock climbing club clubs	", "note": "						", "url": "	https://maltaclimbingclub.org/	"},
