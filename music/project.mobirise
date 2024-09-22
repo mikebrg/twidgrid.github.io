@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Music",
-    "currentPage": "artists.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -42,7 +42,7 @@
         "url": "https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 97,
+    "uniqCompNum": 98,
     "versionPublish": "5.9.20",
     "imageResize": true,
     "favicon": false,
@@ -821,50 +821,28 @@
           "_params": {}
         },
         {
-          "alias": false,
+          "_name": "features09",
+          "_sourceTheme": "startm5",
           "_styles": {
-            ".item-wrapper": {
-              "margin-bottom": "2rem"
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = \"color\")": {
+              "background": "@bg-value"
             },
-            "@media (max-width: 767px)": {
-              ".smallImage": {
-                "width": "100%",
-                "& when (@autoSize)": {
-                  "height": "100%",
-                  "object-fit": "cover"
-                }
-              },
-              ".largeImage": {
-                "width": "100%",
-                ".item": {
-                  "margin-bottom": "2rem"
-                },
-                "@media (max-width: 767px)": {
-                  ".item": {
-                    "margin-bottom": "1rem"
-                  }
-                },
-                "& when (@autoSize)": {
-                  "height": "100%",
-                  "object-fit": "cover"
-                }
-              },
-              ".item-wrapper": {
-                "margin-bottom": "1rem"
-              }
-            },
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
+            "& when (@bg-type = \"image\")": {
               "background-image": "url(@bg-value)"
             },
             ".mbr-fallback-image.disabled": {
               "display": "none"
+            },
+            ".content-wrap": {
+              "display": "flex",
+              "flex-direction": "column",
+              "height": "100%",
+              ".mbr-section-btn": {
+                "justify-self": "flex-end",
+                "margin-top": "auto"
+              }
             },
             ".mbr-fallback-image": {
               "display": "block",
@@ -874,69 +852,107 @@
               "height": "100%",
               "position": "absolute",
               "top": "0",
-              "& when (@bg-type = 'video')": {
+              "& when (@bg-type = \"video\")": {
                 "background-image": "url(@fallBackImage)"
               }
             },
-            ".mbr-description": {
-              "text-align": "left"
+            ".content-head": {
+              "max-width": "800px"
             },
-            ".card-title, .iconfont-wrapper": {
-              "color": "#000000"
+            ".card1": {
+              "background": "@cardBg1"
             },
-            ".card-text": {
-              "color": "#000000"
+            ".card2": {
+              "background": "@cardBg2"
             },
-            ".mbr-section-title": {
-              "color": "#000000",
-              "text-align": "center"
+            ".card3": {
+              "background": "@cardBg3"
             },
-            ".mbr-number": {
-              "color": "#9fe870"
+            ".card4": {
+              "background": "@cardBg4"
             },
-            ".mbr-text, .mbr-section-btn": {
-              "text-align": "center"
+            ".image-wrap": {
+              "padding-bottom": "0rem",
+              "position": "relative",
+              ".social-row": {
+                "position": "absolute",
+                "bottom": "0.5rem",
+                "right": "1rem"
+              }
             },
-            ".card-text, .item .mbr-section-btn": {
-              "text-align": "left"
+            ".card": {
+              "margin-bottom": "2rem",
+              "@media (max-width: 767px)": {
+                "margin-bottom": "1rem"
+              }
             },
-            ".smallImage": {
-              "width": "100%",
-              "& when (@autoSize)": {
-                "height": "(@imageHeight * 100px)",
+            ".card-wrap": {
+              "height": "100%",
+              "display": "flex",
+              "flex-direction": "column",
+              ".image-wrap img": {
+                "width": "100%",
+                "height": "400px",
                 "object-fit": "cover"
               },
-              "@media (max-width: 992px)": {
-                "& when (@autoSize)": {
-                  "height": "100%",
-                  "object-fit": "cover"
+              ".content-wrap": {
+                "@media (min-width: 768px)": {
+                  "padding": "2.25rem"
+                },
+                "@media (max-width: 767px)": {
+                  "padding": "1.5rem"
                 }
               }
             },
-            ".largeImage": {
+            ".title-row": {
+              "position": "absolute",
+              "left": "0",
+              "bottom": "0",
+              "right": "0",
+              "padding": "2rem",
               "width": "100%",
-              "& when (@autoSize)": {
-                "height": "((@imageHeight * 200px) + 32px)",
-                "object-fit": "cover"
-              },
-              "@media (max-width: 992px)": {
-                "& when (@autoSize)": {
-                  "height": "100%",
-                  "object-fit": "cover"
-                }
+              "@media (max-width: 767px)": {
+                "padding": "1.5rem"
               }
             },
-            "& when (@reverseContent)": {
-              ".row": {
-                "flex-direction": "row-reverse"
-              }
+            ".card-title2, .social-row": {
+              "color": "#ffa600"
+            },
+            ".card-title1, .social-row": {
+              "color": "#ffa600"
+            },
+            ".card-title3, .social-row": {
+              "color": "#ffa600"
+            },
+            ".card-text3, .mbr-section-btn": {
+              "color": "#000000"
+            },
+            ".card-text1, .mbr-section-btn": {
+              "color": "#260a30"
+            },
+            ".card-text2, .mbr-section-btn": {
+              "color": "#000000"
+            },
+            ".card-title4, .social-row": {
+              "color": "#ffa600"
+            },
+            ".card-text4, .mbr-section-btn": {
+              "color": "#320707"
+            },
+            ".mbr-role2": {
+              "color": "#ffffff"
+            },
+            ".mbr-role4": {
+              "color": "#320707"
+            },
+            ".mbr-role3": {
+              "color": "#ffffff"
             }
           },
-          "_name": "gallery05",
-          "_sourceTheme": "startm5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"gallery05\" group=\"Gallery & Slider\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"10\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Image</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"3\" condition=\"autoSize\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffc091\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle || showText\">\n            <div class=\"col-md-12 content-head mb-5\">\n                <h1 class=\"mbr-section-title mbr-fonts-style  mb-0\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    <b>Gallery with fixed layout</b>\n                </h1>\n                <p class=\"mbr-text mbr-fonts-style mt-4 mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Keep the \"Auto size\" option enabled for a better look.</p>\n            </div>\n        </div>\n        <div class=\"row justify-content-center  blockContent\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"row\">\n                    <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6 active\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"item-img\">\n                                <a href=\"albums-2020s.html\"><img src=\"@PROJECT_PATH@/assets/images/yellow-cd-with-word-spring-bottom-1161162-578867-360x630.jpg\" alt=\"Albums\" title data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"smallImage\"></a>\n                            </div>\n\n                        </div>\n                    </div>\n                    <div class=\"col-md-6 col-xs-12 col-sm-12 col-lg-6\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"item-img\">\n                                <a href=\"artists.html\"><img src=\"@PROJECT_PATH@/assets/images/man-with-beard-wearing-yellow-plaid-shirt-sunglasses-sings-with-passion-into-microphone-248459-52511-596x334.jpg\" alt=\"Artists\" title data-slide-to=\"1\" data-bs-slide-to=\"1\" class=\"smallImage\"></a>\n                            </div>\n\n                        </div>\n                    </div>\n                    <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"item-img\">\n                                <a href=\"streaming.html\"><img src=\"@PROJECT_PATH@/assets/images/smart-phone-with-word-headphones-it-926711-2842-596x334.jpg\" alt=\"Streaming\" title data-slide-to=\"2\" data-bs-slide-to=\"2\" class=\"smallImage\"></a>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"col-xs-12 col-sm-12 col-md-6 col-lg-6\">\n                        <div class=\"item-wrapper\">\n                            <div class=\"item-img\">\n                                <a href=\"downloading.html\"><img src=\"@PROJECT_PATH@/assets/images/file-folder-with-musical-note-icon-middle-music-folder-concept-isolated-yellow-background-ai-985124-5362-596x397.jpg\" alt=\"Downloading\" title data-slide-to=\"3\" data-bs-slide-to=\"3\" class=\"smallImage\"></a>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img \">\n                        <a href=\"songs-2024.html\"><img class=\"w-100 largeImage\" src=\"@PROJECT_PATH@/assets/images/artistic-drawing-headphone-with-musical-notes-emanating-through-air-1204450-18581-900x600.jpg\" alt=\"Songs\" data-slide-to=\"3\" data-bs-slide-to=\"3\"></a>\n                    </div>\n\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "umQ1g96AoH",
-          "_anchor": "gallery05-2",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"features9\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n\t<mbr-parameters>\n\t\t<header>Size</header>\n\t\t<input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n\t\t<input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"10\">\n\t\t<input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<select title=\"Cards\" name=\"cardsAmount\">\n\t\t\t<option value=\"1\">1</option>\n\t\t\t<option value=\"2\">2</option>\n\t\t\t<option value=\"3\">3</option>\n\t\t\t<option value=\"4\" selected>4</option>\n\t\t</select>\n\t\t<header>Card</header>\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showName\" checked>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showRole\">\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showCardText\" checked>\n\t\t<input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n\t\t<header>Color</header>\n\t\t<input type=\"color\" title=\"Card 1\" name=\"cardBg1\" value=\"#ffeb69\">\n\t\t<input type=\"color\" title=\"Card 2\" name=\"cardBg2\" value=\"#ffeb69\" condition=\"cardsAmount > 1\">\n\t\t<input type=\"color\" title=\"Card 3\" name=\"cardBg3\" value=\"#ffeb69\" condition=\"cardsAmount > 2\">\n\t\t<input type=\"color\" title=\"Card 4\" name=\"cardBg4\" value=\"#ffeb69\" condition=\"cardsAmount > 3\">\n\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" parallax>\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffc091\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n\t\t</fieldset>\n\t\t<header condition=\"bg.type === 'video'\">Fallback Image</header>\n\t\t<input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background1.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n\t</mbr-parameters>\n\n\t<div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\"></div>\n\t<div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n\t\t<div class=\"row justify-content-center\">\n\t\t\t<div class=\"col-12 mb-5 content-head\" mbr-if=\"showTitle || showSubtitle\">\n\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n\t\t\t\t\t<b>Features</b>\n\t\t\t\t</h3>\n\t\t\t\t<p class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-4\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n\t\t\t\t\tSubtitle\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t\t<div class=\"col-sm-6 col-md-12 col-lg-8 card\">\n\t\t\t\t<div class=\"card-wrap card1\">\n\t\t\t\t\t<div class=\"image-wrap\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/view-music-player-with-vinyl-23-2151051582-626x417.jpg\" alt=\"songs\">\n\t\t\t\t\t\t<div class=\"title-row display-7\">\n\t\t\t\t\t\t\t<h5 class=\"card-title1 mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-2\" mbr-if=\"showName\" data-app-selector=\".card-title1, .social-row\">\n\t\t\t\t\t\t\t\t<b>Songs</b></h5>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"content-wrap\">\n\t\t\t\t\t\t<h6 class=\"mbr-role mbr-fonts-style align-left mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showRole\" data-app-selector=\".mbr-role\">\n\t\t\t\t\t\t\t<b>Subtitle</b>\n\t\t\t\t\t\t</h6>\n\t\t\t\t\t\t<p class=\"card-text1 mbr-fonts-style align-left\" data-app-selector=\".card-text1, .mbr-section-btn\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n\t\t\t\t\t\t\tDiscover the latest top-charted songs across genres! Stay updated with trending hits, explore popular tracks, and dive into curated playlists featuring today's biggest artists. Your ultimate guide to what's hot in the music world.\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn btn-section align-left\" mbr-if=\"showButtons\"><a class=\"btn article-btn btn-primary\" href=\"songs-2024.html\" data-app-placeholder=\"Type Text\">Songs<strong></strong></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-sm-6 col-md-12 col-lg-4 card\" mbr-if=\"cardsAmount > 1\">\n\t\t\t\t<div class=\"card-wrap card2\">\n\t\t\t\t\t<div class=\"content-wrap\">\n\t\t\t\t\t\t<h5 class=\"card-title2 mbr-fonts-style align-left pb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showName\" data-app-selector=\".card-title2, .social-row\">\n\t\t\t\t\t\t\t<b>Albums</b></h5>\n\t\t\t\t\t\t<h6 class=\"mbr-role2 mbr-fonts-style align-left mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showRole\" data-app-selector=\".mbr-role2\">\n\t\t\t\t\t\t\t<b>Subtitle</b>\n\t\t\t\t\t\t</h6>\n\t\t\t\t\t\t<p class=\"card-text2 mbr-fonts-style align-left\" data-app-selector=\".card-text2, .mbr-section-btn\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n\t\t\t\t\t\t\tDiscover the latest top-charting albums across all genres. Stay updated with the hottest music trends, explore album rankings, and dive into the sounds dominating the charts right now. Perfect for music enthusiasts looking for fresh hits and timeless classics.<br>\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn btn-section align-left\" mbr-if=\"showButtons\"><a class=\"btn article-btn btn-primary\" href=\"albums-2020s.html\" data-app-placeholder=\"Type Text\">Albums<strong></strong></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"col-sm-6 col-md-12 col-lg-4 card\" mbr-if=\"cardsAmount > 2\">\n\t\t\t\t<div class=\"card-wrap card3\">\n\t\t\t\t\t<div class=\"content-wrap\">\n\t\t\t\t\t\t<h5 class=\"card-title3 mbr-fonts-style align-left pb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showName\" data-app-selector=\".card-title3, .social-row\">\n\t\t\t\t\t\t\t<b>Artists</b></h5>\n\t\t\t\t\t\t<h6 class=\"mbr-role3 mbr-fonts-style align-left mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showRole\" data-app-selector=\".mbr-role3\">\n\t\t\t\t\t\t\t<b>Subtitle</b>\n\t\t\t\t\t\t</h6>\n\t\t\t\t\t\t<p class=\"card-text3 mbr-fonts-style align-left\" data-app-selector=\".card-text3, .mbr-section-btn\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n\t\t\t\t\t\t\tDiscover the top charted music artists across genres and platforms! Stay updated with the latest hits, explore trending musicians, and dive into their discography. Your go-to source for music charts, artist rankings, and the hottest songs of the moment.\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn btn-section align-left\" mbr-if=\"showButtons\"><a class=\"btn article-btn btn-primary\" href=\"artists.html\" data-app-placeholder=\"Type Text\">Artists<strong></strong></a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\n\t\t\t<div class=\"col-sm-6 col-md-12 col-lg-8 card\" mbr-if=\"cardsAmount > 3\">\n\t\t\t\t<div class=\"card-wrap card4\">\n\t\t\t\t\t<div class=\"image-wrap\">\n\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/happy-teenager-listening-music-1155405-7087-626x417.jpg\" alt=\"streaming\">\n\t\t\t\t\t\t<div class=\"title-row display-7\">\n\t\t\t\t\t\t\t<h5 class=\"card-title4 mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-2\" mbr-if=\"showName\" data-app-selector=\".card-title4, .social-row\">\n\t\t\t\t\t\t\t\t<b>Streaming</b></h5>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"content-wrap\">\n\t\t\t\t\t\t<h6 class=\"mbr-role4 mbr-fonts-style align-left mb-3\" mbr-theme-style=\"display-7\" mbr-if=\"showRole\" data-app-selector=\".mbr-role4\">\n\t\t\t\t\t\t\t<b>Subtitle</b>\n\t\t\t\t\t\t</h6>\n\t\t\t\t\t\t<p class=\"card-text4 mbr-fonts-style align-left\" data-app-selector=\".card-text4, .mbr-section-btn\" mbr-theme-style=\"display-7\" mbr-if=\"showCardText\">\n\t\t\t\t\t\t\tDiscover the best platforms for streaming and downloading music! Explore our curated list of top music streaming and downloading websites, offering a variety of genres, high-quality sound, and user-friendly features. Whether you're looking for free music, premium subscriptions, or downloadable tracks for offline listening, we've got the perfect sites to suit your music needs.\n\t\t\t\t\t\t</p>\n\t\t\t\t\t\t<div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn btn-section align-left\" mbr-if=\"showButtons\"><a class=\"btn article-btn btn-primary\" href=\"streaming.html\" data-app-placeholder=\"Type Text\">Streaming</a> <a class=\"btn article-btn btn-primary-outline\" href=\"downloading.html\" data-app-placeholder=\"Type Text\">Downloading</a></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
+          "_anchor": "features09-2p",
+          "_isUserblock": true,
+          "_cid": "up5OJso30g",
           "_protectedParams": [],
           "_global": false,
           "_once": false,

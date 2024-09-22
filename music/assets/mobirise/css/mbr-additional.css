@@ -1336,41 +1336,24 @@ a {
     padding: 1rem;
   }
 }
-.cid-umQ1g96AoH {
+.cid-up5OJso30g {
   padding-top: 10rem;
-  padding-bottom: 10rem;
-  background-color: #ffc091;
+  padding-bottom: 6rem;
+  background: #ffc091;
 }
-.cid-umQ1g96AoH .item-wrapper {
-  margin-bottom: 2rem;
-}
-@media (max-width: 767px) {
-  .cid-umQ1g96AoH .smallImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .cid-umQ1g96AoH .largeImage {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .cid-umQ1g96AoH .largeImage .item {
-    margin-bottom: 2rem;
-  }
-  .cid-umQ1g96AoH .item-wrapper {
-    margin-bottom: 1rem;
-  }
-}
-@media (max-width: 767px) and (max-width: 767px) {
-  .cid-umQ1g96AoH .largeImage .item {
-    margin-bottom: 1rem;
-  }
-}
-.cid-umQ1g96AoH .mbr-fallback-image.disabled {
+.cid-up5OJso30g .mbr-fallback-image.disabled {
   display: none;
 }
-.cid-umQ1g96AoH .mbr-fallback-image {
+.cid-up5OJso30g .content-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.cid-up5OJso30g .content-wrap .mbr-section-btn {
+  justify-self: flex-end;
+  margin-top: auto;
+}
+.cid-up5OJso30g .mbr-fallback-image {
   display: block;
   background-size: cover;
   background-position: center center;
@@ -1379,55 +1362,111 @@ a {
   position: absolute;
   top: 0;
 }
-.cid-umQ1g96AoH .mbr-description {
-  text-align: left;
+.cid-up5OJso30g .content-head {
+  max-width: 800px;
 }
-.cid-umQ1g96AoH .card-title,
-.cid-umQ1g96AoH .iconfont-wrapper {
-  color: #000000;
+.cid-up5OJso30g .card1 {
+  background: #ffeb69;
 }
-.cid-umQ1g96AoH .card-text {
-  color: #000000;
+.cid-up5OJso30g .card2 {
+  background: #ffeb69;
 }
-.cid-umQ1g96AoH .mbr-section-title {
-  color: #000000;
-  text-align: center;
+.cid-up5OJso30g .card3 {
+  background: #ffeb69;
 }
-.cid-umQ1g96AoH .mbr-number {
-  color: #9fe870;
+.cid-up5OJso30g .card4 {
+  background: #ffeb69;
 }
-.cid-umQ1g96AoH .mbr-text,
-.cid-umQ1g96AoH .mbr-section-btn {
-  text-align: center;
+.cid-up5OJso30g .image-wrap {
+  padding-bottom: 0rem;
+  position: relative;
 }
-.cid-umQ1g96AoH .card-text,
-.cid-umQ1g96AoH .item .mbr-section-btn {
-  text-align: left;
+.cid-up5OJso30g .image-wrap .social-row {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
 }
-.cid-umQ1g96AoH .smallImage {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
+.cid-up5OJso30g .card {
+  margin-bottom: 2rem;
 }
-@media (max-width: 992px) {
-  .cid-umQ1g96AoH .smallImage {
-    height: 100%;
-    object-fit: cover;
+@media (max-width: 767px) {
+  .cid-up5OJso30g .card {
+    margin-bottom: 1rem;
   }
 }
-.cid-umQ1g96AoH .largeImage {
+.cid-up5OJso30g .card-wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cid-up5OJso30g .card-wrap .image-wrap img {
   width: 100%;
-  height: 632px;
+  height: 400px;
   object-fit: cover;
 }
-@media (max-width: 992px) {
-  .cid-umQ1g96AoH .largeImage {
-    height: 100%;
-    object-fit: cover;
+@media (min-width: 768px) {
+  .cid-up5OJso30g .card-wrap .content-wrap {
+    padding: 2.25rem;
   }
 }
-.cid-umQ1g96AoH .row {
-  flex-direction: row-reverse;
+@media (max-width: 767px) {
+  .cid-up5OJso30g .card-wrap .content-wrap {
+    padding: 1.5rem;
+  }
+}
+.cid-up5OJso30g .title-row {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 2rem;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .cid-up5OJso30g .title-row {
+    padding: 1.5rem;
+  }
+}
+.cid-up5OJso30g .card-title2,
+.cid-up5OJso30g .social-row {
+  color: #ffa600;
+}
+.cid-up5OJso30g .card-title1,
+.cid-up5OJso30g .social-row {
+  color: #ffa600;
+}
+.cid-up5OJso30g .card-title3,
+.cid-up5OJso30g .social-row {
+  color: #ffa600;
+}
+.cid-up5OJso30g .card-text3,
+.cid-up5OJso30g .mbr-section-btn {
+  color: #000000;
+}
+.cid-up5OJso30g .card-text1,
+.cid-up5OJso30g .mbr-section-btn {
+  color: #260a30;
+}
+.cid-up5OJso30g .card-text2,
+.cid-up5OJso30g .mbr-section-btn {
+  color: #000000;
+}
+.cid-up5OJso30g .card-title4,
+.cid-up5OJso30g .social-row {
+  color: #ffa600;
+}
+.cid-up5OJso30g .card-text4,
+.cid-up5OJso30g .mbr-section-btn {
+  color: #320707;
+}
+.cid-up5OJso30g .mbr-role2 {
+  color: #ffffff;
+}
+.cid-up5OJso30g .mbr-role4 {
+  color: #320707;
+}
+.cid-up5OJso30g .mbr-role3 {
+  color: #ffffff;
 }
 .cid-umPNbgF2TC {
   padding-top: 6rem;
