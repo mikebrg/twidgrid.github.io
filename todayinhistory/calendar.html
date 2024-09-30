@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:src" content="assets/images/calendar-meta.jpg">
+  <meta property="og:image" content="assets/images/calendar-meta.jpg">
+  <meta name="twitter:title" content="Calendar | Today in History">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/today-in-history-logo-128x128.png" type="image/x-icon">
   <meta name="description" content="Unlock the Past: Discover What Happened Today in History!">
@@ -21,7 +25,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=Gypc3a"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=Gypc3a" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=f9eZfY"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=f9eZfY" type="text/css">
 
   
   
@@ -222,7 +226,7 @@ function generateCalendar(date) {
 
     // Link to a specific webpage when a date is clicked
     dayDiv.addEventListener('click', function () {
-      window.location.href = `https://example.com/page-for-${year}-${month + 1}-${day}`;
+      window.location.href = `https://twidgrid.com/todayinhistory/${month + 1}#${day}`;
     });
 
     daysContainer.appendChild(dayDiv);
