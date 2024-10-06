@@ -25,7 +25,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=yxAPp3"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=yxAPp3" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=V13ZOz"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=V13ZOz" type="text/css">
 
   
   
@@ -330,7 +330,7 @@
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Heraclius arrives at Constantinople, kills Byzantine Emperor Phocas, and becomes emperor.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Constantinople</h6>
               <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">610<br></p>
-            </div>
+            </div><p></p><div class="result" id="result1"></div>
             
           </div>
         </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
@@ -342,7 +342,7 @@
               <h5 class="item-title mbr-fonts-style mb-3 display-4">French Revolution: The Women's March on Versailles effectively terminates royal authority.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
               <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1789</p>
-            </div>
+            </div><p></p><div class="result" id="result2"></div>
             
           </div>
         </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
@@ -354,12 +354,55 @@
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Mordechai Vanunu's story in The Sunday Times reveals Israel's secret nuclear weapons.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
               <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1986<br></p>
-            </div>
+            </div><p></p><div class="result" id="result3"></div>
             
           </div>
         </div>
       </div>
     </div>
+
+    <script>
+    function formatNumber(num) {
+        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+
+    function calculateTimePassed(startDate) {
+        const currentDate = new Date();
+        let years = currentDate.getFullYear() - startDate.getFullYear();
+        let months = currentDate.getMonth() - startDate.getMonth();
+
+        // Adjust for negative months
+        if (months < 0) {
+            years--;
+            months += 12;
+        }
+
+        return { years, months };
+    }
+
+    function displayResults() {
+        const dates = [
+            new Date('610-10-5'),
+            new Date('1789-10-5'),
+            new Date('1986-10-5')
+        ];
+
+        const resultDivs = [
+            document.getElementById('result1'),
+            document.getElementById('result2'),
+            document.getElementById('result3')
+        ];
+
+        dates.forEach((date, index) => {
+            const { years, months } = calculateTimePassed(date);
+            resultDivs[index].innerHTML = `${formatNumber(years)} years and ${months} months ago`;
+        });
+    }
+
+    // Call the function to display the results immediately
+    displayResults();
+</script>
+
   </section>
 
 <section data-bs-version="5.1" class="features13 cid-upQB8hbSGv" id="6">
@@ -464,6 +507,392 @@
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The U.S. invasion of Afghanistan begins with an air assault and covert operations on the ground, starting the longest war in American history.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Afghanistan</h6>
               <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2001<br></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section data-bs-version="5.1" class="features13 cid-uq7uznINWJ" id="8">
+    
+    
+    <div class="container">
+      <div class="mbr-section-head mb-5">
+        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5"><strong>October 8</strong></h4>
+        
+      </div>
+      <div class="row">
+        
+        
+        
+        
+        
+        <div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Battle_of_Cibalae" target="_blank"><img src="assets/images/constantine-i-defeats-roman-emperor-licinius-who-loses-his-european-territories.-318x159.jpg" alt="Constantine I defeats Roman Emperor Licinius, who loses his European territories." title="" data-slide-to="0" data-bs-slide-to="0"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">Constantine I defeats Roman Emperor Licinius, who loses his European territories.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Colonia Aurelia Cibalae (modern Vinkovci, Croatia)</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">314<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Rainhill_trials" target="_blank"><img src="assets/images/stephensons-rocket-800x600.jpg" alt="Stephenson's Rocket wins the Rainhill Trials." title="" data-slide-to="1" data-bs-slide-to="1"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">Stephenson's Rocket wins the Rainhill Trials.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1829<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Israel%E2%80%93Hamas_war" target="_blank"><img src="assets/images/2023-israelhamas-war-is-declared.webp" alt="The 2023 Israel–Hamas war is declared following the Hamas attack the day prior" title="" data-slide-to="2" data-bs-slide-to="2"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">The 2023 Israel–Hamas war is declared following the Hamas attack the day prior.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Gaza Strip and Israel</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2023<br></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section data-bs-version="5.1" class="features13 cid-uq7uBWqMLz" id="9">
+    
+    
+    <div class="container">
+      <div class="mbr-section-head mb-5">
+        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5"><strong>October 9</strong></h4>
+        
+      </div>
+      <div class="row">
+        
+        
+        
+        
+        
+        <div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Prague_astronomical_clock" target="_blank"><img src="assets/images/czech-2013-prague-astronomical-clock-face-816x614.jpg" alt="The first known mention of the Prague astronomical clock." title="" data-slide-to="0" data-bs-slide-to="0"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">The first known mention of the Prague astronomical clock.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Prague 1, Czech Republic</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1410<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Restauration_(ship)" target="_blank"><img src="assets/images/restaurationen-450x338.jpg" alt="Restauration arrives in New York Harbor from Norway, the first organized immigration from Norway to the United States." title="" data-slide-to="1" data-bs-slide-to="1"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">Restauration arrives in New York Harbor from Norway, the first organized immigration from Norway to the United States.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">New York, United States</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1825<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Lunar_Precursor_Robotic_Program" target="_blank"><img src="assets/images/640px-lcross-centaur-1-640x606.jpg" alt="First lunar impact of NASA's Lunar Precursor Robotic Program." title="" data-slide-to="2" data-bs-slide-to="2"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">First lunar impact of NASA's Lunar Precursor Robotic Program.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Moon</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2009<br></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section data-bs-version="5.1" class="features13 cid-uq7uD4RkVH" id="10">
+    
+    
+    <div class="container">
+      <div class="mbr-section-head mb-5">
+        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5"><strong>October 10</strong></h4>
+        
+      </div>
+      <div class="row">
+        
+        
+        
+        
+        
+        <div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Germanicus" target="_blank"><img src="assets/images/19-the-roman-general-germanicus-dies-near-antioch-783x590.jpg" alt="The Roman general Germanicus dies near Antioch. He was convinced that the mysterious illness that ended in his death was a result of poisoning by the Syrian governor Gnaeus Calpurnius Piso, whom he had ordered to leave the province." title="" data-slide-to="0" data-bs-slide-to="0"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">The Roman general Germanicus dies near Antioch. He was convinced that the mysterious illness that ended in his death was a result of poisoning by the Syrian governor Gnaeus Calpurnius Piso, whom he had ordered to leave the province.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Antioch</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">19<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Triton_(moon)" target="_blank"><img src="assets/images/120907-triton1photo-hmed-0815a-files.webp" alt="Triton, the largest moon of the planet Neptune, is discovered by English astronomer William Lassell." title="" data-slide-to="1" data-bs-slide-to="1"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">Triton, the largest moon of the planet Neptune, is discovered by English astronomer William Lassell.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1846<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Authorization_for_Use_of_Military_Force_Against_Iraq_Resolution_of_2002" target="_blank"><img src="assets/images/gettyimages-1478237.webp" alt="Iraq War: The United States Congress approves the Authorization for Use of Military Force Against Iraq Resolution of 2002." title="" data-slide-to="2" data-bs-slide-to="2"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">Iraq War: The United States Congress approves the Authorization for Use of Military Force Against Iraq Resolution of 2002.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2002<br></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section data-bs-version="5.1" class="features13 cid-uq7uCkfZBo" id="11">
+    
+    
+    <div class="container">
+      <div class="mbr-section-head mb-5">
+        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5"><strong>October 11</strong></h4>
+        
+      </div>
+      <div class="row">
+        
+        
+        
+        
+        
+        <div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/1138_Aleppo_earthquake" target="_blank"><img src="assets/images/1138-a-massive-earthquake-strikes-aleppo-816x459.jpg" alt="A massive earthquake strikes Aleppo; it is one of the most destructive earthquakes ever." title="" data-slide-to="0" data-bs-slide-to="0"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">A massive earthquake strikes Aleppo; it is one of the most destructive earthquakes ever.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Aleppo, Syria</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1138<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/John_Stevens_(inventor,_born_1749)#Steamboats" target="_blank"><img src="assets/images/tj-potter-steamboat-1901-816x515.jpg" alt="The Juliana begins operation as the first steam-powered ferry in New York harbor." title="" data-slide-to="1" data-bs-slide-to="1"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">The Juliana begins operation as the first steam-powered ferry in New York harbor.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">New York, United States</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1811<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Apollo_7" target="_blank"><img src="assets/images/apollo-7-in-space-816x459.jpg" alt="NASA launches Apollo 7, the first successful crewed Apollo mission." title="" data-slide-to="2" data-bs-slide-to="2"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">NASA launches Apollo 7, the first successful crewed Apollo mission.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Cape Kennedy LC-34, United States</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1968<br></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section data-bs-version="5.1" class="features13 cid-uq7uyjxg9l" id="12">
+    
+    
+    <div class="container">
+      <div class="mbr-section-head mb-5">
+        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5"><strong>October 12</strong></h4>
+        
+      </div>
+      <div class="row">
+        
+        
+        
+        
+        
+        <div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus" target="_blank"><img src="assets/images/columbus-taking-possession-350x264.jpg" alt="Christopher Columbus's first expedition makes landfall in the Caribbean, specifically on San Salvador Island. (Julian calendar)" title="" data-slide-to="0" data-bs-slide-to="0"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">Christopher Columbus's first expedition makes landfall in the Caribbean, specifically on San Salvador Island. (Julian calendar)</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">San Salvador Island, Caribbean</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1492<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Jeanne_Genevi%C3%A8ve_Garnerin" target="_blank"><img src="assets/images/1799-jeanne-genevive-labrosse-becomes-the-first-woman-to-jump-from-a-balloon-with-a-parachute.-816x557.jpg" alt="Jeanne Geneviève Labrosse becomes the first woman to jump from a balloon with a parachute." title="" data-slide-to="1" data-bs-slide-to="1"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">Jeanne Geneviève Labrosse becomes the first woman to jump from a balloon with a parachute.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1799<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Alcatraz_Federal_Penitentiary" target="_blank"><img src="assets/images/alcatraz-island-photo-don-ramey-logan-816x417.jpg" alt="The military Alcatraz Citadel becomes the civilian Alcatraz Federal Penitentiary." title="" data-slide-to="2" data-bs-slide-to="2"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">The military Alcatraz Citadel becomes the civilian Alcatraz Federal Penitentiary.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">San Francisco Bay, California, United States</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1933<br></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section data-bs-version="5.1" class="features13 cid-uq7uzPgTQX" id="13">
+    
+    
+    <div class="container">
+      <div class="mbr-section-head mb-5">
+        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5"><strong>October 13</strong></h4>
+        
+      </div>
+      <div class="row">
+        
+        
+        
+        
+        
+        <div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Westminster_Abbey" target="_blank"><img src="assets/images/detail-of-exterior-of-westminster-abbey-london-walks-800x400.jpg" alt="The present church building at Westminster Abbey is consecrated." title="" data-slide-to="0" data-bs-slide-to="0"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">The present church building at Westminster Abbey is consecrated.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Dean's Yard, London SW1, England</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1269<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/White_House" target="_blank"><img src="assets/images/gettyimages-1337793735.webp" alt="In Washington, D.C., the cornerstone of the United States Executive Mansion (known as the White House since 1818) is laid." title="" data-slide-to="1" data-bs-slide-to="1"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">In Washington, D.C., the cornerstone of the United States Executive Mansion (known as the White House since 1818) is laid.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">1600 Pennsylvania Avenue NW, Washington, D.C. 20500<div>United States</div></h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1792<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Ameritech_Cellular" target="_blank"><img src="assets/images/ameritech-cellular-customer-david-m-1983-s-816x407.png" alt="Ameritech Mobile Communications launches the first US cellular network in Chicago." title="" data-slide-to="2" data-bs-slide-to="2"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">Ameritech Mobile Communications launches the first US cellular network in Chicago.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">&nbsp;Chicago, Illinois, United States</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1983<br></p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section data-bs-version="5.1" class="features13 cid-uq7uz5G0ML" id="14">
+    
+    
+    <div class="container">
+      <div class="mbr-section-head mb-5">
+        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-5"><strong>October 14</strong></h4>
+        
+      </div>
+      <div class="row">
+        
+        
+        
+        
+        
+        <div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Battle_of_Hastings" target="_blank"><img src="assets/images/1024px-bayeux-tapestry-scene57-harold-death-816x711.jpg" alt="The Norman conquest of England begins with the Battle of Hastings." title="" data-slide-to="0" data-bs-slide-to="0"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">The Norman conquest of England begins with the Battle of Hastings.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">	
+<div><span style="font-size: 1rem;">Hailesaltede, near Hastings, Sussex, England (today Battle, East Sussex, United Kingdom)</span><br></div></h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1066<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/George_Eastman" target="_blank"><img src="assets/images/1884-george-eastman-receives-a-u.s.-government-patent-on-his-new-paper-strip-photographic-film.-425x290.png" alt="George Eastman receives a U.S. Government patent on his new paper-strip photographic film." title="" data-slide-to="1" data-bs-slide-to="1"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">George Eastman receives a U.S. Government patent on his new paper-strip photographic film.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Roman Republic</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1884<br></p>
+            </div>
+            
+          </div>
+        </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
+          <div class="item-wrapper">
+            <div class="item-img mb-3">
+              <a href="https://en.wikipedia.org/wiki/Chuck_Yeager" target="_blank"><img src="assets/images/1947-chuck-yeager-becomes-the-first-person-to-exceed-the-speed-of-sound.-512x393.jpg" alt="Chuck Yeager becomes the first person to exceed the speed of sound." title="" data-slide-to="2" data-bs-slide-to="2"></a>
+            </div>
+            <div class="item-content align-left">
+              <h5 class="item-title mbr-fonts-style mb-3 display-4">Chuck Yeager becomes the first person to exceed the speed of sound.</h5>
+              <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Rogers Dry Lake of the Mojave Desert, California, United States</h6>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1947<br></p>
             </div>
             
           </div>
