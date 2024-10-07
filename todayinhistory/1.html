@@ -25,13 +25,61 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=Uoum6z"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=Uoum6z" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=OH0JlS"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=OH0JlS" type="text/css">
 
   
   
   
 </head>
 <body>
+
+<!-- Analytics -->
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentYear = new Date().getFullYear();
+
+            // Function to format numbers with commas
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Function to adjust years with BC or AD
+            function adjustYears() {
+                const regexBC = /\b(\d+)\s*BC\b/g; // Matches years with "BC"
+                const regexAD = /\b(\d+)\s*AD\b/g; // Matches years with "AD"
+                
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                
+                // Loop through all text nodes
+                while (node = walker.nextNode()) {
+                    let text = node.nodeValue;
+
+                    // Replace BC years
+                    text = text.replace(regexBC, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear + parseInt(year));
+                        return `${year} BC (${adjustedYear} years ago)`;
+                    });
+
+                    // Replace AD years
+                    text = text.replace(regexAD, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear - parseInt(year));
+                        return `${year} AD (${adjustedYear} years ago)`;
+                    });
+
+                    node.nodeValue = text;
+                }
+            }
+
+            // Isolate the script and ensure no interference with other scripts
+            (function safeScript() {
+                adjustYears();
+            })();
+        });
+    </script>
+<!-- /Analytics -->
+
+
   
   <section data-bs-version="5.1" class="menu menu1 cid-uqwi93whnZ" once="menu" id="menu01-69">
 	
@@ -134,7 +182,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The United States bans the importation of slaves.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1808<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1808 AD<br></p>
             </div>
             
           </div>
@@ -165,7 +213,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Luna 1, the first spacecraft to reach the vicinity of the Moon and to orbit the Sun, is launched by the Soviet Union.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Soviet Union</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1959<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1959 AD<br></p>
             </div>
             
           </div>
@@ -177,7 +225,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">One of the largest investigations by a British police force ends when serial killer Peter Sutcliffe, the "Yorkshire Ripper", is arrested in Sheffield, South Yorkshire.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1981<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1981 AD<br></p>
             </div>
             
           </div>
@@ -208,7 +256,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">American General George Washington defeats British General Lord Cornwallis at the Battle of Princeton.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1777<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1777 AD<br></p>
             </div>
             
           </div>
@@ -220,7 +268,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Hamilton Watch Company introduces the first electric watch.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1957<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1957 AD<br></p>
             </div>
             
           </div>
@@ -232,7 +280,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Alaska is admitted as the 49th U.S. state.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1959<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1959 AD<br></p>
             </div>
             
           </div>
@@ -263,7 +311,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Utah is admitted as the 45th U.S. state.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1896</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1896 AD</p>
             </div>
             
           </div>
@@ -275,7 +323,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Spirit, a NASA Mars rover, lands successfully on Mars at 04:35 UTC<em style="">.</em></h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Mars</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2004<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2004 AD<br></p>
             </div>
             
           </div>
@@ -287,7 +335,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Burj Khalifa, the current tallest building in the world, officially opens in Dubai.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United Arab Emirates</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2010<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2010 AD<br></p>
             </div>
             
           </div>
@@ -318,7 +366,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Palais Garnier, one of the most famous opera houses in the world, is inaugurated in Paris.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1875<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1875 AD<br></p>
             </div>
             
           </div>
@@ -330,7 +378,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The German Workers' Party, which would become the Nazi Party, is founded in Munich.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Germany</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1919<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1919 AD<br></p>
             </div>
             
           </div>
@@ -342,7 +390,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Construction of the Golden Gate Bridge begins in San Francisco Bay.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1933<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1933 AD<br></p>
             </div>
             
           </div>
@@ -373,7 +421,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">New Mexico is admitted to the Union as the 47th U.S. state.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1912<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1912 AD<br></p>
             </div>
             
           </div>
@@ -385,7 +433,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Mother Teresa arrives by sea in Calcutta, India, to begin her work among India's poorest and sick people.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">India</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1929<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1929 AD<br></p>
             </div>
             
           </div>
@@ -397,7 +445,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Supporters of U.S. President Donald Trump attack the United States Capitol to disrupt certification of the 2020 presidential election, resulting in five deaths and evacuation of the U.S. Congress.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2021<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2021 AD<br></p>
             </div>
             
           </div>
@@ -428,7 +476,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The first transatlantic commercial telephone service is established from New York City to London.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England / United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1927<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1927 AD<br></p>
             </div>
             
           </div>
@@ -440,7 +488,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Surveyor program: Surveyor 7, the last spacecraft in the Surveyor series, lifts off from Cape Canaveral Launch Complex 36A.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1968<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1968 AD<br></p>
             </div>
             
           </div>
@@ -452,7 +500,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Two gunmen commit mass murder at the offices of Charlie Hebdo in Paris, shooting twelve people execution style, and wounding eleven others.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2015<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2015 AD<br></p>
             </div>
             
           </div>
@@ -483,7 +531,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Democratic Party of the United States is organized.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1828<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1828 AD<br></p>
             </div>
             
           </div>
@@ -495,7 +543,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Soviet space mission Luna 21 is launched.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Soviet Union</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1973</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1973 AD</p>
             </div>
             
           </div>
@@ -507,7 +555,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Joaquín Guzmán, widely regarded as the world's most powerful drug trafficker, is recaptured following his escape from a maximum security prison in Mexico.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Mexico</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2016<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2016 AD<br></p>
             </div>
             
           </div>
@@ -538,7 +586,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The trial of Joan of Arc begins in Rouen.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1431<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1431 AD<br></p>
             </div>
             
           </div>
@@ -550,7 +598,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Apple CEO Steve Jobs introduces the original iPhone at a Macworld keynote in San Francisco.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2007<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2007 AD<br></p>
             </div>
             
           </div>
@@ -581,7 +629,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Metropolitan Railway, the world's oldest underground railway, opens between Paddington and Farringdon, marking the beginning of the London Underground.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1863<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1863 AD<br></p>
             </div>
             
           </div>
@@ -593,7 +641,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Treaty of Versailles takes effect, officially ending World War I for all combatant nations except the United States.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1920<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1920 AD<br></p>
             </div>
             
           </div>
@@ -605,7 +653,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The United States Army Signal Corps successfully conducts Project Diana, bouncing radio waves off the Moon and receiving the reflected signals.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1946<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1946 AD<br></p>
             </div>
             
           </div>
@@ -636,7 +684,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Michigan Territory is created.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1805<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1805 AD<br></p>
             </div>
             
           </div>
@@ -648,7 +696,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Louis B. Mayer, head of film studio Metro-Goldwyn-Mayer (MGM), announces the creation of the Academy of Motion Picture Arts and Sciences, at a banquet in Los Angeles, California.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1927<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1927 AD<br></p>
             </div>
             
           </div>
@@ -660,7 +708,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">COVID-19 pandemic in Hubei: Municipal health officials in Wuhan announce the first recorded death from COVID-19.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">China</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2020<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2020 AD<br></p>
             </div>
             
           </div>
@@ -669,7 +717,7 @@
     </div>
   </section>
 
-<section data-bs-version="5.1" class="footer1 cid-unFxVXGZOq" once="footers" id="footer01-a">
+<section data-bs-version="5.1" class="footer1 cid-upo2Rro40O" once="footers" id="footer01-4v">
 	
 
 	
@@ -713,6 +761,7 @@
 			</div>
 		</div>
 	</div>
+  
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   

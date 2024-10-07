@@ -25,13 +25,61 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=ERNgTB"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=ERNgTB" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=ZZ0fWW"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=ZZ0fWW" type="text/css">
 
   
   
   
 </head>
 <body>
+
+<!-- Analytics -->
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentYear = new Date().getFullYear();
+
+            // Function to format numbers with commas
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Function to adjust years with BC or AD
+            function adjustYears() {
+                const regexBC = /\b(\d+)\s*BC\b/g; // Matches years with "BC"
+                const regexAD = /\b(\d+)\s*AD\b/g; // Matches years with "AD"
+                
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                
+                // Loop through all text nodes
+                while (node = walker.nextNode()) {
+                    let text = node.nodeValue;
+
+                    // Replace BC years
+                    text = text.replace(regexBC, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear + parseInt(year));
+                        return `${year} BC (${adjustedYear} years ago)`;
+                    });
+
+                    // Replace AD years
+                    text = text.replace(regexAD, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear - parseInt(year));
+                        return `${year} AD (${adjustedYear} years ago)`;
+                    });
+
+                    node.nodeValue = text;
+                }
+            }
+
+            // Isolate the script and ensure no interference with other scripts
+            (function safeScript() {
+                adjustYears();
+            })();
+        });
+    </script>
+<!-- /Analytics -->
+
+
   
   <section data-bs-version="5.1" class="menu menu1 cid-uqwi93whnZ" once="menu" id="menu01-69">
 	
@@ -109,7 +157,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Emperor Diocletian and Maximian appoint Constantius Chlorus and Galerius as Caesars. This is considered the beginning of the Tetrarchy, known as the Quattuor Principes Mundi ("Four Rulers of the World").</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Roman Empire</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">293<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">293 AD<br></p>
             </div>
             
           </div>
@@ -121,7 +169,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Electrical engineer Nikola Tesla gives the first public demonstration of radio in St. Louis, Missouri.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1893<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1893 AD<br></p>
             </div>
             
           </div>
@@ -133,7 +181,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Titanic became the first film to gross over $1 billion worldwide.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Worldwide</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1998<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1998 AD<br></p>
             </div>
             
           </div>
@@ -164,7 +212,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Vasco da Gama's fleet visits the Island of Mozambique.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Mozambique</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1498<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1498 AD<br></p>
             </div>
             
           </div>
@@ -176,7 +224,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">United States Steel Corporation is founded as a result of a merger between Carnegie Steel Company and Federal Steel Company which became the first corporation in the world with a market capital over $1 billion.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1901<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1901 AD<br></p>
             </div>
             
           </div>
@@ -207,7 +255,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Olympic Theatre, designed by Andrea Palladio, is inaugurated in Vicenza.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Italy</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1585<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1585 AD<br></p>
             </div>
             
           </div>
@@ -219,7 +267,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The first ever organized indoor game of ice hockey is played in Montreal, Quebec, Canada as recorded in the Montreal Gazette.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Canada</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1875<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1875 AD<br></p>
             </div>
             
           </div>
@@ -231,7 +279,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Steve Fossett becomes the first person to fly an airplane non-stop around the world solo without refueling.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2005<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2005 AD<br></p>
             </div>
             
           </div>
@@ -262,7 +310,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Explorer Christopher Columbus arrives back in Lisbon, Portugal, aboard his ship Niña from his voyage to what are now The Bahamas and other islands in the Caribbean.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Portugal</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1493</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1493 AD</p>
             </div>
             
           </div>
@@ -274,7 +322,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The first national flag of the Confederate States of America (the "Stars and Bars") is adopted.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1861<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1861 AD<br></p>
             </div>
             
           </div>
@@ -286,7 +334,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">In an interview in the <em>London Evening Standard</em>, The Beatles' John Lennon declares that the band is "more popular than Jesus now".</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1966<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1966 AD<br></p>
             </div>
             
           </div>
@@ -317,7 +365,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">King Henry VII of England issues letters patent to John Cabot and his sons, authorising them to explore unknown lands.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1496<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1496 AD<br></p>
             </div>
             
           </div>
@@ -329,7 +377,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Samuel Colt patents the first production-model revolver, the .34-caliber.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1836<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1836 AD<br></p>
             </div>
             
           </div>
@@ -341,7 +389,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The ZX81, a pioneering British home computer, is launched by Sinclair Research and would go on to sell over 1.5 million units around the world.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Dundee, Scotland</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1981<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1981 AD<br></p>
             </div>
             
           </div>
@@ -372,7 +420,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Ferdinand Magellan arrives at Guam.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1521<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1521 AD<br></p>
             </div>
             
           </div>
@@ -384,7 +432,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Dmitri Mendeleev presents the first periodic table to the Russian Chemical Society.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Russian Empire</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1869<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1869 AD<br></p>
             </div>
             
           </div>
@@ -396,7 +444,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Michelangelo computer virus begins to affect computers.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Worldwide</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1992<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1992 AD<br></p>
             </div>
             
           </div>
@@ -427,7 +475,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Marcus Aurelius and L. Commodus (who changes his name to Lucius Verus) become joint emperors of Rome on the death of Antoninus Pius.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Roman Empire</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">161<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">161 AD<br></p>
             </div>
             
           </div>
@@ -439,7 +487,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Alexander Graham Bell is granted a patent for an invention he calls the "telephone".</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1876<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1876 AD<br></p>
             </div>
             
           </div>
@@ -451,7 +499,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Challenger Disaster: Divers from the USS Preserver locate the crew cabin of Challenger on the ocean floor.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">&nbsp;Atlantic Ocean, off the coast of Florida, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1986<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1986 AD<br></p>
             </div>
             
           </div>
@@ -482,7 +530,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Ferdowsi completes his epic poem Shahnameh.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Iran</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1010<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1010 AD<br></p>
             </div>
             
           </div>
@@ -494,7 +542,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Treaty of Roskilde: After a devastating defeat in the Northern Wars (1655–1661), Frederick III, the King of Denmark–Norway is forced to give up nearly half his territory to Sweden.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Roskilde, Denmark</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1658</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1658 AD</p>
             </div>
             
           </div>
@@ -506,7 +554,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Philips demonstrates the compact disc publicly for the first time.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Eindhoven, The Netherlands</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1979<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1979 AD<br></p>
             </div>
             
           </div>
@@ -537,7 +585,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The fleet of Pedro Álvares Cabral leaves Lisbon for the Indies. The fleet will discover Brazil which lies within boundaries granted to Portugal in the Treaty of Tordesillas in 1494.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1500<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1500 AD<br></p>
             </div>
             
           </div>
@@ -549,7 +597,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Barbie doll makes its debut at the American International Toy Fair in New York.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">New York, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1959<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1959 AD<br></p>
             </div>
             
           </div>
@@ -593,7 +641,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The first successful test of a telephone is made by Alexander Graham Bell.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">109 Court Street, Boston, Massachusetts, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1876<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1876 AD<br></p>
             </div>
             
           </div>
@@ -605,7 +653,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Mars Reconnaissance Orbiter arrives at Mars.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Mars</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2006<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2006 AD<br></p>
             </div>
             
           </div>
@@ -636,7 +684,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Roman emperor Elagabalus is murdered alongside his mother, Julia Soaemias. He is replaced by his 14-year old cousin, Severus Alexander.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Roman Empire</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">222<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">222 AD<br></p>
             </div>
             
           </div>
@@ -648,7 +696,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Daily Courant, England's first national daily newspaper, is published for the first time.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">London, England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1702<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1702 AD<br></p>
             </div>
             
           </div>
@@ -660,7 +708,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">In New York City, Samuel Roxy Rothafel opens the Roxy Theatre.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">153 West 50th Street, New York City, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1927<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1927 AD<br></p>
             </div>
             
           </div>
@@ -669,7 +717,7 @@
     </div>
   </section>
 
-<section data-bs-version="5.1" class="footer1 cid-upnRv9HjpL" once="footers" id="footer01-1d">
+<section data-bs-version="5.1" class="footer1 cid-upo2Rro40O" once="footers" id="footer01-4v">
 	
 
 	
@@ -713,6 +761,7 @@
 			</div>
 		</div>
 	</div>
+  
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   

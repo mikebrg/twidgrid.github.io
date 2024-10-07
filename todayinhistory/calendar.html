@@ -25,13 +25,61 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=UfhhgT"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=UfhhgT" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=G0Xl69"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=G0Xl69" type="text/css">
 
   
   
   
 </head>
 <body>
+
+<!-- Analytics -->
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentYear = new Date().getFullYear();
+
+            // Function to format numbers with commas
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Function to adjust years with BC or AD
+            function adjustYears() {
+                const regexBC = /\b(\d+)\s*BC\b/g; // Matches years with "BC"
+                const regexAD = /\b(\d+)\s*AD\b/g; // Matches years with "AD"
+                
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                
+                // Loop through all text nodes
+                while (node = walker.nextNode()) {
+                    let text = node.nodeValue;
+
+                    // Replace BC years
+                    text = text.replace(regexBC, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear + parseInt(year));
+                        return `${year} BC (${adjustedYear} years ago)`;
+                    });
+
+                    // Replace AD years
+                    text = text.replace(regexAD, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear - parseInt(year));
+                        return `${year} AD (${adjustedYear} years ago)`;
+                    });
+
+                    node.nodeValue = text;
+                }
+            }
+
+            // Isolate the script and ensure no interference with other scripts
+            (function safeScript() {
+                adjustYears();
+            })();
+        });
+    </script>
+<!-- /Analytics -->
+
+
   
   <section data-bs-version="5.1" class="menu menu1 cid-uqwi93whnZ" once="menu" id="menu01-69">
 	
@@ -263,7 +311,7 @@ generateCalendar(currentDate);
 
 </section>
 
-<section data-bs-version="5.1" class="footer1 cid-upEiA7qPax" once="footers" id="footer01-50">
+<section data-bs-version="5.1" class="footer1 cid-upo2Rro40O" once="footers" id="footer01-4v">
 	
 
 	
@@ -307,6 +355,7 @@ generateCalendar(currentDate);
 			</div>
 		</div>
 	</div>
+  
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   

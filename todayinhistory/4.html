@@ -25,13 +25,61 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=NAMUnr"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=NAMUnr" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=zdzFMJ"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=zdzFMJ" type="text/css">
 
   
   
   
 </head>
 <body>
+
+<!-- Analytics -->
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentYear = new Date().getFullYear();
+
+            // Function to format numbers with commas
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Function to adjust years with BC or AD
+            function adjustYears() {
+                const regexBC = /\b(\d+)\s*BC\b/g; // Matches years with "BC"
+                const regexAD = /\b(\d+)\s*AD\b/g; // Matches years with "AD"
+                
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                
+                // Loop through all text nodes
+                while (node = walker.nextNode()) {
+                    let text = node.nodeValue;
+
+                    // Replace BC years
+                    text = text.replace(regexBC, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear + parseInt(year));
+                        return `${year} BC (${adjustedYear} years ago)`;
+                    });
+
+                    // Replace AD years
+                    text = text.replace(regexAD, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear - parseInt(year));
+                        return `${year} AD (${adjustedYear} years ago)`;
+                    });
+
+                    node.nodeValue = text;
+                }
+            }
+
+            // Isolate the script and ensure no interference with other scripts
+            (function safeScript() {
+                adjustYears();
+            })();
+        });
+    </script>
+<!-- /Analytics -->
+
+
   
   <section data-bs-version="5.1" class="menu menu1 cid-uqwi93whnZ" once="menu" id="menu01-69">
 	
@@ -109,7 +157,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Byzantine Emperor Justin I names his nephew Justinian I as co-ruler and successor to the throne.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Byzantine Empire</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">527<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">527 AD<br></p>
             </div>
             
           </div>
@@ -121,7 +169,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Singapore becomes a British crown colony.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Singapore</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1867<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1867 AD<br></p>
             </div>
             
           </div>
@@ -133,7 +181,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Google launches its Email service Gmail.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2004<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2004 AD<br></p>
             </div>
             
           </div>
@@ -164,7 +212,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Having spotted land on March 27, Spanish explorer Juan Ponce de León comes ashore on what is now the U.S. state of Florida, landing somewhere between the modern city of St. Augustine and the mouth of the St. Johns River.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Florida, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1513<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1513 AD<br></p>
             </div>
             
           </div>
@@ -176,7 +224,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Coinage Act is passed by Congress, establishing the United States Mint.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1792<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1792 AD<br></p>
             </div>
             
           </div>
@@ -188,7 +236,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The ill-fated RMS Titanic begins sea trials.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Belfast Lough, Northern Ireland</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1912<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1912 AD<br></p>
             </div>
             
           </div>
@@ -219,7 +267,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Maya king Yuknoom Yich'aak K'ahk' assumes the crown of Calakmul.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Kalakmul, Campeche, Mexico</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">686<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">686 AD<br></p>
             </div>
             
           </div>
@@ -231,7 +279,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Gottlieb Daimler is granted a German patent for a light, high-speed, four-stroke engine, which he uses seven months later to create the world's first motorcycle, the Daimler Reitwagen.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Germany</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1885<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1885 AD<br></p>
             </div>
             
           </div>
@@ -243,7 +291,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Apple Inc. released the first generation iPad, a tablet computer.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2010<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2010 AD<br></p>
             </div>
             
           </div>
@@ -274,7 +322,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Roman consul Agrippa Menenius Lanatus celebrates a triumph for a military victory over the Sabines.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Roman Republic</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">503 BC<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">503 BC AD<br></p>
             </div>
             
           </div>
@@ -286,7 +334,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Moriscos are expelled from the Kingdom of Valencia.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Kingdom of Valencia</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1609<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1609 AD<br></p>
             </div>
             
           </div>
@@ -298,7 +346,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Twin Towers of the World Trade Center in New York City are officially dedicated.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">New York, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1973<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1973 AD<br></p>
             </div>
             
           </div>
@@ -329,7 +377,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Lothair I is crowned King of Italy by Pope Paschal I.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Kingdom of Italy</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">823<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">823 AD<br></p>
             </div>
             
           </div>
@@ -341,7 +389,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">United States President George Washington exercises his authority to veto a bill, the first time this power is used in the United States.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1792<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1792 AD<br></p>
             </div>
             
           </div>
@@ -353,7 +401,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Transandine Railway connecting Chile and Argentina is inaugurated.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Mendoza in Argentina, across the Andes mountain range via the Uspallata Pass, to Santa Rosa de Los Andes in Chile</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1910<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1910 AD<br></p>
             </div>
             
           </div>
@@ -396,7 +444,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">In Athens, the opening of the first modern Olympic Games is celebrated, 1,500 years after the original games are banned by Roman emperor Theodosius I.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Athens, Greece</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1896<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1896 AD<br></p>
             </div>
             
           </div>
@@ -408,7 +456,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Launch of Early Bird, the first commercial communications satellite to be placed in geosynchronous orbit.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Cape Canaveral, LC-17A, Florida, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1965<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1965 AD<br></p>
             </div>
             
           </div>
@@ -439,7 +487,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Attila the Hun captures Metz in France, killing most of its inhabitants and burning the town.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Metz, France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">451<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">451 AD<br></p>
             </div>
             
           </div>
@@ -451,7 +499,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The French First Republic adopts the kilogram and gram as its primary unit of mass.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1795<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1795 AD<br></p>
             </div>
             
           </div>
@@ -463,7 +511,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Mount Vesuvius erupts and devastates Naples.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Naples, Italy</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1906<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1906 AD<br></p>
             </div>
             
           </div>
@@ -472,7 +520,7 @@
     </div>
   </section>
 
-<section data-bs-version="5.1" class="footer1 cid-upnTh2oraM" once="footers" id="footer01-1r">
+<section data-bs-version="5.1" class="footer1 cid-upo2Rro40O" once="footers" id="footer01-4v">
 	
 
 	
@@ -516,6 +564,7 @@
 			</div>
 		</div>
 	</div>
+  
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   

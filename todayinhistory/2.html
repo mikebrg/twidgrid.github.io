@@ -25,13 +25,61 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=THF23G"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=THF23G" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=A5DiRv"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=A5DiRv" type="text/css">
 
   
   
   
 </head>
 <body>
+
+<!-- Analytics -->
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentYear = new Date().getFullYear();
+
+            // Function to format numbers with commas
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Function to adjust years with BC or AD
+            function adjustYears() {
+                const regexBC = /\b(\d+)\s*BC\b/g; // Matches years with "BC"
+                const regexAD = /\b(\d+)\s*AD\b/g; // Matches years with "AD"
+                
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                
+                // Loop through all text nodes
+                while (node = walker.nextNode()) {
+                    let text = node.nodeValue;
+
+                    // Replace BC years
+                    text = text.replace(regexBC, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear + parseInt(year));
+                        return `${year} BC (${adjustedYear} years ago)`;
+                    });
+
+                    // Replace AD years
+                    text = text.replace(regexAD, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear - parseInt(year));
+                        return `${year} AD (${adjustedYear} years ago)`;
+                    });
+
+                    node.nodeValue = text;
+                }
+            }
+
+            // Isolate the script and ensure no interference with other scripts
+            (function safeScript() {
+                adjustYears();
+            })();
+        });
+    </script>
+<!-- /Analytics -->
+
+
   
   <section data-bs-version="5.1" class="menu menu1 cid-uqwi93whnZ" once="menu" id="menu01-69">
 	
@@ -110,7 +158,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The teenaged Edward III is crowned King of England, but the country is ruled by his mother Queen Isabella and her lover Roger Mortimer.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1327<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1327 AD<br></p>
             </div>
             
           </div>
@@ -122,7 +170,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Thomas A. Edison finishes construction of the first motion picture studio, the Black Maria in West Orange, New Jersey.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1893<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1893 AD<br></p>
             </div>
             
           </div>
@@ -134,7 +182,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Space Shuttle Columbia disintegrated during the reentry of mission STS-107 into the Earth's atmosphere, killing all seven astronauts aboard.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2003<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2003 AD<br></p>
             </div>
             
           </div>
@@ -165,7 +213,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Spaniard Pedro de Mendoza founds Buenos Aires, Argentina.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Argentina</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1536<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1536 AD<br></p>
             </div>
             
           </div>
@@ -177,7 +225,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">First digital cinema projection in Europe (Paris) realized by Philippe Binant with the DLP CINEMA technology developed by Texas Instruments.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2000<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2000 AD<br></p>
             </div>
             
           </div>
@@ -208,7 +256,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Battle of São Vicente takes place off Portuguese Brazil where three English warships led by navigator Edward Fenton fight off three Spanish galleons sinking one in the process.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Brazil</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1583<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1583 AD<br></p>
             </div>
             
           </div>
@@ -220,7 +268,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The London Protocol of 1830 establishes the full independence and sovereignty of Greece from the Ottoman Empire as the final result of the Greek War of Independence.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1830<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1830 AD<br></p>
             </div>
             
           </div>
@@ -232,7 +280,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Cavalese cable car disaster: A United States military pilot causes the death of 20 people when his low-flying plane cuts the cable of a cable-car near Trento, Italy.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Italy</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1998<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1998 AD<br></p>
             </div>
             
           </div>
@@ -263,7 +311,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">John Rogers is burned at the stake, becoming the first English Protestant martyr under Mary I of England.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1555</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1555 AD</p>
             </div>
             
           </div>
@@ -275,7 +323,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">George Washington is unanimously elected as the first President of the United States by the U.S. Electoral College.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1789<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1789 AD<br></p>
             </div>
             
           </div>
@@ -287,7 +335,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Facebook, a mainstream online social networking site, is founded by Mark Zuckerberg and Eduardo Saverin.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2004<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2004 AD<br></p>
             </div>
             
           </div>
@@ -330,7 +378,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The largest alluvial gold nugget in history, called the "Welcome Stranger", is found in Moliagul, Victoria, Australia.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Australia</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1869<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1869 AD<br></p>
             </div>
             
           </div>
@@ -342,7 +390,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Pope Francis becomes the first Pope in history to visit and perform papal mass in the Arabian Peninsula during his visit to Abu Dhabi.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United Arab Emirates</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2019<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2019 AD<br></p>
             </div>
             
           </div>
@@ -373,7 +421,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Hormizd IV, king of the Sasanian Empire, is overthrown and blinded by his brothers-in-law Vistahm and Vinduyih.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Sasanian Empire</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">590<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">590 AD<br></p>
             </div>
             
           </div>
@@ -385,7 +433,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Permanent Court of Arbitration, an international arbitration court at The Hague, is created when the Senate of the Netherlands ratifies an 1899 peace conference decree.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Netherlands</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1900<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1900 AD<br></p>
             </div>
             
           </div>
@@ -397,7 +445,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">SpaceX's Falcon Heavy, a super heavy launch vehicle, makes its maiden flight.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2018<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2018 AD<br></p>
             </div>
             
           </div>
@@ -428,7 +476,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">In Florence, Italy, supporters of Girolamo Savonarola burn cosmetics, art, and books, in a "Bonfire of the vanities".</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Italy</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1497<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1497 AD<br></p>
             </div>
             
           </div>
@@ -440,7 +488,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">A Chinese immigrant in San Francisco falls ill to bubonic plague in the first plague epidemic in the continental United States.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1900<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1900 AD<br></p>
             </div>
             
           </div>
@@ -452,7 +500,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Maastricht Treaty is signed, leading to the creation of the European Union.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Netherlands</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1992<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1992 AD<br></p>
             </div>
             
           </div>
@@ -483,7 +531,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Mongols burn the Russian city of Vladimir.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Russia</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1238<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1238 AD<br></p>
             </div>
             
           </div>
@@ -495,7 +543,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Sandford Fleming first proposes the adoption of Universal Standard Time at a meeting of the Royal Canadian Institute.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Canada</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1879</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1879 AD</p>
             </div>
             
           </div>
@@ -507,7 +555,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The NASDAQ stock market index opens for the first time.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1971<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1971 AD<br></p>
             </div>
             
           </div>
@@ -538,7 +586,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Zeno is crowned as co-emperor of the Byzantine Empire.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Byzantine Empire</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">474<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">474 AD<br></p>
             </div>
             
           </div>
@@ -550,7 +598,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The new Roman Republic is declared.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Roman Republic</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1849<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1849 AD<br></p>
             </div>
             
           </div>
@@ -581,7 +629,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Vasco da Gama sets sail from Lisbon, Portugal, on his second voyage to India.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Portugal</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1502<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1502 AD<br></p>
             </div>
             
           </div>
@@ -593,7 +641,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">American Civil War: A Union naval flotilla destroys the bulk of the Confederate Mosquito Fleet in the Battle of Elizabeth City on the Pasquotank River in North Carolina.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1862<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1862 AD<br></p>
             </div>
             
           </div>
@@ -605,7 +653,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Paris Peace Treaties are signed by Italy, Romania, Hungary, Bulgaria, Finland and the Allies of World War II.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1947<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1947 AD<br></p>
             </div>
             
           </div>
@@ -636,7 +684,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">At the Convocation of Canterbury, the Catholic bishops comprising the Upper House of the Province of Canterbury agree to style Henry VIII supreme head of the English church and clergy "so far as the law of Christ allows".</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1534<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1534 AD<br></p>
             </div>
             
           </div>
@@ -648,7 +696,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Bernadette Soubirous's first vision of the Blessed Virgin Mary occurs in Lourdes, France.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1858<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1858 AD<br></p>
             </div>
             
           </div>
@@ -660,7 +708,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Vatican confirmed that Pope Benedict XVI would resign the papacy as a result of his advanced age.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Vatican City</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2013<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2013 AD<br></p>
             </div>
             
           </div>
@@ -669,7 +717,7 @@
     </div>
   </section>
 
-<section data-bs-version="5.1" class="footer1 cid-upnN9i2i2x" once="footers" id="footer01-z">
+<section data-bs-version="5.1" class="footer1 cid-upo2Rro40O" once="footers" id="footer01-4v">
 	
 
 	
@@ -713,6 +761,7 @@
 			</div>
 		</div>
 	</div>
+  
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
