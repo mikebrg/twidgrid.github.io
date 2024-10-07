@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html  lang="en">
 <head>
   
   <meta charset="UTF-8">
@@ -19,13 +19,12 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/animatecss/animate.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=V13ZOz"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=V13ZOz" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=GQ0GDY"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=GQ0GDY" type="text/css">
 
   
   
@@ -33,6 +32,34 @@
 </head>
 <body>
   
+<script>
+        window.onload = function() {
+            // Get the current year
+            const currentYear = 2024;
+
+            // Regular expressions to match "BC" or "AD" years
+            const bcRegex = /(\d+)\s?BC/g;
+            const adRegex = /(\d+)\s?AD/g;
+
+            // Function to format the number with commas
+            function formatNumberWithCommas(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Search through the entire body of the document
+            document.body.innerHTML = document.body.innerHTML.replace(bcRegex, (match, year) => {
+                const yearsAgo = formatNumberWithCommas(currentYear + parseInt(year));
+                return `${year} BC (${yearsAgo} years ago)`;
+            });
+
+            document.body.innerHTML = document.body.innerHTML.replace(adRegex, (match, year) => {
+                const yearsAgo = formatNumberWithCommas(currentYear - parseInt(year));
+                return `${year} AD (${yearsAgo} years ago)`;
+            });
+        };
+    </script>
+
+
   <section data-bs-version="5.1" class="menu menu1 cid-upo2Rnisfr" once="menu" id="menu01-3q">
 	
 
@@ -111,6 +138,7 @@
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Achaemenid Empire</h6>
               <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">331 BC<br></p>
             </div>
+
             
           </div>
         </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
@@ -121,8 +149,9 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Stanford University opens its doors in California, United States.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1891</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1891 AD</p>
             </div>
+
             
           </div>
         </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
@@ -133,8 +162,9 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">3G wireless technology first becomes available when it is adopted by Japanese telecommunications company NTT Docomo.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Japan</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2001<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2001 AD<br></p>
             </div>
+
             
           </div>
         </div>
@@ -164,9 +194,10 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Theophilos succeeds his father Michael II as Byzantine Emperor.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Byzantine Empire</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">829<br></p>
-            </div>
-            
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">829 AD<br></p>
+              </div>
+              
+              
           </div>
         </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
           <div class="item-wrapper">
@@ -176,9 +207,10 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">American Revolutionary War: John André, a British Army officer, is hanged as a spy by the Continental Army.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1780</p>
-            </div>
-            
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1780 AD</p>
+              </div>
+
+              
           </div>
         </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
           <div class="item-wrapper">
@@ -188,13 +220,16 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Washington Post journalist Jamal Khashoggi is assassinated in the Saudi consulate in Istanbul, Turkey.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Turkey</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2018<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2018 AD<br></p>
             </div>
+            
             
           </div>
         </div>
       </div>
     </div>
+  
+
   </section>
 
 <section data-bs-version="5.1" class="features13 cid-upQB9BLPu1" id="3">
@@ -219,7 +254,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Roman Emperor Theodosius I concludes a peace treaty with the Goths and settles them in the Balkans.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Roman Empire</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">382<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">382 AD<br></p>
             </div>
             
           </div>
@@ -231,7 +266,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">George Washington proclaims Thursday November 26, 1789 a Thanksgiving Day.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1789</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1789 AD</p>
             </div>
             
           </div>
@@ -243,7 +278,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The German Democratic Republic is abolished and becomes part of the Federal Republic of Germany; the event is afterwards celebrated as German Unity Day.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Germany</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1990<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1990 AD<br></p>
             </div>
             
           </div>
@@ -274,7 +309,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Gregorian Calendar is introduced by Pope Gregory XIII.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Italy</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1582<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1582 AD<br></p>
             </div>
             
           </div>
@@ -286,7 +321,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">First run of the Orient Express.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1883</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1883 AD</p>
             </div>
             
           </div>
@@ -298,7 +333,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The second largest cash robbery in U.S. history occurs in North Carolina.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1997<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1997 AD<br></p>
             </div>
             
           </div>
@@ -329,8 +364,8 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Heraclius arrives at Constantinople, kills Byzantine Emperor Phocas, and becomes emperor.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Constantinople</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">610<br></p>
-            </div><p></p><div class="result" id="result1"></div>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">610 AD<br></p>
+            </div>
             
           </div>
         </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
@@ -341,8 +376,8 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">French Revolution: The Women's March on Versailles effectively terminates royal authority.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1789</p>
-            </div><p></p><div class="result" id="result2"></div>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1789 AD</p>
+            </div>
             
           </div>
         </div><div class="item features-image mb-4 col-6 col-md-4 col-lg-4 active">
@@ -353,55 +388,14 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Mordechai Vanunu's story in The Sunday Times reveals Israel's secret nuclear weapons.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1986<br></p>
-            </div><p></p><div class="result" id="result3"></div>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1986 AD<br></p>
+            </div>
             
           </div>
         </div>
       </div>
     </div>
 
-    <script>
-    function formatNumber(num) {
-        return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    }
-
-    function calculateTimePassed(startDate) {
-        const currentDate = new Date();
-        let years = currentDate.getFullYear() - startDate.getFullYear();
-        let months = currentDate.getMonth() - startDate.getMonth();
-
-        // Adjust for negative months
-        if (months < 0) {
-            years--;
-            months += 12;
-        }
-
-        return { years, months };
-    }
-
-    function displayResults() {
-        const dates = [
-            new Date('610-10-5'),
-            new Date('1789-10-5'),
-            new Date('1986-10-5')
-        ];
-
-        const resultDivs = [
-            document.getElementById('result1'),
-            document.getElementById('result2'),
-            document.getElementById('result3')
-        ];
-
-        dates.forEach((date, index) => {
-            const { years, months } = calculateTimePassed(date);
-            resultDivs[index].innerHTML = `${formatNumber(years)} years and ${months} months ago`;
-        });
-    }
-
-    // Call the function to display the results immediately
-    displayResults();
-</script>
 
   </section>
 
@@ -427,7 +421,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4"><em>Euridice</em>, the earliest surviving opera, receives its première performance, beginning the Baroque period.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Italy</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1600<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1600 AD<br></p>
             </div>
             
           </div>
@@ -439,7 +433,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Naval War College of the United States is founded in Rhode Island.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1884</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1884 AD</p>
             </div>
             
           </div>
@@ -451,7 +445,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Instagram, a mainstream photo-sharing application, is founded.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2010<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2010 AD<br></p>
             </div>
             
           </div>
@@ -482,7 +476,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Battle of Lepanto is fought, and the Ottoman Navy suffers its first defeat.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Greece</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1571<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1571 AD<br></p>
             </div>
             
           </div>
@@ -494,7 +488,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Granite Railway begins operations as the first chartered railway in the U.S.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1826</p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1826 AD</p>
             </div>
             
           </div>
@@ -506,7 +500,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The U.S. invasion of Afghanistan begins with an air assault and covert operations on the ground, starting the longest war in American history.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Afghanistan</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2001<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2001 AD<br></p>
             </div>
             
           </div>
@@ -537,7 +531,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Constantine I defeats Roman Emperor Licinius, who loses his European territories.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Colonia Aurelia Cibalae (modern Vinkovci, Croatia)</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">314<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">314 AD<br></p>
             </div>
             
           </div>
@@ -549,7 +543,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Stephenson's Rocket wins the Rainhill Trials.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1829<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1829 AD<br></p>
             </div>
             
           </div>
@@ -561,7 +555,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The 2023 Israel–Hamas war is declared following the Hamas attack the day prior.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Gaza Strip and Israel</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2023<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2023 AD<br></p>
             </div>
             
           </div>
@@ -592,7 +586,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The first known mention of the Prague astronomical clock.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Prague 1, Czech Republic</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1410<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1410 AD<br></p>
             </div>
             
           </div>
@@ -604,7 +598,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Restauration arrives in New York Harbor from Norway, the first organized immigration from Norway to the United States.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">New York, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1825<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1825 AD<br></p>
             </div>
             
           </div>
@@ -616,7 +610,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">First lunar impact of NASA's Lunar Precursor Robotic Program.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Moon</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2009<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2009 AD<br></p>
             </div>
             
           </div>
@@ -647,7 +641,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Roman general Germanicus dies near Antioch. He was convinced that the mysterious illness that ended in his death was a result of poisoning by the Syrian governor Gnaeus Calpurnius Piso, whom he had ordered to leave the province.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Antioch</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">19<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">19 AD<br></p>
             </div>
             
           </div>
@@ -659,7 +653,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Triton, the largest moon of the planet Neptune, is discovered by English astronomer William Lassell.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1846<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1846 AD<br></p>
             </div>
             
           </div>
@@ -671,7 +665,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Iraq War: The United States Congress approves the Authorization for Use of Military Force Against Iraq Resolution of 2002.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2002<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">2002 AD<br></p>
             </div>
             
           </div>
@@ -702,7 +696,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">A massive earthquake strikes Aleppo; it is one of the most destructive earthquakes ever.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Aleppo, Syria</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1138<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1138 AD<br></p>
             </div>
             
           </div>
@@ -714,7 +708,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Juliana begins operation as the first steam-powered ferry in New York harbor.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">New York, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1811<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1811 AD<br></p>
             </div>
             
           </div>
@@ -726,7 +720,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">NASA launches Apollo 7, the first successful crewed Apollo mission.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Cape Kennedy LC-34, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1968<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1968 AD<br></p>
             </div>
             
           </div>
@@ -757,7 +751,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Christopher Columbus's first expedition makes landfall in the Caribbean, specifically on San Salvador Island. (Julian calendar)</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">San Salvador Island, Caribbean</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1492<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1492 AD<br></p>
             </div>
             
           </div>
@@ -769,7 +763,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Jeanne Geneviève Labrosse becomes the first woman to jump from a balloon with a parachute.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">France</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1799<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1799 AD<br></p>
             </div>
             
           </div>
@@ -781,7 +775,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The military Alcatraz Citadel becomes the civilian Alcatraz Federal Penitentiary.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">San Francisco Bay, California, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1933<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1933 AD<br></p>
             </div>
             
           </div>
@@ -812,7 +806,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The present church building at Westminster Abbey is consecrated.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Dean's Yard, London SW1, England</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1269<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1269 AD<br></p>
             </div>
             
           </div>
@@ -824,7 +818,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">In Washington, D.C., the cornerstone of the United States Executive Mansion (known as the White House since 1818) is laid.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">1600 Pennsylvania Avenue NW, Washington, D.C. 20500<div>United States</div></h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1792<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1792 AD<br></p>
             </div>
             
           </div>
@@ -836,7 +830,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Ameritech Mobile Communications launches the first US cellular network in Chicago.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">&nbsp;Chicago, Illinois, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1983<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1983 AD<br></p>
             </div>
             
           </div>
@@ -868,7 +862,7 @@
               <h5 class="item-title mbr-fonts-style mb-3 display-4">The Norman conquest of England begins with the Battle of Hastings.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">	
 <div><span style="font-size: 1rem;">Hailesaltede, near Hastings, Sussex, England (today Battle, East Sussex, United Kingdom)</span><br></div></h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1066<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1066 AD<br></p>
             </div>
             
           </div>
@@ -880,7 +874,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">George Eastman receives a U.S. Government patent on his new paper-strip photographic film.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Roman Republic</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1884<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1884 AD<br></p>
             </div>
             
           </div>
@@ -892,7 +886,7 @@
             <div class="item-content align-left">
               <h5 class="item-title mbr-fonts-style mb-3 display-4">Chuck Yeager becomes the first person to exceed the speed of sound.</h5>
               <h6 class="item-subtitle mbr-fonts-style mb-3 display-4">Rogers Dry Lake of the Mojave Desert, California, United States</h6>
-              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1947<br></p>
+              <p class="item-text mbr-fonts-style mt-1 mb-0 display-4">1947 AD<br></p>
             </div>
             
           </div>
@@ -949,6 +943,5 @@
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
-    <input name="animation" type="hidden">
   </body>
 </html>

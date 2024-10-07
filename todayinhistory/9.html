@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html  lang="en">
 <head>
   
   <meta charset="UTF-8">
@@ -19,13 +19,12 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/animatecss/animate.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=ZCpuBF"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=ZCpuBF" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=pSrLc1"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=pSrLc1" type="text/css">
 
   
   
@@ -33,6 +32,34 @@
 </head>
 <body>
   
+<script>
+        window.onload = function() {
+            // Get the current year
+            const currentYear = 2024;
+
+            // Regular expressions to match "BC" or "AD" years
+            const bcRegex = /(\d+)\s?BC/g;
+            const adRegex = /(\d+)\s?AD/g;
+
+            // Function to format the number with commas
+            function formatNumberWithCommas(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Search through the entire body of the document
+            document.body.innerHTML = document.body.innerHTML.replace(bcRegex, (match, year) => {
+                const yearsAgo = formatNumberWithCommas(currentYear + parseInt(year));
+                return `${year} BC (${yearsAgo} years ago)`;
+            });
+
+            document.body.innerHTML = document.body.innerHTML.replace(adRegex, (match, year) => {
+                const yearsAgo = formatNumberWithCommas(currentYear - parseInt(year));
+                return `${year} AD (${yearsAgo} years ago)`;
+            });
+        };
+    </script>
+
+
   <section data-bs-version="5.1" class="menu menu1 cid-upo1CqV70B" once="menu" id="menu01-3c">
 	
 
@@ -453,6 +480,5 @@
   
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
-    <input name="animation" type="hidden">
   </body>
 </html>
