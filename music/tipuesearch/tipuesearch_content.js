@@ -1,6 +1,33 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Chino Pacas	","text": "	Cristian Humberto Ávila Vega (born 18 October 2006), better known as Chino Pacas, is a Mexican singer-songwriter of regional Mexican music; specializing in the urban sierreño subgenre.	", "img": "	assets/images/chino-pacas-1900x1900.jpg	","tags": "		", "note": "		", "url": "	artists-c.html	"},
+{"title": "	ian	","text": "	Ian O'Neill Smith (born May 29, 2005), known mononymously as Ian, is an American rapper, singer, and songwriter.	", "img": "	assets/images/ian-376x452.jpg	","tags": "		", "note": "		", "url": "	artists-i.html	"},
+{"title": "	Jerry Cantrell	","text": "	Jerry Fulton Cantrell Jr. (born March 18, 1966) is an American guitarist, singer, and songwriter.	", "img": "	assets/images/jerry-cantrell-2200x1237.jpeg	","tags": "		", "note": "		", "url": "	artists-j.html	"},
+{"title": "	Kylie Minogue	","text": "	Kylie Ann Minogue AO OBE (born 28 May 1968) is an Australian singer, songwriter, and actress.	", "img": "	assets/images/kylie-minogue-1478x832.jpg	","tags": "		", "note": "		", "url": "	artists-k.html	"},
+{"title": "	Oscar Maydon	","text": "	Óscar René Maydon Mesa (born 20 September 1999) is a Mexican singer from Mexicali.	", "img": "	assets/images/oscar-maydon.webp	","tags": "		", "note": "		", "url": "	artists-o.html	"},
+{"title": "	ROSE	","text": "	Roseanne Park MBE (born 11 February 1997), better known by her stage name Rosé (Korean: 로제), is a New Zealand and South Korean singer based in South Korea.	", "img": "	assets/images/rose-850x1000.jpg	","tags": "		", "note": "		", "url": "	artists-r.html	"},
+{"title": "	SEVENTEEN	","text": "	Seventeen (Korean: 세븐틴) is a South Korean boy band formed by Pledis Entertainment.	", "img": "	assets/images/seventeen.webp	","tags": "		", "note": "		", "url": "	artists-s.html	"},
+{"title": "	Tyler, The Creator	","text": "	Tyler Gregory Okonma (born March 6, 1991), known professionally as Tyler, the Creator, is an American rapper, record producer, director, and fashion designer.	", "img": "	assets/images/tyler-the-creator-1.webp	","tags": "		", "note": "		", "url": "	artists-t.html	"},
+{"title": "	Yeat	","text": "	Noah Olivier Smith (born February 26, 2000), known professionally as Yeat, is an American rapper, singer-songwriter, and record producer.	", "img": "	assets/images/yeat-900x796.jpg	","tags": "		", "note": "		", "url": "	artists-y.html	"},
+
+     {"title": "	Lyfestyle	", "text": "	Lyfestyle is an album by Yeat released in 2024	", "img": "	assets/images/lyfestyle-yeat-2024-300x300.png	", "tags": "	Yeat	", "note": "	", "url": "albums-	202	0s.html#	2024	"},
+{"title": "	SEVENTEEN 12th Mini Album 'Spill The Feels' (EP)	", "text": "	SEVENTEEN 12th Mini Album 'Spill The Feels' (EP) is an album by SEVENTEEN released in 2024	", "img": "	assets/images/seventeen-12th-mini-album-spill-the-feels-ep-seventeen-2024-300x300.png	", "tags": "	SEVENTEEN	", "note": "	", "url": "albums-	202	0s.html#	2024	"},
+{"title": "	Don't Mind If I Do	", "text": "	Don't Mind If I Do is an album by Riley Green released in 2024	", "img": "	assets/images/dont-mind-if-i-do-riley-green-2024-300x300.jpeg	", "tags": "	Riley Green	", "note": "	", "url": "albums-	202	0s.html#	2024	"},
+{"title": "	Que Sigan Llegando Las Pacas: Extended	", "text": "	Que Sigan Llegando Las Pacas: Extended is an album by Chino Pacas released in 2024	", "img": "	assets/images/que-sigan-llegando-las-pacas-extended-chino-pacas-2024-300x300.png	", "tags": "	Chino Pacas	", "note": "	", "url": "albums-	202	0s.html#	2024	"},
+{"title": "	Goodbye Horses	", "text": "	Goodbye Horses is an album by ian released in 2024	", "img": "	assets/images/goodbye-horses-ian-2024-300x300.png	", "tags": "	ian	", "note": "	", "url": "albums-	202	0s.html#	2024	"},
+{"title": "	Tension II	", "text": "	Tension II is an album by Kylie Minogue released in 2024	", "img": "	assets/images/tension-ii-kylie-minogue-2024-300x300.png	", "tags": "	Kylie Minogue	", "note": "	", "url": "albums-	202	0s.html#	2024	"},
+{"title": "	I Want Blood	", "text": "	I Want Blood is an album by Jerry Cantrell released in 2024	", "img": "	assets/images/i-want-blood-jerry-cantrell-2024-300x300.png	", "tags": "	Jerry Cantrell	", "note": "	", "url": "albums-	202	0s.html#	2024	"},
+
+     {"title": "	Love Somebody	", "text": "	Love Somebody is a song by Morgan Wallen released in 2024	", "img": "	assets/images/love-somebody-morgan-wallen-2024-340x340.jpg	", "tags": "	Morgan Wallen	", "note": "	", "url": "	songs-2024.html	"},
+{"title": "	APT.	", "text": "	APT. is a song by ROSE & Bruno Mars released in 2024	", "img": "	assets/images/apt.-rose-bruno-mars-2024-340x340.png	", "tags": "	ROSE & Bruno Mars	", "note": "	", "url": "	songs-2024.html	"},
+{"title": "	Tu Boda	", "text": "	Tu Boda is a song by Oscar Maydon & Fuerza Regida released in 2024	", "img": "	assets/images/tu-boda-oscar-maydon-fuerza-regida-2024-340x340.png	", "tags": "	Oscar Maydon & Fuerza Regida	", "note": "	", "url": "	songs-2024.html	"},
+{"title": "	Noid	", "text": "	Noid is a song by Tyler, The Creator released in 2024	", "img": "	assets/images/noid-tyler-the-creator-2024-340x340.png	", "tags": "	Tyler, The Creator	", "note": "	", "url": "	songs-2024.html	"},
+{"title": "	That's So True	", "text": "	That's So True is a song by Gracie Abrams released in 2024	", "img": "	assets/images/thats-so-true-gracie-abrams-2024-340x340.png	", "tags": "	Gracie Abrams	", "note": "	", "url": "	songs-2024.html	"},
+{"title": "	Him All Along	", "text": "	Him All Along is a song by Gunna released in 2024	", "img": "	assets/images/him-all-along-gunna-2024-340x340.jpg	", "tags": "	Gunna	", "note": "	", "url": "	songs-2024.html	"},
+{"title": "	2AM	", "text": "	2AM is a song by BigXthaPlug released in 2024	", "img": "	assets/images/leave-me-alone-bigxthaplug-2024-340x340.png	", "tags": "	BigXthaPlug	", "note": "	", "url": "	songs-2024.html	"},
+{"title": "	Back On My BS	", "text": "	Back On My BS is a song by BigXthaPlug released in 2023	", "img": "	assets/images/back-on-my-bs-bigxthaplug-2023-340x340.jpg	", "tags": "	BigXthaPlug	", "note": "	", "url": "	songs-2023.html	"},
+
      {"title": "	21 Savage	","text": "	Singer from United States born October 22, 1992	", "img": "	assets/images/21-savage.webp	","tags": "		", "note": "		", "url": "	artists.html	"},
      {"title": "	A$AP Rocky	","text": "	Singer from United States born October 3, 1988	", "img": "	assets/images/aap-rocky.webp	","tags": "		", "note": "		", "url": "	artists.html	"},
      {"title": "	Addison Rae	","text": "	Singer from United States born October 6, 2000	", "img": "	assets/images/addison-rae-462x577.jpg	","tags": "		", "note": "		", "url": "	artists.html	"},
