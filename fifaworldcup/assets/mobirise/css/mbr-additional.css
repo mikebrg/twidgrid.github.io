@@ -111194,6 +111194,41 @@ a {
 .cid-uoJeHpr4ca .mbr-section-subtitle {
   text-align: center;
 }
+.cid-usFfdqvt7r {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #ffa0a0;
+}
+.cid-usFfdqvt7r .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-usFfdqvt7r .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-usFfdqvt7r .item-wrapper {
+  display: flex;
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-usFfdqvt7r .item-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-usFfdqvt7r .content-head {
+  max-width: 800px;
+}
+.cid-usFfdqvt7r .img-wrapper {
+  padding-right: 1.5rem;
+}
+.cid-usFfdqvt7r .img-wrapper img {
+  width: 6rem;
+}
 .cid-upaIlbV4lz {
   padding-top: 10rem;
   padding-bottom: 10rem;
