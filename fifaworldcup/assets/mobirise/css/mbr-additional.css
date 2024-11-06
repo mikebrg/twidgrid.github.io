@@ -103730,6 +103730,41 @@ a {
 .cid-umUuhkH06k .mbr-section-subtitle {
   text-align: center;
 }
+.cid-utkbdRnss6 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: #ffa0a0;
+}
+.cid-utkbdRnss6 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-utkbdRnss6 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-utkbdRnss6 .item-wrapper {
+  display: flex;
+  margin-bottom: 2rem;
+}
+@media (max-width: 767px) {
+  .cid-utkbdRnss6 .item-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-utkbdRnss6 .content-head {
+  max-width: 800px;
+}
+.cid-utkbdRnss6 .img-wrapper {
+  padding-right: 1.5rem;
+}
+.cid-utkbdRnss6 .img-wrapper img {
+  width: 6rem;
+}
 .cid-umUuhl0EmI {
   padding-top: 10rem;
   padding-bottom: 10rem;
