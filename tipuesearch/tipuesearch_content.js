@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Paramount+	", "text": "	Offers CBS content, Paramount Pictures movies, and exclusives like Yellowstone spinoffs and Star Trek series.	", "img": "assets/images/	paramount-logo.svg-192x192.png	", "tags": "	Streaming Services	", "note": "		", "url": "	https://www.paramountplus.com/	"},
+     {"title": "	ESPN+	", "text": "	Focused on sports fans, it offers live games, original sports documentaries, and exclusive programming.	", "img": "assets/images/	espn-plus.svg-192x192.png	", "tags": "	Streaming Services	", "note": "		", "url": "	https://plus.espn.com/	"},
+     
      {"title": "	The New York Times (NYT)	", "text": "	Known for high-quality journalism, the NYT covers global news, editorials, and cultural topics with a legacy of investigative and fact-based reporting.	", "img": "assets/images/	nytimes-192x216.jpeg	", "tags": "	News	", "note": "		", "url": "	https://www.nytimes.com/	"},
      {"title": "	Fox News	", "text": "	A major source for conservative perspectives on political and world news. It also covers entertainment and opinion pieces, catering to a dedicated audience base.	", "img": "assets/images/	fox-news-192x101.png	", "tags": "	News	", "note": "		", "url": "	https://www.foxnews.com/	"},
      {"title": "	MSN News	", "text": "	An aggregator of news from various sources, offering a streamlined platform for top stories across topics like finance, sports, and lifestyle.	", "img": "assets/images/	msn-news-192x192.jpg	", "tags": "	News	", "note": "		", "url": "	https://www.msn.com/en-us/channel/topic/News/tp-Y_46b78bbb-31c4-4fc5-8a4a-858072348d06	"},
