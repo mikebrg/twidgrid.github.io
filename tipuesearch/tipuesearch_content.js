@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Flipkart	", "text": "	A leader in Indian e-commerce, Flipkart offers a wide range of products, from electronics to lifestyle goods, and competes strongly in the South Asian market.	", "img": "assets/images/	flipkart-2-192x192.png	", "tags": "	E-Commerce	", "note": "		", "url": "	https://www.flipkart.com/	"},
+     {"title": "	Meta (Facebook Marketplace)	", "text": "	This platform allows users to buy and sell goods locally or connect businesses with buyers through Instagram and Facebook shops​.	", "img": "assets/images/	2xfkmpa-150x150.jpg	", "tags": "	E-Commerce	", "note": "		", "url": "	https://www.facebook.com/marketplace/	"},
+     
      {"title": "	ESPN+	", "text": "	Focused on sports fans, it offers live games, original sports documentaries, and exclusive programming.	", "img": "assets/images/	espn-plus.svg-192x192.png	", "tags": "	Streaming Services	", "note": "		", "url": "	https://plus.espn.com/	"},
      
      {"title": "	The New York Times (NYT)	", "text": "	Known for high-quality journalism, the NYT covers global news, editorials, and cultural topics with a legacy of investigative and fact-based reporting.	", "img": "assets/images/	nytimes-192x216.jpeg	", "tags": "	News	", "note": "		", "url": "	https://www.nytimes.com/	"},
