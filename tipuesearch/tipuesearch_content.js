@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	WeChat	", "text": "	A multifunctional app popular in China, integrating messaging, social media, and payment systems. It is essential for business and everyday life in the Chinese market.	", "img": "assets/images/	wechatlogo-192x192.png	", "tags": "	Social Media	", "note": "		", "url": "	https://www.wechat.com/	"},
+     {"title": "	Douyin	", "text": "	The Chinese counterpart of TikTok, with tailored features for the Chinese market, including ecommerce integrations.	", "img": "assets/images/	tiktok-375x375.png	", "tags": "	Social Media	", "note": "		", "url": "	https://www.douyin.com/	"},
+     
      {"title": "	Flipkart	", "text": "	A leader in Indian e-commerce, Flipkart offers a wide range of products, from electronics to lifestyle goods, and competes strongly in the South Asian market.	", "img": "assets/images/	flipkart-2-192x192.png	", "tags": "	E-Commerce	", "note": "		", "url": "	https://www.flipkart.com/	"},
      {"title": "	Meta (Facebook Marketplace)	", "text": "	This platform allows users to buy and sell goods locally or connect businesses with buyers through Instagram and Facebook shops​.	", "img": "assets/images/	2xfkmpa-150x150.jpg	", "tags": "	E-Commerce	", "note": "		", "url": "	https://www.facebook.com/marketplace/	"},
      
