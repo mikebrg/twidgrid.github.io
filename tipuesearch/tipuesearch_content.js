@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Snagajob	", "text": "	Focused on hourly and part-time work, Snagajob is ideal for students and those seeking flexible or entry-level positions in industries like retail and hospitality.	", "img": "assets/images/	snagajob-logo-192x192.jpg	", "tags": "	Job Boards	", "note": "		", "url": "	https://www.snagajob.com/	"},
+     {"title": "	USAJobs	", "text": "	Operated by the U.S. government, USAJobs lists federal employment opportunities and offers tools for navigating government hiring processes.	", "img": "assets/images/	usajobs-192x192.jpg	", "tags": "	Job Boards	", "note": "		", "url": "	https://www.usajobs.gov/	"},
+     
      {"title": "	WeChat	", "text": "	A multifunctional app popular in China, integrating messaging, social media, and payment systems. It is essential for business and everyday life in the Chinese market.	", "img": "assets/images/	wechatlogo-192x192.png	", "tags": "	Social Media	", "note": "		", "url": "	https://www.wechat.com/	"},
      {"title": "	Douyin	", "text": "	The Chinese counterpart of TikTok, with tailored features for the Chinese market, including ecommerce integrations.	", "img": "assets/images/	tiktok-375x375.png	", "tags": "	Social Media	", "note": "		", "url": "	https://www.douyin.com/	"},
      
