@@ -25,10 +25,75 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=GcARqm"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=GcARqm" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=LWWRsc"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=LWWRsc" type="text/css">
 
   
-  
+  <style>
+    /* Modal styling */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      position: relative;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+  </style>
+
   
 </head>
 <body>
@@ -54,7 +119,7 @@
 		<div class="container">
 			<div class="navbar-brand">
 				<span class="navbar-logo">
-					<a href="../index.html">
+					<a href="index.html">
 						<img src="assets/images/malta-128x128.png" alt="Malta" style="height: 4rem;">
 					</a>
 				</span>
@@ -1037,7 +1102,67 @@
 		</div>
 	</div>
 </section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  
+  <!-- Modal Structure -->
+<div id="wikiModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Article or Video</h5>
+      <button class="close-btn" id="closeModal">×</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="wikiIframe" src="" allowfullscreen></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
+    const modal = document.getElementById('wikiModal');
+    const iframe = document.getElementById('wikiIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        const url = this.href;
+
+        // Check if the link is a YouTube link
+        if (url.includes('youtube')) {
+          // Embed YouTube video
+          const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
+          iframe.src = `https://www.youtube.com/embed/${videoId}`;
+        } else {
+          // Load Wikipedia page
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal (flex layout for centering)
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function(event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+  });
+</script>
+
   
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">
