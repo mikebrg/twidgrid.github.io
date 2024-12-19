@@ -1,6 +1,24 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Avery Anna	","text": "	Warner Music Nashville recording artist Avery Anna is a vibrant talent with an expressive pen that her fans might say speaks to sad girls – and sad boys.	", "img": "assets/images/	avery-anna.webp	","tags": "		", "note": "		", "url": "	artists#:~:text=	Avery Anna	"},
+     {"title": "	Nettspend	","text": "	Gunner Shepardson (born 2006 or 2007), professionally known as Nettspend, is an American rapper and songwriter.	", "img": "assets/images/	nettspend-1280x720.jpg	","tags": "		", "note": "		", "url": "	artists-n#:~:text=	Nettspend	"},
+     {"title": "	TWICE	","text": "	Twice is a South Korean girl group formed by JYP Entertainment.	", "img": "assets/images/	twice.webp	","tags": "		", "note": "		", "url": "	artists-t#:~:text=	TWICE	"},
+     {"title": "	XG	","text": "	XG (acronym for Xtraordinary Girls) is a Japanese girl group based in South Korea.	", "img": "assets/images/	xg-2000x1334.jpg	","tags": "		", "note": "		", "url": "	artists-x#:~:text=	XG	"},
+     {"title": "	YoungBoy Never Broke Again	","text": "	Kentrell DeSean Gaulden (born October 20, 1999), known professionally as YoungBoy Never Broke Again or NBA YoungBoy, is an American rapper.	", "img": "assets/images/	youngboy-never-broke-again-750x750.jpg	","tags": "		", "note": "		", "url": "	artists-y#:~:text=	YoungBoy Never Broke Again	"},
+     
+     {"title": "	Rosie	", "text": "	Rosie is an album by ROSE released in 2024	", "img": "assets/images/	toxic-till-the-end-rose-2024-340x340.png	", "tags": "	ROSE	", "note": "	", "url": "albums-	202	0s#:~:text=	Rosie	"},
+     {"title": "	Strategy	", "text": "	Strategy is an album by TWICE released in 2024	", "img": "assets/images/	strategy-twice-2024-300x300.png	", "tags": "	TWICE	", "note": "	", "url": "albums-	202	0s#:~:text=	Strategy	"},
+     {"title": "	I Just Got A Lot On Shoulders	", "text": "	I Just Got A Lot On Shoulders is an album by YoungBoy Never Broke Again released in 2024	", "img": "assets/images/	i-just-got-a-lot-on-shoulders-youngboy-never-broke-again-2024-300x300.png	", "tags": "	YoungBoy Never Broke Again	", "note": "	", "url": "albums-	202	0s#:~:text=	I Just Got A Lot On Shoulders	"},
+     {"title": "	Awe	", "text": "	Awe is an album by XG released in 2024	", "img": "assets/images/	awe-xg-2024-300x300.png	", "tags": "	XG	", "note": "	", "url": "albums-	202	0s#:~:text=	Awe	"},
+     {"title": "	Bad Ass F*cking Kid	", "text": "	Bad Ass F*cking Kid is an album by Nettspend released in 2024	", "img": "assets/images/	bad-ass-fcking-kid-nettspend-2024-300x300.png	", "tags": "	Nettspend	", "note": "	", "url": "albums-	202	0s#:~:text=	Bad Ass F*cking Kid	"},
+     
+     {"title": "	El Club	", "text": "	El Club is a song by Bad Bunny released in 2024	", "img": "assets/images/	el-club-bad-bunny-2024-340x340.png	", "tags": "	Bad Bunny	", "note": "	", "url": "	songs-2024#:~:text=El Club	"},
+     {"title": "	Rosones	", "text": "	Rosones is a song by Tito Double P released in 2024	", "img": "assets/images/	rosones-tito-double-p-2024-340x340.png	", "tags": "	Tito Double P	", "note": "	", "url": "	songs-2024#:~:text=Rosones	"},
+     {"title": "	Toxic Till The End	", "text": "	Toxic Till The End is a song by ROSE released in 2024	", "img": "assets/images/	toxic-till-the-end-rose-2024-340x340.png	", "tags": "	ROSE	", "note": "	", "url": "	songs-2024#:~:text=Toxic Till The End	"},
+     {"title": "	White Christmas	", "text": "	White Christmas is a song by V & Bing Crosby released in 2024	", "img": "assets/images/	white-christmas-v-bing-crosby-2024-340x340.jpg	", "tags": "	V & Bing Crosby	", "note": "	", "url": "	songs-2024#:~:text=White Christmas	"},
+     {"title": "	Indigo	", "text": "	Indigo is a song by Sam Barber Featuring Avery Anna released in 2024	", "img": "assets/images/	restless-mind-sam-barber-2024-340x340.png	", "tags": "	Sam Barber Featuring Avery Anna	", "note": "	", "url": "	songs-2024#:~:text=Indigo	"},
+     
      {"title": "	Dan + Shay	","text": "	Dan + Shay is an American country music duo composed of vocalists and songwriters Dan Smyers and Shay Mooney.	", "img": "assets/images/	dan-shay.webp	","tags": "		", "note": "		", "url": "	artists-d#:~:text=	Dan + Shay	"},
      {"title": "	Laufey	","text": "	Laufey Lín Bing Jónsdóttir (born 23 April 1999), known mononymously as Laufey, is an Icelandic-Chinese singer-songwriter and musician.	", "img": "assets/images/	laufey.webp	","tags": "		", "note": "		", "url": "	artists-l#:~:text=	Laufey	"},
      {"title": "	MF Doom	","text": "	Daniel Dumile (born Dumile Daniel Thompson; July 13, 1971 – October 31, 2020), also known by his stage name MF Doom or simply Doom, was a British-American rapper, songwriter, and record producer.	", "img": "assets/images/	mfdoom-997x498.jpg	","tags": "		", "note": "		", "url": "	artists-m#:~:text=	MF Doom	"},
