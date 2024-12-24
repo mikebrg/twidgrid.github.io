@@ -1,6 +1,14 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Stray Kids	","text": "	Stray Kids ( often abbreviated to SKZ) is a South Korean boy band that JYP Entertainment formed through the eponymous 2017 reality television show.	", "img": "assets/images/	stray-kids-1024x957.jpg	","tags": "		", "note": "		", "url": "	artists-s#:~:text=	Stray Kids	"},
+     {"title": "	Snoop Dogg	","text": "	Calvin Cordozar Broadus Jr. (born October 20, 1971), popularly known by his stage name Snoop Dogg (previously Snoop Doggy Dogg), is an American rapper, record producer, and actor.	", "img": "assets/images/	snoop-dogg.webp	","tags": "		", "note": "		", "url": "	artists-s#:~:text=	Snoop Dogg	"},
+     
+     {"title": "	Hop	", "text": "	Hop is an album by Stray Kids released in 2024	", "img": "assets/images/	hop-stray-kids-2024-300x300.png	", "tags": "	Stray Kids	", "note": "	", "url": "albums-	202	0s#:~:text=	Hop	"},
+     {"title": "	Missionary	", "text": "	Missionary is an album by Snoop Dogg released in 2024	", "img": "assets/images/	missionary-snoop-dogg-2024-300x300.png	", "tags": "	Snoop Dogg	", "note": "	", "url": "albums-	202	0s#:~:text=	Missionary	"},
+     {"title": "	Dlow Curry	", "text": "	Dlow Curry is an album by BossMan Dlow released in 2024	", "img": "assets/images/	dlow-curry-bossman-dlow-2024-300x300.png	", "tags": "	BossMan Dlow	", "note": "	", "url": "albums-	202	0s#:~:text=	Dlow Curry	"},
+     {"title": "	This Wasn't Meant For You Anyway	", "text": "	This Wasn't Meant For You Anyway is an album by Lola Young released in 2024	", "img": "assets/images/	this-wasnt-meant-for-you-anyway-lola-young-2024-300x300.png	", "tags": "	Lola Young	", "note": "	", "url": "albums-	202	0s#:~:text=	This Wasn't Meant For You Anyway	"},
+     
      {"title": "	Avery Anna	","text": "	Warner Music Nashville recording artist Avery Anna is a vibrant talent with an expressive pen that her fans might say speaks to sad girls – and sad boys.	", "img": "assets/images/	avery-anna.webp	","tags": "		", "note": "		", "url": "	artists#:~:text=	Avery Anna	"},
      {"title": "	Nettspend	","text": "	Gunner Shepardson (born 2006 or 2007), professionally known as Nettspend, is an American rapper and songwriter.	", "img": "assets/images/	nettspend-1280x720.jpg	","tags": "		", "note": "		", "url": "	artists-n#:~:text=	Nettspend	"},
      {"title": "	TWICE	","text": "	Twice is a South Korean girl group formed by JYP Entertainment.	", "img": "assets/images/	twice.webp	","tags": "		", "note": "		", "url": "	artists-t#:~:text=	TWICE	"},
