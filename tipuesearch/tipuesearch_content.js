@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	iHerb	", "text": "	An online retailer specializing in natural health products and supplements.	", "img": "assets/images/	iherb-icon-192x192.png	", "tags": "	Wellness	", "note": "		", "url": "	https://www.iherb.com/	"},
+{"title": "	Drugs.com	", "text": "	Provides accurate and independent information on prescription drugs and over-the-counter medications.	", "img": "assets/images/	drugs.com-192x192.jpg	", "tags": "	Wellness	", "note": "		", "url": "	https://www.drugs.com/	"},
+{"title": "	Medical News Today	", "text": "	Offers health news and articles on a wide range of medical topics.	", "img": "assets/images/	medical-news-today-192x192.png	", "tags": "	Wellness	", "note": "		", "url": "	https://www.medicalnewstoday.com/	"},
+{"title": "	MedlinePlus	", "text": "	A service of the National Library of Medicine, providing information on diseases, conditions, and wellness issues.	", "img": "assets/images/	medlineplus-192x192.jpg	", "tags": "	Wellness	", "note": "		", "url": "	https://medlineplus.gov/	"},
+
      {"title": "	Mozilla Developer Network (MDN Web Docs)	", "text": "	Comprehensive resources for developers, including documentation and tutorials on web technologies such as HTML, CSS, and JavaScript.	", "img": "assets/images/	mozilla-developer-network-mdn-web-docs-192x192.png	", "tags": "	Developer Resources	", "note": "		", "url": "	https://developer.mozilla.org/	"},
      {"title": "	freeCodeCamp	", "text": "	A nonprofit organization that offers free coding lessons and projects to help developers build skills and gain experience.	", "img": "assets/images/	freecodecamp-icon-2048x2048-jl4xzbsi-192x192.png	", "tags": "	Developer Resources	", "note": "		", "url": "	https://www.freecodecamp.org/	"},
      {"title": "	GeeksforGeeks	", "text": "	A computer science portal providing a vast collection of articles, tutorials, and coding problems for developers and students.	", "img": "assets/images/	geeksforgeeks-192x192.png	", "tags": "	Developer Resources	", "note": "		", "url": "	https://www.geeksforgeeks.org/	"},
