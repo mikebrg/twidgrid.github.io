@@ -214,8 +214,10 @@
         event.preventDefault();
         const url = this.href;
 
-        // Check if the link is a YouTube link
-        if (url.includes('youtube')) {
+        // Check if the link is a YouTube playlist/album link
+        if (url.includes('youtube.com/embed/videoseries')) {
+          iframe.src = url;
+        } else if (url.includes('youtube.com/watch')) {
           // Embed YouTube video
           const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
           iframe.src = `https://www.youtube.com/embed/${videoId}`;
