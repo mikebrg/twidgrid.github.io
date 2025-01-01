@@ -1,487 +1,113 @@
 <!DOCTYPE html>
-<html  lang="en">
+
+<html>
 <head>
-  
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:src" content="assets/images/index-meta.png">
-  <meta property="og:image" content="assets/images/index-meta.png">
-  <meta name="twitter:title" content="Sports">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/gold-medal-121x121.png" type="image/x-icon">
-  <meta name="description" content="Stay updated with the latest championship results, rankings, and highlights from major sports leagues and tournaments around the world.">
-  
-  
-  <title>Sports</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=BHNsBm"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=BHNsBm" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sports</title>
 
-  
-  <style>
-    /* Modal styling */
-    .modal {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      padding: 20px;
-      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
-      justify-content: center;
-      align-items: center;
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
     }
-
-    .modal-content {
-      background-color: white;
-      padding: 20px;
-      border-radius: 10px;
-      max-width: 800px; /* Maximum width */
-      width: 90%; /* Width set to 90% of the viewport */
-      height: 80vh; /* Height set to 80% of the viewport height */
-      position: relative;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      overflow: hidden; /* Hide overflow to keep it contained */
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
     }
-
-    .modal-header, .modal-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
     }
-
-    .modal-header {
-      border-bottom: 1px solid #eaeaea;
+    .table-cell img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
     }
-
-    .modal-footer {
-      border-top: 1px solid #eaeaea;
-      margin-top: 20px;
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
     }
-
-    .modal-title {
-      font-size: 18px;
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
     }
+</style>
 
-    .close-btn {
-      background-color: transparent;
-      border: none;
-      font-size: 18px;
-      cursor: pointer;
-    }
+</head><body>
 
-    iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
+<div class="cont">
 
-    /* Close button styling */
-    .close-btn:hover {
-      color: red;
-    }
-  </style>
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>Sports</h3><span class="fo-5">Stay updated with the latest championship results, rankings, and highlights from major sports leagues and tournaments around the world.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="categories.html">Categories</a></div>
+
+</div></div>
 
 
-  
-</head>
-<body>
+<div class="block-978" style="padding-bottom: 39px;">
 
-<!-- Analytics -->
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F0FYYNB6LD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<p><p>
+<h2>Current Champions of Major Sports Leagues</h2>
+<p>Celebrate the reigning champions across football, basketball, tennis, and more!</p>
 
-  gtag('config', 'G-F0FYYNB6LD');
-</script>
-<!-- /Analytics -->
+    <ul class="responsive-table">
 
+        <li class="table-cell"><a href="	atp.html	"><img src="img/	atp-tour-logo.svg-192x192.png	" alt="	ATP Tour	"></a><h3>	ATP Tour	</h3><p>	2024 ATP Finals Singles / Doubles	</p><p>	Jannik Sinner / Tim Pütz & Kevin Krawietz	</p></li>
+        <li class="table-cell"><a href="	cfl.html	"><img src="img/	cfl-2016-logo.svg-192x192.png	" alt="	Canadian Football League	"></a><h3>	Canadian Football League	</h3><p>	111th Grey Cup	</p><p>	Toronto Argonauts	</p></li>
+        <li class="table-cell"><a href="	fifaworldcup/index.html	"><img src="img/	2022-logo-192x192.png	" alt="	FIFA World Cup	"></a><h3>	FIFA World Cup	</h3><p>	2022 FIFA World Cup	</p><p>	Argentina	</p></li>
+        <li class="table-cell"><a href="	f1.html	"><img src="img/	f1-registered-trademark.svg-192x192.png	" alt="	Formula 1	"></a><h3>	Formula 1	</h3><p>	2023 Drivers' champion / Constructors' champion	</p><p>	Max Verstappen / Red Bull Racing	</p></li>
+        <li class="table-cell"><a href="	mlb.html	"><img src="img/	major-league-baseball-logo.svg-192x192.png	" alt="	Major League Baseball	"></a><h3>	Major League Baseball	</h3><p>	2024 World Series	</p><p>	Los Angeles Dodgers	</p></li>
+        <li class="table-cell"><a href="	mls.html	"><img src="img/	mls-crest-logo-rgb-gradient.svg-192x192.png	" alt="	Major League Soccer	"></a><h3>	Major League Soccer	</h3><p>	2023 MLS Cup	</p><p>	Columbus Crew	</p></li>
+        <li class="table-cell"><a href="	nba.html	"><img src="img/	national-basketball-association-logo.svg-192x192.png	" alt="	National Basketball Association	"></a><h3>	National Basketball Association	</h3><p>	2024 NBA Finals	</p><p>	Boston Celtics	</p></li>
+        <li class="table-cell"><a href="	nfl.html	"><img src="img/	national-football-league-logo.svg-192x192.png	" alt="	National Football League	"></a><h3>	National Football League	</h3><p>	2023 Super Bowl LVIII	</p><p>	Kansas City Chiefs	</p></li>
+        <li class="table-cell"><a href="	nhl.html	"><img src="img/	05-nhl-shield.svg-192x192.png	" alt="	National Hockey League	"></a><h3>	National Hockey League	</h3><p>	2024 Stanley Cup	</p><p>	Florida Panthers	</p></li>
+        <li class="table-cell"><a href="	premier.html	"><img src="img/	premier-league-logo.svg-192x192.png	" alt="	Premier League	"></a><h3>	Premier League	</h3><p>	2023-24 Season	</p><p>	Manchester City	</p></li>
+        <li class="table-cell"><a href="	seriea.html	"><img src="img/	serie-a-enilive-logo.svg-192x192.png	" alt="	Serie A	"></a><h3>	Serie A	</h3><p>	2023-24 Season	</p><p>	Internazionale	</p></li>
+        <li class="table-cell"><a href="	champions.html	"><img src="img/	uefa-champions-league.svg-192x192.png	" alt="	UEFA Champions League	"></a><h3>	UEFA Champions League	</h3><p>	2023-24 Season	</p><p>	Real Madrid	</p></li>
+        <li class="table-cell"><a href="	euro.html	"><img src="img/	uefa-euro-2024-logo.svg-192x192.png	" alt="	UEFA Euro	"></a><h3>	UEFA Euro	</h3><p>	UEFA Euro 2024	</p><p>	Spain	</p></li>
+        <li class="table-cell"><a href="	europa.html	"><img src="img/	uefa-europa-league-2024-192x192.png	" alt="	UEFA Europa League	"></a><h3>	UEFA Europa League	</h3><p>	2023-24 Season	</p><p>	Atalanta	</p></li>
+        <li class="table-cell"><a href="	wta.html	"><img src="img/	wta-logo-192x192.png	" alt="	WTA Tour	"></a><h3>	WTA Tour	</h3><p>	2024 WTA Finals Singles / Doubles	</p><p>	Coco Gauff / Gabriela Dabrowski & Erin Routliffe	</p></li>
+                                                        
+    </ul>
+            
+    </div></div>
 
-  
-  <section data-bs-version="5.1" class="menu menu1 cid-u8j5hAGbKM" once="menu" id="menu01-ho">
-	
-
-	<nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
-		<div class="container">
-			<div class="navbar-brand">
-				<span class="navbar-logo">
-					<a href="index.html">
-						<img src="assets/images/gold-medal-121x121.png" alt="Sports" style="height: 3.8rem;">
-					</a>
-				</span>
-				<span class="navbar-caption-wrap"><a class="navbar-caption text-black text-primary display-7" href="index.html">Sports</a></span>
-			</div>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbarSupportedContent" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-				<div class="hamburger">
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-black text-primary display-4" href="categories.html">Categories</a></li></ul>
-				
-				<div class="navbar-buttons mbr-section-btn"><a class="btn btn-primary display-4" href="search.html">Search</a></div>
-			</div>
-		</div>
-	</nav>
-</section>
-
-<section data-bs-version="5.1" class="article13 cid-utPYuuepsy" id="article13-uj">
-    
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="card col-md-12 col-lg-10">
-                <div class="card-wrapper">
-                    <div class="card-box align-left">
-                        <h4 class="card-title mbr-fonts-style display-2">
-                            <strong>Sports</strong></h4>
-                        <p class="mbr-text mbr-fonts-style mt-4 display-7">
-                        Stay updated with the latest championship results, rankings, and highlights from major sports leagues and tournaments around the world.
-                        </p>
-                        
-                    </div>
-                </div>
-            </div>
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
         </div>
-    </div>
-</section>
-
-<section data-bs-version="5.1" class="features15 cid-utJUU9lfGV" id="features015-tb">
-	
-
-	
-	
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-12 content-head">
-				
-			</div>
-		</div>
-		<div class="row">
-			
-			
-			
-			
-			
-			
-
-			
-			
-			<div class="item features-without-image col-12 col-lg-12 active">
-				<div class="item-wrapper">
-					
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>Current Champions of Major Sports Leagues</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">Celebrate the reigning champions across football, basketball, tennis, and more!</h5>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-bs-version="5.1" class="features15 cid-utK52igCxq" id="features015-td">
-	
-
-	
-	
-	<div class="container">
-		<div class="row justify-content-center">
-			<div class="col-12 content-head">
-				
-			</div>
-		</div>
-		<div class="row">
-			
-			
-			
-			
-			
-			
-
-			
-			
-			<div class="item features-without-image col-12 col-lg-6 active">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="atp-finals.html"><img src="assets/images/atp-tour-logo.svg-192x192.png" alt="ATP Tour" data-bs-slide-to="12" data-slide-to="12"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>ATP Tour</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2024 ATP Finals Singles / Doubles<br><strong>Jannik Sinner / Tim Pütz &amp; Kevin Krawietz</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="cfl.html"><img src="assets/images/cfl-2016-logo.svg-192x192.png" alt="Canadian Football League" data-bs-slide-to="2" data-slide-to="1"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>Canadian Football League</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">111th Grey Cup<br><strong>Toronto Argonauts</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="https://twidgrid.com/fifaworldcup" target="_blank"><img src="assets/images/2022-logo-192x192.png" alt="FIFA World Cup" data-bs-slide-to="3" data-slide-to="2"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>FIFA World Cup</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2022 FIFA World Cup<br><strong>Argentina</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="f1.html"><img src="assets/images/f1-registered-trademark.svg-192x192.png" alt="Formula 1" data-bs-slide-to="0" data-slide-to="3"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>Formula 1</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2023 Drivers' champion / Constructors' champion<br><strong>Max Verstappen / Red Bull Racing</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="mlb.html"><img src="assets/images/major-league-baseball-logo.svg-192x192.png" alt="Major League Baseball" data-bs-slide-to="4" data-slide-to="4"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>Major League Baseball</strong><br></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2024 World Series<br><strong>Los Angeles Dodgers</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="mls.html"><img src="assets/images/mls-crest-logo-rgb-gradient.svg-192x192.png" alt="Major League Soccer" data-bs-slide-to="5" data-slide-to="5"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>Major League Soccer</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2023 MLS Cup<br><strong>Columbus Crew</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="nba.html"><img src="assets/images/national-basketball-association-logo.svg-192x192.png" alt="NBA Finals" data-bs-slide-to="6" data-slide-to="6"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>National Basketball Association</strong><br></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2024 NBA Finals<br><strong>Boston Celtics</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="nfl.html"><img src="assets/images/national-football-league-logo.svg-192x192.png" alt="National Football League" data-bs-slide-to="7" data-slide-to="7"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>National Football League</strong><br></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2023 Super Bowl LVIII<br><strong>Kansas City Chiefs</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="nhl.html"><img src="assets/images/05-nhl-shield.svg-192x192.png" alt="National Hockey League" data-bs-slide-to="8" data-slide-to="8"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>National Hockey League</strong><br></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2024 Stanley Cup<br><strong>Florida Panthers</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="premier-league.html"><img src="assets/images/premier-league-logo.svg-192x192.png" alt="Premier League" data-bs-slide-to="9" data-slide-to="9"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>Premier League</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2023-24 Season<br><strong>Manchester City</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="serie-a.html"><img src="assets/images/serie-a-enilive-logo.svg-192x192.png" alt="Serie A" data-bs-slide-to="10" data-slide-to="10"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>Serie A</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2023-24 Season<br><strong>Internazionale</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="uefa-champions-league.html"><img src="assets/images/uefa-champions-league.svg-192x192.png" alt="UEFA Champions League" data-bs-slide-to="11" data-slide-to="11"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>UEFA Champions League</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2023-24 Season<br><strong>Real Madrid</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="uefa-euro.html"><img src="assets/images/uefa-euro-2024-logo.svg-192x192.png" alt="UEFA Euro" data-bs-slide-to="12" data-slide-to="12"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>UEFA Euro</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">UEFA Euro 2024<br><strong>Spain</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="uefa-europa-league.html"><img src="assets/images/uefa-europa-league-2024-192x192.png" alt="UEFA Europa League" data-bs-slide-to="13" data-slide-to="13"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>UEFA Europa League</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2023-24 Season<br><strong>Atalanta</strong></h5>
-					</div>
-				</div>
-			</div><div class="item features-without-image col-12 col-lg-6">
-				<div class="item-wrapper">
-					<div class="img-wrapper">
-						<a href="wta-finals.html"><img src="assets/images/wta-logo-192x192.png" alt="WTA Tour" data-bs-slide-to="14" data-slide-to="14"></a>
-					</div>
-					<div class="card-box">
-						<h4 class="card-title mbr-fonts-style mb-0 display-7"><strong>WTA Tour</strong></h4>
-						<h5 class="card-text mbr-fonts-style mt-3 display-4">2024 WTA Finals Singles / Doubles<br><strong>Coco Gauff / Gabriela Dabrowski &amp; Erin Routliffe</strong></h5>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section data-bs-version="5.1" class="footer1 cid-utOOBOhmsa" once="footers" id="footer01-uh">
-	
-
-	
-	
-	<div class="container">
-		<div class="row mbr-white">
-			<div class="col-12 col-md-6 col-lg-3">
-				<h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-					<strong>Help</strong></h5>
-				<ul class="list mbr-fonts-style display-4">
-					<li class="mbr-text item-wrap"><a href="contact.html" class="text-primary">Contact Us</a></li>
-				</ul>
-			</div>
-			<div class="col-12 col-md-6 col-lg-3">
-				<h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-					<strong>Other Websites</strong></h5>
-				<ul class="list mbr-fonts-style display-4">
-					<li class="mbr-text item-wrap"><a href="https://twidgrid.com/hub/" class="text-primary" target="_blank">Hub</a></li>
-				</ul>
-			</div>
-			<div class="col-12 col-md-6 col-lg-3">
-				<h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7"></h5>
-				<ul class="list mbr-fonts-style display-4">
-					<li class="mbr-text item-wrap"><br></li>
-				</ul>
-			</div>
-			<div class="col-12 col-md-6 col-lg-3">
-				<h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-7">
-					<strong>About</strong>
-				</h5>
-				<ul class="list mbr-fonts-style display-4">
-					<li class="mbr-text item-wrap">Stay updated with the latest championship results, rankings, and highlights from major sports leagues and tournaments around the world.</li>
-				</ul>
-			</div>
-			
-			<div class="col-12 mt-4">
-				<p class="mbr-text mb-0 mbr-fonts-style copyright align-center display-4">
-					© Copyright 2024 TwidGrid - All Rights Reserved
-				</p>
-			</div>
-		</div>
-	</div>
-</section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
-  
-<!-- Modal Structure -->
-<div id="wikiModal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title">Article or Video</h5>
-      <button class="close-btn" id="closeModal">×</button>
-    </div>
-    <div class="modal-body">
-      <iframe id="wikiIframe" src="" allowfullscreen></iframe>
-    </div>
-    <div class="modal-footer">
-      <button class="close-btn" id="closeFooter">Close</button>
-    </div>
-  </div>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
-    const modal = document.getElementById('wikiModal');
-    const iframe = document.getElementById('wikiIframe');
-    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
-
-    // Open modal and set iframe source on click
-    links.forEach(link => {
-      link.addEventListener('click', function(event) {
-        event.preventDefault();
-        const url = this.href;
-
-        // Check if the link is a YouTube link
-        if (url.includes('youtube')) {
-          // Embed YouTube video
-          const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
-          iframe.src = `https://www.youtube.com/embed/${videoId}`;
-        } else {
-          // Load Wikipedia page
-          iframe.src = url;
-        }
-
-        modal.style.display = 'flex'; // Show modal (flex layout for centering)
-      });
-    });
-
-    // Close modal and clear iframe content
-    closeModalButtons.forEach(button => {
-      button.addEventListener('click', function() {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
-      });
-    });
-
-    // Close modal when clicking outside modal content
-    modal.addEventListener('click', function(event) {
-      if (event.target === modal) {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
-      }
-    });
-  });
-</script>
-
-  
- <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
-  </body>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
 </html>
