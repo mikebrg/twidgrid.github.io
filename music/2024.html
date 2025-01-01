@@ -54,67 +54,72 @@
         font-size: 0.9em;
         color: #666;
     }
-    
-</style>
 
-<style>
-        /* Modal styles */
-        .youtube-modal {
-            display: none; /* Hidden by default */
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8); /* Black with transparency */
-            z-index: 1000;
-            justify-content: center;
-            align-items: center;
-        }
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
 
-        .youtube-modal-content {
-            position: relative;
-            width: 90%;
-            max-width: 800px;
-            background-color: #000;
-            border-radius: 8px;
-            overflow: hidden;
-            padding: 0;
-        }
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
 
-        .youtube-modal-content iframe {
-            width: 100%;
-            height: 0;
-            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-            border: none;
-        }
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-        .youtube-close-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            font-size: 24px;
-            color: #fff;
-            cursor: pointer;
-        }
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
 
-        .youtube-close-btn:hover {
-            color: #ff0000;
-        }
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
 
-        /* Trigger link */
-        .youtube-link {
-            display: inline-block;
-            margin: 20px;
-            text-decoration: none;
-            color: #007BFF;
-            font-size: 18px;
-        }
+    .modal-title {
+      font-size: 18px;
+    }
 
-        .youtube-link:hover {
-            text-decoration: underline;
-        }
-    </style>
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+    }
+  </style>
 
 </head><body>
 
@@ -149,331 +154,359 @@
 
     <ul class="responsive-table">
 
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=NEnephbahLA	" class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	30 For 30	"></a><h3>	30 For 30	</h3><p>	SZA With Kendrick Lamar	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hWjwNgiLMgA	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	BMF	"></a><h3>	BMF	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1Wdzodfx87s	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Drive	"></a><h3>	Drive	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=mGO1x4POQuw	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Diamond Boy (DTM)	"></a><h3>	Diamond Boy (DTM)	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=j6z-OvPwjsA	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Scorsese Baby Daddy	"></a><h3>	Scorsese Baby Daddy	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=p8pYDvb3BzA	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	What Do I Do	"></a><h3>	What Do I Do	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fTg_tzkE7Xo	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	No More Hiding	"></a><h3>	No More Hiding	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xuZDP6uSD-Q	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Crybaby	"></a><h3>	Crybaby	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=2kabEeizyaw	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Kitchen	"></a><h3>	Kitchen	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=EH-lks6C590	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Another Life	"></a><h3>	Another Life	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=W3H395QNohw	"class="youtube-link"><img src="img/	Run Rudolph Run - Mark Ambor - 2024.jpg	" alt="	Run Rudolph Run	"></a><h3>	Run Rudolph Run	</h3><p>	Mark Ambor	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=giHYvk92G8I	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Love Me 4 Me	"></a><h3>	Love Me 4 Me	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4mvyoc6MvSc	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Chill Baby	"></a><h3>	Chill Baby	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5oZxFiXtEbs	"class="youtube-link"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	My Turn	"></a><h3>	My Turn	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5YMA7wMUuAE	"class="youtube-link"><img src="img/	Holiday Road - Kesha - 2024.png	" alt="	Holiday Road	"></a><h3>	Holiday Road	</h3><p>	Kesha	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=6_SsGMeJIHk	"class="youtube-link"><img src="img/	Santa Baby - Laufey - 2024.png	" alt="	Santa Baby	"></a><h3>	Santa Baby	</h3><p>	Laufey	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=7f6SxWMOpdU	"class="youtube-link"><img src="img/	el-club-bad-bunny-2024-340x340.png 	" alt="	El Club 	"></a><h3>	El Club 	</h3><p>	Bad Bunny	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hrhu8OE4WMM	"class="youtube-link"><img src="img/	rosones-tito-double-p-2024-340x340.png 	" alt="	Rosones 	"></a><h3>	Rosones 	</h3><p>	Tito Double P	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eA0lHNZ1KCA	"class="youtube-link"><img src="img/	toxic-till-the-end-rose-2024-340x340.png 	" alt="	Toxic Till The End 	"></a><h3>	Toxic Till The End 	</h3><p>	ROSE	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=r3QP1SxW1_I	"class="youtube-link"><img src="img/	white-christmas-v-bing-crosby-2024-340x340.jpg 	" alt="	White Christmas 	"></a><h3>	White Christmas 	</h3><p>	V & Bing Crosby	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=51A9zfyzXcU	"class="youtube-link"><img src="img/	restless-mind-sam-barber-2024-340x340.png 	" alt="	Indigo 	"></a><h3>	Indigo 	</h3><p>	Sam Barber Featuring Avery Anna	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hgYhws0AHcg	"class="youtube-link"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	Empty Out Your Pockets 	"></a><h3>	Empty Out Your Pockets 	</h3><p>	Juice WRLD	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=6TK--iArtQM	"class="youtube-link"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	Misfit 	"></a><h3>	Misfit 	</h3><p>	Juice WRLD	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=YEYu4cD5KAU	"class="youtube-link"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	The Party Never Ends 	"></a><h3>	The Party Never Ends 	</h3><p>	Juice WRLD	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xYbBTzpVmY8	"class="youtube-link"><img src="img/	christmas-magic-laufey-2024-340x340.png 	" alt="	Christmas Magic 	"></a><h3>	Christmas Magic 	</h3><p>	Laufey	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=k-k2_Liofy8	"class="youtube-link"><img src="img/	messy-lola-young-2024-340x340.png 	" alt="	Messy 	"></a><h3>	Messy 	</h3><p>	Lola Young	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qXqIgbaXLeA	"class="youtube-link"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	KTM Drip 	"></a><h3>	KTM Drip 	</h3><p>	Juice WRLD	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_MUSrN3ACV4	"class="youtube-link"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	Cuffed 	"></a><h3>	Cuffed 	</h3><p>	Juice WRLD	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=HAWYOuMGkK0	"class="youtube-link"><img src="img/	winter-ahead-v-park-hyo-shin-2024-340x340.png 	" alt="	Winter Ahead 	"></a><h3>	Winter Ahead 	</h3><p>	V & Park Hyo Shin	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fuV4yQWdn_4	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Squabble Up 	"></a><h3>	Squabble Up 	</h3><p>	Kendrick Lamar	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=U8F5G5wR1mk	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	TV Off 	"></a><h3>	TV Off 	</h3><p>	Kendrick Lamar Featuring Lefty Gunplay	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=HfWLgELllZs	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Luther 	"></a><h3>	Luther 	</h3><p>	Kendrick Lamar & SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=YwUQ_5iV9pY	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Wacced Out Murals 	"></a><h3>	Wacced Out Murals 	</h3><p>	Kendrick Lamar	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=9PumlOWjXMM	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Hey Now 	"></a><h3>	Hey Now 	</h3><p>	Kendrick Lamar Featuring Dody6	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Ek7UvQPCQnE	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Reincarnated 	"></a><h3>	Reincarnated 	</h3><p>	Kendrick Lamar	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=wiALRpD0Ztg	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Man At The Garden 	"></a><h3>	Man At The Garden 	</h3><p>	Kendrick Lamar	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=c7y2ziOBA1s	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Dodger Blue 	"></a><h3>	Dodger Blue 	</h3><p>	Kendrick Lamar Featuring Wallie the Sensei, Siete7x & Roddy Ricch	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cbHkzwa0QmM	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Kendrick Lamar Featuring AzChike 	"></a><h3>	Kendrick Lamar Featuring AzChike 	</h3><p>	Peekaboo Kendrick Lamar Featuring AzChike	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=m-PO1_fzxVM	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Heart Pt. 6 	"></a><h3>	Heart Pt. 6 	</h3><p>	Kendrick Lamar	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=D7liwdjvhWc	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	GNX 	"></a><h3>	GNX 	</h3><p>	Kendrick Lamar Featuring Hitta J3, YoungThreat & Peysoh	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=G5YwhjCywvw	"class="youtube-link"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Gloria 	"></a><h3>	Gloria 	</h3><p>	Kendrick Lamar & SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qeqj5GnoFUY	"class="youtube-link"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	Defying Gravity 	"></a><h3>	Defying Gravity 	</h3><p>	Cynthia Erivo Featuring Ariana Grande	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=rpFXOD_olvY	"class="youtube-link"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	Popular 	"></a><h3>	Popular 	</h3><p>	Ariana Grande	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=DAvOfEweyJo	"class="youtube-link"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	What Is This Feeling? 	"></a><h3>	What Is This Feeling? 	</h3><p>	Ariana Grande & Cynthia Erivo	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Q86_nlRoIGw	"class="youtube-link"><img src="img/	hello-miss-johnson-jack-harlow-2024-340x340.png 	" alt="	Hello Miss Johnson 	"></a><h3>	Hello Miss Johnson 	</h3><p>	Jack Harlow	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ofz2uoquALs	"class="youtube-link"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	No One Mourns The Wicked 	"></a><h3>	No One Mourns The Wicked 	</h3><p>	Ariana Grande Featuring Andy Nyman, Courtney-Mae Briggs, Jeff Goldblum, Sharon D. Clarke & Jenna Boyd	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=NF3WEBjSE60	"class="youtube-link"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	Dancing Through Life 	"></a><h3>	Dancing Through Life 	</h3><p>	Jonathan Bailey Featuring Ariana Grande, Ethan Slater, Marissa Bode & Cynthia Erivo	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VDMiHYgQKLE	"class="youtube-link"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	The Wizard And I 	"></a><h3>	The Wizard And I 	</h3><p>	Cynthia Erivo Featuring Michelle Yeoh	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=CeUragIeYXg	"class="youtube-link"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	I'm Not That Girl 	"></a><h3>	I'm Not That Girl 	</h3><p>	Cynthia Erivo Featuring Michelle Yeoh	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1F3OGIFnW1k	"class="youtube-link"><img src="img/	ma-meilleure-ennemie-stromae-pomme-2024-340x340.jpg 	" alt="	Ma Meilleure Ennemie 	"></a><h3>	Ma Meilleure Ennemie 	</h3><p>	Stromae & Pomme	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=boMN64FciiQ	"class="youtube-link"><img src="img/	gang-baby-nle-choppa-2024-340x340.png 	" alt="	Gang Baby 	"></a><h3>	Gang Baby 	</h3><p>	NLE Choppa	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=g08y_x83d5E	"class="youtube-link"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Que Pasaria… 	"></a><h3>	Que Pasaria… 	</h3><p>	Rauw Alejandro & Bad Bunny	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cr4wnsLI_Xw	"class="youtube-link"><img src="img/	2-hands-tate-mcrae-2024-340x340.png 	" alt="	2 Hands 	"></a><h3>	2 Hands 	</h3><p>	Tate McRae	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=uoHol5Dr_go	"class="youtube-link"><img src="img/	running-wild-jin-2024-340x340.png 	" alt="	Running Wild 	"></a><h3>	Running Wild 	</h3><p>	JIN	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=POCrFEZO82s	"class="youtube-link"><img src="img/	insecurities-lil-baby-2024-340x340.png 	" alt="	Insecurities 	"></a><h3>	Insecurities 	</h3><p>	Lil Baby	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=7SNycTMOF74	"class="youtube-link"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Khe? 	"></a><h3>	Khe? 	</h3><p>	Rauw Alejandro & Romeo Santos	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=lVMN4KSK1-8	"class="youtube-link"><img src="img/	agats2-insecure-juice-wrld-nicki-minaj-2024-340x340.png 	" alt="	AGATS2 (Insecure) 	"></a><h3>	AGATS2 (Insecure) 	</h3><p>	AGATS2	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=NC4wwAtyBA8	"class="youtube-link"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Tu Con El 	"></a><h3>	Tu Con El 	</h3><p>	Rauw Alejandro	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=WBDpb7SwSgU	"class="youtube-link"><img src="img/	good-news-shaboozey-2024-340x340.jpg 	" alt="	Good News 	"></a><h3>	Good News 	</h3><p>	Shaboozey	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=X2Fil9BTUEM	"class="youtube-link"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Se Fue 	"></a><h3>	Se Fue 	</h3><p>	Rauw Alejandro & Laura Pausini	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=XP1NGfz41AQ	"class="youtube-link"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Revolu 	"></a><h3>	Revolu 	</h3><p>	Rauw Alejandro & Feid	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UUzmHevEneY	"class="youtube-link"><img src="img/	dejame-entrar-rauw-alejandro-2024-340x340.png 	" alt="	Dejame Entrar 	"></a><h3>	Dejame Entrar 	</h3><p>	Rauw Alejandro	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UHn1S_mWZFE	"class="youtube-link"><img src="img/	neon-moon-brooks-dunn-with-morgan-wallen-2024-340x340.jpg 	" alt="	Neon Moon 	"></a><h3>	Neon Moon 	</h3><p>	Brooks & Dunn With Morgan Wallen	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=n00uMLtoTkA	"class="youtube-link"><img src="img/	high-road-zach-bryan-2024-340x340.png 	" alt="	High Road 	"></a><h3>	High Road 	</h3><p>	Zach Bryan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=njEuNfKdUV8	"class="youtube-link"><img src="img/	high-road-zach-bryan-2024-340x340.png 	" alt="	This World's A Giant 	"></a><h3>	This World's A Giant 	</h3><p>	Zach Bryan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=CtJPdiYk15g	"class="youtube-link"><img src="img/	hard-fought-hallelujah-brandon-lake-2024-340x340.png 	" alt="	Hard Fought Hallelujah 	"></a><h3>	Hard Fought Hallelujah 	</h3><p>	Brandon Lake	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5r5UePOgMQU	"class="youtube-link"><img src="img/	57-karol-g-feid-dfzm-featuring-ovy-on-the-drums-j-balvin-maluma-ryan-castro-blessd-2024-340x340.png 	" alt="	57	"></a><h3>	57	</h3><p>	+ Karol G, Feid & DFZM Featuring Ovy On The Drums, J Balvin, Maluma, Ryan Castro & Blessd	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=E_8vWfCQQwU	"class="youtube-link"><img src="img/	for-me-loe-shimmy-brent-faiyaz-2024-340x340.jpg 	" alt="	For Me 	"></a><h3>	For Me 	</h3><p>	Loe Shimmy & Brent Faiyaz	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=m1zFk58Dohw	"class="youtube-link"><img src="img/	4x4xu-lainey-wilson-2024-340x340.jpg 	" alt="	4x4xU 	"></a><h3>	4x4xU 	</h3><p>	Lainey Wilson	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=AI1uDj7YmSI	"class="youtube-link"><img src="img/	i-aint-sayin-jordan-davis-2024-340x340.png 	" alt="	I Ain't Sayin' 	"></a><h3>	I Ain't Sayin' 	</h3><p>	Jordan Davis	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=3QwZjhHcLZk	"class="youtube-link"><img src="img/	the-largest-bigxthaplug-2024-340x340.png 	" alt="	The Largest 	"></a><h3>	The Largest 	</h3><p>	BigXthaPlug	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=7lmu30dY_u8	"class="youtube-link"><img src="img/	criminals-meghan-trainor-2024-340x340.png 	" alt="	Criminals 	"></a><h3>	Criminals 	</h3><p>	Meghan Trainor	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=D7F42F_JM3U	"class="youtube-link"><img src="img/	chill-bae-lil-uzi-vert-2024-340x340.png 	" alt="	Chill Bae 	"></a><h3>	Chill Bae 	</h3><p>	Lil Uzi Vert	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_7nCyNDcxvQ	"class="youtube-link"><img src="img/	chill-bae-lil-uzi-vert-2024-340x340.png 	" alt="	Light Year (Practice) 	"></a><h3>	Light Year (Practice) 	</h3><p>	Light Year	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=2kjolTLZ_Mg	"class="youtube-link"><img src="img/	sao-paulo-the-weeknd-anitta-2024-340x340.png 	" alt="	Sao Paulo 	"></a><h3>	Sao Paulo 	</h3><p>	The Weeknd & Anitta	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=DrSfBULAsek	"class="youtube-link"><img src="img/	chill-bae-lil-uzi-vert-2024-340x340.png 	" alt="	We Good 	"></a><h3>	We Good 	</h3><p>	Lil Uzi Vert	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-HXRhd40u_o	"class="youtube-link"><img src="img/	brokey-latto-2024-340x340.png 	" alt="	Brokey 	"></a><h3>	Brokey 	</h3><p>	Latto	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=gkZ4dLMH-B8	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	St. Chroma 	"></a><h3>	St. Chroma 	</h3><p>	Tyler, The Creator Featuring Daniel Caesar	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=16KSivdIGjQ	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Sticky 	"></a><h3>	Sticky 	</h3><p>	Tyler, The Creator Featuring GloRilla, Sexyy Red & Lil Wayne	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ZWDoUsxpkKE	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Darling, I 	"></a><h3>	Darling, I 	</h3><p>	Tyler, The Creator Featuring Teezo Touchdown	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=R_clisSImS4	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Rah Tah Tah 	"></a><h3>	Rah Tah Tah 	</h3><p>	Tyler, The Creator	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fmC6b6_ovZY	"class="youtube-link"><img src="img/	disease-lady-gaga-2024-340x340.png 	" alt="	Disease 	"></a><h3>	Disease 	</h3><p>	Lady Gaga	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_RuuRU0bGLc	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Thought I Was Dead 	"></a><h3>	Thought I Was Dead 	</h3><p>	Tyler, The Creator Featuring ScHoolboy Q & Santigold	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qFfjnPOXmUM	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Hey Jane 	"></a><h3>	Hey Jane 	</h3><p>	Tyler, The Creator	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=FQUI8KmRUw0	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Judge Judy 	"></a><h3>	Judge Judy 	</h3><p>	Tyler, The Creator	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=JPOjiXoPmOk	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Take Your Mask Off 	"></a><h3>	Take Your Mask Off 	</h3><p>	Tyler, The Creator Featuring Daniel Caesar & Latoiya Williams	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=dgUHE8wWhiE	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Like Him 	"></a><h3>	Like Him 	</h3><p>	Tyler, The Creator Featuring Lola Young	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=bKTmpKPjJxs	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	I Killed You 	"></a><h3>	I Killed You 	</h3><p>	Tyler, The Creator	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=n2KOgQJbZAw	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Tomorrow 	"></a><h3>	Tomorrow 	</h3><p>	Tyler, The Creator	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eZNxD4NbxLA	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Balloon 	"></a><h3>	Balloon 	</h3><p>	Tyler, The Creator Featuring Doechii	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_e1flpv2nL8	"class="youtube-link"><img src="img/	heart-of-a-woman-summer-walker-2024-340x340.png 	" alt="	Heart Of A Woman 	"></a><h3>	Heart Of A Woman 	</h3><p>	Summer Walker	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=AUA3_lX6g-s	"class="youtube-link"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	I Hope You Find Your Way Home 	"></a><h3>	I Hope You Find Your Way Home 	</h3><p>	Tyler, The Creator	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=QxTkZTLWdo4	"class="youtube-link"><img src="img/	bigger-in-texas-megan-thee-stallion-2024-340x340.png 	" alt="	Bigger In Texas 	"></a><h3>	Bigger In Texas 	</h3><p>	Megan Thee Stallion	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=krRYW-kwstk	"class="youtube-link"><img src="img/	love-somebody-morgan-wallen-2024-340x340.jpg 	" alt="	Love Somebody 	"></a><h3>	Love Somebody 	</h3><p>	Morgan Wallen	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=8Ebqe2Dbzls	"class="youtube-link"><img src="img/	apt.-rose-bruno-mars-2025-340x340.png 	" alt="	APT. 	"></a><h3>	APT. 	</h3><p>	ROSE & Bruno Mars	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_ymicn0_Gyc	"class="youtube-link"><img src="img/	tu-boda-oscar-maydon-fuerza-regida-2025-340x340.png 	" alt="	Tu Boda 	"></a><h3>	Tu Boda 	</h3><p>	Oscar Maydon & Fuerza Regida	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Qer3lwd5hyA	"class="youtube-link"><img src="img/	noid-tyler-the-creator-2024-340x340.png 	" alt="	Noid 	"></a><h3>	Noid 	</h3><p>	Tyler, The Creator	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=BDHM8cyJQa8	"class="youtube-link"><img src="img/	thats-so-true-gracie-abrams-2024-340x340.png 	" alt="	That's So True 	"></a><h3>	That's So True 	</h3><p>	Gracie Abrams	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=HiCxoDeo0hc	"class="youtube-link"><img src="img/	him-all-along-gunna-2024-340x340.jpg 	" alt="	Him All Along 	"></a><h3>	Him All Along 	</h3><p>	Gunna	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xA59TgXyuX0	"class="youtube-link"><img src="img/	leave-me-alone-bigxthaplug-2024-340x340.png 	" alt="	2AM 	"></a><h3>	2AM 	</h3><p>	BigXthaPlug	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-SSgaCAsU6M	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	25	"></a><h3>	25	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Py9S2bD0RZQ	"class="youtube-link"><img src="img/	hollon-glorilla-2024-340x340.png 	" alt="	Whatchu Kno About Me 	"></a><h3>	Whatchu Kno About Me 	</h3><p>	GloRilla & Sexyy Red	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=k-z52Y1MoSY	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Last Lap 	"></a><h3>	Last Lap 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jfL8Vu9PfW8	"class="youtube-link"><img src="img/	sympathy-is-a-knife-charli-xcx-featuring-ariana-grande-2024-340x340.png 	" alt="	Sympathy Is A Knife 	"></a><h3>	Sympathy Is A Knife 	</h3><p>	Charli xcx Featuring Ariana Grande	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jdJxocDoJEw	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Federal Nightmares 	"></a><h3>	Federal Nightmares 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=sVJYuRPeLJk	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Angel With An Attitude 	"></a><h3>	Angel With An Attitude 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=TNB0u2pasik	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	F**k Fame 	"></a><h3>	F**k Fame 	</h3><p>	Rod Wave Featuring Lil Yachty & Lil Baby	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=kYK-RG8tHfY	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Never Mind 	"></a><h3>	Never Mind 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=XiD56kJQs40	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Turtle Race 	"></a><h3>	Turtle Race 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=2txeSE5Ahhc	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Apply Pressure 	"></a><h3>	Apply Pressure 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=MLHcMCRT5DQ	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	The Best 	"></a><h3>	The Best 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=LydyWyQchdU	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Even Love 	"></a><h3>	Even Love 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=3MX-ydU535M	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Lost In Love 	"></a><h3>	Lost In Love 	</h3><p>	Rod Wave & Be Charlotte	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=JQIgygQHNcQ	"class="youtube-link"><img src="img/	change-me-bigxthaplug-2024-340x340.png 	" alt="	Change Me 	"></a><h3>	Change Me 	</h3><p>	BigXthaPlug	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=QkUdgjZnMsI	"class="youtube-link"><img src="img/	hollon-glorilla-2024-340x340.png 	" alt="	How I Look 	"></a><h3>	How I Look 	</h3><p>	GloRilla & Megan Thee Stallion	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=j1TFQb15_IQ	"class="youtube-link"><img src="img/	hollon-glorilla-2024-340x340.png 	" alt="	I Luv Her 	"></a><h3>	I Luv Her 	</h3><p>	GloRilla & T-Pain	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=38VZe_JMSIo	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Waited 2 Late 	"></a><h3>	Waited 2 Late 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5N7pyYKGxNU	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Mike 	"></a><h3>	Mike 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=MOYaRIdDL9o	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	D.A.R.E. 	"></a><h3>	D.A.R.E. 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UwWSpSaBuaU	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Scared Love 	"></a><h3>	Scared Love 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=bB3-CUMERIU	"class="youtube-link"><img src="img/	mantra-jennie-2024-340x340.png 	" alt="	Mantra 	"></a><h3>	Mantra 	</h3><p>	Jennie	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=a3HoLmCAwUA	"class="youtube-link"><img src="img/	leave-me-alone-bigxthaplug-2024-340x340.png 	" alt="	Leave Me Alone 	"></a><h3>	Leave Me Alone 	</h3><p>	BigXthaPlug	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VhQ2QZdzMzc	"class="youtube-link"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Karma 	"></a><h3>	Karma 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=At8v_Yc044Y	"class="youtube-link"><img src="img/	thick-of-it-ksi-featuring-trippie-redd-2024-340x340.png 	" alt="	Thick Of It 	"></a><h3>	Thick Of It 	</h3><p>	KSI Featuring Trippie Redd	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=sTqUHqQruzQ	"class="youtube-link"><img src="img/	we-pray-coldplay-featuring-little-simz-burna-boy-elyanna-tini-2025-340x340.jpg 	" alt="	We Pray 	"></a><h3>	We Pray 	</h3><p>	Coldplay Featuring Little Simz, Burna Boy, Elyanna & TINI	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ONF2VQpm_Ks	"class="youtube-link"><img src="img/	fix-what-you-didnt-break-nate-smith-2024-340x340.png 	" alt="	Fix What You Didn't Break 	"></a><h3>	Fix What You Didn't Break 	</h3><p>	Nate Smith	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Q3IdDymP11E	"class="youtube-link"><img src="img/	new-drop-don-toliver-2024-340x340.png 	" alt="	New Drop 	"></a><h3>	New Drop 	</h3><p>	Don Toliver	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5EpyN_6dqyk	"class="youtube-link"><img src="img/	timeless-the-weeknd-playboi-carti-2025-340x340.png 	" alt="	Timeless 	"></a><h3>	Timeless 	</h3><p>	The Weeknd & Playboi Carti	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=yy9PuYMU29g	"class="youtube-link"><img src="img/	im-gonna-love-you-cody-johnson-carrie-underwood-2025-340x340.jpg 	" alt="	I'm Gonna Love You 	"></a><h3>	I'm Gonna Love You 	</h3><p>	Cody Johnson & Carrie Underwood	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eM2hELFg3wE	"class="youtube-link"><img src="img/	passport-junkie-rod-wave-2024-340x340.png 	" alt="	Fall Fast In Love 	"></a><h3>	Fall Fast In Love 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=9L_ZdETLgzQ	"class="youtube-link"><img src="img/	heavy-is-the-crown-linkin-park-2024-340x340.png 	" alt="	Heavy Is The Crown 	"></a><h3>	Heavy Is The Crown 	</h3><p>	Linkin Park	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=wNLN5xsx5dc	"class="youtube-link"><img src="img/	blow-for-blow-tee-grizzley-j.-cole-2025-340x340.png 	" alt="	Blow For Blow 	"></a><h3>	Blow For Blow 	</h3><p>	Tee Grizzley & J. Cole	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Qn8F_u0vBNI	"class="youtube-link"><img src="img/	no-one-noticed-the-marias-2024-340x340.jpg 	" alt="	No One Noticed 	"></a><h3>	No One Noticed 	</h3><p>	The Marias	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=PuzWMgiEnkg	"class="youtube-link"><img src="img/	or-what-nle-choppa-41-2025-340x340.png 	" alt="	Or What? 	"></a><h3>	Or What? 	</h3><p>	NLE Choppa & 41	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=54YpK2I6BM8	"class="youtube-link"><img src="img/	dos-dias-tito-double-p-peso-pluma-2024-340x340-1-340x340.png 	" alt="	El Lokeron 	"></a><h3>	El Lokeron 	</h3><p>	Tito Double P	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=sYpSpHq9ziM	"class="youtube-link"><img src="img/	keep-up-odetari-2024-340x340.png 	" alt="	Keep Up 	"></a><h3>	Keep Up 	</h3><p>	Odetari	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=8Leh8ZgMTpU	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Teflon Don 	"></a><h3>	Teflon Don 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1YHDGLqH1VM	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Too Fast 	"></a><h3>	Too Fast 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qzw1JI56KW8	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Lil Demon 	"></a><h3>	Lil Demon 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4YIzIQMR_gs	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Ski 	"></a><h3>	Ski 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=iX85sLKJg2A	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Plutoski 	"></a><h3>	Plutoski 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=bfrWxhy6rMA	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Ready To Cook Up 	"></a><h3>	Ready To Cook Up 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=yLiJeWKQa2w	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Ocean 	"></a><h3>	Ocean 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_zusKXFMvIs	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	South Of France 	"></a><h3>	South Of France 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VRn-Hyb0v90	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Brazzier 	"></a><h3>	Brazzier 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=GBBZSQ4hDMs	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Press The Button 	"></a><h3>	Press The Button 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=rOl91s2PTVc	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Surfing A Tsunami 	"></a><h3>	Surfing A Tsunami 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4xnX2-J2IYE	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	MJ 	"></a><h3>	MJ 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qDascklcshU	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Oath 	"></a><h3>	Oath 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=GdAbRtmIRto	"class="youtube-link"><img src="img/	burning-down-alex-warren-2024-340x340.png 	" alt="	Burning Down 	"></a><h3>	Burning Down 	</h3><p>	Alex Warren	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=On1mm8vWJ50	"class="youtube-link"><img src="img/	una-velita-bad-bunny-2024-340x340.png 	" alt="	Una Velita 	"></a><h3>	Una Velita 	</h3><p>	Bad Bunny	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-rW1H07HVcQ	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Aye Say Gang 	"></a><h3>	Aye Say Gang 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=OSxyaNqmib4	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Told My 	"></a><h3>	Told My 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=l8MewiPtokc	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Lost My Dog 	"></a><h3>	Lost My Dog 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=WQERaPIB390	"class="youtube-link"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Made My Hoe Faint 	"></a><h3>	Made My Hoe Faint 	</h3><p>	Future	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Uf8Uxgi1uwY	"class="youtube-link"><img src="img/	hollon-glorilla-2024-340x340.png 	" alt="	Hollon 	"></a><h3>	Hollon 	</h3><p>	GloRilla	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=MLlSSJ0z7xM	"class="youtube-link"><img src="img/	dancing-in-the-flames-the-weeknd-2024-340x340.png 	" alt="	Dancing In The Flames 	"></a><h3>	Dancing In The Flames 	</h3><p>	The Weeknd	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=F6iYcXynA4s	"class="youtube-link"><img src="img/	all-red-playboi-carti-2024-340x340.png 	" alt="	All Red 	"></a><h3>	All Red 	</h3><p>	Playboi Carti	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Bpaf6Dm9iRc	"class="youtube-link"><img src="img/	its-ok-im-ok-tate-mcrae-2024-340x340.png 	" alt="	It's Ok I'm Ok 	"></a><h3>	It's Ok I'm Ok 	</h3><p>	Tate McRae	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=EYcLEizR_fM	"class="youtube-link"><img src="img/	passport-junkie-rod-wave-2024-340x340.png 	" alt="	Passport Junkie 	"></a><h3>	Passport Junkie 	</h3><p>	Rod Wave	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=K5jyIoPbu4M	"class="youtube-link"><img src="img/	talk-talk-charli-xcx-featuring-troye-sivan-2024-340x340.png 	" alt="	Talk Talk 	"></a><h3>	Talk Talk 	</h3><p>	Charli xcx Featuring Troye Sivan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Qh8QwVYOSVU	"class="youtube-link"><img src="img/	bad-dreams-teddy-swims-2024-340x340.png 	" alt="	Bad Dreams 	"></a><h3>	Bad Dreams 	</h3><p>	Teddy Swims	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=RosaeY90Lpw	"class="youtube-link"><img src="img/	i-never-lie-zach-top-2024-340x340.png 	" alt="	I Never Lie 	"></a><h3>	I Never Lie 	</h3><p>	Zach Top	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=zhaTJhpzfm8	"class="youtube-link"><img src="img/	worst-way-riley-green-2024-340x340.png 	" alt="	Worst Way 	"></a><h3>	Worst Way 	</h3><p>	Riley Green	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=SRXH9AbT280	"class="youtube-link"><img src="img/	the-emptiness-machine-linkin-park-2024-340x340.jpg 	" alt="	The Emptiness Machine 	"></a><h3>	The Emptiness Machine 	</h3><p>	Linkin Park	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=TpYTyAaTRts	"class="youtube-link"><img src="img/	neva-play-megan-thee-stallion-rm-2025-340x340.png 	" alt="	Neva Play 	"></a><h3>	Neva Play 	</h3><p>	Megan Thee Stallion & RM	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=nne3lXKc1OU	"class="youtube-link"><img src="img/	dos-dias-tito-double-p-peso-pluma-2024-340x340-1-340x340.png 	" alt="	Dos Dias 	"></a><h3>	Dos Dias 	</h3><p>	Tito Double P & Peso Pluma	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=y1S1eauLdlY	"class="youtube-link"><img src="img/	ruby-rosary-aap-rocky-featuring-j.-cole-2024-340x340.jpg 	" alt="	Ruby Rosary 	"></a><h3>	Ruby Rosary 	</h3><p>	A$AP Rocky Featuring J. Cole	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Hki6RqI-eMA	"class="youtube-link"><img src="img/	diet-pepsi-addison-rae-2024-340x340.png 	" alt="	Diet Pepsi 	"></a><h3>	Diet Pepsi 	</h3><p>	Addison Rae	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=R1MSH43zUSc	"class="youtube-link"><img src="img/	baby-im-back-the-kid-laroi-2024-340x340.jpg 	" alt="	Baby I'm Back 	"></a><h3>	Baby I'm Back 	</h3><p>	The Kid LAROI	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=bdg3Zxb9r4g	"class="youtube-link"><img src="img/	no-face-drake-2024-340x340.png 	" alt="	No Face 	"></a><h3>	No Face 	</h3><p>	Drake	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_zq1Squ-Uqs	"class="youtube-link"><img src="img/	its-up-drake-young-thug-21-savage-2025-340x340.png 	" alt="	Circadian Rhythm 	"></a><h3>	Circadian Rhythm 	</h3><p>	Drake	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=n6B5gQXlB-0	"class="youtube-link"><img src="img/	crazy-le-sserafim-2024-340x340.png 	" alt="	Crazy 	"></a><h3>	Crazy 	</h3><p>	LE SSERAFIM	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5URefVYaJrA	"class="youtube-link"><img src="img/	tailor-swif-aap-rocky-2024-340x340.png 	" alt="	Tailor Swif 	"></a><h3>	Tailor Swif 	</h3><p>	A$AP Rocky	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qyOcPYeFByA	"class="youtube-link"><img src="img/	parking-lot-mustard-travis-scott-2025-340x340.png 	" alt="	Parking Lot 	"></a><h3>	Parking Lot 	</h3><p>	Mustard & Travis Scott	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ny-IxcS7Yb4	"class="youtube-link"><img src="img/	sorry-not-sorry-lil-yachty-veeze-2025-340x340.png 	" alt="	Sorry Not Sorry 	"></a><h3>	Sorry Not Sorry 	</h3><p>	Lil Yachty & Veeze	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=KEG7b851Ric	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	"Taste	Sabrina Carpenter "	"></a><h3>	"Taste	Sabrina Carpenter "	</h3><p>	Taste Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=x8VkB8ap_FQ	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Bed Chem 	"></a><h3>	Bed Chem 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=alYCYZvB3yo	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Good Graces 	"></a><h3>	Good Graces 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=TuOwCuECUvM	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Sharpest Tool 	"></a><h3>	Sharpest Tool 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1aMCVgRKcP4	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Juno 	"></a><h3>	Juno 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jbJhdc2zLz0	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Coincidence 	"></a><h3>	Coincidence 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=TmP-d1KQqQo	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Slim Pickins 	"></a><h3>	Slim Pickins 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=moMdJBDCblE	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Dumb & Poetic 	"></a><h3>	Dumb & Poetic 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Ju9X2HMMid4	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Don't Smile 	"></a><h3>	Don't Smile 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xYQT5qx1ROE	"class="youtube-link"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Lie To Girls 	"></a><h3>	Lie To Girls 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jzF5rw0vUQw	"class="youtube-link"><img src="img/	am-i-okay-megan-moroney-2024-340x340.jpg 	" alt="	Am I Okay? 	"></a><h3>	Am I Okay? 	</h3><p>	Megan Moroney	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=oa8kjoT-MrM	"class="youtube-link"><img src="img/	prove-it-21-savage-summer-walker-2025-340x340.png 	" alt="	Prove It 	"></a><h3>	Prove It 	</h3><p>	21 Savage & Summer Walker	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=PmJuMNGp5YE	"class="youtube-link"><img src="img/	close-to-you-gracie-abrams-2024-340x340.jpg 	" alt="	Close To You 	"></a><h3>	Close To You 	</h3><p>	Gracie Abrams	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=p9wsEOVK4cw	"class="youtube-link"><img src="img/	girls-the-kid-laroi-2024-340x340.png 	" alt="	Girls 	"></a><h3>	Girls 	</h3><p>	The Kid LAROI	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=kPa7bsKwL-c	"class="youtube-link"><img src="img/	die-with-a-smile-lady-gaga-bruno-mars-2025-340x340.jpg 	" alt="	Die With A Smile 	"></a><h3>	Die With A Smile 	</h3><p>	Lady Gaga & Bruno Mars	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cF1Na4AIecM	"class="youtube-link"><img src="img/	please-please-please-sabrina-carpenter-2024-340x340.jpg 	" alt="	Please Please Please 	"></a><h3>	Please Please Please 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=V9PVRfjEBTI	"class="youtube-link"><img src="img/	birds-of-a-feather-billie-eilish-2024-340x340.jpg 	" alt="	Birds Of A Feather 	"></a><h3>	Birds Of A Feather 	</h3><p>	Billie Eilish	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4QIZE708gJ4	"class="youtube-link"><img src="img/	i-had-some-help-post-malone-featuring-morgan-wallen-2024-340x340.jpg 	" alt="	I Had Some Help 	"></a><h3>	I Had Some Help 	</h3><p>	Post Malone Featuring Morgan Wallen	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=H58vbez_m4E	"class="youtube-link"><img src="img/	not-like-us-kendrick-lamar-2024-340x340.jpg 	" alt="	Not Like Us 	"></a><h3>	Not Like Us 	</h3><p>	Kendrick Lamar	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Zf1d8SGuxfs	"class="youtube-link"><img src="img/	million-dollar-baby-tommy-richman-2024-340x340.jpg 	" alt="	Million Dollar Baby 	"></a><h3>	Million Dollar Baby 	</h3><p>	Tommy Richman	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=t7bQwwqW-Hc	"class="youtube-link"><img src="img/	a-bar-song-tipsy-shaboozey-2024-340x340.jpg 	" alt="	A Bar Song (Tipsy) 	"></a><h3>	A Bar Song (Tipsy) 	</h3><p>	A Bar Song	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eVli-tstM5E	"class="youtube-link"><img src="img/	espresso-sabrina-carpenter-2024-340x340.jpg 	" alt="	Espresso 	"></a><h3>	Espresso 	</h3><p>	Sabrina Carpenter	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1RKqOmSkGgM	"class="youtube-link"><img src="img/	good-luck-babe-chappell-roan-2024-340x340.jpg 	" alt="	Good Luck, Babe! 	"></a><h3>	Good Luck, Babe! 	</h3><p>	Chappell Roan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=NTpbbQUBbuo	"class="youtube-link"><img src="img/	too-sweet-hozier-2024-340x340.jpeg 	" alt="	Too Sweet 	"></a><h3>	Too Sweet 	</h3><p>	Chappell Roan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Oa_RSwwpPaA	"class="youtube-link"><img src="img/	beautiful-things-benson-boone-2024-340x340.jpg 	" alt="	Beautiful Things 	"></a><h3>	Beautiful Things 	</h3><p>	Benson Boone	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=RoeXmaSE7Lo	"class="youtube-link"><img src="img/	pour-me-a-drink-post-malone-featuring-blake-shelton-2024-340x340.jpg 	" alt="	Pour Me A Drink 	"></a><h3>	Pour Me A Drink 	</h3><p>	Post Malone Featuring Blake Shelton	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=J6YlaeACE4E	"class="youtube-link"><img src="img/	aint-no-love-in-oklahoma-luke-combs-2024-340x340.jpg 	" alt="	Ain't No Love In Oklahoma 	"></a><h3>	Ain't No Love In Oklahoma 	</h3><p>	Luke Combs	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fs49xFmmHCo	"class="youtube-link"><img src="img/	pink-skies-zach-bryan-2024-340x340.jpg 	" alt="	Pink Skies 	"></a><h3>	Pink Skies 	</h3><p>	Zach Bryan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=b1aBzAE-IFY	"class="youtube-link"><img src="img/	guy-for-that-post-malone-featuring-luke-combs-2024-340x340.jpg 	" alt="	Guy For That 	"></a><h3>	Guy For That 	</h3><p>	Post Malone Featuring Luke Combs	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=aN7WCsC9nkI	"class="youtube-link"><img src="img/	lies-lies-lies-morgan-wallen-2024-340x340.jpg 	" alt="	Lies Lies Lies 	"></a><h3>	Lies Lies Lies 	</h3><p>	Morgan Wallen	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=RMmoyP_cpEg	"class="youtube-link"><img src="img/	miles-on-it-marshmello-kane-brown-2025-340x340.jpg 	" alt="	Miles On It 	"></a><h3>	Miles On It 	</h3><p>	Marshmello & Kane Brown	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=72jIu39ZRz4	"class="youtube-link"><img src="img/	wrong-ones-post-malone-featuring-tim-mcgraw-340x340.png 	" alt="	Wrong Ones 	"></a><h3>	Wrong Ones 	</h3><p>	Post Malone Featuring Tim McGraw	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=V2G8ESoDXm8	"class="youtube-link"><img src="img/	saturn-sza-340x340.png 	" alt="	Saturn 	"></a><h3>	Saturn 	</h3><p>	SZA	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=uKiF-UMnB9A	"class="youtube-link"><img src="img/	wrong-ones-post-malone-featuring-tim-mcgraw-340x340.png 	" alt="	Losers 	"></a><h3>	Losers 	</h3><p>	Post Malone Featuring Jelly Roll	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=N9bKBAA22Go	"class="youtube-link"><img src="img/	like-that-future-metro-boomin-kendrick-lamar-1-340x340.png 	" alt="	Like That 	"></a><h3>	Like That 	</h3><p>	Future, Metro Boomin & Kendrick Lamar	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ULCb3krc5LI	"class="youtube-link"><img src="img/	kehlani-jordan-adetunji-2024-340x340.png 	" alt="	Kehlani 	"></a><h3>	Kehlani 	</h3><p>	Jordan Adetunji	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hOHKltAiKXQ	"class="youtube-link"><img src="img/	big-dawgs-hanumankind-x-kalmi-2024-340x340.png 	" alt="	Big Dawgs 	"></a><h3>	Big Dawgs 	</h3><p>	Hanumankind X Kalmi	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=22tVWwmTie8	"class="youtube-link"><img src="img/	houdini-eminem-2024-340x340.png 	" alt="	Houdini 	"></a><h3>	Houdini 	</h3><p>	Eminem	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Qop5XLgwkNc	"class="youtube-link"><img src="img/	i-am-not-okay-jelly-roll-2024-340x340.jpg 	" alt="	I Am Not Okay 	"></a><h3>	I Am Not Okay 	</h3><p>	Jelly Roll	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Av9DvtlJ9_M	"class="youtube-link"><img src="img/	who-jimin-2024-340x340.png 	" alt="	Who 	"></a><h3>	Who 	</h3><p>	Jimin	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=huGd4efgdPA	"class="youtube-link"><img src="img/	guess-charli-xcx-featuring-billie-eilish-2024-340x340.png 	" alt="	Guess 	"></a><h3>	Guess 	</h3><p>	Charli xcx Featuring Billie Eilish	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=wxIbNWFaRbU	"class="youtube-link"><img src="img/	wrong-ones-post-malone-featuring-tim-mcgraw-340x340.png 	" alt="	California Sober 	"></a><h3>	California Sober 	</h3><p>	Post Malone Featuring Chris Stapleton	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=XN39ZM0Ip1I	"class="youtube-link"><img src="img/	28-zach-bryan-2024-340x340.png 	" alt="	28	"></a><h3>	28	</h3><p>	Zach Bryan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Sl6en1NPTYM	"class="youtube-link"><img src="img/	i-can-do-it-with-a-broken-heart-taylor-swift-2024-340x340.png 	" alt="	I Can Do It With A Broken Heart 	"></a><h3>	I Can Do It With A Broken Heart 	</h3><p>	Taylor Swift	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=BT_83vSP1es	"class="youtube-link"><img src="img/	wanna-be-glorilla-megan-thee-stallion-2025-340x340.png 	" alt="	Wanna Be 	"></a><h3>	Wanna Be 	</h3><p>	GloRilla & Megan Thee Stallion	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=QCZZwZQ4qNs	"class="youtube-link"><img src="img/	si-antes-te-hubiera-conocido-karol-g-2024-340x340.png 	" alt="	Si Antes Te Hubiera Conocido 	"></a><h3>	Si Antes Te Hubiera Conocido 	</h3><p>	Karol G	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qvfssW5U_Ig	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	What Don't Belong To Me 	"></a><h3>	What Don't Belong To Me 	</h3><p>	Post Malone	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=f4Y3b7un4LE	"class="youtube-link"><img src="img/	slow-it-down-benson-boone-2024-340x340.jpg 	" alt="	Slow It Down 	"></a><h3>	Slow It Down 	</h3><p>	Benson Boone	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=piiG1j_ga0U	"class="youtube-link"><img src="img/	wrong-ones-post-malone-featuring-tim-mcgraw-340x340.png 	" alt="	Finer Things 	"></a><h3>	Finer Things 	</h3><p>	Post Malone Featuring Hank Williams Jr.	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=zP6eqCOM7tk	"class="youtube-link"><img src="img/	tgif-glorilla-2024-340x340.png 	" alt="	TGIF 	"></a><h3>	TGIF 	</h3><p>	GloRilla	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=tKml80alH3Y	"class="youtube-link"><img src="img/	stargazing-myles-smith-2024-340x340.png 	" alt="	Stargazing 	"></a><h3>	Stargazing 	</h3><p>	Myles Smith	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ufCoLHEvsmk	"class="youtube-link"><img src="img/	its-up-drake-young-thug-21-savage-2025-340x340.png 	" alt="	It's Up 	"></a><h3>	It's Up 	</h3><p>	Drake, Young Thug & 21 Savage	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=KNtJGQkC-WI	"class="youtube-link"><img src="img/	we-cant-be-friends-wait-for-your-love-ariana-grande-2024-300x300.png 	" alt="	We Can't Be Friends (Wait For Your Love) 	"></a><h3>	We Can't Be Friends (Wait For Your Love) 	</h3><p>	We Can't Be Friends	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=WJW-VvmRKsE	"class="youtube-link"><img src="img/	360-charli-xcx-2024-340x340.png 	" alt="	360	"></a><h3>	360	</h3><p>	Charli xcx	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cNfsOx7yV9s	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Nosedive 	"></a><h3>	Nosedive 	</h3><p>	Post Malone Featuring Lainey Wilson	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UyAKpowkUDA	"class="youtube-link"><img src="img/	high-road-koe-wetzel-jessie-murph-2025-340x340.png 	" alt="	High Road 	"></a><h3>	High Road 	</h3><p>	Koe Wetzel & Jessie Murph	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=OdxSbc0ap-s	"class="youtube-link"><img src="img/	mamushi-megan-thee-stallion-featuring-yuki-chiba-2024-340x340.png 	" alt="	Mamushi 	"></a><h3>	Mamushi 	</h3><p>	Megan Thee Stallion Featuring Yuki Chiba	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hrAeuPqYnRQ	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Yours 	"></a><h3>	Yours 	</h3><p>	Post Malone	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=q3zqJs7JUCQ	"class="youtube-link"><img src="img/	fortnight-taylor-swift-featuring-post-malone-2024-340x340.png 	" alt="	Fortnight 	"></a><h3>	Fortnight 	</h3><p>	Taylor Swift Featuring Post Malone	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=8mW_FI-SN0Y	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Have The Heart 	"></a><h3>	Have The Heart 	</h3><p>	Post Malone Featuring Dolly Parton	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=l08Zw-RY__Q	"class="youtube-link"><img src="img/	wildflower-billie-eilish-2024-340x340.png 	" alt="	Wildflower 	"></a><h3>	Wildflower 	</h3><p>	Billie Eilish	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=yqW7__yIZuA	"class="youtube-link"><img src="img/	bulletproof-nate-smith-340x340.jpg 	" alt="	Bulletproof 	"></a><h3>	Bulletproof 	</h3><p>	Nate Smith	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=kJamyq0WplE	"class="youtube-link"><img src="img/	whiskey-whiskey-moneybagg-yo-featuring-morgan-wallen-2024-340x340.png 	" alt="	Whiskey Whiskey	"></a><h3>	Whiskey Whiskey	</h3><p>	Moneybagg Yo Featuring Morgan Wallen	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=kegEjYL7ih4	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Goes Without Saying 	"></a><h3>	Goes Without Saying 	</h3><p>	Post Malone Featuring Brad Paisley	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Dm2TSMerGPQ	"class="youtube-link"><img src="img/	you-look-like-you-love-me-ella-langley-featuring-riley-green-2024-340x340.jpg 	" alt="	You Look Like You Love Me 	"></a><h3>	You Look Like You Love Me 	</h3><p>	Ella Langley Featuring Riley Green	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=CPWxExGk7PM	"class="youtube-link"><img src="img/	apple-charli-xcx-2024-340x340.png 	" alt="	Apple 	"></a><h3>	Apple 	</h3><p>	Charli xcx	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=k_CjP9CaKTQ	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Missin' You Like This 	"></a><h3>	Missin' You Like This 	</h3><p>	Post Malone Featuring Luke Combs	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=w_JtBYqMgk8	"class="youtube-link"><img src="img/	one-of-wun-gunna-2024-340x340.png 	" alt="	One Of Wun 	"></a><h3>	One Of Wun 	</h3><p>	Gunna	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xK8CMtx0aAU	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Hide My Gun 	"></a><h3>	Hide My Gun 	</h3><p>	Post Malone Featuring HARDY	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=vzJhl9gcytM	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Devil I've Been 	"></a><h3>	Devil I've Been 	</h3><p>	Post Malone Featuring ERNEST	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=MB3VkzPdgLA	"class="youtube-link"><img src="img/	wildflower-billie-eilish-2024-340x340.png 	" alt="	Lunch 	"></a><h3>	Lunch 	</h3><p>	Billie Eilish	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-r687V8yqKY	"class="youtube-link"><img src="img/	gata-only-floyymenor-x-cris-mj-2024-340x340.png 	" alt="	Gata Only 	"></a><h3>	Gata Only 	</h3><p>	FloyyMenor X Cris Mj	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=pDddlvCfTiw	"class="youtube-link"><img src="img/	band4band-central-cee-lil-baby-2025-340x340.png 	" alt="	BAND4BAND 	"></a><h3>	BAND4BAND 	</h3><p>	Central Cee & Lil Baby	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=IXJTaHySW8I	"class="youtube-link"><img src="img/	help-me-real-boston-richey-2024-340x340.png 	" alt="	Help Me 	"></a><h3>	Help Me 	</h3><p>	Real Boston Richey	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=b6-JNeXxN3s	"class="youtube-link"><img src="img/	lonely-road-mgk-jelly-roll-2025-340x340.png 	" alt="	Lonely Road 	"></a><h3>	Lonely Road 	</h3><p>	mgk & Jelly Roll	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=KwRxeZ9Ro24	"class="youtube-link"><img src="img/	the-boy-is-mine-ariana-grande-2024-340x340.png 	" alt="	The Boy Is Mine 	"></a><h3>	The Boy Is Mine 	</h3><p>	Ariana Grande	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jrjESdPsLxE	"class="youtube-link"><img src="img/	nasty-tinashe-2024-340x340.png 	" alt="	Nasty 	"></a><h3>	Nasty 	</h3><p>	Tinashe	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=LIzEdmRgu14	"class="youtube-link"><img src="img/	hang-tight-honey-lainey-wilson-2024-340x340.jpg 	" alt="	Hang Tight Honey 	"></a><h3>	Hang Tight Honey 	</h3><p>	Lainey Wilson	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=91MyF6w_wzQ	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Never Love You Again 	"></a><h3>	Never Love You Again 	</h3><p>	Post Malone Featuring Sierra Ferrell	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fZcrCrHnYBw	"class="youtube-link"><img src="img/	nel-fuerza-regida-2024-340x340.png 	" alt="	Nel 	"></a><h3>	Nel 	</h3><p>	Fuerza Regida	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Fr9rMmMp3mY	"class="youtube-link"><img src="img/	la-patrulla-peso-pluma-neton-vega-2025-340x340.png 	" alt="	La Patrulla 	"></a><h3>	La Patrulla 	</h3><p>	Peso Pluma & Neton Vega	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eAwVv5gl6Rk	"class="youtube-link"><img src="img/	wind-up-missin-you-tucker-wetmore-2024-340x340.png 	" alt="	Wind Up Missin' You 	"></a><h3>	Wind Up Missin' You 	</h3><p>	Tucker Wetmore	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cks754Oor4o	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	M-E-X-I-C-O 	"></a><h3>	M-E-X-I-C-O 	</h3><p>	Post Malone Featuring Billy Strings	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=G6CQLM1H4KI	"class="youtube-link"><img src="img/	beautiful-as-you-thomas-rhett-2024-340x340.png 	" alt="	Beautiful As You 	"></a><h3>	Beautiful As You 	</h3><p>	Thomas Rhett	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-V-sywKOCwQ	"class="youtube-link"><img src="img/	si-no-quieres-no-luis-r-conriquez-x-neton-vega-2024-340x340.png 	" alt="	Si No Quieres No 	"></a><h3>	Si No Quieres No 	</h3><p>	Luis R Conriquez x Neton Vega	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=0MhTc1uBuDo	"class="youtube-link"><img src="img/	love-you-miss-you-mean-it-luke-bryan-2024-340x340.png 	" alt="	Love You, Miss You, Mean It 	"></a><h3>	Love You, Miss You, Mean It 	</h3><p>	Luke Bryan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=HjPAPdseMGU	"class="youtube-link"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Right About You 	"></a><h3>	Right About You 	</h3><p>	Post Malone	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xPWnNFF-Taw	"class="youtube-link"><img src="img/	belong-together-mark-ambor-2024-340x340.png 	" alt="	Belong Together 	"></a><h3>	Belong Together 	</h3><p>	Mark Ambor	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=uxjhN_Donfw	"class="youtube-link"><img src="img/	i-love-you-im-sorry-gracie-abrams-2024-340x340.png 	" alt="	I Love You, I'm Sorry 	"></a><h3>	I Love You, I'm Sorry 	</h3><p>	Gracie Abrams	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4BuWrb8A_w4	"class="youtube-link"><img src="img/	pretty-slowly-benson-boone-2024-340x340.png 	" alt="	Pretty Slowly 	"></a><h3>	Pretty Slowly 	</h3><p>	Benson Boone	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=SMvmAWECT8U	"class="youtube-link"><img src="img/	devil-is-a-lie-tommy-richman-2024-340x340.png 	" alt="	Devil Is A Lie 	"></a><h3>	Devil Is A Lie 	</h3><p>	Tommy Richman	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=BY_XwvKogC8	"class="youtube-link"><img src="img/	wildflower-billie-eilish-2024-340x340.png 	" alt="	Chihiro 	"></a><h3>	Chihiro 	</h3><p>	Billie Eilish	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Aki05PCJWtE	"class="youtube-link"><img src="img/	u-my-everything-sexyy-red-drake-2025-340x340.png 	" alt="	U My Everything 	"></a><h3>	U My Everything 	</h3><p>	Sexyy Red & Drake	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UxXY_hR_wzo	"class="youtube-link"><img src="img/	new-woman-lisa-featuring-rosalia-2024-340x340.png 	" alt="	New Woman 	"></a><h3>	New Woman 	</h3><p>	LISA Featuring Rosalia	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1lrFsXkT_rM	"class="youtube-link"><img src="img/	sailor-song-gigi-perez-2024-340x340.png 	" alt="	Sailor Song 	"></a><h3>	Sailor Song 	</h3><p>	Gigi Perez	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ax4eWS8UBGY	" class="youtube-link"><img src="img/	american-nights-zach-bryan-2024-335x335.png 	" alt="	American Nights 	"></a><h3>	American Nights 	</h3><p>	Zach Bryan	</p></li>
-                                                                
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=NEnephbahLA	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	30 For 30	"></a><h3>	30 For 30	</h3><p>	SZA With Kendrick Lamar	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hWjwNgiLMgA	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	BMF	"></a><h3>	BMF	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1Wdzodfx87s	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Drive	"></a><h3>	Drive	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=mGO1x4POQuw	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Diamond Boy (DTM)	"></a><h3>	Diamond Boy (DTM)	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=j6z-OvPwjsA	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Scorsese Baby Daddy	"></a><h3>	Scorsese Baby Daddy	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=p8pYDvb3BzA	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	What Do I Do	"></a><h3>	What Do I Do	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fTg_tzkE7Xo	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	No More Hiding	"></a><h3>	No More Hiding	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xuZDP6uSD-Q	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Crybaby	"></a><h3>	Crybaby	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=2kabEeizyaw	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Kitchen	"></a><h3>	Kitchen	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=EH-lks6C590	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Another Life	"></a><h3>	Another Life	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=W3H395QNohw	"><img src="img/	Run Rudolph Run - Mark Ambor - 2024.jpg	" alt="	Run Rudolph Run	"></a><h3>	Run Rudolph Run	</h3><p>	Mark Ambor	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=giHYvk92G8I	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Love Me 4 Me	"></a><h3>	Love Me 4 Me	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4mvyoc6MvSc	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	Chill Baby	"></a><h3>	Chill Baby	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5oZxFiXtEbs	"><img src="img/	30 For 30 - SZA With Kendrick Lamar - 2024.png	" alt="	My Turn	"></a><h3>	My Turn	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5YMA7wMUuAE	"><img src="img/	Holiday Road - Kesha - 2024.png	" alt="	Holiday Road	"></a><h3>	Holiday Road	</h3><p>	Kesha	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=6_SsGMeJIHk	"><img src="img/	Santa Baby - Laufey - 2024.png	" alt="	Santa Baby	"></a><h3>	Santa Baby	</h3><p>	Laufey	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=7f6SxWMOpdU	"><img src="img/	el-club-bad-bunny-2024-340x340.png 	" alt="	El Club 	"></a><h3>	El Club 	</h3><p>	Bad Bunny	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hrhu8OE4WMM	"><img src="img/	rosones-tito-double-p-2024-340x340.png 	" alt="	Rosones 	"></a><h3>	Rosones 	</h3><p>	Tito Double P	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eA0lHNZ1KCA	"><img src="img/	toxic-till-the-end-rose-2024-340x340.png 	" alt="	Toxic Till The End 	"></a><h3>	Toxic Till The End 	</h3><p>	ROSE	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=r3QP1SxW1_I	"><img src="img/	white-christmas-v-bing-crosby-2024-340x340.jpg 	" alt="	White Christmas 	"></a><h3>	White Christmas 	</h3><p>	V & Bing Crosby	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=51A9zfyzXcU	"><img src="img/	restless-mind-sam-barber-2024-340x340.png 	" alt="	Indigo 	"></a><h3>	Indigo 	</h3><p>	Sam Barber Featuring Avery Anna	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hgYhws0AHcg	"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	Empty Out Your Pockets 	"></a><h3>	Empty Out Your Pockets 	</h3><p>	Juice WRLD	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=6TK--iArtQM	"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	Misfit 	"></a><h3>	Misfit 	</h3><p>	Juice WRLD	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=YEYu4cD5KAU	"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	The Party Never Ends 	"></a><h3>	The Party Never Ends 	</h3><p>	Juice WRLD	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xYbBTzpVmY8	"><img src="img/	christmas-magic-laufey-2024-340x340.png 	" alt="	Christmas Magic 	"></a><h3>	Christmas Magic 	</h3><p>	Laufey	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=k-k2_Liofy8	"><img src="img/	messy-lola-young-2024-340x340.png 	" alt="	Messy 	"></a><h3>	Messy 	</h3><p>	Lola Young	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qXqIgbaXLeA	"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	KTM Drip 	"></a><h3>	KTM Drip 	</h3><p>	Juice WRLD	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_MUSrN3ACV4	"><img src="img/	empty-out-your-pockets-juice-wrld-2024-340x340.png 	" alt="	Cuffed 	"></a><h3>	Cuffed 	</h3><p>	Juice WRLD	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=HAWYOuMGkK0	"><img src="img/	winter-ahead-v-park-hyo-shin-2024-340x340.png 	" alt="	Winter Ahead 	"></a><h3>	Winter Ahead 	</h3><p>	V & Park Hyo Shin	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fuV4yQWdn_4	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Squabble Up 	"></a><h3>	Squabble Up 	</h3><p>	Kendrick Lamar	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=U8F5G5wR1mk	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	TV Off 	"></a><h3>	TV Off 	</h3><p>	Kendrick Lamar Featuring Lefty Gunplay	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=HfWLgELllZs	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Luther 	"></a><h3>	Luther 	</h3><p>	Kendrick Lamar & SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=YwUQ_5iV9pY	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Wacced Out Murals 	"></a><h3>	Wacced Out Murals 	</h3><p>	Kendrick Lamar	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=9PumlOWjXMM	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Hey Now 	"></a><h3>	Hey Now 	</h3><p>	Kendrick Lamar Featuring Dody6	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Ek7UvQPCQnE	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Reincarnated 	"></a><h3>	Reincarnated 	</h3><p>	Kendrick Lamar	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=wiALRpD0Ztg	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Man At The Garden 	"></a><h3>	Man At The Garden 	</h3><p>	Kendrick Lamar	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=c7y2ziOBA1s	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Dodger Blue 	"></a><h3>	Dodger Blue 	</h3><p>	Kendrick Lamar Featuring Wallie the Sensei, Siete7x & Roddy Ricch	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cbHkzwa0QmM	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Kendrick Lamar Featuring AzChike 	"></a><h3>	Kendrick Lamar Featuring AzChike 	</h3><p>	Peekaboo Kendrick Lamar Featuring AzChike	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=m-PO1_fzxVM	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Heart Pt. 6 	"></a><h3>	Heart Pt. 6 	</h3><p>	Kendrick Lamar	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=D7liwdjvhWc	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	GNX 	"></a><h3>	GNX 	</h3><p>	Kendrick Lamar Featuring Hitta J3, YoungThreat & Peysoh	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=G5YwhjCywvw	"><img src="img/	squabble-up-kendrick-lamar-2024-340x340.png 	" alt="	Gloria 	"></a><h3>	Gloria 	</h3><p>	Kendrick Lamar & SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qeqj5GnoFUY	"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	Defying Gravity 	"></a><h3>	Defying Gravity 	</h3><p>	Cynthia Erivo Featuring Ariana Grande	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=rpFXOD_olvY	"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	Popular 	"></a><h3>	Popular 	</h3><p>	Ariana Grande	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=DAvOfEweyJo	"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	What Is This Feeling? 	"></a><h3>	What Is This Feeling? 	</h3><p>	Ariana Grande & Cynthia Erivo	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Q86_nlRoIGw	"><img src="img/	hello-miss-johnson-jack-harlow-2024-340x340.png 	" alt="	Hello Miss Johnson 	"></a><h3>	Hello Miss Johnson 	</h3><p>	Jack Harlow	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ofz2uoquALs	"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	No One Mourns The Wicked 	"></a><h3>	No One Mourns The Wicked 	</h3><p>	Ariana Grande Featuring Andy Nyman, Courtney-Mae Briggs, Jeff Goldblum, Sharon D. Clarke & Jenna Boyd	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=NF3WEBjSE60	"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	Dancing Through Life 	"></a><h3>	Dancing Through Life 	</h3><p>	Jonathan Bailey Featuring Ariana Grande, Ethan Slater, Marissa Bode & Cynthia Erivo	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VDMiHYgQKLE	"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	The Wizard And I 	"></a><h3>	The Wizard And I 	</h3><p>	Cynthia Erivo Featuring Michelle Yeoh	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=CeUragIeYXg	"><img src="img/	defying-gravity-cynthia-erivo-featuring-ariana-grande-2024-340x340.png 	" alt="	I'm Not That Girl 	"></a><h3>	I'm Not That Girl 	</h3><p>	Cynthia Erivo Featuring Michelle Yeoh	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1F3OGIFnW1k	"><img src="img/	ma-meilleure-ennemie-stromae-pomme-2024-340x340.jpg 	" alt="	Ma Meilleure Ennemie 	"></a><h3>	Ma Meilleure Ennemie 	</h3><p>	Stromae & Pomme	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=boMN64FciiQ	"><img src="img/	gang-baby-nle-choppa-2024-340x340.png 	" alt="	Gang Baby 	"></a><h3>	Gang Baby 	</h3><p>	NLE Choppa	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=g08y_x83d5E	"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Que Pasaria… 	"></a><h3>	Que Pasaria… 	</h3><p>	Rauw Alejandro & Bad Bunny	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cr4wnsLI_Xw	"><img src="img/	2-hands-tate-mcrae-2024-340x340.png 	" alt="	2 Hands 	"></a><h3>	2 Hands 	</h3><p>	Tate McRae	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=uoHol5Dr_go	"><img src="img/	running-wild-jin-2024-340x340.png 	" alt="	Running Wild 	"></a><h3>	Running Wild 	</h3><p>	JIN	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=POCrFEZO82s	"><img src="img/	insecurities-lil-baby-2024-340x340.png 	" alt="	Insecurities 	"></a><h3>	Insecurities 	</h3><p>	Lil Baby	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=7SNycTMOF74	"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Khe? 	"></a><h3>	Khe? 	</h3><p>	Rauw Alejandro & Romeo Santos	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=lVMN4KSK1-8	"><img src="img/	agats2-insecure-juice-wrld-nicki-minaj-2024-340x340.png 	" alt="	AGATS2 (Insecure) 	"></a><h3>	AGATS2 (Insecure) 	</h3><p>	AGATS2	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=NC4wwAtyBA8	"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Tu Con El 	"></a><h3>	Tu Con El 	</h3><p>	Rauw Alejandro	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=WBDpb7SwSgU	"><img src="img/	good-news-shaboozey-2024-340x340.jpg 	" alt="	Good News 	"></a><h3>	Good News 	</h3><p>	Shaboozey	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=X2Fil9BTUEM	"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Se Fue 	"></a><h3>	Se Fue 	</h3><p>	Rauw Alejandro & Laura Pausini	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=XP1NGfz41AQ	"><img src="img/	que-pasaria-rauw-alejandro-bad-bunny-2024-340x340.png 	" alt="	Revolu 	"></a><h3>	Revolu 	</h3><p>	Rauw Alejandro & Feid	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UUzmHevEneY	"><img src="img/	dejame-entrar-rauw-alejandro-2024-340x340.png 	" alt="	Dejame Entrar 	"></a><h3>	Dejame Entrar 	</h3><p>	Rauw Alejandro	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UHn1S_mWZFE	"><img src="img/	neon-moon-brooks-dunn-with-morgan-wallen-2024-340x340.jpg 	" alt="	Neon Moon 	"></a><h3>	Neon Moon 	</h3><p>	Brooks & Dunn With Morgan Wallen	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=n00uMLtoTkA	"><img src="img/	high-road-zach-bryan-2024-340x340.png 	" alt="	High Road 	"></a><h3>	High Road 	</h3><p>	Zach Bryan	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=njEuNfKdUV8	"><img src="img/	high-road-zach-bryan-2024-340x340.png 	" alt="	This World's A Giant 	"></a><h3>	This World's A Giant 	</h3><p>	Zach Bryan	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=CtJPdiYk15g	"><img src="img/	hard-fought-hallelujah-brandon-lake-2024-340x340.png 	" alt="	Hard Fought Hallelujah 	"></a><h3>	Hard Fought Hallelujah 	</h3><p>	Brandon Lake	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5r5UePOgMQU	"><img src="img/	57-karol-g-feid-dfzm-featuring-ovy-on-the-drums-j-balvin-maluma-ryan-castro-blessd-2024-340x340.png 	" alt="	57	"></a><h3>	57	</h3><p>	+ Karol G, Feid & DFZM Featuring Ovy On The Drums, J Balvin, Maluma, Ryan Castro & Blessd	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=E_8vWfCQQwU	"><img src="img/	for-me-loe-shimmy-brent-faiyaz-2024-340x340.jpg 	" alt="	For Me 	"></a><h3>	For Me 	</h3><p>	Loe Shimmy & Brent Faiyaz	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=m1zFk58Dohw	"><img src="img/	4x4xu-lainey-wilson-2024-340x340.jpg 	" alt="	4x4xU 	"></a><h3>	4x4xU 	</h3><p>	Lainey Wilson	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=AI1uDj7YmSI	"><img src="img/	i-aint-sayin-jordan-davis-2024-340x340.png 	" alt="	I Ain't Sayin' 	"></a><h3>	I Ain't Sayin' 	</h3><p>	Jordan Davis	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=3QwZjhHcLZk	"><img src="img/	the-largest-bigxthaplug-2024-340x340.png 	" alt="	The Largest 	"></a><h3>	The Largest 	</h3><p>	BigXthaPlug	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=7lmu30dY_u8	"><img src="img/	criminals-meghan-trainor-2024-340x340.png 	" alt="	Criminals 	"></a><h3>	Criminals 	</h3><p>	Meghan Trainor	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=D7F42F_JM3U	"><img src="img/	chill-bae-lil-uzi-vert-2024-340x340.png 	" alt="	Chill Bae 	"></a><h3>	Chill Bae 	</h3><p>	Lil Uzi Vert	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_7nCyNDcxvQ	"><img src="img/	chill-bae-lil-uzi-vert-2024-340x340.png 	" alt="	Light Year (Practice) 	"></a><h3>	Light Year (Practice) 	</h3><p>	Light Year	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=2kjolTLZ_Mg	"><img src="img/	sao-paulo-the-weeknd-anitta-2024-340x340.png 	" alt="	Sao Paulo 	"></a><h3>	Sao Paulo 	</h3><p>	The Weeknd & Anitta	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=DrSfBULAsek	"><img src="img/	chill-bae-lil-uzi-vert-2024-340x340.png 	" alt="	We Good 	"></a><h3>	We Good 	</h3><p>	Lil Uzi Vert	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-HXRhd40u_o	"><img src="img/	brokey-latto-2024-340x340.png 	" alt="	Brokey 	"></a><h3>	Brokey 	</h3><p>	Latto	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=gkZ4dLMH-B8	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	St. Chroma 	"></a><h3>	St. Chroma 	</h3><p>	Tyler, The Creator Featuring Daniel Caesar	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=16KSivdIGjQ	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Sticky 	"></a><h3>	Sticky 	</h3><p>	Tyler, The Creator Featuring GloRilla, Sexyy Red & Lil Wayne	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ZWDoUsxpkKE	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Darling, I 	"></a><h3>	Darling, I 	</h3><p>	Tyler, The Creator Featuring Teezo Touchdown	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=R_clisSImS4	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Rah Tah Tah 	"></a><h3>	Rah Tah Tah 	</h3><p>	Tyler, The Creator	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fmC6b6_ovZY	"><img src="img/	disease-lady-gaga-2024-340x340.png 	" alt="	Disease 	"></a><h3>	Disease 	</h3><p>	Lady Gaga	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_RuuRU0bGLc	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Thought I Was Dead 	"></a><h3>	Thought I Was Dead 	</h3><p>	Tyler, The Creator Featuring ScHoolboy Q & Santigold	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qFfjnPOXmUM	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Hey Jane 	"></a><h3>	Hey Jane 	</h3><p>	Tyler, The Creator	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=FQUI8KmRUw0	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Judge Judy 	"></a><h3>	Judge Judy 	</h3><p>	Tyler, The Creator	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=JPOjiXoPmOk	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Take Your Mask Off 	"></a><h3>	Take Your Mask Off 	</h3><p>	Tyler, The Creator Featuring Daniel Caesar & Latoiya Williams	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=dgUHE8wWhiE	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Like Him 	"></a><h3>	Like Him 	</h3><p>	Tyler, The Creator Featuring Lola Young	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=bKTmpKPjJxs	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	I Killed You 	"></a><h3>	I Killed You 	</h3><p>	Tyler, The Creator	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=n2KOgQJbZAw	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Tomorrow 	"></a><h3>	Tomorrow 	</h3><p>	Tyler, The Creator	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eZNxD4NbxLA	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	Balloon 	"></a><h3>	Balloon 	</h3><p>	Tyler, The Creator Featuring Doechii	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_e1flpv2nL8	"><img src="img/	heart-of-a-woman-summer-walker-2024-340x340.png 	" alt="	Heart Of A Woman 	"></a><h3>	Heart Of A Woman 	</h3><p>	Summer Walker	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=AUA3_lX6g-s	"><img src="img/	st.-chroma-tyler-the-creator-featuring-daniel-caesar-2024-340x340.png 	" alt="	I Hope You Find Your Way Home 	"></a><h3>	I Hope You Find Your Way Home 	</h3><p>	Tyler, The Creator	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=QxTkZTLWdo4	"><img src="img/	bigger-in-texas-megan-thee-stallion-2024-340x340.png 	" alt="	Bigger In Texas 	"></a><h3>	Bigger In Texas 	</h3><p>	Megan Thee Stallion	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=krRYW-kwstk	"><img src="img/	love-somebody-morgan-wallen-2024-340x340.jpg 	" alt="	Love Somebody 	"></a><h3>	Love Somebody 	</h3><p>	Morgan Wallen	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=8Ebqe2Dbzls	"><img src="img/	apt.-rose-bruno-mars-2025-340x340.png 	" alt="	APT. 	"></a><h3>	APT. 	</h3><p>	ROSE & Bruno Mars	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_ymicn0_Gyc	"><img src="img/	tu-boda-oscar-maydon-fuerza-regida-2025-340x340.png 	" alt="	Tu Boda 	"></a><h3>	Tu Boda 	</h3><p>	Oscar Maydon & Fuerza Regida	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Qer3lwd5hyA	"><img src="img/	noid-tyler-the-creator-2024-340x340.png 	" alt="	Noid 	"></a><h3>	Noid 	</h3><p>	Tyler, The Creator	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=BDHM8cyJQa8	"><img src="img/	thats-so-true-gracie-abrams-2024-340x340.png 	" alt="	That's So True 	"></a><h3>	That's So True 	</h3><p>	Gracie Abrams	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=HiCxoDeo0hc	"><img src="img/	him-all-along-gunna-2024-340x340.jpg 	" alt="	Him All Along 	"></a><h3>	Him All Along 	</h3><p>	Gunna	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xA59TgXyuX0	"><img src="img/	leave-me-alone-bigxthaplug-2024-340x340.png 	" alt="	2AM 	"></a><h3>	2AM 	</h3><p>	BigXthaPlug	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-SSgaCAsU6M	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	25	"></a><h3>	25	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Py9S2bD0RZQ	"><img src="img/	hollon-glorilla-2024-340x340.png 	" alt="	Whatchu Kno About Me 	"></a><h3>	Whatchu Kno About Me 	</h3><p>	GloRilla & Sexyy Red	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=k-z52Y1MoSY	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Last Lap 	"></a><h3>	Last Lap 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jfL8Vu9PfW8	"><img src="img/	sympathy-is-a-knife-charli-xcx-featuring-ariana-grande-2024-340x340.png 	" alt="	Sympathy Is A Knife 	"></a><h3>	Sympathy Is A Knife 	</h3><p>	Charli xcx Featuring Ariana Grande	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jdJxocDoJEw	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Federal Nightmares 	"></a><h3>	Federal Nightmares 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=sVJYuRPeLJk	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Angel With An Attitude 	"></a><h3>	Angel With An Attitude 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=TNB0u2pasik	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	F**k Fame 	"></a><h3>	F**k Fame 	</h3><p>	Rod Wave Featuring Lil Yachty & Lil Baby	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=kYK-RG8tHfY	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Never Mind 	"></a><h3>	Never Mind 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=XiD56kJQs40	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Turtle Race 	"></a><h3>	Turtle Race 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=2txeSE5Ahhc	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Apply Pressure 	"></a><h3>	Apply Pressure 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=MLHcMCRT5DQ	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	The Best 	"></a><h3>	The Best 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=LydyWyQchdU	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Even Love 	"></a><h3>	Even Love 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=3MX-ydU535M	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Lost In Love 	"></a><h3>	Lost In Love 	</h3><p>	Rod Wave & Be Charlotte	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=JQIgygQHNcQ	"><img src="img/	change-me-bigxthaplug-2024-340x340.png 	" alt="	Change Me 	"></a><h3>	Change Me 	</h3><p>	BigXthaPlug	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=QkUdgjZnMsI	"><img src="img/	hollon-glorilla-2024-340x340.png 	" alt="	How I Look 	"></a><h3>	How I Look 	</h3><p>	GloRilla & Megan Thee Stallion	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=j1TFQb15_IQ	"><img src="img/	hollon-glorilla-2024-340x340.png 	" alt="	I Luv Her 	"></a><h3>	I Luv Her 	</h3><p>	GloRilla & T-Pain	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=38VZe_JMSIo	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Waited 2 Late 	"></a><h3>	Waited 2 Late 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5N7pyYKGxNU	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Mike 	"></a><h3>	Mike 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=MOYaRIdDL9o	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	D.A.R.E. 	"></a><h3>	D.A.R.E. 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UwWSpSaBuaU	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Scared Love 	"></a><h3>	Scared Love 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=bB3-CUMERIU	"><img src="img/	mantra-jennie-2024-340x340.png 	" alt="	Mantra 	"></a><h3>	Mantra 	</h3><p>	Jennie	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=a3HoLmCAwUA	"><img src="img/	leave-me-alone-bigxthaplug-2024-340x340.png 	" alt="	Leave Me Alone 	"></a><h3>	Leave Me Alone 	</h3><p>	BigXthaPlug	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VhQ2QZdzMzc	"><img src="img/	25-rod-wave-2024-340x340.png 	" alt="	Karma 	"></a><h3>	Karma 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=At8v_Yc044Y	"><img src="img/	thick-of-it-ksi-featuring-trippie-redd-2024-340x340.png 	" alt="	Thick Of It 	"></a><h3>	Thick Of It 	</h3><p>	KSI Featuring Trippie Redd	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=sTqUHqQruzQ	"><img src="img/	we-pray-coldplay-featuring-little-simz-burna-boy-elyanna-tini-2025-340x340.jpg 	" alt="	We Pray 	"></a><h3>	We Pray 	</h3><p>	Coldplay Featuring Little Simz, Burna Boy, Elyanna & TINI	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ONF2VQpm_Ks	"><img src="img/	fix-what-you-didnt-break-nate-smith-2024-340x340.png 	" alt="	Fix What You Didn't Break 	"></a><h3>	Fix What You Didn't Break 	</h3><p>	Nate Smith	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Q3IdDymP11E	"><img src="img/	new-drop-don-toliver-2024-340x340.png 	" alt="	New Drop 	"></a><h3>	New Drop 	</h3><p>	Don Toliver	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5EpyN_6dqyk	"><img src="img/	timeless-the-weeknd-playboi-carti-2025-340x340.png 	" alt="	Timeless 	"></a><h3>	Timeless 	</h3><p>	The Weeknd & Playboi Carti	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=yy9PuYMU29g	"><img src="img/	im-gonna-love-you-cody-johnson-carrie-underwood-2025-340x340.jpg 	" alt="	I'm Gonna Love You 	"></a><h3>	I'm Gonna Love You 	</h3><p>	Cody Johnson & Carrie Underwood	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eM2hELFg3wE	"><img src="img/	passport-junkie-rod-wave-2024-340x340.png 	" alt="	Fall Fast In Love 	"></a><h3>	Fall Fast In Love 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=9L_ZdETLgzQ	"><img src="img/	heavy-is-the-crown-linkin-park-2024-340x340.png 	" alt="	Heavy Is The Crown 	"></a><h3>	Heavy Is The Crown 	</h3><p>	Linkin Park	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=wNLN5xsx5dc	"><img src="img/	blow-for-blow-tee-grizzley-j.-cole-2025-340x340.png 	" alt="	Blow For Blow 	"></a><h3>	Blow For Blow 	</h3><p>	Tee Grizzley & J. Cole	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Qn8F_u0vBNI	"><img src="img/	no-one-noticed-the-marias-2024-340x340.jpg 	" alt="	No One Noticed 	"></a><h3>	No One Noticed 	</h3><p>	The Marias	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=PuzWMgiEnkg	"><img src="img/	or-what-nle-choppa-41-2025-340x340.png 	" alt="	Or What? 	"></a><h3>	Or What? 	</h3><p>	NLE Choppa & 41	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=54YpK2I6BM8	"><img src="img/	dos-dias-tito-double-p-peso-pluma-2024-340x340-1-340x340.png 	" alt="	El Lokeron 	"></a><h3>	El Lokeron 	</h3><p>	Tito Double P	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=sYpSpHq9ziM	"><img src="img/	keep-up-odetari-2024-340x340.png 	" alt="	Keep Up 	"></a><h3>	Keep Up 	</h3><p>	Odetari	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=8Leh8ZgMTpU	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Teflon Don 	"></a><h3>	Teflon Don 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1YHDGLqH1VM	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Too Fast 	"></a><h3>	Too Fast 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qzw1JI56KW8	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Lil Demon 	"></a><h3>	Lil Demon 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4YIzIQMR_gs	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Ski 	"></a><h3>	Ski 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=iX85sLKJg2A	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Plutoski 	"></a><h3>	Plutoski 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=bfrWxhy6rMA	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Ready To Cook Up 	"></a><h3>	Ready To Cook Up 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=yLiJeWKQa2w	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Ocean 	"></a><h3>	Ocean 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_zusKXFMvIs	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	South Of France 	"></a><h3>	South Of France 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VRn-Hyb0v90	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Brazzier 	"></a><h3>	Brazzier 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=GBBZSQ4hDMs	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Press The Button 	"></a><h3>	Press The Button 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=rOl91s2PTVc	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Surfing A Tsunami 	"></a><h3>	Surfing A Tsunami 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4xnX2-J2IYE	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	MJ 	"></a><h3>	MJ 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qDascklcshU	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Oath 	"></a><h3>	Oath 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=GdAbRtmIRto	"><img src="img/	burning-down-alex-warren-2024-340x340.png 	" alt="	Burning Down 	"></a><h3>	Burning Down 	</h3><p>	Alex Warren	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=On1mm8vWJ50	"><img src="img/	una-velita-bad-bunny-2024-340x340.png 	" alt="	Una Velita 	"></a><h3>	Una Velita 	</h3><p>	Bad Bunny	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-rW1H07HVcQ	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Aye Say Gang 	"></a><h3>	Aye Say Gang 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=OSxyaNqmib4	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Told My 	"></a><h3>	Told My 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=l8MewiPtokc	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Lost My Dog 	"></a><h3>	Lost My Dog 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=WQERaPIB390	"><img src="img/	teflon-don-future-2024-300x300.png 	" alt="	Made My Hoe Faint 	"></a><h3>	Made My Hoe Faint 	</h3><p>	Future	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Uf8Uxgi1uwY	"><img src="img/	hollon-glorilla-2024-340x340.png 	" alt="	Hollon 	"></a><h3>	Hollon 	</h3><p>	GloRilla	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=MLlSSJ0z7xM	"><img src="img/	dancing-in-the-flames-the-weeknd-2024-340x340.png 	" alt="	Dancing In The Flames 	"></a><h3>	Dancing In The Flames 	</h3><p>	The Weeknd	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=F6iYcXynA4s	"><img src="img/	all-red-playboi-carti-2024-340x340.png 	" alt="	All Red 	"></a><h3>	All Red 	</h3><p>	Playboi Carti	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Bpaf6Dm9iRc	"><img src="img/	its-ok-im-ok-tate-mcrae-2024-340x340.png 	" alt="	It's Ok I'm Ok 	"></a><h3>	It's Ok I'm Ok 	</h3><p>	Tate McRae	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=EYcLEizR_fM	"><img src="img/	passport-junkie-rod-wave-2024-340x340.png 	" alt="	Passport Junkie 	"></a><h3>	Passport Junkie 	</h3><p>	Rod Wave	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=K5jyIoPbu4M	"><img src="img/	talk-talk-charli-xcx-featuring-troye-sivan-2024-340x340.png 	" alt="	Talk Talk 	"></a><h3>	Talk Talk 	</h3><p>	Charli xcx Featuring Troye Sivan	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Qh8QwVYOSVU	"><img src="img/	bad-dreams-teddy-swims-2024-340x340.png 	" alt="	Bad Dreams 	"></a><h3>	Bad Dreams 	</h3><p>	Teddy Swims	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=RosaeY90Lpw	"><img src="img/	i-never-lie-zach-top-2024-340x340.png 	" alt="	I Never Lie 	"></a><h3>	I Never Lie 	</h3><p>	Zach Top	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=zhaTJhpzfm8	"><img src="img/	worst-way-riley-green-2024-340x340.png 	" alt="	Worst Way 	"></a><h3>	Worst Way 	</h3><p>	Riley Green	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=SRXH9AbT280	"><img src="img/	the-emptiness-machine-linkin-park-2024-340x340.jpg 	" alt="	The Emptiness Machine 	"></a><h3>	The Emptiness Machine 	</h3><p>	Linkin Park	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=TpYTyAaTRts	"><img src="img/	neva-play-megan-thee-stallion-rm-2025-340x340.png 	" alt="	Neva Play 	"></a><h3>	Neva Play 	</h3><p>	Megan Thee Stallion & RM	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=nne3lXKc1OU	"><img src="img/	dos-dias-tito-double-p-peso-pluma-2024-340x340-1-340x340.png 	" alt="	Dos Dias 	"></a><h3>	Dos Dias 	</h3><p>	Tito Double P & Peso Pluma	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=y1S1eauLdlY	"><img src="img/	ruby-rosary-aap-rocky-featuring-j.-cole-2024-340x340.jpg 	" alt="	Ruby Rosary 	"></a><h3>	Ruby Rosary 	</h3><p>	A$AP Rocky Featuring J. Cole	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Hki6RqI-eMA	"><img src="img/	diet-pepsi-addison-rae-2024-340x340.png 	" alt="	Diet Pepsi 	"></a><h3>	Diet Pepsi 	</h3><p>	Addison Rae	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=R1MSH43zUSc	"><img src="img/	baby-im-back-the-kid-laroi-2024-340x340.jpg 	" alt="	Baby I'm Back 	"></a><h3>	Baby I'm Back 	</h3><p>	The Kid LAROI	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=bdg3Zxb9r4g	"><img src="img/	no-face-drake-2024-340x340.png 	" alt="	No Face 	"></a><h3>	No Face 	</h3><p>	Drake	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=_zq1Squ-Uqs	"><img src="img/	its-up-drake-young-thug-21-savage-2025-340x340.png 	" alt="	Circadian Rhythm 	"></a><h3>	Circadian Rhythm 	</h3><p>	Drake	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=n6B5gQXlB-0	"><img src="img/	crazy-le-sserafim-2024-340x340.png 	" alt="	Crazy 	"></a><h3>	Crazy 	</h3><p>	LE SSERAFIM	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5URefVYaJrA	"><img src="img/	tailor-swif-aap-rocky-2024-340x340.png 	" alt="	Tailor Swif 	"></a><h3>	Tailor Swif 	</h3><p>	A$AP Rocky	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qyOcPYeFByA	"><img src="img/	parking-lot-mustard-travis-scott-2025-340x340.png 	" alt="	Parking Lot 	"></a><h3>	Parking Lot 	</h3><p>	Mustard & Travis Scott	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ny-IxcS7Yb4	"><img src="img/	sorry-not-sorry-lil-yachty-veeze-2025-340x340.png 	" alt="	Sorry Not Sorry 	"></a><h3>	Sorry Not Sorry 	</h3><p>	Lil Yachty & Veeze	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=KEG7b851Ric	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	"Taste	Sabrina Carpenter "	"></a><h3>	"Taste	Sabrina Carpenter "	</h3><p>	Taste Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=x8VkB8ap_FQ	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Bed Chem 	"></a><h3>	Bed Chem 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=alYCYZvB3yo	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Good Graces 	"></a><h3>	Good Graces 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=TuOwCuECUvM	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Sharpest Tool 	"></a><h3>	Sharpest Tool 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1aMCVgRKcP4	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Juno 	"></a><h3>	Juno 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jbJhdc2zLz0	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Coincidence 	"></a><h3>	Coincidence 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=TmP-d1KQqQo	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Slim Pickins 	"></a><h3>	Slim Pickins 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=moMdJBDCblE	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Dumb & Poetic 	"></a><h3>	Dumb & Poetic 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Ju9X2HMMid4	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Don't Smile 	"></a><h3>	Don't Smile 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xYQT5qx1ROE	"><img src="img/	taste-sabrina-carpenter-2024-340x340.png 	" alt="	Lie To Girls 	"></a><h3>	Lie To Girls 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jzF5rw0vUQw	"><img src="img/	am-i-okay-megan-moroney-2024-340x340.jpg 	" alt="	Am I Okay? 	"></a><h3>	Am I Okay? 	</h3><p>	Megan Moroney	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=oa8kjoT-MrM	"><img src="img/	prove-it-21-savage-summer-walker-2025-340x340.png 	" alt="	Prove It 	"></a><h3>	Prove It 	</h3><p>	21 Savage & Summer Walker	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=PmJuMNGp5YE	"><img src="img/	close-to-you-gracie-abrams-2024-340x340.jpg 	" alt="	Close To You 	"></a><h3>	Close To You 	</h3><p>	Gracie Abrams	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=p9wsEOVK4cw	"><img src="img/	girls-the-kid-laroi-2024-340x340.png 	" alt="	Girls 	"></a><h3>	Girls 	</h3><p>	The Kid LAROI	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=kPa7bsKwL-c	"><img src="img/	die-with-a-smile-lady-gaga-bruno-mars-2025-340x340.jpg 	" alt="	Die With A Smile 	"></a><h3>	Die With A Smile 	</h3><p>	Lady Gaga & Bruno Mars	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cF1Na4AIecM	"><img src="img/	please-please-please-sabrina-carpenter-2024-340x340.jpg 	" alt="	Please Please Please 	"></a><h3>	Please Please Please 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=V9PVRfjEBTI	"><img src="img/	birds-of-a-feather-billie-eilish-2024-340x340.jpg 	" alt="	Birds Of A Feather 	"></a><h3>	Birds Of A Feather 	</h3><p>	Billie Eilish	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4QIZE708gJ4	"><img src="img/	i-had-some-help-post-malone-featuring-morgan-wallen-2024-340x340.jpg 	" alt="	I Had Some Help 	"></a><h3>	I Had Some Help 	</h3><p>	Post Malone Featuring Morgan Wallen	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=H58vbez_m4E	"><img src="img/	not-like-us-kendrick-lamar-2024-340x340.jpg 	" alt="	Not Like Us 	"></a><h3>	Not Like Us 	</h3><p>	Kendrick Lamar	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Zf1d8SGuxfs	"><img src="img/	million-dollar-baby-tommy-richman-2024-340x340.jpg 	" alt="	Million Dollar Baby 	"></a><h3>	Million Dollar Baby 	</h3><p>	Tommy Richman	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=t7bQwwqW-Hc	"><img src="img/	a-bar-song-tipsy-shaboozey-2024-340x340.jpg 	" alt="	A Bar Song (Tipsy) 	"></a><h3>	A Bar Song (Tipsy) 	</h3><p>	A Bar Song	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eVli-tstM5E	"><img src="img/	espresso-sabrina-carpenter-2024-340x340.jpg 	" alt="	Espresso 	"></a><h3>	Espresso 	</h3><p>	Sabrina Carpenter	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1RKqOmSkGgM	"><img src="img/	good-luck-babe-chappell-roan-2024-340x340.jpg 	" alt="	Good Luck, Babe! 	"></a><h3>	Good Luck, Babe! 	</h3><p>	Chappell Roan	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=NTpbbQUBbuo	"><img src="img/	too-sweet-hozier-2024-340x340.jpeg 	" alt="	Too Sweet 	"></a><h3>	Too Sweet 	</h3><p>	Chappell Roan	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Oa_RSwwpPaA	"><img src="img/	beautiful-things-benson-boone-2024-340x340.jpg 	" alt="	Beautiful Things 	"></a><h3>	Beautiful Things 	</h3><p>	Benson Boone	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=RoeXmaSE7Lo	"><img src="img/	pour-me-a-drink-post-malone-featuring-blake-shelton-2024-340x340.jpg 	" alt="	Pour Me A Drink 	"></a><h3>	Pour Me A Drink 	</h3><p>	Post Malone Featuring Blake Shelton	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=J6YlaeACE4E	"><img src="img/	aint-no-love-in-oklahoma-luke-combs-2024-340x340.jpg 	" alt="	Ain't No Love In Oklahoma 	"></a><h3>	Ain't No Love In Oklahoma 	</h3><p>	Luke Combs	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fs49xFmmHCo	"><img src="img/	pink-skies-zach-bryan-2024-340x340.jpg 	" alt="	Pink Skies 	"></a><h3>	Pink Skies 	</h3><p>	Zach Bryan	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=b1aBzAE-IFY	"><img src="img/	guy-for-that-post-malone-featuring-luke-combs-2024-340x340.jpg 	" alt="	Guy For That 	"></a><h3>	Guy For That 	</h3><p>	Post Malone Featuring Luke Combs	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=aN7WCsC9nkI	"><img src="img/	lies-lies-lies-morgan-wallen-2024-340x340.jpg 	" alt="	Lies Lies Lies 	"></a><h3>	Lies Lies Lies 	</h3><p>	Morgan Wallen	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=RMmoyP_cpEg	"><img src="img/	miles-on-it-marshmello-kane-brown-2025-340x340.jpg 	" alt="	Miles On It 	"></a><h3>	Miles On It 	</h3><p>	Marshmello & Kane Brown	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=72jIu39ZRz4	"><img src="img/	wrong-ones-post-malone-featuring-tim-mcgraw-340x340.png 	" alt="	Wrong Ones 	"></a><h3>	Wrong Ones 	</h3><p>	Post Malone Featuring Tim McGraw	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=V2G8ESoDXm8	"><img src="img/	saturn-sza-340x340.png 	" alt="	Saturn 	"></a><h3>	Saturn 	</h3><p>	SZA	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=uKiF-UMnB9A	"><img src="img/	wrong-ones-post-malone-featuring-tim-mcgraw-340x340.png 	" alt="	Losers 	"></a><h3>	Losers 	</h3><p>	Post Malone Featuring Jelly Roll	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=N9bKBAA22Go	"><img src="img/	like-that-future-metro-boomin-kendrick-lamar-1-340x340.png 	" alt="	Like That 	"></a><h3>	Like That 	</h3><p>	Future, Metro Boomin & Kendrick Lamar	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ULCb3krc5LI	"><img src="img/	kehlani-jordan-adetunji-2024-340x340.png 	" alt="	Kehlani 	"></a><h3>	Kehlani 	</h3><p>	Jordan Adetunji	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hOHKltAiKXQ	"><img src="img/	big-dawgs-hanumankind-x-kalmi-2024-340x340.png 	" alt="	Big Dawgs 	"></a><h3>	Big Dawgs 	</h3><p>	Hanumankind X Kalmi	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=22tVWwmTie8	"><img src="img/	houdini-eminem-2024-340x340.png 	" alt="	Houdini 	"></a><h3>	Houdini 	</h3><p>	Eminem	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Qop5XLgwkNc	"><img src="img/	i-am-not-okay-jelly-roll-2024-340x340.jpg 	" alt="	I Am Not Okay 	"></a><h3>	I Am Not Okay 	</h3><p>	Jelly Roll	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Av9DvtlJ9_M	"><img src="img/	who-jimin-2024-340x340.png 	" alt="	Who 	"></a><h3>	Who 	</h3><p>	Jimin	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=huGd4efgdPA	"><img src="img/	guess-charli-xcx-featuring-billie-eilish-2024-340x340.png 	" alt="	Guess 	"></a><h3>	Guess 	</h3><p>	Charli xcx Featuring Billie Eilish	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=wxIbNWFaRbU	"><img src="img/	wrong-ones-post-malone-featuring-tim-mcgraw-340x340.png 	" alt="	California Sober 	"></a><h3>	California Sober 	</h3><p>	Post Malone Featuring Chris Stapleton	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=XN39ZM0Ip1I	"><img src="img/	28-zach-bryan-2024-340x340.png 	" alt="	28	"></a><h3>	28	</h3><p>	Zach Bryan	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Sl6en1NPTYM	"><img src="img/	i-can-do-it-with-a-broken-heart-taylor-swift-2024-340x340.png 	" alt="	I Can Do It With A Broken Heart 	"></a><h3>	I Can Do It With A Broken Heart 	</h3><p>	Taylor Swift	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=BT_83vSP1es	"><img src="img/	wanna-be-glorilla-megan-thee-stallion-2025-340x340.png 	" alt="	Wanna Be 	"></a><h3>	Wanna Be 	</h3><p>	GloRilla & Megan Thee Stallion	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=QCZZwZQ4qNs	"><img src="img/	si-antes-te-hubiera-conocido-karol-g-2024-340x340.png 	" alt="	Si Antes Te Hubiera Conocido 	"></a><h3>	Si Antes Te Hubiera Conocido 	</h3><p>	Karol G	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qvfssW5U_Ig	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	What Don't Belong To Me 	"></a><h3>	What Don't Belong To Me 	</h3><p>	Post Malone	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=f4Y3b7un4LE	"><img src="img/	slow-it-down-benson-boone-2024-340x340.jpg 	" alt="	Slow It Down 	"></a><h3>	Slow It Down 	</h3><p>	Benson Boone	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=piiG1j_ga0U	"><img src="img/	wrong-ones-post-malone-featuring-tim-mcgraw-340x340.png 	" alt="	Finer Things 	"></a><h3>	Finer Things 	</h3><p>	Post Malone Featuring Hank Williams Jr.	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=zP6eqCOM7tk	"><img src="img/	tgif-glorilla-2024-340x340.png 	" alt="	TGIF 	"></a><h3>	TGIF 	</h3><p>	GloRilla	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=tKml80alH3Y	"><img src="img/	stargazing-myles-smith-2024-340x340.png 	" alt="	Stargazing 	"></a><h3>	Stargazing 	</h3><p>	Myles Smith	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ufCoLHEvsmk	"><img src="img/	its-up-drake-young-thug-21-savage-2025-340x340.png 	" alt="	It's Up 	"></a><h3>	It's Up 	</h3><p>	Drake, Young Thug & 21 Savage	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=KNtJGQkC-WI	"><img src="img/	we-cant-be-friends-wait-for-your-love-ariana-grande-2024-300x300.png 	" alt="	We Can't Be Friends (Wait For Your Love) 	"></a><h3>	We Can't Be Friends (Wait For Your Love) 	</h3><p>	We Can't Be Friends	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=WJW-VvmRKsE	"><img src="img/	360-charli-xcx-2024-340x340.png 	" alt="	360	"></a><h3>	360	</h3><p>	Charli xcx	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cNfsOx7yV9s	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Nosedive 	"></a><h3>	Nosedive 	</h3><p>	Post Malone Featuring Lainey Wilson	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UyAKpowkUDA	"><img src="img/	high-road-koe-wetzel-jessie-murph-2025-340x340.png 	" alt="	High Road 	"></a><h3>	High Road 	</h3><p>	Koe Wetzel & Jessie Murph	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=OdxSbc0ap-s	"><img src="img/	mamushi-megan-thee-stallion-featuring-yuki-chiba-2024-340x340.png 	" alt="	Mamushi 	"></a><h3>	Mamushi 	</h3><p>	Megan Thee Stallion Featuring Yuki Chiba	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hrAeuPqYnRQ	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Yours 	"></a><h3>	Yours 	</h3><p>	Post Malone	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=q3zqJs7JUCQ	"><img src="img/	fortnight-taylor-swift-featuring-post-malone-2024-340x340.png 	" alt="	Fortnight 	"></a><h3>	Fortnight 	</h3><p>	Taylor Swift Featuring Post Malone	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=8mW_FI-SN0Y	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Have The Heart 	"></a><h3>	Have The Heart 	</h3><p>	Post Malone Featuring Dolly Parton	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=l08Zw-RY__Q	"><img src="img/	wildflower-billie-eilish-2024-340x340.png 	" alt="	Wildflower 	"></a><h3>	Wildflower 	</h3><p>	Billie Eilish	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=yqW7__yIZuA	"><img src="img/	bulletproof-nate-smith-340x340.jpg 	" alt="	Bulletproof 	"></a><h3>	Bulletproof 	</h3><p>	Nate Smith	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=kJamyq0WplE	"><img src="img/	whiskey-whiskey-moneybagg-yo-featuring-morgan-wallen-2024-340x340.png 	" alt="	Whiskey Whiskey	"></a><h3>	Whiskey Whiskey	</h3><p>	Moneybagg Yo Featuring Morgan Wallen	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=kegEjYL7ih4	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Goes Without Saying 	"></a><h3>	Goes Without Saying 	</h3><p>	Post Malone Featuring Brad Paisley	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Dm2TSMerGPQ	"><img src="img/	you-look-like-you-love-me-ella-langley-featuring-riley-green-2024-340x340.jpg 	" alt="	You Look Like You Love Me 	"></a><h3>	You Look Like You Love Me 	</h3><p>	Ella Langley Featuring Riley Green	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=CPWxExGk7PM	"><img src="img/	apple-charli-xcx-2024-340x340.png 	" alt="	Apple 	"></a><h3>	Apple 	</h3><p>	Charli xcx	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=k_CjP9CaKTQ	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Missin' You Like This 	"></a><h3>	Missin' You Like This 	</h3><p>	Post Malone Featuring Luke Combs	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=w_JtBYqMgk8	"><img src="img/	one-of-wun-gunna-2024-340x340.png 	" alt="	One Of Wun 	"></a><h3>	One Of Wun 	</h3><p>	Gunna	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xK8CMtx0aAU	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Hide My Gun 	"></a><h3>	Hide My Gun 	</h3><p>	Post Malone Featuring HARDY	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=vzJhl9gcytM	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Devil I've Been 	"></a><h3>	Devil I've Been 	</h3><p>	Post Malone Featuring ERNEST	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=MB3VkzPdgLA	"><img src="img/	wildflower-billie-eilish-2024-340x340.png 	" alt="	Lunch 	"></a><h3>	Lunch 	</h3><p>	Billie Eilish	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-r687V8yqKY	"><img src="img/	gata-only-floyymenor-x-cris-mj-2024-340x340.png 	" alt="	Gata Only 	"></a><h3>	Gata Only 	</h3><p>	FloyyMenor X Cris Mj	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=pDddlvCfTiw	"><img src="img/	band4band-central-cee-lil-baby-2025-340x340.png 	" alt="	BAND4BAND 	"></a><h3>	BAND4BAND 	</h3><p>	Central Cee & Lil Baby	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=IXJTaHySW8I	"><img src="img/	help-me-real-boston-richey-2024-340x340.png 	" alt="	Help Me 	"></a><h3>	Help Me 	</h3><p>	Real Boston Richey	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=b6-JNeXxN3s	"><img src="img/	lonely-road-mgk-jelly-roll-2025-340x340.png 	" alt="	Lonely Road 	"></a><h3>	Lonely Road 	</h3><p>	mgk & Jelly Roll	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=KwRxeZ9Ro24	"><img src="img/	the-boy-is-mine-ariana-grande-2024-340x340.png 	" alt="	The Boy Is Mine 	"></a><h3>	The Boy Is Mine 	</h3><p>	Ariana Grande	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=jrjESdPsLxE	"><img src="img/	nasty-tinashe-2024-340x340.png 	" alt="	Nasty 	"></a><h3>	Nasty 	</h3><p>	Tinashe	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=LIzEdmRgu14	"><img src="img/	hang-tight-honey-lainey-wilson-2024-340x340.jpg 	" alt="	Hang Tight Honey 	"></a><h3>	Hang Tight Honey 	</h3><p>	Lainey Wilson	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=91MyF6w_wzQ	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Never Love You Again 	"></a><h3>	Never Love You Again 	</h3><p>	Post Malone Featuring Sierra Ferrell	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fZcrCrHnYBw	"><img src="img/	nel-fuerza-regida-2024-340x340.png 	" alt="	Nel 	"></a><h3>	Nel 	</h3><p>	Fuerza Regida	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Fr9rMmMp3mY	"><img src="img/	la-patrulla-peso-pluma-neton-vega-2025-340x340.png 	" alt="	La Patrulla 	"></a><h3>	La Patrulla 	</h3><p>	Peso Pluma & Neton Vega	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=eAwVv5gl6Rk	"><img src="img/	wind-up-missin-you-tucker-wetmore-2024-340x340.png 	" alt="	Wind Up Missin' You 	"></a><h3>	Wind Up Missin' You 	</h3><p>	Tucker Wetmore	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cks754Oor4o	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	M-E-X-I-C-O 	"></a><h3>	M-E-X-I-C-O 	</h3><p>	Post Malone Featuring Billy Strings	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=G6CQLM1H4KI	"><img src="img/	beautiful-as-you-thomas-rhett-2024-340x340.png 	" alt="	Beautiful As You 	"></a><h3>	Beautiful As You 	</h3><p>	Thomas Rhett	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=-V-sywKOCwQ	"><img src="img/	si-no-quieres-no-luis-r-conriquez-x-neton-vega-2024-340x340.png 	" alt="	Si No Quieres No 	"></a><h3>	Si No Quieres No 	</h3><p>	Luis R Conriquez x Neton Vega	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=0MhTc1uBuDo	"><img src="img/	love-you-miss-you-mean-it-luke-bryan-2024-340x340.png 	" alt="	Love You, Miss You, Mean It 	"></a><h3>	Love You, Miss You, Mean It 	</h3><p>	Luke Bryan	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=HjPAPdseMGU	"><img src="img/	what-dont-belong-to-me-post-malone-2024-340x340.png 	" alt="	Right About You 	"></a><h3>	Right About You 	</h3><p>	Post Malone	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xPWnNFF-Taw	"><img src="img/	belong-together-mark-ambor-2024-340x340.png 	" alt="	Belong Together 	"></a><h3>	Belong Together 	</h3><p>	Mark Ambor	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=uxjhN_Donfw	"><img src="img/	i-love-you-im-sorry-gracie-abrams-2024-340x340.png 	" alt="	I Love You, I'm Sorry 	"></a><h3>	I Love You, I'm Sorry 	</h3><p>	Gracie Abrams	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=4BuWrb8A_w4	"><img src="img/	pretty-slowly-benson-boone-2024-340x340.png 	" alt="	Pretty Slowly 	"></a><h3>	Pretty Slowly 	</h3><p>	Benson Boone	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=SMvmAWECT8U	"><img src="img/	devil-is-a-lie-tommy-richman-2024-340x340.png 	" alt="	Devil Is A Lie 	"></a><h3>	Devil Is A Lie 	</h3><p>	Tommy Richman	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=BY_XwvKogC8	"><img src="img/	wildflower-billie-eilish-2024-340x340.png 	" alt="	Chihiro 	"></a><h3>	Chihiro 	</h3><p>	Billie Eilish	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Aki05PCJWtE	"><img src="img/	u-my-everything-sexyy-red-drake-2025-340x340.png 	" alt="	U My Everything 	"></a><h3>	U My Everything 	</h3><p>	Sexyy Red & Drake	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UxXY_hR_wzo	"><img src="img/	new-woman-lisa-featuring-rosalia-2024-340x340.png 	" alt="	New Woman 	"></a><h3>	New Woman 	</h3><p>	LISA Featuring Rosalia	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=1lrFsXkT_rM	"><img src="img/	sailor-song-gigi-perez-2024-340x340.png 	" alt="	Sailor Song 	"></a><h3>	Sailor Song 	</h3><p>	Gigi Perez	</p></li>
+      <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ax4eWS8UBGY	"><img src="img/	american-nights-zach-bryan-2024-335x335.png 	" alt="	American Nights 	"></a><h3>	American Nights 	</h3><p>	Zach Bryan	</p></li>
+                                                                              
     </ul>
             
     </div></div>
 
-  <!-- Modal structure -->
-  <div class="youtube-modal" id="youtubeModal">
-    <div class="youtube-modal-content">
-        <span class="youtube-close-btn" id="closeModal">&times;</span>
-        <iframe id="youtubeIframe" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!-- Modal Structure -->
+<div id="wikiModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Article or Video</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
     </div>
+    <div class="modal-body">
+      <iframe id="wikiIframe" src="" allowfullscreen></iframe> <!-- Added allowfullscreen -->
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
 </div>
 
 <script>
-    // Get modal elements
-    const modal = document.getElementById('youtubeModal');
-    const iframe = document.getElementById('youtubeIframe');
-    const closeModal = document.getElementById('closeModal');
-    const youtubeLinks = document.querySelectorAll('.youtube-link');
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
+    const modal = document.getElementById('wikiModal');
+    const iframe = document.getElementById('wikiIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
 
-    // Function to extract YouTube video ID from a standard URL
-    function getYouTubeVideoID(url) {
-        const urlObj = new URL(url);
-        return urlObj.searchParams.get('v');
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+      
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
     }
 
-    // Open modal on link click
-    youtubeLinks.forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault(); // Prevent default anchor behavior
-            const videoId = getYouTubeVideoID(link.href);
-            if (videoId) {
-                iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
-                modal.style.display = 'flex';
-            }
-        });
-    });
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+        const url = this.href;
 
-    // Close modal
-    closeModal.addEventListener('click', () => {
-        modal.style.display = 'none';
-        iframe.src = ''; // Stop video playback
-    });
-
-    // Close modal when clicking outside the modal content
-    window.addEventListener('click', (event) => {
-        if (event.target === modal) {
-            modal.style.display = 'none';
-            iframe.src = '';
+        // Check if the link is a YouTube link
+        if (url.includes('youtube')) {
+          // Embed YouTube video
+          const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
+          iframe.src = `https://www.youtube.com/embed/${videoId}`;
+        } else {
+          // Load Wikipedia page
+          iframe.src = url;
         }
-    });
-</script>
 
+        modal.style.display = 'flex'; // Show modal (flex layout for centering)
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function(event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
 
     <footer class="foot">
         <div class="block fo-1">

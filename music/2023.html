@@ -55,66 +55,71 @@
         color: #666;
     }
     
-</style>
-
-<style>
-        /* Modal styles */
-    .modal {
-        display: none; /* Hidden by default */
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.8); /* Black with transparency */
-        z-index: 1000;
-        justify-content: center;
-        align-items: center;
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
     }
 
     .modal-content {
-        position: relative;
-        width: 90%;
-        max-width: 800px;
-        background-color: #000;
-        border-radius: 8px;
-        overflow: hidden;
-        padding: 0;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
     }
 
-    .modal-content iframe {
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-        border: none;
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
     }
 
     .close-btn {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 24px;
-        color: #fff;
-        cursor: pointer;
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
     }
 
+    /* Close button styling */
     .close-btn:hover {
-        color: #ff0000;
+      color: red;
     }
 
-    /* Trigger link */
-    .youtube-link {
-        display: inline-block;
-        margin: 20px;
-        text-decoration: none;
-        color: #007BFF;
-        font-size: 18px;
+    iframe {
+      width: 100%;
+      border: none;
     }
-
-    .youtube-link:hover {
-        text-decoration: underline;
-    }
-</style>
+  </style>
 
 </head><body>
 
@@ -149,77 +154,105 @@
 
     <ul class="responsive-table">
 
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=GZ3zL7kT6_c	"class="youtube-link"><img src="img/	lose-control-teddy-swims-2024-340x340.jpg	" alt="	Lose Control	"></a><h3>	Lose Control	</h3><p>	Teddy Swims	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UpYu9FgcxKo	"class="youtube-link"><img src="img/	cowgirls-morgan-wallen-featuring-ernest-2023-340x340.jpg	" alt="	Cowgirls	"></a><h3>	Cowgirls	</h3><p>	Morgan Wallen Featuring ERNEST	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xaPNR-_Cfn0	"class="youtube-link"><img src="img/	hot-to-go-chappell-roan-2023-340x340.jpg	" alt="	Hot To Go!	"></a><h3>	Hot To Go!	</h3><p>	Chappell Roan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ZVVvJjwzl6c	"class="youtube-link"><img src="img/	i-remember-everything-zach-bryan-featuring-kacey-musgraves-2023-340x340.jpg	" alt="	I Remember Everything	"></a><h3>	I Remember Everything	</h3><p>	Zach Bryan Featuring Kacey Musgraves	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=FyjnbSsZ2tc	"class="youtube-link"><img src="img/	austin-dasha-340x340.png	" alt="	Austin	"></a><h3>	Austin	</h3><p>	Dasha	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VS6ixn2berk	"class="youtube-link"><img src="img/	red-wine-supernova-chappell-roan-2023-340x340.png	" alt="	Red Wine Supernova	"></a><h3>	Red Wine Supernova	</h3><p>	Chappell Roan	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VSXT4a2kRHA	"class="youtube-link"><img src="img/	the-door-teddy-swims-2023-340x340.png	" alt="	The Door	"></a><h3>	The Door	</h3><p>	Teddy Swims	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cdVN4ZiJUTE	"class="youtube-link"><img src="img/	dirt-cheap-cody-johnson-2023-340x340.jpg	" alt="	Dirt Cheap	"></a><h3>	Dirt Cheap	</h3><p>	Cody Johnson	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=dFr4NU9C0HE	"class="youtube-link"><img src="img/	nights-like-this-the-kid-laroi-2023-340x340.png	" alt="	Nights Like This	"></a><h3>	Nights Like This	</h3><p>	The Kid LAROI	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=w6G7HrcVHUs	"class="youtube-link"><img src="img/	chevrolet-dustin-lynch-featuring-jelly-roll-2023-340x340.jpg	" alt="	Chevrolet	"></a><h3>	Chevrolet	</h3><p>	Dustin Lynch Featuring Jelly Roll	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5-8D5ILlhNE	"class="youtube-link"><img src="img/	think-im-in-love-with-you-chris-stapleton-2023-340x340.jpeg	" alt="	Think I'm In Love With You	"></a><h3>	Think I'm In Love With You	</h3><p>	Chris Stapleton	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=XN972Dmm9KU	"class="youtube-link"><img src="img/	young-love-saturday-nights-chris-young-2023-340x340.png	" alt="	Young Love & Saturday Nights	"></a><h3>	Young Love & Saturday Nights	</h3><p>	Chris Young	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=x24qP3sjrvw	"class="youtube-link"><img src="img/	shake-dat-ass-twerk-song-bossman-dlow-2023-340x340.png	" alt="	Shake Dat Ass (Twerk Song)	"></a><h3>	Shake Dat Ass (Twerk Song)	</h3><p>	BossMan Dlow	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qjY7WvD-HKM	"class="youtube-link"><img src="img/	this-is-my-dirt-justin-moore-2023-340x340.png	" alt="	This Is My Dirt	"></a><h3>	This Is My Dirt	</h3><p>	Justin Moore	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=2aEs3Mv4uPw	"class="youtube-link"><img src="img/	back-on-my-bs-bigxthaplug-2023-340x340.jpg	" alt="	Back On My BS	"></a><h3>	Back On My BS	</h3><p>	BigXthaPlug	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fCeiUX59_FM	"class="youtube-link"><img src="img/	no-pole-don-toliver-2023-340x340.png	" alt="	No Pole	"></a><h3>	No Pole	</h3><p>	Don Toliver	</p></li>
-        
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=GZ3zL7kT6_c	"><img src="img/	lose-control-teddy-swims-2024-340x340.jpg	" alt="	Lose Control	"></a><h3>	Lose Control	</h3><p>	Teddy Swims	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UpYu9FgcxKo	"><img src="img/	cowgirls-morgan-wallen-featuring-ernest-2023-340x340.jpg	" alt="	Cowgirls	"></a><h3>	Cowgirls	</h3><p>	Morgan Wallen Featuring ERNEST	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=xaPNR-_Cfn0	"><img src="img/	hot-to-go-chappell-roan-2023-340x340.jpg	" alt="	Hot To Go!	"></a><h3>	Hot To Go!	</h3><p>	Chappell Roan	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=ZVVvJjwzl6c	"><img src="img/	i-remember-everything-zach-bryan-featuring-kacey-musgraves-2023-340x340.jpg	" alt="	I Remember Everything	"></a><h3>	I Remember Everything	</h3><p>	Zach Bryan Featuring Kacey Musgraves	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=FyjnbSsZ2tc	"><img src="img/	austin-dasha-340x340.png	" alt="	Austin	"></a><h3>	Austin	</h3><p>	Dasha	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VS6ixn2berk	"><img src="img/	red-wine-supernova-chappell-roan-2023-340x340.png	" alt="	Red Wine Supernova	"></a><h3>	Red Wine Supernova	</h3><p>	Chappell Roan	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=VSXT4a2kRHA	"><img src="img/	the-door-teddy-swims-2023-340x340.png	" alt="	The Door	"></a><h3>	The Door	</h3><p>	Teddy Swims	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=cdVN4ZiJUTE	"><img src="img/	dirt-cheap-cody-johnson-2023-340x340.jpg	" alt="	Dirt Cheap	"></a><h3>	Dirt Cheap	</h3><p>	Cody Johnson	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=dFr4NU9C0HE	"><img src="img/	nights-like-this-the-kid-laroi-2023-340x340.png	" alt="	Nights Like This	"></a><h3>	Nights Like This	</h3><p>	The Kid LAROI	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=w6G7HrcVHUs	"><img src="img/	chevrolet-dustin-lynch-featuring-jelly-roll-2023-340x340.jpg	" alt="	Chevrolet	"></a><h3>	Chevrolet	</h3><p>	Dustin Lynch Featuring Jelly Roll	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=5-8D5ILlhNE	"><img src="img/	think-im-in-love-with-you-chris-stapleton-2023-340x340.jpeg	" alt="	Think I'm In Love With You	"></a><h3>	Think I'm In Love With You	</h3><p>	Chris Stapleton	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=XN972Dmm9KU	"><img src="img/	young-love-saturday-nights-chris-young-2023-340x340.png	" alt="	Young Love & Saturday Nights	"></a><h3>	Young Love & Saturday Nights	</h3><p>	Chris Young	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=x24qP3sjrvw	"><img src="img/	shake-dat-ass-twerk-song-bossman-dlow-2023-340x340.png	" alt="	Shake Dat Ass (Twerk Song)	"></a><h3>	Shake Dat Ass (Twerk Song)	</h3><p>	BossMan Dlow	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=qjY7WvD-HKM	"><img src="img/	this-is-my-dirt-justin-moore-2023-340x340.png	" alt="	This Is My Dirt	"></a><h3>	This Is My Dirt	</h3><p>	Justin Moore	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=2aEs3Mv4uPw	"><img src="img/	back-on-my-bs-bigxthaplug-2023-340x340.jpg	" alt="	Back On My BS	"></a><h3>	Back On My BS	</h3><p>	BigXthaPlug	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=fCeiUX59_FM	"><img src="img/	no-pole-don-toliver-2023-340x340.png	" alt="	No Pole	"></a><h3>	No Pole	</h3><p>	Don Toliver	</p></li>
+                
                                                                 
     </ul>
             
     </div></div>
 
- <!-- Modal structure -->
- <div class="modal" id="youtubeModal">
+<!-- Modal Structure -->
+<div id="wikiModal" class="modal">
     <div class="modal-content">
-        <span class="close-btn" id="closeModal">&times;</span>
-        <iframe id="youtubeIframe" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div class="modal-header">
+        <h5 class="modal-title">Article or Video</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="wikiIframe" src="" allowfullscreen></iframe> <!-- Added allowfullscreen -->
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
     </div>
-</div>
-
-<script>
-    // Get modal elements
-    const modal = document.getElementById('youtubeModal');
-    const iframe = document.getElementById('youtubeIframe');
-    const closeModal = document.getElementById('closeModal');
-    const youtubeLinks = document.querySelectorAll('.youtube-link');
-
-    // Function to extract YouTube video ID from a standard URL
-    function getYouTubeVideoID(url) {
-        const urlObj = new URL(url);
-        return urlObj.searchParams.get('v');
-    }
-
-    // Open modal on link click
-    youtubeLinks.forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault(); // Prevent default anchor behavior
-            const videoId = getYouTubeVideoID(link.href);
-            if (videoId) {
-                iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
-                modal.style.display = 'flex';
-            }
+  </div>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
+      const modal = document.getElementById('wikiModal');
+      const iframe = document.getElementById('wikiIframe');
+      const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+  
+      // Function to adjust iframe height
+      function adjustIframeHeight() {
+        const modalContent = document.querySelector('.modal-content');
+        const headerHeight = document.querySelector('.modal-header').offsetHeight;
+        const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+        const modalHeight = modalContent.offsetHeight;
+        
+        // Set iframe height based on the remaining space
+        const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+        iframe.style.height = iframeHeight + 'px';
+      }
+  
+      // Open modal and set iframe source on click
+      links.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const url = this.href;
+  
+          // Check if the link is a YouTube link
+          if (url.includes('youtube')) {
+            // Embed YouTube video
+            const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+          } else {
+            // Load Wikipedia page
+            iframe.src = url;
+          }
+  
+          modal.style.display = 'flex'; // Show modal (flex layout for centering)
+          adjustIframeHeight(); // Adjust iframe height on modal open
         });
-    });
-
-    // Close modal
-    closeModal.addEventListener('click', () => {
-        modal.style.display = 'none';
-        iframe.src = ''; // Stop video playback
-    });
-
-    // Close modal when clicking outside the modal content
-    window.addEventListener('click', (event) => {
+      });
+  
+      // Close modal and clear iframe content
+      closeModalButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        });
+      });
+  
+      // Close modal when clicking outside modal content
+      modal.addEventListener('click', function(event) {
         if (event.target === modal) {
-            modal.style.display = 'none';
-            iframe.src = '';
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
         }
+      });
+  
+      // Recalculate iframe height when the window is resized
+      window.addEventListener('resize', adjustIframeHeight);
     });
-</script>
-
-
+  </script>
+  
     <footer class="foot">
         <div class="block fo-1">
             TwidGrid is a small web development studio based in Central Malta.

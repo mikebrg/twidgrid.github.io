@@ -55,66 +55,71 @@
         color: #666;
     }
     
-</style>
-
-<style>
-        /* Modal styles */
-    .modal {
-        display: none; /* Hidden by default */
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.8); /* Black with transparency */
-        z-index: 1000;
-        justify-content: center;
-        align-items: center;
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
     }
 
     .modal-content {
-        position: relative;
-        width: 90%;
-        max-width: 800px;
-        background-color: #000;
-        border-radius: 8px;
-        overflow: hidden;
-        padding: 0;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
     }
 
-    .modal-content iframe {
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
-        border: none;
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
     }
 
     .close-btn {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        font-size: 24px;
-        color: #fff;
-        cursor: pointer;
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
     }
 
+    /* Close button styling */
     .close-btn:hover {
-        color: #ff0000;
+      color: red;
     }
 
-    /* Trigger link */
-    .youtube-link {
-        display: inline-block;
-        margin: 20px;
-        text-decoration: none;
-        color: #007BFF;
-        font-size: 18px;
+    iframe {
+      width: 100%;
+      border: none;
     }
-
-    .youtube-link:hover {
-        text-decoration: underline;
-    }
-</style>
+  </style>
 
 </head><body>
 
@@ -149,62 +154,91 @@
 
     <ul class="responsive-table">
 
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=SV-Mb4p2ABM	"class="youtube-link"><img src="img/	shes-somebodys-daughter-reimagined-drew-baldridge-2019-340x340.png	" alt="	She's Somebody's Daughter (Reimagined)	"></a><h3>	She's Somebody's Daughter (Reimagined)	</h3><p>	Drew Baldridge	</p></li>
-        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=7GO1OZB0UMY	"class="youtube-link"><img src="img/	disco-surf-curse-2019-340x340.jpg	" alt="	Disco	"></a><h3>	Disco	</h3><p>	Surf Curse	</p></li>
-                        
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=SV-Mb4p2ABM	"><img src="img/	shes-somebodys-daughter-reimagined-drew-baldridge-2019-340x340.png	" alt="	She's Somebody's Daughter (Reimagined)	"></a><h3>	She's Somebody's Daughter (Reimagined)	</h3><p>	Drew Baldridge	</p></li>
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=7GO1OZB0UMY	"><img src="img/	disco-surf-curse-2019-340x340.jpg	" alt="	Disco	"></a><h3>	Disco	</h3><p>	Surf Curse	</p></li>
+                                
                                                                 
     </ul>
             
     </div></div>
 
- <!-- Modal structure -->
- <div class="modal" id="youtubeModal">
+<!-- Modal Structure -->
+<div id="wikiModal" class="modal">
     <div class="modal-content">
-        <span class="close-btn" id="closeModal">&times;</span>
-        <iframe id="youtubeIframe" src="" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div class="modal-header">
+        <h5 class="modal-title">Article or Video</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="wikiIframe" src="" allowfullscreen></iframe> <!-- Added allowfullscreen -->
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
     </div>
-</div>
-
-<script>
-    // Get modal elements
-    const modal = document.getElementById('youtubeModal');
-    const iframe = document.getElementById('youtubeIframe');
-    const closeModal = document.getElementById('closeModal');
-    const youtubeLinks = document.querySelectorAll('.youtube-link');
-
-    // Function to extract YouTube video ID from a standard URL
-    function getYouTubeVideoID(url) {
-        const urlObj = new URL(url);
-        return urlObj.searchParams.get('v');
-    }
-
-    // Open modal on link click
-    youtubeLinks.forEach(link => {
-        link.addEventListener('click', (event) => {
-            event.preventDefault(); // Prevent default anchor behavior
-            const videoId = getYouTubeVideoID(link.href);
-            if (videoId) {
-                iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
-                modal.style.display = 'flex';
-            }
+  </div>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
+      const modal = document.getElementById('wikiModal');
+      const iframe = document.getElementById('wikiIframe');
+      const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+  
+      // Function to adjust iframe height
+      function adjustIframeHeight() {
+        const modalContent = document.querySelector('.modal-content');
+        const headerHeight = document.querySelector('.modal-header').offsetHeight;
+        const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+        const modalHeight = modalContent.offsetHeight;
+        
+        // Set iframe height based on the remaining space
+        const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+        iframe.style.height = iframeHeight + 'px';
+      }
+  
+      // Open modal and set iframe source on click
+      links.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const url = this.href;
+  
+          // Check if the link is a YouTube link
+          if (url.includes('youtube')) {
+            // Embed YouTube video
+            const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+          } else {
+            // Load Wikipedia page
+            iframe.src = url;
+          }
+  
+          modal.style.display = 'flex'; // Show modal (flex layout for centering)
+          adjustIframeHeight(); // Adjust iframe height on modal open
         });
-    });
-
-    // Close modal
-    closeModal.addEventListener('click', () => {
-        modal.style.display = 'none';
-        iframe.src = ''; // Stop video playback
-    });
-
-    // Close modal when clicking outside the modal content
-    window.addEventListener('click', (event) => {
+      });
+  
+      // Close modal and clear iframe content
+      closeModalButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        });
+      });
+  
+      // Close modal when clicking outside modal content
+      modal.addEventListener('click', function(event) {
         if (event.target === modal) {
-            modal.style.display = 'none';
-            iframe.src = '';
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
         }
+      });
+  
+      // Recalculate iframe height when the window is resized
+      window.addEventListener('resize', adjustIframeHeight);
     });
-</script>
-
+  </script>
+  
 
     <footer class="foot">
         <div class="block fo-1">
