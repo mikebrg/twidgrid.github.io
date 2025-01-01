@@ -179,14 +179,14 @@
     </div></div>
 
 <!-- Modal Structure -->
-<div id="wikiModal" class="modal">
+<div id="modal" class="modal">
   <div class="modal-content">
     <div class="modal-header">
-      <h5 class="modal-title">Article or Video</h5>
+      <h5 class="modal-title">Content Viewer</h5>
       <button class="close-btn" id="closeModal">&times;</button>
     </div>
     <div class="modal-body">
-      <iframe id="wikiIframe" src="" allowfullscreen></iframe> <!-- Added allowfullscreen -->
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
     </div>
     <div class="modal-footer">
       <button class="close-btn" id="closeFooter">Close</button>
@@ -195,10 +195,10 @@
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
-    const modal = document.getElementById('wikiModal');
-    const iframe = document.getElementById('wikiIframe');
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="spotify"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
     const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
 
     // Function to adjust iframe height
@@ -207,7 +207,7 @@
       const headerHeight = document.querySelector('.modal-header').offsetHeight;
       const footerHeight = document.querySelector('.modal-footer').offsetHeight;
       const modalHeight = modalContent.offsetHeight;
-      
+
       // Set iframe height based on the remaining space
       const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
       iframe.style.height = iframeHeight + 'px';
@@ -215,39 +215,29 @@
 
     // Open modal and set iframe source on click
     links.forEach(link => {
-      link.addEventListener('click', function(event) {
+      link.addEventListener('click', function (event) {
         event.preventDefault();
         const url = this.href;
 
-        if (url.includes('wikipedia')) {
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('spotify')) {
           iframe.src = url;
-        } else if (url.includes('youtube.com')) {
-          if (url.includes('embed/videoseries')) {
-            iframe.src = url; // Playlist
-          } else {
-            const videoId = url.split('v=')[1]?.split('&')[0];
-            iframe.src = `https://www.youtube.com/embed/${videoId}`; // Video
-          }
-        } else if (url.includes('spotify.com')) {
-          const spotifyUrl = url.replace('open.spotify.com', 'embed.spotify.com');
-          iframe.src = spotifyUrl;
         }
 
-        modal.style.display = 'flex'; // Show modal (flex layout for centering)
+        modal.style.display = 'flex'; // Show modal
         adjustIframeHeight(); // Adjust iframe height on modal open
       });
     });
 
     // Close modal and clear iframe content
     closeModalButtons.forEach(button => {
-      button.addEventListener('click', function() {
+      button.addEventListener('click', function () {
         modal.style.display = 'none';
         iframe.src = ''; // Clear the iframe content when the modal is closed
       });
     });
 
     // Close modal when clicking outside modal content
-    modal.addEventListener('click', function(event) {
+    modal.addEventListener('click', function (event) {
       if (event.target === modal) {
         modal.style.display = 'none';
         iframe.src = ''; // Clear the iframe content when the modal is closed
