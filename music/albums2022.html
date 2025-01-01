@@ -214,14 +214,18 @@
         event.preventDefault();
         const url = this.href;
 
-        // Check if the link is a YouTube link
-        if (url.includes('youtube')) {
-          // Embed YouTube video
-          const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
-          iframe.src = `https://www.youtube.com/embed/${videoId}`;
-        } else {
-          // Load Wikipedia page
+        if (url.includes('wikipedia')) {
           iframe.src = url;
+        } else if (url.includes('youtube.com')) {
+          if (url.includes('embed/videoseries')) {
+            iframe.src = url; // Playlist
+          } else {
+            const videoId = url.split('v=')[1]?.split('&')[0];
+            iframe.src = `https://www.youtube.com/embed/${videoId}`; // Video
+          }
+        } else if (url.includes('spotify.com')) {
+          const spotifyUrl = url.replace('open.spotify.com', 'embed.spotify.com');
+          iframe.src = spotifyUrl;
         }
 
         modal.style.display = 'flex'; // Show modal (flex layout for centering)
