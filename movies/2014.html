@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2014 | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2014 Movies</h3><span class="fo-5">Discover comprehensive information on your favorite movies, including detailed summaries, cast lists, genres, certifications, and trailers.</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+    <a class="btn-2" href="2025.html">2020s</a>&nbsp;
+    <a class="btn-2" href="2019.html">2010s</a>&nbsp;
+    <a class="btn-2" href="2009.html">2000s</a>&nbsp;
+    <a class="btn-2" href="1999.html">1990s</a>&nbsp;
+    <a class="btn-2" href="1989.html">1980s</a>&nbsp;
+    <a class="btn-2" href="1979.html">1970s</a>&nbsp;
+    <a class="btn-2" href="1969.html">1960s</a>&nbsp;
+    <a class="btn-2" href="1959.html">1950s</a>&nbsp;
+    <a class="btn-2" href="1949.html">1940s</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  <div style="margin-left: 15px;">
+      <a class="btn-3" href="2019.html">2019</a>&nbsp;
+      <a class="btn-3" href="2018.html">2018</a>&nbsp;
+      <a class="btn-3" href="2017.html">2017</a>&nbsp;
+      <a class="btn-3" href="2016.html">2016</a>&nbsp;
+      <a class="btn-3" href="2015.html">2015</a>&nbsp;
+      <a class="btn-3" href="2014.html">2014</a>&nbsp;
+      <a class="btn-3" href="2013.html">2013</a>&nbsp;
+      <a class="btn-3" href="2012.html">2012</a>&nbsp;
+      <a class="btn-3" href="2011.html">2011</a>&nbsp;
+      <a class="btn-3" href="2010.html">2010</a>&nbsp;
+  </div>
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	tgmdb/Annabelle (2014).html	"><img src="img/	annabelle-375x563.jpg	" alt="	Annabelle	"></a><h3>	Annabelle	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Barbie and the Secret Door (2014).html	"><img src="img/	barbie-and-the-secret-door-600x900.jpg	" alt="	Barbie and the Secret Door	"></a><h3>	Barbie and the Secret Door	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Barbie The Pearl Princess (2014).html	"><img src="img/	barbie-the-pearl-princess-600x900.jpg	" alt="	Barbie: The Pearl Princess	"></a><h3>	Barbie: The Pearl Princess	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Big Hero 6 (2014).html	"><img src="img/	big-hero-6-2014.webp	" alt="	Big Hero 6	"></a><h3>	Big Hero 6	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Captain America The Winter Soldier (2014).html	"><img src="img/	captain-america-the-winter-soldier-600x900.jpg	" alt="	Captain America: The Winter Soldier	"></a><h3>	Captain America: The Winter Soldier	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Dawn of the Planet of the Apes (2014).html	"><img src="img/	dawn-of-the-planet-of-the-apes-375x563.jpg	" alt="	Dawn of the Planet of the Apes	"></a><h3>	Dawn of the Planet of the Apes	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Divergent (2014).html	"><img src="img/	divergent-2014.webp	" alt="	Divergent	"></a><h3>	Divergent	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Edge of Tomorrow (2014).html	"><img src="img/	edge-of-tomorrow-600x900.jpg	" alt="	Edge of Tomorrow	"></a><h3>	Edge of Tomorrow	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Exodus Gods and Kings (2014).html	"><img src="img/	exodus-gods-and-kings-2014.webp	" alt="	Exodus: Gods and Kings	"></a><h3>	Exodus: Gods and Kings	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Get Santa (2014).html	"><img src="img/	get-santa-2014.webp	" alt="	Get Santa	"></a><h3>	Get Santa	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Gotham (2014).html	"><img src="img/	gotham-600x900.jpg	" alt="	Gotham	"></a><h3>	Gotham	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Guardians of the Galaxy (2014).html	"><img src="img/	guardians-of-the-galaxy-600x900.jpg	" alt="	Guardians of the Galaxy	"></a><h3>	Guardians of the Galaxy	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Hercules (2014).html	"><img src="img/	hercules-2014.webp	" alt="	Hercules	"></a><h3>	Hercules	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Horrible Bosses 2 (2014).html	"><img src="img/	horrible-bosses-2-2014.webp	" alt="	Horrible Bosses 2	"></a><h3>	Horrible Bosses 2	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Interstellar (2014).html	"><img src="img/	interstellar-2014.webp	" alt="	Interstellar	"></a><h3>	Interstellar	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Into the Woods (2014).html	"><img src="img/	into-the-woods-2014.webp	" alt="	Into the Woods	"></a><h3>	Into the Woods	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Jack Ryan Shadow Recruit (2014).html	"><img src="img/	jack-ryan-shadow-recruit-375x563.jpg	" alt="	Jack Ryan: Shadow Recruit	"></a><h3>	Jack Ryan: Shadow Recruit	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/JLA Adventures Trapped in Time (2014).html	"><img src="img/	jla-adventures-trapped-in-time-600x900.jpg	" alt="	JLA Adventures: Trapped in Time	"></a><h3>	JLA Adventures: Trapped in Time	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Justice League War (2014).html	"><img src="img/	justice-league-war-600x900.jpg	" alt="	Justice League: War	"></a><h3>	Justice League: War	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Monster High Freaky Fusion (2014).html	"><img src="img/	monster-high-freaky-fusion-2014.webp	" alt="	Monster High: Freaky Fusion	"></a><h3>	Monster High: Freaky Fusion	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mythica A Quest for Heroes (2014).html	"><img src="img/	mythica-a-quest-for-heroes-2014.webp	" alt="	Mythica: A Quest for Heroes	"></a><h3>	Mythica: A Quest for Heroes	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Night at the Museum Secret of the Tomb (2014).html	"><img src="img/	night-at-the-museum-secret-of-the-tomb-2014.webp	" alt="	Night at the Museum: Secret of the Tomb	"></a><h3>	Night at the Museum: Secret of the Tomb	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Predestination (2014).html	"><img src="img/	predestination-2014.webp	" alt="	Predestination	"></a><h3>	Predestination	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Ride Along (2014).html	"><img src="img/	ride-along-2014.webp	" alt="	Ride Along	"></a><h3>	Ride Along	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Rio 2 (2014).html	"><img src="img/	rio-2-2014.webp	" alt="	Rio 2	"></a><h3>	Rio 2	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Sniper Legacy (2014).html	"><img src="img/	sniper-legacy-2014-376x564.jpg	" alt="	Sniper: Legacy	"></a><h3>	Sniper: Legacy	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Space Dogs 2 (2014).html	"><img src="img/	space-dogs-2-2014.webp	" alt="	Space Dogs 2	"></a><h3>	Space Dogs 2	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Wars Rebels (2014).html	"><img src="img/	star-wars-rebels-600x900.jpg	" alt="	Star Wars Rebels	"></a><h3>	Star Wars Rebels	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Taken 3 (2014).html	"><img src="img/	taken-3-2014.webp	" alt="	Taken 3	"></a><h3>	Taken 3	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Teenage Mutant Ninja Turtles (2014).html	"><img src="img/	teenage-mutant-ninja-turtles-2014.webp	" alt="	Teenage Mutant Ninja Turtles	"></a><h3>	Teenage Mutant Ninja Turtles	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Amazing Spider-Man 2 (2014).html	"><img src="img/	the-amazing-spider-man-2-375x563.jpg	" alt="	The Amazing Spider-Man 2	"></a><h3>	The Amazing Spider-Man 2	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Equalizer (2014).html	"><img src="img/	the-equalizer-2014.webp	" alt="	The Equalizer	"></a><h3>	The Equalizer	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Expendables 3 (2014).html	"><img src="img/	the-expendables-3.webp	" alt="	The Expendables 3	"></a><h3>	The Expendables 3	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Hobbit The Battle of the Five Armies (2014).html	"><img src="img/	the-hobbit-the-battle-of-the-five-armies-600x900.jpg	" alt="	The Hobbit: The Battle of the Five Armies	"></a><h3>	The Hobbit: The Battle of the Five Armies	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Hunger Games Mockingjay - Part 1 (2014).html	"><img src="img/	the-hunger-games-mockingjay-part-1-2014.webp	" alt="	The Hunger Games: Mockingjay - Part 1	"></a><h3>	The Hunger Games: Mockingjay - Part 1	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Hunger Games Mockingjay – Part 1 (2014).html	"><img src="img/	the-hunger-games-mockingjay-part-1-376x564.jpg	" alt="	The Hunger Games: Mockingjay – Part 1	"></a><h3>	The Hunger Games: Mockingjay – Part 1	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Prophet (2014).html	"><img src="img/	the-prophet-2014.webp	" alt="	The Prophet	"></a><h3>	The Prophet	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Tinker Bell and the Pirate Fairy (2014).html	"><img src="img/	tinker-bell-and-the-pirate-fairy-2014.webp	" alt="	Tinker Bell and the Pirate Fairy	"></a><h3>	Tinker Bell and the Pirate Fairy	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Toy Story That Time Forgot (2014).html	"><img src="img/	toy-story-that-time-forgot-600x900.jpg	" alt="	Toy Story That Time Forgot	"></a><h3>	Toy Story That Time Forgot	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Transformers Age of Extinction (2014).html	"><img src="img/	transformers14-375x563.jpg	" alt="	Transformers: Age of Extinction	"></a><h3>	Transformers: Age of Extinction	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/X-Men Days of Future Past (2014).html	"><img src="img/	x-men-days-of-future-past-600x900.jpg	" alt="	X-Men: Days of Future Past	"></a><h3>	X-Men: Days of Future Past	</h3></li>
+                                                                                                    
+        
+    </ul>
+     
+    <p></p><p></p>    
+    <div style="margin-left: 15px;">
+    <a class="btn-3" href="2019.html">2019</a>&nbsp;
+    <a class="btn-3" href="2018.html">2018</a>&nbsp;
+    <a class="btn-3" href="2017.html">2017</a>&nbsp;
+    <a class="btn-3" href="2016.html">2016</a>&nbsp;
+    <a class="btn-3" href="2015.html">2015</a>&nbsp;
+    <a class="btn-3" href="2014.html">2014</a>&nbsp;
+    <a class="btn-3" href="2013.html">2013</a>&nbsp;
+    <a class="btn-3" href="2012.html">2012</a>&nbsp;
+    <a class="btn-3" href="2011.html">2011</a>&nbsp;
+    <a class="btn-3" href="2010.html">2010</a>&nbsp;
+</div>
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

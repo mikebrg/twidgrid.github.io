@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1998 | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1998 Movies</h3><span class="fo-5">Discover comprehensive information on your favorite movies, including detailed summaries, cast lists, genres, certifications, and trailers.</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+    <a class="btn-2" href="2025.html">2020s</a>&nbsp;
+    <a class="btn-2" href="2019.html">2010s</a>&nbsp;
+    <a class="btn-2" href="2009.html">2000s</a>&nbsp;
+    <a class="btn-2" href="1999.html">1990s</a>&nbsp;
+    <a class="btn-2" href="1989.html">1980s</a>&nbsp;
+    <a class="btn-2" href="1979.html">1970s</a>&nbsp;
+    <a class="btn-2" href="1969.html">1960s</a>&nbsp;
+    <a class="btn-2" href="1959.html">1950s</a>&nbsp;
+    <a class="btn-2" href="1949.html">1940s</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  <div style="margin-left: 15px;">
+      <a class="btn-3" href="1999.html">1999</a>&nbsp;
+      <a class="btn-3" href="1998.html">1998</a>&nbsp;
+      <a class="btn-3" href="1997.html">1997</a>&nbsp;
+      <a class="btn-3" href="1996.html">1996</a>&nbsp;
+      <a class="btn-3" href="1995.html">1995</a>&nbsp;
+      <a class="btn-3" href="1994.html">1994</a>&nbsp;
+      <a class="btn-3" href="1993.html">1993</a>&nbsp;
+      <a class="btn-3" href="1992.html">1992</a>&nbsp;
+      <a class="btn-3" href="1991.html">1991</a>&nbsp;
+      <a class="btn-3" href="1990.html">1990</a>&nbsp;
+  </div>
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	tgmdb/A Bug's Life (1998).html	"><img src="img/	a-bugs-life-1998.webp	" alt="	A Bug's Life	"></a><h3>	A Bug's Life	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/An American Tail The Treasure of Manhattan Island (1998).html	"><img src="img/	an-american-tail-the-treasure-of-manhattan-island-375x563.jpg	" alt="	An American Tail: The Treasure of Manhattan Island	"></a><h3>	An American Tail: The Treasure of Manhattan Island	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Antz (1998).html	"><img src="img/	antz-1998.webp	" alt="	Antz	"></a><h3>	Antz	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Armageddon (1998).html	"><img src="img/	armageddon-600x900.jpg	" alt="	Armageddon	"></a><h3>	Armageddon	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Babe Pig in the City (1998).html	"><img src="img/	babe-pig-in-the-city-1998.webp	" alt="	Babe: Pig in the City	"></a><h3>	Babe: Pig in the City	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Belle's Magical World (1998).html	"><img src="img/	belles-magical-world-375x563.jpg	" alt="	Belle's Magical World	"></a><h3>	Belle's Magical World	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mulan (1998).html	"><img src="img/	mulan-1998.webp	" alt="	Mulan	"></a><h3>	Mulan	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Trek Insurrection (1998).html	"><img src="img/	star-trek-insurrection-376x564.jpg	" alt="	Star Trek: Insurrection	"></a><h3>	Star Trek: Insurrection	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Lion King II Simba's Pride (1998).html	"><img src="img/	the-lion-king-ii-simbas-pride-375x563.jpg	" alt="	The Lion King II: Simba's Pride	"></a><h3>	The Lion King II: Simba's Pride	</h3></li>
+                                                                                                                                                                                                                                          
+        
+    </ul>
+     
+    <p></p><p></p>    
+    <div style="margin-left: 15px;">
+        <a class="btn-3" href="1999.html">1999</a>&nbsp;
+      <a class="btn-3" href="1998.html">1998</a>&nbsp;
+      <a class="btn-3" href="1997.html">1997</a>&nbsp;
+      <a class="btn-3" href="1996.html">1996</a>&nbsp;
+      <a class="btn-3" href="1995.html">1995</a>&nbsp;
+      <a class="btn-3" href="1994.html">1994</a>&nbsp;
+      <a class="btn-3" href="1993.html">1993</a>&nbsp;
+      <a class="btn-3" href="1992.html">1992</a>&nbsp;
+      <a class="btn-3" href="1991.html">1991</a>&nbsp;
+      <a class="btn-3" href="1990.html">1990</a>&nbsp;
+</div>
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

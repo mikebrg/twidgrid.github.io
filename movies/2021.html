@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2021 | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2021 Movies</h3><span class="fo-5">Discover comprehensive information on your favorite movies, including detailed summaries, cast lists, genres, certifications, and trailers.</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+  <a class="btn-2" href="search.html">Search</a>&nbsp;
+  <a class="btn-2" href="2025.html">2020s</a>&nbsp;
+  <a class="btn-2" href="2019.html">2010s</a>&nbsp;
+  <a class="btn-2" href="2009.html">2000s</a>&nbsp;
+  <a class="btn-2" href="1999.html">1990s</a>&nbsp;
+  <a class="btn-2" href="1989.html">1980s</a>&nbsp;
+  <a class="btn-2" href="1979.html">1970s</a>&nbsp;
+  <a class="btn-2" href="1969.html">1960s</a>&nbsp;
+  <a class="btn-2" href="1959.html">1950s</a>&nbsp;
+  <a class="btn-2" href="1949.html">1940s</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  <div style="margin-left: 15px;">
+      <a class="btn-3" href="2025.html">2025</a>&nbsp;
+      <a class="btn-3" href="2024.html">2024</a>&nbsp;
+      <a class="btn-3" href="2023.html">2023</a>&nbsp;
+      <a class="btn-3" href="2022.html">2022</a>&nbsp;
+      <a class="btn-3" href="2021.html">2021</a>&nbsp;
+      <a class="btn-3" href="2020.html">2020</a>&nbsp;
+  </div>
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	tgmdb/8-Bit Christmas (2021).html	"><img src="img/	8-bit-christmas-2021.webp	" alt="	8-Bit Christmas	"></a><h3>	8-Bit Christmas	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/A Boy Called Christmas (2021).html	"><img src="img/	a-boy-called-christmas-2021.webp	" alt="	A Boy Called Christmas	"></a><h3>	A Boy Called Christmas	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/A Christmas Miracle for Daisy (2021).html	"><img src="img/	a-christmas-miracle-for-daisy-2021-600x900.jpg	" alt="	A Christmas Miracle for Daisy	"></a><h3>	A Christmas Miracle for Daisy	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Afterlife of the Party (2021).html	"><img src="img/	afterlife-of-the-party2021-600x900.jpg	" alt="	Afterlife of the Party	"></a><h3>	Afterlife of the Party	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/American Underdog The Kurt Warner Story (2021).html	"><img src="img/	american-underdog-the-kurt-warner-story-2021-600x900.jpg	" alt="	American Underdog: The Kurt Warner Story	"></a><h3>	American Underdog: The Kurt Warner Story	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Army of the Dead (2021).html	"><img src="img/	army-of-the-dead-2021.webp	" alt="	Army of the Dead	"></a><h3>	Army of the Dead	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Army of Thieves (2021).html	"><img src="img/	army-of-thieves-2021.webp	" alt="	Army of Thieves	"></a><h3>	Army of Thieves	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Barbie & Chelsea The Lost Birthday (2021).html	"><img src="img/	barbie-chelsea-the-lost-birthday-375x563.jpg	" alt="	Barbie & Chelsea: The Lost Birthday	"></a><h3>	Barbie & Chelsea: The Lost Birthday	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Barbie Big City, Big Dreams (2021).html	"><img src="img/	barbie-big-city-big-dreams-375x563.jpg	" alt="	Barbie: Big City, Big Dreams	"></a><h3>	Barbie: Big City, Big Dreams	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Black Widow (2021).html	"><img src="img/	black-widow-375x563.jpg	" alt="	Black Widow	"></a><h3>	Black Widow	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Boss Level (2021).html	"><img src="img/	boss-level-2021.webp	" alt="	Boss Level	"></a><h3>	Boss Level	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Castle Falls (2021).html	"><img src="img/	castle-falls-2021.webp	" alt="	Castle Falls	"></a><h3>	Castle Falls	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Chore Day – The Incredibles Way (2021).html	"><img src="img/	chore-day-the-incredibles-way.webp	" alt="	Chore Day – The Incredibles Way	"></a><h3>	Chore Day – The Incredibles Way	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Christmas ...Again! (2021).html	"><img src="img/	christmas-...again-2021.webp	" alt="	Christmas ...Again?!	"></a><h3>	Christmas ...Again?!	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Christmas vs The Walters (2021).html	"><img src="img/	christmas-vs-the-walters-2021.webp	" alt="	Christmas vs The Walters	"></a><h3>	Christmas vs The Walters	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Ciao Alberto (2021).html	"><img src="img/	ciao-alberto-2021.webp	" alt="	Ciao Alberto	"></a><h3>	Ciao Alberto	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Clifford the Big Red Dog (2021).html	"><img src="img/	clifford-the-big-red-dog-2021.webp	" alt="	Clifford the Big Red Dog	"></a><h3>	Clifford the Big Red Dog	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Cookie Num Num (2021).html	"><img src="img/	cookie-num-num-183x275.jpg	" alt="	Cookie Num Num	"></a><h3>	Cookie Num Num	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Copshop (2021).html	"><img src="img/	copshop-2021-600x900.jpg	" alt="	Copshop	"></a><h3>	Copshop	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Dan Brown's The Lost Symbol (2021).html	"><img src="img/	dan-browns-the-lost-symbol-375x563.jpg	" alt="	Dan Brown's The Lost Symbol	"></a><h3>	Dan Brown's The Lost Symbol	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Don't Look Up (2021).html	"><img src="img/	dont-look-up-2021.webp	" alt="	Don't Look Up	"></a><h3>	Don't Look Up	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Dory Finding (2021).html	"><img src="img/	dory-finding-800x1200.jpg	" alt="	Dory Finding	"></a><h3>	Dory Finding	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Dug Days (2021).html	"><img src="img/	dug-days-375x563.jpg	" alt="	Dug Days	"></a><h3>	Dug Days	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Dune (2021).html	"><img src="img/	dune-2021.webp	" alt="	Dune	"></a><h3>	Dune	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Encanto (2021).html	"><img src="img/	encanto-2021.webp	" alt="	Encanto	"></a><h3>	Encanto	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Eternals (2021).html	"><img src="img/	eternals-375x563.jpg	" alt="	Eternals	"></a><h3>	Eternals	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/F9 The Fast Saga (2021).html	"><img src="img/	f9-600x900.jpg	" alt="	F9: The Fast Saga	"></a><h3>	F9: The Fast Saga	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Father Christmas Is Back (2021).html	"><img src="img/	father-christmas-is-back-2021-600x900.jpg	" alt="	Father Christmas Is Back	"></a><h3>	Father Christmas Is Back	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Finding ʻOhana (2021).html	"><img src="img/	finding-ohana2021-600x900.jpg	" alt="	Finding ʻOhana	"></a><h3>	Finding ʻOhana	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Flora & Ulysses (2021).html	"><img src="img/	flora-ulysses-2021.webp	" alt="	Flora & Ulysses	"></a><h3>	Flora & Ulysses	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Friends The Reunion (2021).html	"><img src="img/	friends-the-reunion-2021.webp	" alt="	Friends: The Reunion	"></a><h3>	Friends: The Reunion	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Ghostbusters Afterlife (2021).html	"><img src="img/	ghostbusters-afterlife-375x563.jpg	" alt="	Ghostbusters: Afterlife	"></a><h3>	Ghostbusters: Afterlife	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Hitman's Wife's Bodyguard (2021).html	"><img src="img/	hitmans-wifes-bodyguard-2021.webp	" alt="	Hitman's Wife's Bodyguard	"></a><h3>	Hitman's Wife's Bodyguard	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Injustice (2021).html	"><img src="img/	injustice-600x900.jpg	" alt="	Injustice	"></a><h3>	Injustice	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Jungle Cruise (2021).html	"><img src="img/	jungle-cruise-2021.webp	" alt="	Jungle Cruise	"></a><h3>	Jungle Cruise	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Jurassic World Dominion prologue (2021).html	"><img src="img/	jurassic-world-dominion-prologue-poster-251x397.jpg	" alt="	Jurassic World Dominion prologue	"></a><h3>	Jurassic World Dominion prologue	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Justice Society World War II (2021).html	"><img src="img/	justice-society-world-war-ii-600x900.jpg	" alt="	Justice Society: World War II	"></a><h3>	Justice Society: World War II	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Luca (2021).html	"><img src="img/	luca-2021.webp	" alt="	Luca	"></a><h3>	Luca	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mayday (2021).html	"><img src="img/	mayday-2021.webp	" alt="	Mayday	"></a><h3>	Mayday	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Minions & Monsters (2021).html	"><img src="img/	minions-monsters-600x900.jpg	" alt="	Minions & Monsters	"></a><h3>	Minions & Monsters	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mixtape (2021).html	"><img src="img/	mixtape-2021-600x900.jpg	" alt="	Mixtape	"></a><h3>	Mixtape	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mortal Kombat (2021).html	"><img src="img/	mortal-kombat-2021.webp	" alt="	Mortal Kombat	"></a><h3>	Mortal Kombat	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Myth A Frozen Tale (2021).html	"><img src="img/	myth-a-frozen-tale-600x900.jpg	" alt="	Myth: A Frozen Tale	"></a><h3>	Myth: A Frozen Tale	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Next Stop, Christmas (2021).html	"><img src="img/	next-stop-christmas-2021.webp	" alt="	Next Stop, Christmas	"></a><h3>	Next Stop, Christmas	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/No Time to Die (2021).html	"><img src="img/	no-time-to-die-600x900.jpg	" alt="	No Time to Die	"></a><h3>	No Time to Die	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Olaf Presents (2021).html	"><img src="img/	olaf-presents-375x563.jpg	" alt="	Olaf Presents	"></a><h3>	Olaf Presents	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Outside the Wire (2021).html	"><img src="img/	outside-the-wire-2021-600x900.jpg	" alt="	Outside the Wire	"></a><h3>	Outside the Wire	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Psych 3 This Is Gus (2021).html	"><img src="img/	psych-3-this-is-gus-600x900.jpg	" alt="	Psych 3: This Is Gus	"></a><h3>	Psych 3: This Is Gus	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Red Notice (2021).html	"><img src="img/	red-notice-2021-600x900.jpg	" alt="	Red Notice	"></a><h3>	Red Notice	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Shang-Chi and the Legend of the Ten Rings (2021).html	"><img src="img/	shang-chi-and-the-legend-of-the-ten-rings-375x563.jpg	" alt="	Shang-Chi and the Legend of the Ten Rings	"></a><h3>	Shang-Chi and the Legend of the Ten Rings	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Sing 2 (2021).html	"><img src="img/	sing-2-2021-600x900.jpg	" alt="	Sing 2	"></a><h3>	Sing 2	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Spider-Man No Way Home (2021).html	"><img src="img/	spider-man-no-way-home-375x563.jpg	" alt="	Spider-Man: No Way Home	"></a><h3>	Spider-Man: No Way Home	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Trek Prodigy (2021).html	"><img src="img/	prodigy-600x900.jpg	" alt="	Star Trek: Prodigy	"></a><h3>	Star Trek: Prodigy	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Wars Galaxy of Creatures (2021).html	"><img src="img/	star-wars-galaxy-of-creatures-600x900.jpg	" alt="	Star Wars: Galaxy of Creatures	"></a><h3>	Star Wars: Galaxy of Creatures	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Wars The Bad Batch (2021).html	"><img src="img/	star-wars-the-bad-batch-600x900.jpg	" alt="	Star Wars: The Bad Batch	"></a><h3>	Star Wars: The Bad Batch	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Wars Visions (2021).html	"><img src="img/	star-wars-visions-600x900.jpg	" alt="	Star Wars: Visions	"></a><h3>	Star Wars: Visions	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Stowaway (2021).html	"><img src="img/	stowaway-2021.webp	" alt="	Stowaway	"></a><h3>	Stowaway	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Superman & Lois (2021).html	"><img src="img/	superman-lois-600x900.jpg	" alt="	Superman & Lois	"></a><h3>	Superman & Lois	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Survive the Game (2021).html	"><img src="img/	survive-the-game-2021.webp	" alt="	Survive the Game	"></a><h3>	Survive the Game	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Book of Boba Fett (2021).html	"><img src="img/	the-book-of-boba-fett-600x900.jpg	" alt="	The Book of Boba Fett	"></a><h3>	The Book of Boba Fett	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Conjuring The Devil Made Me Do It (2021).html	"><img src="img/	the-conjuring-the-devil-made-me-do-it-600x900.jpg	" alt="	The Conjuring: The Devil Made Me Do It	"></a><h3>	The Conjuring: The Devil Made Me Do It	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Matrix Resurrections (2021).html	"><img src="img/	the-matrix-resurrections-600x900.jpg	" alt="	The Matrix Resurrections	"></a><h3>	The Matrix Resurrections	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Mitchells vs. The Machines (2021).html	"><img src="img/	the-mitchells-vs.-the-machines-2021-600x900.jpg	" alt="	The Mitchells vs. The Machines	"></a><h3>	The Mitchells vs. The Machines	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Suicide Squad (2021).html	"><img src="img/	the-suicide-squad-600x900.jpg	" alt="	The Suicide Squad	"></a><h3>	The Suicide Squad	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Vault (2021).html	"><img src="img/	the-vault-2021.webp	" alt="	The Vault	"></a><h3>	The Vault	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/To Fitness and Beyond (2021).html	"><img src="img/	to-fitness-and-beyond.webp	" alt="	To Fitness and Beyond	"></a><h3>	To Fitness and Beyond	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Werewolves Within (2021).html	"><img src="img/	werewolves-within-2021.webp	" alt="	Werewolves Within	"></a><h3>	Werewolves Within	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Yes Day (2021).html	"><img src="img/	yes-day2021-600x900.jpg	" alt="	Yes Day	"></a><h3>	Yes Day	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Zack Snyder's Justice League (2021).html	"><img src="img/	zack-snyders-375x563.jpg	" alt="	Zack Snyder's Justice League	"></a><h3>	Zack Snyder's Justice League	</h3></li>
+                                                    
+        
+    </ul>
+     
+    <p></p><p></p>    
+  <div style="margin-left: 15px;">
+      <a class="btn-3" href="2025.html">2025</a>&nbsp;
+      <a class="btn-3" href="2024.html">2024</a>&nbsp;
+      <a class="btn-3" href="2023.html">2023</a>&nbsp;
+      <a class="btn-3" href="2022.html">2022</a>&nbsp;
+      <a class="btn-3" href="2021.html">2021</a>&nbsp;
+      <a class="btn-3" href="2020.html">2020</a>&nbsp;
+  </div>
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

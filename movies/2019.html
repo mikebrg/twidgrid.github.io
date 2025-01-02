@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2019 | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2019 Movies</h3><span class="fo-5">Discover comprehensive information on your favorite movies, including detailed summaries, cast lists, genres, certifications, and trailers.</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+    <a class="btn-2" href="2025.html">2020s</a>&nbsp;
+    <a class="btn-2" href="2019.html">2010s</a>&nbsp;
+    <a class="btn-2" href="2009.html">2000s</a>&nbsp;
+    <a class="btn-2" href="1999.html">1990s</a>&nbsp;
+    <a class="btn-2" href="1989.html">1980s</a>&nbsp;
+    <a class="btn-2" href="1979.html">1970s</a>&nbsp;
+    <a class="btn-2" href="1969.html">1960s</a>&nbsp;
+    <a class="btn-2" href="1959.html">1950s</a>&nbsp;
+    <a class="btn-2" href="1949.html">1940s</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  <div style="margin-left: 15px;">
+      <a class="btn-3" href="2019.html">2019</a>&nbsp;
+      <a class="btn-3" href="2018.html">2018</a>&nbsp;
+      <a class="btn-3" href="2017.html">2017</a>&nbsp;
+      <a class="btn-3" href="2016.html">2016</a>&nbsp;
+      <a class="btn-3" href="2015.html">2015</a>&nbsp;
+      <a class="btn-3" href="2014.html">2014</a>&nbsp;
+      <a class="btn-3" href="2013.html">2013</a>&nbsp;
+      <a class="btn-3" href="2012.html">2012</a>&nbsp;
+      <a class="btn-3" href="2011.html">2011</a>&nbsp;
+      <a class="btn-3" href="2010.html">2010</a>&nbsp;
+  </div>
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+      <li class="table-cell"><a href="	tgmdb/21 Bridges (2019).html	"><img src="img/	21-bridges-2019.webp	" alt="	21 Bridges	"></a><h3>	21 Bridges	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/3022 (2019).html	"><img src="img/	3022-2019.webp	" alt="	3022	"></a><h3>	3022	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/6 Underground (2019).html	"><img src="img/	6-underground-2019.webp	" alt="	6 Underground	"></a><h3>	6 Underground	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/A Dog's Way Home (2019).html	"><img src="img/	a-dogs-way-home-2019.webp	" alt="	A Dog's Way Home	"></a><h3>	A Dog's Way Home	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Ad Astra (2019).html	"><img src="img/	ad-astra-2019.webp	" alt="	Ad Astra	"></a><h3>	Ad Astra	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Aladdin (2019).html	"><img src="img/	aladdin2019-375x563.jpg	" alt="	Aladdin	"></a><h3>	Aladdin	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Alita Battle Angel (2019).html	"><img src="img/	alita-battle-angel-2019.webp	" alt="	Alita: Battle Angel	"></a><h3>	Alita: Battle Angel	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Angel Has Fallen (2019).html	"><img src="img/	angel-has-fallen-2019.webp	" alt="	Angel Has Fallen	"></a><h3>	Angel Has Fallen	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Annabelle Comes Home (2019).html	"><img src="img/	annabelle-comes-home-600x900.jpg	" alt="	Annabelle Comes Home	"></a><h3>	Annabelle Comes Home	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Avengers Endgame (2019).html	"><img src="img/	avengers-endgame-600x900.jpg	" alt="	Avengers: Endgame	"></a><h3>	Avengers: Endgame	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Battle at Big Rock (2019).html	"><img src="img/	battle-at-big-rock-375x563.jpg	" alt="	Battle at Big Rock	"></a><h3>	Battle at Big Rock	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Batwoman (2019).html	"><img src="img/	batwoman-600x900.jpg	" alt="	Batwoman	"></a><h3>	Batwoman	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Brightburn (2019).html	"><img src="img/	brightburn-2019.webp	" alt="	Brightburn	"></a><h3>	Brightburn	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Captain Marvel (2019).html	"><img src="img/	captain-marvel-600x900.jpg	" alt="	Captain Marvel	"></a><h3>	Captain Marvel	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Captive State (2019).html	"><img src="img/	captive-state-2019.webp	" alt="	Captive State	"></a><h3>	Captive State	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Charlie's Angels (2019).html	"><img src="img/	charlies-angels-2019.webp	" alt="	Charlie's Angels	"></a><h3>	Charlie's Angels	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Code 8 (2019).html	"><img src="img/	code-8-2019.webp	" alt="	Code 8	"></a><h3>	Code 8	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Cold Pursuit (2019).html	"><img src="img/	cold-pursuit-2019.webp	" alt="	Cold Pursuit	"></a><h3>	Cold Pursuit	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Dark Phoenix (2019).html	"><img src="img/	dark-phoenix-600x900.jpg	" alt="	Dark Phoenix	"></a><h3>	Dark Phoenix	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Descendants 3 (2019).html	"><img src="img/	descendants-3-2019.webp	" alt="	Descendants 3	"></a><h3>	Descendants 3	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Doom Annihilation (2019).html	"><img src="img/	doom-annihilation-2019.webp	" alt="	Doom: Annihilation	"></a><h3>	Doom: Annihilation	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Dumbo (2019).html	"><img src="img/	dumbo-2019.webp	" alt="	Dumbo	"></a><h3>	Dumbo	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Escape Room (2019).html	"><img src="img/	escape-room-2019.webp	" alt="	Escape Room	"></a><h3>	Escape Room	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Fast & Furious Presents Hobbs & Shaw (2019).html	"><img src="img/	hobbs-shaw-600x900.jpg	" alt="	Fast & Furious Presents: Hobbs & Shaw	"></a><h3>	Fast & Furious Presents: Hobbs & Shaw	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Fast & Furious Spy Racers (2019).html	"><img src="img/	fast-furious-spy-racers-375x563.jpg	" alt="	Fast & Furious Spy Racers	"></a><h3>	Fast & Furious Spy Racers	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Ford v Ferrari (2019).html	"><img src="img/	ford-v-ferrari-2019.webp	" alt="	Ford v Ferrari	"></a><h3>	Ford v Ferrari	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Forky Asks a Question (2019).html	"><img src="img/	forky-asks-a-question-600x900.jpg	" alt="	Forky Asks a Question	"></a><h3>	Forky Asks a Question	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Frozen II (2019).html	"><img src="img/	frozen-ii-375x563.jpg	" alt="	Frozen II	"></a><h3>	Frozen II	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Gemini Man (2019).html	"><img src="img/	gemini-man-2019.webp	" alt="	Gemini Man	"></a><h3>	Gemini Man	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Godzilla King of the Monsters (2019).html	"><img src="img/	godzilla-king-of-the-monsters-2019.webp	" alt="	Godzilla: King of the Monsters	"></a><h3>	Godzilla: King of the Monsters	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Good Boys (2019).html	"><img src="img/	good-boys-2019.webp	" alt="	Good Boys	"></a><h3>	Good Boys	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Hellboy (2019).html	"><img src="img/	hellboy-2019.webp	" alt="	Hellboy	"></a><h3>	Hellboy	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Holiday Rush (2019).html	"><img src="img/	holiday-rush-2019-600x900.jpg	" alt="	Holiday Rush	"></a><h3>	Holiday Rush	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/How to Train Your Dragon The Hidden World (2019).html	"><img src="img/	how-to-train-your-dragon-the-hidden-world-2019.webp	" alt="	How to Train Your Dragon: The Hidden World	"></a><h3>	How to Train Your Dragon: The Hidden World	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/I Am Mother (2019).html	"><img src="img/	i-am-mother-2019.webp	" alt="	I Am Mother	"></a><h3>	I Am Mother	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/In the Shadow of the Moon (2019).html	"><img src="img/	in-the-shadow-of-the-moon-2019-600x900.jpg	" alt="	In the Shadow of the Moon	"></a><h3>	In the Shadow of the Moon	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/IO (2019).html	"><img src="img/	io-2019-600x900.jpg	" alt="	IO	"></a><h3>	IO	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/John Wick Chapter 3 - Parabellum (2019).html	"><img src="img/	john-wick-chapter-3-parabellum-2019.webp	" alt="	John Wick: Chapter 3 - Parabellum	"></a><h3>	John Wick: Chapter 3 - Parabellum	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Joker (2019).html	"><img src="img/	joker-2019-375x563.jpg	" alt="	Joker	"></a><h3>	Joker	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Jumanji The Next Level (2019).html	"><img src="img/	jumanji2019-600x900.jpg	" alt="	Jumanji: The Next Level	"></a><h3>	Jumanji: The Next Level	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Justice League vs. the Fatal Five (2019).html	"><img src="img/	justice-league-vs.-the-fatal-five-600x900.jpg	" alt="	Justice League vs. the Fatal Five	"></a><h3>	Justice League vs. the Fatal Five	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Klaus (2019).html	"><img src="img/	klaus-2019-600x900.jpg	" alt="	Klaus	"></a><h3>	Klaus	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Knives Out (2019).html	"><img src="img/	knives-out-2019.webp	" alt="	Knives Out	"></a><h3>	Knives Out	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Last Christmas (2019).html	"><img src="img/	last-christmas-2019.webp	" alt="	Last Christmas	"></a><h3>	Last Christmas	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Let It Snow (2019).html	"><img src="img/	let-it-snow-2019.webp	" alt="	Let It Snow	"></a><h3>	Let It Snow	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Little (2019).html	"><img src="img/	little-2019.webp	" alt="	Little	"></a><h3>	Little	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Little Women (2019).html	"><img src="img/	little-women-2019.webp	" alt="	Little Women	"></a><h3>	Little Women	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Malibu Rescue (2019).html	"><img src="img/	malibu-rescue2019-376x564.jpg	" alt="	Malibu Rescue	"></a><h3>	Malibu Rescue	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Malibu Rescue The Series (2019).html	"><img src="img/	malibu-rescue-the-series-2019-376x564.jpg	" alt="	Malibu Rescue: The Series	"></a><h3>	Malibu Rescue: The Series	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Men in Black International (2019).html	"><img src="img/	men-in-black-international-2019.webp	" alt="	Men in Black: International	"></a><h3>	Men in Black: International	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Midsommar (2019).html	"><img src="img/	midsommar-2019.webp	" alt="	Midsommar	"></a><h3>	Midsommar	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Minion Scouts (2019).html	"><img src="img/	minion-scouts-600x900.jpg	" alt="	Minion Scouts	"></a><h3>	Minion Scouts	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Missing Link (2019).html	"><img src="img/	missing-link-2019.webp	" alt="	Missing Link	"></a><h3>	Missing Link	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Murder Mystery (2019).html	"><img src="img/	murder-mystery2019-376x564.jpg	" alt="	Murder Mystery	"></a><h3>	Murder Mystery	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/My Adventures with Santa (2019).html	"><img src="img/	my-adventures-with-santa-2019.webp	" alt="	My Adventures with Santa	"></a><h3>	My Adventures with Santa	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Noelle (2019).html	"><img src="img/	noelle-2019.webp	" alt="	Noelle	"></a><h3>	Noelle	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Pennyworth (2019).html	"><img src="img/	pennyworth-375x563.jpg	" alt="	Pennyworth	"></a><h3>	Pennyworth	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Playing with Fire (2019).html	"><img src="img/	playing-with-fire-2019.webp	" alt="	Playing with Fire	"></a><h3>	Playing with Fire	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Pokémon Detective Pikachu (2019).html	"><img src="img/	pokmon-detective-pikachu-2019.webp	" alt="	Pokémon Detective Pikachu	"></a><h3>	Pokémon Detective Pikachu	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Rambo Last Blood (2019).html	"><img src="img/	rambo-last-blood-2019.webp	" alt="	Rambo: Last Blood	"></a><h3>	Rambo: Last Blood	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Ready or Not (2019).html	"><img src="img/	ready-or-not-2019.webp	" alt="	Ready or Not	"></a><h3>	Ready or Not	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Reign of the Supermen (2019).html	"><img src="img/	reign-of-the-supermen-600x900.jpg	" alt="	Reign of the Supermen	"></a><h3>	Reign of the Supermen	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Rim of the World (2019).html	"><img src="img/	rim-of-the-world2019-600x900.jpg	" alt="	Rim of the World	"></a><h3>	Rim of the World	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Santa's Little Helpers (2019).html	"><img src="img/	santas-little-helpers-600x900.jpg	" alt="	Santa's Little Helpers	"></a><h3>	Santa's Little Helpers	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/See You Yesterday (2019).html	"><img src="img/	see-you-yesterday-2019.webp	" alt="	See You Yesterday	"></a><h3>	See You Yesterday	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Serenity (2019).html	"><img src="img/	serenity-2019.webp	" alt="	Serenity	"></a><h3>	Serenity	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Shaft (2019).html	"><img src="img/	shaft-2019.webp	" alt="	Shaft	"></a><h3>	Shaft	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Shazam! (2019).html	"><img src="img/	shazam-600x900.jpg	" alt="	Shazam!	"></a><h3>	Shazam!	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Spider-Man Far From Home (2019).html	"><img src="img/	spider-man-far-from-home-600x900.jpg	" alt="	Spider-Man: Far From Home	"></a><h3>	Spider-Man: Far From Home	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Star Wars Episode IX – The Rise of Skywalker (2019).html	"><img src="img/	star-wars-the-rise-of-skywalker-600x900.jpg	" alt="	Star Wars: Episode IX – The Rise of Skywalker	"></a><h3>	Star Wars: Episode IX – The Rise of Skywalker	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Star Wars Roll Out (2019).html	"><img src="img/	star-wars-roll-out-600x900.jpg	" alt="	Star Wars: Roll Out	"></a><h3>	Star Wars: Roll Out	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Super Gidget (2019).html	"><img src="img/	super-gidget-2019-600x900.jpg	" alt="	Super Gidget	"></a><h3>	Super Gidget	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Tall Girl (2019).html	"><img src="img/	tall-girl-2019.webp	" alt="	Tall Girl	"></a><h3>	Tall Girl	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Terminator Dark Fate (2019).html	"><img src="img/	terminator-dark-fate-2019.webp	" alt="	Terminator: Dark Fate	"></a><h3>	Terminator: Dark Fate	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Addams Family (2019).html	"><img src="img/	the-addams-family-2019.webp	" alt="	The Addams Family	"></a><h3>	The Addams Family	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Aeronauts (2019).html	"><img src="img/	the-aeronauts-2019.webp	" alt="	The Aeronauts	"></a><h3>	The Aeronauts	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Angry Birds Movie 2 (2019).html	"><img src="img/	the-angry-birds-movie-2-2019-600x900.jpg	" alt="	The Angry Birds Movie 2	"></a><h3>	The Angry Birds Movie 2	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Hustle (2019).html	"><img src="img/	the-hustle-2019.webp	" alt="	The Hustle	"></a><h3>	The Hustle	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Intruder (2019).html	"><img src="img/	the-intruder-2019.webp	" alt="	The Intruder	"></a><h3>	The Intruder	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Kid Who Would Be King (2019).html	"><img src="img/	the-kid-who-would-be-king-2019.webp	" alt="	The Kid Who Would Be King	"></a><h3>	The Kid Who Would Be King	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Laundromat (2019).html	"><img src="img/	the-laundromat-2019.webp	" alt="	The Laundromat	"></a><h3>	The Laundromat	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Lion King (2019).html	"><img src="img/	the-lion-king2019-375x563.jpg	" alt="	The Lion King	"></a><h3>	The Lion King	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Little Mermaid Live! (2019).html	"><img src="img/	the-little-mermaid-live-375x563.jpg	" alt="	The Little Mermaid Live!	"></a><h3>	The Little Mermaid Live!	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Mandalorian (2019).html	"><img src="img/	the-mandalorian-375x563.jpg	" alt="	The Mandalorian	"></a><h3>	The Mandalorian	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Peanut Butter Falcon (2019).html	"><img src="img/	the-peanut-butter-falcon-2019.webp	" alt="	The Peanut Butter Falcon	"></a><h3>	The Peanut Butter Falcon	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Secret Life of Pets 2 (2019).html	"><img src="img/	the-secret-life-of-pets-2-2019-375x563.jpg	" alt="	The Secret Life of Pets 2	"></a><h3>	The Secret Life of Pets 2	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/The Upside (2019).html	"><img src="img/	the-upside-2019.webp	" alt="	The Upside	"></a><h3>	The Upside	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Toy Story 4 (2019).html	"><img src="img/	toy-story-4-600x900.jpg	" alt="	Toy Story 4	"></a><h3>	Toy Story 4	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Triple Frontier (2019).html	"><img src="img/	triple-frontier-2019-600x900.jpg	" alt="	Triple Frontier	"></a><h3>	Triple Frontier	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/UglyDolls (2019).html	"><img src="img/	uglydolls-2019.webp	" alt="	UglyDolls	"></a><h3>	UglyDolls	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Wish Man (2019).html	"><img src="img/	wish-man-2019.webp	" alt="	Wish Man	"></a><h3>	Wish Man	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Wonder Park (2019).html	"><img src="img/	wonder-park-2019.webp	" alt="	Wonder Park	"></a><h3>	Wonder Park	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Wonder Woman Bloodlines (2019).html	"><img src="img/	wonder-woman-bloodlines-375x563.jpg	" alt="	Wonder Woman: Bloodlines	"></a><h3>	Wonder Woman: Bloodlines	</h3></li>
+      <li class="table-cell"><a href="	tgmdb/Yesterday (2019).html	"><img src="img/	yesterday-2019.webp	" alt="	Yesterday	"></a><h3>	Yesterday	</h3></li>
+                                                                  
+        
+    </ul>
+     
+    <p></p><p></p>    
+    <div style="margin-left: 15px;">
+    <a class="btn-3" href="2019.html">2019</a>&nbsp;
+    <a class="btn-3" href="2018.html">2018</a>&nbsp;
+    <a class="btn-3" href="2017.html">2017</a>&nbsp;
+    <a class="btn-3" href="2016.html">2016</a>&nbsp;
+    <a class="btn-3" href="2015.html">2015</a>&nbsp;
+    <a class="btn-3" href="2014.html">2014</a>&nbsp;
+    <a class="btn-3" href="2013.html">2013</a>&nbsp;
+    <a class="btn-3" href="2012.html">2012</a>&nbsp;
+    <a class="btn-3" href="2011.html">2011</a>&nbsp;
+    <a class="btn-3" href="2010.html">2010</a>&nbsp;
+</div>
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

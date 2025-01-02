@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2018 | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2018 Movies</h3><span class="fo-5">Discover comprehensive information on your favorite movies, including detailed summaries, cast lists, genres, certifications, and trailers.</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+    <a class="btn-2" href="2025.html">2020s</a>&nbsp;
+    <a class="btn-2" href="2019.html">2010s</a>&nbsp;
+    <a class="btn-2" href="2009.html">2000s</a>&nbsp;
+    <a class="btn-2" href="1999.html">1990s</a>&nbsp;
+    <a class="btn-2" href="1989.html">1980s</a>&nbsp;
+    <a class="btn-2" href="1979.html">1970s</a>&nbsp;
+    <a class="btn-2" href="1969.html">1960s</a>&nbsp;
+    <a class="btn-2" href="1959.html">1950s</a>&nbsp;
+    <a class="btn-2" href="1949.html">1940s</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  <div style="margin-left: 15px;">
+      <a class="btn-3" href="2019.html">2019</a>&nbsp;
+      <a class="btn-3" href="2018.html">2018</a>&nbsp;
+      <a class="btn-3" href="2017.html">2017</a>&nbsp;
+      <a class="btn-3" href="2016.html">2016</a>&nbsp;
+      <a class="btn-3" href="2015.html">2015</a>&nbsp;
+      <a class="btn-3" href="2014.html">2014</a>&nbsp;
+      <a class="btn-3" href="2013.html">2013</a>&nbsp;
+      <a class="btn-3" href="2012.html">2012</a>&nbsp;
+      <a class="btn-3" href="2011.html">2011</a>&nbsp;
+      <a class="btn-3" href="2010.html">2010</a>&nbsp;
+  </div>
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	tgmdb/211 (2018).html	"><img src="img/	211-2018.webp	" alt="	211	"></a><h3>	211	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/A Quiet Place (2018).html	"><img src="img/	a-quiet-place-2018.webp	" alt="	A Quiet Place	"></a><h3>	A Quiet Place	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/A Simple Favor (2018).html	"><img src="img/	a-simple-favor-2018.webp	" alt="	A Simple Favor	"></a><h3>	A Simple Favor	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/A Star Is Born (2018).html	"><img src="img/	a-star-is-born-2018.webp	" alt="	A Star Is Born	"></a><h3>	A Star Is Born	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/A Wrinkle in Time (2018).html	"><img src="img/	a-wrinkle-in-time-2018.webp	" alt="	A Wrinkle in Time	"></a><h3>	A Wrinkle in Time	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Accident Man (2018).html	"><img src="img/	accident-man-2018.webp	" alt="	Accident Man	"></a><h3>	Accident Man	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Acrimony (2018).html	"><img src="img/	acrimony-2018.webp	" alt="	Acrimony	"></a><h3>	Acrimony	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Action Point (2018).html	"><img src="img/	action-point-2018.webp	" alt="	Action Point	"></a><h3>	Action Point	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Alpha (2018).html	"><img src="img/	alpha-2018.webp	" alt="	Alpha	"></a><h3>	Alpha	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Annihilation (2018).html	"><img src="img/	annihilation-2018.webp	" alt="	Annihilation	"></a><h3>	Annihilation	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Anon (2018).html	"><img src="img/	anon-2018.webp	" alt="	Anon	"></a><h3>	Anon	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Another Time (2018).html	"><img src="img/	another-time-2018.webp	" alt="	Another Time	"></a><h3>	Another Time	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Ant-Man and the Wasp (2018).html	"><img src="img/	ant-man-and-the-wasp-600x900.jpg	" alt="	Ant-Man and the Wasp	"></a><h3>	Ant-Man and the Wasp	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Aquaman (2018).html	"><img src="img/	aquaman-600x900.jpg	" alt="	Aquaman	"></a><h3>	Aquaman	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Auntie Edna (2018).html	"><img src="img/	auntie-edna-600x900.jpg	" alt="	Auntie Edna	"></a><h3>	Auntie Edna	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Avengers Infinity War (2018).html	"><img src="img/	avengers-infinity-war-600x900.jpg	" alt="	Avengers: Infinity War	"></a><h3>	Avengers: Infinity War	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/A-X-L (2018).html	"><img src="img/	a-x-l-2018.webp	" alt="	A-X-L	"></a><h3>	A-X-L	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Barbie Dreamhouse Adventures (2018).html	"><img src="img/	barbie-dreamhouse-adventures-600x900.jpg	" alt="	Barbie Dreamhouse Adventures	"></a><h3>	Barbie Dreamhouse Adventures	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Bird Box (2018).html	"><img src="img/	bird-box-2018-600x900.jpg	" alt="	Bird Box	"></a><h3>	Bird Box	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Black Mirror Bandersnatch (2018).html	"><img src="img/	black-mirror-bandersnatch-2018.webp	" alt="	Black Mirror: Bandersnatch	"></a><h3>	Black Mirror: Bandersnatch	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Black Panther (2018).html	"><img src="img/	black-panther-600x900.jpg	" alt="	Black Panther	"></a><h3>	Black Panther	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Bumblebee (2018).html	"><img src="img/	bumblebee-600x900.jpg	" alt="	Bumblebee	"></a><h3>	Bumblebee	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Christmas Break-In (2018).html	"><img src="img/	christmas-break-in-2018.webp	" alt="	Christmas Break-In	"></a><h3>	Christmas Break-In	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Christmas Wonderland (2018).html	"><img src="img/	christmas-wonderland-2018-600x900.jpg	" alt="	Christmas Wonderland	"></a><h3>	Christmas Wonderland	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Christopher Robin (2018).html	"><img src="img/	christopher-robin-2018.webp	" alt="	Christopher Robin	"></a><h3>	Christopher Robin	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Click & Collect (2018).html	"><img src="img/	click-collect-2018-376x564.jpg	" alt="	Click & Collect	"></a><h3>	Click & Collect	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Cobra Kai (2018).html	"><img src="img/	cobra-kai-2018-375x563.jpg	" alt="	Cobra Kai	"></a><h3>	Cobra Kai	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Creed II (2018).html	"><img src="img/	creed-ii-600x900.jpg	" alt="	Creed II	"></a><h3>	Creed II	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Deadpool 2 (2018).html	"><img src="img/	deadpool-2-375x563.jpg	" alt="	Deadpool 2	"></a><h3>	Deadpool 2	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Death Wish (2018).html	"><img src="img/	death-wish-2018.webp	" alt="	Death Wish	"></a><h3>	Death Wish	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Den of Thieves (2018).html	"><img src="img/	den-of-thieves-2018.webp	" alt="	Den of Thieves	"></a><h3>	Den of Thieves	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Duck Duck Goose (2018).html	"><img src="img/	duck-duck-goose-2018.webp	" alt="	Duck Duck Goose	"></a><h3>	Duck Duck Goose	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Early Man (2018).html	"><img src="img/	early-man-2018.webp	" alt="	Early Man	"></a><h3>	Early Man	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Elliot The Littlest Reindeer (2018).html	"><img src="img/	elliot-the-littlest-reindeer-2018.webp	" alt="	Elliot: The Littlest Reindeer	"></a><h3>	Elliot: The Littlest Reindeer	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Escape Plan 2 Hades (2018).html	"><img src="img/	escape-plan-2-hades-2018.webp	" alt="	Escape Plan 2: Hades	"></a><h3>	Escape Plan 2: Hades	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Fahrenheit 451 (2018).html	"><img src="img/	fahrenheit-451-2018.webp	" alt="	Fahrenheit 451	"></a><h3>	Fahrenheit 451	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Fantastic Beasts The Crimes of Grindelwald (2018).html	"><img src="img/	fantastic-beasts-the-crimes-of-grindelwald-375x563.jpg	" alt="	Fantastic Beasts: The Crimes of Grindelwald	"></a><h3>	Fantastic Beasts: The Crimes of Grindelwald	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Future World (2018).html	"><img src="img/	future-world-2018.webp	" alt="	Future World	"></a><h3>	Future World	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Game Night (2018).html	"><img src="img/	game-night-2018.webp	" alt="	Game Night	"></a><h3>	Game Night	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Goosebumps 2 Haunted Halloween (2018).html	"><img src="img/	goosebumps-2-haunted-halloween-2018.webp	" alt="	Goosebumps 2: Haunted Halloween	"></a><h3>	Goosebumps 2: Haunted Halloween	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Green Book (2018).html	"><img src="img/	green-book-2018.webp	" alt="	Green Book	"></a><h3>	Green Book	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/High Life (2018).html	"><img src="img/	high-life-2018.webp	" alt="	High Life	"></a><h3>	High Life	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Holmes & Watson (2018).html	"><img src="img/	holmes-watson-2018.webp	" alt="	Holmes & Watson	"></a><h3>	Holmes & Watson	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Hotel Transylvania 3 Summer Vacation (2018).html	"><img src="img/	hotel-transylvania-3-summer-vacation-2018.webp	" alt="	Hotel Transylvania 3: Summer Vacation	"></a><h3>	Hotel Transylvania 3: Summer Vacation	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/How It Ends (2018).html	"><img src="img/	how-it-ends-2018-600x900.jpg	" alt="	How It Ends	"></a><h3>	How It Ends	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Hunter Killer (2018).html	"><img src="img/	hunter-killer-2018.webp	" alt="	Hunter Killer	"></a><h3>	Hunter Killer	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/I'll Be Next Door for Christmas (2018).html	"><img src="img/	ill-be-next-door-for-christmas-2018.webp	" alt="	I'll Be Next Door for Christmas	"></a><h3>	I'll Be Next Door for Christmas	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Incredibles 2 (2018).html	"><img src="img/	incredibles-2-375x563.jpg	" alt="	Incredibles 2	"></a><h3>	Incredibles 2	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Instant Family (2018).html	"><img src="img/	instant-family-2018.webp	" alt="	Instant Family	"></a><h3>	Instant Family	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Isle of Dogs (2018).html	"><img src="img/	isle-of-dogs-2018.webp	" alt="	Isle of Dogs	"></a><h3>	Isle of Dogs	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Jonathan (2018).html	"><img src="img/	jonathan-2018.webp	" alt="	Jonathan	"></a><h3>	Jonathan	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Jurassic World Fallen Kingdom (2018).html	"><img src="img/	jurassic-world-fallen-kingdom-375x563.jpg	" alt="	Jurassic World: Fallen Kingdom	"></a><h3>	Jurassic World: Fallen Kingdom	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Krypton (2018).html	"><img src="img/	krypton-600x900.jpg	" alt="	Krypton	"></a><h3>	Krypton	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Level 16 (2018).html	"><img src="img/	level-16-2018.webp	" alt="	Level 16	"></a><h3>	Level 16	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mamma Mia! Here We Go Again (2018).html	"><img src="img/	mamma-mia-here-we-go-again-2018-600x900.jpg	" alt="	Mamma Mia! Here We Go Again	"></a><h3>	Mamma Mia! Here We Go Again	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mary Poppins Returns (2018).html	"><img src="img/	mary-poppins-returns-2018.webp	" alt="	Mary Poppins Returns	"></a><h3>	Mary Poppins Returns	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Maze Runner The Death Cure (2018).html	"><img src="img/	maze-runner-the-death-cure-2018.webp	" alt="	Maze Runner: The Death Cure	"></a><h3>	Maze Runner: The Death Cure	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/mid90s (2018).html	"><img src="img/	mid90s-2018.webp	" alt="	mid90s	"></a><h3>	mid90s	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mile 22 (2018).html	"><img src="img/	mile-22-2018.webp	" alt="	Mile 22	"></a><h3>	Mile 22	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mission Impossible - Fallout (2018).html	"><img src="img/	mission-impossible-fallout-2018.webp	" alt="	Mission: Impossible - Fallout	"></a><h3>	Mission: Impossible - Fallout	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mission Impossible – Fallout (2018).html	"><img src="img/	mission-impossible-fallout-600x900.jpg	" alt="	Mission: Impossible – Fallout	"></a><h3>	Mission: Impossible – Fallout	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Mortal Engines (2018).html	"><img src="img/	mortal-engines-2018.webp	" alt="	Mortal Engines	"></a><h3>	Mortal Engines	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Next Gen (2018).html	"><img src="img/	next-gen-2018.webp	" alt="	Next Gen	"></a><h3>	Next Gen	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Night School (2018).html	"><img src="img/	night-school-2018.webp	" alt="	Night School	"></a><h3>	Night School	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Oh Deer, It's Christmas (2018).html	"><img src="img/	oh-deer-its-christmas-2018.webp	" alt="	Oh Deer, It's Christmas	"></a><h3>	Oh Deer, It's Christmas	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Pacific Rim Uprising (2018).html	"><img src="img/	pacific-rim-uprising-2018.webp	" alt="	Pacific Rim: Uprising	"></a><h3>	Pacific Rim: Uprising	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Peppermint (2018).html	"><img src="img/	peppermint-2018.webp	" alt="	Peppermint	"></a><h3>	Peppermint	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Peter Rabbit (2018).html	"><img src="img/	peter-rabbit-2018.webp	" alt="	Peter Rabbit	"></a><h3>	Peter Rabbit	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Prospect (2018).html	"><img src="img/	prospect-2018.webp	" alt="	Prospect	"></a><h3>	Prospect	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Ralph Breaks the Internet (2018).html	"><img src="img/	ralph-breaks-the-internet-2018.webp	" alt="	Ralph Breaks the Internet	"></a><h3>	Ralph Breaks the Internet	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Rampage (2018).html	"><img src="img/	rampage-2018.webp	" alt="	Rampage	"></a><h3>	Rampage	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Ready Player One (2018).html	"><img src="img/	ready-player-one-2018.webp	" alt="	Ready Player One	"></a><h3>	Ready Player One	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Red Sparrow (2018).html	"><img src="img/	red-sparrow-2018.webp	" alt="	Red Sparrow	"></a><h3>	Red Sparrow	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Replicas (2018).html	"><img src="img/	replicas-2018.webp	" alt="	Replicas	"></a><h3>	Replicas	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Robin Hood (2018).html	"><img src="img/	robin-hood-2018.webp	" alt="	Robin Hood	"></a><h3>	Robin Hood	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Scorched Earth (2018).html	"><img src="img/	scorched-earth-2018.webp	" alt="	Scorched Earth	"></a><h3>	Scorched Earth	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Searching (2018).html	"><img src="img/	searching-2018.webp	" alt="	Searching	"></a><h3>	Searching	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Sherlock Gnomes (2018).html	"><img src="img/	sherlock-gnomes-2018.webp	" alt="	Sherlock Gnomes	"></a><h3>	Sherlock Gnomes	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Sicario Day of the Soldado (2018).html	"><img src="img/	sicario-day-of-the-soldado-2018.webp	" alt="	Sicario: Day of the Soldado	"></a><h3>	Sicario: Day of the Soldado	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Skyscraper (2018).html	"><img src="img/	skyscraper-2018.webp	" alt="	Skyscraper	"></a><h3>	Skyscraper	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Smallfoot (2018).html	"><img src="img/	smallfoot-2018.webp	" alt="	Smallfoot	"></a><h3>	Smallfoot	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Solo A Star Wars Story (2018).html	"><img src="img/	solo-a-star-wars-story-600x900.jpg	" alt="	Solo: A Star Wars Story	"></a><h3>	Solo: A Star Wars Story	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Sorry to Bother You (2018).html	"><img src="img/	sorry-to-bother-you-2018.webp	" alt="	Sorry to Bother You	"></a><h3>	Sorry to Bother You	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Spider-Man Into the Spider-Verse (2018).html	"><img src="img/	spider-man-into-the-spider-verse-375x563.jpg	" alt="	Spider-Man: Into the Spider-Verse	"></a><h3>	Spider-Man: Into the Spider-Verse	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Trek Short Treks (2018).html	"><img src="img/	short-treks-600x900.jpg	" alt="	Star Trek: Short Treks	"></a><h3>	Star Trek: Short Treks	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Wars Galaxy of Adventures (2018).html	"><img src="img/	galaxy-of-adventures-600x900.jpg	" alt="	Star Wars Galaxy of Adventures	"></a><h3>	Star Wars Galaxy of Adventures	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Wars Resistance (2018).html	"><img src="img/	star-wars-resistance-600x900.jpg	" alt="	Star Wars Resistance	"></a><h3>	Star Wars Resistance	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Tag (2018).html	"><img src="img/	tag-2018.webp	" alt="	Tag	"></a><h3>	Tag	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Teen Titans Go! To the Movies (2018).html	"><img src="img/	teen-titans-go-to-the-movies-600x900.jpg	" alt="	Teen Titans Go! To the Movies	"></a><h3>	Teen Titans Go! To the Movies	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Beyond (2018).html	"><img src="img/	the-beyond-2018.webp	" alt="	The Beyond	"></a><h3>	The Beyond	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Christmas Apron (2018).html	"><img src="img/	the-christmas-apron-2018.webp	" alt="	The Christmas Apron	"></a><h3>	The Christmas Apron	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Christmas Chronicles (2018).html	"><img src="img/	the-christmas-chronicles-2018-600x900.jpg	" alt="	The Christmas Chronicles	"></a><h3>	The Christmas Chronicles	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Darkest Minds (2018).html	"><img src="img/	the-darkest-minds-2018.webp	" alt="	The Darkest Minds	"></a><h3>	The Darkest Minds	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Death of Superman (2018).html	"><img src="img/	the-death-of-superman-600x900.jpg	" alt="	The Death of Superman	"></a><h3>	The Death of Superman	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Equalizer 2 (2018).html	"><img src="img/	the-equalizer-2-2018.webp	" alt="	The Equalizer 2	"></a><h3>	The Equalizer 2	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The First Purge (2018).html	"><img src="img/	the-first-purge-2018.webp	" alt="	The First Purge	"></a><h3>	The First Purge	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Gateway (2018).html	"><img src="img/	the-gateway-2018.webp	" alt="	The Gateway	"></a><h3>	The Gateway	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Grinch (2018).html	"><img src="img/	the-grinch-2018.webp	" alt="	The Grinch	"></a><h3>	The Grinch	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Holiday Calendar (2018).html	"><img src="img/	the-holiday-calendar-2018-600x900.jpg	" alt="	The Holiday Calendar	"></a><h3>	The Holiday Calendar	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The House with a Clock in Its Walls (2018).html	"><img src="img/	the-house-with-a-clock-in-its-walls-2018.webp	" alt="	The House with a Clock in Its Walls	"></a><h3>	The House with a Clock in Its Walls	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Last Man (2018).html	"><img src="img/	the-last-man-2018.webp	" alt="	The Last Man	"></a><h3>	The Last Man	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Meg (2018).html	"><img src="img/	the-meg-2018.webp	" alt="	The Meg	"></a><h3>	The Meg	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Mule (2018).html	"><img src="img/	the-mule-2018.webp	" alt="	The Mule	"></a><h3>	The Mule	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Nun (2018).html	"><img src="img/	the-nun-600x900.jpg	" alt="	The Nun	"></a><h3>	The Nun	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Nutcracker and the Four Realms (2018).html	"><img src="img/	the-nutcracker-and-the-four-realms-2018.webp	" alt="	The Nutcracker and the Four Realms	"></a><h3>	The Nutcracker and the Four Realms	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Predator (2018).html	"><img src="img/	the-predator-2018.webp	" alt="	The Predator	"></a><h3>	The Predator	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Second Coming of Christ (2018).html	"><img src="img/	the-second-coming-of-christ-2018.webp	" alt="	The Second Coming of Christ	"></a><h3>	The Second Coming of Christ	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Spy Who Dumped Me (2018).html	"><img src="img/	the-spy-who-dumped-me-2018.webp	" alt="	The Spy Who Dumped Me	"></a><h3>	The Spy Who Dumped Me	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Titan (2018).html	"><img src="img/	the-titan-2018.webp	" alt="	The Titan	"></a><h3>	The Titan	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Time Trap (2018).html	"><img src="img/	time-trap-2018.webp	" alt="	Time Trap	"></a><h3>	Time Trap	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Titans (2018).html	"><img src="img/	titans-600x900.jpg	" alt="	Titans	"></a><h3>	Titans	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Tom Clancy's Jack Ryan (2018).html	"><img src="img/	tom-clancys-jack-ryan-375x563.jpg	" alt="	Tom Clancy's Jack Ryan	"></a><h3>	Tom Clancy's Jack Ryan	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Tomb Raider (2018).html	"><img src="img/	tomb-raider-2018.webp	" alt="	Tomb Raider	"></a><h3>	Tomb Raider	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Truth or Dare (2018).html	"><img src="img/	truth-or-dare-2018.webp	" alt="	Truth or Dare	"></a><h3>	Truth or Dare	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Upgrade (2018).html	"><img src="img/	upgrade-2018-600x900.jpg	" alt="	Upgrade	"></a><h3>	Upgrade	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Venom (2018).html	"><img src="img/	venom-2018.webp	" alt="	Venom	"></a><h3>	Venom	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Widows (2018).html	"><img src="img/	widows-2018.webp	" alt="	Widows	"></a><h3>	Widows	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Yellow is the New Black (2018).html	"><img src="img/	yellow-is-the-new-black-600x900.jpg	" alt="	Yellow is the New Black	"></a><h3>	Yellow is the New Black	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Zog (2018).html	"><img src="img/	zog-2018.webp	" alt="	Zog	"></a><h3>	Zog	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Z-O-M-B-I-E-S (2018).html	"><img src="img/	z-o-m-b-i-e-s-2018.webp	" alt="	Z-O-M-B-I-E-S	"></a><h3>	Z-O-M-B-I-E-S	</h3></li>
+                                                                    
+        
+    </ul>
+     
+    <p></p><p></p>    
+    <div style="margin-left: 15px;">
+    <a class="btn-3" href="2019.html">2019</a>&nbsp;
+    <a class="btn-3" href="2018.html">2018</a>&nbsp;
+    <a class="btn-3" href="2017.html">2017</a>&nbsp;
+    <a class="btn-3" href="2016.html">2016</a>&nbsp;
+    <a class="btn-3" href="2015.html">2015</a>&nbsp;
+    <a class="btn-3" href="2014.html">2014</a>&nbsp;
+    <a class="btn-3" href="2013.html">2013</a>&nbsp;
+    <a class="btn-3" href="2012.html">2012</a>&nbsp;
+    <a class="btn-3" href="2011.html">2011</a>&nbsp;
+    <a class="btn-3" href="2010.html">2010</a>&nbsp;
+</div>
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

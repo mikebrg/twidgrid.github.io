@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2007 | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2007 Movies</h3><span class="fo-5">Discover comprehensive information on your favorite movies, including detailed summaries, cast lists, genres, certifications, and trailers.</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+    <a class="btn-2" href="2025.html">2020s</a>&nbsp;
+    <a class="btn-2" href="2019.html">2010s</a>&nbsp;
+    <a class="btn-2" href="2009.html">2000s</a>&nbsp;
+    <a class="btn-2" href="1999.html">1990s</a>&nbsp;
+    <a class="btn-2" href="1989.html">1980s</a>&nbsp;
+    <a class="btn-2" href="1979.html">1970s</a>&nbsp;
+    <a class="btn-2" href="1969.html">1960s</a>&nbsp;
+    <a class="btn-2" href="1959.html">1950s</a>&nbsp;
+    <a class="btn-2" href="1949.html">1940s</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  <div style="margin-left: 15px;">
+      <a class="btn-3" href="2009.html">2009</a>&nbsp;
+      <a class="btn-3" href="2008.html">2008</a>&nbsp;
+      <a class="btn-3" href="2007.html">2007</a>&nbsp;
+      <a class="btn-3" href="2006.html">2006</a>&nbsp;
+      <a class="btn-3" href="2005.html">2005</a>&nbsp;
+      <a class="btn-3" href="2004.html">2004</a>&nbsp;
+      <a class="btn-3" href="2003.html">2003</a>&nbsp;
+      <a class="btn-3" href="2002.html">2002</a>&nbsp;
+      <a class="btn-3" href="2001.html">2001</a>&nbsp;
+      <a class="btn-3" href="2000.html">2000</a>&nbsp;
+  </div>
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	tgmdb/Alvin and the Chipmunks (2007).html	"><img src="img/	alvin-and-the-chipmunks-2007-375x563.jpg	" alt="	Alvin and the Chipmunks	"></a><h3>	Alvin and the Chipmunks	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/AVPR Aliens vs. Predator – Requiem (2007).html	"><img src="img/	aliens-vs-predator-requiem-poster-250x370.jpg	" alt="	AVPR: Aliens vs. Predator – Requiem	"></a><h3>	AVPR: Aliens vs. Predator – Requiem	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Barbie as the Island Princess (2007).html	"><img src="img/	barbie-island-princess-600x900.jpg	" alt="	Barbie as the Island Princess	"></a><h3>	Barbie as the Island Princess	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Barbie Fairytopia Magic of the Rainbow (2007).html	"><img src="img/	barbie-fairytopia-magic-of-the-rainbow-600x900.jpg	" alt="	Barbie Fairytopia: Magic of the Rainbow	"></a><h3>	Barbie Fairytopia: Magic of the Rainbow	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Bee Movie (2007).html	"><img src="img/	bee-movie-2007.webp	" alt="	Bee Movie	"></a><h3>	Bee Movie	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Bridge to Terabithia (2007).html	"><img src="img/	bridge-to-terabithia-2007.webp	" alt="	Bridge to Terabithia	"></a><h3>	Bridge to Terabithia	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Happily N'Ever After (2007).html	"><img src="img/	happily-never-after-2007.webp	" alt="	Happily N'Ever After	"></a><h3>	Happily N'Ever After	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Harry Potter and the Order of the Phoenix (2007).html	"><img src="img/	harry-potter-and-the-order-of-the-phoenix-600x900.jpg	" alt="	Harry Potter and the Order of the Phoenix	"></a><h3>	Harry Potter and the Order of the Phoenix	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Live Free or Die Hard (2007).html	"><img src="img/	live-free-or-die-hard-375x563.jpg	" alt="	Live Free or Die Hard	"></a><h3>	Live Free or Die Hard	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/National Treasure Book of Secrets (2007).html	"><img src="img/	national-treasure-book-of-secrets-2007.webp	" alt="	National Treasure: Book of Secrets	"></a><h3>	National Treasure: Book of Secrets	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Norbit (2007).html	"><img src="img/	norbit-2007.webp	" alt="	Norbit	"></a><h3>	Norbit	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Pirates of the Caribbean At World's End (2007).html	"><img src="img/	pirates-of-the-caribbean-at-worlds-end-375x563.jpg	" alt="	Pirates of the Caribbean: At World's End	"></a><h3>	Pirates of the Caribbean: At World's End	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Ratatouille (2007).html	"><img src="img/	ratatouille-2007.webp	" alt="	Ratatouille	"></a><h3>	Ratatouille	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Shrek the Halls (2007).html	"><img src="img/	shrek-the-halls-375x563.jpg	" alt="	Shrek the Halls	"></a><h3>	Shrek the Halls	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Shrek the Third (2007).html	"><img src="img/	shrek-the-third-375x563.jpg	" alt="	Shrek the Third	"></a><h3>	Shrek the Third	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Spider-Man 3 (2007).html	"><img src="img/	spider-man-3-375x563.jpg	" alt="	Spider-Man 3	"></a><h3>	Spider-Man 3	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Superman Doomsday (2007).html	"><img src="img/	superman-doomsday-600x900.jpg	" alt="	Superman: Doomsday	"></a><h3>	Superman: Doomsday	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Big Bang Theory (2007).html	"><img src="img/	the-big-bang-theory-2007-375x563.jpg	" alt="	The Big Bang Theory	"></a><h3>	The Big Bang Theory	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Last Mimzy (2007).html	"><img src="img/	the-last-mimzy-2007.webp	" alt="	The Last Mimzy	"></a><h3>	The Last Mimzy	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Sandlot Heading Home (2007).html	"><img src="img/	the-sandlot-heading-home-2007.webp	" alt="	The Sandlot: Heading Home	"></a><h3>	The Sandlot: Heading Home	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Transformers (2007).html	"><img src="img/	transformers07-375x563.jpg	" alt="	Transformers	"></a><h3>	Transformers	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Transformers Animated (2007).html	"><img src="img/	transformers-animated-600x900.jpg	" alt="	Transformers: Animated	"></a><h3>	Transformers: Animated	</h3></li>
+                                                                                                                                                                    
+        
+    </ul>
+     
+    <p></p><p></p>    
+    <div style="margin-left: 15px;">
+        <a class="btn-3" href="2009.html">2009</a>&nbsp;
+        <a class="btn-3" href="2008.html">2008</a>&nbsp;
+        <a class="btn-3" href="2007.html">2007</a>&nbsp;
+        <a class="btn-3" href="2006.html">2006</a>&nbsp;
+        <a class="btn-3" href="2005.html">2005</a>&nbsp;
+        <a class="btn-3" href="2004.html">2004</a>&nbsp;
+        <a class="btn-3" href="2003.html">2003</a>&nbsp;
+        <a class="btn-3" href="2002.html">2002</a>&nbsp;
+        <a class="btn-3" href="2001.html">2001</a>&nbsp;
+        <a class="btn-3" href="2000.html">2000</a>&nbsp;
+</div>
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
