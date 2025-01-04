@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2018 TV Shows | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      height: auto;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2018 TV Shows</h3><span class="fo-5">Explore a world of popular television shows!</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+    <a class="btn-2" href="tv2025.html">2020s</a>&nbsp;
+    <a class="btn-2" href="tv2019.html">2010s</a>&nbsp;
+    <a class="btn-2" href="tv2009.html">2000s</a>&nbsp;
+    <a class="btn-2" href="tv1999.html">1990s</a>&nbsp;
+    <a class="btn-2" href="tv1989.html">1980s</a>&nbsp;
+    <a class="btn-2" href="tv1979.html">1970s</a>&nbsp;
+    <a class="btn-2" href="tv1969.html">1960s</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  <div style="margin-left: 15px;">
+    <a class="btn-3" href="tv2019.html">2019</a>&nbsp;
+    <a class="btn-3" href="tv2018.html">2018</a>&nbsp;
+    <a class="btn-3" href="tv2017.html">2017</a>&nbsp;
+    <a class="btn-3" href="tv2016.html">2016</a>&nbsp;
+    <a class="btn-3" href="tv2015.html">2015</a>&nbsp;
+    <a class="btn-3" href="tv2014.html">2014</a>&nbsp;
+    <a class="btn-3" href="tv2013.html">2013</a>&nbsp;
+    <a class="btn-3" href="tv2012.html">2012</a>&nbsp;
+    <a class="btn-3" href="tv2011.html">2011</a>&nbsp;
+    <a class="btn-3" href="tv2010.html">2010</a>&nbsp;
+</div>
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	tgmdb/9-1-1 (2018).html	"><img src="img/	9-1-1-2018-600x900.jpg	" alt="	9-1-1	"></a><h3>	9-1-1	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Alexa & Katie (2018).html	"><img src="img/	alexa-katie-2018-600x900.jpg	" alt="	Alexa & Katie	"></a><h3>	Alexa & Katie	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Altered Carbon (2018).html	"><img src="img/	altered-carbon-2018-600x900.jpg	" alt="	Altered Carbon	"></a><h3>	Altered Carbon	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Black Lightning (2018).html	"><img src="img/	black-lightning-2018-600x900.jpg	" alt="	Black Lightning	"></a><h3>	Black Lightning	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Bodyguard (2018).html	"><img src="img/	bodyguard-2018-600x900.jpg	" alt="	Bodyguard	"></a><h3>	Bodyguard	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Cobra Kai (2018).html	"><img src="img/	cobra-kai-2018.webp	" alt="	Cobra Kai	"></a><h3>	Cobra Kai	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Coop and Cami Ask the World (2018).html	"><img src="img/	coop-and-cami-ask-the-world-2018-600x900.jpg	" alt="	Coop and Cami Ask the World	"></a><h3>	Coop and Cami Ask the World	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Cousins for Life (2018).html	"><img src="img/	cousins-for-life-2018-600x900.jpg	" alt="	Cousins for Life	"></a><h3>	Cousins for Life	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Knight Squad (2018).html	"><img src="img/	knight-squad-2018-600x900.jpg	" alt="	Knight Squad	"></a><h3>	Knight Squad	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Krypton (2018).html	"><img src="img/	krypton-600x900.jpg	" alt="	Krypton	"></a><h3>	Krypton	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Larva Island (2018).html	"><img src="img/	larva-island-2018-600x900.jpg	" alt="	Larva Island	"></a><h3>	Larva Island	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Manifest (2018).html	"><img src="img/	manifest-2018-600x900.jpg	" alt="	Manifest	"></a><h3>	Manifest	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Marvel's Cloak & Dagger (2018).html	"><img src="img/	marvels-cloak-dagger-2018-600x900.jpg	" alt="	Marvel's Cloak & Dagger	"></a><h3>	Marvel's Cloak & Dagger	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/On My Block (2018).html	"><img src="img/	on-my-block-2018-600x900.jpg	" alt="	On My Block	"></a><h3>	On My Block	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Falls (2018).html	"><img src="img/	star-falls-2018-600x900.jpg	" alt="	Star Falls	"></a><h3>	Star Falls	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Star Trek Short Treks (2018).html	"><img src="img/	short-treks-600x900.jpg	" alt="	Star Trek: Short Treks	"></a><h3>	Star Trek: Short Treks	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Tell Me a Story (2018).html	"><img src="img/	tell-me-a-story-2018-600x900.jpg	" alt="	Tell Me a Story	"></a><h3>	Tell Me a Story	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Alienist (2018).html	"><img src="img/	the-alienist-2018-600x900.jpg	" alt="	The Alienist	"></a><h3>	The Alienist	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Crossing (2018).html	"><img src="img/	the-crossing-2018-600x900.jpg	" alt="	The Crossing	"></a><h3>	The Crossing	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The New Legends of Monkey (2018).html	"><img src="img/	the-new-legends-of-monkey-2018-600x900.jpg	" alt="	The New Legends of Monkey	"></a><h3>	The New Legends of Monkey	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Titans (2018).html	"><img src="img/	titans-600x900.jpg	" alt="	Titans	"></a><h3>	Titans	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Tom Clancy's Jack Ryan (2018).html	"><img src="img/	tom-clancys-jack-ryan-2018-600x900.jpg	" alt="	Tom Clancy's Jack Ryan	"></a><h3>	Tom Clancy's Jack Ryan	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Yellowstone (2018).html	"><img src="img/	yellowstone-2018-600x900.jpg	" alt="	Yellowstone	"></a><h3>	Yellowstone	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/You (2018).html	"><img src="img/	you-2018-600x900.jpg	" alt="	You	"></a><h3>	You	</h3></li>
+                                                                
+        
+    </ul>
+     
+    <p></p><p></p>    
+  <div style="margin-left: 15px;">
+    <a class="btn-3" href="tv2019.html">2019</a>&nbsp;
+    <a class="btn-3" href="tv2018.html">2018</a>&nbsp;
+    <a class="btn-3" href="tv2017.html">2017</a>&nbsp;
+    <a class="btn-3" href="tv2016.html">2016</a>&nbsp;
+    <a class="btn-3" href="tv2015.html">2015</a>&nbsp;
+    <a class="btn-3" href="tv2014.html">2014</a>&nbsp;
+    <a class="btn-3" href="tv2013.html">2013</a>&nbsp;
+    <a class="btn-3" href="tv2012.html">2012</a>&nbsp;
+    <a class="btn-3" href="tv2011.html">2011</a>&nbsp;
+    <a class="btn-3" href="tv2010.html">2010</a>&nbsp;
+</div>
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

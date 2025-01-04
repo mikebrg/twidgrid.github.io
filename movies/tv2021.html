@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2021 TV Shows | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      height: auto;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2021 TV Shows</h3><span class="fo-5">Explore a world of popular television shows!</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+    <a class="btn-2" href="tv2025.html">2020s</a>&nbsp;
+    <a class="btn-2" href="tv2019.html">2010s</a>&nbsp;
+    <a class="btn-2" href="tv2009.html">2000s</a>&nbsp;
+    <a class="btn-2" href="tv1999.html">1990s</a>&nbsp;
+    <a class="btn-2" href="tv1989.html">1980s</a>&nbsp;
+    <a class="btn-2" href="tv1979.html">1970s</a>&nbsp;
+    <a class="btn-2" href="tv1969.html">1960s</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  <div style="margin-left: 15px;">
+      <a class="btn-3" href="tv2025.html">2025</a>&nbsp;
+      <a class="btn-3" href="tv2024.html">2024</a>&nbsp;
+      <a class="btn-3" href="tv2023.html">2023</a>&nbsp;
+      <a class="btn-3" href="tv2022.html">2022</a>&nbsp;
+      <a class="btn-3" href="tv2021.html">2021</a>&nbsp;
+      <a class="btn-3" href="tv2020.html">2020</a>&nbsp;
+  </div>
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	tgmdb/Country Comfort (2021).html	"><img src="img/	country-comfort-2021-600x900.jpg	" alt="	Country Comfort	"></a><h3>	Country Comfort	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Cowboy Bebop (2021).html	"><img src="img/	cowboy-bebop-2021-600x900.jpg	" alt="	Cowboy Bebop	"></a><h3>	Cowboy Bebop	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/CSI Vegas (2021).html	"><img src="img/	csi-vegas-2021-600x900.jpg	" alt="	CSI: Vegas	"></a><h3>	CSI: Vegas	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Dan Brown's The Lost Symbol (2021).html	"><img src="img/	dan-browns-the-lost-symbol-2021-600x900.jpg	" alt="	Dan Brown's The Lost Symbol	"></a><h3>	Dan Brown's The Lost Symbol	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Foundation (2021).html	"><img src="img/	foundation-2021-600x900.jpg	" alt="	Foundation	"></a><h3>	Foundation	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Hawkeye (2021).html	"><img src="img/	hawkeye-2021-600x900.jpg	" alt="	Hawkeye	"></a><h3>	Hawkeye	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Heels (2021).html	"><img src="img/	heels-2021-600x900.jpg	" alt="	Heels	"></a><h3>	Heels	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Hit & Run (2021).html	"><img src="img/	hit-run-2021-600x900.jpg	" alt="	Hit & Run	"></a><h3>	Hit & Run	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/iCarly (2021).html	"><img src="img/	icarly-2021-600x900.jpg	" alt="	iCarly	"></a><h3>	iCarly	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Invasion (2021).html	"><img src="img/	invasion-2021-600x900.jpg	" alt="	Invasion	"></a><h3>	Invasion	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/La Brea (2021).html	"><img src="img/	la-brea-2021-600x900.jpg	" alt="	La Brea	"></a><h3>	La Brea	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Loki (2021).html	"><img src="img/	loki-2021-600x900.jpg	" alt="	Loki	"></a><h3>	Loki	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Lupin (2021).html	"><img src="img/	lupin-2021-600x900.jpg	" alt="	Lupin	"></a><h3>	Lupin	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Only Murders in the Building (2021).html	"><img src="img/	only-murders-in-the-building-2021-600x900.jpg	" alt="	Only Murders in the Building	"></a><h3>	Only Murders in the Building	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Resident Alien (2021).html	"><img src="img/	resident-alien-2021-600x900.jpg	" alt="	Resident Alien	"></a><h3>	Resident Alien	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Secrets of Sulphur Springs (2021).html	"><img src="img/	secrets-of-sulphur-springs-2021-600x900.jpg	" alt="	Secrets of Sulphur Springs	"></a><h3>	Secrets of Sulphur Springs	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Solos (2021).html	"><img src="img/	solos-2021-600x900.jpg	" alt="	Solos	"></a><h3>	Solos	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Superman & Lois (2021).html	"><img src="img/	superman-lois-600x900.jpg	" alt="	Superman & Lois	"></a><h3>	Superman & Lois	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Sweet Tooth (2021).html	"><img src="img/	sweet-tooth-2021-600x900.jpg	" alt="	Sweet Tooth	"></a><h3>	Sweet Tooth	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Book of Boba Fett (2021).html	"><img src="img/	the-book-of-boba-fett-600x900.jpg	" alt="	The Book of Boba Fett	"></a><h3>	The Book of Boba Fett	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Crew (2021).html	"><img src="img/	the-crew-2021-600x900.jpg	" alt="	The Crew	"></a><h3>	The Crew	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Falcon and the Winter Soldier (2021).html	"><img src="img/	the-falcon-and-the-winter-soldier-2021-600x900.jpg	" alt="	The Falcon and the Winter Soldier	"></a><h3>	The Falcon and the Winter Soldier	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Mysterious Benedict Society (2021).html	"><img src="img/	the-mysterious-benedict-society-2021-600x900.jpg	" alt="	The Mysterious Benedict Society	"></a><h3>	The Mysterious Benedict Society	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/The Republic of Sarah (2021).html	"><img src="img/	the-republic-of-sarah-2021-600x900.jpg	" alt="	The Republic of Sarah	"></a><h3>	The Republic of Sarah	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Turner & Hooch (2021).html	"><img src="img/	turner-hooch-2021-600x900.jpg	" alt="	Turner & Hooch	"></a><h3>	Turner & Hooch	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/WandaVision (2021).html	"><img src="img/	wandavision-2021-600x900.jpg	" alt="	WandaVision	"></a><h3>	WandaVision	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Y The Last Man (2021).html	"><img src="img/	y-the-last-man-2021-600x900.jpg	" alt="	Y: The Last Man	"></a><h3>	Y: The Last Man	</h3></li>
+                                        
+        
+    </ul>
+     
+    <p></p><p></p>    
+  <div style="margin-left: 15px;">
+    <a class="btn-3" href="tv2025.html">2025</a>&nbsp;
+    <a class="btn-3" href="tv2024.html">2024</a>&nbsp;
+    <a class="btn-3" href="tv2023.html">2023</a>&nbsp;
+    <a class="btn-3" href="tv2022.html">2022</a>&nbsp;
+    <a class="btn-3" href="tv2021.html">2021</a>&nbsp;
+    <a class="btn-3" href="tv2020.html">2020</a>&nbsp;
+</div>
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

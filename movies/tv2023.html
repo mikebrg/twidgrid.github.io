@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2023 TV Shows | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      height: auto;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2023 TV Shows</h3><span class="fo-5">Explore a world of popular television shows!</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+    <a class="btn-2" href="tv2025.html">2020s</a>&nbsp;
+    <a class="btn-2" href="tv2019.html">2010s</a>&nbsp;
+    <a class="btn-2" href="tv2009.html">2000s</a>&nbsp;
+    <a class="btn-2" href="tv1999.html">1990s</a>&nbsp;
+    <a class="btn-2" href="tv1989.html">1980s</a>&nbsp;
+    <a class="btn-2" href="tv1979.html">1970s</a>&nbsp;
+    <a class="btn-2" href="tv1969.html">1960s</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  <div style="margin-left: 15px;">
+      <a class="btn-3" href="tv2025.html">2025</a>&nbsp;
+      <a class="btn-3" href="tv2024.html">2024</a>&nbsp;
+      <a class="btn-3" href="tv2023.html">2023</a>&nbsp;
+      <a class="btn-3" href="tv2022.html">2022</a>&nbsp;
+      <a class="btn-3" href="tv2021.html">2021</a>&nbsp;
+      <a class="btn-3" href="tv2020.html">2020</a>&nbsp;
+  </div>
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	tgmdb/Ahsoka (2023).html	"><img src="img/	star-wars-ahsoka-600x900.jpg	" alt="	Ahsoka	"></a><h3>	Ahsoka	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Based on a True Story (2023).html	"><img src="img/	based-on-a-true-story-2023.webp	" alt="	Based on a True Story	"></a><h3>	Based on a True Story	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Berlin (2023).html	"><img src="img/	berlin-2023-600x900.jpg	" alt="	Berlin	"></a><h3>	Berlin	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Bodies (2023).html	"><img src="img/	bodies-2023-600x900.jpg	" alt="	Bodies	"></a><h3>	Bodies	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Citadel (2023).html	"><img src="img/	citadel-2023-600x900.jpg	" alt="	Citadel	"></a><h3>	Citadel	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Erin & Aaron (2023).html	"><img src="img/	erin-aaron-2023-600x900.jpg	" alt="	Erin & Aaron	"></a><h3>	Erin & Aaron	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Extrapolations (2023).html	"><img src="img/	extrapolations-2023-600x900.jpg	" alt="	Extrapolations	"></a><h3>	Extrapolations	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Freeridge (2023).html	"><img src="img/	freeridge-2023-600x900.jpg	" alt="	Freeridge	"></a><h3>	Freeridge	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Fubar (2023).html	"><img src="img/	fubar-600x900.jpg	" alt="	Fubar	"></a><h3>	Fubar	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Hello Tomorrow! (2023).html	"><img src="img/	hello-tomorrow-2023-600x900.jpg	" alt="	Hello Tomorrow!	"></a><h3>	Hello Tomorrow!	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Kaleidoscope (2023).html	"><img src="img/	kaleidoscope-2023-600x900.jpg	" alt="	Kaleidoscope	"></a><h3>	Kaleidoscope	</h3></li>
+<li class="table-cell"><a href="	tgmdb/King of Collectibles The Goldin Touch (2023).html	"><img src="img/	king-of-collectibles-the-goldin-touch-2023-600x900.jpg	" alt="	King of Collectibles: The Goldin Touch	"></a><h3>	King of Collectibles: The Goldin Touch	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Life on Our Planet (2023).html	"><img src="img/	life-on-our-planet-2023-600x900.jpg	" alt="	Life on Our Planet	"></a><h3>	Life on Our Planet	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Obliterated (2023).html	"><img src="img/	obliterated-2023-600x900.jpg	" alt="	Obliterated	"></a><h3>	Obliterated	</h3></li>
+<li class="table-cell"><a href="	tgmdb/One Piece (2023).html	"><img src="img/	one-piece-2023-600x900.jpg	" alt="	One Piece	"></a><h3>	One Piece	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Percy Jackson and the Olympians (2023).html	"><img src="img/	percy-jackson-and-the-olympians-2023-600x900.jpg	" alt="	Percy Jackson and the Olympians	"></a><h3>	Percy Jackson and the Olympians	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Rabbit Hole (2023).html	"><img src="img/	rabbit-hole-2023-600x900.jpg	" alt="	Rabbit Hole	"></a><h3>	Rabbit Hole	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Secret Invasion (2023).html	"><img src="img/	secret-invasion-2023-600x900.jpg	" alt="	Secret Invasion	"></a><h3>	Secret Invasion	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Silo (2023).html	"><img src="img/	silo-2023-600x900.jpg	" alt="	Silo	"></a><h3>	Silo	</h3></li>
+<li class="table-cell"><a href="	tgmdb/The Ark (2023).html	"><img src="img/	the-ark-2023-600x900.jpg	" alt="	The Ark	"></a><h3>	The Ark	</h3></li>
+<li class="table-cell"><a href="	tgmdb/The Last of Us (2023).html	"><img src="img/	the-last-of-us-2023-600x900.jpg	" alt="	The Last of Us	"></a><h3>	The Last of Us	</h3></li>
+<li class="table-cell"><a href="	tgmdb/The Night Agent (2023).html	"><img src="img/	the-night-agent-2023-600x900.jpg	" alt="	The Night Agent	"></a><h3>	The Night Agent	</h3></li>
+<li class="table-cell"><a href="	tgmdb/Who is Erin Carter (2023).html	"><img src="img/	who-is-erin-carter-2023-600x900.jpg	" alt="	Who is Erin Carter?	"></a><h3>	Who is Erin Carter?	</h3></li>
+
+                        
+        
+    </ul>
+     
+    <p></p><p></p>    
+  <div style="margin-left: 15px;">
+    <a class="btn-3" href="tv2025.html">2025</a>&nbsp;
+    <a class="btn-3" href="tv2024.html">2024</a>&nbsp;
+    <a class="btn-3" href="tv2023.html">2023</a>&nbsp;
+    <a class="btn-3" href="tv2022.html">2022</a>&nbsp;
+    <a class="btn-3" href="tv2021.html">2021</a>&nbsp;
+    <a class="btn-3" href="tv2020.html">2020</a>&nbsp;
+</div>
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <footer class="foot">
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
