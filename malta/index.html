@@ -139,7 +139,7 @@ ul a:hover {
             <a href="	aux-bishop.html	">	Auxiliary Bishops	</a><p>					
             <a href="	basilicas.html	">	Basilicas	</a><p>					
             <a href="	cathedrals.html	">	Cathedrals	</a><p>					
-            <a href="	gozo-bishops	">	Catholic Bishops of Gozo	</a><p>					
+            <a href="	gozo-bishops.html	">	Catholic Bishops of Gozo	</a><p>					
             <a href="	malta-bishops.html	">	Catholic Bishops of Malta	</a><p>					
             <a href="	org.html	">	Catholic Organizations	</a><p>					
             <a href="	gozo-parishes.html	">	Catholic Parishes in Gozo	</a><p>					
@@ -182,7 +182,27 @@ ul a:hover {
             
     </div></div>
 
-    <footer class="foot">
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
         <div class="block fo-1">
             TwidGrid is a small web development studio based in Central Malta.
             <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
