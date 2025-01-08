@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Eurovision Song Contest | Music</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .head
+{
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/music.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    .responsive-table {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        padding: 16px;
+        list-style-type: none;
+        margin: 0;
+    }
+    .table-cell {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+    }
+    .table-cell img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    .table-cell h3 {
+        margin: 12px 0 8px;
+        font-size: 1.2em;
+        color: #333;
+    }
+    .table-cell p {
+        margin: 0;
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+/* Modal styling */
+.modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px; /* Maximum width */
+      width: 90%; /* Width set to 90% of the viewport */
+      height: 80vh; /* Height set to 80% of the viewport height */
+      display: flex;
+      flex-direction: column; /* Stack the header, iframe, and footer vertically */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      overflow: hidden; /* Hide overflow to keep it contained */
+    }
+
+    .modal-header, .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-header {
+      border-bottom: 1px solid #eaeaea;
+      margin-bottom: 10px;
+    }
+
+    .modal-footer {
+      border-top: 1px solid #eaeaea;
+      margin-top: 10px;
+      padding-bottom: 20px;
+    }
+
+    .modal-title {
+      font-size: 18px;
+    }
+
+    .close-btn {
+      background-color: transparent;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    /* Close button styling */
+    .close-btn:hover {
+      color: red;
+    }
+
+    iframe {
+      width: 100%;
+      border: none;
+    }
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Music</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>Eurovision Song Contest</h3><span class="fo-5">Explore every edition of the Eurovision Song Contest with our comprehensive guide!</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+    
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+    <ul class="responsive-table">
+
+
+        <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2024	"><img src="img/	eurovision-song-contest-2024-logo.svg-250x250.png	" alt="	2024	"></a><h3>	2024	<p>	Sweden	</h3><p><strong>	The Code	</strong><p>	Switzerland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2023	"><img src="img/	eurovision-song-contest-2023-logo.svg-250x250.png	" alt="	2023	"></a><h3>	2023	<p>	United Kingdom	</h3><p><strong>	Tattoo	</strong><p>	Sweden	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2022	"><img src="img/	eurovision-song-contest-2022-376x282.jpeg	" alt="	2022	"></a><h3>	2022	<p>	Italy	</h3><p><strong>	Stefania	</strong><p>	Ukraine	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2021	"><img src="img/	eurovision-song-contest-2021.webp	" alt="	2021	"></a><h3>	2021	<p>	Netherlands	</h3><p><strong>	Zitti e buoni	</strong><p>	Italy	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2019	"><img src="img/	eurovision-2019-logo-376x188.jpeg	" alt="	2019	"></a><h3>	2019	<p>	Israel	</h3><p><strong>	Arcade	</strong><p>	Netherlands	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2018	"><img src="img/	eurovision-2018-logo-376x188.jpeg	" alt="	2018	"></a><h3>	2018	<p>	Portugal	</h3><p><strong>	Toy	</strong><p>	Israel	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2017	"><img src="img/	eurovision-song-contest-2017-376x156.jpeg	" alt="	2017	"></a><h3>	2017	<p>	Ukraine	</h3><p><strong>	Amar pelos dois	</strong><p>	Portugal	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2016	"><img src="img/	eurovision-song-contest-2016-376x376.png	" alt="	2016	"></a><h3>	2016	<p>	Sweden	</h3><p><strong>	1944	</strong><p>	Ukraine	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2015	"><img src="img/	esc2015logo-250x157.png	" alt="	2015	"></a><h3>	2015	<p>	Austria	</h3><p><strong>	Heroes	</strong><p>	Sweden	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2014	"><img src="img/	esc2014-tv-graphics-376x212.jpeg	" alt="	2014	"></a><h3>	2014	<p>	Denmark	</h3><p><strong>	Rise Like a Phoenix	</strong><p>	Austria	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2013	"><img src="img/	eurovision-song-contest-2013-376x376.jpg	" alt="	2013	"></a><h3>	2013	<p>	Sweden	</h3><p><strong>	Only Teardrops	</strong><p>	Denmark	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2012	"><img src="img/	eurovision-song-contest-2012-1000x500.jpeg	" alt="	2012	"></a><h3>	2012	<p>	Azerbaijan	</h3><p><strong>	Euphoria	</strong><p>	Sweden	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2011	"><img src="img/	eurovision-song-contest-2011-422x281.jpeg	" alt="	2011	"></a><h3>	2011	<p>	Germany	</h3><p><strong>	Running Scared	</strong><p>	Azerbaijan	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2010	"><img src="img/	eurovision-song-contest-2010-1000x1500.jpeg	" alt="	2010	"></a><h3>	2010	<p>	Norway	</h3><p><strong>	Satellite	</strong><p>	Germany	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2009	"><img src="img/	eu2009-376x376.jpg	" alt="	2009	"></a><h3>	2009	<p>	Russia	</h3><p><strong>	Fairytale	</strong><p>	Norway	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2008	"><img src="img/	eurovision-song-contest-2008-400x400.jpg	" alt="	2008	"></a><h3>	2008	<p>	Serbia	</h3><p><strong>	Believe	</strong><p>	Russia	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2007	"><img src="img/	eurovision-song-contest-2007-helsinki-finland-cover-263x263.jpg	" alt="	2007	"></a><h3>	2007	<p>	Finland	</h3><p><strong>	Molitva	</strong><p>	Serbia	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2006	"><img src="img/	eurovision-song-contest-2006-237x237.png	" alt="	2006	"></a><h3>	2006	<p>	Greece	</h3><p><strong>	Hard Rock Hallelujah	</strong><p>	Finland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2005	"><img src="img/	2005euro-895x895.jpg	" alt="	2005	"></a><h3>	2005	<p>	Ukraine	</h3><p><strong>	My Number One	</strong><p>	Greece	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2004	"><img src="img/	eurovision-song-contest-2004.gif	" alt="	2004	"></a><h3>	2004	<p>	Turkey	</h3><p><strong>	Wild Dances	</strong><p>	Ukraine	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2003	"><img src="img/	eurovision-song-contest-2003-1012x1012.jpg	" alt="	2003	"></a><h3>	2003	<p>	Latvia	</h3><p><strong>	Everyway That I Can	</strong><p>	Turkey	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2002	"><img src="img/	eurovision-song-contest-2002-899x899.png	" alt="	2002	"></a><h3>	2002	<p>	Estonia	</h3><p><strong>	I Wanna	</strong><p>	Latvia	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2001	"><img src="img/	eurovision-song-contest-2001-600x450.jpeg	" alt="	2001	"></a><h3>	2001	<p>	Denmark	</h3><p><strong>	Everybody	</strong><p>	Estonia	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_2000	"><img src="img/	eurovision-song-contest-2000-2499x2499.png	" alt="	2000	"></a><h3>	2000	<p>	Sweden	</h3><p><strong>	Fly on the Wings of Love	</strong><p>	Denmark	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1999	"><img src="img/	eurovision-song-contest-1999-350x350.png	" alt="	1999	"></a><h3>	1999	<p>	Israel	</h3><p><strong>	Take Me to Your Heaven	</strong><p>	Sweden	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1998	"><img src="img/	esc-1998-logo-321x321.png	" alt="	1998	"></a><h3>	1998	<p>	United Kingdom	</h3><p><strong>	Diva	</strong><p>	Israel	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1997	"><img src="img/	eurovision-song-contest-1997-1012x1012.jpg	" alt="	1997	"></a><h3>	1997	<p>	Ireland	</h3><p><strong>	Love Shine a Light	</strong><p>	United Kingdom	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1996	"><img src="img/	eurovision-song-contest-1996-1200x1200.png	" alt="	1996	"></a><h3>	1996	<p>	Norway	</h3><p><strong>	The Voice	</strong><p>	Ireland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1995	"><img src="img/	1995logo.webp	" alt="	1995	"></a><h3>	1995	<p>	Ireland	</h3><p><strong>	Nocturne	</strong><p>	Norway	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1994	"><img src="img/	eurovision-song-contest-1994-250x250.jpg	" alt="	1994	"></a><h3>	1994	<p>	Ireland	</h3><p><strong>	Rock 'n' Roll Kids	</strong><p>	Ireland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1993	"><img src="img/	eurovision-song-contest-1993-1200x1200.png	" alt="	1993	"></a><h3>	1993	<p>	Ireland	</h3><p><strong>	In Your Eyes	</strong><p>	Ireland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1992	"><img src="img/	eurovision-song-contest-1992-300x300.png	" alt="	1992	"></a><h3>	1992	<p>	Sweden	</h3><p><strong>	Why Me	</strong><p>	Ireland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1991	"><img src="img/	eurovision-song-contest-1991-300x300.jpeg	" alt="	1991	"></a><h3>	1991	<p>	Italy	</h3><p><strong>	Fångad av en stormvind	</strong><p>	Sweden	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1990	"><img src="img/	eurovision-song-contest-1990-400x400.png	" alt="	1990	"></a><h3>	1990	<p>	Yugoslavia	</h3><p><strong>	Insieme: 1992	</strong><p>	Italy	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1989	"><img src="img/	eurovision-song-contest-1989-1012x1012.jpg	" alt="	1989	"></a><h3>	1989	<p>	Switzerland	</h3><p><strong>	Rock Me	</strong><p>	Yugoslavia	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1988	"><img src="img/	esc-1988-logo.webp	" alt="	1988	"></a><h3>	1988	<p>	Ireland	</h3><p><strong>	Ne partez pas sans moi	</strong><p>	Switzerland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1987	"><img src="img/	eurovision-song-contest-1987-745x745.jpg	" alt="	1987	"></a><h3>	1987	<p>	Belgium	</h3><p><strong>	Hold Me Now	</strong><p>	Ireland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1986	"><img src="img/	eurovision-song-contest-1986.gif	" alt="	1986	"></a><h3>	1986	<p>	Norway	</h3><p><strong>	J'aime la vie	</strong><p>	Belgium	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1985	"><img src="img/	eurovision-song-contest-1985-640x640.jpg	" alt="	1985	"></a><h3>	1985	<p>	Sweden	</h3><p><strong>	La det swinge	</strong><p>	Norway	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1984	"><img src="img/	eurovision-song-contest-1984-2000x2000.jpg	" alt="	1984	"></a><h3>	1984	<p>	Luxembourg	</h3><p><strong>	Diggi-Loo Diggi-Ley	</strong><p>	Sweden	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1983	"><img src="img/	esc-1983-logo-400x400.png	" alt="	1983	"></a><h3>	1983	<p>	West Germany	</h3><p><strong>	Si la vie est cadeau	</strong><p>	Luxembourg	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1982	"><img src="img/	eurovision-song-contest-1982-300x300.jpg	" alt="	1982	"></a><h3>	1982	<p>	United Kingdom	</h3><p><strong>	Ein bißchen Frieden	</strong><p>	Germany	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1981	"><img src="img/	eurovision-song-contest-1981-350x350.png	" alt="	1981	"></a><h3>	1981	<p>	Ireland	</h3><p><strong>	Making Your Mind Up	</strong><p>	United Kingdom	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1980	"><img src="img/	eurovision-song-contest-1980-450x450.png	" alt="	1980	"></a><h3>	1980	<p>	Netherlands	</h3><p><strong>	What's Another Year	</strong><p>	Ireland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1979	"><img src="img/	eurovision-song-contest-1979-225x225.png	" alt="	1979	"></a><h3>	1979	<p>	Israel	</h3><p><strong>	Hallelujah	</strong><p>	Israel	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1978	"><img src="img/	eurovision-song-contest-1978-323x323.png	" alt="	1978	"></a><h3>	1978	<p>	France	</h3><p><strong>	A-Ba-Ni-Bi	</strong><p>	Israel	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1977	"><img src="img/	eurovision-song-contest-1977-300x300.jpg	" alt="	1977	"></a><h3>	1977	<p>	United Kingdom	</h3><p><strong>	L'Oiseau et l'Enfant	</strong><p>	France	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1976	"><img src="img/	eurovision-song-contest-1976-300x300.jpg	" alt="	1976	"></a><h3>	1976	<p>	Netherlands	</h3><p><strong>	Save Your Kisses for Me	</strong><p>	United Kingdom	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1975	"><img src="img/	eurovision-song-contest-1975-logo-300x300.png	" alt="	1975	"></a><h3>	1975	<p>	Sweden	</h3><p><strong>	Ding-a-dong	</strong><p>	Netherlands	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1974	"><img src="img/	esc-1974-logo-300x300.png	" alt="	1974	"></a><h3>	1974	<p>	United Kingdom	</h3><p><strong>	Waterloo	</strong><p>	Sweden	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1973	"><img src="img/	eurovision-song-contest-1973-750x500.jpeg	" alt="	1973	"></a><h3>	1973	<p>	Luxembourg	</h3><p><strong>	Tu te reconnaîtras	</strong><p>	Luxembourg	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1972	"><img src="img/	eurovision-song-contest-1972-logo-320x233.jpeg	" alt="	1972	"></a><h3>	1972	<p>	United Kingdom	</h3><p><strong>	Après toi	</strong><p>	Luxembourg	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1971	"><img src="img/	eurovision-song-contest-1971-logo-474x394.jpeg	" alt="	1971	"></a><h3>	1971	<p>	Ireland	</h3><p><strong>	Un banc, un arbre, une rue	</strong><p>	Monaco	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1970	"><img src="img/	eurovision-song-contest-1970-469x240.png	" alt="	1970	"></a><h3>	1970	<p>	Netherlands	</h3><p><strong>	All Kinds of Everything	</strong><p>	Ireland	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1969	"><img src="img/	eurovision-song-contest-1969-397x397.jpg	" alt="	1969	"></a><h3>	1969	<p>	Spain	</h3><p><strong>	Un jour, un enfant	</strong><p>	France	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1968	"><img src="img/	esc-1968-logo-1-250x235.png	" alt="	1968	"></a><h3>	1968	<p>	United Kingdom	</h3><p><strong>	La La La	</strong><p>	Spain	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1967	"><img src="img/	eurovision-song-contest-1967.webp	" alt="	1967	"></a><h3>	1967	<p>	Austria	</h3><p><strong>	Puppet on a String	</strong><p>	United Kingdom	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1966	"><img src="img/	eurovision-song-contest-1966-480x360.jpeg	" alt="	1966	"></a><h3>	1966	<p>	Luxembourg	</h3><p><strong>	Merci, Chérie	</strong><p>	Austria	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1965	"><img src="img/	eurovision-song-contest-1965.webp	" alt="	1965	"></a><h3>	1965	<p>	Italy	</h3><p><strong>	Poupée de cire, poupée de son	</strong><p>	Luxembourg	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1964	"><img src="img/	esc-1964-logo-323x323.png	" alt="	1964	"></a><h3>	1964	<p>	Denmark	</h3><p><strong>	Non ho l'età	</strong><p>	Italy	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1963	"><img src="img/	eurovision-song-contest-1963-1000x1000.jpg	" alt="	1963	"></a><h3>	1963	<p>	United Kingdom	</h3><p><strong>	Dansevise	</strong><p>	Denmark	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1962	"><img src="img/	esc-1962-logo-1-319x234.png	" alt="	1962	"></a><h3>	1962	<p>	Luxembourg	</h3><p><strong>	Un premier amour	</strong><p>	France	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1961	"><img src="img/	esc-1961-logo-1-234x147.png	" alt="	1961	"></a><h3>	1961	<p>	France	</h3><p><strong>	Nous les amoureux	</strong><p>	Luxembourg	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1960	"><img src="img/	esc-1960-logo-250x250.png	" alt="	1960	"></a><h3>	1960	<p>	United Kingdom	</h3><p><strong>	Tom Pillibi	</strong><p>	France	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1959	"><img src="img/	esc-1959-logo-300x300.png	" alt="	1959	"></a><h3>	1959	<p>	France	</h3><p><strong>	Een beetje	</strong><p>	Netherlands	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1958	"><img src="img/	eurovision-song-contest-1958-630x630.jpg	" alt="	1958	"></a><h3>	1958	<p>	Netherlands	</h3><p><strong>	Dors mon amour	</strong><p>	France	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1957	"><img src="img/	eurovision-song-contest-1957-1230x1820.jpeg	" alt="	1957	"></a><h3>	1957	<p>	West Germany	</h3><p><strong>	Net als toen	</strong><p>	Netherlands	</li>
+            <li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Eurovision_Song_Contest_1956	"><img src="img/	esc-1956-logo.svg-1920x1920.png	" alt="	1956	"></a><h3>	1956	<p>	Switzerland	</h3><p><strong>	Refrain	</strong><p>	Switzerland	</li>
+                                  
+      
+        
+    </ul>
+            
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="spotify"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('spotify')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
