@@ -15,36 +15,15 @@
 <link rel="stylesheet" href="../inc/standard.css">
 <link rel="icon" type="image/x-icon" href="img/favicon.png">
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-    }
-    .head
-{
+    
+.head {
      position: relative;
      background-size: cover;
      background-image: url('../img/music.jpg');
      background-position: center;
      min-height: 400px;
 }
-    .responsive-table {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 16px;
-        padding: 16px;
-        list-style-type: none;
-        margin: 0;
-    }
-    .table-cell {
-        background: #f1eeee;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        text-align: center;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 16px;
-    }
+    
     .table-cell img {
             width: 100%;
             height: auto;
@@ -52,81 +31,9 @@
             object-fit: cover;
             border-radius: 8px;
     }
-    .table-cell h3 {
-        margin: 12px 0 8px;
-        font-size: 1em;
-        color: #333;
-    }
-    .table-cell p {
-        margin: 0;
-        font-size: 0.9em;
-        color: #666;
-    }
     
-/* Modal styling */
-.modal {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
-      justify-content: center;
-      align-items: center;
-    }
+    
 
-    .modal-content {
-      background-color: white;
-      padding: 20px;
-      border-radius: 8px;
-      max-width: 800px; /* Maximum width */
-      width: 90%; /* Width set to 90% of the viewport */
-      height: 80vh; /* Height set to 80% of the viewport height */
-      display: flex;
-      flex-direction: column; /* Stack the header, iframe, and footer vertically */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      overflow: hidden; /* Hide overflow to keep it contained */
-    }
-
-    .modal-header, .modal-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .modal-header {
-      border-bottom: 1px solid #eaeaea;
-      margin-bottom: 10px;
-    }
-
-    .modal-footer {
-      border-top: 1px solid #eaeaea;
-      margin-top: 10px;
-      padding-bottom: 20px;
-    }
-
-    .modal-title {
-      font-size: 18px;
-    }
-
-    .close-btn {
-      background-color: transparent;
-      border: none;
-      font-size: 18px;
-      cursor: pointer;
-    }
-
-    /* Close button styling */
-    .close-btn:hover {
-      color: red;
-    }
-
-    iframe {
-      width: 100%;
-      border: none;
-    }
   </style>
 
 </head><body>

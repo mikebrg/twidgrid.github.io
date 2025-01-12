@@ -15,36 +15,15 @@
 <link rel="stylesheet" href="../inc/standard.css">
 <link rel="icon" type="image/x-icon" href="img/favicon.png">
 <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-    }
-    .head
-{
+    
+.head {
      position: relative;
      background-size: cover;
      background-image: url('../img/movies.jpg');
      background-position: center;
      min-height: 400px;
 }
-    .responsive-table {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 16px;
-        padding: 16px;
-        list-style-type: none;
-        margin: 0;
-    }
-    .table-cell {
-        background: #f1eeee;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        text-align: center;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        padding: 16px;
-    }
+    
     .table-cell img {
             width: 100%;
             height: 260px;
@@ -52,82 +31,8 @@
             object-fit: cover;
             border-radius: 8px;
     }
-    .table-cell h3 {
-        margin: 12px 0 8px;
-        font-size: 1em;
-        color: #333;
-    }
-    .table-cell p {
-        margin: 0;
-        font-size: 0.9em;
-        color: #666;
-    }
     
-/* Modal styling */
-.modal {
-      display: none;
-      position: fixed;
-      z-index: 1000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
-      justify-content: center;
-      align-items: center;
-    }
-
-    .modal-content {
-      background-color: white;
-      padding: 20px;
-      border-radius: 8px;
-      max-width: 800px; /* Maximum width */
-      width: 90%; /* Width set to 90% of the viewport */
-      height: 80vh; /* Height set to 80% of the viewport height */
-      display: flex;
-      flex-direction: column; /* Stack the header, iframe, and footer vertically */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      overflow: hidden; /* Hide overflow to keep it contained */
-    }
-
-    .modal-header, .modal-footer {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .modal-header {
-      border-bottom: 1px solid #eaeaea;
-      margin-bottom: 10px;
-    }
-
-    .modal-footer {
-      border-top: 1px solid #eaeaea;
-      margin-top: 10px;
-      padding-bottom: 20px;
-    }
-
-    .modal-title {
-      font-size: 18px;
-    }
-
-    .close-btn {
-      background-color: transparent;
-      border: none;
-      font-size: 18px;
-      cursor: pointer;
-    }
-
-    /* Close button styling */
-    .close-btn:hover {
-      color: red;
-    }
-
-    iframe {
-      width: 100%;
-      height: auto;
-      border: none;
-    }
+    
   </style>
 
 
@@ -177,12 +82,15 @@
 
 <ul class="responsive-table">
 
-    <li class="table-cell"><a href="	tgmdb/Beverly Hills, 90210 (1990).html	"><img src="img/	beverly-hills-90210-1990-375x563.jpg	" alt="	Beverly Hills, 90210	"></a><h3>	Beverly Hills, 90210	</h3></li>
-    <li class="table-cell"><a href="	tgmdb/Bill & Ted's Excellent Adventures (1990).html	"><img src="img/	bill-teds-excellent-adventures-1990-600x900.jpg	" alt="	Bill & Ted's Excellent Adventures	"></a><h3>	Bill & Ted's Excellent Adventures	</h3></li>
-    <li class="table-cell"><a href="	tgmdb/Mr. Bean (1990).html	"><img src="img/	mr.-bean-1990-600x900.jpg	" alt="	Mr. Bean	"></a><h3>	Mr. Bean	</h3></li>
-    <li class="table-cell"><a href="	tgmdb/The Fresh Prince of Bel-Air (1990).html	"><img src="img/	the-fresh-prince-of-bel-air-1990-600x900.jpg	" alt="	The Fresh Prince of Bel-Air	"></a><h3>	The Fresh Prince of Bel-Air	</h3></li>
-    <li class="table-cell"><a href="	tgmdb/Twin Peaks (1990).html	"><img src="img/	twin-peaks-1990-600x900.jpg	" alt="	Twin Peaks	"></a><h3>	Twin Peaks	</h3></li>
-    
+  <li class="table-cell"><a href="	tgmdb/Baywatch (1989).html	"><img src="img/	baywatch-1989-600x900.jpg	" alt="	Baywatch	"></a><h3>	Baywatch	</h3></li>
+  <li class="table-cell"><a href="	tgmdb/Bordertown (1989).html	"><img src="img/	bordertown-1989-600x900.jpg	" alt="	Bordertown	"></a><h3>	Bordertown	</h3></li>
+  <li class="table-cell"><a href="	tgmdb/Brotherhood of the Rose (1989).html	"><img src="img/	brotherhood-of-the-rose-1989-600x900.jpg	" alt="	Brotherhood of the Rose	"></a><h3>	Brotherhood of the Rose	</h3></li>
+  <li class="table-cell"><a href="	tgmdb/Life Goes On (1989).html	"><img src="img/	life-goes-on-1989-600x900.jpg	" alt="	Life Goes On	"></a><h3>	Life Goes On	</h3></li>
+  <li class="table-cell"><a href="	tgmdb/Quantum Leap (1989).html	"><img src="img/	quantum-leap-1989-600x900.jpg	" alt="	Quantum Leap	"></a><h3>	Quantum Leap	</h3></li>
+  <li class="table-cell"><a href="	tgmdb/Rescue 911 (1989).html	"><img src="img/	rescue-911-1989-600x900.jpg	" alt="	Rescue 911	"></a><h3>	Rescue 911	</h3></li>
+  <li class="table-cell"><a href="	tgmdb/Saved by the Bell (1989).html	"><img src="img/	saved-by-the-bell-1989-600x900.jpg	" alt="	Saved by the Bell	"></a><h3>	Saved by the Bell	</h3></li>
+  <li class="table-cell"><a href="	tgmdb/Seinfeld (1989).html	"><img src="img/	seinfeld-1989-600x900.jpg	" alt="	Seinfeld	"></a><h3>	Seinfeld	</h3></li>
+      
             
 
 </ul>
