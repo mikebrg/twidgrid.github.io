@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>DC Universe | Movies</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    
+.head {
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/movies.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    
+    .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    
+    
+  </style>
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Movies</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>DC Universe</h3><span class="fo-5">Explore the Epic Battle Between Heroes and Villains in the DC Universe – Where Legends are Born!</span>
+<p></p><p></p>    
+<div><a class="btn-2" href="index.html">Home</a>&nbsp;
+    <a class="btn-2" href="search.html">Search</a>&nbsp;
+</div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+  <p></p><p></p>    
+  
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	tgmdb/Creature Commandos (2024).html	"><img src="img/	creature-commandos-375x563.jpg	" alt="	Creature Commandos	"></a><h3>	Creature Commandos	</h3></li>
+
+        <li class="table-cell"><a href="	tgmdb/Superman (2025).html	"><img src="img/	superman2025-375x563.jpg	" alt="	Superman	"></a><h3>	Superman	</h3></li>
+        <li class="table-cell"><a href="	tgmdb/Supergirl Woman of Tomorrow (2026).html	"><img src="img/	supergirl-woman-of-tomorrow-1186x1186.jpg	" alt="	Supergirl: Woman of Tomorrow	"></a><h3>	Supergirl: Woman of Tomorrow	</h3></li>
+
+
+<li></li>
+<li></li>
+    </ul>
+     
+    <p></p><p></p>    
+
+    </div></div>
+
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
