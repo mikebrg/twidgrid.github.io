@@ -43,6 +43,50 @@
 
 </head><body>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentYear = new Date().getFullYear();
+
+            // Function to format numbers with commas
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Function to adjust years with BC or AD
+            function adjustYears() {
+                const regexBC = /\b(\d+)\s*BC\b/g; // Matches years with "BC"
+                const regexAD = /\b(\d+)\s*AD\b/g; // Matches years with "AD"
+                
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                
+                // Loop through all text nodes
+                while (node = walker.nextNode()) {
+                    let text = node.nodeValue;
+
+                    // Replace BC years
+                    text = text.replace(regexBC, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear + parseInt(year));
+                        return `${year} BC (${adjustedYear} years ago)`;
+                    });
+
+                    // Replace AD years
+                    text = text.replace(regexAD, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear - parseInt(year));
+                        return `${year} AD (${adjustedYear} years ago)`;
+                    });
+
+                    node.nodeValue = text;
+                }
+            }
+
+            // Isolate the script and ensure no interference with other scripts
+            (function safeScript() {
+                adjustYears();
+            })();
+        });
+    </script>
+
 <div class="cont">
 
 <div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Today in History</div></a></div></div>
@@ -60,11 +104,191 @@
 
 <p><p>
 
-    <ul class="responsive-table">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Calendar</title>
+  
+  <style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calendar {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .header button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  #monthYear {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .weekdays {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .days div {
+    width: 14.28%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .days div:hover {
+    background-color: #f0f0f0;
+    border-radius: 10%;
+  }
+  
+  .current-day {
+    background-color: rgba(246, 185, 59, 0.8);
+    border-radius: 10%;
+  }
+  
+  .prev-next-month {
+    color: #ccc;
+    pointer-events: none;
+  }
+  
+  </style>
+  
+  
+  
+  
+    <div class="calendar">
+      <div class="header">
+        <button id="prevMonth">←</button>
+        <div id="monthYear"></div>
+        <button id="nextMonth">→</button>
+      </div>
+      <div class="weekdays">
+        <div>Sun</div>
+        <div>Mon</div>
+        <div>Tue</div>
+        <div>Wed</div>
+        <div>Thu</div>
+        <div>Fri</div>
+        <div>Sat</div>
+      </div>
+      <div id="days" class="days"></div>
+    </div>
+  
+  
+  
+  
+  
+  <script>
+  const daysContainer = document.getElementById('days');
+  const monthYearDisplay = document.getElementById('monthYear');
+  const prevMonthBtn = document.getElementById('prevMonth');
+  const nextMonthBtn = document.getElementById('nextMonth');
+  
+  let currentDate = new Date();
+  
+  function generateCalendar(date) {
+    daysContainer.innerHTML = '';
+    
+    const month = date.getMonth();
+    const year = date.getFullYear();
+  
+    const firstDayOfMonth = new Date(year, month, 1).getDay();
+    const lastDateOfMonth = new Date(year, month + 1, 0).getDate();
+    const lastDayOfPrevMonth = new Date(year, month, 0).getDate();
+  
+    monthYearDisplay.textContent = `${date.toLocaleString('default', { month: 'long' })} ${year}`;
+  
+    // Previous month dates
+    for (let i = firstDayOfMonth - 1; i >= 0; i--) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = lastDayOfPrevMonth - i;
+      dayDiv.classList.add('prev-next-month');
+      daysContainer.appendChild(dayDiv);
+    }
+  
+    // Current month dates
+    for (let day = 1; day <= lastDateOfMonth; day++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = day;
+  
+      if (day === new Date().getDate() && month === new Date().getMonth() && year === new Date().getFullYear()) {
+        dayDiv.classList.add('current-day');
+      }
+  
+      // Link to a specific webpage when a date is clicked
+      dayDiv.addEventListener('click', function () {
+        window.location.href = `https://twidgrid.com/todayinhistory/${month + 1}#${day}`;
+      });
+  
+      daysContainer.appendChild(dayDiv);
+    }
+  
+    // Next month dates
+    const totalDivs = daysContainer.children.length;
+    const remainingDivs = 42 - totalDivs;
+    
+    for (let i = 1; i <= remainingDivs; i++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = i;
+      dayDiv.classList.add('prev-next-month');
+      daysContainer.appendChild(dayDiv);
+    }
+  }
+  
+  function changeMonth(delta) {
+    currentDate.setMonth(currentDate.getMonth() + delta);
+    generateCalendar(currentDate);
+  }
+  
+  prevMonthBtn.addEventListener('click', () => changeMonth(-1));
+  nextMonthBtn.addEventListener('click', () => changeMonth(1));
+  
+  // Initialize calendar
+  generateCalendar(currentDate);
+  
+  </script>
 
 
-        
-    </ul>
+
             
     </div></div>
 
