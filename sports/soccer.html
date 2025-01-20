@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Soccer | Sports</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    
+.head {
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/sports.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+    
+    .table-cell img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    
+</style>
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Sports</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>Soccer</h3><span class="fo-5">Where Passion Meets the Pitch: The Ultimate Soccer Experience</span>
+<p></p><p></p>    
+<div>
+    <a class="btn-1" href="index.html">Home</a>
+    <a class="btn-1" href="categories.html">Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	../fifaworldcup/index.html	"><img src="../img/fifaworldcup.png" alt="	FIFA World Cup	"></a><h3>	FIFA World Cup	</h3>						</p></li>
+        <li class="table-cell"><a href="	mls.html	"><img src="img/	mls-crest-logo-rgb-gradient.svg-192x192.png	" alt="	Major League Soccer	"></a><h3>	Major League Soccer	</h3>						</p></li>
+        <li class="table-cell"><a href="	premier.html	"><img src="img/	premier-league-logo.svg-192x192.png	" alt="	Premier League	"></a><h3>	Premier League	</h3>						</p></li>
+        <li class="table-cell"><a href="	seriea.html	"><img src="img/	serie-a-enilive-logo.svg-192x192.png	" alt="	Serie A	"></a><h3>	Serie A	</h3>						</p></li>
+        <li class="table-cell"><a href="	champions.html	"><img src="img/	uefa-champions-league.svg-192x192.png	" alt="	UEFA Champions League	"></a><h3>	UEFA Champions League	</h3>						</p></li>
+        <li class="table-cell"><a href="	euro.html	"><img src="img/	uefa-euro-2024-logo.svg-192x192.png	" alt="	UEFA Euro	"></a><h3>	UEFA Euro	</h3>						</p></li>
+        <li class="table-cell"><a href="	europa.html	"><img src="img/	uefa-europa-league-2024-192x192.png	" alt="	UEFA Europa League	"></a><h3>	UEFA Europa League	</h3>						</p></li>
+        
+                                                                        
+    </ul>
+            
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
