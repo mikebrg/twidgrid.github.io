@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	One of Them Days	", "text": "	When best friends and roommates Dreux and Alyssa discover Alyssa's boyfriend has blown their rent money, the duo finds themselves going to extremes in a race against the clock to avoid eviction and keep their friendship intact.	", "img": "img/	One of Them Days (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=One of Them Days	"},
+{"title": "	Wolf Man	", "text": "	A family at a remote farmhouse is attacked by an unseen animal, but as the night stretches on, the father begins to transform into something unrecognizable.	", "img": "img/	Wolf Man (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Wolf Man	"},
+
      {"title": "	Den of Thieves: Pantera	", "text": "	Big Nick is back on the hunt in Europe and closing in on Donnie, who is embroiled in the treacherous world of diamond thieves and the infamous Panther mafia, as they plot a massive heist of the world's largest diamond exchange.	", "img": "img/	Den of Thieves Pantera (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Den of Thieves: Pantera	"},
 {"title": "	Nosferatu	", "text": "	A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.	", "img": "img/	Nosferatu (2024).webp	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Nosferatu	"},
 {"title": "	A Complete Unknown	", "text": "	In 1961, an unknown 19-year-old Bob Dylan arrives in New York City with his guitar and forges relationships with music icons on his meteoric rise, culminating in a groundbreaking performance that reverberates worldwide.	", "img": "img/	A Complete Unknown (2024).webp	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=A Complete Unknown	"},
