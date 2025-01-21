@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>February | Today in History</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+  
+    .head {
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/history.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+</style>
+
+</head><body>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentYear = new Date().getFullYear();
+
+            // Function to format numbers with commas
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Function to adjust years with BC or AD
+            function adjustYears() {
+                const regexBC = /\b(\d+)\s*BC\b/g; // Matches years with "BC"
+                const regexAD = /\b(\d+)\s*AD\b/g; // Matches years with "AD"
+                
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                
+                // Loop through all text nodes
+                while (node = walker.nextNode()) {
+                    let text = node.nodeValue;
+
+                    // Replace BC years
+                    text = text.replace(regexBC, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear + parseInt(year));
+                        return `${year} BC (${adjustedYear} years ago)`;
+                    });
+
+                    // Replace AD years
+                    text = text.replace(regexAD, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear - parseInt(year));
+                        return `${year} AD (${adjustedYear} years ago)`;
+                    });
+
+                    node.nodeValue = text;
+                }
+            }
+
+            // Isolate the script and ensure no interference with other scripts
+            (function safeScript() {
+                adjustYears();
+            })();
+        });
+    </script>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Today in History</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>February</h3><span class="fo-5">The only month that can have no full moon! This rare occurrence happens in leap years when January and March have full moons, leaving February "moonless." The last time this happened was in 2018, and it will happen again in 2037.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Calendar</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+  
+    <p id="1"></p><p><p><p>	<h2>	February 	1	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Edward_III_of_England	"><img src="img/	king-edward-3-coronation-2-816x459.jpg	" alt="	The teenaged Edward III is crowned King of England, but the country is ruled by his mother Queen Isabella and her lover Roger Mortimer.	"></a><p>	The teenaged Edward III is crowned King of England, but the country is ruled by his mother Queen Isabella and her lover Roger Mortimer.	<h3>	1327 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Edison%27s_Black_Maria	"><img src="img/	black-maria-816x488.jpg	" alt="	Thomas A. Edison finishes construction of the first motion picture studio, the Black Maria in West Orange, New Jersey.	"></a><p>	Thomas A. Edison finishes construction of the first motion picture studio, the Black Maria in West Orange, New Jersey.	<h3>	1893 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Space_Shuttle_Columbia_disaster	"><img src="img/	us-space-colombia-5331661-816x530.jpg	" alt="	Space Shuttle Columbia disintegrated during the reentry of mission STS-107 into the Earth's atmosphere, killing all seven astronauts aboard.	"></a><p>	Space Shuttle Columbia disintegrated during the reentry of mission STS-107 into the Earth's atmosphere, killing all seven astronauts aboard.	<h3>	2003 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="2"></p><p><p><p>	<h2>	February 	2	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Buenos_Aires	"><img src="img/	1536-spaniard-pedro-de-mendoza-founds-buenos-aires-argentina.-297x170.jpg	" alt="	Spaniard Pedro de Mendoza founds Buenos Aires, Argentina.	"></a><p>	Spaniard Pedro de Mendoza founds Buenos Aires, Argentina.	<h3>	1536 AD	</h3><p><strong>	Argentina	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Digital_cinema#Foundations	"><img src="img/	texas-instruments-dlp-cinema-prototype-system-mark-v-paris-2000-philippe-binant-archives-608x602.jpeg	" alt="	First digital cinema projection in Europe (Paris) realized by Philippe Binant with the DLP CINEMA technology developed by Texas Instruments.	"></a><p>	First digital cinema projection in Europe (Paris) realized by Philippe Binant with the DLP CINEMA technology developed by Texas Instruments.	<h3>	2000 AD	</h3><p><strong>	France	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Roger_Federer	"><img src="img/	Roger_Federer_2015_(cropped).jpg	" alt="	Swiss tennis player Roger Federer becomes the No. 1 ranked men's singles player, a position he will hold for a record 237 weeks.	"></a><p>	Swiss tennis player Roger Federer becomes the No. 1 ranked men's singles player, a position he will hold for a record 237 weeks.	<h3>	2004 AD	</h3><p><strong>	Worldwide	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="3"></p><p><p><p>	<h2>	February 	3	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Battle_of_S%C3%A3o_Vicente	"><img src="img/	benedito-calixto-baa-de-so-vicente-550x323.jpg	" alt="	Battle of São Vicente takes place off Portuguese Brazil where three English warships led by navigator Edward Fenton fight off three Spanish galleons sinking one in the process.	"></a><p>	Battle of São Vicente takes place off Portuguese Brazil where three English warships led by navigator Edward Fenton fight off three Spanish galleons sinking one in the process.	<h3>	1583 AD	</h3><p><strong>	Brazil	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/London_Protocol_1830	"><img src="img/	-816x440.jpg	" alt="	The London Protocol of 1830 establishes the full independence and sovereignty of Greece from the Ottoman Empire as the final result of the Greek War of Independence.	"></a><p>	The London Protocol of 1830 establishes the full independence and sovereignty of Greece from the Ottoman Empire as the final result of the Greek War of Independence.	<h3>	1830 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Alaska	"><img src="img/	cavalese-cable-car-disaster-735x416.jpg	" alt="	Cavalese cable car disaster: A United States military pilot causes the death of 20 people when his low-flying plane cuts the cable of a cable-car near Trento, Italy.	"></a><p>	Cavalese cable car disaster: A United States military pilot causes the death of 20 people when his low-flying plane cuts the cable of a cable-car near Trento, Italy.	<h3>	1998 AD	</h3><p><strong>	Italy	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="4"></p><p><p><p>	<h2>	February 	4	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/John_Rogers_Bible_editor_and_martyr	"><img src="img/	john-rogers-martyr.001-800x450.jpg	" alt="	John Rogers is burned at the stake, becoming the first English Protestant martyr under Mary I of England.	"></a><p>	John Rogers is burned at the stake, becoming the first English Protestant martyr under Mary I of England.	<h3>	1555 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/George_Washington	"><img src="img/	unanimous-election-mvwinter2020-816x544.jpg	" alt="	George Washington is unanimously elected as the first President of the United States by the U.S. Electoral College.	"></a><p>	George Washington is unanimously elected as the first President of the United States by the U.S. Electoral College.	<h3>	1789 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Facebook	"><img src="img/	2004-facebook-a-mainstream-online-social-networking-site-is-founded-by-mark-zuckerberg-and-eduardo-saverin.-816x816.jpeg	" alt="	Facebook, a mainstream online social networking site, is founded by Mark Zuckerberg and Eduardo Saverin.	"></a><p>	Facebook, a mainstream online social networking site, is founded by Mark Zuckerberg and Eduardo Saverin.	<h3>	2004 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="5"></p><p><p><p>	<h2>	February 	5	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Caesar_Augustus	"><img src="img/	portrait-of-emperor-augustus-against-the-backdrop-of-ancient-rome-816x408.jpg	" alt="	Caesar Augustus is granted the title pater patriae by the Roman Senate.	"></a><p>	Caesar Augustus is granted the title pater patriae by the Roman Senate.	<h3>	2 BC	</h3><p><strong>	Roman Empire	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Welcome_Stranger	"><img src="img/	-105414462-welcome-stranger-nugget.jpg.webp	" alt="	The largest alluvial gold nugget in history, called the "Welcome Stranger", is found in Moliagul, Victoria, Australia.	"></a><p>	The largest alluvial gold nugget in history, called the "Welcome Stranger", is found in Moliagul, Victoria, Australia.	<h3>	1869 AD	</h3><p><strong>	Australia	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Pope_Francis#In_the_Muslim_world	"><img src="img/	2019-pope-francis-becomes-the-first-pope-in-history-to-visit-and-perform-papal-mass-in-the-arabian-peninsula-during-his-visit-to-abu-dhabi.webp	" alt="	Pope Francis becomes the first Pope in history to visit and perform papal mass in the Arabian Peninsula during his visit to Abu Dhabi.	"></a><p>	Pope Francis becomes the first Pope in history to visit and perform papal mass in the Arabian Peninsula during his visit to Abu Dhabi.	<h3>	2019 AD	</h3><p><strong>	United Arab Emirates	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="6"></p><p><p><p>	<h2>	February 	6	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Hormizd_IV#Overthrow_and_death	"><img src="img/	the-night-attack-of-bahram-chubina-on-the-army-of-khusraw-parvis-lacma-m.2009.44.3-2-of-8-816x542.jpg	" alt="	Hormizd IV, king of the Sasanian Empire, is overthrown and blinded by his brothers-in-law Vistahm and Vinduyih.	"></a><p>	Hormizd IV, king of the Sasanian Empire, is overthrown and blinded by his brothers-in-law Vistahm and Vinduyih.	<h3>	590 AD	</h3><p><strong>	Sasanian Empire	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Permanent_Court_of_Arbitration	"><img src="img/	international-court-of-justice-hq-2006-816x609.jpg	" alt="	The Permanent Court of Arbitration, an international arbitration court at The Hague, is created when the Senate of the Netherlands ratifies an 1899 peace conference decree.	"></a><p>	The Permanent Court of Arbitration, an international arbitration court at The Hague, is created when the Senate of the Netherlands ratifies an 1899 peace conference decree.	<h3>	1900 AD	</h3><p><strong>	Netherlands	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Falcon_Heavy_test_flight	"><img src="img/	1280px-falcon-heavy-demo-mission-40126461851-816x544.jpg	" alt="	SpaceX's Falcon Heavy, a super heavy launch vehicle, makes its maiden flight.	"></a><p>	SpaceX's Falcon Heavy, a super heavy launch vehicle, makes its maiden flight.	<h3>	2018 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="7"></p><p><p><p>	<h2>	February 	7	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Bonfire_of_the_vanities	"><img src="img/	1280px-savonarola-preaching-against-prodigality-ludwig-von-langenmantel-18792-816x462.jpg	" alt="	In Florence, Italy, supporters of Girolamo Savonarola burn cosmetics, art, and books, in a "Bonfire of the vanities".	"></a><p>	In Florence, Italy, supporters of Girolamo Savonarola burn cosmetics, art, and books, in a "Bonfire of the vanities".	<h3>	1497 AD	</h3><p><strong>	Italy	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/1900%E2%80%931904_San_Francisco_plague	"><img src="img/	lg-c222e0ae00d2-rats-816x345.jpg	" alt="	A Chinese immigrant in San Francisco falls ill to bubonic plague in the first plague epidemic in the continental United States.	"></a><p>	A Chinese immigrant in San Francisco falls ill to bubonic plague in the first plague epidemic in the continental United States.	<h3>	1900 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Maastricht_Treaty	"><img src="img/	ehl-2017-maastricht-treaty-nl-816x459.jpg	" alt="	The Maastricht Treaty is signed, leading to the creation of the European Union.	"></a><p>	The Maastricht Treaty is signed, leading to the creation of the European Union.	<h3>	1992 AD	</h3><p><strong>	Netherlands	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="8"></p><p><p><p>	<h2>	February 	8	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Vladimir,_Russia#Vladimir-Suzdal	"><img src="img/	mongols-at-the-walls-of-vladimir-1238-vassily-maximov-816x628.jpg	" alt="	The Mongols burn the Russian city of Vladimir.	"></a><p>	The Mongols burn the Russian city of Vladimir.	<h3>	1238 AD	</h3><p><strong>	Russia	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Sandford_Fleming#Inventor_of_worldwide_standard_time	"><img src="img/	c1hi6hyxcaa3cbg-2.webp	" alt="	Sandford Fleming first proposes the adoption of Universal Standard Time at a meeting of the Royal Canadian Institute.	"></a><p>	Sandford Fleming first proposes the adoption of Universal Standard Time at a meeting of the Royal Canadian Institute.	<h3>	1879 AD	</h3><p><strong>	Canada	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Nasdaq	"><img src="img/	bn-to192-quants-g-20170522184114-553x369.jpeg	" alt="	The NASDAQ stock market index opens for the first time.	"></a><p>	The NASDAQ stock market index opens for the first time.	<h3>	1971 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="9"></p><p><p><p>	<h2>	February 	9	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Zeno_emperor	"><img src="img/	474-zeno-is-crowned-as-co-emperor-of-the-byzantine-empire-816x573.jpg	" alt="	Zeno is crowned as co-emperor of the Byzantine Empire.	"></a><p>	Zeno is crowned as co-emperor of the Byzantine Empire.	<h3>	474 AD	</h3><p><strong>	Byzantine Empire	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Roman_Republic_1849%E2%80%931850	"><img src="img/	rossetti-proclamazione-della-repubblica-romana-nel-1849-in-piazza-del-popolo-1861-550x384.jpg	" alt="	The new Roman Republic is declared.	"></a><p>	The new Roman Republic is declared.	<h3>	1849 AD	</h3><p><strong>	Roman Republic	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/R-7_Semyorka	"><img src="img/	r7.jpg	" alt="	The R-7 Semyorka, the first intercontinental ballistic missile, becomes operational at Plesetsk, USSR.	"></a><p>	The R-7 Semyorka, the first intercontinental ballistic missile, becomes operational at Plesetsk, USSR.	<h3>	1959 AD	</h3><p><strong>	USSR	</strong><p></li>
+        </ul><p><p>												
+                                                        
+                                                        
+        <p id="10"></p><p><p><p>	<h2>	February 	10	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/4th_Portuguese_India_Armada_Gama,_1502	"><img src="img/	14121.webp	" alt="	Vasco da Gama sets sail from Lisbon, Portugal, on his second voyage to India.	"></a><p>	Vasco da Gama sets sail from Lisbon, Portugal, on his second voyage to India.	<h3>	1502 AD	</h3><p><strong>	Portugal	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Battle_of_Elizabeth_City#Battle	"><img src="img/	mosquito-fleet-archive-org-harpersweeklyv6bonn-146-770x405.jpg	" alt="	American Civil War: A Union naval flotilla destroys the bulk of the Confederate Mosquito Fleet in the Battle of Elizabeth City on the Pasquotank River in North Carolina.	"></a><p>	American Civil War: A Union naval flotilla destroys the bulk of the Confederate Mosquito Fleet in the Battle of Elizabeth City on the Pasquotank River in North Carolina.	<h3>	1862 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Paris_Peace_Treaties,_1947	"><img src="img/	pic-p-a-paris-peace-treaties-1947-581x441.jpg	" alt="	The Paris Peace Treaties are signed by Italy, Romania, Hungary, Bulgaria, Finland and the Allies of World War II.	"></a><p>	The Paris Peace Treaties are signed by Italy, Romania, Hungary, Bulgaria, Finland and the Allies of World War II.	<h3>	1947 AD	</h3><p><strong>	France	</strong><p></li>
+        </ul><p><p>												
+                                                        
+                                                        
+        <p id="11"></p><p><p><p>	<h2>	February 	11	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/English_Reformation#Separation_from_Rome	"><img src="img/	popesuppressed-816x904.jpeg	" alt="	At the Convocation of Canterbury, the Catholic bishops comprising the Upper House of the Province of Canterbury agree to style Henry VIII supreme head of the English church and clergy "so far as the law of Christ allows".	"></a><p>	At the Convocation of Canterbury, the Catholic bishops comprising the Upper House of the Province of Canterbury agree to style Henry VIII supreme head of the English church and clergy "so far as the law of Christ allows".	<h3>	1534 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Lourdes_apparitions	"><img src="img/	1858-bernadette-soubirouss-first-vision-of-the-blessed-virgin-mary-600x284.jpeg	" alt="	Bernadette Soubirous's first vision of the Blessed Virgin Mary occurs in Lourdes, France.	"></a><p>	Bernadette Soubirous's first vision of the Blessed Virgin Mary occurs in Lourdes, France.	<h3>	1858 AD	</h3><p><strong>	France	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Resignation_of_Pope_Benedict_XVI	"><img src="img/	20210903t0915-vatican-letter-retired-popes-1507477.jpg-750x500.jpg	" alt="	The Vatican confirmed that Pope Benedict XVI would resign the papacy as a result of his advanced age.	"></a><p>	The Vatican confirmed that Pope Benedict XVI would resign the papacy as a result of his advanced age.	<h3>	2013 AD	</h3><p><strong>	Vatican City	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="12"></p><p><p><p>	<h2>	February 	12	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Galeazzo_di_Santa_Sofia	"><img src="img/	1404-the-italian-professor-galeazzo-di-santa-sophie-performed-the-first-post-mortem-autopsy-259x195.jpg	" alt="	The Italian professor Galeazzo di Santa Sophie performed the first post-mortem autopsy for the purposes of teaching and demonstration at the Heiligen–Geist Spital in Vienna.	"></a><p>	The Italian professor Galeazzo di Santa Sophie performed the first post-mortem autopsy for the purposes of teaching and demonstration at the Heiligen–Geist Spital in Vienna.	<h3>	1404 AD	</h3><p><strong>	Austria	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Convention_Parliament_1689	"><img src="img/	godfrey-kneller-james-ii-detail-painting-national-1685.webp	" alt="	The Convention Parliament declares that the flight to France in 1688 by James II, the last Roman Catholic British monarch, constitutes an abdication.	"></a><p>	The Convention Parliament declares that the flight to France in 1688 by James II, the last Roman Catholic British monarch, constitutes an abdication.	<h3>	1689 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Gateway_Arch	"><img src="img/	1963-construction-begins-on-the-gateway-arch-in-st.-louis-missouri.-816x654.jpeg	" alt="	Construction begins on the Gateway Arch in St. Louis, Missouri.	"></a><p>	Construction begins on the Gateway Arch in St. Louis, Missouri.	<h3>	1963 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="13"></p><p><p><p>	<h2>	February 	13	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Ely_Cathedral	"><img src="img/	gr-ely-cathedral-choir-roof029.jpg.article-620-620x349.jpg	" alt="	The central tower of Ely Cathedral falls on the night of 12th–13th.	"></a><p>	The central tower of Ely Cathedral falls on the night of 12th–13th.	<h3>	1322 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Covering_of_the_Senne	"><img src="img/	1867-work-begins-on-the-covering-of-the-senne-555x433.png	" alt="	Work begins on the covering of the Senne, burying Brussels's primary river and creating the modern central boulevards.	"></a><p>	Work begins on the covering of the Senne, burying Brussels's primary river and creating the modern central boulevards.	<h3>	1867 AD	</h3><p><strong>	Belgium	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/American_Society_of_Composers,_Authors_and_Publishers	"><img src="img/	1914-copyright-in-new-york-city-the-american-society-of-composers-500x178.png	" alt="	Copyright: In New York City the American Society of Composers, Authors and Publishers is established to protect the copyrighted musical compositions of its members.	"></a><p>	Copyright: In New York City the American Society of Composers, Authors and Publishers is established to protect the copyrighted musical compositions of its members.	<h3>	1914 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="14"></p><p><p><p>	<h2>	February 	14	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Abbasid_revolution#Persian_phase	"><img src="img/	748-abbasid-revolution-816x1020.jpeg	" alt="	Abbasid Revolution: The Hashimi rebels under Abu Muslim Khorasani take Merv, capital of the Umayyad province Khorasan, marking the consolidation of the Abbasid revolt.	"></a><p>	Abbasid Revolution: The Hashimi rebels under Abu Muslim Khorasani take Merv, capital of the Umayyad province Khorasan, marking the consolidation of the Abbasid revolt.	<h3>	748 AD	</h3><p><strong>	Turkmenistan	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Voting_machine	"><img src="img/	avm-machine-419x312.jpeg	" alt="	Voting machines are approved by the U.S. Congress for use in federal elections.	"></a><p>	Voting machines are approved by the U.S. Congress for use in federal elections.	<h3>	1899 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/YouTube	"><img src="img/	youtube-founders-500px.webp	" alt="	YouTube is launched by a group of college students, eventually becoming the largest video sharing website in the world and a main source for viral videos.	"></a><p>	YouTube is launched by a group of college students, eventually becoming the largest video sharing website in the world and a main source for viral videos.	<h3>	2005 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="15"></p><p><p><p>	<h2>	February 	15	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Codex_Theodosianus	"><img src="img/	438-roman-emperor-theodosius-ii-publishes-the-law-codex-codex-theodosianus-698x400.jpg	" alt="	Roman emperor Theodosius II publishes the law codex Codex Theodosianus	"></a><p>	Roman emperor Theodosius II publishes the law codex Codex Theodosianus	<h3>	438 AD	</h3><p><strong>	Rome	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Stevens_Institute_of_Technology	"><img src="img/	1870-stevens-institute-of-technology-is-founded-in-new-jersey-640x426.jpg	" alt="	Stevens Institute of Technology is founded in New Jersey, US, and offers the first Bachelor of Engineering degree in mechanical engineering.	"></a><p>	Stevens Institute of Technology is founded in New Jersey, US, and offers the first Bachelor of Engineering degree in mechanical engineering.	<h3>	1870 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Human_Genome_Project#State_of_completion	"><img src="img/	2001-the-first-draft-of-the-complete-human-genome-is-published-in-nature-512x288.jpg	" alt="	The first draft of the complete human genome is published in Nature.	"></a><p>	The first draft of the complete human genome is published in Nature.	<h3>	2001 AD	</h3><p><strong>	England	</strong><p></li>
+        </ul><p><p>												
+                                                        
+                                                        
+        <p id="16"></p><p><p><p>	<h2>	February 	16	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Andr%C3%A9_de_Longjumeau#Second_mission_to_the_Mongols_1249%E2%80%931251	"><img src="img/	giovanni-da-pian-del-carpini-500x321.jpg	" alt="	Andrew of Longjumeau is dispatched by Louis IX of France as his ambassador to meet with the Khagan of the Mongol Empire.	"></a><p>	Andrew of Longjumeau is dispatched by Louis IX of France as his ambassador to meet with the Khagan of the Mongol Empire.	<h3>	1249 AD	</h3><p><strong>	Mongolia	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Knattspyrnuf%C3%A9lag_Reykjav%C3%ADkur	"><img src="img/	1899-icelands-first-football-club-knattspyrnuflag-reykjavkur-is-founded-816x328.jpg	" alt="	Iceland's first football club, Knattspyrnufélag Reykjavíkur, is founded.	"></a><p>	Iceland's first football club, Knattspyrnufélag Reykjavíkur, is founded.	<h3>	1899 AD	</h3><p><strong>	Iceland	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Wallace_Carothers	"><img src="img/	wallace-carothers-social-816x541.jpg	" alt="	Wallace H. Carothers receives a United States patent for nylon.	"></a><p>	Wallace H. Carothers receives a United States patent for nylon.	<h3>	1937 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+                                                        
+        <p id="17"></p><p><p><p>	<h2>	February 	17	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Giordano_Bruno	"><img src="img/	relief-bruno-campo-dei-fiori-n1-330x205.jpeg	" alt="	On his way to be burned at the stake for heresy, at Campo de' Fiori in Rome, the philosopher Giordano Bruno has a wooden vise put on his tongue to prevent him continuing to speak.	"></a><p>	On his way to be burned at the stake for heresy, at Campo de' Fiori in Rome, the philosopher Giordano Bruno has a wooden vise put on his tongue to prevent him continuing to speak.	<h3>	1600 AD	</h3><p><strong>	Italy	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/International_Committee_of_the_Red_Cross	"><img src="img/	a2c72b4b-committee-of-five-geneva-1863-560x320.jpeg	" alt="	A group of citizens of Geneva found an International Committee for Relief to the Wounded, which later became known as the International Committee of the Red Cross.	"></a><p>	A group of citizens of Geneva found an International Committee for Relief to the Wounded, which later became known as the International Committee of the Red Cross.	<h3>	1863 AD	</h3><p><strong>	Switzerland	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Libyan_civil_war_2011	"><img src="img/	2011-arab-spring-libyan-protests-against-muammar-gaddafis-regime-begin-768x432.jpg	" alt="	Arab Spring: Libyan protests against Muammar Gaddafi's regime begin.	"></a><p>	Arab Spring: Libyan protests against Muammar Gaddafi's regime begin.	<h3>	2011 AD	</h3><p><strong>	Libya	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="18"></p><p><p><p>	<h2>	February 	18	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Kali_Yuga	"><img src="img/	3102-bc-kali-yuga-the-fourth-and-final-yuga-of-hinduism-starts-with-the-death-of-krishna-602x402.jpg	" alt="	Kali Yuga, the fourth and final yuga of Hinduism, starts with the death of Krishna.	"></a><p>	Kali Yuga, the fourth and final yuga of Hinduism, starts with the death of Krishna.	<h3>	3102 BC	</h3><p><strong>	India	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Adventures_of_Huckleberry_Finn	"><img src="img/	1885-adventures-of-huckleberry-finn-by-mark-twain-is-published-in-the-united-states.webp	" alt="	Adventures of Huckleberry Finn by Mark Twain is published in the United States.	"></a><p>	Adventures of Huckleberry Finn by Mark Twain is published in the United States.	<h3>	1885 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Chelsea_Manning	"><img src="img/	chelsea-manning-london-england-2018.webp	" alt="	WikiLeaks publishes the first of hundreds of thousands of classified documents disclosed by the soldier now known as Chelsea Manning.	"></a><p>	WikiLeaks publishes the first of hundreds of thousands of classified documents disclosed by the soldier now known as Chelsea Manning.	<h3>	2010 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="19"></p><p><p><p>	<h2>	February 	19	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Battle_of_Lugdunum	"><img src="img/	197-emperor-septimius-severus-defeats-usurper-clodius-albinus-in-the-battle-of-lugdunum-the-bloodiest-battle-between-roman-armies-320x274.jpeg	" alt="	Emperor Septimius Severus defeats usurper Clodius Albinus in the Battle of Lugdunum, the bloodiest battle between Roman armies.	"></a><p>	Emperor Septimius Severus defeats usurper Clodius Albinus in the Battle of Lugdunum, the bloodiest battle between Roman armies.	<h3>	197 AD	</h3><p><strong>	France	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Second_Battle_of_Guararapes	"><img src="img/	1649-the-second-battle-of-guararapes-takes-place-816x475.jpg	" alt="	The Second Battle of Guararapes takes place, effectively ending Dutch colonization efforts in Brazil.	"></a><p>	The Second Battle of Guararapes takes place, effectively ending Dutch colonization efforts in Brazil.	<h3>	1649 AD	</h3><p><strong>	Brazil	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/2001_Mars_Odyssey	"><img src="img/	2002-nasas-mars-odyssey-space-probe-begins-to-map-the-surface-of-mars.webp	" alt="	NASA's Mars Odyssey space probe begins to map the surface of Mars using its thermal emission imaging system.	"></a><p>	NASA's Mars Odyssey space probe begins to map the surface of Mars using its thermal emission imaging system.	<h3>	2002 AD	</h3><p><strong>	Mars	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="20"></p><p><p><p>	<h2>	February 	20	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Battle_of_Parabiago	"><img src="img/	1339-the-milanese-army-and-the-st.-georges-san-giorgio-mercenaries-of-lodrisio-visconti-clash-in-the-battle-of-parabiago-279x181.jpeg	" alt="	The Milanese army and the St. George's (San Giorgio) Mercenaries of Lodrisio Visconti clash in the Battle of Parabiago; Visconti is defeated.	"></a><p>	The Milanese army and the St. George's (San Giorgio) Mercenaries of Lodrisio Visconti clash in the Battle of Parabiago; Visconti is defeated.	<h3>	1339 AD	</h3><p><strong>	Italy	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Swan_Lake	"><img src="img/	tchaikovsky-swan-lake-history-5768c1ea3df78ca6e46120ec-816x544.jpg	" alt="	Tchaikovsky's ballet Swan Lake receives its premiere at the Bolshoi Theatre in Moscow.	"></a><p>	Tchaikovsky's ballet Swan Lake receives its premiere at the Bolshoi Theatre in Moscow.	<h3>	1877 AD	</h3><p><strong>	Russia	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Mir	"><img src="img/	1986-the-soviet-union-launches-its-mir-spacecraft-639x420.jpg	" alt="	The Soviet Union launches its Mir spacecraft. Remaining in orbit for 15 years, it is occupied for ten of those years.	"></a><p>	The Soviet Union launches its Mir spacecraft. Remaining in orbit for 15 years, it is occupied for ten of those years.	<h3>	1986 AD	</h3><p><strong>	Soviet Union	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="21"></p><p><p><p>	<h2>	February 	21	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Severian_of_Scythopolis	"><img src="img/	st.-severianus-816x528.png	" alt="	Severianus, Bishop of Scythopolis, is martyred in Palestine.	"></a><p>	Severianus, Bishop of Scythopolis, is martyred in Palestine.	<h3>	453 AD	</h3><p><strong>	Palestine	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Sewing_machine	"><img src="img/	1842-john-greenough-is-granted-the-first-u.s.-patent-for-the-sewing-machine.-300x199.jpg	" alt="	John Greenough is granted the first U.S. patent for the sewing machine.	"></a><p>	John Greenough is granted the first U.S. patent for the sewing machine.	<h3>	1842 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Peace_symbols	"><img src="img/	cnd-symbol-first-use-642x342.jpg	" alt="	The CND symbol, aka peace symbol, commissioned by the Direct Action Committee in protest against the Atomic Weapons Research Establishment, is designed and completed by Gerald Holtom.	"></a><p>	The CND symbol, aka peace symbol, commissioned by the Direct Action Committee in protest against the Atomic Weapons Research Establishment, is designed and completed by Gerald Holtom.	<h3>	1958 AD	</h3><p><strong>	England	</strong><p></li>
+        </ul><p><p>												
+                                                        
+                                                        
+        <p id="22"></p><p><p><p>	<h2>	February 	22	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Henry_IV,_Holy_Roman_Emperor#Road_to_Canossa	"><img src="img/	220px-canossa-three-220x158.jpg	" alt="	Having received a letter during the Lenten synod of 14–20 February demanding that he abdicate, Pope Gregory VII excommunicates Henry IV, Holy Roman Emperor.	"></a><p>	Having received a letter during the Lenten synod of 14–20 February demanding that he abdicate, Pope Gregory VII excommunicates Henry IV, Holy Roman Emperor.	<h3>	1076 AD	</h3><p><strong>	Rome	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/F._W._Woolworth_Company	"><img src="img/	frank-woolworth-opens-the-first-of-the-five-and-dime-v0-2l7b5ixbupja1.webp	" alt="	In Utica, New York, Frank Woolworth opens the first of many of five-and-dime Woolworth stores.	"></a><p>	In Utica, New York, Frank Woolworth opens the first of many of five-and-dime Woolworth stores.	<h3>	1879 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/CORONA_satellite	"><img src="img/	fairchild-c-119j-flying-boxcar-recovers-corona-capsule-1960-usaf-040314-o-9999r-1-816x632.jpg	" alt="	The Corona reconnaissance satellite program, in existence from 1959 to 1972, is declassified.	"></a><p>	The Corona reconnaissance satellite program, in existence from 1959 to 1972, is declassified.	<h3>	1995 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+                                                        
+        <p id="23"></p><p><p><p>	<h2>	February 	23	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Gutenberg_Bible	"><img src="img/	artist-visualization-workshop-proof-johannes-gutenberg-sheet.webp	" alt="	Traditionally the date of publication of the Gutenberg Bible, the first Western book printed with movable type.	"></a><p>	Traditionally the date of publication of the Gutenberg Bible, the first Western book printed with movable type.	<h3>	1455 AD	</h3><p><strong>	Germany	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Charles_Martin_Hall	"><img src="img/	og-charles-martin-hall-25926.webp	" alt="	Charles Martin Hall produced the first samples of aluminium from the electrolysis of aluminium oxide, after several years of intensive work. He was assisted in this project by his older sister, Julia Brainerd Hall.	"></a><p>	Charles Martin Hall produced the first samples of aluminium from the electrolysis of aluminium oxide, after several years of intensive work. He was assisted in this project by his older sister, Julia Brainerd Hall.	<h3>	1886 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Glenn_T._Seaborg	"><img src="img/	2-seaborg-glenn-corbis-rr029586-enhanced-scaled-816x548.jpg	" alt="	Plutonium is first produced and isolated by Dr. Glenn T. Seaborg.	"></a><p>	Plutonium is first produced and isolated by Dr. Glenn T. Seaborg.	<h3>	1941 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="24"></p><p><p><p>	<h2>	February 	24	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Huneric	"><img src="img/	484-king-huneric-of-the-vandals-816x426.jpg	" alt="	King Huneric of the Vandals replaces Nicene bishops with Arian ones, and banishes some to Corsica.	"></a><p>	King Huneric of the Vandals replaces Nicene bishops with Arian ones, and banishes some to Corsica.	<h3>	484 AD	</h3><p><strong>	Vandal Kingdom (North Africa)	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Penny_Red	"><img src="img/	penny-red-perforated-816x428.jpg	" alt="	A Penny Red with perforations becomes the first perforated postage stamp to be officially issued for distribution.	"></a><p>	A Penny Red with perforations becomes the first perforated postage stamp to be officially issued for distribution.	<h3>	1854 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Gulf_War#Initial_moves_into_Iraq	"><img src="img/	marines-1st-expeditionary-force-saudi-desert-operation-desert-storm-1991.webp	" alt="	Gulf War: Ground troops cross the Saudi Arabian border and enter Iraq, thus beginning the ground phase of the war.	"></a><p>	Gulf War: Ground troops cross the Saudi Arabian border and enter Iraq, thus beginning the ground phase of the war.	<h3>	1991 AD	</h3><p><strong>	Iraq	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="25"></p><p><p><p>	<h2>	February 	25	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Antoninus_Pius	"><img src="img/	138-roman-emperor-hadrian-adopts-antoninus-pius-318x159.jpg	" alt="	Roman emperor Hadrian adopts Antoninus Pius as his son, effectively making him his successor.	"></a><p>	Roman emperor Hadrian adopts Antoninus Pius as his son, effectively making him his successor.	<h3>	138 AD	</h3><p><strong>	Rome	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Samuel_Colt	"><img src="img/	colt-paterson-drawing-816x556.jpeg	" alt="	Samuel Colt is granted a United States patent for his revolver firearm.	"></a><p>	Samuel Colt is granted a United States patent for his revolver firearm.	<h3>	1836 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/USS_Ranger_CV-4	"><img src="img/	uss-ranger-cv-4-56a61b7a5f9b58b7d0dff2d8-738x506.jpg	" alt="	Launch of the USS Ranger at Newport News, Virginia. It is the first purpose-built aircraft carrier to be commissioned by the US Navy.	"></a><p>	Launch of the USS Ranger at Newport News, Virginia. It is the first purpose-built aircraft carrier to be commissioned by the US Navy.	<h3>	1933 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="26"></p><p><p><p>	<h2>	February 	26	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Nabonassar#Calendar_reform	"><img src="img/	ptolemy-astronomer-social.webp	" alt="	According to Ptolemy, the epoch (origin) of the Nabonassar Era began at noon on this date. Historians use this to establish the modern BC chronology for dating historic events.	"></a><p>	According to Ptolemy, the epoch (origin) of the Nabonassar Era began at noon on this date. Historians use this to establish the modern BC chronology for dating historic events.	<h3>	747 BC	</h3><p><strong>	Roman Republic	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Beach_Pneumatic_Transit	"><img src="img/	1870-the-beach-pneumatic-transit-in-new-york-city-816x496.jpg	" alt="	The Beach Pneumatic Transit in New York City, intending as a demonstration for a subway line opens.	"></a><p>	The Beach Pneumatic Transit in New York City, intending as a demonstration for a subway line opens.	<h3>	1870 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Kinemacolor	"><img src="img/	1909-kinemacolor-559x401.jpg	" alt="	Kinemacolor, the first successful color motion picture process, is first shown to the general public at the Palace Theatre in London.	"></a><p>	Kinemacolor, the first successful color motion picture process, is first shown to the general public at the Palace Theatre in London.	<h3>	1909 AD	</h3><p><strong>	England	</strong><p></li>
+        </ul><p><p>												
+                                                        
+        <p id="27"></p><p><p><p>	<h2>	February 	27	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Edict_of_Thessalonica	"><img src="img/	the-edict-of-thessalonica-is-issued-in-380-ad-by-the-3-v0-l24tju4heoka1.webp	" alt="	Edict of Thessalonica: Emperor Theodosius I and his co-emperors Gratian and Valentinian II declare their wish that all Roman citizens convert to Nicene Christianity.	"></a><p>	Edict of Thessalonica: Emperor Theodosius I and his co-emperors Gratian and Valentinian II declare their wish that all Roman citizens convert to Nicene Christianity.	<h3>	380 AD	</h3><p><strong>	Roman Republic	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Labour_Party_UK	"><img src="img/	1900-the-british-labour-party-is-founded.-816x355.jpg	" alt="	The British Labour Party is founded.	"></a><p>	The British Labour Party is founded.	<h3>	1900 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Carbon-14	"><img src="img/	1940-martin-kamen-and-sam-ruben-discover-carbon-14.-423x238.jpg	" alt="	Martin Kamen and Sam Ruben discover carbon-14.	"></a><p>	Martin Kamen and Sam Ruben discover carbon-14.	<h3>	1940 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+                                                        
+        <p id="28"></p><p><p><p>	<h2>	February 	28	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han	"><img src="img/	museum-of-nanyue-kinge316a8e8185f-cut-800x500-9.webp	" alt="	Liu Bang is enthroned as the Emperor of China, beginning four centuries of rule by the Han dynasty.	"></a><p>	Liu Bang is enthroned as the Emperor of China, beginning four centuries of rule by the Han dynasty.	<h3>	202 BC	</h3><p><strong>	China	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/USS_Princeton_1843#1844_Peacemaker_accident	"><img src="img/	1280px-explosion-aboard-uss-princeton-816x563.jpeg	" alt="	A gun explodes on board the steam warship USS Princeton during a pleasure cruise down the Potomac River, killing six, including Secretary of State Abel Upshur. President John Tyler, who was also on board, was not injured from the blast.	"></a><p>	A gun explodes on board the steam warship USS Princeton during a pleasure cruise down the Potomac River, killing six, including Secretary of State Abel Upshur. President John Tyler, who was also on board, was not injured from the blast.	<h3>	1844 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Goodbye,_Farewell_and_Amen	"><img src="img/	the-cast-of-mash-1970s.webp	" alt="	The final episode of M*A*S*H airs, with almost 110 million viewers.	"></a><p>	The final episode of M*A*S*H airs, with almost 110 million viewers.	<h3>	1983 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                        
+                                                        
+        <p id="29"></p><p><p><p>	<h2>	February 	29	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/March_1504_lunar_eclipse	"><img src="img/	eclipse-christophe-colomb-816x663.jpeg	" alt="	Christopher Columbus uses his knowledge of a lunar eclipse that night to convince Jamaican natives to provide him with supplies.	"></a><p>	Christopher Columbus uses his knowledge of a lunar eclipse that night to convince Jamaican natives to provide him with supplies.	<h3>	1504 AD	</h3><p><strong>	Jamaica	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/List_of_non-standard_dates#February_30	"><img src="img/	feb1712-791x530.jpg	" alt="	February 29 is followed by February 30 in Sweden, in a move to abolish the Swedish calendar for a return to the Julian calendar.	"></a><p>	February 29 is followed by February 30 in Sweden, in a move to abolish the Swedish calendar for a return to the Julian calendar.	<h3>	1712 AD	</h3><p><strong>	Sweden	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Hattie_McDaniel	"><img src="img/	1940-for-her-performance-as-mammy-in-gone-with-the-wind.webp	" alt="	For her performance as Mammy in Gone with the Wind, Hattie McDaniel becomes the first African American to win an Academy Award.	"></a><p>	For her performance as Mammy in Gone with the Wind, Hattie McDaniel becomes the first African American to win an Academy Award.	<h3>	1940 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                                                                                        
+        
+  
+    </div></div>
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Content Viewer</h5>
+            <button class="close-btn" id="closeModal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button class="close-btn" id="closeFooter">Close</button>
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
+          }
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
+        });
+      </script>
+    
+  
+  
+  <script>
+  const daysContainer = document.getElementById('days');
+  const monthYearDisplay = document.getElementById('monthYear');
+  const prevMonthBtn = document.getElementById('prevMonth');
+  const nextMonthBtn = document.getElementById('nextMonth');
+  
+  let currentDate = new Date();
+  
+  function generateCalendar(date) {
+    daysContainer.innerHTML = '';
+    
+    const month = date.getMonth();
+    const year = date.getFullYear();
+  
+    const firstDayOfMonth = new Date(year, month, 1).getDay();
+    const lastDateOfMonth = new Date(year, month + 1, 0).getDate();
+    const lastDayOfPrevMonth = new Date(year, month, 0).getDate();
+  
+    monthYearDisplay.textContent = `${date.toLocaleString('default', { month: 'long' })} ${year}`;
+  
+    // Previous month dates
+    for (let i = firstDayOfMonth - 1; i >= 0; i--) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = lastDayOfPrevMonth - i;
+      dayDiv.classList.add('prev-next-month');
+      daysContainer.appendChild(dayDiv);
+    }
+  
+    // Current month dates
+    for (let day = 1; day <= lastDateOfMonth; day++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = day;
+  
+      if (day === new Date().getDate() && month === new Date().getMonth() && year === new Date().getFullYear()) {
+        dayDiv.classList.add('current-day');
+      }
+  
+      // Link to a specific webpage when a date is clicked
+      dayDiv.addEventListener('click', function () {
+        window.location.href = `https://twidgrid.com/todayinhistory/${month + 1}#${day}`;
+      });
+  
+      daysContainer.appendChild(dayDiv);
+    }
+  
+    // Next month dates
+    const totalDivs = daysContainer.children.length;
+    const remainingDivs = 42 - totalDivs;
+    
+    for (let i = 1; i <= remainingDivs; i++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = i;
+      dayDiv.classList.add('prev-next-month');
+      daysContainer.appendChild(dayDiv);
+    }
+  }
+  
+  function changeMonth(delta) {
+    currentDate.setMonth(currentDate.getMonth() + delta);
+    generateCalendar(currentDate);
+  }
+  
+  prevMonthBtn.addEventListener('click', () => changeMonth(-1));
+  nextMonthBtn.addEventListener('click', () => changeMonth(1));
+  
+  // Initialize calendar
+  generateCalendar(currentDate);
+  
+  </script>
+
+
+
+            
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

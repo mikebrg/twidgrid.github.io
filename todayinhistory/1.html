@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>January | Today in History</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+  
+    .head {
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/history.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+</style>
+
+</head><body>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentYear = new Date().getFullYear();
+
+            // Function to format numbers with commas
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Function to adjust years with BC or AD
+            function adjustYears() {
+                const regexBC = /\b(\d+)\s*BC\b/g; // Matches years with "BC"
+                const regexAD = /\b(\d+)\s*AD\b/g; // Matches years with "AD"
+                
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                
+                // Loop through all text nodes
+                while (node = walker.nextNode()) {
+                    let text = node.nodeValue;
+
+                    // Replace BC years
+                    text = text.replace(regexBC, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear + parseInt(year));
+                        return `${year} BC (${adjustedYear} years ago)`;
+                    });
+
+                    // Replace AD years
+                    text = text.replace(regexAD, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear - parseInt(year));
+                        return `${year} AD (${adjustedYear} years ago)`;
+                    });
+
+                    node.nodeValue = text;
+                }
+            }
+
+            // Isolate the script and ensure no interference with other scripts
+            (function safeScript() {
+                adjustYears();
+            })();
+        });
+    </script>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Today in History</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>January</h3><span class="fo-5">Named after Janus, the Roman god of beginnings, gates, transitions, and endings. Janus is often depicted with two faces: one looking forward to the future and one looking back at the past—making him a perfect symbol for the start of a new year!</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Calendar</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+  
+    <p id="1"></p><p><p><p><h2>		January 1		</h2><p>								
+												
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/New_Year%27s_Day	"><img src="img/	roman-republic.webp	" alt="	For the first time, Roman consuls begin their year in office on January 1.	"></a><p>	For the first time, Roman consuls begin their year in office on January 1.	<h3>	153 BC	</h3><p><strong>	Roman Republic	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Julian_calendar	"><img src="img/	81b3xow2b2l.-ac-sl1000-1-953x1000.jpeg	" alt="	The Julian calendar takes effect as the civil calendar of the Roman Republic, establishing January 1 as the new date of the new year.	"></a><p>	The Julian calendar takes effect as the civil calendar of the Roman Republic, establishing January 1 as the new date of the new year.	<h3>	45 BC	</h3><p><strong>	Roman Republic	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Act_Prohibiting_Importation_of_Slaves	"><img src="img/	act-to-prohibit-the-importation-of-slaves-800x888.jpeg	" alt="	The United States bans the importation of slaves.	"></a><p>	The United States bans the importation of slaves.	<h3>	1808 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+
+            <p id="2"></p><p><p><p><h2>		January 2		</h2><p>								
+												
+                <ul class="responsive-table">												
+                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Luna_1	"><img src="img/	rian-archive-510848-interplanetary-station-luna-1-blacked-376x477.jpg	" alt="	Luna 1, the first spacecraft to reach the vicinity of the Moon and to orbit the Sun, is launched by the Soviet Union.	"></a><p>	Luna 1, the first spacecraft to reach the vicinity of the Moon and to orbit the Sun, is launched by the Soviet Union.	<h3>	1959 AD	</h3><p><strong>	Soviet Union	</strong><p></li>
+                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Peter_Sutcliffe	"><img src="img/	mug-shot-of-sutcliffe-taken-after-his-arrest-in-january-1981-274x364.jpg	" alt="	One of the largest investigations by a British police force ends when serial killer Peter Sutcliffe, the Yorkshire Ripper, is arrested in Sheffield, South Yorkshire.	"></a><p>	One of the largest investigations by a British police force ends when serial killer Peter Sutcliffe, the "Yorkshire Ripper", is arrested in Sheffield, South Yorkshire.	<h3>	1981 AD	</h3><p><strong>	England	</strong><p></li>
+                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Stardust_spacecraft	"><img src="img/	Stardust_-_Concepcao_artistica.jpg	" alt="	Stardust successfully flies past Comet Wild 2, collecting samples that are returned to Earth.	"></a><p>	Stardust successfully flies past Comet Wild 2, collecting samples that are returned to Earth.	<h3>	2004 AD	</h3><p><strong>	Comet Wild 2	</strong><p></li>
+                </ul><p><p>												
+
+                    <p id="3"></p><p><p><p><h2>		January 3		</h2><p>								
+												
+                        <ul class="responsive-table">												
+                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Battle_of_Princeton	"><img src="img/	1280px-princetonwashington-376x281.jpg	" alt="	American General George Washington defeats British General Lord Cornwallis at the Battle of Princeton.	"></a><p>	American General George Washington defeats British General Lord Cornwallis at the Battle of Princeton.	<h3>	1777 AD	</h3><p><strong>	United States	</strong><p></li>
+                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Electric_watch	"><img src="img/	hamilton-505-376x327.jpg	" alt="	The Hamilton Watch Company introduces the first electric watch.	"></a><p>	The Hamilton Watch Company introduces the first electric watch.	<h3>	1957 AD	</h3><p><strong>	United States	</strong><p></li>
+                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Alaska	"><img src="img/	alaska-is-admitted-as-the-49th-u.s.-state.-567x366.png	" alt="	Alaska is admitted as the 49th U.S. state.	"></a><p>	Alaska is admitted as the 49th U.S. state.	<h3>	1959 AD	</h3><p><strong>	United States	</strong><p></li>
+                        </ul><p><p>												
+                        
+                            <p id="4"></p><p><p><p><h2>		January 4		</h2><p>								
+												
+                                <ul class="responsive-table">												
+                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Utah	"><img src="img/	utah-is-admitted-as-the-45th-u.s.-state..webp	" alt="	Utah is admitted as the 45th U.S. state.	"></a><p>	Utah is admitted as the 45th U.S. state.	<h3>	1896 AD	</h3><p><strong>	United States	</strong><p></li>
+                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Spirit_rover	"><img src="img/	1280px-ksc-03pd-786-376x245.jpg	" alt="	Spirit, a NASA Mars rover, lands successfully on Mars at 04:35 UTC	"></a><p>	Spirit, a NASA Mars rover, lands successfully on Mars at 04:35 UTC	<h3>	2004 AD	</h3><p><strong>	Mars	</strong><p></li>
+                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Burj_Khalifa	"><img src="img/	burj-816x459.jpg	" alt="	The Burj Khalifa, the current tallest building in the world, officially opens in Dubai.	"></a><p>	The Burj Khalifa, the current tallest building in the world, officially opens in Dubai.	<h3>	2010 AD	</h3><p><strong>	United Arab Emirates	</strong><p></li>
+                                </ul><p><p>												
+                                    <p id="5"></p><p><p><p>	<h2>	January 	5	</h2>								
+                                        <ul class="responsive-table">												
+                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Palais_Garnier	"><img src="img/	paris-opera-full-frontal-architecture-may-2009-376x253.jpg	" alt="	The Palais Garnier, one of the most famous opera houses in the world, is inaugurated in Paris.	"></a><p>	The Palais Garnier, one of the most famous opera houses in the world, is inaugurated in Paris.	<h3>	1875 AD	</h3><p><strong>	France	</strong><p></li>
+                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/German_Workers%27_Party	"><img src="img/	deutsche-arbeiter-partei.svg-376x376.png	" alt="	The German Workers' Party, which would become the Nazi Party, is founded in Munich.	"></a><p>	The German Workers' Party, which would become the Nazi Party, is founded in Munich.	<h3>	1919 AD	</h3><p><strong>	Germany	</strong><p></li>
+                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Golden_Gate_Bridge	"><img src="img/	1920px-golden-gate-bridge-as-seen-from-battery-east-376x235.jpg	" alt="	Construction of the Golden Gate Bridge begins in San Francisco Bay.	"></a><p>	Construction of the Golden Gate Bridge begins in San Francisco Bay.	<h3>	1933 AD	</h3><p><strong>	United States	</strong><p></li>
+                                        </ul><p><p>												
+                                                                        
+                                            <p id="6"></p><p><p><p>	<h2>	January 	6	</h2>								
+                                                <ul class="responsive-table">												
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/New_Mexico	"><img src="img/	new-mexico-is-admitted-to-the-union-as-the-47th-u.s.-state.-512x419.jpg	" alt="	New Mexico is admitted to the Union as the 47th U.S. state.	"></a><p>	New Mexico is admitted to the Union as the 47th U.S. state.	<h3>	1912 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Mother_Teresa	"><img src="img/	mother-teresa-1-376x518.jpg	" alt="	Mother Teresa arrives by sea in Calcutta, India, to begin her work among India's poorest and sick people.	"></a><p>	Mother Teresa arrives by sea in Calcutta, India, to begin her work among India's poorest and sick people.	<h3>	1929 AD	</h3><p><strong>	India	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/January_6_United_States_Capitol_attack	"><img src="img/	2021-storming-of-the-united-states-capitol-dsc09254-2-50820534063-retouched-376x231.jpg	" alt="	Supporters of U.S. President Donald Trump attack the United States Capitol to disrupt certification of the 2020 presidential election, resulting in five deaths and evacuation of the U.S. Congress.	"></a><p>	Supporters of U.S. President Donald Trump attack the United States Capitol to disrupt certification of the 2020 presidential election, resulting in five deaths and evacuation of the U.S. Congress.	<h3>	2021 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                </ul><p><p>												
+                                                                                                
+                                                <p id="7"></p><p><p><p>	<h2>	January 	7	</h2>								
+                                                <ul class="responsive-table">												
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/History_of_the_telephone	"><img src="img/	history-speeches-5000-first-transatlantic-phone-call-still-624x352-376x212.jpg	" alt="	The first transatlantic commercial telephone service is established from New York City to London.	"></a><p>	The first transatlantic commercial telephone service is established from New York City to London.	<h3>	1927 AD	</h3><p><strong>	England / United States	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Surveyor_7	"><img src="img/	220px-surveyor-nasa-lunar-lander-220x244.jpg	" alt="	Surveyor program: Surveyor 7, the last spacecraft in the Surveyor series, lifts off from Cape Canaveral Launch Complex 36A.	"></a><p>	Surveyor program: Surveyor 7, the last spacecraft in the Surveyor series, lifts off from Cape Canaveral Launch Complex 36A.	<h3>	1968 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting	"><img src="img/	charlie-hebdo-2015-11-376x251.jpg	" alt="	Two gunmen commit mass murder at the offices of Charlie Hebdo in Paris, shooting twelve people execution style, and wounding eleven others.	"></a><p>	Two gunmen commit mass murder at the offices of Charlie Hebdo in Paris, shooting twelve people execution style, and wounding eleven others.	<h3>	2015 AD	</h3><p><strong>	France	</strong><p></li>
+                                                </ul><p><p>												
+                                                                                                
+                                                <p id="8"></p><p><p><p>	<h2>	January 	8	</h2>								
+                                                <ul class="responsive-table">												
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Democratic_Party_United_States	"><img src="img/	us-democratic-party-logo.svg-376x376.png	" alt="	The Democratic Party of the United States is organized.	"></a><p>	The Democratic Party of the United States is organized.	<h3>	1828 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Luna_21	"><img src="img/	luna-and-lunokhod-376x376.png	" alt="	Soviet space mission Luna 21 is launched.	"></a><p>	Soviet space mission Luna 21 is launched.	<h3>	1973 AD	</h3><p><strong>	Soviet Union	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Joaqu%C3%ADn_%22El_Chapo%22_Guzm%C3%A1n	"><img src="img/	booking-photo-of-joaquin-el-chapo-guzman-front-376x500.jpg	" alt="	Joaquín Guzmán, widely regarded as the world's most powerful drug trafficker, is recaptured following his escape from a maximum security prison in Mexico.	"></a><p>	Joaquín Guzmán, widely regarded as the world's most powerful drug trafficker, is recaptured following his escape from a maximum security prison in Mexico.	<h3>	2016 AD	</h3><p><strong>	Mexico	</strong><p></li>
+                                                </ul><p><p>												
+                                                                                                
+                                                <p id="9"></p><p><p><p>	<h2>	January 	9	</h2>								
+                                                <ul class="responsive-table">												
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Trial_of_Joan_of_Arc	"><img src="img/	800px-joan-of-arc-interrogation-376x482.jpg	" alt="	The trial of Joan of Arc begins in Rouen.	"></a><p>	The trial of Joan of Arc begins in Rouen.	<h3>	1431 AD	</h3><p><strong>	France	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/IPhone_1st_generation	"><img src="img/	newspress-collage-25288920.webp	" alt="	Apple CEO Steve Jobs introduces the original iPhone at a Macworld keynote in San Francisco.	"></a><p>	Apple CEO Steve Jobs introduces the original iPhone at a Macworld keynote in San Francisco.	<h3>	2007 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Charlie_Hebdo_shooting#2015_Marseille_shooting	"><img src="img/	Lacastellane-16-marseille.jpg	" alt="	The perpetrators of the Charlie Hebdo shooting in Paris two days earlier are both killed after a hostage situation; a second hostage situation, related to the Charlie Hebdo shooting, occurs at a Jewish market in Vincennes.	"></a><p>	The perpetrators of the Charlie Hebdo shooting in Paris two days earlier are both killed after a hostage situation; a second hostage situation, related to the Charlie Hebdo shooting, occurs at a Jewish market in Vincennes.	<h3>	2015 AD	</h3><p><strong>	France	</strong><p></li>
+                                                </ul><p><p>												
+                                                                                                
+                                                                                                
+                                                <p id="10"></p><p><p><p>	<h2>	January 	10	</h2>								
+                                                <ul class="responsive-table">												
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/London_Underground	"><img src="img/	gwr-broad-gauge-metropolitan-class-375x196.jpg	" alt="	The Metropolitan Railway, the world's oldest underground railway, opens between Paddington and Farringdon, marking the beginning of the London Underground.	"></a><p>	The Metropolitan Railway, the world's oldest underground railway, opens between Paddington and Farringdon, marking the beginning of the London Underground.	<h3>	1863 AD	</h3><p><strong>	England	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Treaty_of_Versailles	"><img src="img/	treaty-of-versailles-gettyimages-544274844-768x432.jpg	" alt="	The Treaty of Versailles takes effect, officially ending World War I for all combatant nations except the United States.	"></a><p>	The Treaty of Versailles takes effect, officially ending World War I for all combatant nations except the United States.	<h3>	1920 AD	</h3><p><strong>	France	</strong><p></li>
+                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Project_Diana	"><img src="img/	project-diana-antenna-299x440.jpg	" alt="	The United States Army Signal Corps successfully conducts Project Diana, bouncing radio waves off the Moon and receiving the reflected signals.	"></a><p>	The United States Army Signal Corps successfully conducts Project Diana, bouncing radio waves off the Moon and receiving the reflected signals.	<h3>	1946 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                </ul><p><p>												
+
+                                                    <p id="11"></p><p><p><p>	<h2>	January 	11	</h2>								
+                                                        <ul class="responsive-table">												
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Michigan_Territory	"><img src="img/	united-states-1805-01-1805-7-816x552.png	" alt="	The Michigan Territory is created.	"></a><p>	The Michigan Territory is created.	<h3>	1805 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Academy_of_Motion_Picture_Arts_and_Sciences	"><img src="img/	academy-of-motion-picture-arts-and-sciences-logo.svg-375x375.png	" alt="	Louis B. Mayer, head of film studio Metro-Goldwyn-Mayer (MGM), announces the creation of the Academy of Motion Picture Arts and Sciences, at a banquet in Los Angeles, California.	"></a><p>	Louis B. Mayer, head of film studio Metro-Goldwyn-Mayer (MGM), announces the creation of the Academy of Motion Picture Arts and Sciences, at a banquet in Los Angeles, California.	<h3>	1927 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Hubei	"><img src="img/	coronavirus.-sars-cov-2-375x375.png	" alt="	COVID-19 pandemic in Hubei: Municipal health officials in Wuhan announce the first recorded death from COVID-19.	"></a><p>	COVID-19 pandemic in Hubei: Municipal health officials in Wuhan announce the first recorded death from COVID-19.	<h3>	2020 AD	</h3><p><strong>	China	</strong><p></li>
+                                                        </ul><p><p>												
+                                                                                                        
+                                                        <p id="12"></p><p><p><p>	<h2>	January 	12	</h2>								
+                                                        <ul class="responsive-table">												
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Zeno_emperor#First_reign_and_Basiliscus'_revolt_475%E2%80%93476	"><img src="img/	475-byzantine-emperor-zeno-is-forced-to-flee-his-capital-at-constantinople.webp	" alt="	Byzantine Emperor Zeno is forced to flee his capital at Constantinople, and his general, Basiliscus gains control of the empire.	"></a><p>	Byzantine Emperor Zeno is forced to flee his capital at Constantinople, and his general, Basiliscus gains control of the empire.	<h3>	475 AD	</h3><p><strong>	Turkey	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Royal_Aeronautical_Society	"><img src="img/	1866-the-royal-aeronautical-society-is-formed-in-london.-816x544.jpg	" alt="	The Royal Aeronautical Society is formed in London.	"></a><p>	The Royal Aeronautical Society is formed in London.	<h3>	1866 AD	</h3><p><strong>	England	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Downtown_Disney	"><img src="img/	opening-of-downtown-disney-disneyland-featured-tan-800x600.jpg	" alt="	Downtown Disney opens to the public as part of the Disneyland Resort in Anaheim, California.	"></a><p>	Downtown Disney opens to the public as part of the Disneyland Resort in Anaheim, California.	<h3>	2001 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                        </ul><p><p>												
+                                                                                                        
+                                                        <p id="13"></p><p><p><p>	<h2>	January 	13	</h2>								
+                                                        <ul class="responsive-table">												
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Augustus#First_settlement	"><img src="img/	082620-07-history-rome-augustus-816x455.jpg	" alt="	Octavian transfers the state to the free disposal of the Roman Senate and the people. He receives Spain, Gaul, and Syria as his province for ten years.	"></a><p>	Octavian transfers the state to the free disposal of the Roman Senate and the people. He receives Spain, Gaul, and Syria as his province for ten years.	<h3>	27 BC	</h3><p><strong>	Rome	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/National_Geographic_Society	"><img src="img/	1888-the-national-geographic-society-is-founded-in-washington-d.c.-816x553.jpeg	" alt="	The National Geographic Society is founded in Washington, D.C.	"></a><p>	The National Geographic Society is founded in Washington, D.C.	<h3>	1888 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Soybean_car	"><img src="img/	1942-henry-ford-patents-a-soybean-car-which-is-30-lighter-than-a-regular-car..webp	" alt="	Henry Ford patents a soybean car, which is 30% lighter than a regular car.	"></a><p>	Henry Ford patents a soybean car, which is 30% lighter than a regular car.	<h3>	1942 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                        </ul><p><p>												
+                                                                                                        
+                                                        <p id="14"></p><p><p><p>	<h2>	January 	14	</h2>								
+                                                        <ul class="responsive-table">												
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Henry_III_of_England#Marriage	"><img src="img/	1236-king-henry-iii-of-england-marries-eleanor-of-provence.-302x294.jpeg	" alt="	King Henry III of England marries Eleanor of Provence.	"></a><p>	King Henry III of England marries Eleanor of Provence.	<h3>	1236 AD	</h3><p><strong>	England	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Tosca	"><img src="img/	1900-giacomo-puccinis-tosca-opens-in-rome.-816x661.jpg	" alt="	Giacomo Puccini's Tosca opens in Rome.	"></a><p>	Giacomo Puccini's Tosca opens in Rome.	<h3>	1900 AD	</h3><p><strong>	Italy	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Amundsen%27s_South_Pole_expedition	"><img src="img/	at-the-south-pole-december-1911-816x544.jpg	" alt="	Roald Amundsen's South Pole expedition makes landfall on the eastern edge of the Ross Ice Shelf.	"></a><p>	Roald Amundsen's South Pole expedition makes landfall on the eastern edge of the Ross Ice Shelf.	<h3>	1911 AD	</h3><p><strong>	Antarctica	</strong><p></li>
+                                                        </ul><p><p>												
+                                                                                                        
+                                                        <p id="15"></p><p><p><p>	<h2>	January 	15	</h2>								
+                                                        <ul class="responsive-table">												
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Elizabeth_I	"><img src="img/	elizabeth-i-procession-portrait.-816x533.jpg	" alt="	Elizabeth I is crowned Queen of England and Ireland in Westminster Abbey, London.	"></a><p>	Elizabeth I is crowned Queen of England and Ireland in Westminster Abbey, London.	<h3>	1559 AD	</h3><p><strong>	England	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/The_Coca-Cola_Company	"><img src="img/	1889-the-coca-cola-company-then-known-as-the-pemberton-medicine-company-is-incorporated-in-atlanta.-450x512.png	" alt="	The Coca-Cola Company, then known as the Pemberton Medicine Company, is incorporated in Atlanta.	"></a><p>	The Coca-Cola Company, then known as the Pemberton Medicine Company, is incorporated in Atlanta.	<h3>	1889 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Wikipedia	"><img src="img/	2001-wikipedia-a-free-wiki-content-encyclopedia-is-launched.-816x459.png	" alt="	Wikipedia, a free wiki content encyclopedia, is launched.	"></a><p>	Wikipedia, a free wiki content encyclopedia, is launched.	<h3>	2001 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                        </ul><p><p>												
+                                                                                                        
+                                                                                                        
+                                                        <p id="16"></p><p><p><p>	<h2>	January 	16	</h2>								
+                                                        <ul class="responsive-table">												
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Hatshepsut	"><img src="img/	hatshepsut-mummy.webp	" alt="	Hatshepsut dies at the age of 50 and is buried in the Valley of the Kings.	"></a><p>	Hatshepsut dies at the age of 50 and is buried in the Valley of the Kings.	<h3>	1458 BC	</h3><p><strong>	Egypt	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Acts_of_Union_1707	"><img src="img/	1707-the-scottish-parliament-ratifies-the-act-of-union-paving-the-way-for-the-creation-of-great-britain-816x532.jpg	" alt="	The Scottish Parliament ratifies the Act of Union, paving the way for the creation of Great Britain.	"></a><p>	The Scottish Parliament ratifies the Act of Union, paving the way for the creation of Great Britain.	<h3>	1707 AD	</h3><p><strong>	Scotland	</strong><p></li>
+                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Ernest_Shackleton	"><img src="img/	endurance-shackleton-ice-pack-weddell-sea-coats-1914.webp	" alt="	Ernest Shackleton's expedition finds the magnetic South Pole.	"></a><p>	Ernest Shackleton's expedition finds the magnetic South Pole.	<h3>	1909 AD	</h3><p><strong>	Antarctica	</strong><p></li>
+                                                        </ul><p><p>												
+
+                                                            <p id="17"></p><p><p><p>	<h2>	January 	17	</h2>								
+                                                                <ul class="responsive-table">												
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Augustus#War_with_Sextus_Pompeius	"><img src="img/	livia-drusilla-marble-bust-vatican-museum.webp	" alt="	Octavian divorces his wife Scribonia and marries Livia Drusilla, ending the fragile peace between the Second Triumvirate and Sextus Pompey.	"></a><p>	Octavian divorces his wife Scribonia and marries Livia Drusilla, ending the fragile peace between the Second Triumvirate and Sextus Pompey.	<h3>	38 BC	</h3><p><strong>	Rome	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Second_voyage_of_James_Cook	"><img src="img/	1773-captain-james-cook-leads-the-first-expedition-to-sail-south-of-the-antarctic-circle.-512x288.jpg	" alt="	Captain James Cook leads the first expedition to sail south of the Antarctic Circle.	"></a><p>	Captain James Cook leads the first expedition to sail south of the Antarctic Circle.	<h3>	1773 AD	</h3><p><strong>	England	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Gulf_War	"><img src="img/	usaf-f-16a-f-15c-f-15e-desert-storm-edit2-816x520.jpg	" alt="	Gulf War: Operation Desert Storm begins early in the morning as aircraft strike positions across Iraq, it is also the first major combat sortie for the F-117. LCDR Scott Speicher's F/A-18C Hornet from VFA-81 is shot down by a Mig-25 and is the first American casualty of the War. Iraq fires eight Scud missiles into Israel in an unsuccessful bid to provoke Israeli retaliation.	"></a><p>	Gulf War: Operation Desert Storm begins early in the morning as aircraft strike positions across Iraq, it is also the first major combat sortie for the F-117. LCDR Scott Speicher's F/A-18C Hornet from VFA-81 is shot down by a Mig-25 and is the first American casualty of the War. Iraq fires eight Scud missiles into Israel in an unsuccessful bid to provoke Israeli retaliation.	<h3>	1991 AD	</h3><p><strong>	Iraq	</strong><p></li>
+                                                                </ul><p><p>												
+                                                                                                                
+                                                                <p id="18"></p><p><p><p>	<h2>	January 	18	</h2>								
+                                                                <ul class="responsive-table">												
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Leo_II_emperor	"><img src="img/	474-seven-year-old-leo-ii-794x1024.jpeg	" alt="	Seven-year-old Leo II succeeds his maternal grandfather Leo I as Byzantine emperor. He dies ten months later.	"></a><p>	Seven-year-old Leo II succeeds his maternal grandfather Leo I as Byzantine emperor. He dies ten months later.	<h3>	474 AD	</h3><p><strong>	Turkey	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/X-ray_machine#History	"><img src="img/	1896-an-x-ray-generating-machine-is-exhibited-for-the-first-time-by-h.-l.-smith.-284x177.jpeg	" alt="	An X-ray generating machine is exhibited for the first time by H. L. Smith.	"></a><p>	An X-ray generating machine is exhibited for the first time by H. L. Smith.	<h3>	1896 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Airbus_A380	"><img src="img/	2005-the-airbus-a380-the-worlds-largest-commercial-jet-is-unveiled-at-a-ceremony-in-toulouse-france-400x184.jpg	" alt="	The Airbus A380, the world's largest commercial jet, is unveiled at a ceremony in Toulouse, France	"></a><p>	The Airbus A380, the world's largest commercial jet, is unveiled at a ceremony in Toulouse, France	<h3>	2005 AD	</h3><p><strong>	France	</strong><p></li>
+                                                                </ul><p><p>												
+                                                                                                                
+                                                                <p id="19"></p><p><p><p>	<h2>	January 	19	</h2>								
+                                                                <ul class="responsive-table">												
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Theodosius_I	"><img src="img/	saint-ambrose-and-emperor-theodosius-heritage-images-725x900.jpg	" alt="	Emperor Gratian elevates Flavius Theodosius at Sirmium to Augustus, and gives him authority over all the eastern provinces of the Roman Empire.	"></a><p>	Emperor Gratian elevates Flavius Theodosius at Sirmium to Augustus, and gives him authority over all the eastern provinces of the Roman Empire.	<h3>	379 AD	</h3><p><strong>	Rome	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Roselle,_New_Jersey#History	"><img src="img/	1883-the-first-electric-lighting-system-employing-overhead-wires-built-by-thomas-edison-begins-service-at-roselle-new-jersey.-816x816.jpeg	" alt="	The first electric lighting system employing overhead wires, built by Thomas Edison, begins service at Roselle, New Jersey.	"></a><p>	The first electric lighting system employing overhead wires, built by Thomas Edison, begins service at Roselle, New Jersey.	<h3>	1883 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Georges_Claude	"><img src="img/	1915-georges-claude-patents-the-neon-discharge-tube-for-use-in-advertising.-816x435.jpg	" alt="	Georges Claude patents the neon discharge tube for use in advertising.	"></a><p>	Georges Claude patents the neon discharge tube for use in advertising.	<h3>	1915 AD	</h3><p><strong>	France	</strong><p></li>
+                                                                </ul><p><p>												
+                                                                                                                
+                                                                <p id="20"></p><p><p><p>	<h2>	January 	20	</h2>								
+                                                                <ul class="responsive-table">												
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Taula_de_canvi_de_Barcelona	"><img src="img/	1401-the-taula-de-canvi-816x544.jpg	" alt="	The Taula de canvi (Catalan: "Table of change"), described as Europe's first-ever public bank, began operations inside Barcelona's Llotja de Mar.	"></a><p>	The Taula de canvi (Catalan: "Table of change"), described as Europe's first-ever public bank, began operations inside Barcelona's Llotja de Mar.	<h3>	1401 AD	</h3><p><strong>	Spain	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Trial_of_Charles_I	"><img src="img/	trial-of-charles-i-in-westminster-hall-1649-print-by-charles-edward-wagstaff-after-original-painting-by-william-henry-fisk-published-1846-702x336.jpg	" alt="	The High Court of Justice for the trial of Charles I begins its proceedings.	"></a><p>	The High Court of Justice for the trial of Charles I begins its proceedings.	<h3>	1649 AD	</h3><p><strong>	England	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Oakland_Motor_Car_Company	"><img src="img/	1909-newly-formed-automaker-general-motors-gm-buys-into-the-oakland-motor-car-company-816x544.jpg	" alt="	Newly formed automaker General Motors (GM) buys into the Oakland Motor Car Company, which later becomes GM's long-running Pontiac division.	"></a><p>	Newly formed automaker General Motors (GM) buys into the Oakland Motor Car Company, which later becomes GM's long-running Pontiac division.	<h3>	1909 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                </ul><p><p>												
+                                                                                                                
+                                                                <p id="21"></p><p><p><p>	<h2>	January 	21	</h2>								
+                                                                <ul class="responsive-table">												
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Alid_revolt_of_762%E2%80%93763	"><img src="img/	abbsid-caliph-al-manr-from-the-genealogy-silsilanma-cream-of-histories-zbdet-t-tevarih-1598-816x581.jpg	" alt="	Following the Battle of Bakhamra between Alids and Abbasids near Kufa, the Alid rebellion ends with the death of Ibrahim, brother of Isa ibn Musa.	"></a><p>	Following the Battle of Bakhamra between Alids and Abbasids near Kufa, the Alid rebellion ends with the death of Ibrahim, brother of Isa ibn Musa.	<h3>	763 AD	</h3><p><strong>	Hejaz and southern Iraq	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/The_Power_of_Sympathy	"><img src="img/	the-power-of-sympathy-528x277.jpeg	" alt="	The first American novel, The Power of Sympathy or the Triumph of Nature Founded in Truth by William Hill Brown, is printed in Boston.	"></a><p>	The first American novel, The Power of Sympathy or the Triumph of Nature Founded in Truth by William Hill Brown, is printed in Boston.	<h3>	1789 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Concorde	"><img src="img/	1976-commercial-service-of-concorde-begins-with-the-london-bahrain-and-paris-rio-routes..webp	" alt="	Commercial service of Concorde begins with the London-Bahrain and Paris-Rio routes.	"></a><p>	Commercial service of Concorde begins with the London-Bahrain and Paris-Rio routes.	<h3>	1976 AD	</h3><p><strong>	England / France	</strong><p></li>
+                                                                </ul><p><p>												
+                                                                                                                
+                                                                                                                
+                                                                <p id="22"></p><p><p><p>	<h2>	January 	22	</h2>								
+                                                                <ul class="responsive-table">												
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Swiss_Guard	"><img src="img/	pontifical-swiss-guards-election-vatican-city-april-19.webp	" alt="	The first contingent of 150 Swiss Guards arrives at the Vatican.	"></a><p>	The first contingent of 150 Swiss Guards arrives at the Vatican.	<h3>	1506 AD	</h3><p><strong>	Rome	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Convention_Parliament_1689	"><img src="img/	1689-the-convention-parliament-convenes-to-determine-whether-james-ii-and-vii-300x180.jpeg	" alt="	The Convention Parliament convenes to determine whether James II and VII, the last Roman Catholic monarch of England, Ireland and Scotland, had vacated the thrones of England and Ireland when he fled to France in 1688.	"></a><p>	The Convention Parliament convenes to determine whether James II and VII, the last Roman Catholic monarch of England, Ireland and Scotland, had vacated the thrones of England and Ireland when he fled to France in 1688.	<h3>	1689 AD	</h3><p><strong>	England	</strong><p></li>
+                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Mac_computer	"><img src="img/	1984-the-apple-macintosh-816x556.jpg	" alt="	The Apple Macintosh, the first consumer computer to popularize the computer mouse and the graphical user interface, is introduced during a Super Bowl XVIII television commercial.	"></a><p>	The Apple Macintosh, the first consumer computer to popularize the computer mouse and the graphical user interface, is introduced during a Super Bowl XVIII television commercial.	<h3>	1984 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                </ul><p><p>												
+
+                                                                    <p id="23"></p><p><p><p>	<h2>	January 	23	</h2>								
+                                                                        <ul class="responsive-table">												
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Royal_Exchange,_London	"><img src="img/	1571-the-royal-exchange-opens-in-london-700x394.jpeg	" alt="	The Royal Exchange opens in London.	"></a><p>	The Royal Exchange opens in London.	<h3>	1571 AD	</h3><p><strong>	England	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Elizabeth_Blackwell	"><img src="img/	nyp-blackwell-portrait-inset-320x254.jpg	" alt="	Elizabeth Blackwell is awarded her M.D. by the Geneva Medical College of Geneva, New York, becoming the United States' first female doctor.	"></a><p>	Elizabeth Blackwell is awarded her M.D. by the Geneva Medical College of Geneva, New York, becoming the United States' first female doctor.	<h3>	1849 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Mozilla	"><img src="img/	screen-shot-2021-10-21-at-6.52.13-am-800x387.webp	" alt="	Netscape announces Mozilla, with the intention to release Communicator code as open source.	"></a><p>	Netscape announces Mozilla, with the intention to release Communicator code as open source.	<h3>	1998 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                        </ul><p><p>												
+                                                                                                                        
+                                                                        <p id="24"></p><p><p><p>	<h2>	January 	24	</h2>								
+                                                                        <ul class="responsive-table">												
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Claudius	"><img src="img/	claudius-roman-emperor.webp	" alt="	Claudius is proclaimed Roman emperor by the Praetorian Guard after they assassinate the previous emperor, his nephew Caligula.	"></a><p>	Claudius is proclaimed Roman emperor by the Praetorian Guard after they assassinate the previous emperor, his nephew Caligula.	<h3>	41 AD	</h3><p><strong>	Rome	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Parliament_of_Boroa	"><img src="img/	1651-arauco-war-816x344.jpg	" alt="	Arauco War: Spanish and Mapuche authorities meet in the Parliament of Boroa renewing the fragile peace established at the parliaments of Quillín in 1641 and 1647.	"></a><p>	Arauco War: Spanish and Mapuche authorities meet in the Parliament of Boroa renewing the fragile peace established at the parliaments of Quillín in 1641 and 1647.	<h3>	1651 AD	</h3><p><strong>	Chile	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Gottfried_Krueger_Brewing_Company	"><img src="img/	1935-gottfried-krueger-brewing-company-starts-selling-the-first-canned-beer.-602x314.jpeg	" alt="	Gottfried Krueger Brewing Company starts selling the first canned beer.	"></a><p>	Gottfried Krueger Brewing Company starts selling the first canned beer.	<h3>	1935 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                        </ul><p><p>												
+                                                                                                                        
+                                                                        <p id="25"></p><p><p><p>	<h2>	January 	25	</h2>								
+                                                                        <ul class="responsive-table">												
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/S%C3%A3o_Paulo	"><img src="img/	1554-so-paulo-brazil-is-founded-by-jesuit-priests.-816x445.jpg	" alt="	São Paulo, Brazil, is founded by Jesuit priests.	"></a><p>	São Paulo, Brazil, is founded by Jesuit priests.	<h3>	1554 AD	</h3><p><strong>	Brazil	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Oriental_Telephone_Company	"><img src="img/	1881-thomas-edison-and-alexander-graham-bell-form-the-oriental-telephone-company-816x466.jpg	" alt="	Thomas Edison and Alexander Graham Bell form the Oriental Telephone Company.	"></a><p>	Thomas Edison and Alexander Graham Bell form the Oriental Telephone Company.	<h3>	1881 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Thomas_T._Goldsmith_Jr.	"><img src="img/	1947-thomas-goldsmith-jr.-files-a-patent-640x480.jpg	" alt="	Thomas Goldsmith Jr. files a patent for a "Cathode Ray Tube Amusement Device", the first ever electronic game.	"></a><p>	Thomas Goldsmith Jr. files a patent for a "Cathode Ray Tube Amusement Device", the first ever electronic game.	<h3>	1947 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                        </ul><p><p>												
+                                                                                                                        
+                                                                        <p id="26"></p><p><p><p>	<h2>	January 	26	</h2>								
+                                                                        <ul class="responsive-table">												
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Assassination_of_Ali	"><img src="img/	martyrdom-of-imam-ali-by-yousef-abdinejad.jp-816x551.jpg	" alt="	The Rashidun Caliphate is effectively ended with the assassination of Ali, the last caliph.	"></a><p>	The Rashidun Caliphate is effectively ended with the assassination of Ali, the last caliph.	<h3>	661 AD	</h3><p><strong>	Great Mosque of Kufa, Kufa, present-day Iraq	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Treaty_of_Karlowitz	"><img src="img/	800px-treaty-of-karlowitz-800x964.jpeg	" alt="	For the first time, the Ottoman Empire permanently cedes territory to the Christian powers.	"></a><p>	For the first time, the Ottoman Empire permanently cedes territory to the Christian powers.	<h3>	1699 AD	</h3><p><strong>	Karlowitz, Military Frontier, Habsburg monarchy (now Sremski Karlovci, Serbia)	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/John_Logie_Baird	"><img src="img/	1926-the-first-demonstration-of-the-television-by-john-logie-baird.-816x453.jpg	" alt="	The first demonstration of the television by John Logie Baird.	"></a><p>	The first demonstration of the television by John Logie Baird.	<h3>	1926 AD	</h3><p><strong>	22 Frith Street, London, England	</strong><p></li>
+                                                                        </ul><p><p>												
+                                                                                                                        
+                                                                        <p id="27"></p><p><p><p>	<h2>	January 	27	</h2>								
+                                                                        <ul class="responsive-table">												
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Trajan	"><img src="img/	98-trajan-succeeds-his-adoptive-father-nerva-as-roman-emperor-318x159.jpg	" alt="	Trajan succeeds his adoptive father Nerva as Roman emperor; under his rule the Roman Empire will reach its maximum extent.	"></a><p>	Trajan succeeds his adoptive father Nerva as Roman emperor; under his rule the Roman Empire will reach its maximum extent.	<h3>	98 AD	</h3><p><strong>	Rome	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Guy_Fawkes	"><img src="img/	1606-gunpowder-plot-the-trial-of-guy-fawkes-and-other-conspirators-begins.webp	" alt="	Gunpowder Plot: The trial of Guy Fawkes and other conspirators begins, ending with their execution on January 31.	"></a><p>	Gunpowder Plot: The trial of Guy Fawkes and other conspirators begins, ending with their execution on January 31.	<h3>	1606 AD	</h3><p><strong>	England	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Lockheed_P-38_Lightning	"><img src="img/	p38-lightning-816x558.jpg	" alt="	First flight of the Lockheed P-38 Lightning.	"></a><p>	First flight of the Lockheed P-38 Lightning.	<h3>	1939 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                        </ul><p><p>												
+                                                                                                                        
+                                                                                                                        
+                                                                        <p id="28"></p><p><p><p>	<h2>	January 	28	</h2>								
+                                                                        <ul class="responsive-table">												
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Trajan	"><img src="img/	98-on-the-death-of-nerva-trajan-is-declared-roman-emperor-in-cologne-816x612.jpg	" alt="	On the death of Nerva, Trajan is declared Roman emperor in Cologne, the seat of his government in lower Germany.	"></a><p>	On the death of Nerva, Trajan is declared Roman emperor in Cologne, the seat of his government in lower Germany.	<h3>	98 AD	</h3><p><strong>	Germany	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Speed_limit#History	"><img src="img/	1896-walter-arnold-of-east-peckham-605x480.jpeg	" alt="	Walter Arnold of East Peckham, Kent, becomes the first person to be convicted of speeding. He was fined one shilling, plus costs, for speeding at 8 mph (13 km/h), thereby exceeding the contemporary speed limit of 2 mph (3.2 km/h).	"></a><p>	Walter Arnold of East Peckham, Kent, becomes the first person to be convicted of speeding. He was fined one shilling, plus costs, for speeding at 8 mph (13 km/h), thereby exceeding the contemporary speed limit of 2 mph (3.2 km/h).	<h3>	1896 AD	</h3><p><strong>	England	</strong><p></li>
+                                                                        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster	"><img src="img/	challenger-explosion-640x518.jpg	" alt="	Space Shuttle program: STS-51-L mission: Space Shuttle Challenger disintegrates after liftoff, killing all seven astronauts on board.	"></a><p>	Space Shuttle program: STS-51-L mission: Space Shuttle Challenger disintegrates after liftoff, killing all seven astronauts on board.	<h3>	1986 AD	</h3><p><strong>	Atlantic Ocean, off the coast of Florida, United States	</strong><p></li>
+                                                                        </ul><p><p>												
+
+                                                                            <p id="29"></p><p><p><p>	<h2>	January 	29	</h2>								
+                                                                                <ul class="responsive-table">												
+                                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Pope_Sergius_III	"><img src="img/	904-sergius-iii-is-elected-pope-740x491.jpg	" alt="	Sergius III is elected pope, after coming out of retirement to take over the papacy from the deposed antipope Christopher.	"></a><p>	Sergius III is elected pope, after coming out of retirement to take over the papacy from the deposed antipope Christopher.	<h3>	904 AD	</h3><p><strong>	Rome	</strong><p></li>
+                                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Carl_Benz	"><img src="img/	1886-karl-benz-patents-the-first-successful-gasoline-driven-automobile.-816x642.jpg	" alt="	Karl Benz patents the first successful gasoline-driven automobile.	"></a><p>	Karl Benz patents the first successful gasoline-driven automobile.	<h3>	1886 AD	</h3><p><strong>	Germany	</strong><p></li>
+                                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Charles_Curtis	"><img src="img/	charles-curtis.webp	" alt="	Charles Curtis of Kansas becomes the first Native American U.S. Senator.	"></a><p>	Charles Curtis of Kansas becomes the first Native American U.S. Senator.	<h3>	1907 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                                </ul><p><p>												
+                                                                                                                                
+                                                                                <p id="30"></p><p><p><p>	<h2>	January 	30	</h2>								
+                                                                                <ul class="responsive-table">												
+                                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Peace_of_Bautzen	"><img src="img/	1200px-budyin-pomnik-za-budyski-mr-816x1224.jpeg	" alt="	Poland and the Holy Roman Empire conclude the Peace of Bautzen.	"></a><p>	Poland and the Holy Roman Empire conclude the Peace of Bautzen.	<h3>	1018 AD	</h3><p><strong>	Budziszyn, Poland (now Bautzen, Germany)	</strong><p></li>
+                                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Yerba_Buena,_California	"><img src="img/	cf1850-san-francisco-in-november-1848-816x545.jpeg	" alt="	Yerba Buena, California is renamed San Francisco, California.	"></a><p>	Yerba Buena, California is renamed San Francisco, California.	<h3>	1847 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Galileo_spacecraft	"><img src="img/	2007-microsoft-corporation-releases-windows-vista.webp	" alt="	Microsoft Corporation releases Windows Vista, a major release of the operating system Microsoft Windows and the NT based kernel.	"></a><p>	Microsoft Corporation releases Windows Vista, a major release of the operating system Microsoft Windows and the NT based kernel.	<h3>	2007 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                                </ul><p><p>												
+                                                                                                                                
+                                                                                <p id="31"></p><p><p><p>	<h2>	January 	31	</h2>								
+                                                                                <ul class="responsive-table">												
+                                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Pope_Sylvester_I	"><img src="img/	st.-sylvester-pope-large-600x315.jpg	" alt="	Pope Sylvester I is consecrated, as successor to the late Pope Miltiades.	"></a><p>	Pope Sylvester I is consecrated, as successor to the late Pope Miltiades.	<h3>	314 AD	</h3><p><strong>	Rome	</strong><p></li>
+                                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Milwaukee	"><img src="img/	1846-after-the-milwaukee-bridge-war.webp	" alt="	After the Milwaukee Bridge War, the United States towns of Juneautown and Kilbourntown unify to create the City of Milwaukee.	"></a><p>	After the Milwaukee Bridge War, the United States towns of Juneautown and Kilbourntown unify to create the City of Milwaukee.	<h3>	1846 AD	</h3><p><strong>	United States	</strong><p></li>
+                                                                                <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Brexit	"><img src="img/	2020-the-united-kingdoms-membership-within-the-european-union-ceases-816x428.jpg	" alt="	The United Kingdom's membership within the European Union ceases in accordance with Article 50, after 47 years of being a member state.	"></a><p>	The United Kingdom's membership within the European Union ceases in accordance with Article 50, after 47 years of being a member state.	<h3>	2020 AD	</h3><p><strong>	United Kingdom	</strong><p></li>
+                                                                                </ul><p><p>												
+                                                                                
+        
+  
+    </div></div>
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Content Viewer</h5>
+            <button class="close-btn" id="closeModal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button class="close-btn" id="closeFooter">Close</button>
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
+          }
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
+        });
+      </script>
+    
+  
+  
+  <script>
+  const daysContainer = document.getElementById('days');
+  const monthYearDisplay = document.getElementById('monthYear');
+  const prevMonthBtn = document.getElementById('prevMonth');
+  const nextMonthBtn = document.getElementById('nextMonth');
+  
+  let currentDate = new Date();
+  
+  function generateCalendar(date) {
+    daysContainer.innerHTML = '';
+    
+    const month = date.getMonth();
+    const year = date.getFullYear();
+  
+    const firstDayOfMonth = new Date(year, month, 1).getDay();
+    const lastDateOfMonth = new Date(year, month + 1, 0).getDate();
+    const lastDayOfPrevMonth = new Date(year, month, 0).getDate();
+  
+    monthYearDisplay.textContent = `${date.toLocaleString('default', { month: 'long' })} ${year}`;
+  
+    // Previous month dates
+    for (let i = firstDayOfMonth - 1; i >= 0; i--) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = lastDayOfPrevMonth - i;
+      dayDiv.classList.add('prev-next-month');
+      daysContainer.appendChild(dayDiv);
+    }
+  
+    // Current month dates
+    for (let day = 1; day <= lastDateOfMonth; day++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = day;
+  
+      if (day === new Date().getDate() && month === new Date().getMonth() && year === new Date().getFullYear()) {
+        dayDiv.classList.add('current-day');
+      }
+  
+      // Link to a specific webpage when a date is clicked
+      dayDiv.addEventListener('click', function () {
+        window.location.href = `https://twidgrid.com/todayinhistory/${month + 1}#${day}`;
+      });
+  
+      daysContainer.appendChild(dayDiv);
+    }
+  
+    // Next month dates
+    const totalDivs = daysContainer.children.length;
+    const remainingDivs = 42 - totalDivs;
+    
+    for (let i = 1; i <= remainingDivs; i++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = i;
+      dayDiv.classList.add('prev-next-month');
+      daysContainer.appendChild(dayDiv);
+    }
+  }
+  
+  function changeMonth(delta) {
+    currentDate.setMonth(currentDate.getMonth() + delta);
+    generateCalendar(currentDate);
+  }
+  
+  prevMonthBtn.addEventListener('click', () => changeMonth(-1));
+  nextMonthBtn.addEventListener('click', () => changeMonth(1));
+  
+  // Initialize calendar
+  generateCalendar(currentDate);
+  
+  </script>
+
+
+
+            
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
