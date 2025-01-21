@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Assists Records | FIFA World Cup</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"
+        rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="stylesheet" href="../inc/standard.css">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <style>
+        .head {
+            position: relative;
+            background-size: cover;
+            background-image: url('../img/worldcup.jpg');
+            background-position: center;
+            min-height: 400px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f4f4f4;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        @media screen and (max-width: 768px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="cont">
+
+        <div id="head">
+            <div class="block"><a href="../index.html" class="not">
+                    <div class="ban">TwidGrid - FIFA World Cup</div>
+                </a></div>
+        </div>
+
+        <div class="head">
+            <div class="block" style="padding-top: 79px;">
+                <h3>Assists Records</h3><span class="fo-5">FIFA formally records assists only from the 1966 edition onwards.</span>
+                <p></p>
+                <p></p>
+                <div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+            </div>
+        </div>
+
+        <div class="block-978" style="padding-bottom: 39px;">
+
+            <p>
+            <p>
+
+                <p><p>														
+																		
+                    <ul class="responsive-table">																		
+                    <li class="table-cell">		<img src="img/	pele-brazilian-soccer-player-athlete-circa-1970s.webp	" alt="	Most Assists	"><p>	Most Assists	<h3>	Pelé	</h3><p><strong>	Brazil	</strong><p>	10 assists	<p>	1958–1970	<p>		<p></li>
+                    <li class="table-cell">		<img src="img/	kopa-1.webp	" alt="	Most Assists in a Tournament	"><p>	Most Assists in a Tournament	<h3>	Raymond Kopa	</h3><p><strong>	France	</strong><p>	9 assists	<p>	1958	<p>		<p></li>
+                    <li class="table-cell">		<img src="img/	lionel-messi-20180626-cropped-512x769.jpeg	" alt="	Most Tournaments Assisted in	"><p>	Most Tournaments Assisted in	<h3>	Lionel Messi	</h3><p><strong>	Argentina	</strong><p>	5 assists	<p>	2006, 2010, 2014, 2018, 2022	<p>		<p></li>
+                    <li class="table-cell">		<img src="img/	robert-gadocha-363x429.jpeg	" alt="	Most Assists Provided in a Match	"><p>	Most Assists Provided in a Match	<h3>	Robert Gadocha	</h3><p><strong>	Poland	</strong><p>	4 assists	<p>	Poland vs. Haiti	<p>	1974	<p></li>
+                    <li class="table-cell">		<img src="img/	pele-con-brasil-cropped-388x526.jpeg	" alt="	Most Assists Provided in Final Matches	"><p>	Most Assists Provided in Final Matches	<h3>	Pelé	</h3><p><strong>	Brazil	</strong><p>	3 assists	<p>	1 in 1958, 2 in 1970	<p>		<p></li>
+                    <li class="table-cell">		<img src="img/	lionelmessi2022-376x470.jpeg	" alt="	Most Assists in the Knockout Rounds	"><p>	Most Assists in the Knockout Rounds	<h3>	Lionel Messi	</h3><p><strong>	Argentina	</strong><p>	5 assist	<p>	2006, 2010, 2014, 2018, 2022	<p>		<p></li>
+                    </ul><p><p>																		
+                                                                                
+
+
+
+
+        </div>
+    </div>
+
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+    <script>
+        window.addEventListener('scroll', function () {
+            let backToTop = document.getElementById('back-to-top');
+
+            if (window.scrollY > 300) { // Show button after scrolling 300px
+                backToTop.style.display = 'block';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        });
+
+        document.getElementById('back-to-top').addEventListener('click', function (e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+        });
+    </script>
+
+    <footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
