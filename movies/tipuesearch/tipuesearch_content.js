@@ -1,6 +1,16 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Betty Gilpin	", "text": "	Elizabeth Folan Gilpin (born July 21, 1986) is an American actress.	", "img": "img/	Betty Gilpin.jpg	", "tags": "		", "note": "		", "url": "	actors.html#:~:text=Betty Gilpin	"},
+{"title": "	Taylor Kitsch	", "text": "	Taylor Kitsch (born April 8, 1981) is a Canadian actor.	", "img": "img/	Taylor Kitsch.jpg	", "tags": "		", "note": "		", "url": "	actors.html#:~:text=Taylor Kitsch	"},
+{"title": "	Ali Larter	", "text": "	Alison Elizabeth Larter (born February 28, 1976) is an American actress and former model.	", "img": "img/	Ali Larter.jpg	", "tags": "		", "note": "		", "url": "	actors.html#:~:text=Ali Larter	"},
+{"title": "	Michelle Randolph	", "text": "	Michelle Randolph (born September 11, 1997) is an American actress known for her roles as Elizabeth Strafford in 1923 and Ainsley Norris in Landman.	", "img": "img/	Michelle Randolph.jpg	", "tags": "		", "note": "		", "url": "	actors.html#:~:text=Michelle Randolph	"},
+{"title": "	Sophie Thatcher	", "text": "	Sophie Bathsheba Thatcher (born October 18, 2000) is an American actress.	", "img": "img/	Sophie Thatcher.jpg	", "tags": "		", "note": "		", "url": "	actors.html#:~:text=Sophie Thatcher	"},
+{"title": "	Britt Lower	", "text": "	Britt Lower (born August 2, 1985) is an American actress known for her roles in the crime drama series Unforgettable (2011–2014), the romantic comedy series Man Seeking Woman (2015–2017), and the thriller series Severance (2022–present).	", "img": "img/	Britt Lower.jpg	", "tags": "		", "note": "		", "url": "	actors.html#:~:text=Britt Lower	"},
+{"title": "	Saura Lightfoot-Leon	", "text": "	Saura Lightfoot-Leon (born 1 January 1998) is a Dutch-born English-Spanish actress.	", "img": "img/	Saura Lightfoot-Leon.jpg	", "tags": "		", "note": "		", "url": "	actors.html#:~:text=Saura Lightfoot-Leon	"},
+{"title": "	Lily-Rose Depp	", "text": "	Lily-Rose Melody Depp (born 27 May 1999) is a French and American actress.	", "img": "img/	Lily-Rose Depp.jpg	", "tags": "		", "note": "		", "url": "	actors.html#:~:text=Lily-Rose Depp	"},
+{"title": "	Jill Wagner	", "text": "	Jill Suzanne Wagner (born January 13, 1979) is an American actress and television personality.	", "img": "img/	Jill Wagner.jpg	", "tags": "		", "note": "		", "url": "	actors.html#:~:text=Jill Wagner	"},
+
      {"title": "	One of Them Days	", "text": "	When best friends and roommates Dreux and Alyssa discover Alyssa's boyfriend has blown their rent money, the duo finds themselves going to extremes in a race against the clock to avoid eviction and keep their friendship intact.	", "img": "img/	One of Them Days (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=One of Them Days	"},
 {"title": "	Wolf Man	", "text": "	A family at a remote farmhouse is attacked by an unseen animal, but as the night stretches on, the father begins to transform into something unrecognizable.	", "img": "img/	Wolf Man (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Wolf Man	"},
 
