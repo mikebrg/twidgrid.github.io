@@ -1,6 +1,26 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Alphaville	", "text": "	Alphaville is a German synthpop band formed in Münster in 1982.	", "img": "img/	Alphaville.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Alphaville	"},
+{"title": "	Ava Max	", "text": "	Amanda Ava Koci (born Amanda Koçi; February 16, 1994), known professionally as Ava Max, is an American singer and songwriter.	", "img": "img/	Ava Max.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Ava Max	"},
+{"title": "	CHRYSTAL	", "text": "	Chrystal is an R&B musician who was born in Bolton, England, and has significantly influenced Contemporary R&B.	", "img": "img/	CHRYSTAL.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=CHRYSTAL	"},
+{"title": "	David Guetta	", "text": "	Pierre David Guetta (born 7 November 1967) is a French DJ and music producer.	", "img": "img/	David Guetta.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=David Guetta	"},
+{"title": "	GIVEON	", "text": "	Giveon Dezmann Evans, known mononymously as Giveon, is an American R&B singer.	", "img": "img/	GIVEON.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=GIVEON	"},
+{"title": "	Heidi Montag	", "text": "	Heidi Blair Pratt (née Montag; born September 15, 1986) is an American reality television personality and singer.	", "img": "img/	Heidi Montag.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Heidi Montag	"},
+{"title": "	Imogen Heap	", "text": "	Imogen Jennifer Jane Heap (born 9 December 1977) is an English singer, songwriter and record producer.	", "img": "img/	Imogen Heap.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Imogen Heap	"},
+{"title": "	Ringo Starr	", "text": "	Sir Richard Starkey (born 7 July 1940), known professionally as Ringo Starr, is an English musician, songwriter and actor who achieved international fame as the drummer for the Beatles.	", "img": "img/	Ringo Starr.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Ringo Starr	"},
+{"title": "	Rio da Yung OG	", "text": "	Da'mario Donshay Horne-McCullough (born May 11, 1994), known professionally as Rio da Yung OG, is an American rapper from Michigan.	", "img": "img/	Rio da Yung OG.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Rio da Yung OG	"},
+
+     {"title": "	Superficial	", "text": "	Superficial is an album by Heidi Montag released in 2025	", "img": "img/	SuperficialHeidiMontag2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Superficial	"},
+{"title": "	Look Up	", "text": "	Look Up is an album by Ringo Starr released in 2025	", "img": "img/	LookUpRingoStarr2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Look Up	"},
+{"title": "	Rio Free	", "text": "	Rio Free is an album by Rio da Yung OG released in 2025	", "img": "img/	RioFreeRiodaYungOG2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Rio Free	"},
+
+     {"title": "	Are You Even Real	", "text": "	Are You Even Real is a song by Teddy Swims & GIVEON released in 2025	", "img": "img/	Are You Even RealTeddy Swims & GIVEON2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Are You Even Real	"},
+{"title": "	Bigger Houses	", "text": "	Bigger Houses is a song by Dan + Shay released in 2023	", "img": "img/	Bigger HousesDan + Shay2023.png	", "tags": "		", "note": "		", "url": "	2023.html#:~:text=Bigger Houses	"},
+{"title": "	The Days	", "text": "	The Days is a song by CHRYSTAL released in 2024	", "img": "img/	The DaysCHRYSTAL2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=The Days	"},
+{"title": "	Forever Young	", "text": "	Forever Young is a song by David Guetta, Alphaville & Ava Max released in 2024	", "img": "img/	Forever YoungDavid Guetta, Alphaville & Ava Max2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Forever Young	"},
+{"title": "	Headlock	", "text": "	Headlock is a song by Imogen Heap released in 2005	", "img": "img/	HeadlockImogen Heap2005.png	", "tags": "		", "note": "		", "url": "	2005.html#:~:text=Headlock	"},
+
      {"title": "	G3 (LiAngelo Ball)	", "text": "	LiAngelo Robert Ball (born November 24, 1998) is an American professional basketball player and rapper who last played for the Astros de Jalisco.	", "img": "img/	G3 (LiAngelo Ball).jpeg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=G3 (LiAngelo Ball)	"},
 {"title": "	Rylo Rodriguez	", "text": "	Ryan Preston Adams (born September 30, 1993), known professionally as Rylo Rodriguez, is an American rapper from Mobile, Alabama.	", "img": "img/	Rylo Rodriguez.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Rylo Rodriguez	"},
 {"title": "	RaiNao	", "text": "	Naomi Ramírez is a Puerto Rican singer-songwriter known professionaly as RaiNao.	", "img": "img/	RaiNao.jpeg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=RaiNao	"},
