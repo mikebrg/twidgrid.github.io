@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Wisdom Books | Bible</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+   
+    .head {
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/bible.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+</style>
+
+</head><body>
+
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid - Bible</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>Wisdom Books</h3><span class="fo-5">The Bible's wisdom books offer insights and teachings about life, human experience, and the nature of God, emphasizing themes like suffering, morality, and the pursuit of meaning.</span>
+<p></p><p></p>    
+<div>
+    <a class="btn-2" href="	index	.html">	Home	</a>
+    <a class="btn-2" href="	search	.html">	Search	</a>
+    <a class="btn-2" href="	pentateuch	.html">	Pentateuch	</a>
+    <a class="btn-2" href="	historical-books	.html">	Historical Books	</a>
+    <a class="btn-2" href="	wisdom-books	.html">	Wisdom Books	</a>
+    <a class="btn-2" href="	prophetic-books	.html">	Prophetic Books	</a>
+    <a class="btn-2" href="	gospels	.html">	Gospels	</a>
+    <a class="btn-2" href="	letters	.html">	New Testament Letters	</a>
+    <a class="btn-2" href="	catholic-letters	.html">	Catholic Letters	</a>    
+  </div>
+  
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+  <ul class="responsive-table">										
+    <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	angry-medieval-man-with-long-hair-beard-screaming-side-view-against-dark-background-studio-lig-1130306-9890-1-816x457.jpg	" alt="	Job	"></a><h3>	Job	</h3><p>	Explores the themes of suffering, faith, and God’s sovereignty through the trials of Job.	</p></li>
+    <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	wellness-practices-self-care-world-health-day-23-2151256732-816x457.jpg	" alt="	Psalms	"></a><h3>	Psalms	</h3><p>	A collection of songs and prayers expressing worship, lament, praise, and thanksgiving.	</p></li>
+    <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	showcase-children-s-lives-ancient-greece-23-2151648803-816x457.jpg	" alt="	Proverbs	"></a><h3>	Proverbs	</h3><p>	A compilation of wise sayings providing practical guidance for righteous living.	</p></li>
+    <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	law-attraction-nature-1204896-15910-816x457.jpg	" alt="	Ecclesiastes	"></a><h3>	Ecclesiastes	</h3><p>	Reflects on the meaning of life, acknowledging life’s vanity without God.	</p></li>
+    <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	jesus-woman-desert-captured-beautifully-869640-516347-816x457.jpg	" alt="	The Song of Songs	"></a><h3>	The Song of Songs	</h3><p>	A poetic celebration of love between a bride and groom, often seen as symbolic of God’s love.	</p></li>
+    <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	wellness-practices-self-care-world-health-day-23-2151256701-816x544.jpg	" alt="	The Book of Wisdom	"></a><h3>	The Book of Wisdom	</h3><p>	Explores the nature of wisdom, urging readers to seek righteousness, resist idolatry, and trust in God’s guidance and justice, with reflections on the rewards of a wise and faithful life.	</p></li>
+    <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	group-young-college-students-tutoring-preparing-exam-campus-park-960396-538789-816x544.jpg	" alt="	Sirach	"></a><h3>	Sirach	</h3><p>	Offers practical wisdom on living a virtuous life, covering topics like friendship, humility, family, and honoring God, while emphasizing the importance of wisdom rooted in reverence for the Lord.	</p></li>
+    </ul>										
+                                                            
+
+            
+    </div></div>
+
+        <!-- Modal Structure -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Content Viewer</h5>
+                <button class="close-btn" id="closeModal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+              </div>
+              <div class="modal-footer">
+                <button class="close-btn" id="closeFooter">Close</button>
+              </div>
+            </div>
+          </div>
+          
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+              const modal = document.getElementById('modal');
+              const iframe = document.getElementById('contentIframe');
+              const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+          
+              // Function to adjust iframe height
+              function adjustIframeHeight() {
+                const modalContent = document.querySelector('.modal-content');
+                const headerHeight = document.querySelector('.modal-header').offsetHeight;
+                const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+                const modalHeight = modalContent.offsetHeight;
+          
+                // Set iframe height based on the remaining space
+                const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+                iframe.style.height = iframeHeight + 'px';
+              }
+          
+              // Open modal and set iframe source on click
+              links.forEach(link => {
+                link.addEventListener('click', function (event) {
+                  event.preventDefault();
+                  const url = this.href;
+          
+                  if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                    iframe.src = url;
+                  }
+          
+                  modal.style.display = 'flex'; // Show modal
+                  adjustIframeHeight(); // Adjust iframe height on modal open
+                });
+              });
+          
+              // Close modal and clear iframe content
+              closeModalButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                  modal.style.display = 'none';
+                  iframe.src = ''; // Clear the iframe content when the modal is closed
+                });
+              });
+          
+              // Close modal when clicking outside modal content
+              modal.addEventListener('click', function (event) {
+                if (event.target === modal) {
+                  modal.style.display = 'none';
+                  iframe.src = ''; // Clear the iframe content when the modal is closed
+                }
+              });
+          
+              // Recalculate iframe height when the window is resized
+              window.addEventListener('resize', adjustIframeHeight);
+            });
+          </script>
+    
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
