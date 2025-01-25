@@ -46,23 +46,95 @@
 
     <ul class="responsive-table">
 
-        <li class="table-cell"><a href="		"><img src="img/		btc-376x376.jpg	" alt="	Birkirkara Tennis Club	"></a><h3>	Birkirkara Tennis Club	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		lija-tennis-club-1-300x300.png	" alt="	Lija Tennis Club	"></a><h3>	Lija Tennis Club	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		malta-union-club-1-376x376.jpg	" alt="	Malta Union Club	"></a><h3>	Malta Union Club	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		marsa-sports-club-376x376.png	" alt="	Marsa Sports Club	"></a><h3>	Marsa Sports Club	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		mgarr-tennis-club-376x376.jpg	" alt="	Mgarr Tennis Club	"></a><h3>	Mgarr Tennis Club	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		pembroke-rackets-tennis-club-1-376x376.png	" alt="	Pembroke Rackets Tennis Club	"></a><h3>	Pembroke Rackets Tennis Club	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		rinella-tennis-club-376x376.png	" alt="	Rinella Tennis Club	"></a><h3>	Rinella Tennis Club	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		sac-logo-vertical-2-300x300.jpg	" alt="	St Aloysius Tennis Club	"></a><h3>	St Aloysius Tennis Club	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		tennis-club-kordin-376x376.png	" alt="	Tennis Club Kordin	"></a><h3>	Tennis Club Kordin	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		vittoriosa-lawn-tennis-club-1-800x800.jpg	" alt="	Vittoriosa Lawn Tennis Club	"></a><h3>	Vittoriosa Lawn Tennis Club	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		zebbug-tennis-club-1-350x350.jpg	" alt="	Zebbug Tennis Club	"></a><h3>	Zebbug Tennis Club	</h3><p>				</p></li>
-                                        
+        <li class="table-cell"><a href="tgmdb/	tc001	.html"><img src="img/		btc-376x376.jpg	" alt="	Birkirkara Tennis Club	"></a><h3>	Birkirkara Tennis Club	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc002	.html"><img src="img/		lija-tennis-club-1-300x300.png	" alt="	Lija Tennis Club	"></a><h3>	Lija Tennis Club	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc003	.html"><img src="img/		malta-union-club-1-376x376.jpg	" alt="	Malta Union Club	"></a><h3>	Malta Union Club	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc004	.html"><img src="img/		marsa-sports-club-376x376.png	" alt="	Marsa Sports Club	"></a><h3>	Marsa Sports Club	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc005	.html"><img src="img/		mgarr-tennis-club-376x376.jpg	" alt="	Mgarr Tennis Club	"></a><h3>	Mgarr Tennis Club	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc006	.html"><img src="img/		pembroke-rackets-tennis-club-1-376x376.png	" alt="	Pembroke Rackets Tennis Club	"></a><h3>	Pembroke Rackets Tennis Club	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc007	.html"><img src="img/		rinella-tennis-club-376x376.png	" alt="	Rinella Tennis Club	"></a><h3>	Rinella Tennis Club	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc008	.html"><img src="img/		sac-logo-vertical-2-300x300.jpg	" alt="	St Aloysius Tennis Club	"></a><h3>	St Aloysius Tennis Club	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc009	.html"><img src="img/		tennis-club-kordin-376x376.png	" alt="	Tennis Club Kordin	"></a><h3>	Tennis Club Kordin	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc010	.html"><img src="img/		vittoriosa-lawn-tennis-club-1-800x800.jpg	" alt="	Vittoriosa Lawn Tennis Club	"></a><h3>	Vittoriosa Lawn Tennis Club	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	tc011	.html"><img src="img/		zebbug-tennis-club-1-350x350.jpg	" alt="	Zebbug Tennis Club	"></a><h3>	Zebbug Tennis Club	</h3><p>				</p></li>
+                                                
         
 
     </ul>
             
     </div></div>
+
+                        <!-- Modal Structure -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Content Viewer</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
+    </div>
+  </div>
+  
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
+          }
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
+        });
+      </script>
+
 
     <a href="#" id="back-to-top" title="Back to top">↑</a>
 
@@ -86,7 +158,7 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
 <footer class="foot">
 
         <div class="block fo-1">
-            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="contact.html">Contact Us</a></p>
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a></p>
             <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
         </div>
     </footer>

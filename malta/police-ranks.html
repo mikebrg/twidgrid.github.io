@@ -47,19 +47,91 @@
     <ul class="responsive-table">
 
 									
-        <li class="table-cell"><a href="		"><img src="img/		malta-police-commissioner-insignia-300x300.jpg	" alt="	Commissioner	"></a><h3>	Commissioner	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		malta-police-deputy-commissioner-insignia-300x300.jpg	" alt="	Deputy Commissioner	"></a><h3>	Deputy Commissioner	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		malta-police-assistant-commissioner-insignia-300x300.jpg	" alt="	Assistant Commissioner	"></a><h3>	Assistant Commissioner	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		malta-police-superintendent-insignia-300x300.jpg	" alt="	Superintendent	"></a><h3>	Superintendent	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		malta-police-inspector-insignia-300x300.jpg	" alt="	Inspector	"></a><h3>	Inspector	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		sergeant-major-1-300x300.jpg	" alt="	Sergeant Major I	"></a><h3>	Sergeant Major I	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		sergeant-major-2-300x300.jpg	" alt="	Sergeant Major II	"></a><h3>	Sergeant Major II	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		malta-police-sergeant-insignia-300x300.jpg	" alt="	Sergeant	"></a><h3>	Sergeant	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		malta-police-constable-insignia-300x300.jpg	" alt="	Constable	"></a><h3>	Constable	</h3><p>				</p></li>
-                                                                                                                                                                                                                            
+        <li class="table-cell"><a href="tgmdb/	pr001	.html"><img src="img/		malta-police-commissioner-insignia-300x300.jpg	" alt="	Commissioner	"></a><h3>	Commissioner	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	pr002	.html"><img src="img/		malta-police-deputy-commissioner-insignia-300x300.jpg	" alt="	Deputy Commissioner	"></a><h3>	Deputy Commissioner	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	pr003	.html"><img src="img/		malta-police-assistant-commissioner-insignia-300x300.jpg	" alt="	Assistant Commissioner	"></a><h3>	Assistant Commissioner	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	pr004	.html"><img src="img/		malta-police-superintendent-insignia-300x300.jpg	" alt="	Superintendent	"></a><h3>	Superintendent	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	pr005	.html"><img src="img/		malta-police-inspector-insignia-300x300.jpg	" alt="	Inspector	"></a><h3>	Inspector	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	pr006	.html"><img src="img/		sergeant-major-1-300x300.jpg	" alt="	Sergeant Major I	"></a><h3>	Sergeant Major I	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	pr007	.html"><img src="img/		sergeant-major-2-300x300.jpg	" alt="	Sergeant Major II	"></a><h3>	Sergeant Major II	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	pr008	.html"><img src="img/		malta-police-sergeant-insignia-300x300.jpg	" alt="	Sergeant	"></a><h3>	Sergeant	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	pr009	.html"><img src="img/		malta-police-constable-insignia-300x300.jpg	" alt="	Constable	"></a><h3>	Constable	</h3><p>				</p></li>
+                                                                                                                                                                                                                                    
     </ul>
             
     </div></div>
+
+                        <!-- Modal Structure -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Content Viewer</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
+    </div>
+  </div>
+  
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
+          }
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
+        });
+      </script>
+
 
     <a href="#" id="back-to-top" title="Back to top">↑</a>
 
@@ -83,7 +155,7 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
 <footer class="foot">
 
         <div class="block fo-1">
-            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="contact.html">Contact Us</a></p>
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a></p>
             <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
         </div>
     </footer>

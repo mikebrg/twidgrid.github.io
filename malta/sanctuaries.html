@@ -47,17 +47,89 @@
     <ul class="responsive-table">
 
 									
-        <li class="table-cell"><a href="		"><img src="img/		800px-chapel-of-santa-marija-tal-las-376x501.jpg	" alt="	Ħal Qormi Sanctuary Our Lady of Childbirth, Roman Catholic	"></a><h3>	Ħal Qormi Sanctuary Our Lady of Childbirth, Roman Catholic	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		1280px-sacred-heart-church-haz-zebbug-376x282.jpg	" alt="	Ħaż-Żebbuġ, Sanctuary, Sacred Heart of Jesus, Roman Catholic	"></a><h3>	Ħaż-Żebbuġ, Sanctuary, Sacred Heart of Jesus, Roman Catholic	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		2.2.webp	" alt="	Ħaż-Żebbuġ, Sanctuary, St James, Coptic Orthodox	"></a><h3>	Ħaż-Żebbuġ, Sanctuary, St James, Coptic Orthodox	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		buildings-in-naxxar-9-376x281.jpg	" alt="	Naxxar, Sanctuary, Divine Mercy, Roman Catholic	"></a><h3>	Naxxar, Sanctuary, Divine Mercy, Roman Catholic	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		img-938-376x282.jpg	" alt="	Qala, Sanctuary, Immaculate Conception, Roman Catholic	"></a><h3>	Qala, Sanctuary, Immaculate Conception, Roman Catholic	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		annunciation-church-and-statue-376x249.jpeg	" alt="	San Ġwann, Sanctuary, Annunciation of Our Lady & St Leonard, Roman Catholic	"></a><h3>	San Ġwann, Sanctuary, Annunciation of Our Lady & St Leonard, Roman Catholic	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		st.-pauls-bay-church-376x282.jpg	" alt="	St Paul's Bay, Sanctuary, St Paul Shipwrecked, Roman Catholic	"></a><h3>	St Paul's Bay, Sanctuary, St Paul Shipwrecked, Roman Catholic	</h3><p>				</p></li>
-                                                                                                                                                                                                                                        
+        <li class="table-cell"><a href="tgmdb/	s001	.html"><img src="img/		800px-chapel-of-santa-marija-tal-las-376x501.jpg	" alt="	Ħal Qormi Sanctuary Our Lady of Childbirth, Roman Catholic	"></a><h3>	Ħal Qormi Sanctuary Our Lady of Childbirth, Roman Catholic	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	s002	.html"><img src="img/		1280px-sacred-heart-church-haz-zebbug-376x282.jpg	" alt="	Ħaż-Żebbuġ, Sanctuary, Sacred Heart of Jesus, Roman Catholic	"></a><h3>	Ħaż-Żebbuġ, Sanctuary, Sacred Heart of Jesus, Roman Catholic	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	s003	.html"><img src="img/		2.2.webp	" alt="	Ħaż-Żebbuġ, Sanctuary, St James, Coptic Orthodox	"></a><h3>	Ħaż-Żebbuġ, Sanctuary, St James, Coptic Orthodox	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	s004	.html"><img src="img/		buildings-in-naxxar-9-376x281.jpg	" alt="	Naxxar, Sanctuary, Divine Mercy, Roman Catholic	"></a><h3>	Naxxar, Sanctuary, Divine Mercy, Roman Catholic	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	s005	.html"><img src="img/		img-938-376x282.jpg	" alt="	Qala, Sanctuary, Immaculate Conception, Roman Catholic	"></a><h3>	Qala, Sanctuary, Immaculate Conception, Roman Catholic	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	s006	.html"><img src="img/		annunciation-church-and-statue-376x249.jpeg	" alt="	San Ġwann, Sanctuary, Annunciation of Our Lady & St Leonard, Roman Catholic	"></a><h3>	San Ġwann, Sanctuary, Annunciation of Our Lady & St Leonard, Roman Catholic	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	s007	.html"><img src="img/		st.-pauls-bay-church-376x282.jpg	" alt="	St Paul's Bay, Sanctuary, St Paul Shipwrecked, Roman Catholic	"></a><h3>	St Paul's Bay, Sanctuary, St Paul Shipwrecked, Roman Catholic	</h3><p>				</p></li>
+                                                                                                                                                                                                                                                
     </ul>
             
     </div></div>
+
+                        <!-- Modal Structure -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Content Viewer</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
+    </div>
+  </div>
+  
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
+          }
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
+        });
+      </script>
+
 
     <a href="#" id="back-to-top" title="Back to top">↑</a>
 
@@ -81,7 +153,7 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
 <footer class="foot">
 
         <div class="block fo-1">
-            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="contact.html">Contact Us</a></p>
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a></p>
             <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
         </div>
     </footer>

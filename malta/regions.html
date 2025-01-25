@@ -47,20 +47,92 @@
     <ul class="responsive-table">
 
 									
-        <li class="table-cell"><a href="		"><img src="img/		colour-east-region-white-376x376.png	" alt="	Eastern Region	"></a><h3>	Eastern Region	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		image-3-376x376.png	" alt="	Gozo Region	"></a><h3>	Gozo Region	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		northern-region-malta-coa.svg-376x376.png	" alt="	Northern Region	"></a><h3>	Northern Region	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		port-250x250.png	" alt="	Port Region	"></a><h3>	Port Region	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		regjun-nofsinhar-logo-english-text-scaled3-376x376.png	" alt="	Southern Region	"></a><h3>	Southern Region	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		punent-300x300.png	" alt="	Western Region	"></a><h3>	Western Region	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		central-region-malta-coa.svg-376x376.png	" alt="	Central Region 2009-2021	"></a><h3>	Central Region 2009-2021	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		south-eastern-region-malta-coa.svg-1-376x376.png	" alt="	South Eastern Region 2009-2021	"></a><h3>	South Eastern Region 2009-2021	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		1024px-majjistral-map.svg-376x376.png	" alt="	North Western Region 1993-2009	"></a><h3>	North Western Region 1993-2009	</h3><p>				</p></li>
-        <li class="table-cell"><a href="		"><img src="img/		xlokk-map.svg-376x376.png	" alt="	South Eastern Region 1993-2009	"></a><h3>	South Eastern Region 1993-2009	</h3><p>				</p></li>
-                                                                                                                                                                                                                    
+        <li class="table-cell"><a href="tgmdb/	r001	.html"><img src="img/		colour-east-region-white-376x376.png	" alt="	Eastern Region	"></a><h3>	Eastern Region	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	r002	.html"><img src="img/		image-3-376x376.png	" alt="	Gozo Region	"></a><h3>	Gozo Region	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	r003	.html"><img src="img/		northern-region-malta-coa.svg-376x376.png	" alt="	Northern Region	"></a><h3>	Northern Region	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	r004	.html"><img src="img/		port-250x250.png	" alt="	Port Region	"></a><h3>	Port Region	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	r005	.html"><img src="img/		regjun-nofsinhar-logo-english-text-scaled3-376x376.png	" alt="	Southern Region	"></a><h3>	Southern Region	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	r006	.html"><img src="img/		punent-300x300.png	" alt="	Western Region	"></a><h3>	Western Region	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	r007	.html"><img src="img/		central-region-malta-coa.svg-376x376.png	" alt="	Central Region 2009-2021	"></a><h3>	Central Region 2009-2021	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	r008	.html"><img src="img/		south-eastern-region-malta-coa.svg-1-376x376.png	" alt="	South Eastern Region 2009-2021	"></a><h3>	South Eastern Region 2009-2021	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	r009	.html"><img src="img/		1024px-majjistral-map.svg-376x376.png	" alt="	North Western Region 1993-2009	"></a><h3>	North Western Region 1993-2009	</h3><p>				</p></li>
+        <li class="table-cell"><a href="tgmdb/	r010	.html"><img src="img/		xlokk-map.svg-376x376.png	" alt="	South Eastern Region 1993-2009	"></a><h3>	South Eastern Region 1993-2009	</h3><p>				</p></li>
+                                                                                                                                                                                                                            
     </ul>
             
     </div></div>
+
+                        <!-- Modal Structure -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Content Viewer</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
+    </div>
+  </div>
+  
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
+          }
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
+        });
+      </script>
+
 
     <a href="#" id="back-to-top" title="Back to top">↑</a>
 
@@ -84,7 +156,7 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
 <footer class="foot">
 
         <div class="block fo-1">
-            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="contact.html">Contact Us</a></p>
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a></p>
             <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
         </div>
     </footer>
