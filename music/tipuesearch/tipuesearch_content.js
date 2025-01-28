@@ -1,6 +1,19 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Tyla	", "text": "	Tyla Laura Seethal (born 30 January 2002), known mononymously as Tyla, is a South African singer.	", "img": "img/	Tyla.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Tyla	"},
+{"title": "	Mac Miller	", "text": "	Malcolm James McCormick (January 19, 1992 – September 7, 2018), known professionally as Mac Miller, was an American rapper.	", "img": "img/	Mac Miller.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Mac Miller	"},
+
+     {"title": "	Balloonerism	", "text": "	Balloonerism is an album by Mac Miller released in 2025	", "img": "img/	BalloonerismMacMiller2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Balloonerism	"},
+
+     {"title": "	Funny Papers	", "text": "	Funny Papers is a song by Mac Miller released in 2025	", "img": "img/	Funny PapersMac Miller2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Funny Papers	"},
+{"title": "	5 Dollar Pony Rides	", "text": "	5 Dollar Pony Rides is a song by Mac Miller released in 2025	", "img": "img/	5 Dollar Pony RidesMac Miller2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=5 Dollar Pony Rides	"},
+{"title": "	Push 2 Start	", "text": "	Push 2 Start is a song by Tyla released in 2024	", "img": "img/	Push 2 StartTyla2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Push 2 Start	"},
+{"title": "	GBP	", "text": "	GBP is a song by Central Cee Featuring 21 Savage released in 2025	", "img": "img/	GBPCentral Cee Featuring 21 Savage2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=GBP	"},
+{"title": "	DJ's Chord Organ	", "text": "	DJ's Chord Organ is a song by Mac Miller Featuring SZA released in 2025	", "img": "img/	DJ's Chord OrganMac Miller Featuring SZA2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=DJ's Chord Organ	"},
+{"title": "	Stoned	", "text": "	Stoned is a song by Mac Miller released in 2025	", "img": "img/	StonedMac Miller2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Stoned	"},
+
+
      {"title": "	Alphaville	", "text": "	Alphaville is a German synthpop band formed in Münster in 1982.	", "img": "img/	Alphaville.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Alphaville	"},
 {"title": "	Ava Max	", "text": "	Amanda Ava Koci (born Amanda Koçi; February 16, 1994), known professionally as Ava Max, is an American singer and songwriter.	", "img": "img/	Ava Max.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Ava Max	"},
 {"title": "	CHRYSTAL	", "text": "	Chrystal is an R&B musician who was born in Bolton, England, and has significantly influenced Contemporary R&B.	", "img": "img/	CHRYSTAL.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=CHRYSTAL	"},
