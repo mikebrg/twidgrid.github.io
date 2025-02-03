@@ -1,6 +1,10 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Verona's Romeo & Juliet	", "text": "	Based on the real story that inspired Shakespeare's Romeo and Juliet, follows the greatest love story of all time, set as an original pop musical.	", "img": "img/	Verona's Romeo & Juliet (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Verona's Romeo & Juliet	"},
+{"title": "	You, Me & Her	", "text": "	A chronically married couple flirts with a threesome to rediscover themselves.	", "img": "img/	You, Me & Her (2023).webp	", "tags": "		", "note": "		", "url": "	2023.html#:~:text=You, Me & Her	"},
+{"title": "	Desire Lines	", "text": "	An Iranian American trans man travels back in time to an LGBTQ+ archive to understand his sexuality. He encounters his past and present selves during an erotic journey of self-discovery.	", "img": "img/	Desire Lines (2024).webp	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Desire Lines	"},
+
      {"title": "	I'm Still Here	", "text": "	A mother is forced to reinvent herself when her family's life is shattered by an act of arbitrary violence during the tightening grip of a military dictatorship in Brazil, 1971.	", "img": "img/	I'm Still Here (2024).webp	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=I'm Still Here	"},
 {"title": "	Parthenope	", "text": "	Partenope is a woman who bears the name of her city. Is she a siren or a myth?	", "img": "img/	Parthenope (2024).webp	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Parthenope	"},
 {"title": "	Armand	", "text": "	Armand, a 6-year-old boy, is accused of crossing boundaries against his best friend at elementary school.	", "img": "img/	Armand (2024).webp	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Armand	"},
