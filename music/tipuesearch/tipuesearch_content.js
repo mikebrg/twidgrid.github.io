@@ -1,6 +1,31 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Leon Thomas	", "text": "	Amos Leon Thomas Jr. (October 4, 1937 – May 8, 1999), known professionally as Leon Thomas, was an American jazz and blues vocalist, born in East St. Louis, Illinois, and known for his bellowing glottal-stop style of free jazz singing in the late 1960s and 1970s.	", "img": "img/	Leon Thomas.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Leon Thomas	"},
+{"title": "	Grupo Frontera	", "text": "	Grupo Frontera is a Mexican-American regional Mexican band from Edinburg, Texas.	", "img": "img/	Grupo Frontera.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Grupo Frontera	"},
+{"title": "	FKA twigs	", "text": "	Tahliah Debrett Barnett (born 16 January 1988), known professionally as FKA Twigs (stylized as FKA twigs), is an English singer, songwriter, and dancer.	", "img": "img/	FKA twigs.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=FKA twigs	"},
+{"title": "	OsamaSon	", "text": "	Amari Deshawn Middleton (born May 20, 2003), known professionally as OsamaSon, is an American rapper, songwriter and record producer.	", "img": "img/	OsamaSon.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=OsamaSon	"},
+{"title": "	Larkin Poe	", "text": "	Larkin Poe is an American roots rock band led by sisters Rebecca Lovell and Megan Lovell.	", "img": "img/	Larkin Poe.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Larkin Poe	"},
+{"title": "	Joey McIntyre	", "text": "	Joseph Mulrey McIntyre (born December 31, 1972) is an American singer-songwriter and actor.	", "img": "img/	Joey McIntyre.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Joey McIntyre	"},
+{"title": "	Leon Thomas III	", "text": "	Leon George Thomas III (born August 1, 1993) is an American singer, songwriter, record producer, and actor.	", "img": "img/	Leon Thomas III.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Leon Thomas III	"},
+
+     {"title": "	I've Tried Everything But Therapy (Part 2)	", "text": "	I've Tried Everything But Therapy (Part 2) is an album by Teddy Swims released in 2025	", "img": "img/	I'veTriedEverythingButTherapy(Part2)TeddySwims2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=I've Tried Everything But Therapy (Part 2)	"},
+{"title": "	The High Road	", "text": "	The High Road is an album by Kane Brown released in 2025	", "img": "img/	TheHighRoadKaneBrown2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=The High Road	"},
+{"title": "	Can't Rush Greatness	", "text": "	Can't Rush Greatness is an album by Central Cee released in 2025	", "img": "img/	Can'tRushGreatnessCentralCee2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Can't Rush Greatness	"},
+{"title": "	Eusexua	", "text": "	Eusexua is an album by FKA twigs released in 2025	", "img": "img/	EusexuaFKAtwigs2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Eusexua	"},
+{"title": "	The Select	", "text": "	The Select is an album by Ty Myers released in 2025	", "img": "img/	TheSelectTyMyers2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=The Select	"},
+{"title": "	Jump Out	", "text": "	Jump Out is an album by OsamaSon released in 2025	", "img": "img/	JumpOutOsamaSon2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Jump Out	"},
+
+     {"title": "	4X4	", "text": "	4X4 is a song by Travis Scott released in 2025	", "img": "img/	4X4Travis Scott2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=4X4	"},
+{"title": "	Fat Juicy & Wet	", "text": "	Fat Juicy & Wet is a song by Sexyy Red & Bruno Mars released in 2025	", "img": "img/	Fat Juicy & WetSexyy Red & Bruno Mars2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Fat Juicy & Wet	"},
+{"title": "	Sports Car	", "text": "	Sports Car is a song by Tate McRae released in 2025	", "img": "img/	Sports CarTate McRae2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Sports Car	"},
+{"title": "	Haunted	", "text": "	Haunted is a song by Kane Brown With Jelly Roll released in 2025	", "img": "img/	HauntedKane Brown With Jelly Roll2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Haunted	"},
+{"title": "	Blue Jean Baby	", "text": "	Blue Jean Baby is a song by Zach Bryan released in 2025	", "img": "img/	Blue Jean BabyZach Bryan2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Blue Jean Baby	"},
+{"title": "	Backseat Driver	", "text": "	Backseat Driver is a song by Kane Brown released in 2024	", "img": "img/	Backseat DriverKane Brown2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Backseat Driver	"},
+{"title": "	Weren't For The Wind	", "text": "	Weren't For The Wind is a song by Ella Langley released in 2024	", "img": "img/	Weren't For The WindElla Langley2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Weren't For The Wind	"},
+{"title": "	Me Jalo	", "text": "	Me Jalo is a song by Fuerza Regida & Grupo Frontera released in 2024	", "img": "img/	Me JaloFuerza Regida & Grupo Frontera2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Me Jalo	"},
+{"title": "	Mutt	", "text": "	Mutt is a song by Leon Thomas released in 2024	", "img": "img/	MuttLeon Thomas2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Mutt	"},
+
      {"title": "	Tyla	", "text": "	Tyla Laura Seethal (born 30 January 2002), known mononymously as Tyla, is a South African singer.	", "img": "img/	Tyla.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Tyla	"},
 {"title": "	Mac Miller	", "text": "	Malcolm James McCormick (January 19, 1992 – September 7, 2018), known professionally as Mac Miller, was an American rapper.	", "img": "img/	Mac Miller.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Mac Miller	"},
 
