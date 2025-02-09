@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Sites | Malta</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+
+    .head {
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/malta.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+</style>
+
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="index.html" class="not"><div class="ban">&#160> Malta</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>Sites</h3><span class="fo-5">A Journey Through History, Culture, and Breathtaking Landscapes!</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Home</a>
+<a class="btn-1" href="search.html">Search</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	temples.html	"><img src="img/		ggantija-temple-on-gozo-376x251.jpg	" alt="	Megalithic Temples	"></a><h3>	Megalithic Temples	</h3><p>				</p></li>	
+        <li class="table-cell"><a href="	poi.html	"><img src="img/		palazzo-parisio-after-restoration-5-376x503.jpg	" alt="	Places of Interest	"></a><h3>	Places of Interest	</h3><p>				</p></li>	
+        <li></li>
+        <li></li>
+        <li></li>
+    
+                                                                                    
+    </ul>
+            
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
