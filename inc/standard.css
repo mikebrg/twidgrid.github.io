@@ -145,7 +145,29 @@ ul
      background-color: rgba(64, 64, 64, 0.942);
 }
 
-
+.btn-5
+{
+     display: inline-block;
+     font: 13px/1 'Source Code Pro', monospace;
+	color: #000;
+	letter-spacing: 2px; 
+     padding:15px 15px;
+     text-decoration: none;
+     text-align: center;
+     background-color: rgb(255, 255, 255);
+     border-radius: 8px;
+     border-color: black;
+     border-style: solid;
+     border-width: 1px;
+     outline: 0;
+     transition: all 0.5s ease; 
+     cursor: pointer;
+     margin-bottom: 10px;
+}
+.btn-5:hover
+{
+     background-color: rgba(230, 227, 227, 0.942);
+}
 
 /* fonts */
 
