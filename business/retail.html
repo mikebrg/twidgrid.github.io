@@ -86,16 +86,88 @@
 
             <p id="start"></p>	<p><p><p><h2>	RETAIL software				</h2>						
                 <ul class="responsive-table">												
-                <li class="table-cell"><a href="	https://www.shopify.com/	"target="_blank"><img src="img/	Shopify.jpg	" alt="	Shopify	"></a><h3>	Shopify	</h3><p>				</p></li>
-                <li class="table-cell"><a href="	https://squareup.com/	"target="_blank"><img src="img/	Square POS.jpg	" alt="	Square POS	"></a><h3>	Square POS	</h3><p>				</p></li>
-                <li class="table-cell"><a href="	https://www.lightspeedhq.com/	"target="_blank"><img src="img/	Lightspeed.jpg	" alt="	Lightspeed	"></a><h3>	Lightspeed	</h3><p>				</p></li>
+                <li class="table-cell"><a href="tgbdb/	retail001	.html"><img src="img/	Shopify.jpg	" alt="	Shopify	"></a><h3>	Shopify	</h3><p>				</p></li>
+                <li class="table-cell"><a href="tgbdb/	retail002	.html"><img src="img/	Square POS.jpg	" alt="	Square POS	"></a><h3>	Square POS	</h3><p>				</p></li>
+                <li class="table-cell"><a href="tgbdb/	retail003	.html"><img src="img/	Lightspeed.jpg	" alt="	Lightspeed	"></a><h3>	Lightspeed	</h3><p>				</p></li>
                 <li></li>												
                 <li></li>												
                 </ul><p><p>												
-                
+                                
         </div>
 
     </div>
+
+                            <!-- Modal Structure -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Content Viewer</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
+    </div>
+  </div>
+  
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgbdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
+          }
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgbdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
+        });
+      </script>
+
 
     <a href="#" id="back-to-top" title="Back to top">↑</a>
 
