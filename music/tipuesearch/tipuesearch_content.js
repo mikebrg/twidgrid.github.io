@@ -1,6 +1,21 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Dream Theater	", "text": "	Dream Theater is an American progressive metal band formed in 1985 in Boston, Massachusetts.	", "img": "img/	Dream Theater.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Dream Theater	"},
+{"title": "	Larry June	", "text": "	Larry Eugene Hendricks III (born April 8, 1991), known professionally as Larry June, is an American rapper from San Francisco, California.	", "img": "img/	Larry June.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Larry June	"},
+{"title": "	Doja Cat	", "text": "	Amala Ratna Zandile Dlamini (born October 21, 1995), known professionally as Doja Cat (/ˈdoʊdʒə/), is an American rapper, singer, songwriter, and record producer.	", "img": "img/	Doja Cat.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Doja Cat	"},
+{"title": "	RAYE	", "text": "	Rachel Agatha Keen (born 24 October 1997), known professionally as Raye, is a British singer-songwriter.	", "img": "img/	RAYE.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=RAYE	"},
+{"title": "	2 Chainz	", "text": "	Tauheed K. Epps (born September 12, 1977), known professionally as 2 Chainz (formerly Tity Boi), is an American rapper and actor.	", "img": "img/	2 Chainz.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=2 Chainz	"},
+{"title": "	The Alchemist	", "text": "	Alan Daniel Maman (born October 25, 1977), known professionally as the Alchemist, is an American record producer, DJ and rapper.	", "img": "img/	The Alchemist.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=The Alchemist	"},
+
+     {"title": "	Parasomnia	", "text": "	Parasomnia is an album by Dream Theater released in 2025	", "img": "img/	ParasomniaDreamTheater2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Parasomnia	"},
+{"title": "	Life Is Beautiful	", "text": "	Life Is Beautiful is an album by Larry June, 2 Chainz & The Alchemist released in 2025	", "img": "img/	LifeIsBeautifulLarryJune,2Chainz&TheAlchemist2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Life Is Beautiful	"},
+{"title": "	Good Music To Lift Los Angeles	", "text": "	Good Music To Lift Los Angeles is an album by Various Artists released in 2025	", "img": "img/	GoodMusicToLiftLosAngelesVariousArtists2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Good Music To Lift Los Angeles	"},
+
+     {"title": "	Twenties	", "text": "	Twenties is a song by Giveon released in 2025	", "img": "img/	TwentiesGiveon2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Twenties	"},
+{"title": "	Ordinary	", "text": "	Ordinary is a song by Alex Warren released in 2025	", "img": "img/	OrdinaryAlex Warren2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Ordinary	"},
+{"title": "	Born Again	", "text": "	Born Again is a song by LISA Featuring Doja Cat & RAYE released in 2025	", "img": "img/	Born AgainLISA Featuring Doja Cat & RAYE2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Born Again	"},
+
      {"title": "	Gabito Ballesteros	", "text": "	Gabriel 'Gabito' Ballesteros Abril (born 23 July 1999) is a Mexican singer-songwriter and record producer.	", "img": "img/	Gabito Ballesteros.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Gabito Ballesteros	"},
 {"title": "	EST Gee	", "text": "	George Albert Stone III (born May 11, 1994), known professionally as EST Gee, is an American rapper.	", "img": "img/	EST Gee.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=EST Gee	"},
 {"title": "	Justice	", "text": "	Justice is a French electronic music duo consisting of Gaspard Augé and Xavier de Rosnay.	", "img": "img/	Justice.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Justice	"},
