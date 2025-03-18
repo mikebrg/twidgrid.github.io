@@ -1,6 +1,12 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Adolescence	", "text": "	When a 13-year-old is accused of the murder of a classmate, his family, therapist and the detective in charge are all left asking what really happened.	", "img": "img/	Adolescence (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Adolescence	"},
+{"title": "	Dope Thief	", "text": "	Follows long-time friends and delinquents who pose as DEA agents to rob a house in the countryside, but end up unintentionally revealing and unraveling the biggest hidden narcotics corridor on the Eastern seaboard.	", "img": "img/	Dope Thief (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Dope Thief	"},
+
+     {"title": "	The Electric State	", "text": "	An orphaned teen hits the road with a mysterious robot to find her long-lost brother, teaming up with a smuggler and his wisecracking sidekick.	", "img": "img/	The Electric State (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Electric State	"},
+{"title": "	The Wedding Banquet	", "text": "	A gay man makes a deal with his lesbian friend: a green-card marriage for him, in exchange for in vitro fertilization treatments for her. Plans evolve as Min's grandmother surprises them with a Korean wedding banquet.	", "img": "img/	The Wedding Banquet (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Wedding Banquet	"},
+
      {"title": "	The Wheel of Time	", "text": "	Set in a high fantasy world where magic exists, but only some can access it, a woman named Moiraine crosses paths with five young men and women. This sparks a dangerous, world-spanning journey. Based on the book series by Robert Jordan.	", "img": "img/	The Wheel of Time (2021).webp	", "tags": "		", "note": "		", "url": "	tv2021.html#:~:text=The Wheel of Time	"},
 {"title": "	Daredevil: Born Again	", "text": "	Matt Murdock finds himself on a collision course with Wilson Fisk when their past identities begin to emerge.	", "img": "img/	Daredevil Born Again (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Daredevil: Born Again	"},
 {"title": "	Dark Winds	", "text": "	Follows Leaphorn and Chee, two Navajo police officers in the 1970s Southwest that are forced to challenge their own spiritual beliefs when they search for clues in a double murder case.	", "img": "img/	Dark Winds (2022).webp	", "tags": "		", "note": "		", "url": "	tv2022.html#:~:text=Dark Winds	"},
