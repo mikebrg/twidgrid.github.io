@@ -1,6 +1,10 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	RAD	", "text": "	The story of one young man, Cru Jones, who has the intensity and desire to win a BMX race called Helltrack.	", "img": "img/	RAD (1986).webp	", "tags": "		", "note": "		", "url": "	1986.html#:~:text=RAD	"},
+{"title": "	Clown in a Cornfield	", "text": "	A fading midwestern town in which Frendo the clown, a symbol of bygone success, reemerges as a terrifying scourge.	", "img": "img/	Clown in a Cornfield (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Clown in a Cornfield	"},
+{"title": "	Sinners	", "text": "	Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.	", "img": "img/	Sinners (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Sinners	"},
+
      {"title": "	The 7D	", "text": "	Happy, Bashful, Sleepy, Sneezy, Dopey, Grumpy and Doc help Queen Delightful defend the kingdom of Jollywood from an evil (but bumbling) sorcerer couple.	", "img": "img/	The 7D (2014).webp	", "tags": "		", "note": "		", "url": "	tv2014.html#:~:text=The 7D	"},
 
      {"title": "	Snow White and the Seven Dwarfs	", "text": "	Exiled into the dangerous forest by her wicked stepmother, a princess is rescued by seven dwarf miners who make her part of their household.	", "img": "img/	Snow White and the Seven Dwarfs (1937).webp	", "tags": "		", "note": "		", "url": "	1937.html#:~:text=Snow White and the Seven Dwarfs	"},
