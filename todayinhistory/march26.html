@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>March 26 | Today in History</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+  
+    .head {
+     position: relative;
+     background-size: cover;
+     background-image: url('../img/history.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+</style>
+
+</head><body>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const currentYear = new Date().getFullYear();
+
+            // Function to format numbers with commas
+            function formatNumber(num) {
+                return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            }
+
+            // Function to adjust years with BC or AD
+            function adjustYears() {
+                const regexBC = /\b(\d+)\s*BC\b/g; // Matches years with "BC"
+                const regexAD = /\b(\d+)\s*AD\b/g; // Matches years with "AD"
+                
+                const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+                let node;
+                
+                // Loop through all text nodes
+                while (node = walker.nextNode()) {
+                    let text = node.nodeValue;
+
+                    // Replace BC years
+                    text = text.replace(regexBC, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear + parseInt(year));
+                        return `${year} BC (${adjustedYear} years ago)`;
+                    });
+
+                    // Replace AD years
+                    text = text.replace(regexAD, function(match, year) {
+                        let adjustedYear = formatNumber(currentYear - parseInt(year));
+                        return `${year} AD (${adjustedYear} years ago)`;
+                    });
+
+                    node.nodeValue = text;
+                }
+            }
+
+            // Isolate the script and ensure no interference with other scripts
+            (function safeScript() {
+                adjustYears();
+            })();
+        });
+    </script>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="index.html" class="not"><div class="ban">&#160> Today in History</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>March 26</h3><span class="fo-5">March 26 is the 85th day of the year (86th in leap years) in the Gregorian calendar; 280 days remain until the end of the year.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Calendar</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+  
+    <p id="26"></p><p><p><p><h2>		March	26	</h2>								
+        <ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Theodosius_(son_of_Maurice)	"><img src="img/	590 ADEmperorMauriceproclaByzantine Empire.jpg	" alt="	Emperor Maurice proclaims his son Theodosius as co-emperor of the Byzantine Empire.	"></a><p>	Emperor Maurice proclaims his son Theodosius as co-emperor of the Byzantine Empire.	<h3>	590 AD	</h3><p><strong>	Byzantine Empire	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Eid_al-Fitr	"><img src="img/	624 ADFirstEidal-FitrcelebSaudi Arabia.jpg	" alt="	First Eid al-Fitr celebration.	"></a><p>	First Eid al-Fitr celebration.	<h3>	624 AD	</h3><p><strong>	Saudi Arabia	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Al-Hakim_bi-Amr_Allah	"><img src="img/	1021 ADThedeathoftheFatimidFatimid Caliphate.jpg	" alt="	The death of the Fatimid caliph al-Hakim bi-Amr Allah, kept secret for six weeks, is announced, along with the succession of his son, al-Zahir li-i'zaz Din Allah.	"></a><p>	The death of the Fatimid caliph al-Hakim bi-Amr Allah, kept secret for six weeks, is announced, along with the succession of his son, al-Zahir li-i'zaz Din Allah.	<h3>	1021 AD	</h3><p><strong>	Fatimid Caliphate	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Conrad_II,_Holy_Roman_Emperor	"><img src="img/	1027 ADPopeJohnXIXcrownsConRome.jpg	" alt="	Pope John XIX crowns Conrad II as Holy Roman Emperor.	"></a><p>	Pope John XIX crowns Conrad II as Holy Roman Emperor.	<h3>	1027 AD	</h3><p><strong>	Rome	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Saladin	"><img src="img/	1169 ADSaladinbecomestheemiEgypt.jpg	" alt="	Saladin becomes the emir of Egypt.	"></a><p>	Saladin becomes the emir of Egypt.	<h3>	1169 AD	</h3><p><strong>	Egypt	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Treaty_of_Almizra	"><img src="img/	1244 ADThecrownofAragonandtSpain.jpg	" alt="	The crown of Aragon and the crown of Castile agree in the Treaty of Almizra on the limits of their respective expansion into al-Andalus.	"></a><p>	The crown of Aragon and the crown of Castile agree in the Treaty of Almizra on the limits of their respective expansion into al-Andalus.	<h3>	1244 AD	</h3><p><strong>	Spain	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Siege_of_Algeciras_(1342%E2%80%9344)	"><img src="img/	1344 ADTheSiegeofAlgeciras,Spain.jpg	" alt="	The Siege of Algeciras, one of the first European military engagements where gunpowder was used, comes to an end.	"></a><p>	The Siege of Algeciras, one of the first European military engagements where gunpowder was used, comes to an end.	<h3>	1344 AD	</h3><p><strong>	Spain	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Combat_of_the_Thirty	"><img src="img/	1351 ADCombatoftheThirtyThFrance.jpg	" alt="	Combat of the Thirty: Thirty Breton knights call out and defeat thirty English knights.	"></a><p>	Combat of the Thirty: Thirty Breton knights call out and defeat thirty English knights.	<h3>	1351 AD	</h3><p><strong>	France	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/William_Caxton	"><img src="img/	1484 ADWilliamCaxtonprintshEngland.jpg	" alt="	William Caxton prints his translation of Aesop's Fables.	"></a><p>	William Caxton prints his translation of Aesop's Fables.	<h3>	1484 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Guru_Amar_Das	"><img src="img/	1552 ADGuruAmarDasbecomesthIndia.jpg	" alt="	Guru Amar Das becomes the Third Sikh guru.	"></a><p>	Guru Amar Das becomes the Third Sikh guru.	<h3>	1552 AD	</h3><p><strong>	India	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Utrecht_University	"><img src="img/	1636 ADUtrechtUniversityisfNetherlands.jpg	" alt="	Utrecht University is founded in the Netherlands.	"></a><p>	Utrecht University is founded in the Netherlands.	<h3>	1636 AD	</h3><p><strong>	Netherlands	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Royal_Academy_of_Turku	"><img src="img/	1640 ADTheRoyalAcademyofTurFinland.jpg	" alt="	The Royal Academy of Turku, the first university of Finland, is founded in the city of Turku by Queen Christina of Sweden at the proposal of Count Per Brahe.	"></a><p>	The Royal Academy of Turku, the first university of Finland, is founded in the city of Turku by Queen Christina of Sweden at the proposal of Count Per Brahe.	<h3>	1640 AD	</h3><p><strong>	Finland	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Wreckage_of_San_Jos%C3%A9	"><img src="img/	1651 ADSilver-loadedSpanishChile.jpg	" alt="	Silver-loaded Spanish ship San José is pushed south by strong winds, subsequently it wrecks in the coast of southern Chile and its surviving crew is killed by indigenous Cuncos.	"></a><p>	Silver-loaded Spanish ship San José is pushed south by strong winds, subsequently it wrecks in the coast of southern Chile and its surviving crew is killed by indigenous Cuncos.	<h3>	1651 AD	</h3><p><strong>	Chile	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Safavid_occupation_of_Basra_(1697%E2%80%931701)	"><img src="img/	1697 ADSafavidgovernmenttroIraq.jpg	" alt="	Safavid government troops take control of Basra.	"></a><p>	Safavid government troops take control of Basra.	<h3>	1697 AD	</h3><p><strong>	Iraq	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/William_Dampier	"><img src="img/	1700 ADWilliamDampieristhefPapua New Guinea.jpg	" alt="	William Dampier is the first European to circumnavigate New Britain, discovering it is an island (which he names Nova Britannia) rather than part of New Guinea.	"></a><p>	William Dampier is the first European to circumnavigate New Britain, discovering it is an island (which he names Nova Britannia) rather than part of New Guinea.	<h3>	1700 AD	</h3><p><strong>	Papua New Guinea	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/1812_Caracas_earthquake	"><img src="img/	1812 ADAnearthquakedevastatVenezuela.jpg	" alt="	An earthquake devastates Caracas, Venezuela.	"></a><p>	An earthquake devastates Caracas, Venezuela.	<h3>	1812 AD	</h3><p><strong>	Venezuela	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Gerrymander	"><img src="img/	1812ADApoliticalcartoonintUnited States.jpg	" alt="	A political cartoon in the Boston-Gazette coins the term "gerrymander" to describe oddly shaped electoral districts designed to help incumbents win reelection.	"></a><p>	A political cartoon in the Boston-Gazette coins the term "gerrymander" to describe oddly shaped electoral districts designed to help incumbents win reelection.	<h3>	1812AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Book_of_Mormon	"><img src="img/	1830 ADTheBookofMormonispubUnited States.jpg	" alt="	The Book of Mormon is published in Palmyra, New York.	"></a><p>	The Book of Mormon is published in Palmyra, New York.	<h3>	1830 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Henley_Royal_Regatta	"><img src="img/	1839 ADThefirstHenleyRoyalREngland.jpg	" alt="	The first Henley Royal Regatta is held.	"></a><p>	The first Henley Royal Regatta is held.	<h3>	1839 AD	</h3><p><strong>	England	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Paris_Commune	"><img src="img/	1871 ADTheelectionsofCommunFrance.jpg	" alt="	The elections of Commune council of the Paris Commune are held.	"></a><p>	The elections of Commune council of the Paris Commune are held.	<h3>	1871 AD	</h3><p><strong>	France	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/North-West_Rebellion	"><img src="img/	1885 ADTheMétispeopleoftheDCanada.jpg	" alt="	The Métis people of the District of Saskatchewan under Louis Riel begin the North-West Rebellion against Canada.	"></a><p>	The Métis people of the District of Saskatchewan under Louis Riel begin the North-West Rebellion against Canada.	<h3>	1885 AD	</h3><p><strong>	Canada	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Brunner_Mine_disaster	"><img src="img/	1896 ADAnexplosionattheBrunNew Zealand.jpg	" alt="	An explosion at the Brunner Mine near Greymouth, New Zealand, kills 65 coal miners in the country's worst industrial accident.	"></a><p>	An explosion at the Brunner Mine near Greymouth, New Zealand, kills 65 coal miners in the country's worst industrial accident.	<h3>	1896 AD	</h3><p><strong>	New Zealand	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Siege_of_Adrianople_(1912%E2%80%9313)	"><img src="img/	1913 ADFirstBalkanWarBulgaTurkey.jpg	" alt="	First Balkan War: Bulgarian forces capture Adrianople.	"></a><p>	First Balkan War: Bulgarian forces capture Adrianople.	<h3>	1913 AD	</h3><p><strong>	Turkey	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/1915_Stanley_Cup_Finals	"><img src="img/	1915 ADTheVancouverMillionaCanada.jpg	" alt="	The Vancouver Millionaires win the 1915 Stanley Cup Finals, the first championship played between the Pacific Coast Hockey Association and the National Hockey Association.	"></a><p>	The Vancouver Millionaires win the 1915 Stanley Cup Finals, the first championship played between the Pacific Coast Hockey Association and the National Hockey Association.	<h3>	1915 AD	</h3><p><strong>	Canada	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/First_Battle_of_Gaza	"><img src="img/	1917 ADWorldWarIFirstBattlPalestine.jpg	" alt="	World War I: First Battle of Gaza: British troops are halted after 17,000 Turks block their advance.	"></a><p>	World War I: First Battle of Gaza: British troops are halted after 17,000 Turks block their advance.	<h3>	1917 AD	</h3><p><strong>	Palestine	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/German_Social_Democratic_Party_of_Poland	"><img src="img/	1922 ADTheGermanSocialDemocPoland.jpg	" alt="	The German Social Democratic Party is founded in Poland.	"></a><p>	The German Social Democratic Party is founded in Poland.	<h3>	1922 AD	</h3><p><strong>	Poland	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Swissair	"><img src="img/	1931 ADSwissairisfoundedastSwitzerland.jpg	" alt="	Swissair is founded as the national airline of Switzerland.	"></a><p>	Swissair is founded as the national airline of Switzerland.	<h3>	1931 AD	</h3><p><strong>	Switzerland	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Ho_Chi_Minh_Communist_Youth_Union	"><img src="img/	1931ADHoChiMinhCommunistYoVietnam.jpg	" alt="	Ho Chi Minh Communist Youth Union is founded in Vietnam.	"></a><p>	Ho Chi Minh Communist Youth Union is founded in Vietnam.	<h3>	1931AD	</h3><p><strong>	Vietnam	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/United_Kingdom_driving_test	"><img src="img/	1934 ADTheUnitedKingdomdrivUnited Kingdom.jpg	" alt="	The United Kingdom driving test is introduced.	"></a><p>	The United Kingdom driving test is introduced.	<h3>	1934 AD	</h3><p><strong>	United Kingdom	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Final_offensive_of_the_Spanish_Civil_War	"><img src="img/	1939 ADSpanishCivilWarNatiSpain.jpg	" alt="	Spanish Civil War: Nationalists begin their final offensive of the war.	"></a><p>	Spanish Civil War: Nationalists begin their final offensive of the war.	<h3>	1939 AD	</h3><p><strong>	Spain	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Auschwitz	"><img src="img/	1942 ADWorldWarIIThefirstfPoland.jpg	" alt="	World War II: The first female prisoners arrive at Auschwitz concentration camp in German-occupied Poland.	"></a><p>	World War II: The first female prisoners arrive at Auschwitz concentration camp in German-occupied Poland.	<h3>	1942 AD	</h3><p><strong>	Poland	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Battle_of_Iwo_Jima	"><img src="img/	1945 ADWorldWarIITheBattleJapan.jpg	" alt="	World War II: The Battle of Iwo Jima ends as the island is officially secured by American forces.	"></a><p>	World War II: The Battle of Iwo Jima ends as the island is officially secured by American forces.	<h3>	1945 AD	</h3><p><strong>	Japan	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Castle_Romeo	"><img src="img/	1954 ADNuclearweaponstestinMarshall Islands.jpg	" alt="	Nuclear weapons testing: The Romeo shot of Operation Castle is detonated at Bikini Atoll. Yield: 11 megatons.	"></a><p>	Nuclear weapons testing: The Romeo shot of Operation Castle is detonated at Bikini Atoll. Yield: 11 megatons.	<h3>	1954 AD	</h3><p><strong>	Marshall Islands	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Pan_Am_Flight_845/26	"><img src="img/	1955 ADPanAmFlight84526ditUnited States.jpg	" alt="	Pan Am Flight 845/26 ditches in the Pacific Ocean off the coast of Oregon, killing four.	"></a><p>	Pan Am Flight 845/26 ditches in the Pacific Ocean off the coast of Oregon, killing four.	<h3>	1955 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Explorer_3	"><img src="img/	1958 ADTheUnitedStatesArmylUnited States.jpg	" alt="	The United States Army launches Explorer 3.	"></a><p>	The United States Army launches Explorer 3.	<h3>	1958 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/African_Regroupment_Party	"><img src="img/	1958ADTheAfricanRegroupmenFrance.jpg	" alt="	The African Regroupment Party is launched at a meeting in Paris.	"></a><p>	The African Regroupment Party is launched at a meeting in Paris.	<h3>	1958AD	</h3><p><strong>	France	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Central_Park_be-ins	"><img src="img/	1967 ADTenthousandpeoplegatUnited States.jpg	" alt="	Ten thousand people gather for one of many Central Park be-ins in New York City.	"></a><p>	Ten thousand people gather for one of many Central Park be-ins in New York City.	<h3>	1967 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Land_to_the_Tiller_(South_Vietnam)	"><img src="img/	1970 ADSouthVietnamesePresiVietnam.jpg	" alt="	South Vietnamese President Nguyễn Văn Thiệu implements a land reform program to solve the problem of land tenancy.	"></a><p>	South Vietnamese President Nguyễn Văn Thiệu implements a land reform program to solve the problem of land tenancy.	<h3>	1970 AD	</h3><p><strong>	Vietnam	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Proclamation_of_Bangladeshi_Independence	"><img src="img/	1971 ADEastPakistan,thenproBangladesh.jpg	" alt="	East Pakistan, then province of Pakistan, declares its independence from Pakistan to form Bangladesh; the Bangladesh's War of Independence begins.	"></a><p>	East Pakistan, then province of Pakistan, declares its independence from Pakistan to form Bangladesh; the Bangladesh's War of Independence begins.	<h3>	1971 AD	</h3><p><strong>	Bangladesh	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Biological_Weapons_Convention	"><img src="img/	1975 ADTheBiologicalWeaponsEngland, Russia & USA.jpg	" alt="	The Biological Weapons Convention comes into force.	"></a><p>	The Biological Weapons Convention comes into force.	<h3>	1975 AD	</h3><p><strong>	England, Russia & USA	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Egypt%E2%80%93Israel_peace_treaty	"><img src="img/	1979 ADAnwaral-Sadat,MenachUnited States.jpg	" alt="	Anwar al-Sadat, Menachem Begin and Jimmy Carter sign the Egypt–Israel peace treaty in Washington, D.C.	"></a><p>	Anwar al-Sadat, Menachem Begin and Jimmy Carter sign the Egypt–Israel peace treaty in Washington, D.C.	<h3>	1979 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/1979_Interflug_Ilyushin_Il-18_crash	"><img src="img/	1979ADAnInterflugIlyushinIAngola.jpg	" alt="	An Interflug Ilyushin Il-18 crashes at Quatro de Fevereiro Airport during a rejected takeoff, killing 10.	"></a><p>	An Interflug Ilyushin Il-18 crashes at Quatro de Fevereiro Airport during a rejected takeoff, killing 10.	<h3>	1979AD	</h3><p><strong>	Angola	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Social_Democratic_Party_(UK)	"><img src="img/	1981 ADSocialDemocraticPartUnited Kingdom.jpg	" alt="	Social Democratic Party (UK) is founded as a party.	"></a><p>	Social Democratic Party (UK) is founded as a party.	<h3>	1981 AD	</h3><p><strong>	United Kingdom	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Vietnam_Veterans_Memorial	"><img src="img/	1982 ADAgroundbreakingceremUnited States.jpg	" alt="	A groundbreaking ceremony for the Vietnam Veterans Memorial is held in Washington, D.C.	"></a><p>	A groundbreaking ceremony for the Vietnam Veterans Memorial is held in Washington, D.C.	<h3>	1982 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Treaty_of_Asunci%C3%B3n	"><img src="img/	1991 ADArgentina,Brazil,UruParaguay.jpg	" alt="	Argentina, Brazil, Uruguay and Paraguay sign the Treaty of Asunción, establishing Mercosur, the South Common Market.	"></a><p>	Argentina, Brazil, Uruguay and Paraguay sign the Treaty of Asunción, establishing Mercosur, the South Common Market.	<h3>	1991 AD	</h3><p><strong>	Paraguay	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Singapore_Airlines_Flight_117	"><img src="img/	1991ADSingaporeAirlinesFliSingapore.jpg	" alt="	Singapore Airlines Flight 117 is hijacked by four Pakistani terrorists and diverted to Changi Airport.	"></a><p>	Singapore Airlines Flight 117 is hijacked by four Pakistani terrorists and diverted to Changi Airport.	<h3>	1991AD	</h3><p><strong>	Singapore	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Heaven%27s_Gate_(cult)	"><img src="img/	1997 ADThirty-ninebodiesareUnited States.jpg	" alt="	Thirty-nine bodies are found in the Heaven's Gate mass suicides.	"></a><p>	Thirty-nine bodies are found in the Heaven's Gate mass suicides.	<h3>	1997 AD	</h3><p><strong>	United States	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Oued_Bouaicha_massacre	"><img src="img/	1998 ADDuringtheAlgerianCivAlgeria.jpg	" alt="	During the Algerian Civil War, the Oued Bouaicha massacre sees fifty-two people, mostly infants, killed with axes and knives.	"></a><p>	During the Algerian Civil War, the Oued Bouaicha massacre sees fifty-two people, mostly infants, killed with axes and knives.	<h3>	1998 AD	</h3><p><strong>	Algeria	</strong><p></li>
+        </ul><ul class="responsive-table">												
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Anti-Secession_Law	"><img src="img/	2005 ADAround200,000to300,0Taiwan.jpg	" alt="	Around 200,000 to 300,000 Taiwanese demonstrate in Taipei in opposition to the Anti-Secession Law of China.	"></a><p>	Around 200,000 to 300,000 Taiwanese demonstrate in Taipei in opposition to the Anti-Secession Law of China.	<h3>	2005 AD	</h3><p><strong>	Taiwan	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/ROKS_Cheonan_sinking	"><img src="img/	2010 ADTheSouthKoreanNavycoSouth Korea.jpg	" alt="	The South Korean Navy corvette Cheonan is torpedoed, killing 46 sailors. After an international investigation, the President of the United Nations Security Council blames North Korea.	"></a><p>	The South Korean Navy corvette Cheonan is torpedoed, killing 46 sailors. After an international investigation, the President of the United Nations Security Council blames North Korea.	<h3>	2010 AD	</h3><p><strong>	South Korea	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/2017%E2%80%932018_Russian_protests	"><img src="img/	2017 ADRussia-wideanti-corrRussia.jpg	" alt="	Russia-wide anti-corruption protests in 99 cities. The Levada Center survey showed that 38% of surveyed Russians supported protests and that 67 percent held Putin personally responsible for high-level corruption.	"></a><p>	Russia-wide anti-corruption protests in 99 cities. The Levada Center survey showed that 38% of surveyed Russians supported protests and that 67 percent held Putin personally responsible for high-level corruption.	<h3>	2017 AD	</h3><p><strong>	Russia	</strong><p></li>
+        <li class="table-cell" style="text-align: left; font-size: 20px;"><a href="	https://en.wikipedia.org/wiki/Francis_Scott_Key_Bridge_collapse	"><img src="img/	2024 ADTheFrancisScottKeyBrUnited States.jpg	" alt="	The Francis Scott Key Bridge collapses following a collision between the MV Dali container ship and one of the bridge's support pillars, killing 6 people.	"></a><p>	The Francis Scott Key Bridge collapses following a collision between the MV Dali container ship and one of the bridge's support pillars, killing 6 people.	<h3>	2024 AD	</h3><p><strong>	United States	</strong><p></li>
+        </ul><p><p>												
+                
+        
+  
+    </div></div>
+    <!-- Modal Structure -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Content Viewer</h5>
+            <button class="close-btn" id="closeModal">&times;</button>
+          </div>
+          <div class="modal-body">
+            <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+          </div>
+          <div class="modal-footer">
+            <button class="close-btn" id="closeFooter">Close</button>
+          </div>
+        </div>
+      </div>
+      
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
+          }
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
+        });
+      </script>
+    
+  
+  
+  <script>
+  const daysContainer = document.getElementById('days');
+  const monthYearDisplay = document.getElementById('monthYear');
+  const prevMonthBtn = document.getElementById('prevMonth');
+  const nextMonthBtn = document.getElementById('nextMonth');
+  
+  let currentDate = new Date();
+  
+  function generateCalendar(date) {
+    daysContainer.innerHTML = '';
+    
+    const month = date.getMonth();
+    const year = date.getFullYear();
+  
+    const firstDayOfMonth = new Date(year, month, 1).getDay();
+    const lastDateOfMonth = new Date(year, month + 1, 0).getDate();
+    const lastDayOfPrevMonth = new Date(year, month, 0).getDate();
+  
+    monthYearDisplay.textContent = `${date.toLocaleString('default', { month: 'long' })} ${year}`;
+  
+    // Previous month dates
+    for (let i = firstDayOfMonth - 1; i >= 0; i--) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = lastDayOfPrevMonth - i;
+      dayDiv.classList.add('prev-next-month');
+      daysContainer.appendChild(dayDiv);
+    }
+  
+    // Current month dates
+    for (let day = 1; day <= lastDateOfMonth; day++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = day;
+  
+      if (day === new Date().getDate() && month === new Date().getMonth() && year === new Date().getFullYear()) {
+        dayDiv.classList.add('current-day');
+      }
+  
+      // Link to a specific webpage when a date is clicked
+      dayDiv.addEventListener('click', function () {
+        window.location.href = `https://twidgrid.com/todayinhistory/${month + 1}#${day}`;
+      });
+  
+      daysContainer.appendChild(dayDiv);
+    }
+  
+    // Next month dates
+    const totalDivs = daysContainer.children.length;
+    const remainingDivs = 42 - totalDivs;
+    
+    for (let i = 1; i <= remainingDivs; i++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.textContent = i;
+      dayDiv.classList.add('prev-next-month');
+      daysContainer.appendChild(dayDiv);
+    }
+  }
+  
+  function changeMonth(delta) {
+    currentDate.setMonth(currentDate.getMonth() + delta);
+    generateCalendar(currentDate);
+  }
+  
+  prevMonthBtn.addEventListener('click', () => changeMonth(-1));
+  nextMonthBtn.addEventListener('click', () => changeMonth(1));
+  
+  // Initialize calendar
+  generateCalendar(currentDate);
+  
+  </script>
+
+
+
+            
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
