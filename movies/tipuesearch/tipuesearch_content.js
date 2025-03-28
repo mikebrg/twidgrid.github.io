@@ -1,6 +1,12 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Étoile	", "text": "	The dancers and artistic staff of two world-renowned ballet companies embark on an ambitious gambit to save their storied institutions by swapping their most talented stars.	", "img": "img/	Étoile (2025).webp	", "tags": "	etoile	", "note": "		", "url": "	tv2025.html#:~:text=Étoile	"},
+
+     {"title": "	One Battle After Another	", "text": "	When their evil enemy resurfaces after 16 years, a group of ex-revolutionaries reunites to rescue one of their own's daughter.	", "img": "img/	One Battle After Another (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=One Battle After Another	"},
+{"title": "	Rust	", "text": "	A boy left to fend for himself and his younger brother following their parents' deaths in 1880s Kansas goes on the run with his long-estranged grandfather after he is sentenced to hang for the accidental killing of a local rancher.	", "img": "img/	Rust (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Rust	"},
+{"title": "	Final Destination: Bloodlines	", "text": "	Plagued by a recurring violent nightmare, a college student returns home to find the one person who can break the cycle and save her family from the horrific fate that inevitably awaits them.	", "img": "img/	Final Destination Bloodlines (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Final Destination: Bloodlines	"},
+
      {"title": "	RAD	", "text": "	The story of one young man, Cru Jones, who has the intensity and desire to win a BMX race called Helltrack.	", "img": "img/	RAD (1986).webp	", "tags": "		", "note": "		", "url": "	1986.html#:~:text=RAD	"},
 {"title": "	Clown in a Cornfield	", "text": "	A fading midwestern town in which Frendo the clown, a symbol of bygone success, reemerges as a terrifying scourge.	", "img": "img/	Clown in a Cornfield (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Clown in a Cornfield	"},
 {"title": "	Sinners	", "text": "	Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.	", "img": "img/	Sinners (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Sinners	"},
