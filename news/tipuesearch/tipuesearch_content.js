@@ -1,6 +1,21 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	ABC News	", "text": "	Often breaking stories quickly, especially with politics and national disasters.	", "img": "img/	ABC News.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=ABC News	"},
+     {"title": "	Bloomberg	", "text": "	For when your stocks are down and your blood pressure is up. High-quality business analysis.	", "img": "img/	Bloomberg.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=Bloomberg	"},
+     {"title": "	CBS News	", "text": "	They keep it pretty straight, with an old-school journalism vibe—think facts first, drama second.	", "img": "img/	CBS News.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=CBS News	"},
+     {"title": "	CNBC	", "text": "	Markets, money, and moguls. And occasionally Elon Musk doing something weird.	", "img": "img/	CNBC.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=CNBC	"},
+     {"title": "	CNN	", "text": "	Big on breaking news, politics, world affairs. Basically, if it's happening anywhere, CNN is probably on it… with dramatic headlines.	", "img": "img/	CNN.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=CNN	"},
+     {"title": "	Forbes	", "text": "	Billionaire rankings, leadership advice, and a sprinkle of hustle-culture inspiration.	", "img": "img/	Forbes.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=Forbes	"},
+     {"title": "	Fox News	", "text": "	Loved by conservatives, loathed by liberals (and vice versa for CNN). Big on opinion pieces and culture wars.	", "img": "img/	Fox News.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=Fox News	"},
+     {"title": "	Los Angeles Times	", "text": "	West Coast focus, but solid national coverage too. Expect Hollywood gossip and wild wildfire stories.	", "img": "img/	Los Angeles Times.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=Los Angeles Times	"},
+     {"title": "	NBC News	", "text": "	Clean interface, solid journalism, and lots of video. If you want a middle-of-the-road take, this one’s a decent stop.	", "img": "img/	NBC News.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=NBC News	"},
+     {"title": "	Reuters	", "text": "	Straight facts, minimal flair. Good if you like your news like your coffee: black, no sugar.	", "img": "img/	Reuters.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=Reuters	"},
+     {"title": "	The New York Times	", "text": "	Pulitzer-packed, globally respected. Subscription-heavy, but the writing? Chef’s kiss.	", "img": "img/	The New York Times.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=The New York Times	"},
+     {"title": "	The Wall Street Journal	", "text": "	The OG business brainiac. Subscription required, but it’s where CEOs go to read about themselves.	", "img": "img/	The Wall Street Journal.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=The Wall Street Journal	"},
+     {"title": "	The Washington Post	", "text": "	Owned by Jeff Bezos, investigative gold. Expect deep dives and political intrigue.	", "img": "img/	The Washington Post.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=The Washington Post	"},
+     {"title": "	USA Today	", "text": "	Simple, visual, and digestible. If the news had a travel-sized version, this is it.	", "img": "img/	USA Today.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=USA Today	"},
+     
      {"title": "	Gozo News	", "text": "	Gozo News, for all the latest news from Gozo, Malta and around the world.	", "img": "img/	Gozo News.jpg	", "tags": "		", "note": "		", "url": "	malta.html#:~:text=Gozo News	"},
      {"title": "	Lovin Malta	", "text": "	Lovin Malta is your inside track to everything about the Maltese Islands; from daily local news, to tips about the best places to eat, incisive opinion pieces, human interest stories and celebrity news.	", "img": "img/	Lovin Malta.jpg	", "tags": "		", "note": "		", "url": "	malta.html#:~:text=Lovin Malta	"},
      {"title": "	Malta Daily	", "text": "	Malta Daily is Malta's own news & entertainment hub. Keeping Malta updated daily.	", "img": "img/	maltadaily.jpg	", "tags": "		", "note": "		", "url": "	malta.html#:~:text=Malta Daily	"},

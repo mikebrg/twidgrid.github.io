@@ -22,7 +22,7 @@ http://www.tipue.com/search
           'highlightTerms'         : true,
           'imageZoom'              : false,
           'minimumLength'          : 3,
-          'newWindow'              : true,
+          'newWindow'              : false,
           'show'                   : 10,
           'showContext'            : true,
           'showRelated'            : true,
