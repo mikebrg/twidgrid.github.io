@@ -1,6 +1,19 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	BBC News	", "text": "	The gold standard of UK journalism. Comprehensive, balanced, and you can’t really call yourself British if you haven’t checked the BBC weather at least once today.	", "img": "img/	BBC News.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=BBC News	"},
+     {"title": "	Financial Times	", "text": "	For the money-minded and those who enjoy reading about global finance with their third espresso.	", "img": "img/	Financial Times.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=Financial Times	"},
+     {"title": "	ITV News	", "text": "	The TV giant's online platform. Solid for video-led news and coverage with a more human touch.	", "img": "img/	ITV News.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=ITV News	"},
+     {"title": "	Metro	", "text": "	Free newspaper turned clicky digital publication. Quick reads, perfect for a commute (even if it's just to the kitchen).	", "img": "img/	Metro.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=Metro	"},
+     {"title": "	Sky News	", "text": "	A clean, reliable alternative to BBC. Good live coverage, especially during elections or major events.	", "img": "img/	Sky News.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=Sky News	"},
+     {"title": "	The Daily Mail	", "text": "	Hugely popular. Think: endless sidebar of celebrity drama, but also surprisingly fast on breaking news.	", "img": "img/	The Daily Mail.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=The Daily Mail	"},
+     {"title": "	The Guardian	", "text": "	Left-leaning, global in outlook, and full of think pieces that make you question capitalism while sipping oat milk flat whites.	", "img": "img/	The Guardian.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=The Guardian	"},
+     {"title": "	The Independent	", "text": "	Once a print paper, now entirely digital. It’s centrist, stylish, and knows how to title a clickworthy article.	", "img": "img/	The Independent.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=The Independent	"},
+     {"title": "	The Mirror	", "text": "	Left-leaning tabloid rival to The Sun. Big on scandals, sports, and royal family coverage.	", "img": "img/	The Mirror.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=The Mirror	"},
+     {"title": "	The Sun	", "text": "	Loud, sensational, and unapologetically tabloidy. If it bleeds, they lead.	", "img": "img/	The Sun.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=The Sun	"},
+     {"title": "	The Telegraph	", "text": "	More right-leaning, traditional, and posh enough to come with a built-in monocle.	", "img": "img/	The Telegraph.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=The Telegraph	"},
+     {"title": "	The Times	", "text": "	Behind a paywall, but high quality. Great for people who like their news with gravitas and zero spelling mistakes.	", "img": "img/	The Times.jpg	", "tags": "		", "note": "		", "url": "	uk.html#:~:text=The Times	"},
+     
      {"title": "	ABC News	", "text": "	Often breaking stories quickly, especially with politics and national disasters.	", "img": "img/	ABC News.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=ABC News	"},
      {"title": "	Bloomberg	", "text": "	For when your stocks are down and your blood pressure is up. High-quality business analysis.	", "img": "img/	Bloomberg.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=Bloomberg	"},
      {"title": "	CBS News	", "text": "	They keep it pretty straight, with an old-school journalism vibe—think facts first, drama second.	", "img": "img/	CBS News.jpg	", "tags": "		", "note": "		", "url": "	usa.html#:~:text=CBS News	"},
