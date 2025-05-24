@@ -1,6 +1,15 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	IT: Welcome to Derry	", "text": "	It will follow the events in the 1960s, the time leading up to the events of the first film in the Stephen King It series.	", "img": "img/	IT Welcome to Derry (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=IT: Welcome to Derry	"},
+{"title": "	Chief of War	", "text": "	A thrilling, unprecedented telling of the unification of the Hawaiian Islands from an indigenous perspective. A Hawaiian war chief joins a bloody campaign to unite the warring islands in order to save them from the threat of colonization.	", "img": "img/	Chief of War (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Chief of War	"},
+{"title": "	The Bear	", "text": "	A young chef from the fine dining world returns to Chicago to run his family's sandwich shop.	", "img": "img/	The Bear (2022).webp	", "tags": "		", "note": "		", "url": "	tv2022.html#:~:text=The Bear	"},
+{"title": "	The Waterfront	", "text": "	As their storied North Carolina fishing empire decays, the damaged Buckleys grapple to revive their imperiled maritime heritage.	", "img": "img/	The Waterfront (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=The Waterfront	"},
+
+     {"title": "	Alpha	", "text": "	Alpha, 13, is a troubled teenager who lives alone with her mother. Their world comes crashing down the day she comes home from school with a tattoo on her arm.	", "img": "img/	Alpha (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Alpha	"},
+{"title": "	Jurassic World: Rebirth	", "text": "	Five years post-Jurassic World Dominion, an expedition braves isolated equatorial regions to extract DNA from three massive prehistoric creatures for a groundbreaking medical breakthrough.	", "img": "img/	Jurassic World Rebirth (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Jurassic World: Rebirth	"},
+{"title": "	Zombies 4: Dawn of the Vampires	", "text": "	Zed and Addison discover the warring worlds of Sunnyside and Shadyside on a summer road trip after their first year of college, encountering two new groups of monsters.	", "img": "img/	Zombies 4 Dawn of the Vampires (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Zombies 4: Dawn of the Vampires	"},
+
      {"title": "	Sirens	", "text": "	Devon is concerned about her sister's unhealthy relationship with her new boss.	", "img": "img/	Sirens (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Sirens	"},
 
      {"title": "	Nouvelle Vague	", "text": "	Follows the production of Jean-Luc Godards's 'Breathless'.	", "img": "img/	Nouvelle Vague (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Nouvelle Vague	"},
