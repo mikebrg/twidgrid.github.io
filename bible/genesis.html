@@ -56,7 +56,7 @@
 <p><p>
 
     <ul class="responsive-table">										
-        <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	genesis-1.webp	" alt="	The Creation of the World	"></a>	Chapter 1	<p><h3>	The Creation of the World	</h3></p></li>
+        <li class="table-cell" style="text-align: left;"><a href="eng-rv_html/GEN01.htm"><img src="img/	genesis-1.webp	" alt="	The Creation of the World	"></a>	Chapter 1	<p><h3>	The Creation of the World	</h3></p></li>
         <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	genesis-2.webp	" alt="	The Creation of Humanity	"></a>	Chapter 2	<p><h3>	The Creation of Humanity	</h3></p></li>
         <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	genesis-3.webp	" alt="	The Fall of Man	"></a>	Chapter 3	<p><h3>	The Fall of Man	</h3></p></li>
         <li class="table-cell" style="text-align: left;"><a href="		"><img src="img/	genesis-4.webp	" alt="	Cain and Abel: The First Murder	"></a>	Chapter 4	<p><h3>	Cain and Abel: The First Murder	</h3></p></li>
@@ -129,7 +129,7 @@
           
           <script>
             document.addEventListener('DOMContentLoaded', function () {
-              const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+              const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="eng-rv"]');
               const modal = document.getElementById('modal');
               const iframe = document.getElementById('contentIframe');
               const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
@@ -152,7 +152,7 @@
                   event.preventDefault();
                   const url = this.href;
           
-                  if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                  if (url.includes('wikipedia') || url.includes('youtube') || url.includes('eng-rv')) {
                     iframe.src = url;
                   }
           
