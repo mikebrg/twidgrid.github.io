@@ -90,7 +90,7 @@
           
           <script>
             document.addEventListener('DOMContentLoaded', function () {
-              const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+              const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="eng-rv"]');
               const modal = document.getElementById('modal');
               const iframe = document.getElementById('contentIframe');
               const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
@@ -113,7 +113,7 @@
                   event.preventDefault();
                   const url = this.href;
           
-                  if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                  if (url.includes('wikipedia') || url.includes('youtube') || url.includes('eng-rv')) {
                     iframe.src = url;
                   }
           
