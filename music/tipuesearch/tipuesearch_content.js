@@ -1,6 +1,17 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Just Keep Watching	", "text": "	Just Keep Watching is a song by Tate McRae released in 2025	", "img": "img/	Just Keep WatchingTate McRae2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Just Keep Watching	"},
+{"title": "	OWA OWA	", "text": "	OWA OWA is a song by Lil Tecca released in 2025	", "img": "img/	OWA OWALil Tecca2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=OWA OWA	"},
+{"title": "	Tu Sancho	", "text": "	Tu Sancho is a song by Fuerza Regida released in 2025	", "img": "img/	Tu SanchoFuerza Regida2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Tu Sancho	"},
+{"title": "	Easy Lover	", "text": "	Easy Lover is a song by Miley Cyrus released in 2025	", "img": "img/	Easy LoverMiley Cyrus2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Easy Lover	"},
+{"title": "	Fame Is A Gun	", "text": "	Fame Is A Gun is a song by Addison Rae released in 2025	", "img": "img/	Fame Is A GunAddison Rae2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Fame Is A Gun	"},
+{"title": "	Better Me For You (Brown Eyes)	", "text": "	Better Me For You (Brown Eyes) is a song by Max McNown released in 2024	", "img": "img/	Better Me For You (Brown Eyes)Max McNown2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Better Me For You (Brown Eyes)	"},
+{"title": "	Nice To Meet You	", "text": "	Nice To Meet You is a song by Myles Smith released in 2024	", "img": "img/	Nice To Meet YouMyles Smith2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Nice To Meet You	"},     
+{"title": "	Happy Burstday	", "text": "	Happy Burstday is an album by SEVENTEEN released in 2025	", "img": "img/	HappyBurstdaySEVENTEEN2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Happy Burstday	"},
+{"title": "	Something Beautiful	", "text": "	Something Beautiful is an album by Miley Cyrus released in 2025	", "img": "img/	SomethingBeautifulMileyCyrus2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Something Beautiful	"},
+{"title": "	Hope We Have Fun	", "text": "	Hope We Have Fun is an album by Mt. Joy released in 2025	", "img": "img/	HopeWeHaveFunMt.Joy2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Hope We Have Fun	"},
+{"title": "	Black Hole Superette	", "text": "	Black Hole Superette is an album by Aesop Rock released in 2025	", "img": "img/	BlackHoleSuperetteAesopRock2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Black Hole Superette	"},     
 {"title": "	Music For People Who Believe In Love	", "text": "	Music For People Who Believe In Love is an album by Joe Jonas released in 2025	", "img": "img/	MusicForPeopleWhoBelieveInLoveJoeJonas2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Music For People Who Believe In Love	"},
 {"title": "	Essence Of Reverie	", "text": "	Essence Of Reverie is an album by BAEKHYUN released in 2025	", "img": "img/	EssenceOfReverieBAEKHYUN2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Essence Of Reverie	"},
 {"title": "	Let Me Fly	", "text": "	Let Me Fly is an album by Rob49 released in 2025	", "img": "img/	LetMeFlyRob492025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Let Me Fly	"},     
