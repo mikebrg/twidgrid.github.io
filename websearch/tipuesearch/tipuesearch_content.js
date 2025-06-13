@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	ONE	", "text": "	We are ONE	", "img": "../business/img/	ONE.jpg	", "tags": "		", "note": "		", "url": "	https://one.com.mt/kategorija/ahbarijiet/	"},
+{"title": "	NETnews	", "text": "	First with news from Malta, and beyond.	", "img": "../business/img/	NETnews.jpg	", "tags": "		", "note": "		", "url": "	https://netnews.com.mt/	"},
+{"title": "	MaltaToday	", "text": "	To provide a new, liberal alternative to the English-language press in circulation, by promoting an agenda in favour of EU accession and critical voices excluded from the establishment.	", "img": "../business/img/	MaltaToday.jpg	", "tags": "		", "note": "		", "url": "	https://www.maltatoday.com.mt/	"},     
      {"title": "	Mode	", "text": "	Mode is a modern business intelligence platform that combines SQL, R, and Python to analyze and visualize data, enabling data teams to collaborate and share insights efficiently.	", "img": "../business/img/	Mode.jpg	", "tags": "		", "note": "		", "url": "	https://mode.com	"},
 {"title": "	SAP Analytics Cloud	", "text": "	SAP Analytics Cloud is a platform used to automate analytics and planning to data sources. The software offers self-service data modeling to set key performance metrics, dimensions, and hierarchies and automate data.	", "img": "../business/img/	SAP Analytics Cloud.jpg	", "tags": "		", "note": "		", "url": "	https://www.saasworthy.com/product/sap-analytics-cloud	"},
 {"title": "	Dreamdata	", "text": "	Dreamdata is a B2B revenue attribution and business intelligence platform that helps extract data from multiple sources such as site user behavior, CRM, and help desk and clean and refine it for analysis.	", "img": "../business/img/	Dreamdata.jpg	", "tags": "		", "note": "		", "url": "	https://dreamdata.io	"},
