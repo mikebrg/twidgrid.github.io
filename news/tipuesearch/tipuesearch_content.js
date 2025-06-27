@@ -1,6 +1,15 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Bajan Reporter	", "text": "	A national/regional news site recognized for its focus on current events, arts, and investigative pieces.	", "img": "img/	Bajan Reporter.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=Bajan Reporter	"},
+{"title": "	Barbados Today	", "text": "	A privately-owned multimedia outlet known for its clean site layout and wide-ranging coverage: politics, business, entertainment, and special features.	", "img": "img/	Barbados Today.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=Barbados Today	"},
+{"title": "	Barbados Underground	", "text": "	An alternative news and commentary site that often tackles stories underrepresented in mainstream media.	", "img": "img/	Barbados Underground.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=Barbados Underground	"},
+{"title": "	Caribbean Broadcasting Corporation (CBC)	", "text": "	Barbados’s government-run radio & TV service, delivering national news via broadcast and online formats.	", "img": "img/	Caribbean Broadcasting Corporation (CBC).jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=Caribbean Broadcasting Corporation (CBC)	"},
+{"title": "	CaribVision	", "text": "	An internationally broadcast channel with Caribbean-wide news anchored in Barbados, available via CBC.	", "img": "img/	CaribVision.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=CaribVision	"},
+{"title": "	Loop Barbados	", "text": "	Part of the regional “Loop News” network, offering local coverage on lifestyle, business, entertainment, and happenings.	", "img": "img/	Loop Barbados.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=Loop Barbados	"},
+{"title": "	Nation News	", "text": "	Barbados’s leading daily newspaper, offering strong coverage across politics, business, sports, lifestyle, and more.	", "img": "img/	Nation News.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=Nation News	"},
+{"title": "	The Barbados Advocate	", "text": "	The country’s second most-read daily (in publication since 1895), covering local affairs, regional developments, and opinion pieces.	", "img": "img/	The Barbados Advocate.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=The Barbados Advocate	"},     
+     
 {"title": "	Bahama Journal	", "text": "	The Bahama Journal is one of the three elements of the Jones Communications Network. The Bahama Journal began in September 12, 1987, by Wendall Jones and focuses on news analysis, and investigative reporting.	", "img": "img/	Bahama Journal.jpg	", "tags": "		", "note": "		", "url": "	bahamas.html#:~:text=Bahama Journal	"},
 {"title": "	Bahamas Press	", "text": "	Online-focused, known for breaking stories and often video-based reporting.	", "img": "img/	Bahamas Press.jpg	", "tags": "		", "note": "		", "url": "	bahamas.html#:~:text=Bahamas Press	"},
 {"title": "	Bahamas Spectator	", "text": "	Aggregates local news with special focus on political and civic updates.	", "img": "img/	Bahamas Spectator.jpg	", "tags": "		", "note": "		", "url": "	bahamas.html#:~:text=Bahamas Spectator	"},
