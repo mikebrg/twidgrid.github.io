@@ -163,4 +163,8 @@ div.bookList	{margin:0px;padding:3px;width:13rem;background:rgb(223,255,255)}
 .square-img {
   width: 385px;
   height: 385px;
+ border-radius:5px;
+ border: 1px solid black;
+ padding-top: 10px;
+  padding-bottom: 10px;
 }
