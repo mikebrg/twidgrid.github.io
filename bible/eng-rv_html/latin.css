@@ -159,3 +159,8 @@ ul.vnav	{list-style-type:none;padding:5px;margin-left:0;text-align:center;float:
 .vnav a:hover	{background-color:#0520ff !important;color:#ffffff}
 
 div.bookList	{margin:0px;padding:3px;width:13rem;background:rgb(223,255,255)}
+
+.square-img {
+  width: 385px;
+  height: 385px;
+}
