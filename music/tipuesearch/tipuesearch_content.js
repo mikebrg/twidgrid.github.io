@@ -1,6 +1,30 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Virgin	", "text": "	Virgin is an album by Lorde released in 2025	", "img": "img/	VirginLorde2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Virgin	"},
+{"title": "	Beautiful Chaos (EP)	", "text": "	Beautiful Chaos (EP) is an album by KATSEYE released in 2025	", "img": "img/	BeautifulChaos(EP)KATSEYE2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Beautiful Chaos (EP)	"},
+{"title": "	W!LD	", "text": "	W!LD is an album by Russ released in 2025	", "img": "img/	W!LDRuss2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=W!LD	"},
+{"title": "	F1: The Album	", "text": "	F1: The Album is an album by Soundtrack released in 2025	", "img": "img/	F1TheAlbumSoundtrack2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=F1: The Album	"},
+{"title": "	I've Tried Everything But Therapy (Complete Edition)	", "text": "	I've Tried Everything But Therapy (Complete Edition) is an album by Teddy Swims released in 2025	", "img": "img/	I'veTriedEverythingButTherapy(CompleteEdition)TeddySwims2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=I've Tried Everything But Therapy (Complete Edition)	"},
+{"title": "	The Secret Of Life: Partners, Volume Two	", "text": "	The Secret Of Life: Partners, Volume Two is an album by Barbra Streisand released in 2025	", "img": "img/	TheSecretOfLifePartners,VolumeTwoBarbraStreisand2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=The Secret Of Life: Partners, Volume Two	"},
+{"title": "	Parker McCollum	", "text": "	Parker McCollum is an album by Parker McCollum released in 2025	", "img": "img/	ParkerMcCollumParkerMcCollum2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Parker McCollum	"},
+{"title": "	Tracks II: The Lost Albums	", "text": "	Tracks II: The Lost Albums is an album by Bruce Springsteen released in 2025	", "img": "img/	TracksIITheLostAlbumsBruceSpringsteen2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Tracks II: The Lost Albums	"},
+{"title": "	Bomb (EP)	", "text": "	Bomb (EP) is an album by ILLIT released in 2025	", "img": "img/	Bomb(EP)ILLIT2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Bomb (EP)	"},
+{"title": "	Pride & Prejudice (Soundtrack)	", "text": "	Pride & Prejudice (Soundtrack) is an album by Jean-Yves Thibaudet released in 2005	", "img": "img/	Pride&Prejudice(Soundtrack)Jean-YvesThibaudet2005.png	", "tags": "		", "note": "		", "url": "	albums2005.html#:~:text=Pride & Prejudice (Soundtrack)	"},
+{"title": "	The Magic Hour Collection	", "text": "	The Magic Hour Collection is an album by Jhene Aiko released in 2024	", "img": "img/	TheMagicHourCollectionJheneAiko2024.png	", "tags": "		", "note": "		", "url": "	albums2024.html#:~:text=The Magic Hour Collection	"},
+     
+{"title": "	How It's Done	", "text": "	How It's Done is a song by HUNTR/X, EJAE, Audrey Nuna & Rei Ami released in 2025	", "img": "img/	How It's DoneHUNTRX, EJAE, Audrey Nuna & Rei Ami2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=How It's Done	"},
+{"title": "	Soda Pop	", "text": "	Soda Pop is a song by Saja Boys, Andrew Choi, Neckwav, Danny Chung, Kevin Woo & samUIL Lee released in 2025	", "img": "img/	How It's DoneHUNTRX, EJAE, Audrey Nuna & Rei Ami2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Soda Pop	"},
+{"title": "	What It Sounds Like	", "text": "	What It Sounds Like is a song by HUNTR/X, EJAE, Audrey Nuna & Rei Ami released in 2025	", "img": "img/	How It's DoneHUNTRX, EJAE, Audrey Nuna & Rei Ami2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=What It Sounds Like	"},
+{"title": "	Free	", "text": "	Free is a song by Rumi, JINU, EJAE & Andrew Choi released in 2025	", "img": "img/	How It's DoneHUNTRX, EJAE, Audrey Nuna & Rei Ami2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Free	"},
+{"title": "	On My Mind	", "text": "	On My Mind is a song by Alex Warren & ROSE released in 2025	", "img": "img/	On My MindAlex Warren & ROSE2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=On My Mind	"},
+{"title": "	Takedown	", "text": "	Takedown is a song by HUNTR/X, EJAE, Audrey Nuna & Rei Ami released in 2025	", "img": "img/	How It's DoneHUNTRX, EJAE, Audrey Nuna & Rei Ami2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Takedown	"},
+{"title": "	Home	", "text": "	Home is a song by BigXthaPlug & Shaboozey released in 2025	", "img": "img/	HomeBigXthaPlug & Shaboozey2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Home	"},
+{"title": "	FWU	", "text": "	FWU is a song by Don Toliver released in 2025	", "img": "img/	FWUDon Toliver2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=FWU	"},
+{"title": "	Went West	", "text": "	Went West is a song by BabyChiefDoit released in 2025	", "img": "img/	Went WestBabyChiefDoit2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Went West	"},
+{"title": "	Went Legit	", "text": "	Went Legit is a song by G Herbo released in 2024	", "img": "img/	Went LegitG Herbo2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Went Legit	"},
+{"title": "	Bar None	", "text": "	Bar None is a song by Jordan Davis released in 2025	", "img": "img/	Bar NoneJordan Davis2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Bar None	"},
+     
 {"title": "	American Heart	", "text": "	American Heart is an album by Benson Boone released in 2025	", "img": "img/	AmericanHeartBensonBoone2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=American Heart	"},
 {"title": "	Tropicoqueta	", "text": "	Tropicoqueta is an album by Karol G released in 2025	", "img": "img/	TropicoquetaKarolG2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Tropicoqueta	"},
 {"title": "	KPop Demon Hunters	", "text": "	KPop Demon Hunters is an album by Soundtrack released in 2025	", "img": "img/	KPopDemonHuntersSoundtrack2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=KPop Demon Hunters	"},
