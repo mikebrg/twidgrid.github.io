@@ -75,7 +75,13 @@ http://www.tipue.com/search
      cursor: pointer;
 	outline: 0;
 }
+.tipue_search_button:hover {
+  background-color: white;
+}
 
+.tipue_clear_button:hover {
+  background-color: white;
+}
 .tipue_search_icon
 {
      float: left;
