@@ -296,3 +296,24 @@ http://www.tipue.com/search
      color: #ccc;
 }
 
+.clear-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+  display: none; /* hidden by default */
+  user-select: none;
+}
+
+/* Show the × only when there's text (i.e. placeholder is NOT shown) */
+#tipue_search_input:not(:placeholder-shown) + .clear-btn {
+  display: block;
+}
+
+/* Clicking the label selects the input and lets user backspace easily */
+.clear-btn:hover {
+  color: #000;
+}
