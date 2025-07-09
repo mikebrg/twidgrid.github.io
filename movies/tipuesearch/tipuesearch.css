@@ -58,6 +58,24 @@ http://www.tipue.com/search
      cursor: pointer;
 	outline: 0;
 }
+.tipue_clear_button
+{
+     position: relative;
+     float: left;
+     width: 49px;
+     height: 56px;
+     margin-left: -3px;
+     background-color: #f3f3f3;
+     border-style: solid;
+     border-color: black;
+     border-width: 1px;
+     border-top-right-radius: 0px;
+     border-bottom-right-radius: 0px;
+     box-sizing: border-box;
+     cursor: pointer;
+	outline: 0;
+}
+
 .tipue_search_icon
 {
      float: left;
@@ -296,24 +314,4 @@ http://www.tipue.com/search
      color: #ccc;
 }
 
-.clear-btn {
-  position: absolute;
-  right: 8px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 18px;
-  color: #999;
-  cursor: pointer;
-  display: none; /* hidden by default */
-  user-select: none;
-}
 
-/* Show the × only when there's text (i.e. placeholder is NOT shown) */
-#tipue_search_input:not(:placeholder-shown) + .clear-btn {
-  display: block;
-}
-
-/* Clicking the label selects the input and lets user backspace easily */
-.clear-btn:hover {
-  color: #000;
-}
