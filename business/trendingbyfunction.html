@@ -54,15 +54,14 @@
                     Sorted.</span>
                 <p></p>
                 <p></p>
-                <form>
-                    <div class="tipue_search_group">
-                        <input type="text" name="q" id="tipue_search_input" pattern=".{3,}"
-                            title="At least 3 characters" required autofocus><button type="submit"
-                            class="tipue_search_button">
-                            <div class="tipue_search_icon">&#9906;</div>
-                        </button>
-                    </div>
-                </form>
+              <form onreset="setTimeout(() => this.querySelector('[name=q]').focus(), 0)">
+        <div class="tipue_search_group">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required autofocus>
+          <button type="reset" class="tipue_clear_button">X</button>
+          <button type="submit" class="tipue_search_button"><div class="tipue_search_icon">&#9906;</div></button>
+        </div>
+        </form>
+
 
                 <p></p>
                 <p></p>
