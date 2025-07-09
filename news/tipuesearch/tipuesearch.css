@@ -58,6 +58,30 @@ http://www.tipue.com/search
      cursor: pointer;
 	outline: 0;
 }
+.tipue_clear_button
+{
+     position: relative;
+     float: left;
+     width: 49px;
+     height: 56px;
+     margin-left: -3px;
+     background-color: #f3f3f3;
+     border-style: solid;
+     border-color: black;
+     border-width: 1px;
+     border-top-right-radius: 0px;
+     border-bottom-right-radius: 0px;
+     box-sizing: border-box;
+     cursor: pointer;
+	outline: 0;
+}
+.tipue_search_button:hover {
+  background-color: white;
+}
+
+.tipue_clear_button:hover {
+  background-color: white;
+}
 .tipue_search_icon
 {
      float: left;
