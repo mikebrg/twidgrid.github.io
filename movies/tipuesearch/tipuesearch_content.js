@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Outlander: Blood of My Blood	", "text": "	This prequel to the Outlander series focuses on the lives and courtship of the parents of Jamie Fraser: Brian Fraser and Ellen Mackenzie as well as Claire Beauchamp's parents, Henry Beauchamp and Julia Moriston.	", "img": "img/	Outlander Blood of My Blood (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Outlander: Blood of My Blood	"},
+	
+{"title": "	Red Sonja	", "text": "	An adaptation of the comic book, Red Sonja, a vengeful warrior known as a 'She-Devil with a sword'.	", "img": "img/	Red Sonja (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Red Sonja	"},
+{"title": "	The SpongeBob Movie: Search for SquarePants	", "text": "	SpongeBob journeys to the ocean's depths to face the Flying Dutchman's ghost, encountering challenges and uncovering marine mysteries.	", "img": "img/	The SpongeBob Movie Search for SquarePants (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The SpongeBob Movie: Search for SquarePants	"},
+	
 {"title": "	This Is Spinal Tap	", "text": "	Spinal Tap, one of England's loudest bands, is chronicled by film director Marty DiBergi on what proves to be a fateful tour.	", "img": "img/	This Is Spinal Tap (1984).webp	", "tags": "		", "note": "		", "url": "	1984.html#:~:text=This Is Spinal Tap	"},
 {"title": "	28 Weeks Later	", "text": "	Twenty-eight weeks after the spread of a deadly rage virus, the inhabitants of the British Isles have lost their battle against the onslaught, as the virus has killed everyone there.	", "img": "img/	28 Weeks Later (2007).webp	", "tags": "		", "note": "		", "url": "	2007.html#:~:text=28 Weeks Later	"},
 {"title": "	28 Days Later	", "text": "	Twenty-eight days after a killer virus was accidentally unleashed from a British research facility, a small group of London survivors are caught in a desperate struggle to protect themselves from the infected.	", "img": "img/	28 Days Later (2002).webp	", "tags": "		", "note": "		", "url": "	2002.html#:~:text=28 Days Later	"},
