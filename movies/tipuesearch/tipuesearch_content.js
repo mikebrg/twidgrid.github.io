@@ -1,6 +1,13 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Tron: Ares	", "text": "	A highly sophisticated Program, Ares, is sent from the digital world into the real world on a dangerous mission.	", "img": "img/	Tron Ares (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Tron: Ares	"},
+{"title": "	After the Hunt	", "text": "	A college professor finds herself at a personal and professional crossroads when a star pupil levels an accusation against one of her colleagues and a dark secret from her own past threatens to come to light.	", "img": "img/	After the Hunt (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=After the Hunt	"},
+{"title": "	The Map That Leads to You	", "text": "	Heather's European adventure takes a turn when she meets Jack, sparking an unexpected emotional journey neither of them saw coming.	", "img": "img/	The Map That Leads to You (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Map That Leads to You	"},
+{"title": "	Tron	", "text": "	A computer hacker is abducted into a digital world and forced to participate in gladiatorial games where his only chance of escape is with the help of a heroic security program.	", "img": "img/	Tron (1982).webp	", "tags": "		", "note": "		", "url": "	1982.html#:~:text=Tron	"},
+{"title": "	TRON: Legacy	", "text": "	The son of a computer programmer goes looking for his father and ends up inside the digital world that his father designed. He meets his father's corrupted creation and a unique ally who was born inside the digital world.	", "img": "img/	TRON Legacy (2010).webp	", "tags": "		", "note": "		", "url": "	2010.html#:~:text=TRON: Legacy	"},
+{"title": "	Smurfs	", "text": "	When Papa Smurf is taken by evil wizards Razamel and Gargamel, Smurfette leads the Smurfs on a mission to the real world to save him.	", "img": "img/	Smurfs (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Smurfs	"},
+	
 {"title": "	Outlander: Blood of My Blood	", "text": "	This prequel to the Outlander series focuses on the lives and courtship of the parents of Jamie Fraser: Brian Fraser and Ellen Mackenzie as well as Claire Beauchamp's parents, Henry Beauchamp and Julia Moriston.	", "img": "img/	Outlander Blood of My Blood (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Outlander: Blood of My Blood	"},
 	
 {"title": "	Red Sonja	", "text": "	An adaptation of the comic book, Red Sonja, a vengeful warrior known as a 'She-Devil with a sword'.	", "img": "img/	Red Sonja (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Red Sonja	"},
