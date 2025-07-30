@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Trinidad Guardian	", "text": "	Guardian Media is the premier provider of multimedia solutions and authoritative insight on news, politics, business, finance, sports, and current affairs.	", "img": "img/	trinidadguardian.jpg	", "tags": "		", "note": "		", "url": "	jamaica.html#:~:text=The Trinidad Guardian	"},
+{"title": "	Trinidad & Tobago Newsday	", "text": "	Newsday, published by Daily News Limited, is one of three daily newspapers serving the twin-island state of Trinidad and Tobago.	", "img": "img/	trinidadnewsday.jpg	", "tags": "		", "note": "		", "url": "	jamaica.html#:~:text=Trinidad & Tobago Newsday	"},
+{"title": "	Trinidad Express	", "text": "	The National Newspaper of Trinidad and Tobago	", "img": "img/	Trinidad Express.jpg	", "tags": "		", "note": "		", "url": "	jamaica.html#:~:text=Trinidad Express	"},
+{"title": "	Trinidad Tribune	", "text": "	Trinidad Tribune aims to deliver daily news and updates on Trinidad as well as on the Caribbean and the world to readers in the Diaspora and globally.	", "img": "img/	Trinidad Tribune.jpg	", "tags": "		", "note": "		", "url": "	jamaica.html#:~:text=Trinidad Tribune	"},     
+
 {"title": "	Bajan Reporter	", "text": "	A national/regional news site recognized for its focus on current events, arts, and investigative pieces.	", "img": "img/	Bajan Reporter.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=Bajan Reporter	"},
 {"title": "	Barbados Today	", "text": "	A privately-owned multimedia outlet known for its clean site layout and wide-ranging coverage: politics, business, entertainment, and special features.	", "img": "img/	Barbados Today.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=Barbados Today	"},
 {"title": "	Barbados Underground	", "text": "	An alternative news and commentary site that often tackles stories underrepresented in mainstream media.	", "img": "img/	Barbados Underground.jpg	", "tags": "		", "note": "		", "url": "	barbados.html#:~:text=Barbados Underground	"},
