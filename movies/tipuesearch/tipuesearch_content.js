@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Eyes of Wakanda (2025)	", "text": "	Wakandan warriors who, throughout history, have traveled the world to retrieve dangerous vibranium artifacts.	", "img": "img/	Eyes of Wakanda (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Eyes of Wakanda	"},
+{"title": "	The Paper (2025)	", "text": "	Documentary crew searches for new subject, finding a dying Midwestern newspaper and its publisher's efforts to revive it using volunteer reporters.	", "img": "img/	The Paper (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=The Paper	"},	
 
 {"title": "	Twisted Metal (2023)	", "text": "	An outsider must deliver a mysterious package across a post-apocalyptic wasteland in exchange for a better life.	", "img": "img/	Twisted Metal (2023).webp	", "tags": "		", "note": "		", "url": "	tv2023.html#:~:text=Twisted Metal	"},	
 {"title": "	Jay Kelly (2025)	", "text": "	Famous movie actor Jay Kelly and his devoted manager Ron embark on a whirlwind and unexpectedly profound journey.	", "img": "img/	Jay Kelly (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Jay Kelly	"},
