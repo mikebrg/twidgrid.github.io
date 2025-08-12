@@ -2,7 +2,7 @@
 var tipuesearch = {"pages": [
 
 
-	
+{"title": "	Twisted Metal (2023)	", "text": "	An outsider must deliver a mysterious package across a post-apocalyptic wasteland in exchange for a better life.	", "img": "img/	Twisted Metal (2023).webp	", "tags": "		", "note": "		", "url": "	tv2023.html#:~:text=Twisted Metal	"},	
 {"title": "	Jay Kelly (2025)	", "text": "	Famous movie actor Jay Kelly and his devoted manager Ron embark on a whirlwind and unexpectedly profound journey.	", "img": "img/	Jay Kelly (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Jay Kelly	"},
 {"title": "	HIM (2025)	", "text": "	A promising young football player joins an isolated compound to train under a dynasty team's aging quarterback.	", "img": "img/	HIM (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=HIM	"},
 {"title": "	Swiped (2025)	", "text": "	Inspired by the story of Whitney Wolfe Herd, founder and former CEO of dating platform Bumble.	", "img": "img/	Swiped (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Swiped	"},
