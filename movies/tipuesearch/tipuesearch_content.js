@@ -1,6 +1,13 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Jay Kelly (2025)	", "text": "	Famous movie actor Jay Kelly and his devoted manager Ron embark on a whirlwind and unexpectedly profound journey.	", "img": "img/	Jay Kelly (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Jay Kelly	"},
+{"title": "	HIM (2025)	", "text": "	A promising young football player joins an isolated compound to train under a dynasty team's aging quarterback.	", "img": "img/	HIM (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=HIM	"},
+{"title": "	Swiped (2025)	", "text": "	Inspired by the story of Whitney Wolfe Herd, founder and former CEO of dating platform Bumble.	", "img": "img/	Swiped (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Swiped	"},
+{"title": "	If I Had Legs I'd Kick You (2025)	", "text": "	With her life crashing down around her, Linda attempts to navigate her child's mysterious illness, her absent husband, a missing person, and an increasingly hostile relationship with her therapist.	", "img": "img/	If I Had Legs I'd Kick You (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=If I Had Legs I'd Kick You	"},
+{"title": "	The Thursday Murder Club (2025)	", "text": "	Four irrepressible retirees spend their time solving cold case murders for fun, but their casual sleuthing takes a thrilling turn when they find themselves with a real whodunit on their hands.	", "img": "img/	The Thursday Murder Club (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Thursday Murder Club	"},
+{"title": "	Sketch (2025)	", "text": "	When a young girl's sketchbook falls into a strange pond, her drawings come to life-chaotic, real and on the loose.	", "img": "img/	Sketch (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Sketch	"},
+	
 {"title": "	Wings (1927)	", "text": "	Two young men, one rich, one middle class, who are in love with the same woman, become fighter pilots in World War I.	", "img": "img/	Wings (1927).webp	", "tags": "		", "note": "		", "url": "	1927.html#:~:text=Wings	"},
 												
 {"title": "	The Broadway Melody (1928)	", "text": "	A pair of sisters from the vaudeville circuit try to make it big time on Broadway, but matters of the heart complicate the attempt.	", "img": "img/	The Broadway Melody (1928).webp	", "tags": "		", "note": "		", "url": "	1928.html#:~:text=The Broadway Melody	"},
