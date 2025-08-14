@@ -14,12 +14,10 @@
   const categories = Object.keys(window.categorySites || {}).sort();
   let homepage = true;
 
-  // Map categories to folders
   const categoryFolderMap = {
     'Websites': 'websites',
     'Movies': 'movies',
     'Music': 'music'
-    // add more as needed
   };
 
   // Populate dropdown
@@ -57,7 +55,7 @@
     updateDarkModeUI(isDark);
   });
 
-  // ---------- Homepage (categories only) ----------
+  // ---------- Homepage ----------
   function renderHomepage(filter = '') {
     homepage = true;
     currentSites = [];
@@ -65,10 +63,7 @@
     categoryFilter.value = '';
 
     const f = filter.toLowerCase();
-
-    const visibleCategories = categories.filter(cat =>
-      cat.toLowerCase().includes(f)
-    );
+    const visibleCategories = categories.filter(cat => cat.toLowerCase().includes(f));
 
     function sectionHeader(text) {
       const h = document.createElement('h2');
@@ -82,10 +77,9 @@
       list.forEach(cat => {
         const card = document.createElement('div');
         card.className = 'card category-card';
+        card.style.cursor = 'pointer';
 
-        // Determine folder for this category
         const folder = categoryFolderMap[cat] || 'websites';
-
         const img = document.createElement('img');
         img.src = `images/${folder}/${cat}.png`;
         img.alt = cat;
@@ -96,19 +90,10 @@
         title.className = 'category-title';
         title.textContent = cat;
 
-        // Small star if category has favorites
-        const hasFav = (window.categorySites[cat] || []).some(site => favorites.includes(site.url));
-        if (hasFav) {
-          const star = document.createElement('span');
-          star.className = 'star favorited';
-          star.innerHTML = '★';
-          star.style.marginLeft = '6px';
-          title.appendChild(star);
-        }
-
         card.appendChild(img);
         card.appendChild(title);
 
+        // Click anywhere on category card -> load category
         card.addEventListener('click', () => {
           loadCategory(cat);
           categoryFilter.value = cat;
@@ -146,6 +131,15 @@
     sortedSites.forEach(site => {
       const card = document.createElement('div');
       card.className = 'card';
+      card.style.cursor = 'pointer';
+
+      // Clicking the card opens link
+      card.addEventListener('click', () => {
+        window.open(site.url, '_blank');
+      });
+
+      const header = document.createElement('div');
+      header.className = 'card-header';
 
       // Poster image if available
       if (site.image) {
@@ -157,27 +151,27 @@
         card.appendChild(poster);
       }
 
-      const header = document.createElement('div');
-      header.className = 'card-header';
-
-      // Use local favicon if no poster
+      // Local favicon if no poster
       if (!site.image) {
         const faviconImg = document.createElement('img');
         faviconImg.className = 'favicon';
-        faviconImg.src = `images/${folder}/${site.name}.png`; // <-- local favicon
+        faviconImg.src = `images/${folder}/${site.name}.png`;
+        faviconImg.alt = site.name;
         faviconImg.onerror = () => { faviconImg.style.display = 'none'; };
         header.appendChild(faviconImg);
       }
 
-      const link = document.createElement('a');
-      link.href = site.url;
-      link.target = '_blank';
-      link.textContent = site.name;
+      // Site name
+      const title = document.createElement('span');
+      title.textContent = site.name;
+      header.appendChild(title);
 
+      // Favorite star (stopPropagation)
       const star = document.createElement('span');
       star.className = 'star' + (favorites.includes(site.url) ? ' favorited' : '');
       star.innerHTML = '&#9733;';
-      star.addEventListener('click', () => {
+      star.addEventListener('click', (e) => {
+        e.stopPropagation();
         const idx = favorites.indexOf(site.url);
         if (idx >= 0) favorites.splice(idx, 1);
         else favorites.push(site.url);
@@ -186,7 +180,6 @@
         else renderList();
       });
 
-      header.appendChild(link);
       header.appendChild(star);
       card.appendChild(header);
       grid.appendChild(card);
