@@ -1,107 +1,28 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="UTF-8">
 <title>TwidGrid</title>
+<link rel="stylesheet" href="style.css">
+<link id="favicon" rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/24/000000/grid.png"/>
+</head>
+<body>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<div id="menuBar">
+  <h1>
+    <img id="titleIcon" src="https://img.icons8.com/ios-filled/24/000000/grid.png" alt="icon"> TwidGrid
+  </h1>
+  <input type="text" id="search" placeholder="Search websites...">
+  <select id="categoryFilter">
+    <option value="">Categories</option>
+  </select>
+  <button id="darkModeBtn">☾</button>
+</div>
 
-<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+<div class="grid" id="websiteGrid"></div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
-<link rel="stylesheet" href="inc/standard.css">
-<link rel="icon" type="image/x-icon" href="img/favicon.png">
-<style>
-    
-.head {
-     position: relative;
-     background-size: cover;
-     background-image: url('img/surface.jpg');
-     background-position: center;
-     min-height: 400px;
-}
-    
-    .table-cell img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-    }
-    
-</style>
-
-</head><body>
-
-<div class="cont">
-
-<div id="head"><div class="block"><a href="index.html" class="not"><div class="ban">TwidGrid</div></a></div></div>
-
-<div class="head">
-<div class="block" style="padding-top: 79px;">
-<h3>TwidGrid</h3><span class="fo-5">Explore, discover, and connect. It all starts here.</span>
-<p></p><p></p>    
-<div><a class="btn-1" href="websearch/index.html">Search the Web</a>
-    </div>
-
-</div></div>
-
-
-<div class="block-978" style="padding-bottom: 39px;">
-
-<p><p>
-
-    <ul class="responsive-table">
-
-        <li class="table-cell"><a href="	atlas/index.html	"><img src="img/	globe.png	" alt="	Atlas	"></a><h3>	Atlas	</h3><p>	Mapping the World, One Wonder at a Time.	</p></li>
-        <li class="table-cell"><a href="	bible/index.html	"><img src="img/	bible.png	" alt="	Bible	"></a><h3>	Bible	</h3><p>	Explore the full text of the Holy Bible, complete with chapter-by-chapter images to enhance your reading experience.	</p></li>
-        <li class="table-cell"><a href="	business/index.html	"><img src="img/	business.png	" alt="	Business	"></a><h3>	Business	</h3><p>	Find the Perfect Software for Your Business – Smart, Simple, Sorted.	</p></li>
-        <li class="table-cell"><a href="	fifaworldcup/index.html	"><img src="img/	fifaworldcup.png	" alt="	FIFA World Cup	"></a><h3>	FIFA World Cup	</h3><p>	FIFA World Cup tournaments, all the records and statistics.	</p></li>
-        <li class="table-cell"><a href="	malta/index.html	"><img src="img/	malta.png	" alt="	Malta	"></a><h3>	Malta	</h3><p>	Discover Malta, Gozo and its other islands, its history, people and culture.	</p></li>
-        <li class="table-cell"><a href="	movies/index.html	"><img src="img/	movies.png	" alt="	Movies	"></a><h3>	Movies	</h3><p>	Movies, Television Shows and Media Franchises.	</p></li>
-        <li class="table-cell"><a href="	music/index.html	"><img src="img/	music.png	" alt="	Music	"></a><h3>	Music	</h3><p>	Top charted songs, music videos, golden oldies and more!	</p></li>
-        <li class="table-cell"><a href="	news/index.html	"><img src="img/	news.png	" alt="	News	"></a><h3>	News	</h3><p>	Your Front Row Seat to the World’s Headlines – All the News, One Click Away.	</p></li>
-        <li class="table-cell"><a href="	people/index.html	"><img src="img/	people.png	" alt="	People	"></a><h3>	People	</h3><p>	Stories, Achievements, and Moments of the World's Most Famous People.	</p></li>
-        <li class="table-cell"><a href="	sports/index.html	"><img src="img/	sports.png	" alt="	Sports	"></a><h3>	Sports	</h3><p>	Stay updated with the latest championship results, rankings, and highlights from major sports leagues and tournaments around the world.	</p></li>
-        <li class="table-cell"><a href="	todayinhistory/index.html	"><img src="img/	todayinhistory.png	" alt="	Today in History	"></a><h3>	Today in History	</h3><p>	Unlock the Past: Discover What Happened Today in History!	</p></li>
-        <li class="table-cell"><a href="	websearch/index.html	"><img src="img/	websearch.png	" alt="	WebSearch	"></a><h3>	WebSearch	</h3><p>	Search the Web and Discover the World.	</p></li>
-
-                        
-    </ul>
-            
-    </div></div>
-
-
-    <a href="#" id="back-to-top" title="Back to top">↑</a>
-
-<script>
-window.addEventListener('scroll', function() {
-    let backToTop = document.getElementById('back-to-top');
-    
-    if (window.scrollY > 300) { // Show button after scrolling 300px
-        backToTop.style.display = 'block';
-    } else {
-        backToTop.style.display = 'none';
-    }
-});
-
-document.getElementById('back-to-top').addEventListener('click', function(e) {
-    e.preventDefault();
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
-});
-</script>
-
-<footer class="foot">
-
-        <div class="block fo-1">
-            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="contact.html">Contact Us</a></p>
-            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
-        </div>
-    </footer>
-    <script>
-        // JavaScript to update the year dynamically
-        document.getElementById("current-year").textContent = new Date().getFullYear();
-    </script>
+<script src="movies.js"></script>
+<script src="websites.js"></script>
+<script src="script.js"></script>
 </body>
 </html>

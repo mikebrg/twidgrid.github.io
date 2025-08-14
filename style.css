@@ -1,0 +1,158 @@
+/* Base body */
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding-top: 70px;
+  transition: background 0.5s, color 0.5s;
+}
+
+/* Menu bar */
+#menuBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  transition: background 0.5s, color 0.5s;
+}
+
+#menuBar h1, #menuBar h1 img {
+  cursor: pointer;
+}
+
+
+/* Desktop title text */
+#menuBar h1 {
+  font-size: 1.2rem;
+  line-height: 36px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  justify-content: flex-start;
+  height: 36px;
+}
+
+/* Title icon */
+#menuBar img#titleIcon {
+  width: 24px;
+  height: 24px;
+  transition: filter 0.5s;
+}
+
+/* Inputs, select, buttons */
+#menuBar input,
+#menuBar select,
+#menuBar button#darkModeBtn {
+  flex: 0 0 auto;
+  width: 180px;
+  height: 36px;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: background 0.5s, color 0.5s, border-color 0.5s;
+}
+
+#menuBar button#darkModeBtn {
+  width: 50px;
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+/* Cards */
+.card { 
+  background: white; 
+  padding: 18px; /* slightly more padding for balance */
+  border-radius: 12px; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  display: flex; 
+  flex-direction: column; 
+  gap: 12px; /* increased gap without category */
+  transition: transform 0.2s, box-shadow 0.2s, background 0.5s, color 0.5s;
+}
+.card:hover { 
+  transform: scale(1.03); 
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2); 
+}
+
+.card-header { 
+  display: flex; 
+  align-items: center; 
+  gap: 12px; /* spacing between favicon, link, and star */
+}
+
+.card img.favicon { width: 24px; height: 24px; border-radius: 4px; }
+.card a { 
+  text-decoration: none; 
+  color: #333; 
+  font-weight: bold; 
+  flex: 1; 
+  transition: color 0.5s; 
+}
+
+.star { 
+  cursor: pointer; 
+  font-size: 1.2rem; 
+  color: #ccc; 
+  transition: color 0.5s; 
+}
+.star.favorited { color: #f4c542; }
+
+/* Dark mode */
+body.dark { background: #121212; color: #eee; }
+body.dark #menuBar { background: #2a2a2a; }
+body.dark #menuBar button#darkModeBtn { background: #333; color: #fff; }
+body.dark input, body.dark select { background: #2a2a2a; border: 1px solid #555; color: #eee; }
+body.dark .card { background: #2f2f2f; }
+body.dark .card a { color: #eee; }
+
+/* Mobile adjustments */
+@media (max-width: 500px) {
+  #menuBar {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+  }
+
+  #menuBar h1 { font-size: 0; }
+  #menuBar h1 img#titleIcon { width: 24px; height: 24px; }
+
+  #menuBar input,
+  #menuBar select { flex: 0 0 180px; }
+  #menuBar button#darkModeBtn { width: 50px; }
+
+  .grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+}
+
+.category-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+
+.card:hover .category-icon {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
