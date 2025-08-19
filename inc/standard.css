@@ -425,7 +425,7 @@ text-decoration: underline; /* Add underline only on hover */
      border-radius: 8px;
      max-width: 800px; /* Maximum width */
      width: 90%; /* Width set to 90% of the viewport */
-     height: 80vh; /* Height set to 80% of the viewport height */
+     height: 85vh; /* Height set to 85% of the viewport height */
      display: flex;
      flex-direction: column; /* Stack the header, iframe, and footer vertically */
      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
