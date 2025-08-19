@@ -1,6 +1,30 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Just Say Dat	", "text": "	Just Say Dat is a song by Gunna released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Just Say Dat	"},
+{"title": "	Hell At Night	", "text": "	Hell At Night is a song by BigXthaPlug & Ella Langley released in 2025	", "img": "img/	Hell At NightBigXthaPlug & Ella Langley2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Hell At Night	"},
+{"title": "	Forever Be Mine	", "text": "	Forever Be Mine is a song by Gunna Featuring Wizkid released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Forever Be Mine	"},
+{"title": "	Sakpase	", "text": "	Sakpase is a song by Gunna released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Sakpase	"},
+{"title": "	At My Purest	", "text": "	At My Purest is a song by Gunna Featuring Offset released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=At My Purest	"},
+{"title": "	Let That Sink In	", "text": "	Let That Sink In is a song by Gunna released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Let That Sink In	"},
+{"title": "	Bowery	", "text": "	Bowery is a song by Zach Bryan Featuring Kings of Leon released in 2025	", "img": "img/	BoweryZach Bryan Featuring Kings of Leon2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Bowery	"},
+{"title": "	Lost	", "text": "	Lost is a song by Bailey Zimmerman & The Kid LAROI released in 2025	", "img": "img/	LostBailey Zimmerman & The Kid LAROI2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Lost	"},
+{"title": "	gp	", "text": "	gp is a song by Gunna released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=gp	"},
+{"title": "	wgft	", "text": "	wgft is a song by Gunna Featuring Burna Boy released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=wgft	"},
+{"title": "	Many Nights	", "text": "	Many Nights is a song by Gunna released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Many Nights	"},
+     
+{"title": "	The Last Wun	", "text": "	The Last Wun is an album by Gunna released in 2025	", "img": "img/	TheLastWunGunna2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=The Last Wun	"},
+{"title": "	Lost Americana	", "text": "	Lost Americana is an album by mgk released in 2025	", "img": "img/	LostAmericanamgk2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Lost Americana	"},
+{"title": "	Greetings From Your Hometown	", "text": "	Greetings From Your Hometown is an album by Jonas Brothers released in 2025	", "img": "img/	GreetingsFromYourHometownJonasBrothers2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Greetings From Your Hometown	"},
+{"title": "	Metal Forth	", "text": "	Metal Forth is an album by Babymetal released in 2025	", "img": "img/	MetalForthBabymetal2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Metal Forth	"},
+{"title": "	God Does Like Ugly	", "text": "	God Does Like Ugly is an album by JID released in 2025	", "img": "img/	GodDoesLikeUglyJID2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=God Does Like Ugly	"},
+{"title": "	Different Night Same Rodeo	", "text": "	Different Night Same Rodeo is an album by Bailey Zimmerman released in 2025	", "img": "img/	DifferentNightSameRodeoBaileyZimmerman2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Different Night Same Rodeo	"},
+{"title": "	Willoughby Tucker I'll Always Love You	", "text": "	Willoughby Tucker I'll Always Love You is an album by Ethel Cain released in 2025	", "img": "img/	WilloughbyTuckerI'llAlwaysLoveYouEthelCain2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Willoughby Tucker I'll Always Love You	"},
+{"title": "	No Rain, No Flowers	", "text": "	No Rain, No Flowers is an album by The Black Keys released in 2025	", "img": "img/	NoRain,NoFlowersTheBlackKeys2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=No Rain, No Flowers	"},
+{"title": "	Deshawn	", "text": "	Deshawn is an album by YoungBoy Never Broke Again released in 2025	", "img": "img/	DeshawnYoungBoyNeverBrokeAgain2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Deshawn	"},
+{"title": "	Everest	", "text": "	Everest is an album by Halestorm released in 2025	", "img": "img/	EverestHalestorm2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Everest	"},
+{"title": "	Dollar A Day	", "text": "	Dollar A Day is an album by Charley Crockett released in 2025	", "img": "img/	DollarADayCharleyCrockett2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Dollar A Day	"},     
+     
 {"title": "	So Far So Fake	", "text": "	So Far So Fake is a song by Pierce the Veil released in 2023	", "img": "img/	So Far So FakePierce the Veil2023.png	", "tags": "		", "note": "		", "url": "	2023.html#:~:text=So Far So Fake	"},
 {"title": "	A Lot More Free	", "text": "	A Lot More Free is a song by Max McNown released in 2023	", "img": "img/	A Lot More FreeMax McNown2023.png	", "tags": "		", "note": "		", "url": "	2023.html#:~:text=A Lot More Free	"},
 {"title": "	Don't Mind If I Do	", "text": "	Don't Mind If I Do is a song by Riley Green Featuring Ella Langley released in 2024	", "img": "img/	Don't Mind If I DoRiley Green Featuring Ella Langley2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Don't Mind If I Do	"},
