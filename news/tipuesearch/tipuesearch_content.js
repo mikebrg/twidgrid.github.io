@@ -1,6 +1,14 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Amandala	", "text": "	A biweekly newspaper published on Tuesdays and Fridays.	", "img": "img/	Amandala.jpg	", "tags": "		", "note": "		", "url": "	belize.html#:~:text=Amandala	"},
+{"title": "	Ambergris Today	", "text": "	Ambergris Today is an English-language weekly newspaper published in San Pedro Town, Ambergris Caye, Belize. It is a free newspaper, marketed to tourists.	", "img": "img/	Ambergris Today.jpg	", "tags": "		", "note": "		", "url": "	belize.html#:~:text=Ambergris Today	"},
+{"title": "	Belize Live News	", "text": "	Your source for breaking news, top stories, weather updates, sports, and entertainment from across Belize.	", "img": "img/	Belize Live News.jpg	", "tags": "		", "note": "		", "url": "	belize.html#:~:text=Belize Live News	"},
+{"title": "	Greater Belize Media	", "text": "	We remain committed to telling Belizean stories, but now we do so across all media platforms, ensuring our local perspectives and voices remain at the center of our national conversation.	", "img": "img/	Greater Belize Media.jpg	", "tags": "		", "note": "		", "url": "	belize.html#:~:text=Greater Belize Media	"},
+{"title": "	The Guardian	", "text": "	The Guardian is a Belizean newspaper and the official print organ of the United Democratic Party.	", "img": "img/	BelizeThe Guardian.jpg	", "tags": "		", "note": "		", "url": "	belize.html#:~:text=The Guardian	"},
+{"title": "	The Reporter	", "text": "	The Reporter is one of the chief newspapers of Belize.	", "img": "img/	The Reporter.jpg	", "tags": "		", "note": "		", "url": "	belize.html#:~:text=The Reporter	"},
+{"title": "	The San Pedro Sun	", "text": "	The San Pedro Sun is a newspaper published continuously since 1991 and serves the community of San Pedro Town located on Ambergris Caye in Belize, Central America.	", "img": "img/	The San Pedro Sun.jpg	", "tags": "		", "note": "		", "url": "	belize.html#:~:text=The San Pedro Sun	"},	
+
 {"title": "	The Trinidad Guardian	", "text": "	Guardian Media is the premier provider of multimedia solutions and authoritative insight on news, politics, business, finance, sports, and current affairs.	", "img": "img/	trinidadguardian.jpg	", "tags": "		", "note": "		", "url": "	trinidad-tobago.html#:~:text=The Trinidad Guardian	"},
 {"title": "	Trinidad & Tobago Newsday	", "text": "	Newsday, published by Daily News Limited, is one of three daily newspapers serving the twin-island state of Trinidad and Tobago.	", "img": "img/	trinidadnewsday.jpg	", "tags": "		", "note": "		", "url": "	trinidad-tobago.html#:~:text=Trinidad & Tobago Newsday	"},
 {"title": "	Trinidad Express	", "text": "	The National Newspaper of Trinidad and Tobago	", "img": "img/	Trinidad Express.jpg	", "tags": "		", "note": "		", "url": "	trinidad-tobago.html#:~:text=Trinidad Express	"},
