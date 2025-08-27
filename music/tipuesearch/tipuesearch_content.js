@@ -1,6 +1,21 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Imaginary Playerz	", "text": "	Imaginary Playerz is a song by Cardi B released in 2025	", "img": "img/	Imaginary PlayerzCardi B2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Imaginary Playerz	"},
+{"title": "	Last One To Know	", "text": "	Last One To Know is a song by Gavin Adcock released in 2025	", "img": "img/	Last One To KnowGavin Adcock2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Last One To Know	"},
+{"title": "	Heart Of Stone	", "text": "	Heart Of Stone is a song by Jelly Roll released in 2024	", "img": "img/	Heart Of StoneJelly Roll2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Heart Of Stone	"},
+{"title": "	Let Down	", "text": "	Let Down is a song by Radiohead released in 1997	", "img": "img/	Let DownRadiohead1997.png	", "tags": "		", "note": "		", "url": "	1997.html#:~:text=Let Down	"},
+{"title": "	What Kinda Man	", "text": "	What Kinda Man is a song by Parker McCollum released in 2024	", "img": "img/	What Kinda ManParker McCollum2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=What Kinda Man	"},     
+
+{"title": "	Wishbone	", "text": "	Wishbone is an album by Conan Gray released in 2025	", "img": "img/	WishboneConanGray2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Wishbone	"},
+{"title": "	Own Worst Enemy	", "text": "	Own Worst Enemy is an album by Gavin Adcock released in 2025	", "img": "img/	OwnWorstEnemyGavinAdcock2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Own Worst Enemy	"},
+{"title": "	Star Line	", "text": "	Star Line is an album by Chance the Rapper released in 2025	", "img": "img/	StarLineChancetheRapper2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Star Line	"},
+{"title": "	Learn The Hard Way	", "text": "	Learn The Hard Way is an album by Jordan Davis released in 2025	", "img": "img/	LearnTheHardWayJordanDavis2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Learn The Hard Way	"},
+{"title": "	Love Is Like	", "text": "	Love Is Like is an album by Maroon 5 released in 2025	", "img": "img/	LoveIsLikeMaroon52025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Love Is Like	"},
+{"title": "	Luca Brasi 4	", "text": "	Luca Brasi 4 is an album by Kevin Gates released in 2025	", "img": "img/	LucaBrasi4KevinGates2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Luca Brasi 4	"},
+{"title": "	The Collection	", "text": "	The Collection is an album by OneRepublic released in 2025	", "img": "img/	TheCollectionOneRepublic2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=The Collection	"},
+{"title": "	Bright As Blasphemy	", "text": "	Bright As Blasphemy is an album by Chevelle released in 2025	", "img": "img/	BrightAsBlasphemyChevelle2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Bright As Blasphemy	"},     
+
 {"title": "	Just Say Dat	", "text": "	Just Say Dat is a song by Gunna released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Just Say Dat	"},
 {"title": "	Hell At Night	", "text": "	Hell At Night is a song by BigXthaPlug & Ella Langley released in 2025	", "img": "img/	Hell At NightBigXthaPlug & Ella Langley2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Hell At Night	"},
 {"title": "	Forever Be Mine	", "text": "	Forever Be Mine is a song by Gunna Featuring Wizkid released in 2025	", "img": "img/	Just Say DatGunna2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Forever Be Mine	"},
