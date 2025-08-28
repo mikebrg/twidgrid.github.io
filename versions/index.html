@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Verions</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    
+    
+</style>
+<style>
+    .unique-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+    .unique-text {
+        flex: 1;
+        margin-right: 20px;
+    }
+    .unique-video {
+        flex: 1;
+    }
+    .unique-video iframe {
+        width: 100%;
+        height: 315px;
+        border: none;
+    }
+    .head {
+     position: relative;
+     background-size: cover;
+     background-image: url('img/news.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+</style>
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="index.html" class="not"><div class="ban">&#160> News</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>Versions</h3><span class="fo-5">Discover every version, from newest back to original.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="search.html">Search</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+        <ul class="responsive-table">
+
+<li class="table-cell"><a href="	australia.html	"><img src="img/	australia.png	" alt="	Australia	"></a><h3>	Australia	</h3><p>		</p></li>
+<li class="table-cell"><a href="	bahamas.html	"><img src="../atlas/img/	Bahamas.png	" alt="	Bahamas	"></a><h3>	Bahamas	</h3><p>		</p></li>
+<li class="table-cell"><a href="	barbados.html	"><img src="../atlas/img/	Barbados.png	" alt="	Barbados	"></a><h3>	Barbados	</h3><p>		</p></li>
+<li class="table-cell"><a href="	belize.html	"><img src="../atlas/img/	Belize.png	" alt="	Belize	"></a><h3>	Belize	</h3><p>		</p></li>            
+<li class="table-cell"><a href="	canada.html	"><img src="img/	canada.png	" alt="	Canada	"></a><h3>	Canada	</h3><p>		</p></li>
+<li class="table-cell"><a href="	guyana.html	"><img src="../atlas/img/	guyana.png	" alt="	Guyana	"></a><h3>	Guyana	</h3><p>		</p></li>
+<li class="table-cell"><a href="	ireland.html	"><img src="img/	ireland.png	" alt="	Ireland	"></a><h3>	Ireland	</h3><p>		</p></li>
+<li class="table-cell"><a href="	jamaica.html	"><img src="img/	jamaica.png	" alt="	Jamaica	"></a><h3>	Jamaica	</h3><p>		</p></li>
+<li class="table-cell"><a href="	malta.html	"><img src="img/	malta.png	" alt="	Malta	"></a><h3>	Malta	</h3><p>		</p></li>
+<li class="table-cell"><a href="	new-zealand.html	"><img src="img/	new-zealand.png	" alt="	New Zealand	"></a><h3>	New Zealand	</h3><p>		</p></li>
+<li class="table-cell"><a href="	trinidad-tobago.html	"><img src="../atlas/img/	trinidad-tobago.png	" alt="	Trinidad & Tobago	"></a><h3>	Trinidad & Tobago	</h3><p>		</p></li>            
+<li class="table-cell"><a href="	uk.html	"><img src="img/	united-kingdom.png	" alt="	United Kingdom	"></a><h3>	United Kingdom	</h3><p>		</p></li>
+<li class="table-cell"><a href="	usa.html	"><img src="img/	USA.png	" alt="	United States	"></a><h3>	United States	</h3><p>		</p></li>
+
+    </ul>
+            
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
