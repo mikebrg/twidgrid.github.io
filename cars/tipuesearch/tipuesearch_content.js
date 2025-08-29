@@ -1,0 +1,7 @@
+
+var tipuesearch = {"pages": [
+
+{"title": "	Adobe Photoshop	", "text": "	Adobe Photoshop is a raster graphics editor developed and published by Adobe for Windows and macOS. It was created in 1987 by Thomas and John Knoll. It is the most used tool for professional digital art, especially in raster graphics editing, and its name has become genericised as a verb (e.g. 'to photoshop an image', 'photoshopping', and 'photoshop contest') although Adobe disapproves of such use.	", "img": "img/	Adobe Photoshop.jpg	", "tags": "	Raster Graphics Editor	", "note": "		", "url": "	index.html#:~:text=Adobe Photoshop	"},
+{"title": "	Apple Watch	", "text": "	The Apple Watch is a brand of smartwatch products developed and marketed by Apple. It incorporates fitness tracking, health-oriented capabilities, and wireless telecommunication, and integrates with watchOS and other Apple products and services. The Apple Watch was released in April 2015, and quickly became the world's best-selling wearable device: 4.2 million were sold in the second quarter of fiscal 2015, and more than 115 million people were estimated to use an Apple Watch as of December 2022. Apple has introduced a new generation of the Apple Watch with improved internal components each September – each labeled by Apple as a 'Series', with certain exceptions.	", "img": "img/	Apple Watch.jpg	", "tags": "	Smartwatch	", "note": "		", "url": "	index.html#:~:text=Apple Watch	"},
+	
+]};
