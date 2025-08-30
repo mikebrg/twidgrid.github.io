@@ -494,6 +494,20 @@ text-decoration: underline; /* Add underline only on hover */
      border-width: 1px;
 }
 
+ .crimage {
+     max-width: 90%;
+     height: auto;
+     margin-top: 15px;
+     margin-right: 20px;
+     margin-left: 20px;
+     border-radius: 8px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+     float: left;
+     border-style: solid;
+     border-color: #000;
+     border-width: 1px;
+}
+
 .mttext {
      text-align: justify;
      font-size: 20px;
