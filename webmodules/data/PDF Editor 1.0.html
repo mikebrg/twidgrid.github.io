@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PDF Editor Widget</title>
+  <style>
+    :root { --bg:#0f1220; --panel:#171a2b; --muted:#8b93a7; --text:#e7eaf6; --accent:#6ee7b7; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif; background:var(--bg); color:var(--text); }
+    .toolbar { position: sticky; top:0; z-index:10; display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; padding:.75rem; background:linear-gradient(180deg, rgba(15,18,32,.9), rgba(15,18,32,.8)); backdrop-filter: blur(6px); border-bottom:1px solid #20243a; }
+    .toolbar button, .toolbar label, .toolbar select { background:var(--panel); color:var(--text); border:1px solid #262c44; padding:.55rem .7rem; border-radius:10px; cursor:pointer; font-size:.9rem; }
+    .toolbar button:hover, .toolbar label:hover { border-color:#2e3552; }
+    .toolbar .group { display:flex; gap:.4rem; align-items:center; padding:.2rem; border-radius:12px; background:#13172a; border:1px solid #1f2540; }
+    .toolbar input[type="file"] { display:none; }
+    .container { display:grid; grid-template-columns: 240px 1fr; gap:1rem; padding:1rem; }
+    .sidebar { background:var(--panel); border:1px solid #1f2540; border-radius:12px; padding:.75rem; height: calc(100dvh - 86px); overflow:auto; }
+    .thumb { background:#0e1020; border:1px solid #2a3155; border-radius:8px; margin-bottom:.6rem; padding:.4rem; cursor:pointer; }
+    .thumb canvas { width:100%; height:auto; display:block; }
+    .thumb.active { outline:2px solid var(--accent); }
+    .workspace { background:var(--panel); border:1px solid #1f2540; border-radius:12px; padding:1rem; min-height:60dvh; display:flex; justify-content:center; }
+    .page-wrap { position:relative; box-shadow: 0 10px 40px rgba(0,0,0,.35); border-radius: 10px; overflow:hidden; }
+    .pdf-canvas { display:block; background:#fff; }
+    .overlay { position:absolute; inset:0; }
+    .status { color:var(--muted); font-size:.9rem; padding:.3rem .8rem; }
+    .spacer { flex: 1; }
+  </style>
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+</head>
+<body>
+  <div class="toolbar">
+    <div class="group">
+      <label for="fileInput">📄 Upload PDF</label>
+      <input id="fileInput" type="file" accept="application/pdf" />
+      <button id="newBlank">➕ New Blank</button>
+      <button id="download">⬇️ Download</button>
+    </div>
+
+    <div class="group" role="toolbar" aria-label="Editing tools">
+      <button data-tool="select" title="Select/Move (V)">🖱️ Select</button>
+      <button data-tool="text" title="Text (T)">🔤 Text</button>
+      <button data-tool="highlight" title="Highlight (H)">🖍️ Highlight</button>
+      <button data-tool="pen" title="Pen (P)">✏️ Pen</button>
+      <button data-tool="rect" title="Rectangle (R)">▭ Rect</button>
+      <button id="addImage" title="Stamp Image">🖼️ Image</button>
+      <input id="imageInput" type="file" accept="image/*" style="display:none" />
+    </div>
+
+    <div class="group">
+      <button id="undo" title="Undo (Ctrl+Z)">↶ Undo</button>
+      <button id="redo" title="Redo (Ctrl+Y)">↷ Redo</button>
+      <button id="deleteObj" title="Delete (Del)">🗑️ Delete</button>
+    </div>
+
+    <div class="group">
+      <button id="prev">◀ Prev</button>
+      <span class="status"><span id="pageNum">0</span>/<span id="pageCount">0</span></span>
+      <button id="next">Next ▶</button>
+    </div>
+
+    <div class="group">
+      <button id="zoomOut">−</button>
+      <span class="status" id="zoomLabel">100%</span>
+      <button id="zoomIn">＋</button>
+      <button id="fit">Fit</button>
+    </div>
+
+    <div class="spacer"></div>
+    <div class="status" id="msg">Ready</div>
+  </div>
+
+  <div class="container">
+    <aside class="sidebar" id="thumbs"></aside>
+    <main class="workspace">
+      <div class="page-wrap" id="pageWrap" aria-live="polite">
+        <canvas id="pdfCanvas" class="pdf-canvas"></canvas>
+        <canvas id="overlay" class="overlay"></canvas>
+      </div>
+    </main>
+  </div>
+
+<script>
+(function() {
+  const pdfjsLib = window['pdfjs-dist/build/pdf'];
+  pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+  // DOM
+  const fileInput = document.getElementById('fileInput');
+  const newBlankBtn = document.getElementById('newBlank');
+  const downloadBtn = document.getElementById('download');
+  const thumbs = document.getElementById('thumbs');
+  const pdfCanvas = document.getElementById('pdfCanvas');
+  const overlayCanvas = document.getElementById('overlay');
+  const pageWrap = document.getElementById('pageWrap');
+  const addImageBtn = document.getElementById('addImage');
+  const imageInput = document.getElementById('imageInput');
+
+  const prevBtn = document.getElementById('prev');
+  const nextBtn = document.getElementById('next');
+  const pageNumEl = document.getElementById('pageNum');
+  const pageCountEl = document.getElementById('pageCount');
+  const zoomInBtn = document.getElementById('zoomIn');
+  const zoomOutBtn = document.getElementById('zoomOut');
+  const fitBtn = document.getElementById('fit');
+  const zoomLabel = document.getElementById('zoomLabel');
+  const msg = document.getElementById('msg');
+  const undoBtn = document.getElementById('undo');
+  const redoBtn = document.getElementById('redo');
+  const deleteObjBtn = document.getElementById('deleteObj');
+
+  const toolButtons = Array.from(document.querySelectorAll('[data-tool]'));
+
+  // State
+  let pdfDoc = null;           // pdf.js document
+  let pdfBytesOriginal = null; // original bytes for export
+  let pageCount = 0;
+  let currentPage = 1;
+  let scale = 1.25;            // display scale
+  let fabricCanvas = null;     // Fabric instance over the page
+  let activeTool = 'select';
+  let history = [];            // undo stack (fabric JSON)
+  let future = [];             // redo stack
+
+  // Helpers
+  const setMsg = (t) => { msg.textContent = t; };
+
+  function setActiveTool(tool) {
+    activeTool = tool;
+    toolButtons.forEach(b => b.style.outline = b.dataset.tool === tool ? '2px solid var(--accent)' : '');
+    if (!fabricCanvas) return;
+    // Reset modes
+    fabricCanvas.isDrawingMode = false;
+    fabricCanvas.selection = tool === 'select';
+    fabricCanvas.forEachObject(obj => obj.selectable = tool === 'select');
+
+    if (tool === 'pen') {
+      fabricCanvas.isDrawingMode = true;
+      const brush = fabricCanvas.freeDrawingBrush;
+      brush.width = 2.5;
+    }
+  }
+
+  function pushHistory() {
+    if (!fabricCanvas) return;
+    future = [];
+    history.push(fabricCanvas.toDatalessJSON());
+    if (history.length > 100) history.shift();
+  }
+
+  function undo() {
+    if (history.length <= 1) return; // keep at least first state
+    future.push(history.pop());
+    const prev = history[history.length - 1];
+    fabricCanvas.loadFromJSON(prev, () => { fabricCanvas.renderAll(); });
+  }
+  function redo() {
+    if (future.length === 0) return;
+    const next = future.pop();
+    history.push(next);
+    fabricCanvas.loadFromJSON(next, () => { fabricCanvas.renderAll(); });
+  }
+
+  function resizeCanvases(width, height) {
+    pdfCanvas.width = width; pdfCanvas.height = height;
+    overlayCanvas.width = width; overlayCanvas.height = height;
+    pageWrap.style.width = width + 'px';
+    pageWrap.style.height = height + 'px';
+    if (fabricCanvas) {
+      fabricCanvas.setDimensions({ width, height });
+      fabricCanvas.renderAll();
+    }
+  }
+
+  function fitToViewport(viewport) {
+    const maxW = Math.min(window.innerWidth - 360, 1300);
+    const maxH = window.innerHeight - 180;
+    const ratio = Math.min(maxW / viewport.width, maxH / viewport.height);
+    return Math.max(0.5, Math.min(2.25, ratio));
+  }
+
+  async function renderPage(num) {
+    if (!pdfDoc) return;
+    const page = await pdfDoc.getPage(num);
+    const viewport = page.getViewport({ scale });
+    resizeCanvases(viewport.width, viewport.height);
+
+    const ctx = pdfCanvas.getContext('2d');
+    ctx.setTransform(1,0,0,1,0,0);
+    ctx.clearRect(0,0,pdfCanvas.width,pdfCanvas.height);
+    const renderTask = page.render({ canvasContext: ctx, viewport });
+    await renderTask.promise;
+
+    // Setup/refresh Fabric overlay
+    if (!fabricCanvas) {
+      fabricCanvas = new fabric.Canvas('overlay', {
+        selection: activeTool === 'select',
+        backgroundColor: 'rgba(0,0,0,0)'
+      });
+      // track changes
+      fabricCanvas.on('object:added', pushHistory);
+      fabricCanvas.on('object:modified', pushHistory);
+      fabricCanvas.on('object:removed', pushHistory);
+      // keyboard shortcuts
+      document.addEventListener('keydown', (e) => {
+        if ((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='z') { e.preventDefault(); undo(); }
+        if ((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==='y') { e.preventDefault(); redo(); }
+        if (e.key==='Delete') { deleteSelected(); }
+        if (e.key.toLowerCase()==='v') setActiveTool('select');
+        if (e.key.toLowerCase()==='t') setActiveTool('text');
+        if (e.key.toLowerCase()==='p') setActiveTool('pen');
+        if (e.key.toLowerCase()==='h') setActiveTool('highlight');
+        if (e.key.toLowerCase()==='r') setActiveTool('rect');
+      });
+      // start history with base state
+      pushHistory();
+    }
+
+    // Clear overlay per page switch (but retain state stacks new)
+    fabricCanvas.clear();
+    pushHistory();
+
+    pageNumEl.textContent = currentPage;
+    pageCountEl.textContent = pageCount;
+    zoomLabel.textContent = Math.round(scale*100) + '%';
+    highlightActiveThumb();
+  }
+
+  function highlightActiveThumb() {
+    const kids = Array.from(thumbs.children);
+    kids.forEach((n,i) => n.classList.toggle('active', i+1===currentPage));
+  }
+
+  async function buildThumbnails() {
+    thumbs.innerHTML = '';
+    for (let i = 1; i <= pageCount; i++) {
+      const page = await pdfDoc.getPage(i);
+      const viewport = page.getViewport({ scale: 0.3 });
+      const c = document.createElement('canvas');
+      c.width = viewport.width; c.height = viewport.height;
+      const ctx = c.getContext('2d');
+      await page.render({ canvasContext: ctx, viewport }).promise;
+      const wrap = document.createElement('div');
+      wrap.className = 'thumb';
+      wrap.appendChild(c);
+      wrap.addEventListener('click', async () => {
+        currentPage = i; await renderPage(currentPage);
+      });
+      thumbs.appendChild(wrap);
+    }
+    highlightActiveThumb();
+  }
+
+  async function openPDFBytes(bytes) {
+    setMsg('Loading PDF…');
+    pdfBytesOriginal = bytes;
+    pdfDoc = await pdfjsLib.getDocument({ data: bytes }).promise;
+    pageCount = pdfDoc.numPages;
+    currentPage = 1;
+    scale = 1.25;
+    await renderPage(currentPage);
+    await buildThumbnails();
+    setMsg('PDF ready.');
+  }
+
+  // Tools
+  function deleteSelected() {
+    if (!fabricCanvas) return;
+    const active = fabricCanvas.getActiveObjects();
+    active.forEach(o => fabricCanvas.remove(o));
+    fabricCanvas.discardActiveObject().requestRenderAll();
+  }
+
+  function addText() {
+    const itext = new fabric.IText('Double‑click to edit', {
+      left: 80, top: 80, fontSize: 18, fill: '#111', fontFamily: 'Inter, Arial', editable: true
+    });
+    fabricCanvas.add(itext).setActiveObject(itext);
+  }
+
+  function addRect(opacity = 0.2, stroke = '#0a0a0a', fill = 'rgba(255,255,0,0.25)') {
+    const rect = new fabric.Rect({ left:100, top:120, width:200, height:60, fill, stroke, strokeWidth:1, rx:4, ry:4, selectable:true });
+    fabricCanvas.add(rect).setActiveObject(rect);
+  }
+
+  function startHighlightDrag() {
+    let startPos = null; let tempRect = null;
+    const down = (opt) => {
+      if (activeTool !== 'highlight') return;
+      const p = fabricCanvas.getPointer(opt.e);
+      startPos = p;
+      tempRect = new fabric.Rect({ left:p.x, top:p.y, width:1, height:1, fill:'rgba(255,255,0,0.35)', stroke:'#b59f00', strokeWidth:0, rx:2, ry:2, selectable:false, evented:false });
+      fabricCanvas.add(tempRect);
+    };
+    const move = (opt) => {
+      if (!tempRect) return;
+      const p = fabricCanvas.getPointer(opt.e);
+      tempRect.set({ width: Math.abs(p.x - startPos.x), height: Math.abs(p.y - startPos.y), left: Math.min(p.x,startPos.x), top: Math.min(p.y,startPos.y) });
+      fabricCanvas.requestRenderAll();
+    };
+    const up = () => { if (tempRect) { tempRect.selectable = true; tempRect = null; pushHistory(); } };
+    fabricCanvas.on('mouse:down', down);
+    fabricCanvas.on('mouse:move', move);
+    fabricCanvas.on('mouse:up', up);
+  }
+
+  function setToolHandlers() {
+    // Reset any custom handlers if re-initialising
+    fabricCanvas.off('mouse:down');
+    fabricCanvas.off('mouse:move');
+    fabricCanvas.off('mouse:up');
+
+    if (activeTool === 'highlight') startHighlightDrag();
+  }
+
+  // Export: flatten overlay into original PDF pages using pdf-lib
+  async function dataURLToUint8Array(dataURL) {
+    const base64 = dataURL.split(',')[1];
+    const binary = atob(base64);
+    const len = binary.length;
+    const bytes = new Uint8Array(len);
+    for (let i=0;i<len;i++) bytes[i] = binary.charCodeAt(i);
+    return bytes;
+  }
+
+  async function exportPDF() {
+    if (!pdfBytesOriginal) {
+      // No original PDF (blank doc) – create new one sized to current canvas
+      const pdfDocOut = await PDFLib.PDFDocument.create();
+      const w = pdfCanvas.width, h = pdfCanvas.height;
+      const page = pdfDocOut.addPage([w, h]);
+      const png = await dataURLToUint8Array(fabricCanvas.toDataURL({ format:'png' }));
+      const img = await pdfDocOut.embedPng(png);
+      page.drawImage(img, { x:0, y:0, width:w, height:h });
+      return await pdfDocOut.save();
+    }
+
+    const pdfDocOut = await PDFLib.PDFDocument.load(pdfBytesOriginal);
+    // Render and embed overlay for current page only for speed. You can extend to all pages by looping.
+    // Loop all pages with per-page overlay serialization (requires storing overlays per page). For this MVP, we persist only the current page overlay.
+    for (let i = 0; i < pdfDocOut.getPageCount(); i++) {
+      if (i === (currentPage-1)) {
+        const page = pdfDocOut.getPage(i);
+        const pngBytes = await dataURLToUint8Array(fabricCanvas.toDataURL({ format:'png' }));
+        const img = await pdfDocOut.embedPng(pngBytes);
+        page.drawImage(img, { x:0, y:0, width: page.getWidth(), height: page.getHeight() });
+      }
+    }
+    return await pdfDocOut.save();
+  }
+
+  function triggerDownload(bytes, filename='edited.pdf') {
+    const blob = new Blob([bytes], { type: 'application/pdf' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = filename; a.click();
+    setTimeout(()=> URL.revokeObjectURL(url), 1000);
+  }
+
+  // Event wiring
+  fileInput.addEventListener('change', async (e) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    const arr = await file.arrayBuffer();
+    await openPDFBytes(arr);
+  });
+  newBlankBtn.addEventListener('click', async () => {
+    pdfDoc = null; pdfBytesOriginal = null; pageCount = 1; currentPage = 1; scale = 1.25;
+    const w = 800, h = 1120;
+    resizeCanvases(w, h);
+    const ctx = pdfCanvas.getContext('2d');
+    ctx.fillStyle = '#fff'; ctx.fillRect(0,0,w,h);
+    if (!fabricCanvas) fabricCanvas = new fabric.Canvas('overlay');
+    fabricCanvas.clear();
+    history = []; future = []; pushHistory();
+    pageNumEl.textContent = '1'; pageCountEl.textContent = '1';
+    zoomLabel.textContent = Math.round(scale*100)+'%';
+    thumbs.innerHTML = '';
+    const t = document.createElement('div'); t.className='thumb active';
+    const c = document.createElement('canvas'); c.width=w*0.25; c.height=h*0.25; const tctx=c.getContext('2d');
+    tctx.fillStyle='#fff'; tctx.fillRect(0,0,c.width,c.height); t.appendChild(c); thumbs.appendChild(t);
+    setMsg('Blank document ready.');
+  });
+  downloadBtn.addEventListener('click', async () => {
+    setMsg('Exporting…');
+    const bytes = await exportPDF();
+    triggerDownload(bytes);
+    setMsg('Downloaded.');
+  });
+
+  prevBtn.addEventListener('click', async () => { if (!pdfDoc) return; currentPage = Math.max(1, currentPage-1); await renderPage(currentPage); });
+  nextBtn.addEventListener('click', async () => { if (!pdfDoc) return; currentPage = Math.min(pageCount, currentPage+1); await renderPage(currentPage); });
+
+  zoomInBtn.addEventListener('click', async () => { if (!pdfDoc) return; scale = Math.min(3, scale+0.1); await renderPage(currentPage); });
+  zoomOutBtn.addEventListener('click', async () => { if (!pdfDoc) return; scale = Math.max(0.5, scale-0.1); await renderPage(currentPage); });
+  fitBtn.addEventListener('click', async () => {
+    if (!pdfDoc) return; const page = await pdfDoc.getPage(currentPage); const vp = page.getViewport({ scale: 1 }); scale = fitToViewport(vp); await renderPage(currentPage);
+  });
+
+  toolButtons.forEach(btn => btn.addEventListener('click', () => {
+    setActiveTool(btn.dataset.tool); setToolHandlers();
+    if (activeTool==='text') addText();
+    if (activeTool==='rect') addRect(0.1, '#333', 'rgba(0,0,0,0.06)');
+  }));
+
+  addImageBtn.addEventListener('click', () => imageInput.click());
+  imageInput.addEventListener('change', (e)=>{
+    const file = e.target.files?.[0]; if (!file) return;
+    const reader = new FileReader();
+    reader.onload = () => { fabric.Image.fromURL(reader.result, (img)=>{
+      img.scaleToWidth(240); img.set({ left: 120, top: 120 }); fabricCanvas.add(img).setActiveObject(img);
+    }); };
+    reader.readAsDataURL(file);
+  });
+
+  undoBtn.addEventListener('click', undo);
+  redoBtn.addEventListener('click', redo);
+  deleteObjBtn.addEventListener('click', deleteSelected);
+
+  // Initial state
+  setActiveTool('select');
+  setToolHandlers();
+  setMsg('Upload a PDF to begin or click New Blank.');
+})();
+</script>
+</body>
+</html>
