@@ -3,16 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Full Online PDF Editor</title>
+<title>Single-Page PDF Editor</title>
 <style>
 body {margin:0;font-family:sans-serif;background:#0f1220;color:#e7eaf6;}
-.toolbar {display:flex;flex-wrap:wrap;gap:0.5rem;padding:0.5rem;background:#171a2b;position:sticky;top:0;z-index:10;}
-.toolbar button,.toolbar label {background:#262c44;color:#e7eaf6;border:none;padding:0.5rem 0.7rem;border-radius:8px;cursor:pointer;}
-.container {display:grid;grid-template-columns:200px 1fr;gap:0.5rem;padding:0.5rem;}
-.sidebar {background:#171a2b;padding:0.5rem;overflow:auto;}
-.thumb {background:#0e1020;border:1px solid #2a3155;border-radius:6px;margin-bottom:0.5rem;padding:0.3rem;cursor:pointer;text-align:center;}
-.thumb.active {outline:2px solid #6ee7b7;}
-.workspace {position:relative;}
+.toolbar {display:flex;gap:0.5rem;padding:0.5rem;background:#171a2b;position:sticky;top:0;}
+.toolbar button, .toolbar label {background:#262c44;color:#e7eaf6;border:none;padding:0.5rem 0.7rem;border-radius:8px;cursor:pointer;}
+.workspace {position:relative;padding:1rem;}
 canvas {display:block;background:#fff;}
 </style>
 </head>
@@ -27,24 +23,15 @@ canvas {display:block;background:#fff;}
   <button id="toolText">🔤 Text</button>
   <button id="toolImage">🖼️ Image</button>
   <input type="file" id="imageInput" accept="image/*" style="display:none;">
-  <button id="undo" disabled>↶ Undo</button>
-  <button id="redo" disabled>↷ Redo</button>
-  <button id="prev" disabled>◀ Prev</button>
-  <button id="next" disabled>Next ▶</button>
-  <button id="zoomOut" disabled>−</button>
-  <button id="zoomIn" disabled>＋</button>
-  <button id="fit" disabled>Fit</button>
   <button id="download" disabled>⬇️ Download</button>
 </div>
 
-<div class="container">
-  <div class="sidebar" id="thumbs"></div>
-  <div class="workspace">
-    <canvas id="pdfCanvas"></canvas>
-    <canvas id="overlay" style="position:absolute;top:0;left:0;"></canvas>
-  </div>
+<div class="workspace">
+  <canvas id="pdfCanvas"></canvas>
+  <canvas id="overlay" style="position:absolute;top:0;left:0;"></canvas>
 </div>
 
+<!-- Libraries -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
@@ -53,12 +40,6 @@ canvas {display:block;background:#fff;}
 const pdfCanvas = document.getElementById('pdfCanvas');
 const overlayCanvas = document.getElementById('overlay');
 const fileInput = document.getElementById('fileInput');
-const thumbs = document.getElementById('thumbs');
-const prevBtn = document.getElementById('prev');
-const nextBtn = document.getElementById('next');
-const zoomInBtn = document.getElementById('zoomIn');
-const zoomOutBtn = document.getElementById('zoomOut');
-const fitBtn = document.getElementById('fit');
 const downloadBtn = document.getElementById('download');
 const toolSelectBtn = document.getElementById('toolSelect');
 const toolPenBtn = document.getElementById('toolPen');
@@ -67,127 +48,79 @@ const toolTextBtn = document.getElementById('toolText');
 const toolImageBtn = document.getElementById('toolImage');
 const imageInput = document.getElementById('imageInput');
 
-let pdfDoc=null,pdfBytesOriginal=null,currentPage=1,pageCount=0,scale=1.25,fabricCanvas=null,undoStack=[],redoStack=[];
+let pdfDoc=null,pdfBytes=null,fabricCanvas=null,scale=1.25;
 
 pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
-async function renderPage(num){
-  const page=await pdfDoc.getPage(num);
-  const viewport=page.getViewport({scale});
-  pdfCanvas.width=viewport.width;
-  pdfCanvas.height=viewport.height;
-  overlayCanvas.width=viewport.width;
-  overlayCanvas.height=viewport.height;
-  const ctx=pdfCanvas.getContext('2d');
-  await page.render({canvasContext:ctx,viewport}).promise;
+async function renderPDF(bytes){
+  pdfBytes = bytes;
+  pdfDoc = await pdfjsLib.getDocument({data: bytes}).promise;
+  const page = await pdfDoc.getPage(1);
+  const viewport = page.getViewport({scale});
+  pdfCanvas.width = viewport.width;
+  pdfCanvas.height = viewport.height;
+  overlayCanvas.width = viewport.width;
+  overlayCanvas.height = viewport.height;
+  await page.render({canvasContext: pdfCanvas.getContext('2d'), viewport}).promise;
 
   if(!fabricCanvas){
-    fabricCanvas=new fabric.Canvas('overlay');
-    fabricCanvas.selection=true;
-    fabricCanvas.on('object:added',()=>{undoStack.push(JSON.stringify(fabricCanvas));redoStack=[];updateUndoRedo();});
-    fabricCanvas.on('object:modified',()=>{undoStack.push(JSON.stringify(fabricCanvas));redoStack=[];updateUndoRedo();});
+    fabricCanvas = new fabric.Canvas('overlay');
+    fabricCanvas.isDrawingMode=false;
   } else {
+    fabricCanvas.clear();
     fabricCanvas.setWidth(viewport.width);
     fabricCanvas.setHeight(viewport.height);
-    fabricCanvas.clear();
   }
 
-  prevBtn.disabled=currentPage<=1;
-  nextBtn.disabled=currentPage>=pageCount;
-  zoomInBtn.disabled=zoomOutBtn.disabled=fitBtn.disabled=false;
   downloadBtn.disabled=false;
 }
 
-function buildThumbnails(){
-  thumbs.innerHTML='';
-  for(let i=1;i<=pageCount;i++){
-    const div=document.createElement('div');
-    div.className='thumb';
-    div.textContent='Page '+i;
-    div.addEventListener('click',()=>{currentPage=i;renderPage(i);});
-    thumbs.appendChild(div);
-  }
-}
-
-fileInput.addEventListener('change',e=>{
-  const file=e.target.files[0];
+fileInput.addEventListener('change', e=>{
+  const file = e.target.files[0];
   if(file){
-    const reader=new FileReader();
-    reader.onload=async function(){
-      pdfBytesOriginal=new Uint8Array(this.result);
-      pdfDoc=await pdfjsLib.getDocument({data:pdfBytesOriginal}).promise;
-      currentPage=1;
-      pageCount=pdfDoc.numPages;
-      await renderPage(currentPage);
-      buildThumbnails();
-    }
+    const reader = new FileReader();
+    reader.onload = function(){
+      renderPDF(new Uint8Array(this.result));
+    };
     reader.readAsArrayBuffer(file);
   }
 });
 
-prevBtn.addEventListener('click',()=>{if(currentPage>1){currentPage--;renderPage(currentPage);}});
-nextBtn.addEventListener('click',()=>{if(currentPage<pageCount){currentPage++;renderPage(currentPage);}});
-zoomInBtn.addEventListener('click',()=>{scale*=1.2;renderPage(currentPage);});
-zoomOutBtn.addEventListener('click',()=>{scale/=1.2;renderPage(currentPage);});
-fitBtn.addEventListener('click',()=>{scale=1;renderPage(currentPage);});
-
-function updateUndoRedo(){
-  undoBtn.disabled=undoStack.length===0;
-  redoBtn.disabled=redoStack.length===0;
-}
-
-document.getElementById('undo').addEventListener('click',()=>{
-  if(undoStack.length>0){
-    redoStack.push(JSON.stringify(fabricCanvas));
-    const state=undoStack.pop();
-    fabricCanvas.loadFromJSON(state,fabricCanvas.renderAll.bind(fabricCanvas));
-    updateUndoRedo();
-  }
-});
-
-document.getElementById('redo').addEventListener('click',()=>{
-  if(redoStack.length>0){
-    undoStack.push(JSON.stringify(fabricCanvas));
-    const state=redoStack.pop();
-    fabricCanvas.loadFromJSON(state,fabricCanvas.renderAll.bind(fabricCanvas));
-    updateUndoRedo();
-  }
-});
-
 // Tool buttons
-toolSelectBtn.addEventListener('click',()=>{fabricCanvas.isDrawingMode=false;fabricCanvas.selection=true;});
-toolPenBtn.addEventListener('click',()=>{fabricCanvas.isDrawingMode=true;});
-toolRectBtn.addEventListener('click',()=>{
-  const rect=new fabric.Rect({width:100,height:60,left:50,top:50,fill:'transparent',stroke:'red',strokeWidth:2});
+toolSelectBtn.addEventListener('click', ()=>{fabricCanvas.isDrawingMode=false;});
+toolPenBtn.addEventListener('click', ()=>{fabricCanvas.isDrawingMode=true;});
+toolRectBtn.addEventListener('click', ()=>{
+  const rect = new fabric.Rect({width:100,height:60,left:50,top:50,fill:'transparent',stroke:'red',strokeWidth:2});
   fabricCanvas.add(rect);
 });
-toolTextBtn.addEventListener('click',()=>{
-  const text=new fabric.IText('Text',{left:50,top:50,fill:'black',fontSize:20});
+toolTextBtn.addEventListener('click', ()=>{
+  const text = new fabric.IText('Text',{left:50,top:50,fill:'black',fontSize:20});
   fabricCanvas.add(text);
 });
-toolImageBtn.addEventListener('click',()=>{imageInput.click();});
-imageInput.addEventListener('change',e=>{
-  const file=e.target.files[0];
+toolImageBtn.addEventListener('click', ()=>{imageInput.click();});
+imageInput.addEventListener('change', e=>{
+  const file = e.target.files[0];
   if(file){
-    const reader=new FileReader();
-    reader.onload=function(ev){
+    const reader = new FileReader();
+    reader.onload = function(ev){
       fabric.Image.fromURL(ev.target.result,img=>{img.set({left:50,top:50,scaleX:0.5,scaleY:0.5});fabricCanvas.add(img);});
     }
     reader.readAsDataURL(file);
   }
 });
 
-downloadBtn.addEventListener('click',async ()=>{
-  const pdfLibDoc=await PDFLib.PDFDocument.load(pdfBytesOriginal);
-  const page=pdfLibDoc.getPage(currentPage-1);
-  const png=overlayCanvas.toDataURL('image/png');
-  const imgBytes=await fetch(png).then(r=>r.arrayBuffer());
-  const img=await pdfLibDoc.embedPng(imgBytes);
-  page.drawImage(img,{x:0,y:0,width=overlayCanvas.width,height=overlayCanvas.height});
-  const pdfBytes=await pdfLibDoc.save();
-  const blob=new Blob([pdfBytes],{type:'application/pdf'});
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement('a');a.href=url;a.download='edited.pdf';a.click();
+// Download edited PDF
+downloadBtn.addEventListener('click', async ()=>{
+  const pdfLibDoc = await PDFLib.PDFDocument.load(pdfBytes);
+  const page = pdfLibDoc.getPage(0);
+  const png = overlayCanvas.toDataURL('image/png');
+  const imgBytes = await fetch(png).then(r=>r.arrayBuffer());
+  const img = await pdfLibDoc.embedPng(imgBytes);
+  page.drawImage(img,{x:0,y:0,width:overlayCanvas.width,height:overlayCanvas.height});
+  const pdfBytesOut = await pdfLibDoc.save();
+  const blob = new Blob([pdfBytesOut],{type:'application/pdf'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a'); a.href=url; a.download='edited.pdf'; a.click();
   URL.revokeObjectURL(url);
 });
 </script>
