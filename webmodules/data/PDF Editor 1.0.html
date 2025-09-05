@@ -3,98 +3,194 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Advanced Online PDF Editor Widget</title>
+<title>Full Online PDF Editor</title>
 <style>
-:root{--bg:#0f1220;--panel:#171a2b;--muted:#8b93a7;--text:#e7eaf6;--accent:#6ee7b7}
-*{box-sizing:border-box}body{margin:0;font-family:system-ui, -apple-system, Segoe UI, Roboto, Inter, Arial, sans-serif;background:var(--bg);color:var(--text)}
-.toolbar{position:sticky;top:0;z-index:10;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;padding:.75rem;background:linear-gradient(180deg,rgba(15,18,32,.9),rgba(15,18,32,.8));backdrop-filter:blur(6px);border-bottom:1px solid #20243a}
-.toolbar button,.toolbar label,.toolbar select{background:var(--panel);color:var(--text);border:1px solid #262c44;padding:.55rem .7rem;border-radius:10px;cursor:pointer;font-size:.9rem}
-.toolbar button:hover,.toolbar label:hover{border-color:#2e3552}
-.toolbar .group{display:flex;gap:.4rem;align-items:center;padding:.2rem;border-radius:12px;background:#13172a;border:1px solid #1f2540}
-.toolbar input[type=file]{display:none}
-.container{display:grid;grid-template-columns:240px 1fr;gap:1rem;padding:1rem}
-.sidebar{background:var(--panel);border:1px solid #1f2540;border-radius:12px;padding:.75rem;height: calc(100dvh - 86px);overflow:auto}
-.thumb{background:#0e1020;border:1px solid #2a3155;border-radius:8px;margin-bottom:.6rem;padding:.4rem;cursor:pointer}
-.thumb canvas{width:100%;height:auto;display:block}
-.thumb.active{outline:2px solid var(--accent)}
-.workspace{background:var(--panel);border:1px solid #1f2540;border-radius:12px;padding:1rem;min-height:60dvh;display:flex;justify-content:center}
-.page-wrap{position:relative;box-shadow:0 10px 40px rgba(0,0,0,.35);border-radius:10px;overflow:hidden}
-.pdf-canvas{display:block;background:#fff}
-.overlay{position:absolute;inset:0}
-.status{color:var(--muted);font-size:.9rem;padding:.3rem .8rem}
-.spacer{flex:1}
+body {margin:0;font-family:sans-serif;background:#0f1220;color:#e7eaf6;}
+.toolbar {display:flex;flex-wrap:wrap;gap:0.5rem;padding:0.5rem;background:#171a2b;position:sticky;top:0;z-index:10;}
+.toolbar button,.toolbar label {background:#262c44;color:#e7eaf6;border:none;padding:0.5rem 0.7rem;border-radius:8px;cursor:pointer;}
+.container {display:grid;grid-template-columns:200px 1fr;gap:0.5rem;padding:0.5rem;}
+.sidebar {background:#171a2b;padding:0.5rem;overflow:auto;}
+.thumb {background:#0e1020;border:1px solid #2a3155;border-radius:6px;margin-bottom:0.5rem;padding:0.3rem;cursor:pointer;text-align:center;}
+.thumb.active {outline:2px solid #6ee7b7;}
+.workspace {position:relative;}
+canvas {display:block;background:#fff;}
 </style>
 </head>
 <body>
+
 <div class="toolbar">
-<div class="group">
-<label for="fileInput">📄 Upload PDF</label>
-<input id="fileInput" type="file" accept="application/pdf">
-<button id="newBlank">➕ New Blank</button>
-<button id="download" disabled>⬇️ Download</button>
+  <label for="fileInput">📄 Upload PDF</label>
+  <input type="file" id="fileInput" accept="application/pdf" style="display:none;">
+  <button id="toolSelect">🖱️ Select</button>
+  <button id="toolPen">✏️ Pen</button>
+  <button id="toolRect">▭ Rect</button>
+  <button id="toolText">🔤 Text</button>
+  <button id="toolImage">🖼️ Image</button>
+  <input type="file" id="imageInput" accept="image/*" style="display:none;">
+  <button id="undo" disabled>↶ Undo</button>
+  <button id="redo" disabled>↷ Redo</button>
+  <button id="prev" disabled>◀ Prev</button>
+  <button id="next" disabled>Next ▶</button>
+  <button id="zoomOut" disabled>−</button>
+  <button id="zoomIn" disabled>＋</button>
+  <button id="fit" disabled>Fit</button>
+  <button id="download" disabled>⬇️ Download</button>
 </div>
-<div class="group" role="toolbar" aria-label="Editing tools">
-<button data-tool="select" title="Select/Move (V)" disabled>🖱️ Select</button>
-<button data-tool="text" title="Text (T)" disabled>🔤 Text</button>
-<button data-tool="highlight" title="Highlight (H)" disabled>🖍️ Highlight</button>
-<button data-tool="pen" title="Pen (P)" disabled>✏️ Pen</button>
-<button data-tool="rect" title="Rectangle (R)" disabled>▭ Rect</button>
-<button id="addImage" title="Stamp Image" disabled>🖼️ Image</button>
-<input id="imageInput" type="file" accept="image/*" style="display:none">
-</div>
-<div class="group">
-<button id="undo" title="Undo (Ctrl+Z)" disabled>↶ Undo</button>
-<button id="redo" title="Redo (Ctrl+Y)" disabled>↷ Redo</button>
-<button id="deleteObj" title="Delete (Del)" disabled>🗑️ Delete</button>
-</div>
-<div class="group">
-<button id="prev" disabled>◀ Prev</button>
-<span class="status"><span id="pageNum">0</span>/<span id="pageCount">0</span></span>
-<button id="next" disabled>Next ▶</button>
-</div>
-<div class="group">
-<button id="zoomOut" disabled>−</button>
-<span class="status" id="zoomLabel">100%</span>
-<button id="zoomIn" disabled>＋</button>
-<button id="fit" disabled>Fit</button>
-</div>
-<div class="spacer"></div>
-<div class="status" id="msg">Ready</div>
-</div>
+
 <div class="container">
-<aside class="sidebar" id="thumbs"></aside>
-<main class="workspace">
-<div class="page-wrap" id="pageWrap" aria-live="polite">
-<canvas id="pdfCanvas" class="pdf-canvas"></canvas>
-<canvas id="overlay" class="overlay"></canvas>
+  <div class="sidebar" id="thumbs"></div>
+  <div class="workspace">
+    <canvas id="pdfCanvas"></canvas>
+    <canvas id="overlay" style="position:absolute;top:0;left:0;"></canvas>
+  </div>
 </div>
-</main>
-</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+
 <script>
-function loadScript(src, callback){const s=document.createElement('script');s.src=src;s.onload=callback;s.onerror=()=>alert('Failed to load '+src);document.head.appendChild(s);}
-loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js',()=>{loadScript('https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js',()=>{loadScript('https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js',()=>{loadScript('https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js',initWidget);});});});
-function initWidget(){
-const pdfjsLib=window['pdfjs-dist/build/pdf'];
+const pdfCanvas = document.getElementById('pdfCanvas');
+const overlayCanvas = document.getElementById('overlay');
+const fileInput = document.getElementById('fileInput');
+const thumbs = document.getElementById('thumbs');
+const prevBtn = document.getElementById('prev');
+const nextBtn = document.getElementById('next');
+const zoomInBtn = document.getElementById('zoomIn');
+const zoomOutBtn = document.getElementById('zoomOut');
+const fitBtn = document.getElementById('fit');
+const downloadBtn = document.getElementById('download');
+const toolSelectBtn = document.getElementById('toolSelect');
+const toolPenBtn = document.getElementById('toolPen');
+const toolRectBtn = document.getElementById('toolRect');
+const toolTextBtn = document.getElementById('toolText');
+const toolImageBtn = document.getElementById('toolImage');
+const imageInput = document.getElementById('imageInput');
+
+let pdfDoc=null,pdfBytesOriginal=null,currentPage=1,pageCount=0,scale=1.25,fabricCanvas=null,undoStack=[],redoStack=[];
+
 pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
-const fileInput=document.getElementById('fileInput');
-const newBlankBtn=document.getElementById('newBlank');
-const downloadBtn=document.getElementById('download');
-const overlayCanvas=document.getElementById('overlay');
-const pdfCanvas=document.getElementById('pdfCanvas');
-const pageNumEl=document.getElementById('pageNum');
-const pageCountEl=document.getElementById('pageCount');
-const msg=document.getElementById('msg');
-const thumbs=document.getElementById('thumbs');
-let pdfDoc=null,pdfBytesOriginal=null,pageCount=0,currentPage=1,scale=1.25,fabricCanvas=null,history=[],future=[];
-function setMsg(t){msg.textContent=t;}
-function enableButtons(){Array.from(document.querySelectorAll('.toolbar button')).forEach(b=>b.disabled=false);}
-async function openPDFBytes(bytes){setMsg('Loading PDF…');pdfBytesOriginal=bytes;pdfDoc=await pdfjsLib.getDocument({data:bytes}).promise;pageCount=pdfDoc.numPages;currentPage=1;scale=1.25;await renderPage(currentPage);await buildThumbnails();setMsg('PDF ready.');enableButtons();}
-async function renderPage(num){const page=await pdfDoc.getPage(num);const viewport=page.getViewport({scale});pdfCanvas.width=viewport.width;pdfCanvas.height=viewport.height;overlayCanvas.width=viewport.width;overlayCanvas.height=viewport.height;const ctx=pdfCanvas.getContext('2d');ctx.clearRect(0,0,viewport.width,viewport.height);await page.render({canvasContext:ctx,viewport}).promise;if(!fabricCanvas){fabricCanvas=new fabric.Canvas('overlay');fabricCanvas.isDrawingMode=false;fabricCanvas.selection=true;}else{fabricCanvas.setWidth(viewport.width);fabricCanvas.setHeight(viewport.height);fabricCanvas.clear();}pageNumEl.textContent=currentPage;pageCountEl.textContent=pageCount;}
-async function buildThumbnails(){thumbs.innerHTML='';for(let i=1;i<=pageCount;i++){const thumbDiv=document.createElement('div');thumbDiv.className='thumb';thumbDiv.textContent='Page '+i;thumbDiv.addEventListener('click',()=>{currentPage=i;renderPage(i);});thumbs.appendChild(thumbDiv);}}
-fileInput.addEventListener('change',e=>{const f=e.target.files[0];if(f){const r=new FileReader();r.onload=function(){openPDFBytes(new Uint8Array(this.result));};r.readAsArrayBuffer(f);}});
-newBlankBtn.addEventListener('click',()=>{pdfBytesOriginal=new Uint8Array();pdfDoc={numPages:1,getPage:async()=>({render:async()=>{}})};pageCount=1;currentPage=1;renderPage(1);buildThumbnails();enableButtons();setMsg('Blank document ready.');});
-downloadBtn.addEventListener('click',async()=>{setMsg('Exporting…');try{const pdfLib=window.PDFLib;const newPdf=await pdfLib.PDFDocument.load(pdfBytesOriginal);const png=overlayCanvas.toDataURL('image/png');const imgBytes=await fetch(png).then(r=>r.arrayBuffer());const img=newPdf.embedPng(imgBytes);const page=newPdf.getPage(currentPage-1);page.drawImage(img,{x:0,y:0,width=overlayCanvas.width,height=overlayCanvas.height});const pdfBytes=await newPdf.save();const blob=new Blob([pdfBytes],{type:'application/pdf'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='edited.pdf';a.click();URL.revokeObjectURL(url);setMsg('Download ready.');}catch(err){console.error(err);setMsg('Export failed.');}});
+
+async function renderPage(num){
+  const page=await pdfDoc.getPage(num);
+  const viewport=page.getViewport({scale});
+  pdfCanvas.width=viewport.width;
+  pdfCanvas.height=viewport.height;
+  overlayCanvas.width=viewport.width;
+  overlayCanvas.height=viewport.height;
+  const ctx=pdfCanvas.getContext('2d');
+  await page.render({canvasContext:ctx,viewport}).promise;
+
+  if(!fabricCanvas){
+    fabricCanvas=new fabric.Canvas('overlay');
+    fabricCanvas.selection=true;
+    fabricCanvas.on('object:added',()=>{undoStack.push(JSON.stringify(fabricCanvas));redoStack=[];updateUndoRedo();});
+    fabricCanvas.on('object:modified',()=>{undoStack.push(JSON.stringify(fabricCanvas));redoStack=[];updateUndoRedo();});
+  } else {
+    fabricCanvas.setWidth(viewport.width);
+    fabricCanvas.setHeight(viewport.height);
+    fabricCanvas.clear();
+  }
+
+  prevBtn.disabled=currentPage<=1;
+  nextBtn.disabled=currentPage>=pageCount;
+  zoomInBtn.disabled=zoomOutBtn.disabled=fitBtn.disabled=false;
+  downloadBtn.disabled=false;
 }
+
+function buildThumbnails(){
+  thumbs.innerHTML='';
+  for(let i=1;i<=pageCount;i++){
+    const div=document.createElement('div');
+    div.className='thumb';
+    div.textContent='Page '+i;
+    div.addEventListener('click',()=>{currentPage=i;renderPage(i);});
+    thumbs.appendChild(div);
+  }
+}
+
+fileInput.addEventListener('change',e=>{
+  const file=e.target.files[0];
+  if(file){
+    const reader=new FileReader();
+    reader.onload=async function(){
+      pdfBytesOriginal=new Uint8Array(this.result);
+      pdfDoc=await pdfjsLib.getDocument({data:pdfBytesOriginal}).promise;
+      currentPage=1;
+      pageCount=pdfDoc.numPages;
+      await renderPage(currentPage);
+      buildThumbnails();
+    }
+    reader.readAsArrayBuffer(file);
+  }
+});
+
+prevBtn.addEventListener('click',()=>{if(currentPage>1){currentPage--;renderPage(currentPage);}});
+nextBtn.addEventListener('click',()=>{if(currentPage<pageCount){currentPage++;renderPage(currentPage);}});
+zoomInBtn.addEventListener('click',()=>{scale*=1.2;renderPage(currentPage);});
+zoomOutBtn.addEventListener('click',()=>{scale/=1.2;renderPage(currentPage);});
+fitBtn.addEventListener('click',()=>{scale=1;renderPage(currentPage);});
+
+function updateUndoRedo(){
+  undoBtn.disabled=undoStack.length===0;
+  redoBtn.disabled=redoStack.length===0;
+}
+
+document.getElementById('undo').addEventListener('click',()=>{
+  if(undoStack.length>0){
+    redoStack.push(JSON.stringify(fabricCanvas));
+    const state=undoStack.pop();
+    fabricCanvas.loadFromJSON(state,fabricCanvas.renderAll.bind(fabricCanvas));
+    updateUndoRedo();
+  }
+});
+
+document.getElementById('redo').addEventListener('click',()=>{
+  if(redoStack.length>0){
+    undoStack.push(JSON.stringify(fabricCanvas));
+    const state=redoStack.pop();
+    fabricCanvas.loadFromJSON(state,fabricCanvas.renderAll.bind(fabricCanvas));
+    updateUndoRedo();
+  }
+});
+
+// Tool buttons
+toolSelectBtn.addEventListener('click',()=>{fabricCanvas.isDrawingMode=false;fabricCanvas.selection=true;});
+toolPenBtn.addEventListener('click',()=>{fabricCanvas.isDrawingMode=true;});
+toolRectBtn.addEventListener('click',()=>{
+  const rect=new fabric.Rect({width:100,height:60,left:50,top:50,fill:'transparent',stroke:'red',strokeWidth:2});
+  fabricCanvas.add(rect);
+});
+toolTextBtn.addEventListener('click',()=>{
+  const text=new fabric.IText('Text',{left:50,top:50,fill:'black',fontSize:20});
+  fabricCanvas.add(text);
+});
+toolImageBtn.addEventListener('click',()=>{imageInput.click();});
+imageInput.addEventListener('change',e=>{
+  const file=e.target.files[0];
+  if(file){
+    const reader=new FileReader();
+    reader.onload=function(ev){
+      fabric.Image.fromURL(ev.target.result,img=>{img.set({left:50,top:50,scaleX:0.5,scaleY:0.5});fabricCanvas.add(img);});
+    }
+    reader.readAsDataURL(file);
+  }
+});
+
+downloadBtn.addEventListener('click',async ()=>{
+  const pdfLibDoc=await PDFLib.PDFDocument.load(pdfBytesOriginal);
+  const page=pdfLibDoc.getPage(currentPage-1);
+  const png=overlayCanvas.toDataURL('image/png');
+  const imgBytes=await fetch(png).then(r=>r.arrayBuffer());
+  const img=await pdfLibDoc.embedPng(imgBytes);
+  page.drawImage(img,{x:0,y:0,width=overlayCanvas.width,height=overlayCanvas.height});
+  const pdfBytes=await pdfLibDoc.save();
+  const blob=new Blob([pdfBytes],{type:'application/pdf'});
+  const url=URL.createObjectURL(blob);
+  const a=document.createElement('a');a.href=url;a.download='edited.pdf';a.click();
+  URL.revokeObjectURL(url);
+});
 </script>
+
 </body>
 </html>
