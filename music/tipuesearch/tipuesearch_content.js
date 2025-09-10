@@ -1,6 +1,24 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Tears	", "text": "	Tears is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Tears	"},
+{"title": "	Nobody's Son	", "text": "	Nobody's Son is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Nobody's Son	"},
+{"title": "	My Man On Willpower	", "text": "	My Man On Willpower is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=My Man On Willpower	"},
+{"title": "	When Did You Get Hot?	", "text": "	When Did You Get Hot? is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=When Did You Get Hot?	"},
+{"title": "	Sugar Talking	", "text": "	Sugar Talking is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Sugar Talking	"},
+{"title": "	Go Go Juice	", "text": "	Go Go Juice is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Go Go Juice	"},
+{"title": "	House Tour	", "text": "	House Tour is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=House Tour	"},
+{"title": "	Never Getting Laid	", "text": "	Never Getting Laid is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Never Getting Laid	"},
+{"title": "	We Almost Broke Up Again Last Night	", "text": "	We Almost Broke Up Again Last Night is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=We Almost Broke Up Again Last Night	"},
+{"title": "	Goodbye	", "text": "	Goodbye is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Goodbye	"},
+{"title": "	Don't Worry I'll Make You Worry	", "text": "	Don't Worry I'll Make You Worry is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Don't Worry I'll Make You Worry	"},
+{"title": "	Good Times & Tan Lines	", "text": "	Good Times & Tan Lines is a song by Zach Top released in 2025	", "img": "img/	Good Times & Tan LinesZach Top2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Good Times & Tan Lines	"},
+{"title": "	She Ready	", "text": "	She Ready is a song by Key Glock released in 2025	", "img": "img/	She ReadyKey Glock2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=She Ready	"},
+{"title": "	South Of Sanity	", "text": "	South Of Sanity is a song by Zach Top released in 2025	", "img": "img/	South Of SanityZach Top2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=South Of Sanity	"},
+     
+{"title": "	Man's Best Friend	", "text": "	Man's Best Friend is an album by Sabrina Carpenter released in 2025	", "img": "img/	Man'sBestFriendSabrinaCarpenter2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Man's Best Friend	"},
+{"title": "	Ain't In It For My Health	", "text": "	Ain't In It For My Health is an album by Zach Top released in 2025	", "img": "img/	Ain'tInItForMyHealthZachTop2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Ain't In It For My Health	"},
+     
 {"title": "	Jealous Type	", "text": "	Jealous Type is a song by Doja Cat released in 2025	", "img": "img/	Jealous TypeDoja Cat2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Jealous Type	"},
 {"title": "	Ceremony	", "text": "	Ceremony is a song by Stray Kids released in 2025	", "img": "img/	CeremonyStray Kids2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Ceremony	"},
 {"title": "	Box Me Up	", "text": "	Box Me Up is a song by BigXthaPlug Featuring Jelly Roll released in 2025	", "img": "img/	Box Me UpBigXthaPlug Featuring Jelly Roll2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Box Me Up	"},
