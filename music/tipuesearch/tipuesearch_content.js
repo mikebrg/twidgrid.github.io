@@ -1,6 +1,22 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Fujii Kaze	", "text": "	Fujii Kaze (born June 14, 1997) is a Japanese singer-songwriter and pianist. Born and raised in Satoshō, Okayama, he began uploading piano covers of pop songs to YouTube at 12. Signed to Universal Sigma's Hehn Records, Fujii released his debut single, 'Nan-Nan', in 2019. His first studio album, Help Ever Hurt Never (2020), reached number one on Billboard Japan's Hot Albums chart and number two on the Oricon Albums Chart and was certified gold in Japan. The song 'Shinunoga E-Wa' became viral on social media and brought Fujii to fame beyond Japan.	", "img": "img/	Fujii Kaze.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Fujii Kaze	"},
+{"title": "	Olivia Dean	", "text": "	Olivia Lauryn Dean (born 14 March 1999) is an English neo soul singer. She has released one studio album, two live albums and four EPs. Her second studio album The Art of Loving is due for release in September 2025. In 2021, Dean was named the breakthrough artist of the year by Amazon Music, and in 2023, she was selected as BBC Music Introducing Artist of the Year.	", "img": "img/	Olivia Dean.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Olivia Dean	"},
+
+{"title": "	Rich Man: The 6th Mini Album	", "text": "	Rich Man: The 6th Mini Album is an album by Aespa released in 2025	", "img": "img/	RichManThe6thMiniAlbumAespa2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Rich Man: The 6th Mini Album	"},
+{"title": "	Never Say Never	", "text": "	Never Say Never is an album by ZEROBASEONE released in 2025	", "img": "img/	NeverSayNeverZEROBASEONE2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Never Say Never	"},
+{"title": "	The X	", "text": "	The X is an album by Monsta X released in 2025	", "img": "img/	TheXMonstaX2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=The X	"},
+{"title": "	Double Infinity	", "text": "	Double Infinity is an album by Big Thief released in 2025	", "img": "img/	DoubleInfinityBigThief2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Double Infinity	"},
+{"title": "	All Night Days	", "text": "	All Night Days is an album by Rob Thomas released in 2025	", "img": "img/	AllNightDaysRobThomas2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=All Night Days	"},
+{"title": "	Who Is The Sky?	", "text": "	Who Is The Sky? is an album by David Byrne released in 2025	", "img": "img/	WhoIsTheSkyDavidByrne2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Who Is The Sky?	"},
+
+{"title": "	The Dead Dance	", "text": "	The Dead Dance is a song by Lady Gaga released in 2025	", "img": "img/	The Dead DanceLady Gaga2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Dead Dance	"},
+{"title": "	Speed Demon	", "text": "	Speed Demon is a song by Justin Bieber released in 2025	", "img": "img/	Speed DemonJustin Bieber2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Speed Demon	"},
+{"title": "	Sienna	", "text": "	Sienna is a song by The Marias released in 2024	", "img": "img/	SiennaThe Marias2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Sienna	"},
+{"title": "	Tiramisu	", "text": "	Tiramisu is a song by Don Toliver released in 2025	", "img": "img/	TiramisuDon Toliver2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Tiramisu	"},
+{"title": "	Love Song	", "text": "	Love Song is a song by Justin Bieber released in 2025	", "img": "img/	Love SongJustin Bieber2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Love Song	"},
+     
 {"title": "	Tears	", "text": "	Tears is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Tears	"},
 {"title": "	Nobody's Son	", "text": "	Nobody's Son is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Nobody's Son	"},
 {"title": "	My Man On Willpower	", "text": "	My Man On Willpower is a song by Sabrina Carpenter released in 2025	", "img": "img/	TearsSabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=My Man On Willpower	"},
