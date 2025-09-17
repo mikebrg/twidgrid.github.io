@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Murdaugh: Death in the Family (2025)	", "text": "	Follow Alex Murdaugh's stranger-than-fiction family drama, tale based on Mandy Matney's hours of reporting as well as exclusive insights from years spent on the case.	", "img": "img/	Murdaugh Death in the Family (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Murdaugh: Death in the Family	"},
+	
 {"title": "	Hamilton (2020)	", "text": "	The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.	", "img": "img/	Hamilton (2020).webp	", "tags": "		", "note": "		", "url": "	2020.html#:~:text=Hamilton	"},
 {"title": "	The Smashing Machine (2025)	", "text": "	The story of mixed-martial arts and UFC champion, Mark Kerr.	", "img": "img/	The Smashing Machine (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Smashing Machine	"},
 {"title": "	Demon Slayer: Kimetsu no Yaiba - Infinity Castle (2025)	", "text": "	The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.	", "img": "img/	Demon Slayer Kimetsu no Yaiba - Infinity Castle (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Demon Slayer: Kimetsu no Yaiba - Infinity Castle	"},
