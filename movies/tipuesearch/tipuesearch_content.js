@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Tron: Uprising (2012)	", "text": "	In the computer world of the Grid, a young program joins Tron's fight against their world's tyranny.	", "img": "img/	Tron Uprising (2012).webp	", "tags": "		", "note": "		", "url": "	tv2012.html#:~:text=Tron: Uprising	"},
+{"title": "	The Real CSI: Miami (2024)	", "text": "	A docuseries delving into real-life criminal cases and the innovative forensic techniques employed to crack them.	", "img": "img/	The Real CSI Miami (2024).webp	", "tags": "		", "note": "		", "url": "	tv2024.html#:~:text=The Real CSI: Miami	"},
+{"title": "	Tron: The Next Day (2011)	", "text": "	About the 'Flynn Lives' movement.	", "img": "img/	Tron The Next Day (2011).webp	", "tags": "		", "note": "		", "url": "	2011.html#:~:text=Tron: The Next Day	"},
+{"title": "	CSI: Immortality (2015)	", "text": "	An explosion inside a casino brings Catherine Willows back to Las Vegas to investigate. And when the crime is tied to Lady Heather, Gil Grissom is brought back as well to aid the investigation.	", "img": "img/	CSI Immortality (2015).webp	", "tags": "		", "note": "		", "url": "	2015.html#:~:text=CSI: Immortality	"},
+	
 {"title": "	Murdaugh: Death in the Family (2025)	", "text": "	Follow Alex Murdaugh's stranger-than-fiction family drama, tale based on Mandy Matney's hours of reporting as well as exclusive insights from years spent on the case.	", "img": "img/	Murdaugh Death in the Family (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Murdaugh: Death in the Family	"},
 	
 {"title": "	Hamilton (2020)	", "text": "	The real life of one of America's foremost founding fathers and first Secretary of the Treasury, Alexander Hamilton. Captured live on Broadway from the Richard Rodgers Theater with the original Broadway cast.	", "img": "img/	Hamilton (2020).webp	", "tags": "		", "note": "		", "url": "	2020.html#:~:text=Hamilton	"},
