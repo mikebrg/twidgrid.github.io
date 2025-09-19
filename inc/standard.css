@@ -602,4 +602,33 @@ text-decoration: underline; /* Add underline only on hover */
      color: #ccc;
      pointer-events: none;
    }
+
+.search-tips {
+  padding: 10px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: white;
+  background-color: #333;
+  border-radius: 6px;
+  max-width: 800px;      /* optional: don’t get too wide on large screens */
+  margin: 10px auto;      /* center on the page */
+  box-sizing: border-box;
+  word-wrap: break-word;  /* ensures long words break nicely */
+}
+
+/* spacing between paragraphs */
+.search-tips p {
+  margin: 8px 0;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  .search-tips {
+    padding: 8px 12px;    /* reduce padding */
+    font-size: 13px;      /* slightly smaller text */
+    max-width: 95%;       /* almost full width on small devices */
+  }
+}
+
  
