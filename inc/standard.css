@@ -375,6 +375,8 @@ code
 @media (max-width: 600px) {
   .responsive-table {
     grid-template-columns: repeat(3, 1fr);
+	  gap: 8px;
+     padding: 8px;
   }
 }
  .table-cell {
