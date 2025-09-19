@@ -63,7 +63,7 @@ ul
 {
      display: inline-block;
      font: 13px/1 'Source Code Pro', monospace;
-	color: #fff;
+	color: #000;
 	letter-spacing: 2px; 
      padding: 25px 25px;
      text-decoration: none;
@@ -83,7 +83,7 @@ ul
 {
      display: inline-block;
      font: 13px/1 'Source Code Pro', monospace;
-	color: #fff;
+	color: #000;
 	letter-spacing: 2px; 
      padding: 15px 15px;
      text-decoration: none;
@@ -104,7 +104,7 @@ ul
 {
      display: inline-block;
      font: 13px/1 'Source Code Pro', monospace;
-	color: #fff;
+	color: #000;
 	letter-spacing: 2px; 
      padding:15px 15px;
      text-decoration: none;
@@ -339,7 +339,7 @@ code
      bottom: 20px;
      right: 20px;
      background-color: rgba(246, 185, 59, 0.8);
-     color: white;
+     color: #000;
      border-radius: 8px;
      padding: 10px 20px;
      font-size: 36px;
