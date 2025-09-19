@@ -272,9 +272,9 @@ code
 /* On mobile: 5px margin on both sides */
 @media (max-width: 600px) {
   .block-978 {
-    margin-left: 1px;
-    margin-right: 1px;
-    padding: 0 3px; /* optional: reduce padding for breathing space */
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0 1px; /* optional: reduce padding for breathing space */
   }
 }
 
