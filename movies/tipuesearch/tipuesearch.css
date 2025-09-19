@@ -35,6 +35,14 @@ http://www.tipue.com/search
 	outline: 0;
 	margin: 0;
 }
+
+/* Mobile: reduce size */
+@media (max-width: 600px) {
+  #tipue_search_input {
+    width: 200px;
+  }
+}
+
 #tipue_search_input:-webkit-autofill,
 #tipue_search_input:-webkit-autofill:hover, 
 #tipue_search_input:-webkit-autofill:focus
