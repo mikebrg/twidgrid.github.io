@@ -370,6 +370,13 @@ code
      list-style-type: none;
      margin: 0;
  }
+
+/* On mobile: force 3 cards per row */
+@media (max-width: 600px) {
+  .responsive-table {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
  .table-cell {
      background: #f1eeee;
      border: 1px solid #ddd;
