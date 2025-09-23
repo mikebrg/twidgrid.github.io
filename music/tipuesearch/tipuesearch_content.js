@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	How It’s Done	", "text": "	How It’s Done is a song by HUNTR/X: EJAE, Audrey Nuna & REI AMI released in 2025	", "img": "img/	How It’s DoneHUNTRX EJAE, Audrey Nuna & REI AMI2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=How It’s Done	"},
+     
 {"title": "	Dog House	", "text": "	Dog House is a song by Drake, Julia Wolf & Yeat released in 2025	", "img": "img/	Dog HouseDrake, Julia Wolf & Yeat2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Dog House	"},
 {"title": "	Camera	", "text": "	Camera is a song by Ed Sheeran released in 2025	", "img": "img/	CameraEd Sheeran2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Camera	"},
 {"title": "	Charlie	", "text": "	Charlie is a song by Tom MacDonald released in 2025	", "img": "img/	CharlieTom MacDonald2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Charlie	"},
