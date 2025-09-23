@@ -46,26 +46,14 @@
 <div class="block" style="padding-top: 79px;">
 <h3>2014 Songs</h3><span class="fo-5">Discover the latest and greatest music videos from top-charted songs all in one place.</span>
 <p></p><p></p>    
-<div>
-    <a class="btn-2" href="index.html">Home</a>&nbsp;
-    <a class="btn-2" href="search.html">Search</a>&nbsp;
-    <a class="btn-2" href="2025.html">2025</a>&nbsp;
-    <a class="btn-2" href="2024.html">2024</a>&nbsp;
-    <a class="btn-2" href="2023.html">2023</a>&nbsp;
-    <a class="btn-2" href="2022.html">2022</a>&nbsp;
-    <a class="btn-2" href="2020.html">2020</a>&nbsp;
-    <a class="btn-2" href="2019.html">2019</a>&nbsp;
-    <a class="btn-2" href="2017.html">2017</a>&nbsp;
-    <a class="btn-2" href="2014.html">2014</a>&nbsp;
-    <a class="btn-2" href="2013.html">2013</a>&nbsp;
-
-    <a class="btn-2" href="2011.html">2011</a>&nbsp;
-    <a class="btn-2" href="2005.html">2005</a>&nbsp;
-<a class="btn-2" href="2000.html">2000</a>&nbsp;
-    <a class="btn-2" href="1997.html">1997</a>&nbsp;
-    <a class="btn-2" href="1980.html">1980</a>&nbsp;
-    <a class="btn-2" href="1963.html">1963</a>&nbsp;
-</div>
+<div id="navbar"></div>
+<script>
+  fetch("nav-songs-years.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("navbar").innerHTML = html;
+    });
+</script>
 
 </div></div>
 
