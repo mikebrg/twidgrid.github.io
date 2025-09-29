@@ -1,6 +1,10 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Everything Now (2023)	", "text": "	Follows Mia Polanco, who is released from hospital after a lengthy battle with anorexia, she is thrust back into the world of sixth form.	", "img": "img/	Everything Now (2023).webp	", "tags": "		", "note": "		", "url": "	tv2023.html#:~:text=Everything Now	"},
+{"title": "	Heartstopper (2022)	", "text": "	Charlie, a high-strung, openly gay overthinker, and Nick, a cheerful, soft-hearted rugby player, one day are made to sit together in class. Their friendship becomes something more for Charlie, but he does not believe he has a chance.	", "img": "img/	Heartstopper (2022).webp	", "tags": "		", "note": "		", "url": "	tv2022.html#:~:text=Heartstopper	"},
+{"title": "	Nobody Wants This (2025)	", "text": "	An agnostic sex podcaster and a newly single rabbi fall in love; discovering if their relationship can survive their wildly different lives and meddling families.	", "img": "img/	Nobody Wants This (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Nobody Wants This	"},
+	
 {"title": "	Gabby's Dollhouse: The Movie (2025)	", "text": "	Gabby and Grandma Gigi's road trip takes an unexpected turn when Gabby's prized dollhouse ends up with eccentric cat lady Vera. Gabby embarks on a adventure to reunite the Gabby Cats and retrieve her beloved dollhouse before it's too late.	", "img": "img/	Gabby's Dollhouse The Movie (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Gabby's Dollhouse: The Movie	"},
 	
 {"title": "	Unbelievable (2019)	", "text": "	A teenager is charged with lying about being raped, but two detectives follow the path to the truth.	", "img": "img/	Unbelievable (2019).webp	", "tags": "		", "note": "		", "url": "	tv2019.html#:~:text=Unbelievable	"},
