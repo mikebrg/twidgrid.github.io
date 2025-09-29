@@ -1,5 +1,8 @@
 
 var tipuesearch = {"pages": [
+
+{"title": "	Gabby's Dollhouse: The Movie (2025)	", "text": "	Gabby and Grandma Gigi's road trip takes an unexpected turn when Gabby's prized dollhouse ends up with eccentric cat lady Vera. Gabby embarks on a adventure to reunite the Gabby Cats and retrieve her beloved dollhouse before it's too late.	", "img": "img/	Gabby's Dollhouse The Movie (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Gabby's Dollhouse: The Movie	"},
+	
 {"title": "	Unbelievable (2019)	", "text": "	A teenager is charged with lying about being raped, but two detectives follow the path to the truth.	", "img": "img/	Unbelievable (2019).webp	", "tags": "		", "note": "		", "url": "	tv2019.html#:~:text=Unbelievable	"},
 {"title": "	Baby Reindeer (2024)	", "text": "	The story follows Donny's warped relationship with a female stalker and the impact it has on him as he is ultimately forced to face a deep, dark buried trauma.	", "img": "img/	Baby Reindeer (2024).webp	", "tags": "		", "note": "		", "url": "	tv2024.html#:~:text=Baby Reindeer	"},
 {"title": "	Secret Level (2024)	", "text": "	Original stories set within the worlds of iconic video games are featured in this animated anthology series.	", "img": "img/	Secret Level (2024).webp	", "tags": "		", "note": "		", "url": "	tv2024.html#:~:text=Secret Level	"},
