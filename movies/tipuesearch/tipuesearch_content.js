@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Twits (2025)	", "text": "	Two orphans join forces with a family of magical animals to save their city from the powerful Mr. and Mrs. Twit, the meanest, smelliest, nastiest people in the world.	", "img": "img/	The Twits (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Twits	"},
+	
 {"title": "	Song Sung Blue (2025)	", "text": "	Lightning and Thunder, a Milwaukee husband and wife Neil Diamond tribute act, experience soaring success and devastating heartbreak in their musical journey together.	", "img": "img/	Song Sung Blue (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Song Sung Blue	"},
 {"title": "	Christy (2025)	", "text": "	Tells the story of Christy Martin, the most successful female boxer of the 90s.	", "img": "img/	Christy (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Christy	"},
 {"title": "	People We Meet on Vacation (2026)	", "text": "	Poppy wants to explore the world and Alex prefers to stay home with a good book, but somehow they are the very best of friends. They live far apart, but for a decade they have spent one week of summer vacation together.	", "img": "img/	People We Meet on Vacation (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=People We Meet on Vacation	"},
