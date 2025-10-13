@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Invincible (2021)	", "text": "	An adult animated series based on the Skybound/Image comic about a teenager whose father is the most powerful superhero on the planet.	", "img": "img/	Invincible (2021).webp	", "tags": "		", "note": "		", "url": "	tv2021.html#:~:text=Invincible	"},
+{"title": "	A Knight of the Seven Kingdoms (2025)	", "text": "	A century before GOT, Ser Duncan the Tall, and his squire, Egg, wandered through Westeros while the Targaryen dynasty ruled the Iron Throne, and dragons were still remembered. Great destinies and enemies await the incomparable friends.	", "img": "img/	A Knight of the Seven Kingdoms (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=A Knight of the Seven Kingdoms	"},
+{"title": "	Wonder Man (2025)	", "text": "	Hollywood actor Simon Williams is thrust into the world of superheroes as he gets powers of his own, and becomes the new superhero Wonder Man.	", "img": "img/	Wonder Man (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Wonder Man	"},
+{"title": "	Lazarus (2025)	", "text": "	After experiencing a personal loss, Lazarus begins having disturbing experiences that can't be explained.	", "img": "img/	Lazarus (2025).webp	", "tags": "		", "note": "		", "url": "	tv2025.html#:~:text=Lazarus	"},
+	
 {"title": "	The Twits (2025)	", "text": "	Two orphans join forces with a family of magical animals to save their city from the powerful Mr. and Mrs. Twit, the meanest, smelliest, nastiest people in the world.	", "img": "img/	The Twits (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Twits	"},
 	
 {"title": "	Song Sung Blue (2025)	", "text": "	Lightning and Thunder, a Milwaukee husband and wife Neil Diamond tribute act, experience soaring success and devastating heartbreak in their musical journey together.	", "img": "img/	Song Sung Blue (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Song Sung Blue	"},
