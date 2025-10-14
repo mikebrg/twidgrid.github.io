@@ -1,5 +1,26 @@
 
 var tipuesearch = {"pages": [
+
+{"title": "	The Fate Of Ophelia	", "text": "	The Fate Of Ophelia is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Fate Of Ophelia	"},
+{"title": "	Opalite	", "text": "	Opalite is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Opalite	"},
+{"title": "	Elizabeth Taylor	", "text": "	Elizabeth Taylor is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Elizabeth Taylor	"},
+{"title": "	Father Figure	", "text": "	Father Figure is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Father Figure	"},
+{"title": "	Wood	", "text": "	Wood is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Wood	"},
+{"title": "	Wi$h Li$t	", "text": "	Wi$h Li$t is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Wi$h Li$t	"},
+{"title": "	Actually Romantic	", "text": "	Actually Romantic is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Actually Romantic	"},
+{"title": "	The Life Of A Showgirl	", "text": "	The Life Of A Showgirl is a song by Taylor Swift Featuring Sabrina Carpenter released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Life Of A Showgirl	"},
+{"title": "	Eldest Daughter	", "text": "	Eldest Daughter is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Eldest Daughter	"},
+{"title": "	Cancelled!	", "text": "	Cancelled! is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Cancelled!	"},
+{"title": "	Ruin The Friendship	", "text": "	Ruin The Friendship is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Ruin The Friendship	"},
+{"title": "	Honey	", "text": "	Honey is a song by Taylor Swift released in 2025	", "img": "img/	The Fate Of OpheliaTaylor Swift2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Honey	"},
+{"title": "	Wish	", "text": "	Wish is a song by Diplo Featuring Trippie Redd released in 2018	", "img": "img/	WishDiplo Featuring Trippie Redd2018.png	", "tags": "		", "note": "		", "url": "	2018.html#:~:text=Wish	"},
+{"title": "	What You Is	", "text": "	What You Is is a song by YoungBoy Never Broke Again & Mellow Rackz released in 2025	", "img": "img/	What You IsYoungBoy Never Broke Again & Mellow Rackz2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=What You Is	"},
+     
+{"title": "	The Life Of A Showgirl	", "text": "	The Life Of A Showgirl is an album by Taylor Swift released in 2025	", "img": "img/	TheLifeOfAShowgirlTaylorSwift2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=The Life Of A Showgirl	"},
+{"title": "	Solace & The Vices	", "text": "	Solace & The Vices is an album by Bryson Tiller released in 2025	", "img": "img/	Solace&TheVicesBrysonTiller2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Solace & The Vices	"},
+{"title": "	Silver Bleeds The Black Sun…	", "text": "	Silver Bleeds The Black Sun… is an album by AFI released in 2025	", "img": "img/	SilverBleedsTheBlackSun…AFI2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Silver Bleeds The Black Sun…	"},
+{"title": "	Songbird	", "text": "	Songbird is an album by Waylon Jennings released in 2025	", "img": "img/	SongbirdWaylonJennings2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Songbird	"},
+     
 {"title": "	Geese	", "text": "	Geese are an American rock band formed in 2016 in Brooklyn, New York. The band currently consists of Cameron Winter (vocals, keyboards, guitar), Emily Green (guitar), Dominic DiGesu (bass) and Max Bassin (drums). During live performances, the band is joined by keyboardist Sam Revaz.	", "img": "img/	Geese.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Geese	"},
 {"title": "	Vie	", "text": "	Vie is an album by Doja Cat released in 2025	", "img": "img/	VieDojaCat2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Vie	"},
 {"title": "	UY SCUTI	", "text": "	UY SCUTI is an album by Young Thug released in 2025	", "img": "img/	UYSCUTIYoungThug2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=UY SCUTI	"},
