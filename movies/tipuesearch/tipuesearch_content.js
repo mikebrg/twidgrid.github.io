@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Secret Agent (2025)	", "text": "	In 1977, a technology expert flees from a mysterious past and returns to his hometown of Recife in search of peace. He soon realizes that the city is far from being the refuge he seeks.	", "img": "img/	The Secret Agent (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Secret Agent	"},
+{"title": "	Primate (2025)	", "text": "	A group of friends' tropical vacation turns into a terrifying, primal tale of horror and survival.	", "img": "img/	Primate (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Primate	"},
+{"title": "	Our Fault (2025)	", "text": "	Nick and Noah's relationship peaks before facing events testing if they're meant to be together or should part ways. Can they overcome their past despite strong feelings, or are love and forgiveness not enough?	", "img": "img/	Our Fault (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Our Fault	"},
+{"title": "	Truth & Treason (2025)	", "text": "	When loyalty to country becomes loyalty to a lie, one teen risks everything to expose the truth. With the Gestapo closing in, he must decide what it really means to be a good German.	", "img": "img/	Truth & Treason (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Truth & Treason	"},
+	
 {"title": "	Monster (2022)	", "text": "	An anthology series about high-profile crimes or killers that captured public attention and notoriety.	", "img": "img/	Monster (2022).webp	", "tags": "		", "note": "		", "url": "	tv2022.html#:~:text=Monster	"},
 {"title": "	Tracker (2024)	", "text": "	Colter Shaw travels the country in his old-school RV, helping police and private citizens solve crimes and locate missing persons--until his latest case changes everything.	", "img": "img/	Tracker (2024).webp	", "tags": "		", "note": "		", "url": "	tv2024.html#:~:text=Tracker	"},
 {"title": "	Elsbeth (2024)	", "text": "	Astute but unconventional attorney Elsbeth Tascioni utilizes her singular point of view to make unique observations and corner brilliant criminals alongside the NYPD.	", "img": "img/	Elsbeth (2024).webp	", "tags": "		", "note": "		", "url": "	tv2024.html#:~:text=Elsbeth	"},
