@@ -1,7 +1,7 @@
 
 var tipuesearch = {"pages": [
 
-{"title": "	Dead Man's Wire (2025)	", "text": "	On February 8, 1977, Tony Kiritsis entered the office of Richard Hall, president of the Meridian Mortgage Company, and took him hostage with a sawed-off shotgun wired with a "dead man's wire" from the trigger to Tony's own neck.	", "img": "img/	Dead Man's Wire (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Dead Man's Wire	"},
+{"title": "	Dead Man's Wire (2025)	", "text": "	On February 8, 1977, Tony Kiritsis entered the office of Richard Hall, president of the Meridian Mortgage Company, and took him hostage with a sawed-off shotgun wired with a 'dead man's wire' from the trigger to Tony's own neck.	", "img": "img/	Dead Man's Wire (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Dead Man's Wire	"},
 {"title": "	Sentimental Value (2025)	", "text": "	An intimate exploration of family, memories, and the reconciliatory power of art.	", "img": "img/	Sentimental Value (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Sentimental Value	"},
 {"title": "	The Cloverfield Paradox (2018)	", "text": "	Orbiting a planet on the brink of war, scientists test a device to solve an energy crisis, and end up face-to-face with a dark alternate reality.	", "img": "img/	The Cloverfield Paradox (2018).webp	", "tags": "		", "note": "		", "url": "	2018.html#:~:text=The Cloverfield Paradox	"},
 {"title": "	Brick (2025)	", "text": "	A couple whose apartment building is suddenly surrounded by a mysterious brick wall must work with their neighbors to find a way out.	", "img": "img/	Brick (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Brick	"},
