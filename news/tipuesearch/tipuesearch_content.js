@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	India wins 2025...	", "text": "	India wins 2025 Women's Cricket World Cup, defeating South Africa by 52 runs	", "img": "img/	news30	", "tags": "		", "note": "		", "url": "	search.html#:~:text=India wins 2025 Women's Cricket World Cup, defeating South Africa by 52 runs	"},
+{"title": "	Avalanche in Italy's...	", "text": "	Avalanche in Italy's Dolomite mountains kills five German climbers	", "img": "img/	news31	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Avalanche in Italy's Dolomite mountains kills five German climbers	"},
+	
 {"title": "	Unification Church leader...	", "text": "	Unification Church leader Hak Ja Han arrested in South Korea over bribery allegations	", "img": "img/	news1	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Unification Church leader Hak Ja Han arrested in South Korea over bribery allegations	"},
 {"title": "	Country music songwriter...	", "text": "	Country music songwriter Brett James dies in North Carolina plane crash	", "img": "img/	news2	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Country music songwriter Brett James dies in North Carolina plane crash	"},
 {"title": "	New York judge...	", "text": "	New York judge rules terrorism charges legally insufficient in Mangione case	", "img": "img/	news3	", "tags": "		", "note": "		", "url": "	search.html#:~:text=New York judge rules terrorism charges legally insufficient in Mangione case	"},
