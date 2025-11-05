@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Call of Duty: Black Ops III	", "text": "	Call of Duty: Black Ops III is a 2015 first-person shooter game developed by Treyarch and published by Activision.	", "img": "img/	Call of Duty Black Ops III.jpg	", "tags": "	PlayStation 3, PlayStation 4, Windows, Xbox 360, Xbox One, macOS	", "note": "		", "url": "	index.html#:~:text=Call of Duty: Black Ops III	"},
+{"title": "	The Witcher 3: Wild Hunt	", "text": "	The Witcher 3: Wild Hunt is a 2015 action role-playing game developed and published by CD Projekt.	", "img": "img/	The Witcher 3 Wild Hunt.jpg	", "tags": "	PlayStation 4, Windows, Xbox One, Nintendo Switch, PlayStation 5, Xbox Series X/S	", "note": "		", "url": "	index.html#:~:text=The Witcher 3: Wild Hunt	"},
+	
 {"title": "	Pokémon Sun / Moon / Ultra Sun / Ultra Moon	", "text": "	Pokémon Sun and Pokémon Moon are 2016 role-playing video games developed by Game Freak and published by The Pokémon Company and Nintendo for the Nintendo 3DS.	", "img": "img/	Pokémon SunMoonUltra SunUltra Moon.jpg	", "tags": "	Nintendo 3DS	", "note": "		", "url": "	index.html#:~:text=Pokémon Sun / Moon / Ultra Sun / Ultra Moon	"},
 {"title": "	Human: Fall Flat	", "text": "	Human: Fall Flat is a 2016 puzzle-platform game developed by Lithuanian studio No Brakes Games and published by Curve Digital.	", "img": "img/	Human Fall Flat.jpg	", "tags": "	Windows, macOS, Linux, PlayStation 4, Xbox One, Nintendo Switch, iOS, Android, Stadia, Xbox Series X/S, PlayStation 5, Nintendo Switch 2	", "note": "		", "url": "	index.html#:~:text=Human: Fall Flat	"},
 {"title": "	Overwatch	", "text": "	Overwatch (retroactively referred to as Overwatch 1) was a 2016 multiplayer first-person shooter video game by Blizzard Entertainment.	", "img": "img/	Overwatch.jpg	", "tags": "	PlayStation 4, Windows, Xbox One, Nintendo Switch	", "note": "		", "url": "	index.html#:~:text=Overwatch	"},
