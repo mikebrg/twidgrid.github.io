@@ -1,5 +1,8 @@
 
 var tipuesearch = {"pages": [
+{"title": "	Wikinews interviews magician...	", "text": "	Wikinews interviews magician and illusion builder Bruce Chadwick for National Magic Week	", "img": "img/	news32	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Wikinews interviews magician and illusion builder Bruce Chadwick for National Magic Week	"},
+{"title": "	Russian 'Art Night'...	", "text": "	Russian 'Art Night' in Crimea: Wikinews interviews Traveler Viktor Pinchuk	", "img": "img/	news33	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Russian 'Art Night' in Crimea: Wikinews interviews Traveler Viktor Pinchuk	"},
+{"title": "	Mamdani wins New...	", "text": "	Mamdani wins New York City mayoral election	", "img": "img/	news34	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Mamdani wins New York City mayoral election	"},
 
 {"title": "	India wins 2025...	", "text": "	India wins 2025 Women's Cricket World Cup, defeating South Africa by 52 runs	", "img": "img/	news30	", "tags": "		", "note": "		", "url": "	search.html#:~:text=India wins 2025 Women's Cricket World Cup, defeating South Africa by 52 runs	"},
 {"title": "	Avalanche in Italy's...	", "text": "	Avalanche in Italy's Dolomite mountains kills five German climbers	", "img": "img/	news31	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Avalanche in Italy's Dolomite mountains kills five German climbers	"},
