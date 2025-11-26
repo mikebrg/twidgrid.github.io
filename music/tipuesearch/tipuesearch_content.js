@@ -1,6 +1,16 @@
 
 var tipuesearch = {"pages": [
 
+    {"title": "	Finally Over It	", "text": "	Finally Over It is an album by Summer Walker released in 2025	", "img": "img/	FinallyOverItSummerWalker2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Finally Over It	"},
+{"title": "	Fear (EP)	", "text": "	Fear (EP) is an album by NF released in 2025	", "img": "img/	Fear(EP)NF2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Fear (EP)	"},
+{"title": "	Everyone's A Star!	", "text": "	Everyone's A Star! is an album by 5 Seconds of Summer released in 2025	", "img": "img/	Everyone'sAStar!5SecondsofSummer2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Everyone's A Star!	"},
+{"title": "	Everything Is A Lot.	", "text": "	Everything Is A Lot. is an album by Wale released in 2025	", "img": "img/	EverythingIsALot.Wale2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Everything Is A Lot.	"},
+{"title": "	Mount Pleasant (EP)	", "text": "	Mount Pleasant (EP) is an album by Kelsea Ballerini released in 2025	", "img": "img/	MountPleasant(EP)KelseaBallerini2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Mount Pleasant (EP)	"},
+{"title": "	Hazbin Hotel: Season Two	", "text": "	Hazbin Hotel: Season Two is an album by Soundtrack released in 2025	", "img": "img/	HazbinHotelSeasonTwoSoundtrack2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Hazbin Hotel: Season Two	"},
+{"title": "	Rebel	", "text": "	Rebel is an album by EsDeeKid released in 2025	", "img": "img/	RebelEsDeeKid2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Rebel	"},
+{"title": "	Memories And Empties	", "text": "	Memories And Empties is an album by Colter Wall released in 2025	", "img": "img/	MemoriesAndEmptiesColterWall2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Memories And Empties	"},
+{"title": "	(((((ultraSOUND)))))	", "text": "	(((((ultraSOUND))))) is an album by The Neighbourhood released in 2025	", "img": "img/	(((((ultraSOUND)))))TheNeighbourhood2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=(((((ultraSOUND)))))	"},
+
     {"title": "	Fear	", "text": "	Fear is a song by NF released in 2025	", "img": "img/	FearNF2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Fear	"},
 {"title": "	Robbed You	", "text": "	Robbed You is a song by Summer Walker & Mariah the Scientist released in 2025	", "img": "img/	Robbed YouSummer Walker & Mariah the Scientist2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Robbed You	"},
 {"title": "	Go Girl	", "text": "	Go Girl is a song by Summer Walker, Latto & Doja Cat released in 2025	", "img": "img/	Robbed YouSummer Walker & Mariah the Scientist2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Go Girl	"},
