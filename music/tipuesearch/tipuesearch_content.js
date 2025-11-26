@@ -1,6 +1,22 @@
 
 var tipuesearch = {"pages": [
 
+    {"title": "	Fear	", "text": "	Fear is a song by NF released in 2025	", "img": "img/	FearNF2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Fear	"},
+{"title": "	Robbed You	", "text": "	Robbed You is a song by Summer Walker & Mariah the Scientist released in 2025	", "img": "img/	Robbed YouSummer Walker & Mariah the Scientist2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Robbed You	"},
+{"title": "	Go Girl	", "text": "	Go Girl is a song by Summer Walker, Latto & Doja Cat released in 2025	", "img": "img/	Robbed YouSummer Walker & Mariah the Scientist2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Go Girl	"},
+{"title": "	Who I Was	", "text": "	Who I Was is a song by NF & MGK released in 2025	", "img": "img/	FearNF2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Who I Was	"},
+{"title": "	Baby	", "text": "	Baby is a song by Summer Walker & Chris Brown released in 2025	", "img": "img/	Robbed YouSummer Walker & Mariah the Scientist2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Baby	"},
+{"title": "	No	", "text": "	No is a song by Summer Walker released in 2025	", "img": "img/	Robbed YouSummer Walker & Mariah the Scientist2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=No	"},
+{"title": "	Sorry	", "text": "	Sorry is a song by NF With James Arthur released in 2025	", "img": "img/	FearNF2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Sorry	"},
+{"title": "	FMT	", "text": "	FMT is a song by Summer Walker released in 2025	", "img": "img/	Robbed YouSummer Walker & Mariah the Scientist2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=FMT	"},
+{"title": "	1-800 Heartbreak	", "text": "	1-800 Heartbreak is a song by Summer Walker & Anderson .Paak released in 2025	", "img": "img/	Robbed YouSummer Walker & Mariah the Scientist2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=1-800 Heartbreak	"},
+{"title": "	Give Me A Reason	", "text": "	Give Me A Reason is a song by NF released in 2025	", "img": "img/	FearNF2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Give Me A Reason	"},
+{"title": "	Home	", "text": "	Home is a song by NF released in 2025	", "img": "img/	FearNF2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Home	"},
+{"title": "	Baller	", "text": "	Baller is a song by Summer Walker, Glorilla, Sexyy Red & Monaleo released in 2025	", "img": "img/	Robbed YouSummer Walker & Mariah the Scientist2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Baller	"},
+{"title": "	Let Alone The One You Love	", "text": "	Let Alone The One You Love is a song by Olivia Dean released in 2025	", "img": "img/	Let Alone The One You LoveOlivia Dean2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Let Alone The One You Love	"},
+{"title": "	Losing Streak	", "text": "	Losing Streak is a song by Blake Roman released in 2025	", "img": "img/	Losing StreakBlake Roman2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Losing Streak	"},
+{"title": "	All I Want For Christmas Is You	", "text": "	All I Want For Christmas Is You is a song by Mariah Carey released in 1994	", "img": "img/	All I Want For Christmas Is YouMariah Carey1994.png	", "tags": "		", "note": "		", "url": "	1994.html#:~:text=All I Want For Christmas Is You	"},
+
     {"title": "	&TEAM	", "text": "	&Team (English: andTeam; Japanese: エンティーム; Korean: 앤팀, stylized in all caps) is a Japanese boy band based in Japan and South Korea and formed by YX Labels. The group is composed of nine members: K, Fuma, Nicholas, EJ, Yuma, Jo, Harua, Taki, and Maki. They were formed through the reality/survival program &Audition – The Howling as their label's first group. &Team released their debut single 'Under the Skin' on November 21, 2022, and officially debuted with their first extended play First Howling: Me on December 7, 2022.	", "img": "img/	&TEAM.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=&TEAM	"},
 
 {"title": "	YEONJUN	", "text": "	Choi Yeon-jun (Korean: 최연준; born September 13, 1999), known mononymously as Yeonjun, is a South Korean singer, songwriter, and dancer. He is a member of the South Korean boy band Tomorrow X Together, formed by Big Hit Entertainment in 2019. He debuted as a soloist in September 2024 with the song 'Ggum'.	", "img": "img/	YEONJUN.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=YEONJUN	"},
