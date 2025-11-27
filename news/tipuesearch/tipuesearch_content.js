@@ -1,5 +1,11 @@
 
 var tipuesearch = {"pages": [
+	{"title": "	Midtown Manhattan Nightclub...	", "text": "	Midtown Manhattan Nightclub Shooting: one killed, shooter at large	", "img": "img/	news35	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Midtown Manhattan Nightclub Shooting: one killed, shooter at large	"},
+{"title": "	Shooting at Benihana...	", "text": "	Shooting at Benihana restaurant in Maple Grove, Minnesota leaves one injured	", "img": "img/	news36	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Shooting at Benihana restaurant in Maple Grove, Minnesota leaves one injured	"},
+{"title": "	Current New York...	", "text": "	Current New York Police Department commissioner agrees to stay on for Mamdani's mayoralty	", "img": "img/	news37	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Current New York Police Department commissioner agrees to stay on for Mamdani's mayoralty	"},
+{"title": "	Turkish military transport...	", "text": "	Turkish military transport plane crashes near Georgia border, 20 dead	", "img": "img/	news38	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Turkish military transport plane crashes near Georgia border, 20 dead	"},
+{"title": "	2025 Queens World...	", "text": "	2025 Queens World Film Festival features filmmakers breakfast and ceremony honoring Warrington Hudlin	", "img": "img/	news39	", "tags": "		", "note": "		", "url": "	search.html#:~:text=2025 Queens World Film Festival features filmmakers breakfast and ceremony honoring Warrington Hudlin	"},
+
 {"title": "	Wikinews interviews magician...	", "text": "	Wikinews interviews magician and illusion builder Bruce Chadwick for National Magic Week	", "img": "img/	news32	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Wikinews interviews magician and illusion builder Bruce Chadwick for National Magic Week	"},
 {"title": "	Russian 'Art Night'...	", "text": "	Russian 'Art Night' in Crimea: Wikinews interviews Traveler Viktor Pinchuk	", "img": "img/	news33	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Russian 'Art Night' in Crimea: Wikinews interviews Traveler Viktor Pinchuk	"},
 {"title": "	Mamdani wins New...	", "text": "	Mamdani wins New York City mayoral election	", "img": "img/	news34	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Mamdani wins New York City mayoral election	"},
