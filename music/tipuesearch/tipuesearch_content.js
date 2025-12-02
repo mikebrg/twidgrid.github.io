@@ -1,6 +1,25 @@
 
 var tipuesearch = {"pages": [
 
+    {"title": "	Nobody's Girl	", "text": "	Nobody's Girl is a song by Tate McRae released in 2025	", "img": "img/	Nobody's GirlTate McRae2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Nobody's Girl	"},
+{"title": "	For Good	", "text": "	For Good is a song by Cynthia Erivo & Ariana Grande released in 2025	", "img": "img/	For GoodCynthia Erivo & Ariana Grande2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=For Good	"},
+{"title": "	Anything But Love	", "text": "	Anything But Love is a song by Tate McRae released in 2025	", "img": "img/	Anything But LoveTate McRae2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Anything But Love	"},
+{"title": "	No Good Deed	", "text": "	No Good Deed is a song by Cynthia Erivo released in 2025	", "img": "img/	No Good DeedCynthia Erivo2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=No Good Deed	"},
+{"title": "	Trying On Shoes	", "text": "	Trying On Shoes is a song by Tate McRae released in 2025	", "img": "img/	Trying On ShoesTate McRae2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Trying On Shoes	"},
+{"title": "	Do It	", "text": "	Do It is a song by Stray Kids released in 2025	", "img": "img/	Do ItStray Kids2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Do It	"},
+{"title": "	Cold	", "text": "	Cold is a song by BigXthaPlug & Post Malone released in 2025	", "img": "img/	ColdBigXthaPlug & Post Malone2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Cold	"},
+{"title": "	Horseshoe	", "text": "	Horseshoe is a song by Tate McRae released in 2025	", "img": "img/	HorseshoeTate McRae2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Horseshoe	"},
+{"title": "	As Long As You're Mine	", "text": "	As Long As You're Mine is a song by Cynthia Erivo & Jonathan Bailey released in 2025	", "img": "img/	As Long As You're MineCynthia Erivo & Jonathan Bailey2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=As Long As You're Mine	"},
+{"title": "	The Girl In The Bubble	", "text": "	The Girl In The Bubble is a song by Ariana Grande released in 2025	", "img": "img/	The Girl In The BubbleAriana Grande2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=The Girl In The Bubble	"},
+{"title": "	Last Christmas	", "text": "	Last Christmas is a song by Wham! released in 1984	", "img": "img/	Last ChristmasWham!1984.png	", "tags": "		", "note": "		", "url": "	1984.html#:~:text=Last Christmas	"},
+{"title": "	Rockin' Around The Christmas Tree	", "text": "	Rockin' Around The Christmas Tree is a song by Brenda Lee released in 1958	", "img": "img/	Rockin' Around The Christmas TreeBrenda Lee1958.png	", "tags": "		", "note": "		", "url": "	1958.html#:~:text=Rockin' Around The Christmas Tree	"},
+{"title": "	DO IT (EP)	", "text": "	DO IT (EP) is an album by Stray Kids released in 2025	", "img": "img/	DOIT(EP)StrayKids2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=DO IT (EP)	"},
+{"title": "	Wicked: For Good (Soundtrack)	", "text": "	Wicked: For Good (Soundtrack) is an album by Cynthia Erivo, Ariana Grande & Various Artists released in 2025	", "img": "img/	WickedForGood(Soundtrack)CynthiaErivo,ArianaGrande&VariousArtists2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Wicked: For Good (Soundtrack)	"},
+{"title": "	One More Time (EP)	", "text": "	One More Time (EP) is an album by Aerosmith & YUNGBLUD released in 2025	", "img": "img/	OneMoreTime(EP)Aerosmith&YUNGBLUD2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=One More Time (EP)	"},
+{"title": "	Anthology 4	", "text": "	Anthology 4 is an album by The Beatles released in 2025	", "img": "img/	Anthology4TheBeatles2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Anthology 4	"},
+{"title": "	The Best Of	", "text": "	The Best Of is an album by Creed released in 2025	", "img": "img/	TheBestOfCreed2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=The Best Of	"},
+{"title": "	Anthology Collection	", "text": "	Anthology Collection is an album by The Beatles released in 2025	", "img": "img/	AnthologyCollectionTheBeatles2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Anthology Collection	"},
+
     {"title": "	Finally Over It	", "text": "	Finally Over It is an album by Summer Walker released in 2025	", "img": "img/	FinallyOverItSummerWalker2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Finally Over It	"},
 {"title": "	Fear (EP)	", "text": "	Fear (EP) is an album by NF released in 2025	", "img": "img/	Fear(EP)NF2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Fear (EP)	"},
 {"title": "	Everyone's A Star!	", "text": "	Everyone's A Star! is an album by 5 Seconds of Summer released in 2025	", "img": "img/	Everyone'sAStar!5SecondsofSummer2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Everyone's A Star!	"},
