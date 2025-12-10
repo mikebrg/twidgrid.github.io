@@ -1,5 +1,9 @@
 
 var tipuesearch = {"pages": [
+
+	{"title": "	Raccoon found passed...	", "text": "	Raccoon found passed out in liquor store after drunken rampage	", "img": "img/	news40	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Raccoon found passed out in liquor store after drunken rampage	"},
+{"title": "	Australian MP Barnaby...	", "text": "	Australian MP Barnaby Joyce resigns from the National Party	", "img": "img/	news41	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Australian MP Barnaby Joyce resigns from the National Party	"},
+
 	{"title": "	Midtown Manhattan Nightclub...	", "text": "	Midtown Manhattan Nightclub Shooting: one killed, shooter at large	", "img": "img/	news35	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Midtown Manhattan Nightclub Shooting: one killed, shooter at large	"},
 {"title": "	Shooting at Benihana...	", "text": "	Shooting at Benihana restaurant in Maple Grove, Minnesota leaves one injured	", "img": "img/	news36	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Shooting at Benihana restaurant in Maple Grove, Minnesota leaves one injured	"},
 {"title": "	Current New York...	", "text": "	Current New York Police Department commissioner agrees to stay on for Mamdani's mayoralty	", "img": "img/	news37	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Current New York Police Department commissioner agrees to stay on for Mamdani's mayoralty	"},
