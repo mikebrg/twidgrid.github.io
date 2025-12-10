@@ -1,6 +1,19 @@
 
 var tipuesearch = {"pages": [
 
+    {"title": "	Jingle Bell Rock	", "text": "	Jingle Bell Rock is a song by Bobby Helms released in 1970	", "img": "img/	Jingle Bell RockBobby Helms1970.png	", "tags": "		", "note": "		", "url": "	1970.html#:~:text=Jingle Bell Rock	"},
+{"title": "	Underneath The Tree	", "text": "	Underneath The Tree is a song by Kelly Clarkson released in 2013	", "img": "img/	Underneath The TreeKelly Clarkson2013.png	", "tags": "		", "note": "		", "url": "	2013.html#:~:text=Underneath The Tree	"},
+{"title": "	Santa Tell Me	", "text": "	Santa Tell Me is a song by Ariana Grande released in 2014	", "img": "img/	Santa Tell MeAriana Grande2014.png	", "tags": "		", "note": "		", "url": "	2014.html#:~:text=Santa Tell Me	"},
+{"title": "	Cowgirl	", "text": "	Cowgirl is a song by Parmalee released in 2025	", "img": "img/	CowgirlParmalee2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Cowgirl	"},
+{"title": "	Shake The Snow Globe	", "text": "	Shake The Snow Globe is a song by Gwen Stefani released in 2025	", "img": "img/	Shake The Snow GlobeGwen Stefani2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Shake The Snow Globe	"},
+{"title": "	Gone Gone Gone	", "text": "	Gone Gone Gone is a song by David Guetta, Teddy Swims & Tones And I released in 2025	", "img": "img/	Gone Gone GoneDavid Guetta, Teddy Swims & Tones And I2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Gone Gone Gone	"},
+{"title": "	West Texas Degenerate	", "text": "	West Texas Degenerate is an album by Treaty Oak Revival released in 2025	", "img": "img/	WestTexasDegenerateTreatyOakRevival2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=West Texas Degenerate	"},
+{"title": "	Better Late Than Never	", "text": "	Better Late Than Never is an album by Romeo Santos & Prince Royce released in 2025	", "img": "img/	BetterLateThanNeverRomeoSantos&PrinceRoyce2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Better Late Than Never	"},
+{"title": "	Stranger Things: The WSQK Collection, Compiled By Rockin' Robin	", "text": "	Stranger Things: The WSQK Collection, Compiled By Rockin' Robin is an album by Various Artists released in 2025	", "img": "img/	StrangerThingsTheWSQKCollection,CompiledByRockin'RobinVariousArtists2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Stranger Things: The WSQK Collection, Compiled By Rockin' Robin	"},
+{"title": "	A Very Jonas Christmas Movie (Soundtrack)	", "text": "	A Very Jonas Christmas Movie (Soundtrack) is an album by Jonas Brothers released in 2025	", "img": "img/	AVeryJonasChristmasMovie(Soundtrack)JonasBrothers2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=A Very Jonas Christmas Movie (Soundtrack)	"},
+{"title": "	The Leaks	", "text": "	The Leaks is an album by Lil Baby released in 2025	", "img": "img/	TheLeaksLilBaby2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=The Leaks	"},
+{"title": "	Live (EP)	", "text": "	Live (EP) is an album by Billie Eilish released in 2025	", "img": "img/	Live(EP)BillieEilish2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Live (EP)	"},
+
     {"title": "	Nobody's Girl	", "text": "	Nobody's Girl is a song by Tate McRae released in 2025	", "img": "img/	Nobody's GirlTate McRae2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Nobody's Girl	"},
 {"title": "	For Good	", "text": "	For Good is a song by Cynthia Erivo & Ariana Grande released in 2025	", "img": "img/	For GoodCynthia Erivo & Ariana Grande2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=For Good	"},
 {"title": "	Anything But Love	", "text": "	Anything But Love is a song by Tate McRae released in 2025	", "img": "img/	Anything But LoveTate McRae2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Anything But Love	"},
