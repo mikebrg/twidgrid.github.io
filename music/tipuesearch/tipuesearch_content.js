@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Live From Glastonbury (A BBC Recording)	", "text": "	Live From Glastonbury (A BBC Recording) is an album by Olivia Rodrigo released in 2025	", "img": "img/	LiveFromGlastonbury(ABBCRecording)OliviaRodrigo2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Live From Glastonbury (A BBC Recording)	"},
+{"title": "	Let's Do It	", "text": "	Let's Do It is a song by Lil Baby, Playboi Carti & Skooly released in 2025	", "img": "img/	Let's Do ItLil Baby, Playboi Carti & Skooly2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Let's Do It	"},
+{"title": "	I Thought I Saw Your Face Today	", "text": "	I Thought I Saw Your Face Today is a song by She & Him released in 2008	", "img": "img/	I Thought I Saw Your Face TodayShe & Him2008.png	", "tags": "		", "note": "		", "url": "	2008.html#:~:text=I Thought I Saw Your Face Today	"},
+{"title": "	It's Beginning To Look A Lot Like Christmas	", "text": "	It's Beginning To Look A Lot Like Christmas is a song by Michael Buble released in 2011	", "img": "img/	It's Beginning To Look A Lot Like ChristmasMichael Buble2011.png	", "tags": "		", "note": "		", "url": "	2011.html#:~:text=It's Beginning To Look A Lot Like Christmas	"},
+    
     {"title": "	Jingle Bell Rock	", "text": "	Jingle Bell Rock is a song by Bobby Helms released in 1970	", "img": "img/	Jingle Bell RockBobby Helms1970.png	", "tags": "		", "note": "		", "url": "	1970.html#:~:text=Jingle Bell Rock	"},
 {"title": "	Underneath The Tree	", "text": "	Underneath The Tree is a song by Kelly Clarkson released in 2013	", "img": "img/	Underneath The TreeKelly Clarkson2013.png	", "tags": "		", "note": "		", "url": "	2013.html#:~:text=Underneath The Tree	"},
 {"title": "	Santa Tell Me	", "text": "	Santa Tell Me is a song by Ariana Grande released in 2014	", "img": "img/	Santa Tell MeAriana Grande2014.png	", "tags": "		", "note": "		", "url": "	2014.html#:~:text=Santa Tell Me	"},
