@@ -1,10 +1,18 @@
 
 var tipuesearch = {"pages": [
 
-	{"title": "	Raccoon found passed...	", "text": "	Raccoon found passed out in liquor store after drunken rampage	", "img": "img/	news40	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Raccoon found passed out in liquor store after drunken rampage	"},
+{"title": "	NBI seeks Interpol...	", "text": "	NBI seeks Interpol Red Notice for former lawmaker Zaldy Co	", "img": "img/	news42	", "tags": "		", "note": "		", "url": "	search.html#:~:text=NBI seeks Interpol Red Notice for former lawmaker Zaldy Co	"},
+{"title": "	Battery explosion triggers...	", "text": "	Battery explosion triggers fatal office fire in Jakarta’s Kemayoran district	", "img": "img/	news43	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Battery explosion triggers fatal office fire in Jakarta’s Kemayoran district	"},
+{"title": "	Football: Nottingham Forest...	", "text": "	Football: Nottingham Forest defeat FC Utrecht 2-1	", "img": "img/	news44	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Football: Nottingham Forest defeat FC Utrecht 2-1	"},
+{"title": "	Iceland pulls out...	", "text": "	Iceland pulls out of Eurovision 2026, joining four other countries to do so	", "img": "img/	news45	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Iceland pulls out of Eurovision 2026, joining four other countries to do so	"},
+{"title": "	10-man Preston North...	", "text": "	10-man Preston North End draw with Coventry City in Championship fixture	", "img": "img/	news46	", "tags": "		", "note": "		", "url": "	search.html#:~:text=10-man Preston North End draw with Coventry City in Championship fixture	"},
+{"title": "	Four countries back...	", "text": "	Four countries back out of Eurovision 2026 amid ongoing boycott	", "img": "img/	news47	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Four countries back out of Eurovision 2026 amid ongoing boycott	"},
+{"title": "	Robert Dick and...	", "text": "	Robert Dick and Mark Dresser re-unite at the Fridman Gallery	", "img": "img/	news48	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Robert Dick and Mark Dresser re-unite at the Fridman Gallery	"},
+	
+{"title": "	Raccoon found passed...	", "text": "	Raccoon found passed out in liquor store after drunken rampage	", "img": "img/	news40	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Raccoon found passed out in liquor store after drunken rampage	"},
 {"title": "	Australian MP Barnaby...	", "text": "	Australian MP Barnaby Joyce resigns from the National Party	", "img": "img/	news41	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Australian MP Barnaby Joyce resigns from the National Party	"},
 
-	{"title": "	Midtown Manhattan Nightclub...	", "text": "	Midtown Manhattan Nightclub Shooting: one killed, shooter at large	", "img": "img/	news35	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Midtown Manhattan Nightclub Shooting: one killed, shooter at large	"},
+{"title": "	Midtown Manhattan Nightclub...	", "text": "	Midtown Manhattan Nightclub Shooting: one killed, shooter at large	", "img": "img/	news35	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Midtown Manhattan Nightclub Shooting: one killed, shooter at large	"},
 {"title": "	Shooting at Benihana...	", "text": "	Shooting at Benihana restaurant in Maple Grove, Minnesota leaves one injured	", "img": "img/	news36	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Shooting at Benihana restaurant in Maple Grove, Minnesota leaves one injured	"},
 {"title": "	Current New York...	", "text": "	Current New York Police Department commissioner agrees to stay on for Mamdani's mayoralty	", "img": "img/	news37	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Current New York Police Department commissioner agrees to stay on for Mamdani's mayoralty	"},
 {"title": "	Turkish military transport...	", "text": "	Turkish military transport plane crashes near Georgia border, 20 dead	", "img": "img/	news38	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Turkish military transport plane crashes near Georgia border, 20 dead	"},
