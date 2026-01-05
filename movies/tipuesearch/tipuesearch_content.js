@@ -1,5 +1,12 @@
 
 var tipuesearch = {"pages": [
+	
+{"title": "	10 Things I Hate About You (1999)	", "text": "	A high-school boy, Cameron, cannot date Bianca until her anti-social older sister, Kat, has a boyfriend. So, Cameron pays a mysterious boy, Patrick, to charm Kat.	", "img": "img/	10 Things I Hate About You (1999).webp	", "tags": "		", "note": "		", "url": "	1999.html#:~:text=10 Things I Hate About You	"},
+{"title": "	Dracula (2025)	", "text": "	When a 15th-century prince denounces God after the loss of his wife he inherits an eternal curse: he becomes Dracula. Condemned to wander the centuries, he defies fate and death, guided by a single hope - to be reunited with his lost love.	", "img": "img/	Dracula (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Dracula	"},
+{"title": "	David (2025)	", "text": "	From his mother's songs to his clash with Goliath, David's journey from humble shepherd to anointed king tests the limits of faith, courage, and love - culminating in a battle for the soul of a kingdom.	", "img": "img/	David (2025).webp	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=David	"},
+{"title": "	Disclosure Day (2026)	", "text": "	If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?	", "img": "img/	Disclosure Day (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Disclosure Day	"},
+{"title": "	The Odyssey (2026)	", "text": "	After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Circe along the way.	", "img": "img/	The Odyssey (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Odyssey	"},
+{"title": "	Digger (2026)	", "text": "	The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything	", "img": "img/	Digger (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Digger	"},
 
 {"title": "	Big Shot (2021)	", "text": "	A temperamental college basketball coach who gets fired from his job and must take a teaching and coaching job at an elite all-girls private high school.	", "img": "img/	Big Shot (2021).webp	", "tags": "		", "note": "		", "url": "	tv2021.html#:~:text=Big Shot	"},
 {"title": "	Just Beyond (2021)	", "text": "	Genre anthology series based on the graphic novels by R.L. Stine.	", "img": "img/	Just Beyond (2021).webp	", "tags": "		", "note": "		", "url": "	tv2021.html#:~:text=Just Beyond	"},
