@@ -1,5 +1,26 @@
 
 var tipuesearch = {"pages": [
+{"title": "	DINASTIA	", "text": "	DINASTIA is an album by Peso Pluma & Tito Double P released in 2025	", "img": "img/	DINASTIAPesoPluma&TitoDoubleP2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=DINASTIA	"},
+{"title": "	Thy Will Be Done	", "text": "	Thy Will Be Done is an album by $uicideboy$ released in 2025	", "img": "img/	ThyWillBeDone$uicideboy$2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Thy Will Be Done	"},
+
+{"title": "	What You Saying	", "text": "	What You Saying is a song by Lil Uzi Vert released in 2025	", "img": "img/	What You SayingLil Uzi Vert2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=What You Saying	"},
+{"title": "	Dopamina	", "text": "	Dopamina is a song by Peso Pluma & Tito Double P released in 2025	", "img": "img/	DopaminaPeso Pluma & Tito Double P2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Dopamina	"},
+{"title": "	Such A Funny Way	", "text": "	Such A Funny Way is a song by Sabrina Carpenter released in 2025	", "img": "img/	Such A Funny WaySabrina Carpenter2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Such A Funny Way	"},
+{"title": "	Stay Country Or Die Tryin'	", "text": "	Stay Country Or Die Tryin' is a song by Blake Shelton released in 2025	", "img": "img/	Stay Country Or Die Tryin'Blake Shelton2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Stay Country Or Die Tryin'	"},
+{"title": "	Dano	", "text": "	Dano is a song by Peso Pluma & Tito Double P released in 2025	", "img": "img/	DanoPeso Pluma & Tito Double P2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Dano	"},
+{"title": "	Ni Pedo	", "text": "	Ni Pedo is a song by Peso Pluma & Tito Double P released in 2025	", "img": "img/	Ni PedoPeso Pluma & Tito Double P2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Ni Pedo	"},
+{"title": "	Zoo	", "text": "	Zoo is a song by Shakira released in 2025	", "img": "img/	ZooShakira2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Zoo	"},
+{"title": "	Bckpckbyz	", "text": "	Bckpckbyz is a song by Peso Pluma & Tito Double P released in 2025	", "img": "img/	BckpckbyzPeso Pluma & Tito Double P2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Bckpckbyz	"},
+{"title": "	It Won't Be Long	", "text": "	It Won't Be Long is a song by George Birge released in 2025	", "img": "img/	It Won't Be LongGeorge Birge2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=It Won't Be Long	"},
+{"title": "	Brunette	", "text": "	Brunette is a song by Tucker Wetmore released in 2025	", "img": "img/	BrunetteTucker Wetmore2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Brunette	"},
+{"title": "	Leviticus	", "text": "	Leviticus is a song by $uicideboy$ released in 2025	", "img": "img/	Leviticus$uicideboy$2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Leviticus	"},
+{"title": "	Who Knows	", "text": "	Who Knows is a song by Daniel Caesar released in 2025	", "img": "img/	Who KnowsDaniel Caesar2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Who Knows	"},
+{"title": "	BOO	", "text": "	BOO is a song by H3adband released in 2025	", "img": "img/	BOOH3adband2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=BOO	"},
+{"title": "	Bittersweet	", "text": "	Bittersweet is a song by Madison Beer released in 2025	", "img": "img/	BittersweetMadison Beer2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Bittersweet	"},
+{"title": "	Baby Steps	", "text": "	Baby Steps is a song by Olivia Dean released in 2025	", "img": "img/	Baby StepsOlivia Dean2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Baby Steps	"},
+{"title": "	Cuando No Era Cantante	", "text": "	Cuando No Era Cantante is a song by El Bogueto x Yung Beef released in 2024	", "img": "img/	Cuando No Era CantanteEl Bogueto x Yung Beef2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Cuando No Era Cantante	"},
+{"title": "	End Of Beginning	", "text": "	End Of Beginning is a song by Djo released in 2022	", "img": "img/	End Of BeginningDjo2022.png	", "tags": "		", "note": "		", "url": "	2022.html#:~:text=End Of Beginning	"},
+    
 {"title": "	EsDeeKid	", "text": "	EsDeeKid is a British rapper. He was considered one of the year's breakout stars in 2024 by Pitchfork following the release of the single 'Bally' featuring Rico Ace. He released his debut album, Rebel, in June 2025.	", "img": "img/	EsDeeKid.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=EsDeeKid	"},
 {"title": "	Phantom	", "text": "	Phantom is a song by EsDeeKid & Rico Ace released in 2025	", "img": "img/	PhantomEsDeeKid & Rico Ace2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Phantom	"},
 {"title": "	The Christmas Song	", "text": "	The Christmas Song is a song by Olivia Dean released in 2021	", "img": "img/	The Christmas SongOlivia Dean2021.png	", "tags": "		", "note": "		", "url": "	2021.html#:~:text=The Christmas Song	"},
