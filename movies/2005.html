@@ -47,20 +47,14 @@
 <div class="block" style="padding-top: 79px;">
 <h3>2005 Movies</h3><span class="fo-5">Discover comprehensive information on your favorite movies, including detailed summaries, cast lists, genres, certifications, and trailers.</span>
 <p></p><p></p>    
-<div><a class="btn-2" href="index.html">Home</a>&nbsp;
-    <a class="btn-2" href="search.html">Search</a>&nbsp;
-    <a class="btn-2" href="2025.html">2020s</a>&nbsp;
-    <a class="btn-2" href="2019.html">2010s</a>&nbsp;
-    <a class="btn-2" href="2009.html">2000s</a>&nbsp;
-    <a class="btn-2" href="1999.html">1990s</a>&nbsp;
-    <a class="btn-2" href="1989.html">1980s</a>&nbsp;
-    <a class="btn-2" href="1979.html">1970s</a>&nbsp;
-    <a class="btn-2" href="1969.html">1960s</a>&nbsp;
-    <a class="btn-2" href="1959.html">1950s</a>&nbsp;
-    <a class="btn-2" href="1949.html">1940s</a>&nbsp;
-    <a class="btn-2" href="1939.html">1930s</a>&nbsp;
-    <a class="btn-2" href="1928.html">1920s</a>&nbsp;
-</div>
+<div id="navbar"></div>
+<script>
+  fetch("nav-decades.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("navbar").innerHTML = html;
+    });
+</script>
 
 </div></div>
 
