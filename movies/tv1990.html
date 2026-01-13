@@ -46,17 +46,14 @@
 <div class="block" style="padding-top: 79px;">
 <h3>1990 TV Shows</h3><span class="fo-5">Explore a world of popular television shows!</span>
 <p></p><p></p>    
-<div><a class="btn-2" href="index.html">Home</a>&nbsp;
-    <a class="btn-2" href="search.html">Search</a>&nbsp;
-    <a class="btn-2" href="tv2025.html">2020s</a>&nbsp;
-    <a class="btn-2" href="tv2019.html">2010s</a>&nbsp;
-    <a class="btn-2" href="tv2009.html">2000s</a>&nbsp;
-    <a class="btn-2" href="tv1999.html">1990s</a>&nbsp;
-    <a class="btn-2" href="tv1989.html">1980s</a>&nbsp;
-    <a class="btn-2" href="tv1979.html">1970s</a>&nbsp;
-    <a class="btn-2" href="tv1969.html">1960s</a>&nbsp;
-</div>
-
+<div id="navbar"></div>
+<script>
+  fetch("nav-tv-decades.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("navbar").innerHTML = html;
+    });
+</script>
 </div></div>
 
 
