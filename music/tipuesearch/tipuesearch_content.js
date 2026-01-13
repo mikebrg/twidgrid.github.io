@@ -1,5 +1,17 @@
 
 var tipuesearch = {"pages": [
+
+{"title": "	Sienna Spiro	", "text": "	Sienna Spiro (born 25 September 2005), is a British singer-songwriter. Known for her distinct deep alto voice, she began sharing various viral singing videos on TikTok in 2022. She began putting out singles in 2024, including the UK No. 45 hit 'Maybe'. She released Sink Now, Swim Later, her debut extended play, in February 2025. Her breakthrough success came with the release of 'Die on This Hill', which reached No. 9 on the UK singles chart in November 2025.	", "img": "img/	Sienna Spiro.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Sienna Spiro	"},
+{"title": "	Sweet Boy	", "text": "	Sweet Boy is an album by Malcolm Todd released in 2024	", "img": "img/	SweetBoyMalcolmTodd2024.png	", "tags": "		", "note": "		", "url": "	albums2024.html#:~:text=Sweet Boy	"},
+{"title": "	Landslide	", "text": "	Landslide is a song by Fleetwood Mac released in 1975	", "img": "img/	LandslideFleetwood Mac1975.png	", "tags": "		", "note": "		", "url": "	1975.html#:~:text=Landslide	"},
+{"title": "	Every Breath You Take	", "text": "	Every Breath You Take is a song by The Police released in 1983	", "img": "img/	Every Breath You TakeThe Police1983.png	", "tags": "		", "note": "		", "url": "	1983.html#:~:text=Every Breath You Take	"},
+{"title": "	Girl, Get Up.	", "text": "	Girl, Get Up. is a song by Doechii & SZA released in 2025	", "img": "img/	Girl, Get Up.Doechii & SZA2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Girl, Get Up.	"},
+{"title": "	You Stole The Show	", "text": "	You Stole The Show is a song by Sienna Spiro released in 2025	", "img": "img/	You Stole The ShowSienna Spiro2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=You Stole The Show	"},
+{"title": "	Don't Kill The Party	", "text": "	Don't Kill The Party is a song by Ty Dolla $ign Featuring Quavo & Juicy J released in 2025	", "img": "img/	Don't Kill The PartyTy Dolla $ign Featuring Quavo & Juicy J2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Don't Kill The Party	"},
+{"title": "	I've Seen It	", "text": "	I've Seen It is a song by Olivia Dean released in 2025	", "img": "img/	I've Seen ItOlivia Dean2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=I've Seen It	"},
+{"title": "	Stateside	", "text": "	Stateside is a song by PinkPantheress released in 2025	", "img": "img/	StatesidePinkPantheress2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Stateside	"},
+{"title": "	Internet Girl	", "text": "	Internet Girl is a song by KATSEYE released in 2026	", "img": "img/	Internet GirlKATSEYE2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Internet Girl	"},
+    
 {"title": "	DINASTIA	", "text": "	DINASTIA is an album by Peso Pluma & Tito Double P released in 2025	", "img": "img/	DINASTIAPesoPluma&TitoDoubleP2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=DINASTIA	"},
 {"title": "	Thy Will Be Done	", "text": "	Thy Will Be Done is an album by $uicideboy$ released in 2025	", "img": "img/	ThyWillBeDone$uicideboy$2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Thy Will Be Done	"},
 
