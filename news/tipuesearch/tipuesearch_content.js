@@ -1,5 +1,6 @@
 
 var tipuesearch = {"pages": [
+{"title": "	Homeland Security says...	", "text": "	Homeland Security says Minneapolis woman shot by ICE officer dies	", "img": "img/	news64	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Homeland Security says Minneapolis woman shot by ICE officer dies	"},
 
 {"title": "	I came to...	", "text": "	I came to be the manager ... not the coach': Manchester United fire head coach Ruben Amorim	", "img": "img/	news49	", "tags": "		", "note": "		", "url": "	search.html#:~:text=I came to be the manager ... not the coach': Manchester United fire head coach Ruben Amorim	"},
 {"title": "	Kyiv street to...	", "text": "	Kyiv street to be named for former Ukrainian parliament chairman Andriy Parubiy, killed in Lviv	", "img": "img/	news50	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Kyiv street to be named for former Ukrainian parliament chairman Andriy Parubiy, killed in Lviv	"},
