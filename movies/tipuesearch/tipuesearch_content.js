@@ -1,6 +1,10 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Euphoria (2019)	", "text": "	A group of teenagers experience the ups and downs of love and friendship in a world of social networks, sex, drugs, and violence.	", "img": "img/	Euphoria (2019).webp	", "tags": "		", "note": "		", "url": "	tv2019.html#:~:text=Euphoria	"},
+{"title": "	Bridgerton (2020)	", "text": "	The eight close-knit siblings of the Bridgerton family look for love and happiness in London high society.	", "img": "img/	Bridgerton (2020).webp	", "tags": "		", "note": "		", "url": "	tv2020.html#:~:text=Bridgerton	"},
+{"title": "	How to Get to Heaven from Belfast (2026)	", "text": "	Three lifelong friends reunite after the death of an old classmate turns a wake into a dark mystery. They embark on a thrilling adventure across Ireland, piecing together enigmatic truths amid complicated lives.	", "img": "img/	How to Get to Heaven from Belfast (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=How to Get to Heaven from Belfast	"},
+	
 {"title": "	The 'Burbs (2026)	", "text": "	A young couple moves back to the husband's childhood home, only to face threats from new neighbors and uncover dark secrets of their cul-de-sac.	", "img": "img/	The 'Burbs (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=The 'Burbs	"},
 {"title": "	Agatha Christie's Seven Dials (2026)	", "text": "	In 1925, a country house party prank turns deadly. Lady Eileen 'Bundle' Brent investigates the chilling murder plot. Lady Caterham and Superintendent Battle assist in solving the country house mystery that changes Bundle's life.	", "img": "img/	Agatha Christie's Seven Dials (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Agatha Christie's Seven Dials	"},
 {"title": "	Steal (2026)	", "text": "	A contemporary, high-octane thriller about the heist of the century and the ordinary office worker who finds herself at the heart of it.	", "img": "img/	Steal (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Steal	"},
