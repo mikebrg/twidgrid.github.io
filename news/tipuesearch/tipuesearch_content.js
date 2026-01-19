@@ -1,5 +1,8 @@
 
 var tipuesearch = {"pages": [
+	{"title": "	Grateful Dead bassist...	", "text": "	Grateful Dead bassist Bob Weir dies, aged 78	", "img": "img/	news65	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Grateful Dead bassist Bob Weir dies, aged 78	"},
+{"title": "	Roblox player uncovers...	", "text": "	Roblox player uncovers cheating, awarded Guinness World Record	", "img": "img/	news66	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Roblox player uncovers cheating, awarded Guinness World Record	"},
+
 {"title": "	Homeland Security says...	", "text": "	Homeland Security says Minneapolis woman shot by ICE officer dies	", "img": "img/	news64	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Homeland Security says Minneapolis woman shot by ICE officer dies	"},
 
 {"title": "	I came to...	", "text": "	I came to be the manager ... not the coach': Manchester United fire head coach Ruben Amorim	", "img": "img/	news49	", "tags": "		", "note": "		", "url": "	search.html#:~:text=I came to be the manager ... not the coach': Manchester United fire head coach Ruben Amorim	"},
