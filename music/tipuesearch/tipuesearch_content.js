@@ -1,6 +1,33 @@
 
 var tipuesearch = {"pages": [
 
+    {"title": "	With Heaven On Top	", "text": "	With Heaven On Top is an album by Zach Bryan released in 2026	", "img": "img/	WithHeavenOnTopZachBryan2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=With Heaven On Top	"},
+{"title": "	Before I Forget	", "text": "	Before I Forget is an album by The Kid Laroi released in 2026	", "img": "img/	BeforeIForgetTheKidLaroi2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Before I Forget	"},
+
+    {"title": "	I Just Might	", "text": "	I Just Might is a song by Bruno Mars released in 2026	", "img": "img/	I Just MightBruno Mars2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Just Might	"},
+{"title": "	Plastic Cigarette	", "text": "	Plastic Cigarette is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Plastic Cigarette	"},
+{"title": "	Sleepless In A Hotel Room	", "text": "	Sleepless In A Hotel Room is a song by Luke Combs released in 2026	", "img": "img/	Sleepless In A Hotel RoomLuke Combs2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Sleepless In A Hotel Room	"},
+{"title": "	Say Why	", "text": "	Say Why is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Say Why	"},
+{"title": "	Bad News	", "text": "	Bad News is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Bad News	"},
+{"title": "	Appetite	", "text": "	Appetite is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Appetite	"},
+{"title": "	Runny Eggs	", "text": "	Runny Eggs is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Runny Eggs	"},
+{"title": "	Skin	", "text": "	Skin is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Skin	"},
+{"title": "	Deann's Denim	", "text": "	Deann's Denim is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Deann's Denim	"},
+{"title": "	Drowning	", "text": "	Drowning is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Drowning	"},
+{"title": "	Dry Deserts	", "text": "	Dry Deserts is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Dry Deserts	"},
+{"title": "	Santa Fe	", "text": "	Santa Fe is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Santa Fe	"},
+{"title": "	Punk Rocky	", "text": "	Punk Rocky is a song by A$AP Rocky released in 2026	", "img": "img/	Punk RockyA$AP Rocky2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Punk Rocky	"},
+{"title": "	With Heaven On Top	", "text": "	With Heaven On Top is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=With Heaven On Top	"},
+{"title": "	South And Pine	", "text": "	South And Pine is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=South And Pine	"},
+{"title": "	Cannonball	", "text": "	Cannonball is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Cannonball	"},
+{"title": "	Slicked Back	", "text": "	Slicked Back is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Slicked Back	"},
+{"title": "	Anyways	", "text": "	Anyways is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Anyways	"},
+{"title": "	Rather Be	", "text": "	Rather Be is a song by The Kid Laroi Featuring Lithe released in 2026	", "img": "img/	Rather BeThe Kid Laroi Featuring Lithe2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Rather Be	"},
+{"title": "	If They Come Lookin'	", "text": "	If They Come Lookin' is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=If They Come Lookin'	"},
+{"title": "	Rivers And Creeks	", "text": "	Rivers And Creeks is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Rivers And Creeks	"},
+{"title": "	You Can Still Come Home	", "text": "	You Can Still Come Home is a song by Zach Bryan released in 2026	", "img": "img/	Plastic CigaretteZach Bryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=You Can Still Come Home	"},
+{"title": "	Big Guy	", "text": "	Big Guy is a song by Ice Spice released in 2025	", "img": "img/	Big GuyIce Spice2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Big Guy	"},
+
 {"title": "	Sienna Spiro	", "text": "	Sienna Spiro (born 25 September 2005), is a British singer-songwriter. Known for her distinct deep alto voice, she began sharing various viral singing videos on TikTok in 2022. She began putting out singles in 2024, including the UK No. 45 hit 'Maybe'. She released Sink Now, Swim Later, her debut extended play, in February 2025. Her breakthrough success came with the release of 'Die on This Hill', which reached No. 9 on the UK singles chart in November 2025.	", "img": "img/	Sienna Spiro.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Sienna Spiro	"},
 {"title": "	Sweet Boy	", "text": "	Sweet Boy is an album by Malcolm Todd released in 2024	", "img": "img/	SweetBoyMalcolmTodd2024.png	", "tags": "		", "note": "		", "url": "	albums2024.html#:~:text=Sweet Boy	"},
 {"title": "	Landslide	", "text": "	Landslide is a song by Fleetwood Mac released in 1975	", "img": "img/	LandslideFleetwood Mac1975.png	", "tags": "		", "note": "		", "url": "	1975.html#:~:text=Landslide	"},
