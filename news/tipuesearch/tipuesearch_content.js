@@ -1,5 +1,7 @@
 
 var tipuesearch = {"pages": [
+	{"title": "	Boy retrieves Nintendo...	", "text": "	Boy retrieves Nintendo Switch locked away in gun safe, and shoots his father	", "img": "img/	news67	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Boy retrieves Nintendo Switch locked away in gun safe, and shoots his father	"},
+
 	{"title": "	Grateful Dead bassist...	", "text": "	Grateful Dead bassist Bob Weir dies, aged 78	", "img": "img/	news65	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Grateful Dead bassist Bob Weir dies, aged 78	"},
 {"title": "	Roblox player uncovers...	", "text": "	Roblox player uncovers cheating, awarded Guinness World Record	", "img": "img/	news66	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Roblox player uncovers cheating, awarded Guinness World Record	"},
 
