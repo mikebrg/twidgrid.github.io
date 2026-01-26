@@ -1,5 +1,7 @@
 
 var tipuesearch = {"pages": [
+	{"title": "	Bruce Gallanter interviews...	", "text": "	Bruce Gallanter interviews Elliott Sharp, Joe Fonda at Downtown Music Gallery event	", "img": "img/	news68	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Bruce Gallanter interviews Elliott Sharp, Joe Fonda at Downtown Music Gallery event	"},
+
 	{"title": "	Boy retrieves Nintendo...	", "text": "	Boy retrieves Nintendo Switch locked away in gun safe, and shoots his father	", "img": "img/	news67	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Boy retrieves Nintendo Switch locked away in gun safe, and shoots his father	"},
 
 	{"title": "	Grateful Dead bassist...	", "text": "	Grateful Dead bassist Bob Weir dies, aged 78	", "img": "img/	news65	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Grateful Dead bassist Bob Weir dies, aged 78	"},
