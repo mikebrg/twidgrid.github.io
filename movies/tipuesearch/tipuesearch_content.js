@@ -1,5 +1,7 @@
 
 var tipuesearch = {"pages": [
+	{"title": "	Marshals (2026)	", "text": "	Ex-Navy SEAL Kayce Dutton leaves Yellowstone Ranch to join U.S. Marshals, using his cowboy and military skills to fight crime in Montana while dealing with family ties and the mental toll of law enforcement.	", "img": "img/	Marshals (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Marshals	"},
+
 {"title": "	St. Elmo's Fire (1985)	", "text": "	Seven friends, recent college graduates, are searching for a place in the real world, as they face issues. Against the backdrop of St. Elmo's, their local hang-out, they save, betray and love one another as only the closest of friends can.	", "img": "img/	St. Elmo's Fire (1985).webp	", "tags": "		", "note": "		", "url": "	1985.html#:~:text=St. Elmo's Fire	"},
 {"title": "	The Breakfast Club (1985)	", "text": "	Five high school students meet in Saturday detention and discover how they have a great deal more in common than they thought.	", "img": "img/	The Breakfast Club (1985).webp	", "tags": "		", "note": "		", "url": "	1985.html#:~:text=The Breakfast Club	"},
 {"title": "	Three O'Clock High (1987)	", "text": "	Mild-mannered Jerry Mitchell gets into hot water with quiet bad boy Buddy Revell, who challenges Jerry to a fight on the grounds of their high school after the school day's end.	", "img": "img/	Three O'Clock High (1987).webp	", "tags": "		", "note": "		", "url": "	1987.html#:~:text=Three O'Clock High	"},
