@@ -1,5 +1,13 @@
 
 var tipuesearch = {"pages": [
+
+	{"title": "	DTF St. Louis (2026)	", "text": "	A darkly comedic tale of three middle-aged individuals entangled in a love triangle, leading to one's untimely demise.	", "img": "img/	DTF St. Louis (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=DTF St. Louis	"},
+{"title": "	Jo Nesbo's Detective Hole (2026)	", "text": "	A brilliant but troubled detective, Harry Hole, hunts a serial killer while battling a corrupt adversary, Tom Waaler, as they navigate ethical gray areas, with Harry determined to bring the criminal to justice.	", "img": "img/	Jo Nesbo's Detective Hole (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Jo Nesbo's Detective Hole	"},
+{"title": "	The Moment (2026)	", "text": "	A rising pop star navigates the complexities of fame and industry pressure while preparing for her arena tour debut.	", "img": "img/	The Moment (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Moment	"},
+{"title": "	I Want Your Sex (2026)	", "text": "	Elliot lands a job for Erika Tracy as her sexual muse.	", "img": "img/	I Want Your Sex (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Want Your Sex	"},
+{"title": "	Iron Lung (2026)	", "text": "	In a post-apocalyptic future after 'The Quiet Rapture' event, a convict explores a blood ocean on a desolate moon using a submarine called the 'Iron Lung' to search for missing stars/planets.	", "img": "img/	Iron Lung (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Iron Lung	"},
+{"title": "	Melania (2026)	", "text": "	An intimate chronicle offers a rare glimpse into the life of Melania Trump, exploring her role as First Lady and her relationship with the President.	", "img": "img/	Melania (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Melania	"},
+
 	{"title": "	Marshals (2026)	", "text": "	Ex-Navy SEAL Kayce Dutton leaves Yellowstone Ranch to join U.S. Marshals, using his cowboy and military skills to fight crime in Montana while dealing with family ties and the mental toll of law enforcement.	", "img": "img/	Marshals (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Marshals	"},
 
 {"title": "	St. Elmo's Fire (1985)	", "text": "	Seven friends, recent college graduates, are searching for a place in the real world, as they face issues. Against the backdrop of St. Elmo's, their local hang-out, they save, betray and love one another as only the closest of friends can.	", "img": "img/	St. Elmo's Fire (1985).webp	", "tags": "		", "note": "		", "url": "	1985.html#:~:text=St. Elmo's Fire	"},
