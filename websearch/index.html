@@ -28,34 +28,29 @@
          min-height: 400px;
         }
 
-    /* Modal overlay */
-.modal {
+.modalpop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 1000;
+  background: rgba(0,0,0,0.6);
+  z-index: 99999;
 
-  display: none;              /* hidden by default */
-  align-items: center;        /* vertical centering */
-  justify-content: center;    /* horizontal centering */
+  display: none;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Show modal */
-.modal.show {
+.modalpop.show {
   display: flex;
 }
 
-/* Modal box */
 .modal-content {
   background: #fff;
   width: 90%;
   max-width: 420px;
-  padding: 24px 26px;
+  padding: 24px;
   border-radius: 12px;
-
-  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
-  animation: modalFadeIn 0.25s ease-out;
 }
+
 
 /* Header (engine logo + name) */
 .modal-header {
@@ -311,7 +306,7 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
     </div>
 </footer>
 
-<div id="searchModal" class="modal">
+<div id="searchModal" class="modalpop">
   <div class="modal-content">
 
     <div class="modal-header">
@@ -319,12 +314,7 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
       <h3 id="engineName">Search</h3>
     </div>
 
-    <input
-      type="text"
-      id="searchQuery"
-      placeholder="Type your search and hit Enter"
-      autocomplete="off"
-    >
+    <input type="text" id="searchQuery" placeholder="Type your search">
 
     <div class="modal-actions">
       <button class="cancel" id="closeModal">Cancel</button>
@@ -335,7 +325,9 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
 </div>
 
 
-    <script>
+
+  
+<script>
 let currentSearchUrl = '';
 
 const modal = document.getElementById('searchModal');
@@ -343,7 +335,7 @@ const engineName = document.getElementById('engineName');
 const engineLogo = document.getElementById('engineLogo');
 const searchInput = document.getElementById('searchQuery');
 
-/* Open modal when clicking a search engine */
+/* Open modal */
 document.querySelectorAll('.search-link').forEach(link => {
   link.addEventListener('click', e => {
     e.preventDefault();
@@ -355,48 +347,43 @@ document.querySelectorAll('.search-link').forEach(link => {
 
     modal.classList.add('show');
     searchInput.value = '';
-    setTimeout(() => searchInput.focus(), 100);
+    searchInput.focus();
   });
 });
 
-/* Close modal (cancel button) */
+/* Close modal */
 document.getElementById('closeModal').addEventListener('click', () => {
   modal.classList.remove('show');
 });
 
-/* Close modal when clicking outside the box */
+/* Click outside closes */
 modal.addEventListener('click', e => {
   if (e.target === modal) {
     modal.classList.remove('show');
   }
 });
 
-/* Perform search */
+/* Do search */
 function doSearch() {
-  const query = searchInput.value.trim();
-  if (!query) return;
+  const q = searchInput.value.trim();
+  if (!q) return;
 
-  const url = currentSearchUrl + encodeURIComponent(query);
-  window.open(url, '_blank');
+  window.open(currentSearchUrl + encodeURIComponent(q), '_blank');
   modal.classList.remove('show');
 }
 
 document.getElementById('doSearch').addEventListener('click', doSearch);
 
-/* Enter key triggers search */
 searchInput.addEventListener('keydown', e => {
-  if (e.key === 'Enter') {
-    doSearch();
-  }
+  if (e.key === 'Enter') doSearch();
 });
 
-/* ESC key closes modal */
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') {
-    modal.classList.remove('show');
-  }
+  if (e.key === 'Escape') modal.classList.remove('show');
 });
 </script>
+
+
 
 
 
