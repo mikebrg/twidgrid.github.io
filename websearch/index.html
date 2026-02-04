@@ -32,21 +32,27 @@
         }
 
 .modal {
-  display: none;
-  position: relative;
-  inset: 0;
-  background: rgba(0,0,0,0.6);
+  display: none;                  
+  position: fixed;
+  inset: 0;                       
+  background: rgba(0,0,0,0.6);   
   z-index: 1000;
+
+  display: flex;                  
+  justify-content: center;        /* center horizontally */
+  align-items: center;            /* center vertically */
+  overflow: auto;                 /* scroll if modal taller than viewport */
 }
 
+/* Modal box */
 .modal-content {
   background: #fff;
   width: 90%;
   max-width: 400px;
-  height: 400px;                 /* fixed height in px */
+  height: 400px;                  /* fixed height */
   padding: 20px;
   border-radius: 8px;
-  overflow-y: auto;              /* scroll inside if content exceeds fixed height */
+  overflow-y: auto;               /* scroll inside if content exceeds height */
 }
 
 .modal-close {
