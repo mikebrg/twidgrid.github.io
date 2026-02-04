@@ -31,83 +31,7 @@
          min-height: 400px;
         }
 
-/* Overlay */
-.modal {
-  display: none;                  /* Hidden initially */
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.6);
-  z-index: 1000;
 
-  display: flex;                  
-  justify-content: center;        /* horizontal center */
-  align-items: center;            /* vertical center */
-  overflow: auto;                 /* scroll if needed */
-}
-
-/* Modal box */
-.modal-content {
-  background: #fff;
-  width: 500px;
-  max-width: 90%;
-  height: 200px;                  /* fixed height */
-  padding: 1.5rem;
-  border-radius: 8px;
-  overflow-y: auto;               /* scroll inside if content exceeds height */
-  position: relative;
-}
-
-/* Close button */
-.modal-close {
-  position: absolute;
-  top: 10px;
-  right: 12px;
-  font-size: 22px;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-/* Header inside modal */
-.modal-header {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin-bottom: 16px;
-}
-
-.modal-header img {
-  width: 36px;
-  height: 36px;
-  object-fit: contain;
-}
-
-.modal-header h3 {
-  margin: 0;
-  font-size: 1.2rem;
-  color: black;
-  text-align: left;
-}
-
-/* Input & button */
-.modal input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 12px;
-}
-
-.modal button[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  cursor: pointer;
-}
-
-/* Example search engines list */
-.search-link {
-  cursor: pointer;
-  display: inline-block;
-  margin: 10px;
-}
 </style>
 
 </head><body>
@@ -189,72 +113,7 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
 
 
 
-<!-- Modal -->
-<div id="searchModal" class="modal">
-  <div class="modal-content">
-    <button class="modal-close">&times;</button>
 
-    <div class="modal-header">
-      <img id="engineLogo" src="" alt="">
-      <h3 id="engineName"></h3>
-    </div>
-
-    <form id="searchForm">
-      <input type="text" id="searchQuery" placeholder="Type your search..." required>
-      <button type="submit">Search</button>
-    </form>
-  </div>
-</div>
-
-
-
-<script>
-const modal = document.getElementById("searchModal");
-const form = document.getElementById("searchForm");
-const input = document.getElementById("searchQuery");
-const closeBtn = document.querySelector(".modal-close");
-const engineNameEl = document.getElementById("engineName");
-const engineLogoEl = document.getElementById("engineLogo");
-
-let currentSearchUrl = "";
-
-// Open modal only when a search engine is clicked
-document.querySelectorAll(".search-link").forEach(link => {
-  link.addEventListener("click", e => {
-    e.preventDefault();
-
-    currentSearchUrl = link.dataset.searchUrl;
-    engineNameEl.textContent = link.dataset.engineName;
-    engineLogoEl.src = link.dataset.engineLogo;
-    engineLogoEl.alt = link.dataset.engineName + " logo";
-
-    modal.style.display = "none";  // open modal
-    input.value = "";
-    input.focus();
-  });
-});
-
-// Close modal when clicking the X
-closeBtn.addEventListener("click", () => {
-  modal.style.display = "none";
-});
-
-// Close modal when clicking outside the modal content
-window.addEventListener("click", e => {
-  if (e.target === modal) modal.style.display = "none";
-});
-
-// Submit search form
-form.addEventListener("submit", e => {
-  e.preventDefault();
-  const query = encodeURIComponent(input.value.trim());
-  if (!query) return;
-
-  window.open(currentSearchUrl + query, "_blank");
-  modal.style.display = "none";   // close after search
-});
-
-</script>
 
 
 </body>
