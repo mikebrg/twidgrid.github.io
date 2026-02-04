@@ -37,22 +37,23 @@
   inset: 0;                       
   background: rgba(0,0,0,0.6);   
   z-index: 1000;
-  
-  display: flex;                  /* use flexbox */
-  justify-content: center;        /* center horizontally */
-  align-items: center;            /* center vertically */
-  overflow: auto;                 /* scroll if content taller than viewport */
+
+  display: flex;                  
+  justify-content: center;        
+  align-items: center;            
+  overflow: auto;                 
 }
 
 .modal-content {
   background: #fff;
   width: 90%;
   max-width: 400px;
+  height: 400px;                 /* fixed height in px */
   padding: 20px;
   border-radius: 8px;
-  max-height: 50vh;               /* limit height */
-  overflow-y: auto;               /* scroll inside if content exceeds max-height */
+  overflow-y: auto;              /* scroll inside if content exceeds fixed height */
 }
+
 
 
 .modal-close {
