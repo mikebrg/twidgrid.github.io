@@ -31,14 +31,20 @@
          min-height: 400px;
         }
 
+/* Overlay */
 .modal {
-  display: none;                 /* Hidden by default */
-  position: fixed;               /* Stays in place even when scrolling */
-  inset: 0;                      /* Shorthand for top:0; right:0; bottom:0; left:0; */
-  background: rgba(0,0,0,0.6);  /* Semi-transparent dark overlay */
-  z-index: 1000;                 /* Sits on top of most page elements */
+  display: none;                  /* hidden by default */
+  position: fixed;
+  inset: 0;                       
+  background: rgba(0,0,0,0.6);   /* dark transparent background */
+  z-index: 1000;
+
+  display: flex;                  
+  justify-content: center;        /* horizontal center */
+  align-items: center;            /* vertical center */
 }
 
+/* Modal content */
 .modal-content {
   background: #fff;
   padding: 1.5rem;
@@ -46,6 +52,7 @@
   width: 500px;
   height: 100px;                  /* fixed height */
 }
+
 
 .modal-close {
   position: absolute;
@@ -221,7 +228,7 @@ $(document).ready(function() {
       engineLogoEl.src = link.dataset.engineLogo;
       engineLogoEl.alt = link.dataset.engineName + " logo";
 
-      modal.style.display = "block";
+      modal.style.display = "flex";
       input.value = "";
       input.focus();
     });
@@ -232,7 +239,7 @@ $(document).ready(function() {
   });
 
   window.addEventListener("click", e => {
-    if (e.target === modal) modal.style.display = "none";
+    if (e.target === modal) modal.style.display = "flex";
   });
 
   form.addEventListener("submit", e => {
@@ -241,7 +248,7 @@ $(document).ready(function() {
     if (!query) return;
 
     window.open(currentSearchUrl + query, "_blank");
-    modal.style.display = "none";
+    modal.style.display = "flex";
   });
 </script>
 
