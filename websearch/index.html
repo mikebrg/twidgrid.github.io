@@ -32,22 +32,22 @@
         }
 
 .modal {
-  display: none;
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.6);
-  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .modal-content {
-  background: #fff;
   width: 90%;
-  max-width: 400px;
-  margin: 10% auto;
-  padding: 20px;
-  border-radius: 8px;
-  position: relative;
+  max-width: 420px;
+  max-height: 70vh;
+  height: auto;
+  overflow-y: auto;
 }
+
 
 .modal-close {
   position: absolute;
