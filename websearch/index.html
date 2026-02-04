@@ -33,7 +33,7 @@
 
 .modal {
   display: none;
-  position: fixed;
+  position: relative;
   inset: 0;
   background: rgba(0,0,0,0.6);
   z-index: 1000;
@@ -43,10 +43,10 @@
   background: #fff;
   width: 90%;
   max-width: 400px;
+  height: 400px;                 /* fixed height in px */
   padding: 20px;
   border-radius: 8px;
-  max-height: 50vh;               /* limit height */
-  overflow-y: auto;               /* scroll inside if content exceeds max-height */
+  overflow-y: auto;              /* scroll inside if content exceeds fixed height */
 }
 
 .modal-close {
