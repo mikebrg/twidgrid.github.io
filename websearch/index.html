@@ -32,12 +32,11 @@
         }
 
 .modal {
-  display: none;                 /* hidden by default */
-  position: fixed;
-  inset: 0;                       /* full screen overlay */
-  background: rgba(0,0,0,0.6);   /* semi-transparent background */
-  z-index: 1000;
-  overflow: auto;                /* allows scrolling if content is tall */
+  display: none;                 /* Hidden by default */
+  position: fixed;               /* Stays in place even when scrolling */
+  inset: 0;                      /* Shorthand for top:0; right:0; bottom:0; left:0; */
+  background: rgba(0,0,0,0.6);  /* Semi-transparent dark overlay */
+  z-index: 1000;                 /* Sits on top of most page elements */
 }
 
 .modal-content {
