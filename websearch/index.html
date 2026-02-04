@@ -32,25 +32,25 @@
         }
 
 .modal {
-  display: none;                  
+  display: none;                 /* hidden by default */
   position: fixed;
-  inset: 0;                       
-  background: rgba(0,0,0,0.6);   
+  inset: 0;                       /* full screen overlay */
+  background: rgba(0,0,0,0.6);   /* semi-transparent background */
   z-index: 1000;
-  
-  display: flex;                  /* use flexbox */
-  justify-content: center;        /* center horizontally */
-  align-items: center;            /* center vertically */
-  overflow: auto;                 /* scroll if content taller than viewport */
+  overflow: auto;                /* allows scrolling if content is tall */
 }
 
 .modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: #fff;
-  width: 90%;
-  max-width: 400px;
-  padding: 20px;
+  padding: 1.5rem;
   border-radius: 8px;
-  max-height: 50vh;               /* limit height */
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;               /* <- limits height to 80% of viewport */
   overflow-y: auto;               /* scroll inside if content exceeds max-height */
 }
 
