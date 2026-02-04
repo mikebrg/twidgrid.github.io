@@ -28,6 +28,100 @@
          min-height: 400px;
         }
 
+    /* Modal overlay */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+
+  display: none;              /* hidden by default */
+  align-items: center;        /* vertical centering */
+  justify-content: center;    /* horizontal centering */
+}
+
+/* Show modal */
+.modal.show {
+  display: flex;
+}
+
+/* Modal box */
+.modal-content {
+  background: #fff;
+  width: 90%;
+  max-width: 420px;
+  padding: 24px 26px;
+  border-radius: 12px;
+
+  box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+  animation: modalFadeIn 0.25s ease-out;
+}
+
+/* Header (engine logo + name) */
+.modal-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.modal-header img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+.modal-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+/* Search input */
+.modal-content input[type="text"] {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Buttons */
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.modal-actions button {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.modal-actions .cancel {
+  background: #eee;
+}
+
+.modal-actions .search {
+  background: #000;
+  color: #fff;
+}
+
+/* Animation */
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 
 </style>
 
