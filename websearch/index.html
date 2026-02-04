@@ -202,6 +202,92 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
     </div>
 </footer>
 
+<div id="searchModal" class="modal">
+  <div class="modal-content">
+
+    <div class="modal-header">
+      <img id="engineLogo" src="" alt="">
+      <h3 id="engineName">Search</h3>
+    </div>
+
+    <input
+      type="text"
+      id="searchQuery"
+      placeholder="Type your search and hit Enter"
+      autocomplete="off"
+    >
+
+    <div class="modal-actions">
+      <button class="cancel" id="closeModal">Cancel</button>
+      <button class="search" id="doSearch">Search</button>
+    </div>
+
+  </div>
+</div>
+
+
+    <script>
+let currentSearchUrl = '';
+
+const modal = document.getElementById('searchModal');
+const engineName = document.getElementById('engineName');
+const engineLogo = document.getElementById('engineLogo');
+const searchInput = document.getElementById('searchQuery');
+
+/* Open modal when clicking a search engine */
+document.querySelectorAll('.search-link').forEach(link => {
+  link.addEventListener('click', e => {
+    e.preventDefault();
+
+    currentSearchUrl = link.dataset.searchUrl;
+    engineName.textContent = link.dataset.engineName;
+    engineLogo.src = link.dataset.engineLogo;
+    engineLogo.alt = link.dataset.engineName;
+
+    modal.classList.add('show');
+    searchInput.value = '';
+    setTimeout(() => searchInput.focus(), 100);
+  });
+});
+
+/* Close modal (cancel button) */
+document.getElementById('closeModal').addEventListener('click', () => {
+  modal.classList.remove('show');
+});
+
+/* Close modal when clicking outside the box */
+modal.addEventListener('click', e => {
+  if (e.target === modal) {
+    modal.classList.remove('show');
+  }
+});
+
+/* Perform search */
+function doSearch() {
+  const query = searchInput.value.trim();
+  if (!query) return;
+
+  const url = currentSearchUrl + encodeURIComponent(query);
+  window.open(url, '_blank');
+  modal.classList.remove('show');
+}
+
+document.getElementById('doSearch').addEventListener('click', doSearch);
+
+/* Enter key triggers search */
+searchInput.addEventListener('keydown', e => {
+  if (e.key === 'Enter') {
+    doSearch();
+  }
+});
+
+/* ESC key closes modal */
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    modal.classList.remove('show');
+  }
+});
+</script>
 
 
 
