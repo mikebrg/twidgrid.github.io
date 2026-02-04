@@ -32,21 +32,31 @@
         }
 
 .modal {
+  display: none;               /* hidden by default */
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.6);
+  z-index: 1000;
+
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: center;         /* vertical center */
+  justify-content: center;     /* horizontal center */
 }
 
 .modal-content {
+  background: #fff;
   width: 90%;
   max-width: 420px;
   max-height: 70vh;
   height: auto;
   overflow-y: auto;
+  border-radius: 8px;
+  padding: 20px;
+
+  /* IMPORTANT: prevents stretching */
+  align-self: center;
 }
+
 
 
 .modal-close {
