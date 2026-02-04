@@ -32,28 +32,21 @@
         }
 
 .modal {
-  display: none;               /* hidden by default */
+  display: none;
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.6);
   z-index: 1000;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;              /* ensures some space around modal on small screens */
-  overflow: auto;             /* allows scrolling if modal is taller than viewport */
 }
 
 .modal-content {
   background: #fff;
   width: 90%;
-  max-width: 420px;
-  max-height: 90vh;           /* almost full viewport if needed */
-  border-radius: 8px;
+  max-width: 400px;
+  margin: 10% auto;
   padding: 20px;
-  box-sizing: border-box;      /* include padding in height calculations */
-  overflow-y: auto;            /* scrolls inside modal if content is too tall */
+  border-radius: 8px;
+  position: relative;
 }
 
 
