@@ -54,7 +54,7 @@
   padding: 1.5rem;
   border-radius: 8px;
   overflow-y: auto;               /* scroll inside if content exceeds height */
-  
+  position: relative;
 }
 
 /* Close button */
@@ -236,7 +236,7 @@ document.querySelectorAll(".search-link").forEach(link => {
     engineLogoEl.src = link.dataset.engineLogo;
     engineLogoEl.alt = link.dataset.engineName + " logo";
 
-    modal.style.display = "flex";  // open modal
+    modal.style.display = "none";  // open modal
     input.value = "";
     input.focus();
   });
