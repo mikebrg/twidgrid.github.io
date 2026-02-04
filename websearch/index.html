@@ -48,13 +48,11 @@
   background: #fff;
   width: 90%;
   max-width: 400px;
-  height: 400px;                 /* fixed height in px */
   padding: 20px;
   border-radius: 8px;
-  overflow-y: auto;              /* scroll inside if content exceeds fixed height */
+  max-height: 50vh;               /* limit height */
+  overflow-y: auto;               /* scroll inside if content exceeds max-height */
 }
-
-
 
 .modal-close {
   position: absolute;
