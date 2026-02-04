@@ -47,6 +47,10 @@
   background: #fff;
   width: 90%;
   max-width: 420px;
+    /* Height settings */
+  max-height: 80vh;      /* never taller than 80% of viewport */
+  min-height: 200px;     /* optional, avoid too tiny */
+  overflow-y: auto;      /* scroll if content is taller than max-height */
   padding: 24px;
   border-radius: 12px;
 }
