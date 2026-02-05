@@ -1,6 +1,10 @@
 
 var tipuesearch = {"pages": [
 
+	{"title": "	Nioh 3	", "text": "	Overcome difficult challenges in an open field.	", "img": "img/	Nioh 3.jpg	", "tags": "	PlayStation 5, PC	", "note": "		", "url": "	index.html#:~:text=Nioh 3	"},
+{"title": "	My Hero Academia: All's Justice	", "text": "	SMASH through My Hero Academia’s final story arc and triumph over your foes in spectacular 3v3 battles!	", "img": "img/	My Hero Academia All's Justice.jpg	", "tags": "	PlayStation 5, Xbox Series X, PC	", "note": "		", "url": "	index.html#:~:text=My Hero Academia: All's Justice	"},
+{"title": "	Dragon Quest VII Reimagined	", "text": "	Set sail on an adventure spanning past and present in DRAGON QUEST VII Reimagined!	", "img": "img/	Dragon Quest VII Reimagined.jpg	", "tags": "	Nintendo Switch 2, Xbox Series X, PlayStation 5, PC, Nintendo Switch	", "note": "		", "url": "	index.html#:~:text=Dragon Quest VII Reimagined	"},
+
 	{"title": "	Starsand Island	", "text": "	This Killer Deck has won tournaments and has crushed hundreds of opponents.	", "img": "img/	Starsand Island.jpg	", "tags": "	PC, Nintendo Switch, Xbox Series X, PlayStation 5, Nintendo Switch 2	", "note": "		", "url": "	index.html#:~:text=Starsand Island	"},
 {"title": "	The 9th Charnel	", "text": "	The 9th Charnel is a first-person psychological survival horror game.	", "img": "img/	The 9th Charnel.jpg	", "tags": "	PC, PlayStation 5, Xbox Series X	", "note": "		", "url": "	index.html#:~:text=The 9th Charnel	"},
 {"title": "	Code Vein II	", "text": "	In a future world where humans and Revenants coexist.	", "img": "img/	Code Vein II.jpg	", "tags": "	PC, Xbox Series X, PlayStation 5	", "note": "		", "url": "	index.html#:~:text=Code Vein II	"},
