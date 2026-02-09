@@ -28,81 +28,6 @@
          min-height: 400px;
         }
 
-.hv-container {
-  display: flex;
-  position: relative;
-  background: #0b0b0b;
-  color: #fff;
-  font-family: Arial, sans-serif;
-  min-height: 480px;
-  overflow: hidden;
-}
-
-.hv-side {
-  width: 50%;
-  padding: 20px;
-  text-align: center;
-}
-
-.villain {
-  background: linear-gradient(135deg, #2b0000, #000);
-}
-
-.hero {
-  background: linear-gradient(135deg, #001a33, #000);
-}
-
-.divider {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 500px;
-  pointer-events: none;
-  text-shadow: 0 0 15px #ffd700;
-}
-
-.thumbnails {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 15px;
-}
-
-.thumbnails img {
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  cursor: pointer;
-  border: 2px solid transparent;
-  border-radius: 6px;
-  transition: 0.2s;
-}
-
-.thumbnails img:hover {
-  border-color: #ffd700;
-}
-
-.main-img {
-  width: 220px;
-  max-width: 100%;
-  margin: 10px auto;
-  display: block;
-  filter: drop-shadow(0 0 12px rgba(0,0,0,0.7));
-}
-
-.stats {
-  margin-top: 15px;
-  background: rgba(0,0,0,0.4);
-  padding: 12px;
-  border-radius: 8px;
-}
-
-.stats h3 {
-  margin-bottom: 8px;
-  color: #ffd700;
-}
-
 
 </style>
 
@@ -125,46 +50,7 @@
 
 </div>
     
-<div class="hv-container">
 
-  <!-- Hero Side -->
-  <div class="hv-side hero">
-    <div class="thumbnails">
-      <img src="img/superman.jpg" onclick="changeCharacter('hero', this)" data-name="Superman" data-power="90" data-speed="85" data-intel="80">
-      <img src="https://i.imgur.com/yG3Wb3N.png" onclick="changeCharacter('hero', this)" data-name="Sky Sentinel" data-power="80" data-speed="95" data-intel="85">
-    </div>
-
-    <img id="hero-main" class="main-img" src="https://i.imgur.com/8Km9tLL.png" alt="Hero">
-
-    <div class="stats">
-      <h3 id="hero-name">Superman</h3>
-      <p>Power: <span id="hero-power">90</span></p>
-      <p>Speed: <span id="hero-speed">85</span></p>
-      <p>Intelligence: <span id="hero-intel">80</span></p>
-    </div>
-  </div>
-
-
-     <!-- Lightning Divider -->
-  <div class="divider">⚡</div>
-    
-      <!-- Villain Side -->
-  <div class="hv-side villain">
-    <div class="thumbnails">
-      <img src="img/lexluthor.jpg" onclick="changeCharacter('villain', this)" data-name="Lex Luthor" data-power="95" data-speed="70" data-intel="90">
-      <img src="https://i.imgur.com/3QZ5F9B.png" onclick="changeCharacter('villain', this)" data-name="Night Reaper" data-power="85" data-speed="80" data-intel="75">
-    </div>
-
-    <img id="villain-main" class="main-img" src="https://i.imgur.com/9Xn1KpR.png" alt="Villain">
-
-    <div class="stats">
-      <h3 id="villain-name">Lex Luthor</h3>
-      <p>Power: <span id="villain-power">95</span></p>
-      <p>Speed: <span id="villain-speed">70</span></p>
-      <p>Intelligence: <span id="villain-intel">90</span></p>
-    </div>
-  </div>
-</div>
 
 </div>
 
@@ -197,16 +83,7 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
     </div>
 </footer>
 
-<script>
-function changeCharacter(type, thumb) {
-  document.getElementById(type + '-main').src = thumb.src;
 
-  document.getElementById(type + '-name').textContent = thumb.dataset.name;
-  document.getElementById(type + '-power').textContent = thumb.dataset.power;
-  document.getElementById(type + '-speed').textContent = thumb.dataset.speed;
-  document.getElementById(type + '-intel').textContent = thumb.dataset.intel;
-}
-</script>
 
 
 </body>
