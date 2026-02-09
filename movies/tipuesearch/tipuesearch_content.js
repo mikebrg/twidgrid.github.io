@@ -1,5 +1,8 @@
 
 var tipuesearch = {"pages": [
+{"title": "	Stray Kids: The dominATE Experience (2026)	", "text": "	Captures the K-pop group's sold-out performances at Los Angeles' SoFi Stadium, combining concert footage from Stray Kids' dominATE world tour with behind-the-scenes material.	", "img": "img/	Stray Kids The dominATE Experience (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Stray Kids: The dominATE Experience	"},
+{"title": "	Solo Mio (2026)	", "text": "	Left heartbroken in Rome after a wedding disaster, a stranded groom finds his ruined honeymoon transformed by a determined local and a few meddling travelers-proving that sometimes heartbreak is only the beginning.	", "img": "img/	Solo Mio (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Solo Mio	"},
+{"title": "	Young Sherlock (2026)	", "text": "	A disgraced, young Sherlock Holmes finds himself wrapped up in a murder case that threatens his liberty. His first ever case unravels a globe-trotting conspiracy, culminating in an explosive showdown that changes his life forever.	", "img": "img/	Young Sherlock (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Young Sherlock	"},
 
 	{"title": "	War Machine (2026)	", "text": "	Follow the final recruits of a grueling special ops boot camp who encounter a deadly force from beyond this world.	", "img": "img/	War Machine (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=War Machine	"},
 {"title": "	Perry Mason (1957)	", "text": "	The trials of a master criminal defense attorney handling the most difficult cases in support of the innocent.	", "img": "img/	Perry Mason (1957).webp	", "tags": "		", "note": "		", "url": "	tv1957.html#:~:text=Perry Mason	"},
@@ -1778,7 +1781,6 @@ var tipuesearch = {"pages": [
 {"title": "	Wind River (2017)	", "text": "	An FBI agent and a tracker investigate a murder on a Native American reservation	", "img": "img/	wind-river-2017.webp	", "tags": "		", "note": "		", "url": "	2017.html#:~:text=Wind River	"},
 {"title": "	Wonder Woman (2017)	", "text": "	Diana, a warrior from Themyscira, leaves her home to stop World War I	", "img": "img/	wonder-woman-375x563.jpg	", "tags": "		", "note": "		", "url": "	2017.html#:~:text=Wonder Woman	"},
 {"title": "	xXx: Return of Xander Cage (2017)	", "text": "	Xander Cage returns to recover a deadly weapon with his new team	", "img": "img/	xxx-return-of-xander-cage-2017.webp	", "tags": "		", "note": "		", "url": "	2017.html#:~:text=xXx: Return of Xander Cage	"},
-{"title": "	Young Sheldon (2017)	", "text": "	Young Sheldon navigates life as a child genius in East Texas.	", "img": "img/	young-sheldon-2017-600x900.jpg	", "tags": "		", "note": "		", "url": "	2017.html#:~:text=Young Sheldon	"},
 												
 {"title": "	211 (2018)	", "text": "	A bank robbery turns deadly as an officer and a young civilian try to survive	", "img": "img/	211-2018.webp	", "tags": "		", "note": "		", "url": "	2018.html#:~:text=211	"},
 {"title": "	A Quiet Place (2018)	", "text": "	A family must remain silent to survive deadly creatures that hunt by sound	", "img": "img/	a-quiet-place-2018.webp	", "tags": "		", "note": "		", "url": "	2018.html#:~:text=A Quiet Place	"},
