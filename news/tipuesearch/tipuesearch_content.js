@@ -1,5 +1,10 @@
 
 var tipuesearch = {"pages": [
+
+	{"title": "	Göbeklitepe, Taş Tepeler...	", "text": "	Göbeklitepe, Taş Tepeler and life 12,000 years ago exhibition opens in Berlin, Germany	", "img": "img/	news69	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Göbeklitepe, Taş Tepeler and life 12,000 years ago exhibition opens in Berlin, Germany	"},
+{"title": "	'Media and Tenkil'...	", "text": "	'Media and Tenkil' exhibit opens in Hanau, Germany	", "img": "img/	news70	", "tags": "		", "note": "		", "url": "	search.html#:~:text='Media and Tenkil' exhibit opens in Hanau, Germany	"},
+{"title": "	White House deletes...	", "text": "	White House deletes Truth Social post portraying Obamas as apes	", "img": "img/	news71	", "tags": "		", "note": "		", "url": "	search.html#:~:text=White House deletes Truth Social post portraying Obamas as apes	"},
+
 	{"title": "	Bruce Gallanter interviews...	", "text": "	Bruce Gallanter interviews Elliott Sharp, Joe Fonda at Downtown Music Gallery event	", "img": "img/	news68	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Bruce Gallanter interviews Elliott Sharp, Joe Fonda at Downtown Music Gallery event	"},
 
 	{"title": "	Boy retrieves Nintendo...	", "text": "	Boy retrieves Nintendo Switch locked away in gun safe, and shoots his father	", "img": "img/	news67	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Boy retrieves Nintendo Switch locked away in gun safe, and shoots his father	"},
