@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Search | Heroes vs Villains</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<script src="tipuesearch/tipuesearch_set.js"></script>
+<script src="tipuesearch/tipuesearch_content.js"></script>
+<link rel="stylesheet" href="tipuesearch/tipuesearch.css">
+<script src="tipuesearch/tipuesearch.js"></script>
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+  
+    .head {
+     position: relative;
+     background-size: cover;
+     background-image: url('img/people.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+</style>
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="index.html" class="not"><div class="ban">&#160> People</div></a></div></div>
+
+<div class="head">
+    <div class="block" style="padding-top: 79px;">
+    <h3>Heroes vs Villains</h3><span class="fo-5">Enter one or more keywords in the field below and search away.</span>
+    <p></p><p></p>
+    <div><a class="btn-1" href="index.html">Home</a>&nbsp;
+    </div>
+    <p></p><p></p>
+    <form onreset="setTimeout(() => this.querySelector('[name=q]').focus(), 0)">
+        <div class="tipue_search_group">
+        <input type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required autofocus>
+          <button type="reset" class="tipue_clear_button">X</button>
+          <button type="submit" class="tipue_search_button"><div class="tipue_search_icon">&#9906;</div></button>
+        </div>
+        </form>
+
+    
+    
+    </div></div>
+    
+    
+    
+    <div id="languages" class="block-978" style="padding-bottom: 59px;">
+    
+    
+    <div style="padding-top: 36px;">
+    
+    
+    <div id="tipue_search_content"></div>
+    </div>
+    <p>
+   <h2>Most Spoken Languages</h2>															
+<ul class="responsive-table">															
+<li class="table-cell">		<img src="img/	English-language.jpg	" alt="	English	"><h3>	English	</h3><p>Numbers of speakers (millions): 		1,582	<p>Family: 	Indo-European	<p>Branch: 	Germanic	</p></li>
+<li class="table-cell">		<img src="img/	Mandarin Chinese-language.jpg	" alt="	Mandarin Chinese	"><h3>	Mandarin Chinese	</h3><p>Numbers of speakers (millions): 		1,184	<p>Family: 	Sino-Tibetan	<p>Branch: 	Sinitic	</p></li>
+<li class="table-cell">		<img src="img/	Hindi-language.jpg	" alt="	Hindi	"><h3>	Hindi	</h3><p>Numbers of speakers (millions): 		609	<p>Family: 	Indo-European	<p>Branch: 	Indo-Aryan	</p></li>
+<li class="table-cell">		<img src="img/	Spanish-language.jpg	" alt="	Spanish	"><h3>	Spanish	</h3><p>Numbers of speakers (millions): 		558	<p>Family: 	Indo-European	<p>Branch: 	Romance	</p></li>
+<li class="table-cell">		<img src="img/	Modern Standard Arabic-language.jpg	" alt="	Modern Standard Arabic	"><h3>	Modern Standard Arabic	</h3><p>Numbers of speakers (millions): 		335	<p>Family: 	Afro-Asiatic	<p>Branch: 	Semitic	</p></li>
+<li class="table-cell">		<img src="img/	French-language.jpg	" alt="	French	"><h3>	French	</h3><p>Numbers of speakers (millions): 		312	<p>Family: 	Indo-European	<p>Branch: 	Romance	</p></li>
+<li class="table-cell">		<img src="img/	Bengali-language.jpg	" alt="	Bengali	"><h3>	Bengali	</h3><p>Numbers of speakers (millions): 		284	<p>Family: 	Indo-European	<p>Branch: 	Indo-Aryan	</p></li>
+<li class="table-cell">		<img src="img/	Portuguese-language.jpg	" alt="	Portuguese	"><h3>	Portuguese	</h3><p>Numbers of speakers (millions): 		267	<p>Family: 	Indo-European	<p>Branch: 	Romance	</p></li>
+<li class="table-cell">		<img src="img/	Russian-language.jpg	" alt="	Russian	"><h3>	Russian	</h3><p>Numbers of speakers (millions): 		253	<p>Family: 	Indo-European	<p>Branch: 	Balto-Slavic	</p></li>
+<li class="table-cell">		<img src="img/	Indonesian-language.jpg	" alt="	Indonesian	"><h3>	Indonesian	</h3><p>Numbers of speakers (millions): 		252	<p>Family: 	Austronesian	<p>Branch: 	Malayo-Polynesian	</p></li>
+</ul>															
+															
+
+    
+    
+    </div>
+    
+    </div>
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+    <script>
+        $(document).ready(function() {
+             $('#tipue_search_input').tipuesearch();
+        });
+        </script>
+        
+</body>
+</html>
