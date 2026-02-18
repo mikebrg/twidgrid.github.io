@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+	{"title": "	Poets gather for...	", "text": "	Poets gather for reading at Ray's Pizza in New York City	", "img": "img/	news72	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Poets gather for reading at Ray's Pizza in New York City	"},
+
 	{"title": "	Göbeklitepe, Taş Tepeler...	", "text": "	Göbeklitepe, Taş Tepeler and life 12,000 years ago exhibition opens in Berlin, Germany	", "img": "img/	news69	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Göbeklitepe, Taş Tepeler and life 12,000 years ago exhibition opens in Berlin, Germany	"},
 {"title": "	'Media and Tenkil'...	", "text": "	'Media and Tenkil' exhibit opens in Hanau, Germany	", "img": "img/	news70	", "tags": "		", "note": "		", "url": "	search.html#:~:text='Media and Tenkil' exhibit opens in Hanau, Germany	"},
 {"title": "	White House deletes...	", "text": "	White House deletes Truth Social post portraying Obamas as apes	", "img": "img/	news71	", "tags": "		", "note": "		", "url": "	search.html#:~:text=White House deletes Truth Social post portraying Obamas as apes	"},
