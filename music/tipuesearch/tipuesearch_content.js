@@ -1,6 +1,22 @@
 
 var tipuesearch = {"pages": [
 
+    {"title": "	Icon	", "text": "	Icon is an album by Brent Faiyaz released in 2026	", "img": "img/	IconBrentFaiyaz2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Icon	"},
+{"title": "	Wuthering Heights (Soundtrack)	", "text": "	Wuthering Heights (Soundtrack) is an album by Charli xcx released in 2026	", "img": "img/	WutheringHeights(Soundtrack)Charlixcx2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Wuthering Heights (Soundtrack)	"},
+{"title": "	DEPR</3$$ED MFKZ	", "text": "	DEPR</3$$ED MFKZ is an album by Junior H & Gael Valenzuela released in 2026	", "img": "img/	DEPR3$$EDMFKZJuniorH&GaelValenzuela2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=DEPR</3$$ED MFKZ	"},
+{"title": "	To Whom This May Concern	", "text": "	To Whom This May Concern is an album by Jill Scott released in 2026	", "img": "img/	ToWhomThisMayConcernJillScott2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=To Whom This May Concern	"},
+{"title": "	Be By You	", "text": "	Be By You is a song by Luke Combs released in 2026	", "img": "img/	Be By YouLuke Combs2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Be By You	"},
+{"title": "	Be Her	", "text": "	Be Her is a song by Ella Langley released in 2026	", "img": "img/	Be HerElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Be Her	"},
+{"title": "	Butterflies.	", "text": "	Butterflies. is a song by Brent Faiyaz released in 2026	", "img": "img/	Butterflies.Brent Faiyaz2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Butterflies.	"},
+{"title": "	Have To.	", "text": "	Have To. is a song by Brent Faiyaz released in 2025	", "img": "img/	Have To.Brent Faiyaz2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Have To.	"},
+{"title": "	Wrong Faces.	", "text": "	Wrong Faces. is a song by Brent Faiyaz released in 2026	", "img": "img/	Wrong Faces.Brent Faiyaz2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Wrong Faces.	"},
+{"title": "	Other Side.	", "text": "	Other Side. is a song by Brent Faiyaz released in 2026	", "img": "img/	Other Side.Brent Faiyaz2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Other Side.	"},
+{"title": "	Iloveitiloveitiloveit	", "text": "	Iloveitiloveitiloveit is a song by Bella Kay released in 2026	", "img": "img/	IloveitiloveitiloveitBella Kay2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Iloveitiloveitiloveit	"},
+{"title": "	Four Seasons.	", "text": "	Four Seasons. is a song by Brent Faiyaz released in 2026	", "img": "img/	Four Seasons.Brent Faiyaz2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Four Seasons.	"},
+{"title": "	Chains Of Love	", "text": "	Chains Of Love is a song by Charli xcx released in 2025	", "img": "img/	Chains Of LoveCharli xcx2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Chains Of Love	"},
+{"title": "	Strangers.	", "text": "	Strangers. is a song by Brent Faiyaz released in 2026	", "img": "img/	Strangers.Brent Faiyaz2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Strangers.	"},
+{"title": "	Droga Letal	", "text": "	Droga Letal is a song by Junior H, Gael Valenzuela & Peso Pluma released in 2025	", "img": "img/	Droga LetalJunior H, Gael Valenzuela & Peso Pluma2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Droga Letal	"},
+
     {"title": "	The Fall-Off	", "text": "	The Fall-Off is an album by J. Cole released in 2026	", "img": "img/	TheFall-OffJ.Cole2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Fall-Off	"},
 {"title": "	Golden Hour : Part.4 (EP)	", "text": "	Golden Hour : Part.4 (EP) is an album by ATEEZ released in 2026	", "img": "img/	GoldenHourPart.4(EP)ATEEZ2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Golden Hour : Part.4 (EP)	"},
 {"title": "	Piss In The Wind	", "text": "	Piss In The Wind is an album by Joji released in 2026	", "img": "img/	PissInTheWindJoji2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Piss In The Wind	"},
