@@ -1,6 +1,48 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Tiger Lily	", "text": "	First appearance: Peter and Wendy (1904) Reigned from Species: Human	", "img": "img/	Tiger Lily.jpg	", "tags": "		", "note": "		", "url": "	fictional-leaders.html#:~:text=Tiger Lily	"},
+
+     {"title": "	Inanna	", "text": "	Ancient Mesopotamian goddess of war, love, and fertility. Reigned from Abode: Heaven	", "img": "img/	Inanna.jpg	", "tags": "		", "note": "		", "url": "	mythological-&-power-figures.html#:~:text=Inanna	"},
+
+     {"title": "	Triboulet	", "text": "	Le Févrial or under his family name Ferrial, was a French jester for King Francis I. Reigned from Entertainer, mime, dancer, a bad musician, and a man of words	", "img": "img/	Triboulet.jpg	", "tags": "		", "note": "		", "url": "	entertainers.html#:~:text=Triboulet	"},
+
+     {"title": "	Euclid	", "text": "	Greek mathematician, often called the “Father of Geometry” Reigned from Years active: fl.300 BC	", "img": "img/	Euclid.jpg	", "tags": "		", "note": "		", "url": "	philosophers-&-intellectual-leaders.html#:~:text=Euclid	"},
+
+     {"title": "	Plato	", "text": "	Ancient Greek philosopher. Reigned from Main interests: Epistemology, Metaphysics, Political philosophy, Ethics	", "img": "img/	Plato.jpg	", "tags": "		", "note": "		", "url": "	philosophers-&-intellectual-leaders.html#:~:text=Plato	"},
+{"title": "	John Locke	", "text": "	English philosopher and physician. Reigned from Main interests: Metaphysics, epistemology, political philosophy, philosophy of mind, philosophy of education, economics	", "img": "img/	John Locke.jpg	", "tags": "		", "note": "		", "url": "	philosophers-&-intellectual-leaders.html#:~:text=John Locke	"},
+
+     {"title": "	Pythia	", "text": "	Oracle of Delphi Reigned from High priestess of the Temple of Apollo at Delphi in central Greece.	", "img": "img/	Pythia.jpg	", "tags": "		", "note": "		", "url": "	religious-&-prophetic-figures.html#:~:text=Pythia	"},
+
+     {"title": "	Naia	", "text": "	Paleo-Indian teenage girl whose skeleton was found in the Yucatán Peninsula, Mexico. Reigned from Paleoamerican inhabitants of the Americas	", "img": "img/	Naia.jpg	", "tags": "		", "note": "		", "url": "	prehistoric-&-early-human-figures.html#:~:text=Naia	"},
+
+     {"title": "	Otto von Bismarck	", "text": "	German statesman and diplomat who oversaw the unification of Germany. Reigned from In office: 21 March 1871 – 18 March 1890	", "img": "img/	Otto von Bismarck.jpg	", "tags": "		", "note": "		", "url": "	political-&-administrative-leaders.html#:~:text=Otto von Bismarck	"},
+{"title": "	Louis XIV	", "text": "	Known as the “Sun King,” was King of France. Reigned from Reign: 14 May 1643 – 1 September 1715	", "img": "img/	Louis XIV.jpg	", "tags": "		", "note": "		", "url": "	political-&-administrative-leaders.html#:~:text=Louis XIV	"},
+{"title": "	Mansa Musa	", "text": "	Ninth Mansa of the Mali Empire. Reigned from Reign: c.1312 – c.1337 (approx. 25 years)	", "img": "img/	Mansa Musa.jpg	", "tags": "		", "note": "		", "url": "	political-&-administrative-leaders.html#:~:text=Mansa Musa	"},
+{"title": "	Aemilia Tertia	", "text": "	Wife of Scipio Africanus. Reigned from Roman noblewoman of the 3rd–2nd century BCE.	", "img": "img/	Aemilia Tertia.jpg	", "tags": "		", "note": "		", "url": "	political-&-administrative-leaders.html#:~:text=Aemilia Tertia	"},
+{"title": "	Ashoka the Great	", "text": "	Emperor of Magadha Reigned from Reign: c.268 – 232 BCE	", "img": "img/	Ashoka the Great.jpg	", "tags": "		", "note": "		", "url": "	political-&-administrative-leaders.html#:~:text=Ashoka the Great	"},
+{"title": "	Mereruka	", "text": "	One of Egypt's most powerful officials. Reigned from c. 2345 – 2181 BCE (6th Dynasty, Old Kingdom)	", "img": "img/	Mereruka.jpg	", "tags": "		", "note": "		", "url": "	political-&-administrative-leaders.html#:~:text=Mereruka	"},
+
+     {"title": "	Freydís Eiríksdóttir	", "text": "	Icelandic woman said to be the daughter of Erik the Red Associated with the Vinland expedition narratives	", "img": "img/	Freydís Eiríksdóttir.jpg	", "tags": "	Freydis Eiriksdottir	", "note": "		", "url": "	norse-explorers-&-warrior-figures.html#:~:text=Freydís Eiríksdóttir	"},
+{"title": "	Erik the Red	", "text": "	Known for founding the first Viking settlements in Greenland He most likely earned the epithet 'the Red' due to the color of his hair and beard.	", "img": "img/	Erik the Red.jpg	", "tags": "		", "note": "		", "url": "	norse-explorers-&-warrior-figures.html#:~:text=Erik the Red	"},
+
+     {"title": "	Miyamoto Musashi	", "text": "	Born: Shinmen Bennosuke c.1583 Harima Province or Mimasaka Province, Japan / Died: 13 June 1645 (aged 61–62) Higo Province, Tokugawa Shogunate Reigned from Renowned through stories of his unique double-bladed swordsmanship.	", "img": "img/	Miyamoto Musashi.jpg	", "tags": "		", "note": "		", "url": "	asian-warriors.html#:~:text=Miyamoto Musashi	"},
+
+     {"title": "	Ocēlōtl	", "text": "	Members of the Aztec military elite. Existed from the 14th century (c. 1325) — until 1521.	", "img": "img/	Ocēlōtl.jpg	", "tags": "	Ocelotl	", "note": "		", "url": "	military-leaders.html#:~:text=Ocēlōtl	"},
+{"title": "	Mochizuki Chiyome	", "text": "	16th-century Japanese poet and noblewoman. Era: c. 16th century (mid-1500s CE)	", "img": "img/	Mochizuki Chiyome.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Mochizuki Chiyome	"},
+{"title": "	Xueting Fuyu	", "text": "	Abbot of the Shaolin Monastery of the Caodong lineage. Era: 1203 – 1275 CE	", "img": "img/	Xueting Fuyu.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Xueting Fuyu	"},
+
+{"title": "	Leonidas I	", "text": "	King of the Ancient Greek city-state of Sparta. 489–480 BC	", "img": "img/	Leonidas I.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Leonidas I	"},
+{"title": "	Hermann the Cheruscan	", "text": "	Germanic chieftain who famously defeated three Roman legions in one of the most decisive ambushes of antiquity. Better known by his Latin name Arminius.	", "img": "img/	Hermann the Cheruscan.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Hermann the Cheruscan	"},
+{"title": "	Hasan Pasha	", "text": "	16th-century Ottoman statesman and naval commander. Years active: c. 1545–1572	", "img": "img/	Hasan Pasha.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Hasan Pasha	"},
+{"title": "	Artemisia I of Caria	", "text": "	Queen of the ancient Greek city-state of Halicarnassus, which is now in Bodrum, Turkey. Praised by Herodotus for her intelligence and tactical insight.	", "img": "img/	Artemisia I of Caria.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Artemisia I of Caria	"},
+{"title": "	Cyrus the Great	", "text": "	Cyrus II of Persia was the founder of the Achaemenid Empire. One of the most influential conquerors and state-builders of the ancient world.	", "img": "img/	Cyrus the Great.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Cyrus the Great	"},
+{"title": "	Sitting Bull	", "text": "	Hunkpapa Lakota leader. Led his people during years of resistance against United States government policies.	", "img": "img/	Sitting Bull.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Sitting Bull	"},
+{"title": "	Kandake of Nubia	", "text": "	Queen mother of Kingdom of Kush. Exercised independent authority and commanded armies.	", "img": "img/	Kandake of Nubia.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Kandake of Nubia	"},
+{"title": "	William Tell	", "text": "	Legendary folk hero of Switzerland. Expert marksmanship with a crossbow.	", "img": "img/	William Tell.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=William Tell	"},
+{"title": "	Miltiades	", "text": "	Miltiades the Younger, was a Greek Athenian statesman. Miltiades’ strategic insight at Marathon became legendary, demonstrating the effectiveness of hoplite warfare and solidifying Athens’ military prestige in the Greco-Persian Wars.	", "img": "img/	Miltiades.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Miltiades	"},
+{"title": "	Cuauhtémoc	", "text": "	Last emperor (Tlatoani) of the Aztec Empire. Reign: 25 January 1521 – 28 February 1525	", "img": "img/	Cuauhtémoc.jpg	", "tags": "	Cuauhtemoc	", "note": "		", "url": "	military-leaders.html#:~:text=Cuauhtémoc	"},
+
 {"title": "	Alexander McQueen	", "text": "	British fashion designer and couturier. Known for founding his own Alexander McQueen label in 1992 and was chief designer at Givenchy from 1996 to 2001.	", "img": "img/	Alexander McQueen17 March 1969 – 11 February 2010.jpg	", "tags": "		", "note": "		", "url": "	innovators.html#:~:text=Alexander McQueen	"},
 {"title": "	Anab Jain	", "text": "	Designer, futurist, filmmaker and educator. Known for being the Co-founder of Superflux	", "img": "img/	Anab Jainb. 1976.jpg	", "tags": "	Behar	", "note": "		", "url": "	innovators.html#:~:text=Anab Jain	"},
 {"title": "	Bill Moggridge	", "text": "	English designer, author and educator. Known for cofounded the design company IDEO and was director of Cooper Hewitt, Smithsonian Design Museum in New York.	", "img": "img/	Bill Moggridge25 June 1943 – 8 September 2012.jpg	", "tags": "	Behar	", "note": "		", "url": "	innovators.html#:~:text=Bill Moggridge	"},

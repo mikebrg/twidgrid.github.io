@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Norse Explorers & Warrior Figures | People</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+<style>
+    
+    
+</style>
+<style>
+    .unique-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1200px;
+        margin: 20px auto;
+    }
+    .unique-text {
+        flex: 1;
+        margin-right: 20px;
+    }
+    .unique-video {
+        flex: 1;
+    }
+    .unique-video iframe {
+        width: 100%;
+        height: 315px;
+        border: none;
+    }
+    .head {
+     position: relative;
+     background-size: cover;
+     background-image: url('img/norse-explorers-bk.jpg');
+     background-position: center;
+     min-height: 400px;
+}
+</style>
+</head><body>
+
+<div class="cont">
+
+<div id="head"><div class="block"><a href="../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="index.html" class="not"><div class="ban">&#160> People</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>Norse Explorers & Warrior Figures</h3><span class="fo-5">A curated collection of Norse explorers and warrior figures whose daring voyages, battles, and legendary deeds shaped the history and mythology of the Viking Age.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Home</a>&nbsp;<a class="btn-1" href="search.html">Search</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+        <ul class="responsive-table">
+
+<li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Freyd%C3%ADs_Eir%C3%ADksd%C3%B3ttir	"><img src="img/	Freydís Eiríksdóttir.jpg	" alt="	Freydís Eiríksdóttir	"></a><h3>	Freydís Eiríksdóttir	<p>	Icelandic woman said to be the daughter of Erik the Red	</h3><p><strong>	born c. 965 ; died c. 1020	<p>	Associated with the Vinland expedition narratives	</strong><p>Allegiance: 	Norse settlers of Greenland and Vinland; Family of Erik the Red	<p>Conflicts: 	Vinland expeditions (early 11th century); Internal disputes among Norse settlers in Vinland (as described in the sagas)	</li>
+<li class="table-cell"><a href="	https://en.wikipedia.org/wiki/Erik_the_Red	"><img src="img/	Erik the Red.jpg	" alt="	Erik the Red	"></a><h3>	Erik the Red	<p>	Known for founding the first Viking settlements in Greenland	</h3><p><strong>	Born: c. 950 Jæren, Norway - Died: c. 1003 (aged around 53) Greenland	<p>	He most likely earned the epithet "the Red" due to the color of his hair and beard.	</strong><p>Allegiance: 	Norse settlers of Iceland and Greenland; Viking Age Scandinavian culture	<p>Conflicts: 	Feuds in Iceland leading to his exile; Regional disputes among Norse settlers in Greenland	</li>
+
+<li></li>
+<li></li>
+<li></li>
+        
+        </ul>
+            
+    </div></div>
+
+                            <!-- Modal Structure -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Content Viewer</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
+    </div>
+  </div>
+  
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
+          }
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
+        });
+      </script>
+
+
+    <a href="#" id="back-to-top" title="Back to top">↑</a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
