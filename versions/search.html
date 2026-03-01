@@ -23,10 +23,22 @@
     .head {
      position: relative;
      background-size: cover;
-     background-image: url('img/versions.jpg');
+     background-image: url('../img/versions-bk.png');
      background-position: center;
      min-height: 400px;
 }
+.head::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.head > * {
+    position: relative;
+    z-index: 2;
+}
+
 </style>
 </head><body>
 
