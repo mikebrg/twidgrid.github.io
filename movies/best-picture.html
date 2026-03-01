@@ -19,7 +19,7 @@
 .head {
      position: relative;
      background-size: cover;
-     background-image: url('../img/movies.jpg');
+     background-image: url('img/best-picture.jpg');
      background-position: center;
      min-height: 400px;
 }
@@ -31,7 +31,17 @@
             object-fit: cover;
             border-radius: 8px;
     }
-    
+    .head::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.head > * {
+    position: relative;
+    z-index: 2;
+}
     
   </style>
 
