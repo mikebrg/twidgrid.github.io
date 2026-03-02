@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Twenty One Pilots: More Than We Ever Imagined (2026)	", "text": "	Twenty One Pilots' concert film captures their massive Mexico City show at Estadio GNP Seguros, blending explosive performances with backstage moments as they prepare for 65,000 fans during The Clancy World Tour.	", "img": "img/	Twenty One Pilots More Than We Ever Imagined (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Twenty One Pilots: More Than We Ever Imagined	"},
+	
 {"title": "	EPiC: Elvis Presley in Concert (2026)	", "text": "	Follows Elvis Presley, featuring never-before-seen footage and recordings.	", "img": "img/	EPiC Elvis Presley in Concert (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=EPiC: Elvis Presley in Concert	"},
 {"title": "	I Can Only Imagine 2 (2026)	", "text": "	Bart Millard, lead singer of MercyMe, faces a personal crisis at the peak of his success. As his world unravels, he struggles with his beliefs and inner demons while seeking a path through adversity.	", "img": "img/	I Can Only Imagine 2 (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Can Only Imagine 2	"},
 {"title": "	The Gates (2026)	", "text": "	Three friends' road trip turns terrifying when they witness a murder in a gated community. Trapped inside, hunted by residents who blame them, their bond fractures as a charismatic yet sinister patriarch closes in.	", "img": "img/	The Gates (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Gates	"},
