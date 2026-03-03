@@ -1,6 +1,26 @@
 
 var tipuesearch = {"pages": [
 
+    {"title": "	Good Flirts	", "text": "	Good Flirts is a song by Baby Keem Featuring Kendrick Lamar & Momo Boyd released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Good Flirts	"},
+{"title": "	Ca$ino	", "text": "	Ca$ino is a song by Baby Keem released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ca$ino	"},
+{"title": "	Medicine	", "text": "	Medicine is a song by Megan Moroney released in 2026	", "img": "img/	MedicineMegan Moroney2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Medicine	"},
+{"title": "	House Money	", "text": "	House Money is a song by Baby Keem released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=House Money	"},
+{"title": "	Birds & The Bees	", "text": "	Birds & The Bees is a song by Baby Keem released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Birds & The Bees	"},
+{"title": "	Drag Path	", "text": "	Drag Path is a song by Twenty One Pilots released in 2026	", "img": "img/	Drag PathTwenty One Pilots2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Drag Path	"},
+{"title": "	Wedding Dress	", "text": "	Wedding Dress is a song by Megan Moroney released in 2026	", "img": "img/	MedicineMegan Moroney2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Wedding Dress	"},
+{"title": "	Cloud 9	", "text": "	Cloud 9 is a song by Megan Moroney released in 2026	", "img": "img/	MedicineMegan Moroney2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Cloud 9	"},
+{"title": "	Circus Circus Free$tyle	", "text": "	Circus Circus Free$tyle is a song by Baby Keem released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Circus Circus Free$tyle	"},
+{"title": "	I Only Miss You	", "text": "	I Only Miss You is a song by Megan Moroney & Ed Sheeran released in 2026	", "img": "img/	MedicineMegan Moroney2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Only Miss You	"},
+{"title": "	Who Hurt You?	", "text": "	Who Hurt You? is a song by Megan Moroney released in 2026	", "img": "img/	MedicineMegan Moroney2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Who Hurt You?	"},
+{"title": "	$ex Appeal	", "text": "	$ex Appeal is a song by Baby Keem Featuring Too $hort released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=$ex Appeal	"},
+{"title": "	No Security	", "text": "	No Security is a song by Baby Keem released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=No Security	"},
+{"title": "	Dramatic Girl	", "text": "	Dramatic Girl is a song by Baby Keem Featuring Che Ecru released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Dramatic Girl	"},
+{"title": "	Stupid	", "text": "	Stupid is a song by Megan Moroney released in 2026	", "img": "img/	MedicineMegan Moroney2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Stupid	"},
+{"title": "	White Keys	", "text": "	White Keys is a song by Dominic Fike released in 2025	", "img": "img/	White KeysDominic Fike2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=White Keys	"},
+{"title": "	Highway 95 Pt.2	", "text": "	Highway 95 Pt.2 is a song by Baby Keem released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Highway 95 Pt.2	"},
+{"title": "	I Am Not A Lyricist	", "text": "	I Am Not A Lyricist is a song by Baby Keem released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Am Not A Lyricist	"},
+{"title": "	Convincing	", "text": "	Convincing is a song by Megan Moroney released in 2026	", "img": "img/	MedicineMegan Moroney2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Convincing	"},
+
     {"title": "	Icon	", "text": "	Icon is an album by Brent Faiyaz released in 2026	", "img": "img/	IconBrentFaiyaz2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Icon	"},
 {"title": "	Wuthering Heights (Soundtrack)	", "text": "	Wuthering Heights (Soundtrack) is an album by Charli xcx released in 2026	", "img": "img/	WutheringHeights(Soundtrack)Charlixcx2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Wuthering Heights (Soundtrack)	"},
 {"title": "	DEPR</3$$ED MFKZ	", "text": "	DEPR</3$$ED MFKZ is an album by Junior H & Gael Valenzuela released in 2026	", "img": "img/	DEPR3$$EDMFKZJuniorH&GaelValenzuela2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=DEPR</3$$ED MFKZ	"},
