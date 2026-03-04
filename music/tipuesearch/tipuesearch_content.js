@@ -1,6 +1,13 @@
 
 var tipuesearch = {"pages": [
 
+    {"title": "	Cloud 9	", "text": "	Cloud 9 is an album by Megan Moroney released in 2026	", "img": "img/	MedicineMegan Moroney2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Cloud 9	"},
+{"title": "	Luck... Or Something	", "text": "	Luck... Or Something is an album by Hilary Duff released in 2026	", "img": "img/	Luck...OrSomethingHilaryDuff2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Luck... Or Something	"},
+{"title": "	Ca$ino	", "text": "	Ca$ino is an album by Baby Keem released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Ca$ino	"},
+{"title": "	Prizefighter	", "text": "	Prizefighter is an album by Mumford & Sons released in 2026	", "img": "img/	PrizefighterMumford&Sons2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Prizefighter	"},
+{"title": "	Por Si Manana No Estoy	", "text": "	Por Si Manana No Estoy is an album by Omar Courtz released in 2026	", "img": "img/	PorSiMananaNoEstoyOmarCourtz2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Por Si Manana No Estoy	"},
+{"title": "	SO BE IT	", "text": "	SO BE IT is an album by Elevation Worship released in 2026	", "img": "img/	SOBEITElevationWorship2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=SO BE IT	"},
+
     {"title": "	Good Flirts	", "text": "	Good Flirts is a song by Baby Keem Featuring Kendrick Lamar & Momo Boyd released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Good Flirts	"},
 {"title": "	Ca$ino	", "text": "	Ca$ino is a song by Baby Keem released in 2026	", "img": "img/	Good FlirtsBaby Keem Featuring Kendrick Lamar & Momo Boyd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ca$ino	"},
 {"title": "	Medicine	", "text": "	Medicine is a song by Megan Moroney released in 2026	", "img": "img/	MedicineMegan Moroney2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Medicine	"},
