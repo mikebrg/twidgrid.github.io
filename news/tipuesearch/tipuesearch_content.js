@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+	{"title": "	Caloundra wins first...	", "text": "	Caloundra wins first game in Australian soccer's Football Queensland Premier League 2 competition	", "img": "img/	news74	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Caloundra wins first game in Australian soccer's Football Queensland Premier League 2 competition	"},
+{"title": "	Max Scherzer signs...	", "text": "	Max Scherzer signs deal to return to Toronto Blue Jays	", "img": "img/	news75	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Max Scherzer signs deal to return to Toronto Blue Jays	"},
+{"title": "	Green Party wins...	", "text": "	Green Party wins major by-election in northern England city of Manchester	", "img": "img/	news76	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Green Party wins major by-election in northern England city of Manchester	"},
+{"title": "	Musical performance presented...	", "text": "	Musical performance presented by Striped Light in Long Island City, New York showcases four performers	", "img": "img/	news77	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Musical performance presented by Striped Light in Long Island City, New York showcases four performers	"},
+
 	{"title": "	Caloundra through to...	", "text": "	Caloundra through to next round of 2026 Australia Cup preliminaries	", "img": "img/	news73	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Caloundra through to next round of 2026 Australia Cup preliminaries	"},
 
 	{"title": "	Poets gather for...	", "text": "	Poets gather for reading at Ray's Pizza in New York City	", "img": "img/	news72	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Poets gather for reading at Ray's Pizza in New York City	"},
