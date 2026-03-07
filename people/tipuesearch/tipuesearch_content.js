@@ -1,6 +1,20 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Abraham Van Helsing	", "text": "	Nationality: Dutch Reigned from Occupation: Professor, Doctor, Lawyer, Philosopher, Scientist, Metaphysician, and Vampire hunter	", "img": "img/	Abraham Van Helsing.jpg	", "tags": "		", "note": "		", "url": "	fictional-leaders.html#:~:text=Abraham Van Helsing	"},
+
+     {"title": "	Pythagoras	", "text": "	Greek philosopher and mathematician best known for the Pythagorean theorem. Reigned from Founder of a philosophical and religious movement that combined mathematics, mysticism, and ethics.	", "img": "img/	Pythagoras.jpg	", "tags": "		", "note": "		", "url": "	philosophers-&-intellectual-leaders.html#:~:text=Pythagoras	"},
+
+     {"title": "	Pōtatau Te Wherowhero	", "text": "	Prominent Māori chief of the Waikato iwi and became the first Māori King (Kīngi) in 1858. Reigned from Reign: June 1858 – 25 June 1860	", "img": "img/	Pōtatau Te Wherowhero.jpg	", "tags": "	Potatau	", "note": "		", "url": "	political-&-administrative-leaders.html#:~:text=Pōtatau Te Wherowhero	"},
+
+     {"title": "	Kondō Isami	", "text": "	Born: Miyagawa Katsugorō, November 9, 1834 Kamiishihara Village, Musashi Province, Japan / Died: May 17, 1868 (aged 33) Itabashi execution grounds, Itabashi, Edo, Japan Reigned from A symbol of loyalty to the shogunate during Japan’s transition from feudal rule to the modern Meiji state.	", "img": "img/	Kondō Isami.jpg	", "tags": "	Kondo	", "note": "		", "url": "	asian-warriors.html#:~:text=Kondō Isami	"},
+
+{"title": "	Marco Polo	", "text": "	Venetian merchant and explorer whose travels across Asia in the 13th century introduced Europe to the wealth, cultures, and geography of the East. Occupations: Merchant, explorer, writer	", "img": "img/	Marco Polo.jpg	", "tags": "		", "note": "		", "url": "	explorers.html#:~:text=Marco Polo	"},
+
+{"title": "	Robin Hood	", "text": "	Legendary English outlaw and folk hero. Famed for his skill with the longbow.	", "img": "img/	Robin Hood.jpg	", "tags": "		", "note": "		", "url": "	legendary-folk.html#:~:text=Robin Hood	"},
+
+     {"title": "	Titus Pullo	", "text": "	Roman centurion mentioned by Julius Caesar in Commentarii de Bello Gallico (Commentaries on the Gallic War). His rivalry and heroic combat with Lucius Vorenus became one of the most vivid personal anecdotes recorded in Caesar’s military writings, illustrating the valor of Roman legionaries.	", "img": "img/	Titus Pullo.jpg	", "tags": "		", "note": "		", "url": "	military-leaders.html#:~:text=Titus Pullo	"},
+
      {"title": "	Tiger Lily	", "text": "	First appearance: Peter and Wendy (1904) Reigned from Species: Human	", "img": "img/	Tiger Lily.jpg	", "tags": "		", "note": "		", "url": "	fictional-leaders.html#:~:text=Tiger Lily	"},
 
      {"title": "	Inanna	", "text": "	Ancient Mesopotamian goddess of war, love, and fertility. Reigned from Abode: Heaven	", "img": "img/	Inanna.jpg	", "tags": "		", "note": "		", "url": "	mythological-&-power-figures.html#:~:text=Inanna	"},
