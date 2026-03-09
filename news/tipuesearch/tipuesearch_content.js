@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+	{"title": "	US President Donald...	", "text": "	US President Donald Trump appears to wear makeup after apparent rash breaks out on neck, reports say	", "img": "img/	news78	", "tags": "		", "note": "		", "url": "	search.html#:~:text=US President Donald Trump appears to wear makeup after apparent rash breaks out on neck, reports say	"},
+{"title": "	Randwick City Council...	", "text": "	Randwick City Council opens public consultation about parking near beaches: ''To pay or not to pay?''	", "img": "img/	news79	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Randwick City Council opens public consultation about parking near beaches: ''To pay or not to pay?''	"},
+
 	{"title": "	Caloundra wins first...	", "text": "	Caloundra wins first game in Australian soccer's Football Queensland Premier League 2 competition	", "img": "img/	news74	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Caloundra wins first game in Australian soccer's Football Queensland Premier League 2 competition	"},
 {"title": "	Max Scherzer signs...	", "text": "	Max Scherzer signs deal to return to Toronto Blue Jays	", "img": "img/	news75	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Max Scherzer signs deal to return to Toronto Blue Jays	"},
 {"title": "	Green Party wins...	", "text": "	Green Party wins major by-election in northern England city of Manchester	", "img": "img/	news76	", "tags": "		", "note": "		", "url": "	search.html#:~:text=Green Party wins major by-election in northern England city of Manchester	"},
