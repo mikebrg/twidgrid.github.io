@@ -1,6 +1,23 @@
 
 var tipuesearch = {"pages": [
 
+    {"title": "	American Girls	", "text": "	American Girls is a song by Harry Styles released in 2026	", "img": "img/	American GirlsHarry Styles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=American Girls	"},
+{"title": "	Ready, Steady, Go!	", "text": "	Ready, Steady, Go! is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ready, Steady, Go!	"},
+{"title": "	Taste Back	", "text": "	Taste Back is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Taste Back	"},
+{"title": "	Coming Up Roses	", "text": "	Coming Up Roses is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Coming Up Roses	"},
+{"title": "	Pop	", "text": "	Pop is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Pop	"},
+{"title": "	Are You Listening Yet?	", "text": "	Are You Listening Yet? is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Are You Listening Yet?	"},
+{"title": "	Dance No More	", "text": "	Dance No More is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Dance No More	"},
+{"title": "	The Waiting Game	", "text": "	The Waiting Game is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Waiting Game	"},
+{"title": "	Season 2 Weight Loss	", "text": "	Season 2 Weight Loss is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Season 2 Weight Loss	"},
+{"title": "	Carla's Song	", "text": "	Carla's Song is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Carla's Song	"},
+{"title": "	Paint By Numbers	", "text": "	Paint By Numbers is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Paint By Numbers	"},
+{"title": "	Watching Us	", "text": "	Watching Us is a song by Wale & Leon Thomas released in 2025	", "img": "img/	Watching UsWale & Leon Thomas2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Watching Us	"},
+{"title": "	In My Room	", "text": "	In My Room is a song by Julia Wolf released in 2024	", "img": "img/	In My RoomJulia Wolf2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=In My Room	"},
+{"title": "	Kiss All The Time. Disco, Occasionally.	", "text": "	Kiss All The Time. Disco, Occasionally. is an album by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Kiss All The Time. Disco, Occasionally.	"},
+{"title": "	Early Life Crisis	", "text": "	Early Life Crisis is an album by Nettspend released in 2026	", "img": "img/	EarlyLifeCrisisNettspend2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Early Life Crisis	"},
+{"title": "	Albini Sessions (Benefit For Letters Charity)	", "text": "	Albini Sessions (Benefit For Letters Charity) is an album by Fugazi released in 2026	", "img": "img/	AlbiniSessions(BenefitForLettersCharity)Fugazi2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Albini Sessions (Benefit For Letters Charity)	"},
+
     {"title": "	The Romantic	", "text": "	The Romantic is an album by Bruno Mars released in 2026	", "img": "img/	TheRomanticBrunoMars2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Romantic	"},
 {"title": "	The Mountain	", "text": "	The Mountain is an album by Gorillaz released in 2026	", "img": "img/	TheMountainGorillaz2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Mountain	"},
 {"title": "	Deadline (EP)	", "text": "	Deadline (EP) is an album by BLACKPINK released in 2026	", "img": "img/	Deadline(EP)BLACKPINK2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Deadline (EP)	"},
