@@ -1,6 +1,23 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Fugazi	", "text": "	Fugazi is an album by Fugazi released in 1988	", "img": "img/	FugaziFugazi1988.png	", "tags": "		", "note": "		", "url": "	albums1988.html#:~:text=Fugazi	"},
+{"title": "	13 Songs	", "text": "	13 Songs is an album by Fugazi released in 1989	", "img": "img/	13SongsFugazi1989.png	", "tags": "		", "note": "		", "url": "	albums1989.html#:~:text=13 Songs	"},
+{"title": "	Margin Walker	", "text": "	Margin Walker is an album by Fugazi released in 1989	", "img": "img/	MarginWalkerFugazi1989.png	", "tags": "		", "note": "		", "url": "	albums1989.html#:~:text=Margin Walker	"},
+{"title": "	Repeater + 3 Songs	", "text": "	Repeater + 3 Songs is an album by Fugazi released in 1990	", "img": "img/	Repeater+3SongsFugazi1990.png	", "tags": "		", "note": "		", "url": "	albums1990.html#:~:text=Repeater + 3 Songs	"},
+{"title": "	Repeater	", "text": "	Repeater is an album by Fugazi released in 1990	", "img": "img/	RepeaterFugazi1990.png	", "tags": "		", "note": "		", "url": "	albums1990.html#:~:text=Repeater	"},
+{"title": "	3 Songs	", "text": "	3 Songs is an album by Fugazi released in 1990	", "img": "img/	3SongsFugazi1990.png	", "tags": "		", "note": "		", "url": "	albums1990.html#:~:text=3 Songs	"},
+{"title": "	Steady Diet of Nothing	", "text": "	Steady Diet of Nothing is an album by Fugazi released in 1991	", "img": "img/	SteadyDietofNothingFugazi1991.png	", "tags": "		", "note": "		", "url": "	albums1991.html#:~:text=Steady Diet of Nothing	"},
+{"title": "	In on the Kill Taker	", "text": "	In on the Kill Taker is an album by Fugazi released in 1993	", "img": "img/	InontheKillTakerFugazi1993.png	", "tags": "		", "note": "		", "url": "	albums1993.html#:~:text=In on the Kill Taker	"},
+{"title": "	Red Medicine	", "text": "	Red Medicine is an album by Fugazi released in 1995	", "img": "img/	RedMedicineFugazi1995.png	", "tags": "		", "note": "		", "url": "	albums1995.html#:~:text=Red Medicine	"},
+{"title": "	End Hits	", "text": "	End Hits is an album by Fugazi released in 1998	", "img": "img/	EndHitsFugazi1998.png	", "tags": "		", "note": "		", "url": "	albums1998.html#:~:text=End Hits	"},
+{"title": "	Instrument Soundtrack	", "text": "	Instrument Soundtrack is an album by Fugazi released in 1999	", "img": "img/	InstrumentSoundtrackFugazi1999.png	", "tags": "		", "note": "		", "url": "	albums1999.html#:~:text=Instrument Soundtrack	"},
+{"title": "	The Argument	", "text": "	The Argument is an album by Fugazi released in 2001	", "img": "img/	TheArgumentFugazi2001.png	", "tags": "		", "note": "		", "url": "	albums2001.html#:~:text=The Argument	"},
+{"title": "	Furniture	", "text": "	Furniture is an album by Fugazi released in 2001	", "img": "img/	FurnitureFugazi2001.png	", "tags": "		", "note": "		", "url": "	albums2001.html#:~:text=Furniture	"},
+{"title": "	First Demo	", "text": "	First Demo is an album by Fugazi released in 2014	", "img": "img/	FirstDemoFugazi2014.png	", "tags": "		", "note": "		", "url": "	albums2014.html#:~:text=First Demo	"},
+
+     {"title": "	Fugazi	", "text": "	Fugazi is an American post-hardcore band formed in Washington, D.C., in 1986. The band consists of guitarists and vocalists Ian MacKaye and Guy Picciotto, bassist Joe Lally, and drummer Brendan Canty. They were noted for their style-transcending music, DIY ethical stance, manner of business practice, and contempt for the music industry.<p>Fugazi performed numerous worldwide tours and produced six studio albums, a film, and a comprehensive live series, gaining the band critical acclaim and success around the world. Highly influential on punk and alternative music, the band has been on an indefinite hiatus since 2003.	", "img": "img/	Fugazi.jpg	", "tags": "		", "note": "		", "url": "	artists.html#:~:text=Fugazi	"},
+
     {"title": "	American Girls	", "text": "	American Girls is a song by Harry Styles released in 2026	", "img": "img/	American GirlsHarry Styles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=American Girls	"},
 {"title": "	Ready, Steady, Go!	", "text": "	Ready, Steady, Go! is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ready, Steady, Go!	"},
 {"title": "	Taste Back	", "text": "	Taste Back is a song by Harry Styles released in 2026	", "img": "img/	KissAllTheTime.Disco,Occasionally.HarryStyles2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Taste Back	"},
