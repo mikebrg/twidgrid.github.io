@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>David Lynch | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/David Lynch-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>David Lynch</h3><span class="fo-5">United States</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/David Lynch.jpg" alt="David Lynch"><h3>David Lynch</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>20 January 1946<p><strong>Years Active: </strong>1967-2025</p><p><strong>Died: </strong>16 January 2025</p><p><strong>Age:</strong>78</p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>David Keith Lynch (January 20, 1946 – January 16, 2025) was an American filmmaker, actor, painter, and musician. He is widely regarded as one of the greatest and most influential filmmakers in the history of cinema, with his films often characterized by a distinctive surrealist sensibility that gave rise to the adjective "Lynchian". In a career spanning more than five decades, he received numerous accolades, including an Academy Honorary Award, the Golden Lion for Lifetime Achievement at the Venice Film Festival, a Palme d'Or and Best Director Award at the Cannes Film Festival, and a (posthumous) Laurel Award for Screenwriting Achievement, in addition to nominations for four Academy Awards, two British Academy Film Awards, four Golden Globe Awards, and nine Primetime Emmy Awards.<p>Initially aspiring to become a painter, Lynch began creating short films out of a desire to effect movement in his paintings. He made his feature film debut with the surrealist body horror film Eraserhead (1977), which took him five years to make due to financial issues and slowly found success as a midnight movie. He garnered critical acclaim for the biographical drama film The Elephant Man (1980) and the neo-noir mystery films Blue Velvet (1986) and Mulholland Drive (2001), all three of which earned him nominations for the Academy Award for Best Director. His romantic crime drama film Wild at Heart (1990) won the Palme d'Or at the Cannes Film Festival. He also directed the neo-noir horror film Lost Highway (1997), the comedy-drama film The Straight Story (1999), and the experimental psychological horror film Inland Empire (2006), his last feature film. He wrote and directed the space opera film Dune (1984) but disowned it after extensive studio interference.<p>Lynch co-created (with Mark Frost) and directed the ABC surrealist horror-mystery series Twin Peaks (1990–1991; 2017), for which he received nine Primetime Emmy Award nominations. The series is considered a landmark turning point in television and often listed among the greatest television series of all time. He also co-wrote (with Robert Engels) and directed its film prequel Twin Peaks: Fire Walk with Me (1992). He directed music videos for Donovan, Interpol, Chris Isaak, X Japan, Moby, and Nine Inch Nails, and commercials for Dior, Gucci, Yves Saint Laurent, the PlayStation 2, and the New York City Department of Sanitation. His acting roles included Gordon Cole on Twin Peaks, the voice of Gus on the animated sitcom The Cleveland Show (2010–2013), Jack Dahl on the sitcom Louie (2012), Howard in the drama film Lucky (2017), and film director John Ford in Steven Spielberg's drama film The Fabelmans (2022).<p>Lynch also worked as an animator, author, cartoonist, furniture designer, musician, photographer, and sculptor. A longtime practitioner of Transcendental Meditation, he founded the David Lynch Foundation to fund meditation lessons for at-risk populations. He was a lifelong chain smoker and his emphysema was exacerbated when he was evacuated from his home in Los Angeles due to the January 2025 Southern California wildfires. He died at his daughter Jennifer's home soon thereafter.</li></ul>
+
+            <ul class="responsive-table"></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
