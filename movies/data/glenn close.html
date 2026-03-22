@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Glenn Close | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Glenn Close-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Glenn Close</h3><span class="fo-5">United States</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Glenn Close.jpg" alt="Glenn Close"><h3>Glenn Close</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>19 March 1947<p><strong>Age: </strong><span class="dob" data-dob="19-Mar-47"></span><p><strong>Years Active: </strong>1974-present</p><p><strong></strong></p><p><strong></strong></p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>Glenn Close (born March 19, 1947) is an American actress. In a career spanning five decades on screen and stage, she has received numerous accolades, including three Primetime Emmy Awards, three Tony Awards and three Golden Globe Awards, in addition to nominations for eight Academy Awards, three Grammy Awards, and two British Academy Film Awards. She was named by Time as one of the 100 most influential people in the world in 2019.<p>Close gained early recognition for her work on the stage, with her Broadway debut in the play Love for Love (1974), before going on to win three Tony Awards, two for Best Actress in a Play for her roles in the plays The Real Thing (1983) and Death and the Maiden (1992), and one for Best Actress in a Musical, the musical Sunset Boulevard (1995). She received her first Academy Award nomination for her film debut in The World According to Garp (1982), and her first Emmy nomination in 1984 for the television film Something About Amelia. Close's career further progressed throughout the 1980s and 1990s with a number of acclaimed film performances, including The Big Chill (1983), The Natural (1984), Fatal Attraction (1987), Dangerous Liaisons (1988), Reversal of Fortune (1990), The Paper (1994), Mars Attacks! (1996), and Air Force One (1997). During this period, she also portrayed Cruella de Vil in 101 Dalmatians (1996) and its 2000 sequel 102 Dalmatians, and voiced Kala in Tarzan (1999).<p>Close won the Primetime Emmy Award for Outstanding Lead Actress in a Limited Series or Movie for her portrayal of Colonel Margarethe Cammermeyer in Serving in Silence: The Margarethe Cammermeyer Story (1995), followed by two consecutive Primetime Emmy Awards for Outstanding Lead Actress in a Drama Series for playing Patty Hewes in Damages (2007–2012). In film, Close gained continued recognition in the 21st century for her roles in Albert Nobbs (2011), The Wife (2017), Hillbilly Elegy (2020), and Wake Up Dead Man (2025).<p>Close is the president of Trillium Productions and co-founder of the website FetchDog. She has made political donations in support of Democratic politicians and is vocal on issues such as women's rights, same-sex marriage, and mental health. Married three times, she has one daughter, Annie Starke, from her relationship with producer John Starke.</li></ul>
+
+            <ul class="responsive-table"></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
