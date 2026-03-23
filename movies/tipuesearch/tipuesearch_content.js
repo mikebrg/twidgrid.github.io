@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Dhurandhar The Revenge (2026)	", "text": "	Jaskirat Singh Rangi descends deeper into his alias as Hamza Ali Mazari, rising through Karachi's criminal hierarchy to claim the feared title 'Sher-e-Baloch' while balancing loyalty, betrayal, and survival in a ruthless underworld.	", "img": "img/	Dhurandhar The Revenge (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Dhurandhar The Revenge	"},
+{"title": "	Dune: Part Three (2026)	", "text": "	It follows Muad'dib, heir to unimaginable power, as he brings to fruition the ancient scheme to create a superbeing ruler among men, not in the heavens.	", "img": "img/	Dune Part Three (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Dune: Part Three	"},
+{"title": "	Outcome (2026)	", "text": "	Follows Hollywood star Reef as he is forced to confront his problems and atone for his past after being threatened by a bizarre video footage from his past.	", "img": "img/	Outcome (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Outcome	"},
+{"title": "	Tom Clancy's Jack Ryan: Ghost War (2026)	", "text": "	Follows Jack Ryan who reunites with CIA operatives to navigate a treacherous web of betrayal against an enemy who knows their every move, facing a past they thought was long put to rest.	", "img": "img/	Tom Clancy's Jack Ryan Ghost War (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Tom Clancy's Jack Ryan: Ghost War	"},
+	
 {"title": "	Spider-Man: Brand New Day (2026)	", "text": "	Peter Parker tries to focus on college and leave Spider-Man behind. But when a new threat endangers his friends, he must break his promise and suit up again, teaming with an unexpected ally to protect those he loves.	", "img": "img/	Spider-Man Brand New Day (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Spider-Man: Brand New Day	"},
 	
 {"title": "	The Terminator (1984)	", "text": "	A cyborg assassin from the future attempts to find and kill a young woman who is destined to give birth to a warrior that will lead a resistance to save humankind from extinction.	", "img": "img/	The Terminator (1984).webp	", "tags": "		", "note": "		", "url": "	1984.html#:~:text=The Terminator	"},
