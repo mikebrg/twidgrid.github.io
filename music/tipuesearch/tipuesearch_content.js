@@ -1,6 +1,22 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Porch Light	", "text": "	Porch Light is a song by Noah Kahan released in 2026	", "img": "img/	Porch LightNoah Kahan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Porch Light	"},
+{"title": "	The Visitor	", "text": "	The Visitor is a song by Sienna Spiro released in 2026	", "img": "img/	The VisitorSienna Spiro2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Visitor	"},
+{"title": "	Motion Party	", "text": "	Motion Party is a song by BossMan Dlow released in 2026	", "img": "img/	Motion PartyBossMan Dlow2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Motion Party	"},
+{"title": "	Dry Spell	", "text": "	Dry Spell is a song by Kacey Musgraves released in 2026	", "img": "img/	Dry SpellKacey Musgraves2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Dry Spell	"},
+{"title": "	Breathe	", "text": "	Breathe is a song by Malcolm Todd released in 2026	", "img": "img/	BreatheMalcolm Todd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Breathe	"},
+{"title": "	Rein Me In	", "text": "	Rein Me In is a song by Sam Fender & Olivia Dean released in 2025	", "img": "img/	Rein Me InSam Fender & Olivia Dean2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Rein Me In	"},
+{"title": "	All I Did Was Dream of You	", "text": "	All I Did Was Dream of You is a song by beabadoobee Featuring The Marias released in 2026	", "img": "img/	All I Did Was Dream of Youbeabadoobee Featuring The Marias2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=All I Did Was Dream of You	"},
+{"title": "	Woman	", "text": "	Woman is a song by Kane Brown released in 2026	", "img": "img/	WomanKane Brown2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Woman	"},
+{"title": "	I Ain't No Cowboy	", "text": "	I Ain't No Cowboy is a song by Luke Combs released in 2026	", "img": "img/	I Ain't No CowboyLuke Combs2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Ain't No Cowboy	"},
+{"title": "	Trade Places	", "text": "	Trade Places is a song by Jack Harlow released in 2026	", "img": "img/	Trade PlacesJack Harlow2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Trade Places	"},
+{"title": "	Ever Since U Left Me	", "text": "	Ever Since U Left Me is a song by Max B & French Montana released in 2026	", "img": "img/	Ever Since U Left MeMax B & French Montana2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ever Since U Left Me	"},
+{"title": "	Mutiny After Midnight	", "text": "	Mutiny After Midnight is an album by Johnny Blue Skies & The Dark Clouds released in 2026	", "img": "img/	MutinyAfterMidnightJohnnyBlueSkies&TheDarkClouds2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Mutiny After Midnight	"},
+{"title": "	Unique (EP)	", "text": "	Unique (EP) is an album by P1Harmony released in 2026	", "img": "img/	Unique(EP)P1Harmony2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Unique (EP)	"},
+{"title": "	Into Oblivion	", "text": "	Into Oblivion is an album by Lamb of God released in 2026	", "img": "img/	IntoOblivionLambofGod2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Into Oblivion	"},
+{"title": "	Monica	", "text": "	Monica is an album by Jack Harlow released in 2026	", "img": "img/	MonicaJackHarlow2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Monica	"},
+
      {"title": "	Fugazi	", "text": "	Fugazi is an album by Fugazi released in 1988	", "img": "img/	FugaziFugazi1988.png	", "tags": "		", "note": "		", "url": "	albums1988.html#:~:text=Fugazi	"},
 {"title": "	13 Songs	", "text": "	13 Songs is an album by Fugazi released in 1989	", "img": "img/	13SongsFugazi1989.png	", "tags": "		", "note": "		", "url": "	albums1989.html#:~:text=13 Songs	"},
 {"title": "	Margin Walker	", "text": "	Margin Walker is an album by Fugazi released in 1989	", "img": "img/	MarginWalkerFugazi1989.png	", "tags": "		", "note": "		", "url": "	albums1989.html#:~:text=Margin Walker	"},
