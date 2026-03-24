@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Amy Pietz | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Amy Pietz-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Amy Pietz</h3><span class="fo-5">United States</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Amy Pietz.jpg" alt="Amy Pietz"><h3>Amy Pietz</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>06 March 1969<p><strong>Age: </strong><span class="dob" data-dob="06-Mar-69"></span><p><strong>Years Active: </strong>1993-present</p><p><strong></strong></p><p><strong></strong></p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>Amy Pietz is an American actress. She is known for her roles on television. She received the Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Comedy Series nomination for her role as Annie Spadaro in the NBC sitcom Caroline in the City (1995–99). She later had starring roles in the short-lived sitcoms Cursed (NBC, 2000–01), Rodney (ABC, 2004–06), and Aliens in America (The CW, 2007–08).<p>Pietz began her career playing small roles on television series such as Star Trek: The Next Generation, as well as films Rudy (1993) and Jingle All the Way (1996). In 1995, she was regular cast member on the short-lived The WB sitcom Muscle, before her breakthrough role as Annie Spadaro in the NBC sitcom Caroline in the City starring Lea Thompson. The series aired from 1995 to 1999. She was nominated for a Screen Actors Guild Award for Outstanding Performance by a Female Actor in a Comedy Series for the role in 1999.<p>The following year, Pietz went to star alongside Steven Weber on the NBC sitcom Cursed. The series was canceled after a single season in 2001. She later played Martha Boswell in the stage musical The Boswell Sisters.<p>From 2004 to 2006, she appeared in ABC sitcom Rodney. During 2007–08 season, she played the mother in The CW sitcom Aliens in America. She also had guest starring roles on Ally McBeal, CSI: Crime Scene Investigation, The Division, Law & Order: Special Victims Unit, Burn Notice, The Closer, Curb Your Enthusiasm, Nip/Tuck, Desperate Housewives, Two and a Half Men, Mom, and How to Get Away with Murder. She had a recurring role as Donna in the NBC comedy series The Office in 2010.<p>In 2011, Pietz played Meredith King, the mother of Chloe King, in the short-lived ABC Family drama series The Nine Lives of Chloe King. In 2016, she was cast as lead character's boss in The CW comedy-drama series No Tomorrow.<p>In 2016, Pietz guest-starred in the 4th season of Marc Maron's IFC series Maron as Natalie, a fellow rehab patient. In 2019, she starred as Ralph Dibny's mother in The Flash.<p>Pietz married actor Kenneth Alan Williams in 1997 in her native Milwaukee. Pietz gave birth to a son when she was 23, Benjamin, whom she subsequently placed for adoption. She is a graduate of DePaul University.</li></ul>
+
+            <ul class="responsive-table"></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
