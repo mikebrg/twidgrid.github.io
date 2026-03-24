@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Emma Stone | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Emma Stone-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Emma Stone</h3><span class="fo-5">United States</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Emma Stone.jpg" alt="Emma Stone"><h3>Emma Stone</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>06 November 1988<p><strong>Age: </strong><span class="dob" data-dob="06-Nov-88"></span><p><strong>Years Active: </strong>2004-present</p><p><strong></strong></p><p><strong></strong></p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>Emily Jean "Emma" Stone (born November 6, 1988) is an American actress and film producer. Her accolades include two Academy Awards, two British Academy Film Awards, two Golden Globe Awards and a Volpi Cup. In 2017, she was the world's highest-paid actress and named by Time magazine as one of the 100 most influential people in the world.<p>As a child in Arizona, Stone started acting in local theater productions before relocating to Los Angeles to pursue a career in the film industry. As a teenager, she made her television debut in the reality show In Search of the New Partridge Family (2004). After small television roles, she appeared in a string of successful comedy films, such as Superbad (2007), Zombieland (2009), and Easy A (2010), which became Stone's first leading role. Following this breakthrough, she starred in the romantic comedy Crazy, Stupid, Love (2011) and the period drama The Help (2011), and gained wider recognition as Gwen Stacy in Marc Webb's Spider-Man films (2012–2014).<p>Stone cemented her leading lady status by taking on more eclectic and dramatic roles. She earned nominations for the Academy Award for Best Supporting Actress for portraying a recovering drug addict in the surrealist dark comedy Birdman (2014) and Abigail Hill in the absurdist period film The Favourite (2018); the latter marked her first of many collaborations with Yorgos Lanthimos. She won two Academy Awards for Best Actress for portraying an aspiring actress in the romantic musical La La Land (2016) and a resurrected suicide victim in Lanthimos's Poor Things (2023); she was also nominated for the Academy Award for Best Picture for the latter. Stone also earned recognition for portraying tennis player Billie Jean King in Battle of the Sexes (2017) and the titular role in Cruella (2021). She has since collaborated twice more with Lanthimos, starring in the anthology film Kinds of Kindness (2024) and the dark comedy Bugonia (2025); the latter earned her further nominations for the Academy Award for Best Actress and Best Picture, making her the first woman to be nominated as both a producer and an actress in each of two different films.<p>On Broadway, Stone starred as Sally Bowles in a revival of the musical Cabaret (2014–2015). On television, she has led the dark comedy miniseries Maniac (2018) and The Curse (2023). She and her husband, Dave McCary, founded the production company Fruit Tree in 2020.</li></ul>
+
+            <ul class="responsive-table"></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
