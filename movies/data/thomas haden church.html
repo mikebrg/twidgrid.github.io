@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Thomas Haden Church | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Thomas Haden Church-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Thomas Haden Church</h3><span class="fo-5">United States</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Thomas Haden Church.jpg" alt="Thomas Haden Church"><h3>Thomas Haden Church</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>17 June 1960<p><strong>Age: </strong><span class="dob" data-dob="17-Jun-60"></span><p><strong>Years Active: </strong>1989-present</p><p><strong></strong></p><p><strong></strong></p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>Thomas Haden Church (born Thomas Richard McMillen; June 17, 1960) is an American actor. After starring in the 1990s sitcom Wings and playing the lead for two seasons in Ned & Stacey (1995–1997), Church became known for his film work, including his role of Lyle van de Groot in George of the Jungle (1997), his Academy Award–nominated performance in Sideways (2004), his role as the Marvel Comics villain Sandman in the superhero films Spider-Man 3 (2007) and Spider-Man: No Way Home (2021), as well as his starring roles in Over the Hedge (2006), Smart People (2008), Easy A (2010), We Bought a Zoo (2011), Max (2015), and Hellboy (2019). He also made his directorial debut with Rolling Kansas (2003). In 2023, he starred as antagonist Agent Stone in the post-apocalyptic action comedy series Twisted Metal.<p>Church was born Thomas Richard McMillen on June 17, 1960, in Woodland, Yolo County, California, to Maxine (née Sanders; 1936–2021) and Carlos "Carl" Richard McMillen (1936–2008), who served for eight years in the Marines and who was on active duty at the end of the Korean War; after 1962, Carl worked as a surveyor. Church's parents divorced, and he and his mother moved to Laredo, Texas. She remarried in 1969, to widower George A. Quesada, a veteran of an Army Air Forces reconnaissance unit which served in Guam in World War II. Church took his stepfather's surname for a time but changed it to 'Haden Church', extracted from the names of other relatives, when people found 'Quesada' difficult to pronounce. Church would often hunt with his stepfather and his stepfathers’ friends along the Rio Grande Valley and started working on a ranch in Webb County, Texas, when he was 13. He left high school in 1977 to work in the oil fields of Louisiana, but he returned to graduate from Harlingen High School in 1979. He attended the University of North Texas while living in Dallas.</li></ul>
+
+            <ul class="responsive-table"></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

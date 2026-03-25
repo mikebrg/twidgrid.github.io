@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Julianne Moore | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Julianne Moore-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Julianne Moore</h3><span class="fo-5">United States</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Julianne Moore.jpg" alt="Julianne Moore"><h3>Julianne Moore</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>03 December 1960<p><strong>Age: </strong><span class="dob" data-dob="03-Dec-60"></span><p><strong>Years Active: </strong>1984-present</p><p><strong></strong></p><p><strong></strong></p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>Julie Anne Smith (born December 3, 1960), known professionally as Julianne Moore, is an American actress. She is particularly known for her portrayals of emotionally troubled and vulnerable women. Prolific in independent films and blockbusters since the early 1990s, she is the recipient of numerous accolades, including an Academy Award, a BAFTA Award, two Emmy Awards, and two Golden Globe Awards. She is one of only two actresses to win the Best Actress award at all three major European film festivals—Cannes Film Festival, Berlin Film Festival, and the Venice Film Festival.<p>After studying theater at Boston University, she played a regular in the soap opera As the World Turns from 1985 to 1988, earning a Daytime Emmy. Moore made her breakthrough with Robert Altman's ensemble film Short Cuts (1993), followed by a critically acclaimed performance in Todd Haynes' Safe (1995). Starring roles in the blockbusters Nine Months (1995) and The Lost World: Jurassic Park (1997) established her as a Hollywood leading lady. She received Oscar nominations for her roles as a 1970s pornographic actress in the drama film Boogie Nights (1997) and emotionally unsatisfied housewives in the period dramas The End of the Affair (1999), Far from Heaven (2002), and The Hours (2002).<p>Moore's career progressed with roles in The Big Lebowski (1998), Magnolia (1999), Hannibal (2001), Children of Men (2006), A Single Man (2009), The Kids Are All Right (2010), Crazy, Stupid, Love (2011), and Maps to the Stars (2014). She won a Primetime Emmy for playing Sarah Palin in the HBO film Game Change (2012), and the Academy Award for Best Actress for her portrayal of an Alzheimer's patient in Still Alice (2014). Her highest-grossing releases came with the final two films in The Hunger Games film series (2014–2015) and the spy film Kingsman: The Golden Circle (2017). Since then she starred in independent films and streaming projects including Haynes' drama May December (2023), the historical drama miniseries Mary & George (2024), and the black comedy limited series Sirens (2025).<p>In addition to acting, Moore has written a series of children's books about a character named Freckleface Strawberry. She is married to director Bart Freundlich and they have two children. In 2015, Time named her to its 100 most influential people in the world list and in 2020, The New York Times named her one of the greatest actors of the 21st century.</li></ul>
+
+            <ul class="responsive-table"></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
