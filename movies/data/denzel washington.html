@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Denzel Washington | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Denzel Washington-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Denzel Washington</h3><span class="fo-5">United States</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Denzel Washington.jpg" alt="Denzel Washington"><h3>Denzel Washington</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>28 December 1954<p><strong>Age: </strong><span class="dob" data-dob="28-Dec-54"></span><p><strong>Years Active: </strong>1975-present</p><p><strong></strong></p><p><strong></strong></p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>Denzel Hayes Washington Jr. (born December 28, 1954) is an American actor, producer, director, and Holiness Pentecostal minister. Known for his dramatic roles on stage and screen, he has received numerous accolades including two Academy Awards, an Actor Award, two Golden Globes, two Silver Bears and a Tony Award as well as nominations for a Grammy Award and two Primetime Emmy Awards. In 2020, The New York Times named Washington the greatest actor of the 21st century. He has also been honored with the Cecil B. DeMille Award in 2016, AFI Life Achievement Award in 2019, the Honorary Palme d'Or in 2025, and the Presidential Medal of Freedom in 2025. Films in which he has appeared have grossed over $5.1 billion worldwide.<p>After training at the American Conservatory Theater, Washington began his career in theater, acting in performances off-Broadway. He first came to prominence in the NBC medical drama series St. Elsewhere (1982–1988), and in the war film A Soldier's Story (1984). Washington won Academy Awards for Best Supporting Actor for playing an American Civil War soldier in the war drama Glory (1989) and for Best Actor for playing a corrupt police officer in the crime thriller Training Day (2001). He was Oscar-nominated for his roles in Cry Freedom (1987), Malcolm X (1992), The Hurricane (1999), Flight (2012), Fences (2016), Roman J. Israel, Esq. (2017), and The Tragedy of Macbeth (2021).<p>Washington has starred in other notable films, including The Pelican Brief, Philadelphia (both 1993); Crimson Tide, Devil in a Blue Dress (both 1995); He Got Game (1998); Remember the Titans (2000); Man on Fire (2004); Déjà Vu, Inside Man (both 2006); American Gangster (2007); Unstoppable, The Book of Eli (both 2010); The Equalizer trilogy (2014–2023), Gladiator II (2024), and Highest 2 Lowest (2025). Washington has also directed the films Antwone Fisher (2002), The Great Debaters (2007), Fences (2016), and A Journal for Jordan (2021).<p>On stage, he has acted in The Public Theater productions of Coriolanus (1979) and The Tragedy of Richard III (1990). He made his Broadway debut in the Ron Milner play Checkmates (1988). He won the Tony Award for Best Actor in a Play for his role as a disillusioned working class father in the Broadway revival of August Wilson's play Fences (2010). He has also acted in the Broadway revivals of William Shakespeare's Julius Caesar (2005) and Othello (2025), Lorraine Hansberry's play A Raisin in the Sun (2014), and Eugene O'Neill's play The Iceman Cometh (2018).</li></ul>
+
+            <ul class="responsive-table"></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
