@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Robert Redford | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Robert Redford-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Robert Redford</h3><span class="fo-5">United States</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Robert Redford.jpg" alt="Robert Redford"><h3>Robert Redford</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>18 August 1936<p><strong>Years Active: </strong>1858-2025</p><p><strong>Died: </strong>16 September 2025</p><p><strong>Age: </strong>89</p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>Charles Robert Redford Jr. (August 18, 1936 – September 16, 2025) was an American actor, director and producer, celebrated for his magnetic presence as a leading man during the American New Wave. Across a career spanning more than six decades, Redford earned widespread recognition and numerous awards, including an Academy Award, a BAFTA Award and five Golden Globe Awards, (including a Cecil B. DeMille Award in 1994). He has also received various honors including the Screen Actors Guild Life Achievement Award in 1996, the Academy Honorary Award in 2002, the Kennedy Center Honors in 2005, the Presidential Medal of Freedom in 2016 and the Honorary César in 2019.<p>Redford began his career on television in the late 1950s, appearing in anthology series such as Alfred Hitchcock Presents and The Twilight Zone. He made his Broadway debut in Neil Simon's comedy Barefoot in the Park (1963) before taking film roles in War Hunt (1962) and Inside Daisy Clover (1965). He then achieved Hollywood stardom with Barefoot in the Park (1967), Butch Cassidy and the Sundance Kid (1969), Downhill Racer (1969), Jeremiah Johnson (1972), The Candidate (1972) and The Sting (1973), with the last earning him an Academy Award nomination.<p>His stardom continued with films such as The Way We Were (1973), The Great Gatsby (1974), Three Days of the Condor (1975), The Great Waldo Pepper (1975), All the President's Men (1976), The Electric Horseman (1979), The Natural (1984) and Out of Africa (1985). Later credits include Sneakers (1992), Indecent Proposal (1993), An Unfinished Life (2005), All Is Lost (2013), Truth (2015), Our Souls at Night (2017) and The Old Man & the Gun (2018). He also played Alexander Pierce in the MCU films Captain America: The Winter Soldier (2014) and Avengers: Endgame (2019), and the latter serving as his final on-screen role.<p>Redford made his directorial debut with the family drama Ordinary People (1980), which won four Academy Awards including Best Picture and Best Director. His later directing credits include The Milagro Beanfield War (1988), A River Runs Through It (1992), Quiz Show (1994), The Horse Whisperer (1998) and The Legend of Bagger Vance (2000). A major advocate for independent cinema, Redford co-founded the Sundance Institute and the Sundance Film Festival in 1978, helping to foster a new generation of filmmakers. Beyond his artistic career, he was noted for his environmental activism, his support of Native American and Indigenous rights and his advocacy for LGBTQ equality.</li></ul>
+
+            <ul class="responsive-table"></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
