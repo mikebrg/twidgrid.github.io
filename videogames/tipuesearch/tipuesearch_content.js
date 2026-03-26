@@ -1,6 +1,18 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	MARVEL MaXimum Collection	", "text": "		", "img": "img/	MARVEL MaXimum Collection.jpg	", "tags": "	Nintendo Switch, Xbox Series X, PC, PlayStation 5	", "note": "		", "url": "	index.html#:~:text=MARVEL MaXimum Collection	"},
+{"title": "	Mega Man Star Force Legacy Collection	", "text": "		", "img": "img/	Mega Man Star Force Legacy Collection.jpg	", "tags": "	PlayStation 5, Xbox Series X, PC, Xbox One, PlayStation 4, Nintendo Switch	", "note": "		", "url": "	index.html#:~:text=Mega Man Star Force Legacy Collection	"},
+{"title": "	Copa City	", "text": "		", "img": "img/	Copa City.jpg	", "tags": "	PlayStation 5, Xbox Series X, PC	", "note": "		", "url": "	index.html#:~:text=Copa City	"},
+{"title": "	Damon and Baby	", "text": "		", "img": "img/	Damon and Baby.jpg	", "tags": "	Nintendo Switch, PlayStation 5, PlayStation 4, PC	", "note": "		", "url": "	index.html#:~:text=Damon and Baby	"},
+{"title": "	EverSiege: Untold Ages	", "text": "		", "img": "img/	EverSiege Untold Ages.jpg	", "tags": "	PC	", "note": "		", "url": "	index.html#:~:text=EverSiege: Untold Ages	"},
+{"title": "	Life Is Strange: Reunion	", "text": "		", "img": "img/	Life Is Strange Reunion.jpg	", "tags": "	PlayStation 5, PC, Xbox Series X	", "note": "		", "url": "	index.html#:~:text=Life Is Strange: Reunion	"},
+{"title": "	Nova Roma	", "text": "		", "img": "img/	Nova Roma.jpg	", "tags": "	PC	", "note": "		", "url": "	index.html#:~:text=Nova Roma	"},
+{"title": "	Nutmeg!	", "text": "		", "img": "img/	Nutmeg!.jpg	", "tags": "	PC	", "note": "		", "url": "	index.html#:~:text=Nutmeg!	"},
+{"title": "	Screamer	", "text": "		", "img": "img/	Screamer.jpg	", "tags": "	Xbox Series X, PlayStation 5, PC	", "note": "		", "url": "	index.html#:~:text=Screamer	"},
+{"title": "	Super Mario Bros. Wonder – Nintendo Switch 2 Edition + Meetup in Bellabel Park	", "text": "		", "img": "img/	Super Mario Bros. Wonder – Nintendo Switch 2 Edition + Meetup in Bellabel Park.jpg	", "tags": "	Nintendo Switch 2	", "note": "		", "url": "	index.html#:~:text=Super Mario Bros. Wonder – Nintendo Switch 2 Edition + Meetup in Bellabel Park	"},
+{"title": "	Ariana and the Elder Codex	", "text": "		", "img": "img/	Ariana and the Elder Codex.jpg	", "tags": "	PlayStation 5, PlayStation 4, Nintendo Switch, PC	", "note": "		", "url": "	index.html#:~:text=Ariana and the Elder Codex	"},
+
 	{"title": "	Monster Hunter Stories 3: Twisted Reflection	", "text": "	Twin Rathalos born in a twist of fate.	", "img": "img/	Monster Hunter Stories 3 Twisted Reflection.jpg	", "tags": "	Nintendo Switch 2, PC, PlayStation 5, Xbox Series X	", "note": "		", "url": "	index.html#:~:text=Monster Hunter Stories 3: Twisted Reflection	"},
 {"title": "	WWE 2K26	", "text": "	The Show Never Stops in WWE 2K26, with 400+ Superstars and Legends ready to throw down.	", "img": "img/	WWE 2K26.jpg	", "tags": "	PlayStation 5, Xbox Series X, PC, Nintendo Switch 2	", "note": "		", "url": "	index.html#:~:text=WWE 2K26	"},
 {"title": "	1348 Ex Voto	", "text": "	Brave the harsh realities of the Italian late medieval period through the eyes of a courageous noble whose life is about to change fundamentally.	", "img": "img/	1348 Ex Voto.jpg	", "tags": "	Xbox Series X, PlayStation 5, PC	", "note": "		", "url": "	index.html#:~:text=1348 Ex Voto	"},
