@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Toni Collette | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Toni Collette-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Toni Collette</h3><span class="fo-5">Australia</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Toni Collette.jpg" alt="Toni Collette"><h3>Toni Collette</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>01 November 1972<p><strong>Age: </strong><span class="dob" data-dob="01-Nov-72"></span><p><strong>Years Active: </strong>1990-present</p><p><strong></strong></p><p><strong></strong></p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>Toni Collette (born Collett; 1 November 1972) is an Australian actress and singer-songwriter. She is known for starring in television, independent and blockbuster films, noted for her portrayals of troubled and multi-faceted women. Her accolades include five AACTA Awards, a Golden Globe Award, and a Primetime Emmy Award, in addition to nominations for an Academy Award, two British Academy Film Awards and a Tony Award.<p>Collette made her film debut in the 1992 film Spotswood. Her breakthrough came playing a socially awkward romantic lead in Muriel's Wedding (1994), which earned her a nomination for the Golden Globe for Best Actress. After appearing in Emma (1996) and Velvet Goldmine (1998), she was nominated for the Academy Award for Best Supporting Actress for playing a grieving mother in the thriller The Sixth Sense (1999). She was twice nominated for the BAFTA Award for Best Supporting Actress for her performances as troubled women in the romantic drama About a Boy (2002) and the tragicomedy Little Miss Sunshine (2006). She has also acted in The Hours (2002), Japanese Story (2003), In Her Shoes (2005), Mary and Max (2009), The Way, Way Back (2013), Hereditary (2018), Knives Out (2019), I'm Thinking of Ending Things (2020), Nightmare Alley (2021), Juror No. 2 (2024), and Mickey 17 (2025).<p>On television, Collette starred as a suburban mother with dissociative identity disorder in the Showtime comedy-drama series United States of Tara (2008–2011), earning the Primetime Emmy Award for Outstanding Lead Actress in a Comedy Series. She was later Emmy-nominated for playing a police detective in the Netflix miniseries Unbelievable (2019) and Kathleen Peterson in the Max miniseries The Staircase (2022). She starred as the founder of a reform academy for troubled teens in the Netflix limited series Wayward (2025). On stage, she made her Broadway debut playing a vaudeville dancer in the musical The Wild Party (2000), for which she earned a Tony Award for Best Actress in a Musical nomination. She returned to Broadway in the play The Realistic Joneses (2014).<p>As the lead singer of Toni Collette & the Finish, Collette wrote all 11 tracks of their sole album, Beautiful Awkward Pictures (2006). The band toured Australia but have not performed nor released any new material since 2007. She co-founded the film production company Vocab Films in 2017.</li></ul>
+
+            <ul class="responsive-table"></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
