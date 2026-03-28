@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>A$AP Rocky | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/A$AP Rocky-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>A$AP Rocky</h3><span class="fo-5">New York City, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/aap-rocky.webp" alt="A$AP Rocky"><h3>A$AP Rocky</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>03 October 1988<p><strong>Age: </strong><span class='dob' data-dob='03-Oct-1988'></span><p><strong>Years Active: </strong>2007-present</p><p><strong>Genre/s: </strong>East Coast hip-hop, psychedelic rap, experimental hip hop, alternative hip hop, cloud rap</strong><p><strong>Label/s: </strong>ASAP Worldwide, AWGE, Polo Grounds, RCA<p><strong>Member of: </strong>ASAP Mob</p></li><li class="table-cell"><img src="" style="display: none;"><p>Rakim Athelston Mayers (born October 3, 1988), known professionally as ASAP Rocky (/ˈeɪsæp/ AY-sap; stylized as A$AP Rocky), is an American rapper, record producer, actor, fashion designer and model. Born and raised in Harlem, he embarked on his musical career as a member of the hip hop collective ASAP Mob, from which he adopted his stage name. In August 2011, Mayers' single "Peso" was leaked online and began receiving radio airplay within weeks, propelling cloud rap into mainstream attention. He signed with Polo Grounds Music, an imprint of RCA Records, that October and released his debut mixtape, Live. Love. A$AP to widespread critical acclaim.<p>Mayers' 2012 single, "Fuckin' Problems" (featuring Drake, 2 Chainz and Kendrick Lamar), marked his first entry—at number eight—on the Billboard Hot 100, was nominated for Best Rap Song at the 56th Annual Grammy Awards, and preceded his debut studio album, Long. Live. A$AP (2013). A critical and commercial success, it debuted atop the Billboard 200 and received double platinum certification by the Recording Industry Association of America (RIAA). His second album, At. Long. Last. A$AP (2015), also debuted atop the chart and saw continued critical praise; its two lead singles, "Lord Pretty Flacko Jodye 2 (LPFJ2)" and "Everyday" (featuring Rod Stewart, Miguel and Mark Ronson), both received double platinum certifications by the RIAA, while its third, "L$D", was nominated for Best Music Video at the 58th Annual Grammy Awards. His third album, Testing (2018), debuted within the Billboard 200's top five, while his fourth album, Don't Be Dumb (2026), debuted atop the chart.<p>Aside from his musical career, Mayers founded the creative agency and record label AWGE in 2014. AWGE launched partnerships with Marine Serre, Amina Muaddi, Moncler, JW Anderson, Under Armour, PacSun, Vans, Mercedes-Benz, Selfridges, as well as conceptual collaborations with MTV and Needles. Mayers co-launched cult fashion label VLONE, co-chaired the Met Gala in 2025 and spearheaded campaigns for DKNY, Calvin Klein, Gucci, Bottega Veneta, Ferragamo, Beats by Dre, Dior Homme and more. As of 2025, he serves as the creative director for Puma F1 and Ray-Ban. As an actor, Mayers has had supporting roles in Dope (2015), Monster (2018), Spike Lee's Highest 2 Lowest (2025) alongside Denzel Washington, and If I Had Legs I'd Kick You (2025).<p>Mayers has received accolades such as a BET Award, two BET Hip Hop Awards, an MTV Video Music Award Japan and an MTVU Woodie Award. His creative entrepreneurship has been rewarded with the Global Style Icon Award, the Virgil Abloh award, the Cultural Innovator Award, the Collaboration Of The Year Award, and the Fashion Icon Award. He has been nominated for two Grammy Awards, six World Music Awards, three MTV Video Music Awards and two MTV Europe Music Awards. Furthermore, Mayers has co-directed most of his own music videos, as well as worked in production or co-writing for other artists, often under the pseudonym Lord Flacko.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

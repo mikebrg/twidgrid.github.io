@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>21 Savage | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/21 Savage-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>21 Savage</h3><span class="fo-5">Atlanta, Georgia, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/21-savage.webp" alt="21 Savage"><h3>21 Savage</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>22 October 1992<p><strong>Age: </strong><span class='dob' data-dob='22-Oct-1992'></span><p><strong>Years Active: </strong>2013-present</p><p><strong>Genre/s: </strong>Southern hip-hop, trap, mumble rap</strong><p><strong>Label/s: </strong>Slaughter Gang, RED, Epic</p></li><li class="table-cell"><img src="" style="display: none;"><p>Shéyaa Bin Abraham-Joseph (born October 22, 1992), known professionally as 21 Savage, is a British-born rapper based in Atlanta, Georgia. Born in London and raised in the US, he began his recording career in 2013 and released three independent mixtapes to regional acclaim. His breakout project—the collaborative extended play (EP) with record producer Metro Boomin titled Savage Mode (2016)—peaked at number 23 on the Billboard 200. Its lead singles, "X" (featuring Future) and "No Heart" both peaked within the top 40 of the Billboard Hot 100. Later that year, he saw further recognition for his guest appearance on Drake's single "Sneakin'". He then signed a recording contract with Epic Records in January 2017.<p>21 Savage's debut studio album, Issa Album (2017), peaked at number two on the Billboard 200, while its lead single, "Bank Account" peaked at number 12 on the Billboard Hot 100. That same year, he released the collaborative album Without Warning (2017) with Metro Boomin and fellow Georgia-based rapper Offset, and guest appeared on Post Malone's 2017 single "Rockstar", which peaked atop the Billboard Hot 100 and received two nominations—Record of the Year and Best Rap/Sung Performance—at the 61st Annual Grammy Awards. His second album, I Am > I Was (2018), became his first to debut atop the Billboard 200 and spawned the single "A Lot" (featuring J. Cole), which won Best Rap Song at the 62nd Annual Grammy Awards. The following year, he and Metro Boomin released a sequel to their breakout EP with Savage Mode II (2020), which also debuted atop the Billboard 200 and spawned the top ten-singles "Runnin" and "Mr. Right Now" (featuring Drake). He guest appeared on Drake's 2022 single "Jimmy Cooks", which marked his first song to debut atop the Hot 100 and second to do so overall. Later that year, he and Drake released the collaborative album Her Loss (2022), which saw continued success as his third project to peak the Billboard 200. His third album, American Dream (2024), became his fourth consecutive chart-topping project, and spawned the Billboard Hot 100 top-ten songs "Redrum" and "Née-Nah".<p>21 Savage was arrested by U.S. Immigration and Customs Enforcement (ICE) on February 3, 2019. Officials revealed his status as a British citizen who entered the U.S. in July 2005 and unlawfully overstayed an H-4 visa that expired in 2006. He was granted bond on February 12 and released the next day, pending the outcome of an expedited deportation hearing, which was initially scheduled for April 9, but was later postponed indefinitely, with 21 Savage's lawyers stating he was legally residing in the U.S. for several years prior to the 2005 H-4 visa. In 2023, 21 Savage became a lawful permanent resident of the United States and received his green card.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
