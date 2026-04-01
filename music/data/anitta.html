@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Anitta | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Anitta-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Anitta</h3><span class="fo-5">Brazil</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/anitta-990x660.jpg" alt="Anitta"><h3>Anitta</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>30 March 1993<p><strong>Age: </strong><span class='dob' data-dob='30-Mar-1993'></span><p><strong>Years Active: </strong>2010-present</p><p><strong>Genre/s: </strong>Pop, Brazilian funk, reggaeton</strong><p><strong>Label/s: </strong>Floresta, Republic, Universal Latin, Warner, Warner Brasil</p></li><li class="table-cell"><img src="" style="display: none;"><p>Larissa de Macedo Machado (born 30 March 1993), known professionally as Anitta (Brazilian Portuguese: [ɐˈnitɐ] ), is a Brazilian singer, songwriter, dancer, actress, and occasional television host. One of Brazil's most prominent artists, she became known for her versatile style and mixing genres such as pop, funk, reggaeton and electronic music. She has received numerous accolades, including one Brazilian Music Award, four Latin American Music Awards, three MTV Music Video Awards, nine MTV Europe Music Awards, two Guinness World Records, and nominations for two Grammy Award and ten Latin Grammy Awards, in addition to being the Brazilian female singer with the most entries on the Billboard Hot 100. She has been referred to as the "Queen of Brazilian Pop".<p>Shortly after the release of her debut single, "Meiga e Abusada" (2012), Anitta signed a recording contract with Warner Music Brazil and released her self-titled debut album in 2013, which entered at number one and was certified platinum in Brazil. It produced the hit singles "Show das Poderosas" and "Zen", her first number-one on the Billboard Brasil Hot 100 and Latin Grammy nomination. In 2014, she released her second studio album Ritmo Perfeito alongside the live album Meu Lugar to further commercial success. Her third studio album, Bang (2015), spawned the top-ten singles "Deixa Ele Sofrer" and "Bang" and cemented Anitta's standing as a major star on the Brazilian record charts. In 2017, Anitta released her first song fully in Spanish, "Paradinha", which accelerated her crossover to Spanish-language Latin and reggaeton genres, and released a project entitled CheckMate, featuring several international collaborations and hits such as "Downtown" and "Vai Malandra". Her trilingual fourth studio-visual album, Kisses (2019), earned a nomination for the Latin Grammy Award for Best Urban Music Album.<p>Anitta's diamond-certified fifth studio album, Versions of Me (2022), contained the lead single "Envolver", which topped the Billboard Brazil Songs chart and became her breakthrough hit internationally. The song peaked at number one on the Billboard Global Excl. U.S. chart and number two on the Billboard Global 200, making Anitta the first Brazilian artist to lead a global music chart. It also garnered her a Guinness World Record for being the first solo Latin artist and the first Brazilian act to reach number one on Spotify's Global Top 200 chart. She became the first Brazilian artist to win the American Music Award for Favorite Latin Artist and the MTV Video Music Award for Best Latin for "Envolver"; she won the latter award two more consecutive times for "Funk Rave" and "Mil Veces" from her sixth studio album, Funk Generation (2024), which earned her first Brazilian Music Awards win for Release in a Foreign Language. She also earned her second Grammy (2025) nomination for Best Latin Pop Album; previously, Anitta had been nominated for Best New Artist at the 65th Annual Grammy Awards and featured on Forbes's 2023 30 Under 30.<p>Anitta has been described by the media as a sex symbol and is considered as one of the most influential artists in the world on social media, featuring on the Time 100 Next list. She is also known for her philanthropic work. The causes she promotes include climate change, conservation, the environment, health, and right to food; she also dedicates herself to advocating for LGBT, indigenous and women's rights.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

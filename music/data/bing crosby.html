@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Bing Crosby | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Bing Crosby-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Bing Crosby</h3><span class="fo-5">Washington, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/bing-crosby.webp" alt="Bing Crosby"><h3>Bing Crosby</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>03 May 1903<p><strong>Years Active: </strong>1903-1977</p><p><strong>Died: </strong>14 October 1977<p><strong>Age: </strong>74<p><strong>Genre/s: </strong>Traditional pop, jazz, easy listening, big band</strong><p><strong>Label/s: </strong>Decca, Columbia, RCA Victor, Brunswick, Reprise, Capitol, Verve, United Artists</p></li><li class="table-cell"><img src="" style="display: none;"><p>Harry Lillis "Bing" Crosby Jr. (May 3, 1903 – October 14, 1977) was an American singer and actor. One of the first multimedia stars, he was one of the most popular and influential musical artists of the 20th century worldwide. Crosby was a leader in record sales, network radio ratings, and motion picture grosses from 1926 to 1977. He was one of the first global cultural icons. Crosby made over 70 feature films and recorded more than 1,600 songs.<p>Crosby's early career coincided with recording innovations that allowed him to develop an intimate singing style that influenced many male singers who followed, such as Frank Sinatra, Perry Como, Dean Martin, Dick Haymes, Elvis Presley, and John Lennon. Yank magazine said that Crosby was "the person who had done the most for the morale of overseas servicemen" during World War II. In 1948, American polls declared him the "most admired man alive", ahead of Jackie Robinson and Pope Pius XII. In 1948, Music Digest estimated that Crosby's recordings filled more than half of the 80,000 weekly hours allocated to recorded radio music in North America.<p>Crosby won the Academy Award for Best Actor for his performance in Going My Way (1944) and was nominated for its sequel, The Bells of St. Mary's (1945), opposite Ingrid Bergman, becoming the first of six actors to be nominated twice for playing the same character. Crosby was the number one box office attraction for five consecutive years from 1944 to 1948. At his screen apex in 1946, Crosby starred in three of the year's five highest-grossing films: The Bells of St. Mary's, Blue Skies, and Road to Utopia. In 1963, he received the first Grammy Global Achievement Award. Crosby is one of 33 people to have three stars on the Hollywood Walk of Fame, in the categories of motion pictures, radio, and audio recording. He was also known for his collaborations with his friend Bob Hope, starring in the Road to ... films from 1940 to 1962. Crosby has been associated with the Christmas season since he starred in Irving Berlin's musical film Holiday Inn and also sang "White Christmas" in the film of the same name.<p>Crosby influenced the development of the post–World War II recording industry. After seeing a demonstration of a German broadcast quality reel-to-reel tape recorder brought to the United States by John T. Mullin, Crosby invested $50,000 in the California electronics company Ampex to build copies. He then persuaded ABC to allow him to tape his shows and became the first performer to prerecord his radio shows and master his commercial recordings onto magnetic tape. Through audio recordings, Crosby produced his radio programs with the same directorial tools and craftsmanship (editing, retaking, rehearsal, time shifting) used in motion picture production, a practice that became the industry standard. In addition to his work with early audio tape recording, Crosby helped finance the development of videotape, bought television stations, bred racehorses, and co-owned the Pittsburgh Pirates baseball team, during which time the team won two World Series (1960 and 1971).</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

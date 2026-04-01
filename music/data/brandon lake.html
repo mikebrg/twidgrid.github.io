@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Brandon Lake | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Brandon Lake-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Brandon Lake</h3><span class="fo-5">Charleston, South Carolina, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/brandon-lake-704x704.jpg" alt="Brandon Lake"><h3>Brandon Lake</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>21 June 1990<p><strong>Age: </strong><span class='dob' data-dob='21-Jun-1990'></span><p><strong>Years Active: </strong>2015-present</p><p><strong>Genre/s: </strong>Contemporary worship music, CCM</strong><p><strong>Label/s: </strong>Bethel Music, Tribl, Provident</p></li><li class="table-cell"><img src="" style="display: none;"><p>Michael Brandon Lake (born June 21, 1990), known professionally as Brandon Lake, is an American contemporary Christian singer-songwriter and guitarist. He writes songs at Seacoast Church in Charleston, South Carolina, and is a former member of Bethel Music and Maverick City Music. Lake began his recording career in 2015 with a successful crowdfunding campaign to produce an album, which resulted in the independent release of his debut studio album, Closer, in 2016.<p>Lake signed with Bethel Music in January 2019, and made his debut on the record label by releasing his version of Tasha Cobbs Leonard's hit single "This Is a Move". For his contributions as a songwriter on "This Is a Move", Lake received the GMA Dove Award Gospel Worship Recorded Song of the Year in the 2019 GMA Dove Awards. "This Is a Move" also earned Lake his first Grammy Award nomination for Best Gospel Performance/Song in the 2020 Grammy Awards. In 2020, he released his second studio album House of Miracles, which contained the singles "I Need a Ghost" and "Just Like Heaven". House of Miracles peaked at number six on Billboard's Top Christian Albums chart in the United States. In 2022, Lake released Help!, his third studio album, which is about mental health. Help! debuted at number 18 on the Billboard Top Christian Albums chart in the United States. He released "Gratitude" as his third single from House of Miracles (2020), which became his first solo Hot Christian Songs number one single. He collaborated with Brooke Ligertwood on the single "Honey in the Rock" and with Maverick City Music, Kirk Franklin, and Chandler Moore on "Fear Is Not My Future". He released his fourth studio album, Coat of Many Colors, in 2023.<p>Lake is featured on Elevation Worship's hit single "Graves into Gardens", which became the first number one Hot Christian Songs chart single for both acts, and peaked at number two on the Bubbling Under Hot 100 chart in the United States. In 2021, he released the single "Too Good to Not Believe" with Bethel Music, as well as notable collaborations with Elevation Worship and Maverick City Music on "Talking to Jesus" and Chris Tomlin on "I See You". Lake garnered seven nominations at the 2021 GMA Dove Awards and won in two categories, Songwriter of the Year and Worship Recorded Song of the Year for "Graves into Gardens".</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
