@@ -1,6 +1,25 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	Swim	", "text": "	Swim is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Swim	"},
+{"title": "	Body To Body	", "text": "	Body To Body is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Body To Body	"},
+{"title": "	Hooligan	", "text": "	Hooligan is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hooligan	"},
+{"title": "	FYA	", "text": "	FYA is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=FYA	"},
+{"title": "	Normal	", "text": "	Normal is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Normal	"},
+{"title": "	Rethink Some Things	", "text": "	Rethink Some Things is a song by Luke Combs released in 2026	", "img": "img/	Rethink Some ThingsLuke Combs2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Rethink Some Things	"},
+{"title": "	Aliens	", "text": "	Aliens is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Aliens	"},
+{"title": "	2.0	", "text": "	2.0 is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=2.0	"},
+{"title": "	Merry Go Round	", "text": "	Merry Go Round is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Merry Go Round	"},
+{"title": "	Like Animals	", "text": "	Like Animals is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Like Animals	"},
+{"title": "	Loving Life Again	", "text": "	Loving Life Again is a song by Ella Langley released in 2026	", "img": "img/	Loving Life AgainElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Loving Life Again	"},
+{"title": "	They Don't Know 'bout Us	", "text": "	They Don't Know 'bout Us is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=They Don't Know 'bout Us	"},
+{"title": "	One More Night	", "text": "	One More Night is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=One More Night	"},
+{"title": "	Please	", "text": "	Please is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Please	"},
+{"title": "	Into The Sun	", "text": "	Into The Sun is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Into The Sun	"},
+{"title": "	Can't Sit Still	", "text": "	Can't Sit Still is a song by Lainey Wilson released in 2026	", "img": "img/	Can't Sit StillLainey Wilson2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Can't Sit Still	"},
+{"title": "	Go Away	", "text": "	Go Away is a song by Weezer released in 2014	", "img": "img/	Go AwayWeezer2014.png	", "tags": "		", "note": "		", "url": "	2014.html#:~:text=Go Away	"},
+{"title": "	Freakin' Out	", "text": "	Freakin' Out is a song by Dexter And The Moonrocks released in 2026	", "img": "img/	Freakin' OutDexter And The Moonrocks2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Freakin' Out	"},
+
      {"title": "	Porch Light	", "text": "	Porch Light is a song by Noah Kahan released in 2026	", "img": "img/	Porch LightNoah Kahan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Porch Light	"},
 {"title": "	The Visitor	", "text": "	The Visitor is a song by Sienna Spiro released in 2026	", "img": "img/	The VisitorSienna Spiro2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Visitor	"},
 {"title": "	Motion Party	", "text": "	Motion Party is a song by BossMan Dlow released in 2026	", "img": "img/	Motion PartyBossMan Dlow2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Motion Party	"},
