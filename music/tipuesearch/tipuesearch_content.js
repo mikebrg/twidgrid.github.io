@@ -1,6 +1,12 @@
 
 var tipuesearch = {"pages": [
 
+     {"title": "	ARIRANG	", "text": "	ARIRANG is an album by BTS released in 2026	", "img": "img/	ARIRANGBTS2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=ARIRANG	"},
+{"title": "	The Way I Am	", "text": "	The Way I Am is an album by Luke Combs released in 2026	", "img": "img/	TheWayIAmLukeCombs2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Way I Am	"},
+{"title": "	600 Entertainment: 6WA	", "text": "	600 Entertainment: 6WA is an album by BigXthaPlug & Ro$ama & Various Artists released in 2026	", "img": "img/	600Entertainment6WABigXthaPlug&Ro$ama&VariousArtists2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=600 Entertainment: 6WA	"},
+{"title": "	Future Soul	", "text": "	Future Soul is an album by Tedeschi Trucks Band released in 2026	", "img": "img/	FutureSoulTedeschiTrucksBand2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Future Soul	"},
+{"title": "	R3SET	", "text": "	R3SET is an album by Mike Will Made-It released in 2026	", "img": "img/	R3SETMikeWillMade-It2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=R3SET	"},
+
      {"title": "	Swim	", "text": "	Swim is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Swim	"},
 {"title": "	Body To Body	", "text": "	Body To Body is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Body To Body	"},
 {"title": "	Hooligan	", "text": "	Hooligan is a song by BTS released in 2026	", "img": "img/	SwimBTS2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hooligan	"},
