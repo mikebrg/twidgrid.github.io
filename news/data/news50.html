@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Kyiv street to be named for former Ukrainian parliament chairman Andriy Parubiy, killed in Lviv | News</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/news50-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> News</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Kyiv street to be named for former Ukrainian parliament chairman Andriy Parubiy, killed in Lviv</h3><span class="fo-5">2026, January 5</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../search.html#latestnews">Latest News</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/news50.jpg" alt="Kyiv street to be named for former Ukrainian parliament chairman Andriy Parubiy, killed in Lviv"><li class="table-cell"><img src="" style="display: none;"><h3>Kyiv street to be named for former Ukrainian parliament chairman Andriy Parubiy, killed in Lviv</h3><p><strong>2026, January 5<p>Ukraine<p></strong>A street in Kyiv will be named after the former Speaker of the Parliament Andriy Parubiy, killed in Lviv. The initiative to commemorate the prominent Ukrainian politician was supported by 57% of participants in a public poll on "Kyiv Digital" application. On January 1, Maryna Poroshenko, the leader of “European Solidarity”, announced the street name in the Kyiv City Council and on Facebook. As the result, a section along Mariinsky Park – from Hrushevskoho Street to Parkova Road – will bear the politician's name, named "Andrei Parubia Street".<p>In December, former President of Ukraine and head of the European Solidarity party Petro Poroshenko asked the residents of Kyiv to support the vote to name the street after Parubiy. The street had no name at the time of the proposal.<p>"This place is significant for our team and for Andriy himself — a significant part of his journey is connected with it," Poroshenko said.<p>On October 1, 2025, President Volodymyr Zelenskyy signed a decree awarding Parubiy the title of Hero of Ukraine. A petition to award the title of Hero of Ukraine to Parubiy was registered on the presidential website on September 2, gaining 25,000 signatures, which was necessary for the proposal to be considered by President. The Verkhovna Rada, the Ukrainian parliament, also supported the request.<p>Parubiy was among several people who were conferred Heroes of Ukraine. Others were writer Volodymyr Vakulenko and student and footballer Stepan Chubenko. Poroshenko lauded the decision, recalling that "Parubiy dedicated his entire life to serving Ukraine".<p>Andriy Parubiy, 54, who served as the Chairman of Verkhovna Rada from 14 April 2016 to 29 August 2019, was shot and killed in Lviv on 30 August 2025. He died at the scene from injuries. The killing happened amid the Russian invasion, which started in 2022.<p>The shooter managed to escape. Later, Ukrainian authorities detained a suspect, and allege there is a Russian link to the killing.<p>Parubiy was an active participant of Euromaidan. He also served as Secretary of the National Security and Defence Council of Ukraine from February till August 2014.<p>The suspected killer of Ukrainian lawmaker Andriy Parubiy admitted on 2 September his role in the killing. He claimed to have comitted the crime in an act of "revenge" against the country’s authorities. He denied having worked with Russian special services.
+</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

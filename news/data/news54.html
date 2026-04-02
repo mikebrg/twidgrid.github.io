@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Opposition leader Tarique Rahman returns to Bangladesh after 17 years | News</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/news54-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> News</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Opposition leader Tarique Rahman returns to Bangladesh after 17 years</h3><span class="fo-5">2025, December 28</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../search.html#latestnews">Latest News</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/news54.jpg" alt="Opposition leader Tarique Rahman returns to Bangladesh after 17 years"><li class="table-cell"><img src="" style="display: none;"><h3>Opposition leader Tarique Rahman returns to Bangladesh after 17 years</h3><p><strong>2025, December 28<p>Bangladesh<p></strong>Tarique Rahman, the acting chairman of the Bangladesh Nationalist Party (BNP) returned to Bangladesh on December 25, 2025, landing in Dhaka after 17 years in self-imposed exile in London. His arrival marks a significant development in the country's political landscape following the ouster of former Prime Minister Sheikh Hasina in August 2024. Rahman is the son of Khaleda Zia, the official chairperson of the party and former Prime Minister of Bangladesh.<p>Upon landing at Hazrat Shahjalal International Airport in Dhaka, Rahman was greeted by thousands of Bangladesh Nationalist Party supporters amid tight security. Accompanied by his wife, Zubaida Rahman, and daughter, Zaima Rahman, he addressed a rally, emphasizing national unity, inclusivity across religious lines, and the vision of a democratic and economically strong Bangladesh. He drew parallels to the country's 1971 war of independence.<p>Rahman, aged 60, left Bangladesh in 2008 for medical treatment after being released on bail following 18 months in detention during the military-backed government's rule from 2006 to 2008. He was convicted in absentia of charges including corruption, money laundering, and involvement in a 2004 grenade attack on a political rally for his political rival, Sheikh Hasina. These convictions were overturned or stayed after Hasina's government's fall.<p>His return comes amid preparations for general elections scheduled for early 2026, under an interim government led by Nobel laureate Muhammad Yunus. The elections follow a student-led uprising in 2024 that resulted in Hasina's removal and her subsequent flight to India. The protests, initially sparked by opposition to a job quota system, escalated into broader anti-government demonstrations, leading to an estimated 1,400 deaths according to United Nations figures. Hasina has since been sentenced to death in absentia for crimes against humanity related to the crackdown.<p>According to a December poll by the International Republican Institute, the BNP is the frontrunner for the election with 30 percent support. The party has recently distanced itself from allies like Jamaat-e-Islami to adopt a more centrist approach. However, challenges remain, including integrating party factions, maintaining law and order, and addressing potential unrest from Awami League supporters. The Awami League was not allowed to participate in the elections.<p>Rahman's mother, Khaleda Zia, 80, is hospitalised in critical condition since November 2025. She was the BNP's acting chairman since 2018 and was jailed most of the times during Hasina's administration.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Stunt performer set ablaze for cover artwork of Pink Floyd album dies aged 88 | News</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/news10-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> News</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Stunt performer set ablaze for cover artwork of Pink Floyd album dies aged 88</h3><span class="fo-5">2025, August 19</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../search.html#latestnews">Latest News</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/news10.jpg" alt="Stunt performer set ablaze for cover artwork of Pink Floyd album dies aged 88"><li class="table-cell"><img src="" style="display: none;"><h3>Stunt performer set ablaze for cover artwork of Pink Floyd album dies aged 88</h3><p><strong>2025, August 19<p>United States<p></strong>On August 12, Ronnie Rondell Jr., the stunt performer best known for appearing as the man set ablaze on the front cover artwork of English rock band Pink Floyd's 1975 studio album Wish You Were Here, died at an assisted living facility in Osage Beach, Missouri. His death was announced by his family on a funeral home website on August 17. His cause of death was not specified. He was 88 years old.<p>Rondell was born in 1937. He graduated North Hollywood High School before enlisting in the US Navy, where he excelled at scuba diving and mining. He later began working as a stunt double for films and television. Some of his stunts included gymnastics and hang gliding.<p>Most notably in 1975, he appeared engulfed in flames on Pink Floyd's album cover alongside another stunt performer. The photo was to give the interpretation of one music business executive getting "burned" by another executive in a business dealing.<p>The photoshoot was done in the Warner Bros. lot in Burbank. Fifteen pictures were taken in total. Despite wearing fire retardant underneath his business suit, on the final picture Rondell's mustache was disintegrated during the photoshoot, and his face was burned due to the wind. He reportedly "threw himself on the ground" and required the crew to throw blankets on him. Aubrey Powell, the photographer hired for the shoot, recalled in 2020 that Rondell said: "That's it! I'm done!" Powell said: "I knew I had got a special picture. It took a long time to persuade Ronnie to stand exactly as I wanted but in the end he was very brave and it was a perfect composition."<p>He sustained numerous injuries throughout his career, including but not limited to concussions and broken ribs. He was quoted saying: "You never told anyone you were hurt because they always had another guy that could fit the clothes." He retired in 2000.<p>Other films he was involved with include Lethal Weapon, Thelma And Louise, Batman & Robin, Twister and Star Trek: First Contact. His final credit was in 2003's The Matrix Reloaded, in which he came out of retirement to film a car chase scene.<p>Rondell left behind a wife of 56 years and a son. Another son of his, who also worked as a stunt double, died in 1985 aged 22 in a helicopter accident while attempting an aviation stunt.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

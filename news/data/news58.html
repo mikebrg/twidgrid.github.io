@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Protests erupt in New Delhi, envoy summoned following lynching of Hindu man in Bangladesh | News</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/news58-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> News</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Protests erupt in New Delhi, envoy summoned following lynching of Hindu man in Bangladesh</h3><span class="fo-5">2025, December 25</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../search.html#latestnews">Latest News</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/news58.jpg" alt="Protests erupt in New Delhi, envoy summoned following lynching of Hindu man in Bangladesh"><li class="table-cell"><img src="" style="display: none;"><h3>Protests erupt in New Delhi, envoy summoned following lynching of Hindu man in Bangladesh</h3><p><strong>2025, December 25<p>India<p></strong>Hundreds of protesters clashed with police in New Delhi on Tuesday during a demonstration near the High Commission of Bangladesh. The unrest occurred amid tensions between the two nations following the lynching of a Hindu man in Bangladesh last week. Following the protests reportedly trying to breach the High Commission, Bangladesh summoned India’s envoy to express concern.<p>Hindu nationalist groups, including the Vishva Hindu Parishad (VHP), mobilized the march and attempted to breach barricades set up near the embassy. Television footage showed protesters chanting slogans, demanding a boycott of Bangladesh, and burning pictures of the head of Bangladesh's interim government, Muhammad Yunus. Demonstrators carried placards with slogans such as "India will not tolerate torture of Hindus in Bangladesh."<p>Security personnel used batons to disperse demonstrators who broke through barricades. Protests also occurred in Jammu and Kashmir and other regions.<p>In response to the unrest, summoning the Indian High Commissioner, Pranay Verma, on Tuesday, Bangladesh's Ministry of Foreign Affairs expressed concern over "violent protests" outside diplomatic missions and urged New Delhi to ensure security. India's foreign ministry characterized a prior Sunday demonstration as a small gathering of "20-25 youths" that was quickly dispersed and told they are "committed to ensure the safety of foreign missions".<p>The diplomatic squabble stemmed from the killing of Dipu Chandra Das, a garment worker in the Mymensingh District of Bangladesh last Thursday. According to Reuters, Das as 27 years old, while according to the Associated Press, his age was 25. A mob accused Das of blasphemy against the Islamic Prophet Muhammad. The mob beat him to death, hung his body, and then set it on fire.<p>By Monday, police in Bangladesh had arrested at least 10 individuals in connection with the murder.<p>Tensions in the region had already escalated following the death of student leader Sharif Osman Hadi. Hadi, a critic of India and former Prime Minister Sheikh Hasina, died in a Singapore hospital on December 18 after being shot in Dhaka earlier in the month. His death triggered widespread violence, including arson attacks on media outlets and Indian diplomatic missions.<p>Religious minority groups have accused the interim government of failing to protect them. But the Yunus administration has rejected those allegations. Amit Malviya, a spokesperson for India's ruling Bharatiya Janata Party (BJP), condemned the lynching on X, attributing it to "unchecked Islamic extremism" and criticizing the state of minority protection in Bangladesh.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

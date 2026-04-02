@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Australian MP Barnaby Joyce resigns from the National Party | News</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/news41-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> News</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Australian MP Barnaby Joyce resigns from the National Party</h3><span class="fo-5">2025, December 3</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../search.html#latestnews">Latest News</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/news41.jpg" alt="Australian MP Barnaby Joyce resigns from the National Party"><li class="table-cell"><img src="" style="display: none;"><h3>Australian MP Barnaby Joyce resigns from the National Party</h3><p><strong>2025, December 3<p>Australia<p></strong>Australian politician and Member of Parliament for New England Barnaby Joyce gave a short speech before the Parliament on Thursday announcing his resignation from the National Party. The decision came after a month of speculation about his status in the party, including what The Sydney Morning Herald reported as discussions with One Nation leader Pauline Hanson about a possible defection. Joyce had been a member of the National Party for 30 years prior to his resignation. Despite that, he is expected to sit as a crossbencher for the remainder of his term until 2028.<p>Joyce said his final decision to leave the party resulted from him being relegated to what The Sydney Morning Herald reported he called the "ejection seat," the seat closest to the crossbench where independents sit. He also said that former opposition leader Peter Dutton had already twice recommended he depart from the Nationals in previous years, according to 9News and ABC. Joyce stated that he was "strongly considering" defecting to One Nation, though he did not rule out retiring from politics to pursue a career in the private sector, as reported by The Sydney Morning Herald. He also explained that he did not take the decision "lightly" and was always looking for a way to reconcile with the party, but decided that it had became impossible to resolve and said it was better to move on. Joyce expressed his lack of confidence in the Coalition's ability to win the next election, and criticized colleagues prioritizing efforts to reclaim inner-city electorates, which he felt would turn regional voters against the Coalition.<p>Joyce said he was resigning with a "heavy heart" and apologised for the "hurt" his resignation would bring to people. Joyce, however, criticised the National Party leader David Littleproud and deputy leader Kevin Hogan, for a "lack of communication" starting around the time Joyce announced that he would not again run for his New England seat in New South Wales in the 2028 election.<p>According to The Sydney Morning Herald, several Nationals colleagues made late attempts to persuade Joyce to stay with the party. David Littleproud described Joyce's decision as "disappointing" and felt that it broke the "contract" Joyce signed with voters in the 2025 election. Littleproud responded to Joyce’s claim of a lack of communication by saying he had consistently made clear he preferred his colleague remain in the party room. While praising his legacy, the leader of the Nationals in the Senate, Bridget McKenzie, cautioned Joyce against joining what she called a "protest party."<p>Joyce was first elected to the Australian Senate in 2004. He resigned his office in 2013 to run for the House of Representatives, winning the New England seat. Joyce served as leader of the National Party twice and thus served as deputy prime minister twice under the Liberal-National Coalition government. After the Coalition's 2022 defeat, he was challenged by David Littleproud as National Party leader and was voted out, according to ABC.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

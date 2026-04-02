@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Iceland pulls out of Eurovision 2026, joining four other countries to do so | News</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/news45-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> News</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Iceland pulls out of Eurovision 2026, joining four other countries to do so</h3><span class="fo-5">2025, December 13</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../search.html#latestnews">Latest News</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/news45.jpg" alt="Iceland pulls out of Eurovision 2026, joining four other countries to do so"><li class="table-cell"><img src="" style="display: none;"><h3>Iceland pulls out of Eurovision 2026, joining four other countries to do so</h3><p><strong>2025, December 13<p>Iceland<p></strong>On Wednesday, Iceland withdrew from the Eurovision Song Contest 2026, joining Spain, the Netherlands, Ireland, and Slovenia. Each of the five countries backed out of the contest due to European Broadcasting Union (EBU) confirming Israel's participation in the 2026 edition.<p>In the days prior, after four countries withdrew from the 2026 Eurovision Song Contest, Iceland’s broadcaster RÚV deferred its decision on participation until a board meeting on Wednesday. Following the meeting, RÚV announced it would not participate. According to the BBC, the broadcaster’s board had previously approved a recommendation to ask the EBU to ban Israel from the 2026 contest, and Iceland was among seven countries that sought a vote on Israel’s participation at the EBU’s general meeting, a request the union declined.<p>The broadcaster cited domestic public debate and reactions to the EBU’s recent decision on Israel’s participation, stating: "Given the public debate in this country and the reactions to the decision of the EBU that was taken last week, it is clear that neither joy nor peace will prevail regarding the participation of RÚV in Eurovision." RÚV added that Israel's participation "created disunity among both members of the European Broadcasting Union (EBU) and the general public" and that "the Song Contest and Eurovision have always had the aim of uniting the Icelandic nation, but it is now clear that this aim cannot be achieved, and it is on these program-related grounds that this decision is taken."<p>According to ABC News Australia and the BBC, EBU members last week approved changes to the contest’s voting rules in response to allegations that Israel manipulated the vote, but took no action to exclude any broadcaster. ABC News Australia also reported that seven countries, including Iceland, requested a vote on Israel’s participation, but the EBU declined to hold one.<p>The BBC also reported that Golan Yochpaz, chief executive of Israel’s public broadcaster KAN, criticized the effort to remove Israel from the contest, describing it as a "cultural boycott" and warning that "a boycott may begin today with Israel, but no one knows where it will end or who else it may harm." He questioned whether this was how the contest should be remembered on its 70th anniversary. Israeli Foreign Minister Gideon Sa'ar criticized the countries withdrawing from the contest, saying on X that "the disgrace is upon them."<p>Also on Wednesday, Poland announced it would remain in the contest, stating that "Eurovision still has a chance to once again become a space filled with music — and only music," and adding that "we, like the overwhelming majority of EBU members, offer this opportunity."<p>ABC News Australia noted that Iceland, which has never won the contest, has the highest per-capita Eurovision viewing audience of any participating country.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
