@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Charli xcx | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Charli xcx-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Charli xcx</h3><span class="fo-5">Start Hill, Essex, England</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/charli-xcx.webp" alt="Charli xcx"><h3>Charli xcx</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>02 August 1992<p><strong>Age: </strong><span class='dob' data-dob='02-Aug-1992'></span><p><strong>Years Active: </strong>2008–present</p><p><strong>Genre/s: </strong>Electropop, dance-pop, synth-pop, hyperpop</strong><p><strong>Label/s: </strong>Vroom Vroom, Atlantic, Warner, Asylum, Iamsound</p></li><li class="table-cell"><img src="" style="display: none;"><p>Charlotte Emma Aitchison (born 2 August 1992), known professionally as Charli XCX, is a British singer, songwriter and actress. She began posting songs on Myspace in 2008 before entering the London rave scene. Signing a recording contract with Asylum Records in 2010, Charli XCX released a series of singles and mixtapes in the early 2010s. In 2012, she was featured on "I Love It" by Swedish duo Icona Pop, which became her first number-one song in the UK and received global success, but her debut studio album, True Romance (2013), failed to meet commercial expectations.<p>In 2014, Charli XCX was featured on Iggy Azalea's single "Fancy", which became her most streamed song and one of the year's best-selling singles worldwide. The same year, she released "Boom Clap", which became her first solo top-ten single in the US. Her second studio album, Sucker (2014), spawned the singles "Break the Rules" and "Doing It". She began working alongside producers associated with the UK collective PC Music in 2015, developing a more experimental sound and image. She released the EP Vroom Vroom (2016) and the mixtapes Number 1 Angel and Pop 2 (both 2017). Her third studio album, Charli (2019), produced the hit single "1999". Her fourth studio album, How I'm Feeling Now (2020), was made during the COVID-19 lockdowns and received critical acclaim.<p>Charli XCX's fifth studio album, Crash (2022), became her first number-one album in the UK and Australia. She contributed the UK top-ten single "Speed Drive" as part of the soundtrack of the 2023 film Barbie. Her sixth studio album, Brat (2024), became her second UK number-one album and was named the best album of 2024 by various publications, such as Billboard and Rolling Stone. The album spawned the UK top-ten hit "Apple" and her remix album brought her second number-one song, "Guess", featuring Billie Eilish. Brat and its songs won three Grammy Awards: Best Dance Pop Recording for "Von Dutch", Best Dance/Electronic Album, and Best Recording Package. Culturally, the album sparked a phenomenon dubbed Brat Summer, which served as an inspiration for Aidan Zamiri's film The Moment (2026) that she co-produced and starred in.<p>In addition to her solo work, Charli XCX has co-written songs for other artists, including Iggy Azalea's "Beg for It" (2014), Selena Gomez's "Same Old Love" (2015), Blondie's "Tonight" (2017), the Shawn Mendes and Camila Cabello collaboration "Señorita" (2019), and the Sigala and Rita Ora collaboration "You for Me" (2021). She was awarded the ASCAP Global Impact Award in 2024 and featured on the 2024 Gold House's most impactful Asian A100 list, making her the first woman of British Indian origin to be honoured.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

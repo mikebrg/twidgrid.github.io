@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Crosby, Stills, Nash & Young | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Crosby, Stills, Nash & Young-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Crosby, Stills, Nash & Young</h3><span class="fo-5">Los Angeles, California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/crosby-stills-nash-young-1000x1000.jpg" alt="Crosby, Stills, Nash & Young"><h3>Crosby, Stills, Nash & Young</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong></strong><p><strong>Years Active: </strong>1968–1970, 1973–1974, 1976–2015</p><p><strong>Genre/s: </strong>Folk rock, soft rock, country rock, folk pop</strong><p><strong>Label/s: </strong>Atlantic, Reprise<p><strong>Past Members: </strong>David Crosby, Stephen Stills, Graham Nash, Neil Young</p></li><li class="table-cell"><img src="" style="display: none;"><p>Crosby, Stills & Nash (CSN) was a folk rock supergroup composed of the American singer-songwriters David Crosby (formerly of the Byrds) and Stephen Stills (formerly of Buffalo Springfield) and the English-American singer-songwriter Graham Nash (formerly of the Hollies). When joined by the Canadian singer-songwriter Neil Young (also formerly of Buffalo Springfield), they were known as Crosby, Stills, Nash & Young (CSNY). They are noted for their intricate vocal harmonies and lasting influence on American music and culture, their political activism and their tumultuous relationships.<p>CSN formed in 1968 shortly after Crosby, Stills and Nash performed together informally, discovering they harmonized well. Crosby had been asked to leave the Byrds in late 1967, Buffalo Springfield had broken up in early 1968, and Nash left the Hollies in December. They signed a recording contract with Atlantic Records in early 1969. Their first album, Crosby, Stills & Nash (1969), produced the Top 40 hits "Suite: Judy Blue Eyes" and "Marrakesh Express". In preparation for touring, the trio added Young, Stills's former Buffalo Springfield bandmate, as a full member, along with the touring members Dallas Taylor (drums) and Greg Reeves (bass). As Crosby, Stills, Nash & Young, they performed at the Woodstock festival that August.<p>The band's first album with Young, Déjà Vu, reached number one on several international charts in 1970. It remains their best-selling album, selling more than eight million copies and producing the hit singles "Woodstock", "Teach Your Children", and "Our House". The group's second tour, which produced the live double album 4 Way Street (1971), was fraught with arguments between Young and Taylor - which resulted in Taylor being replaced by John Barbata - and tensions with Stills. At the end of the tour they disbanded. The group reunited several times, sometimes with Young, and released eight studio and four live albums. CSN's final studio album was 1999's Looking Forward, and they remained a performing act until 2015. Crosby died in 2023.<p>Crosby, Stills & Nash were inducted into the Rock and Roll Hall of Fame in 1997 and all three members were also inducted for their work in other groups: Crosby for the Byrds, Stills for Buffalo Springfield and Nash for the Hollies. Young was also inducted as a solo artist and as a member of Buffalo Springfield.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

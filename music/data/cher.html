@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Cher | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Cher-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Cher</h3><span class="fo-5">California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/cher.webp" alt="Cher"><h3>Cher</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>20 May 1946<p><strong>Age: </strong><span class='dob' data-dob='20-May-1946'></span><p><strong>Years Active: </strong>1963–present</p><p><strong>Genre/s: </strong>Pop, rock, folk, dance</strong><p><strong>Label/s: </strong>Atco, Casablanca, Columbia, Geffen, Imperial, Kapp, MCA, Reprise, United Artists, Warner</p></li><li class="table-cell"><img src="" style="display: none;"><p>Cher (born Cheryl Sarkisian, May 20, 1946) is an American singer and actress. Dubbed the "Goddess of Pop", she is known for her androgynous contralto voice, bold fashion and visual presentation, and multifaceted career. Her screen roles often reflect her public image as a strong-willed, outspoken woman. An influential figure in popular culture, Cher has sustained a career spanning more than six decades through continual reinvention.<p>Cher rose to fame in 1965 as part of the folk rock duo Sonny & Cher, whose hit single "I Got You Babe" became emblematic of 1960s counterculture. She simultaneously launched a solo career with moody pop songs such as "Bang Bang (My Baby Shot Me Down)", whose theatrical storytelling foreshadowed her 1970s US Billboard Hot 100 number-one singles "Gypsys, Tramps & Thieves", "Half-Breed" and "Dark Lady". After a period of acting, she released the hair metal albums Cher (1987), Heart of Stone (1989) and Love Hurts (1991), scoring international number-one hits "If I Could Turn Back Time" and "The Shoop Shoop Song (It's in His Kiss)". At 52, she released the dance-pop album Believe (1998), which introduced the "Cher effect"—a stylized use of Auto-Tune to distort vocals. Its title track became 1999's number-one song in the US and the UK's best-selling single by a female artist. In the 21st century, she released her highest-charting US Billboard 200 albums, Closer to the Truth (2013) and Dancing Queen (2018), both debuting at number three.<p>Cher became a TV star in the 1970s with The Sonny & Cher Comedy Hour and her solo variety show Cher, both on CBS, which drew more than 30 million weekly viewers. She later gained critical acclaim with her Broadway debut and the film adaptation of Come Back to the 5 & Dime, Jimmy Dean, Jimmy Dean (1982). Transitioning to film, she earned two Academy Award nominations—for Silkwood (1983) and Moonstruck (1987), winning Best Actress for the latter—and received the Cannes Film Festival's Best Actress Award for Mask (1985). Other starring roles include The Witches of Eastwick (1987), Mermaids (1990), If These Walls Could Talk (1996, her directorial debut), Tea with Mussolini (1999), Burlesque (2010) and Mamma Mia! Here We Go Again (2018).<p>One of the best-selling music artists in history, Cher has sold over 100 million records and is the only solo artist with number-one singles on the US Billboard charts in seven consecutive decades (1960s–2020s). Her accolades include two Grammy Awards—among them the Grammy Lifetime Achievement Award—a Primetime Emmy Award, three Golden Globe Awards, the Billboard Icon Award and the Kennedy Center Honors. She is the only performer to have won an Academy Award for acting and been inducted into the Rock and Roll Hall of Fame. Her 2002–2005 Living Proof: The Farewell Tour was the highest-grossing concert tour by a female artist at the time, earning $250 million—about $410 million in 2025. Her life and career inspired the 2018 jukebox musical The Cher Show. Beyond entertainment, Cher is known for her progressive politics and advocacy for causes including LGBTQ rights and HIV/AIDS awareness.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

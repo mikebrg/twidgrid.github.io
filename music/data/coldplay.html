@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Coldplay | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Coldplay-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Coldplay</h3><span class="fo-5">London, England, U.K.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/coldplay-640x640.jpg" alt="Coldplay"><h3>Coldplay</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong></strong><p><strong>Years Active: </strong>1997–present</p><p><strong>Genre/s: </strong>Alternative rock, pop rock, post-Britpop, pop</strong><p><strong>Label/s: </strong>Fierce Panda, Parlophone, Nettwerk, Capitol, Atlantic<p><strong>Members: </strong>Chris Martin, Jonny Buckland, Guy Berryman, Will Champion, Phil Harvey</p></li><li class="table-cell"><img src="" style="display: none;"><p>Coldplay are a British rock band formed in London in 1997. They consist of vocalist and pianist Chris Martin, guitarist Jonny Buckland, bassist Guy Berryman and drummer Will Champion; manager Phil Harvey is also credited as a full member. The group are best known for their live performances and have had a significant impact on popular culture.<p>Coldplay initially went by the names Big Fat Noises and Starfish. Following the independent release of the EP Safety (1998), the band signed a record deal with Parlophone in 1999 and issued their debut album, Parachutes (2000), which included the breakthrough single "Yellow"; the album won a Brit Award for British Album of the Year and a Grammy Award for Best Alternative Music Album. The follow-up, A Rush of Blood to the Head (2002), earned the same accolades. X&Y (2005) concluded what Coldplay viewed as a trilogy, and their fourth album, Viva la Vida or Death and All His Friends (2008), won a Grammy Award for Best Rock Album; both releases topped the charts in over 30 countries, becoming the best-sellers of their respective years worldwide. Viva la Vida's title track was the first song by a British act to reach number one in the United States and United Kingdom simultaneously in the 21st century.<p>The albums Mylo Xyloto (2011), Ghost Stories (2014), A Head Full of Dreams (2015), Everyday Life (2019), Music of the Spheres (2021) and Moon Music (2024) drew from genres such as electronica, R&B, ambient, disco, funk, gospel, blues and progressive rock. Music of the Spheres included the single "My Universe", which was the first song by a British group to debut at number one on the Billboard Hot 100, and the band's Music of the Spheres World Tour is the most-attended and second-highest-grossing tour of all time, becoming the first by a band to gross $1 billion. A documentary, Coldplay: A Head Full of Dreams, was released in 2018 for Coldplay's 20th anniversary. In 2023, they featured on the inaugural Time 100 Climate list.<p>With over 160 million records sold worldwide, Coldplay are one of the best-selling music acts of all time. They are also the first group in Spotify history to reach 100 million monthly listeners. Fuse listed them among the most awarded artists, which includes the record for most Brit Awards won by a band. In the United Kingdom, they have three of the 50 best-selling albums, the most UK Albums Chart number ones without missing the top (10), and are the most played group of the 21st century on British media. The British Phonographic Industry called them one of the world's most "influential and pioneering acts", while the Rock and Roll Hall of Fame added A Rush of Blood to the Head to the 200 Definitive Albums list and "Yellow" to the Songs That Shaped Rock and Roll exhibit. Coldplay are involved in philanthropy, politics and activism, supporting numerous humanitarian projects and donating 10% of their profits to charity. Despite their popularity, they are considered polarising cultural icons.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
