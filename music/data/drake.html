@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Drake | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Drake-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Drake</h3><span class="fo-5">Toronto, Ontario, Canada</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/drake.webp" alt="Drake"><h3>Drake</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>24 October 1986<p><strong>Age: </strong><span class='dob' data-dob='24-Oct-1986'></span><p><strong>Years Active: </strong>2001–present</p><p><strong>Genre/s: </strong>Hip-hop, R&B, pop</strong><p><strong>Label/s: </strong>OVO Sound, Republic, Young Money, Cash Money, Aspire</p></li><li class="table-cell"><img src="" style="display: none;"><p>Aubrey Drake Graham (born October 24, 1986) is a Canadian rapper, singer, and actor. He is credited with popularizing R&B sensibilities in hip-hop music through rap-singing. Drake first gained recognition as Jimmy Brooks in the CTV teen drama series Degrassi: The Next Generation (2001–2008) and began his music career by independently releasing the mixtapes Room for Improvement (2006), Comeback Season (2007), and So Far Gone (2009) before signing with Young Money Entertainment.<p>Drake's debut album, Thank Me Later (2010), debuted atop the Billboard 200. All of his subsequent studio albums—including Take Care (2011), Nothing Was the Same (2013), Scorpion (2018), Honestly, Nevermind (2022) and For All the Dogs (2023)—also reached number one in the US. His fourth album, Views (2016), led the Billboard 200 for 13 weeks and his sixth album Certified Lover Boy (2021) set the then-record for most US top-ten songs from one album (9). Drake's catalogue of high-charting singles includes "Best I Ever Had", "Find Your Love", "Take Care", "Started from the Bottom", "Hold On, We're Going Home", "Hotline Bling", "One Dance", "Passionfruit", "God's Plan", "Nice for What", "In My Feelings", "Toosie Slide", "What's Next", "Way 2 Sexy", "Fair Trade", "Jimmy Cooks", "Rich Flex", "Slime You Out", "First Person Shooter", "Nokia", and "What Did I Miss?".<p>As an entrepreneur, Drake founded the OVO Sound record label with longtime collaborator 40 in 2012. In 2013, he became the "global ambassador" of the Toronto Raptors, joining their executive committee and later obtaining naming rights to their practice facility OVO Athletic Centre. In 2016, he began collaborating with Brent Hocking on the bourbon whiskey Virginia Black. Drake heads the OVO fashion label and the Nocta collaboration with Nike, Inc., and founded the production company DreamCrew and the fragrance house Better World. In 2018, he was reportedly responsible for 5% (CAD$440 million) of Toronto's CAD$8.8 billion annual tourism income. Drake has been subject of widespread media coverage due to his popularity and rap feuds, including with Kanye West and Kendrick Lamar.<p>Among the world's best-selling music artists, with over 170 million units sold, Drake is also ranked as the highest-certified digital singles artist in the United States. His accolades consist of 5 Grammy Awards, 6 American Music Awards, 41 Billboard Music Awards, 2 Brit Awards, and 3 Juno Awards. Billboard named him the Artist of the Decade (2010s), the highest-grossing hip-hop touring artist, and the fourth greatest pop star of the 21st century. He has achieved 14 Billboard 200 number-one albums, a joint-record among male soloists, and 13 Billboard Hot 100 number-one singles, a joint-record for a male solo artist. Drake holds further Hot 100 records, including the most top 10 singles (81), the most top 40 singles (217), the most charted songs (359) and the most consecutive weeks on the chart (431). He additionally has the most number-one singles on the R&B/Hip-Hop Airplay, Hot R&B/Hip-Hop Songs, Hot Rap Songs, and Rhythmic Airplay charts.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
