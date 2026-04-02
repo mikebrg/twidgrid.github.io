@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>ERNEST | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/ERNEST-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>ERNEST</h3><span class="fo-5">Nashville, Tennessee, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/ernest-310x163.jpg" alt="ERNEST"><h3>ERNEST</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>11 January 1992<p><strong>Age: </strong><span class='dob' data-dob='11-Jan-1992'></span><p><strong>Years Active: </strong>2017–present</p><p><strong>Genre/s: </strong>Country</strong><p><strong>Label/s: </strong>Big Loud</p></li><li class="table-cell"><img src="" style="display: none;"><p>Ernest Keith Smith, (born January 11, 1992) known mononymously as Ernest (stylized as ERNEST), is an American country music singer-songwriter. He has released three studio albums: Locals Only (2019), Flower Shops (The Album) (2022), and Nashville, Tennessee (2024). He has also written songs recorded by Morgan Wallen, Jake Owen, Florida Georgia Line, Thomas Rhett, Chris Lane, and Jelly Roll. His songs are produced by Joey Moi.<p>Ernest was born and raised in Nashville, Tennessee and attended Lipscomb Academy there. He took an interest in hip hop music at an early age, citing the Space Jam soundtrack that he listened to in sixth grade as well as Eminem, John Mayer, and George Strait as his main influences. At age 19, he suffered a heart attack brought on by a viral infection. He developed a drug addiction while in college playing baseball in the National Junior College Athletic Association. After recovering, he moved back to Nashville and began writing and recording songs, in the bro-country style with Matt Royer, the brother of his now wife, who owned a recording studio. This association led to him co-writing the title track of Florida Georgia Line's 2016 album Dig Your Roots. The following year, recording under the mononym Ernest, he released country rap singles: "Dopeman" and "Bad Boy".<p>After writing songs for Chris Lane and Jake Owen, in September 2019, Ernest signed a recording contract and management agreement with Big Loud, the label to which both Owen and Lane are signed.<p>In April 2020, Ernest launched a podcast, Just Being Ernest, in which he talks to other musicians about the music industry. He recorded 50 episodes, mostly during the COVID-19 pandemic.<p>Ernest had further success as a songwriter in 2020 with Lane's "Big, Big Plans", Morgan Wallen's "More Than My Hometown", and Sam Hunt's "Breaking Up Was Easy in the 90s". He also released his first single for Big Loud, titled "Cheers".<p>Ernest was a co-writer on labelmate Dallas Smith's single "Hide from a Broken Heart", released in November 2021.<p>He released "Flower Shops", a duet with Wallen, in December 2021.<p>In April 2024, he performed at Stagecoach Festival, also appearing in songs with Morgan Wallen and Willie Nelson.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

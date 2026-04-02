@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>EMINƎM | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/EMINƎM-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>EMINƎM</h3><span class="fo-5">Detroit, Michigan, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/eminm-640x400.jpeg" alt="EMINƎM"><h3>EMINƎM</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>17 October 1972<p><strong>Age: </strong><span class='dob' data-dob='17-Oct-1972'></span><p><strong>Years Active: </strong>1988–present</p><p><strong>Genre/s: </strong>Hip-hop</strong><p><strong>Label/s: </strong>Shady, Aftermath, Interscope, Web, Polydor</p></li><li class="table-cell"><img src="" style="display: none;"><p>Marshall Bruce Mathers III (born October 17, 1972), known professionally as Eminem (stylized as EMINƎM), is an American rapper, songwriter, record producer and record executive. Widely regarded as one of the greatest and most influential rappers of all time, he is often credited with popularizing hip-hop in Middle America and breaking down racial barriers for the acceptance of white rappers in the genre. While much of his transgressive art during the late 1990s and early 2000s made him a controversial figure, Eminem has become a representation of popular angst of lower income America and is noted for his conscious rap—which includes political criticism and social commentary—and rap flow.<p>After the release of his debut album Infinite (1996) and the extended play Slim Shady EP (1997), Eminem signed with Dr. Dre's Aftermath Entertainment and subsequently achieved mainstream popularity in 1999 with The Slim Shady LP. His next two releases, The Marshall Mathers LP (2000) and The Eminem Show (2002), became worldwide successes. Each sold over one million copies in a single week, with the latter being the best-selling album worldwide of 2002 and the best selling hip-hop album of all time. Following the release of Encore (2004), Eminem took a hiatus due in part to struggles with prescription drug addiction. He later returned to the music industry with the releases of Relapse (2009) and Recovery (2010), the latter becoming the best-selling album worldwide of 2010. Each of his subsequent releases—The Marshall Mathers LP 2 (2013), Revival (2017), Kamikaze (2018), Music to Be Murdered By (2020), and The Death of Slim Shady (Coup de Grâce) (2024)—have debuted atop the US Billboard 200 chart.<p>In 2002, he starred in the drama film 8 Mile, receiving critical acclaim for playing a dramatized version of himself. "Lose Yourself", a song from the 8 Mile soundtrack, topped the US Billboard Hot 100 chart for 12 weeks—the most for a solo rap song—and won the Academy Award for Best Original Song, making him the first hip-hop act to ever win the award. Eminem was also a member of the hip-hop groups New Jacks, Soul Intent, Outsidaz and D12, as well as the duo Bad Meets Evil with Royce da 5'9". Furthermore, he co-founded Shady Records, which helped launch the careers of artists such as D12, 50 Cent and Obie Trice, established the Sirius XM Radio channel Shade 45 and opened a restaurant, Mom's Spaghetti.<p>Eminem is the best-selling rapper and one of the best-selling music artists of all time, with estimated sales of over 220 million records. He is the first musical act to ever have ten albums consecutively debut at number one on the Billboard 200, and also has five number-one singles on the Billboard Hot 100. Eminem is on the list of highest-certified music artists in the United States, with three of his albums and four of his singles being certified diamond by the Recording Industry Association of America (RIAA). In addition to an Academy Award, his accolades include 15 Grammy Awards, a Primetime Emmy Award, 17 Billboard Music Awards, 15 MTV Video Music Awards and an induction into the Rock and Roll Hall of Fame in his first year of eligibility. Billboard named him the Artist of the 2000s and Rolling Stone ranked him among the greatest artists and greatest songwriters of all time.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
