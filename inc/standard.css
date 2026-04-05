@@ -65,7 +65,7 @@ ul
      font: 13px/1 'Source Code Pro', monospace;
 	color: #000;
 	letter-spacing: 2px; 
-     padding: 25px 25px;
+     padding: 15px 15px;
      text-decoration: none;
      text-align: center;
      background-color: rgba(246, 185, 59, 0.8);
@@ -176,7 +176,7 @@ ul
 h2
 {
      font: 300 24px/1.4 Merriweather, serif;
-	color: #111;
+	color: #fff;
 }
 h3
 {
@@ -269,11 +269,12 @@ code
 .block-978
 {
      max-width: 1180px;
+     
 	 
 }
 
 /* On mobile: 5px margin on both sides */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .block-978 {
     margin-left: 0px;
     margin-right: 0px;
@@ -330,7 +331,7 @@ code
 .cont
 {
      min-height: 100%;
-     background-color: #fff;
+     background-color: #000;
 	margin-bottom: -219px;
 }
 .cont:after
@@ -368,7 +369,7 @@ code
  #back-to-top:hover {
      background-color: rgba(246, 185, 59, 0.9);
  }
- @media (max-width: 600px) {
+ @media (max-width: 500px) {
      #back-to-top {
          bottom: 10px;
          right: 10px;
@@ -385,9 +386,9 @@ code
  }
 
 /* On mobile: force 3 cards per row */
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .responsive-table {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 	  gap: 8px;
      padding: 8px;
   }
