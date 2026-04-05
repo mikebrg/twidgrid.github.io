@@ -19,10 +19,22 @@
     .head {
      position: relative;
      background-size: cover;
-     background-image: url('../img/bible.jpg');
+     background-image: url('img/old-testament-bk.png');
      background-position: center;
      min-height: 400px;
 }
+.head::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.head > * {
+    position: relative;
+    z-index: 2;
+}
+
 </style>
 
 </head><body>
@@ -187,7 +199,7 @@
           </script>
     
 
-    <a href="#" id="back-to-top" title="Back to top">↑</a>
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="100px"></a>
 
 <script>
 window.addEventListener('scroll', function() {

@@ -23,6 +23,18 @@
      background-position: center;
      min-height: 400px;
 }
+.head::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.head > * {
+    position: relative;
+    z-index: 2;
+}
+
 </style>
 
 </head><body>
@@ -211,7 +223,7 @@
             
     </div></div>
 
-    <a href="#" id="back-to-top" title="Back to top">↑</a>
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="100px"></a>
 
 <script>
 window.addEventListener('scroll', function() {

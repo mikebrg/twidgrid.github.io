@@ -352,28 +352,18 @@ code
      position: fixed;
      bottom: 20px;
      right: 20px;
-     background-color: rgba(246, 185, 59, 0.8);
-     color: #000;
-     border-radius: 8px;
-     padding: 10px 20px;
-     font-size: 36px;
-     text-align: center;
      display: none; /* Initially hidden */
      cursor: pointer;
      z-index: 9999;
-     transition: opacity 0.3s;
-     transition: all 0.5s ease;
-     text-decoration: none;
+          
  }
  
- #back-to-top:hover {
-     background-color: rgba(246, 185, 59, 0.9);
- }
+ 
  @media (max-width: 500px) {
      #back-to-top {
          bottom: 10px;
          right: 10px;
-         font-size: 18px;
+         
      }
  }
  .responsive-table {
