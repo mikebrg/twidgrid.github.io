@@ -1,5 +1,10 @@
 
 var tipuesearch = {"pages": [
+
+{"title": "	A Great Awakening (2026)	", "text": "	One of the most defining moments in American history is the story of an unlikely friendship between the Reverend George Whitefield and Benjamin Franklin.	", "img": "img/	A Great Awakening (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=A Great Awakening	"},
+{"title": "	I Love Boosters (2026)	", "text": "	Follows a group of shoplifters who take aim at a cutthroat fashion maven.	", "img": "img/	I Love Boosters (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Love Boosters	"},
+{"title": "	Backrooms (2026)	", "text": "	A strange doorway appears in the basement of a furniture showroom.	", "img": "img/	Backrooms (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Backrooms	"},
+	
 {"title": "	Harry Potter (2026)	", "text": "	Harry Potter, Ron Weasley, and Hermione Granger experience life at Hogwarts School of Witchcraft and Wizardry, forging strong bonds of friendship as they face the growing danger posed by Lord Voldemort's return.	", "img": "img/	Harry Potter (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Harry Potter	"},
 {"title": "	Stranger Things: Tales from '85 (2026)	", "text": "	Set in Hawkins, Indiana in the winter of 1985, where Eleven and her friends unravel a paranormal mystery terrorizing their town.	", "img": "img/	Stranger Things Tales from '85 (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Stranger Things: Tales from '85	"},
 {"title": "	Star City (2026)	", "text": "	Soviet cosmonauts, engineers, and intelligence officers risk everything in an ambitious space program aiming to be the first to reach the moon.	", "img": "img/	Star City (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Star City	"},
