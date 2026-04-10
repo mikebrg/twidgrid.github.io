@@ -355,9 +355,10 @@ code
      display: none; /* Initially hidden */
      cursor: pointer;
      z-index: 9999;
+     filter: brightness(60%);
           
  }
- 
+ #back-to-top:hover{filter: brightness(100%);}
  
  @media (max-width: 500px) {
      #back-to-top {
@@ -384,8 +385,8 @@ code
   }
 }
  .table-cell {
-     background: #f1eeee;
-     border: 1px solid #ddd;
+     background-color:#333;
+     border: 1px solid #333;
      border-radius: 8px;
      text-align: left;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -397,18 +398,25 @@ code
          aspect-ratio: 1 / 1;
          object-fit: cover;
          border-radius: 8px;
-         border: 1px solid #ddd;
+         border: 1px solid #333;
+         filter: brightness(60%);
  }
  .table-cell h3 {
      margin: 12px 0 8px;
      font-size: 1em;
-     color: #333;
+     color: #fff;
  }
  .table-cell p {
      margin: 0;
      font-size: 0.8em;
-     color: #666;
+     color: #999;
  }
+ .table-cell img:hover {
+     border: 1px solid rgba(246, 185, 59, 0.9);
+     filter: brightness(100%);
+
+ }
+
  ul a {
 text-decoration: none; /* Remove underline by default */
 color: black; /* Optional: Set the link color */
