@@ -36,12 +36,15 @@
 }
     table {
         width: 100%;
-        border-collapse: collapse;
+        border-collapse: separate;
+        background-color: white;
+        border-radius: 8px;
+        border-spacing: 0;
     }
     th, td {
         border: 1px solid #ddd;
         padding: 8px;
-        text-align: center;
+        text-align: center;        
     }
     th {
         background-color: #f4f4f4;
@@ -49,6 +52,24 @@
     tr:nth-child(even) {
         background-color: #f9f9f9;
     }
+table th:first-child {
+  border-top-left-radius: 10px;
+}
+
+table th:last-child {
+  border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+
+
     @media screen and (max-width: 768px) {
         table {
             display: block;
@@ -207,18 +228,58 @@
                 </ul><p><p><h2>														
         Match Officials														
                         </h2><ul class="responsive-table">																														
-            <li class="table-cell"><a href="		"><img src="img/	male-referee-temp.webp	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	Asia			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	female-referee-temp-300x300.png	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	Asia			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	male-referee-temp.webp	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	Africa			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	female-referee-temp-300x300.png	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	Africa			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	male-referee-temp.webp	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	North America			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	female-referee-temp-300x300.png	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	North America			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	female-referee-temp-300x300.png	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	South America			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	male-referee-temp.webp	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	South America			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	female-referee-temp-300x300.png	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	Oceania			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	male-referee-temp.webp	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	Oceania			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	female-referee-temp-300x300.png	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	Europe			</p></li>
-            <li class="table-cell"><a href="		"><img src="img/	male-referee-temp.webp	" alt="		"></a><h3>	 	</h3><p><strong>		</strong><p>	Europe			</p></li>
+<li class="table-cell">		<img src="img/	Ma NingChinaAFC.jpg	" alt="	Ma Ning	"><h3>	Ma Ning	</h3><p><strong>	China	</strong><p>	Asia	<p>	AFC	</p></li>
+<li class="table-cell">		<img src="img/	Yusuke ArakiJapanAFC.jpg	" alt="	Yusuke Araki	"><h3>	Yusuke Araki	</h3><p><strong>	Japan	</strong><p>	Asia	<p>	AFC	</p></li>
+<li class="table-cell">		<img src="img/	Adham MakhadmehJordanAFC.jpg	" alt="	Adham Makhadmeh	"><h3>	Adham Makhadmeh	</h3><p><strong>	Jordan	</strong><p>	Asia	<p>	AFC	</p></li>
+<li class="table-cell">		<img src="img/	Abdulrahman Al-JassimQatarAFC.jpg	" alt="	Abdulrahman Al-Jassim	"><h3>	Abdulrahman Al-Jassim	</h3><p><strong>	Qatar	</strong><p>	Asia	<p>	AFC	</p></li>
+<li class="table-cell">		<img src="img/	Khalid Al-TuraisSaudi ArabiaAFC.jpg	" alt="	Khalid Al-Turais	"><h3>	Khalid Al-Turais	</h3><p><strong>	Saudi Arabia	</strong><p>	Asia	<p>	AFC	</p></li>
+<li class="table-cell">		<img src="img/	Omar Al AliUnited Arab EmiratesAFC.jpg	" alt="	Omar Al Ali	"><h3>	Omar Al Ali	</h3><p><strong>	United Arab Emirates	</strong><p>	Asia	<p>	AFC	</p></li>
+<li class="table-cell">		<img src="img/	Ilgiz TantashevUzbekistanAFC.jpg	" alt="	Ilgiz Tantashev	"><h3>	Ilgiz Tantashev	</h3><p><strong>	Uzbekistan	</strong><p>	Asia	<p>	AFC	</p></li>
+<li class="table-cell">		<img src="img/	Alireza FaghaniAustraliaAFC.jpg	" alt="	Alireza Faghani	"><h3>	Alireza Faghani	</h3><p><strong>	Australia	</strong><p>	Oceania	<p>	AFC	</p></li>
+<li class="table-cell">		<img src="img/	Mustapha GhorbalAlgeriaCAF.jpg	" alt="	Mustapha Ghorbal	"><h3>	Mustapha Ghorbal	</h3><p><strong>	Algeria	</strong><p>	Africa	<p>	CAF	</p></li>
+<li class="table-cell">		<img src="img/	Amin OmarEgyptCAF.jpg	" alt="	Amin Omar	"><h3>	Amin Omar	</h3><p><strong>	Egypt	</strong><p>	Africa	<p>	CAF	</p></li>
+<li class="table-cell">		<img src="img/	Pierre AtchoGabonCAF.jpg	" alt="	Pierre Atcho	"><h3>	Pierre Atcho	</h3><p><strong>	Gabon	</strong><p>	Africa	<p>	CAF	</p></li>
+<li class="table-cell">		<img src="img/	Dahane BeidaMauritaniaCAF.jpg	" alt="	Dahane Beida	"><h3>	Dahane Beida	</h3><p><strong>	Mauritania	</strong><p>	Africa	<p>	CAF	</p></li>
+<li class="table-cell">		<img src="img/	Jalal JayedMoroccoCAF.jpg	" alt="	Jalal Jayed	"><h3>	Jalal Jayed	</h3><p><strong>	Morocco	</strong><p>	Africa	<p>	CAF	</p></li>
+<li class="table-cell">		<img src="img/	Omar Abdulkadir ArtanSomaliaCAF.jpg	" alt="	Omar Abdulkadir Artan	"><h3>	Omar Abdulkadir Artan	</h3><p><strong>	Somalia	</strong><p>	Africa	<p>	CAF	</p></li>
+<li class="table-cell">		<img src="img/	Abongile TomSouth AfricaCAF.jpg	" alt="	Abongile Tom	"><h3>	Abongile Tom	</h3><p><strong>	South Africa	</strong><p>	Africa	<p>	CAF	</p></li>
+<li class="table-cell">		<img src="img/	Drew FischerCanadaCONCACAF.jpg	" alt="	Drew Fischer	"><h3>	Drew Fischer	</h3><p><strong>	Canada	</strong><p>	North America	<p>	CONCACAF	</p></li>
+<li class="table-cell">		<img src="img/	Juan CalderónCosta RicaCONCACAF.jpg	" alt="	Juan Calderón	"><h3>	Juan Calderón	</h3><p><strong>	Costa Rica	</strong><p>	North America	<p>	CONCACAF	</p></li>
+<li class="table-cell">		<img src="img/	Iván BartonEl SalvadorCONCACAF.jpg	" alt="	Iván Barton	"><h3>	Iván Barton	</h3><p><strong>	El Salvador	</strong><p>	North America	<p>	CONCACAF	</p></li>
+<li class="table-cell">		<img src="img/	Saíd MartínezHondurasCONCACAF.jpg	" alt="	Saíd Martínez	"><h3>	Saíd Martínez	</h3><p><strong>	Honduras	</strong><p>	North America	<p>	CONCACAF	</p></li>
+<li class="table-cell">		<img src="img/	Oshane NationJamaicaCONCACAF.jpg	" alt="	Oshane Nation	"><h3>	Oshane Nation	</h3><p><strong>	Jamaica	</strong><p>	North America	<p>	CONCACAF	</p></li>
+<li class="table-cell">		<img src="img/	Katia Itzel GarcíaMexicoCONCACAF.jpg	" alt="	Katia Itzel García	"><h3>	Katia Itzel García	</h3><p><strong>	Mexico	</strong><p>	North America	<p>	CONCACAF	</p></li>
+<li class="table-cell">		<img src="img/	César Arturo RamosMexicoCONCACAF.jpg	" alt="	César Arturo Ramos	"><h3>	César Arturo Ramos	</h3><p><strong>	Mexico	</strong><p>	North America	<p>	CONCACAF	</p></li>
+<li class="table-cell">		<img src="img/	Ismail ElfathUnited StatesCONCACAF.jpg	" alt="	Ismail Elfath	"><h3>	Ismail Elfath	</h3><p><strong>	United States	</strong><p>	North America	<p>	CONCACAF	</p></li>
+<li class="table-cell">		<img src="img/	Tori PensoUnited StatesCONCACAF.jpg	" alt="	Tori Penso	"><h3>	Tori Penso	</h3><p><strong>	United States	</strong><p>	North America	<p>	CONCACAF	</p></li>
+<li class="table-cell">		<img src="img/	Yael FalcónArgentinaCONMEBOL.jpg	" alt="	Yael Falcón	"><h3>	Yael Falcón	</h3><p><strong>	Argentina	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Darío HerreraArgentinaCONMEBOL.jpg	" alt="	Darío Herrera	"><h3>	Darío Herrera	</h3><p><strong>	Argentina	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Facundo TelloArgentinaCONMEBOL.jpg	" alt="	Facundo Tello	"><h3>	Facundo Tello	</h3><p><strong>	Argentina	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Ramon AbattiBrazilCONMEBOL.jpg	" alt="	Ramon Abatti	"><h3>	Ramon Abatti	</h3><p><strong>	Brazil	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Raphael ClausBrazilCONMEBOL.jpg	" alt="	Raphael Claus	"><h3>	Raphael Claus	</h3><p><strong>	Brazil	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Wilton SampaioBrazilCONMEBOL.jpg	" alt="	Wilton Sampaio	"><h3>	Wilton Sampaio	</h3><p><strong>	Brazil	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Cristián GarayChileCONMEBOL.jpg	" alt="	Cristián Garay	"><h3>	Cristián Garay	</h3><p><strong>	Chile	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Andrés RojasColombiaCONMEBOL.jpg	" alt="	Andrés Rojas	"><h3>	Andrés Rojas	</h3><p><strong>	Colombia	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Juan Gabriel BenítezParaguayCONMEBOL.jpg	" alt="	Juan Gabriel Benítez	"><h3>	Juan Gabriel Benítez	</h3><p><strong>	Paraguay	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Kevin OrtegaPeruCONMEBOL.jpg	" alt="	Kevin Ortega	"><h3>	Kevin Ortega	</h3><p><strong>	Peru	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Gustavo TejeraUruguayCONMEBOL.jpg	" alt="	Gustavo Tejera	"><h3>	Gustavo Tejera	</h3><p><strong>	Uruguay	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Jesús ValenzuelaVenezuelaCONMEBOL.jpg	" alt="	Jesús Valenzuela	"><h3>	Jesús Valenzuela	</h3><p><strong>	Venezuela	</strong><p>	South America	<p>	CONMEBOL	</p></li>
+<li class="table-cell">		<img src="img/	Campbell-Kirk Kawana-WaughNew ZealandOFC.jpg	" alt="	Campbell-Kirk Kawana-Waugh	"><h3>	Campbell-Kirk Kawana-Waugh	</h3><p><strong>	New Zealand	</strong><p>	Oceania	<p>	OFC	</p></li>
+<li class="table-cell">		<img src="img/	Michael OliverEnglandUEFA.jpg	" alt="	Michael Oliver	"><h3>	Michael Oliver	</h3><p><strong>	England	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Anthony TaylorEnglandUEFA.jpg	" alt="	Anthony Taylor	"><h3>	Anthony Taylor	</h3><p><strong>	England	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	François LetexierFranceUEFA.jpg	" alt="	François Letexier	"><h3>	François Letexier	</h3><p><strong>	France	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Clément TurpinFranceUEFA.jpg	" alt="	Clément Turpin	"><h3>	Clément Turpin	</h3><p><strong>	France	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Felix ZwayerGermanyUEFA.jpg	" alt="	Felix Zwayer	"><h3>	Felix Zwayer	</h3><p><strong>	Germany	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Maurizio MarianiItalyUEFA.jpg	" alt="	Maurizio Mariani	"><h3>	Maurizio Mariani	</h3><p><strong>	Italy	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Danny MakkelieNetherlandsUEFA.jpg	" alt="	Danny Makkelie	"><h3>	Danny Makkelie	</h3><p><strong>	Netherlands	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Espen EskåsNorwayUEFA.jpg	" alt="	Espen Eskås	"><h3>	Espen Eskås	</h3><p><strong>	Norway	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Szymon MarciniakPolandUEFA.jpg	" alt="	Szymon Marciniak	"><h3>	Szymon Marciniak	</h3><p><strong>	Poland	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	João PinheiroPortugalUEFA.jpg	" alt="	João Pinheiro	"><h3>	João Pinheiro	</h3><p><strong>	Portugal	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	István KovácsRomaniaUEFA.jpg	" alt="	István Kovács	"><h3>	István Kovács	</h3><p><strong>	Romania	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Slavko VinčićSloveniaUEFA.jpg	" alt="	Slavko Vinčić	"><h3>	Slavko Vinčić	</h3><p><strong>	Slovenia	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Alejandro Hernández HernándezSpainUEFA.jpg	" alt="	Alejandro Hernández Hernández	"><h3>	Alejandro Hernández Hernández	</h3><p><strong>	Spain	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Glenn NybergSwedenUEFA.jpg	" alt="	Glenn Nyberg	"><h3>	Glenn Nyberg	</h3><p><strong>	Sweden	</strong><p>	Europe	<p>	UEFA	</p></li>
+<li class="table-cell">		<img src="img/	Sandro SchärerSwitzerlandUEFA.jpg	" alt="	Sandro Schärer	"><h3>	Sandro Schärer	</h3><p><strong>	Switzerland	</strong><p>	Europe	<p>	UEFA	</p></li>
 
         </ul><p><p><h2>	Group A Standings		</h2>																		
             <table><thead><tr><th>	Position	</th><th style="text-align: left;">	Team	</th> <th>	Played	</th> <th>	Won	</th> <th>	Drawn	</th> <th>	Lost	</th> <th>	Goals for	</th> <th>	Goals against	</th> <th>	Goal difference	</th> <th>	Points	</th> <th style="text-align: left;">	Qualification

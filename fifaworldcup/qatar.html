@@ -26,8 +26,27 @@
 
     table {
         width: 100%;
-        border-collapse: collapse;
+        border-collapse: separate;
+        background-color: white;
+        border-radius: 8px;
+        border-spacing: 0;
     }
+table th:first-child {
+  border-top-left-radius: 10px;
+}
+
+table th:last-child {
+  border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
     th, td {
         border: 1px solid #ddd;
         padding: 8px;
