@@ -23,7 +23,17 @@
      background-position: center;
      min-height: 400px;
 }
+.head::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
 
+.head > * {
+    position: relative;
+    z-index: 2;
+}
     table {
         width: 100%;
         border-collapse: collapse;
@@ -75,8 +85,8 @@
 
     <ul class="responsive-table">
 
-        <li class="table-cell"><a href="		"><img src="img/	2026-logo-375x375.png	" alt="	Official Emblem	"></a><h3>	Official Emblem	</h3><p><strong>		</strong><p>		</p></li>		
-        <li class="table-cell"><a href="		"><img src="img/	tumblr-payfnzsy9b1xwi2z1o1-1280-376x376.png	" alt="	Host Countries	"></a><h3>	Host Countries	</h3><p><strong>	Canada / USA / Mexico	</strong><p>	June 11 – July 19	</p></li>		
+        <li class="table-cell"><a href="2026poster.html"><img src="img/	2026-logo-375x375.png	" alt="	Official Emblem	"></a><h3>	Official Poster	</h3><p><strong>designed by</strong><p>Carson Ting (Canada)<br>Minerva GM (Mexico)<br>Hank Willis Thomas (United States)</p></li>		
+        <li class="table-cell"><a href="2026hosts.html"><img src="img/	tumblr-payfnzsy9b1xwi2z1o1-1280-376x376.png	" alt="	Host Countries	"></a><h3>	Host Countries	</h3><p><strong>	Canada / USA / Mexico	</strong><p>	June 11 – July 19	</p></li>		
         <li class="table-cell"><a href="2026.html#teams"><img src="img/	teams-silhouette-376x376.jpg	" alt="	Teams	"></a><h3>	Teams	</h3><p><strong>	48	</strong><p>	from 6 confederations	</p></li>		
         <li class="table-cell"><a href="2026.html#venues"><img src="img/	estadio-azteca-desde-el-aire-1-376x211.jpg	" alt="	Venues	"></a><h3>	Venues	</h3><p><strong>	16	</strong><p>	in 16 host cities	</p></li>		
         <li class="table-cell"><a href="		"><img src="img/	1st-medal-250x250.jpg	" alt="	Champions	"></a><h3>	Champions	</h3><p><strong>		</strong><p>		</p></li>		
@@ -167,30 +177,30 @@
 																									
         Venues - United States																														
         </h2><ul class="responsive-table">																														
-        <li class="table-cell"><a href="		"><img src="img/	metlife-stadium.webp	" alt="	MetLife Stadium 	"></a><h3>	MetLife Stadium 	</h3><p><strong>	New York/New Jersey	</strong><p>	Capacity: 82,500			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	att-stadium.webp	" alt="	AT&T Stadium 	"></a><h3>	AT&T Stadium 	</h3><p><strong>	Dallas	</strong><p>	Capacity: 94,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	geha-field-at-arrowhead-stadium-376x282.jpg	" alt="	GEHA Field at Arrowhead Stadium 	"></a><h3>	GEHA Field at Arrowhead Stadium 	</h3><p><strong>	Kansas City	</strong><p>	Capacity: 73,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	nrg-stadium-376x212.jpg	" alt="	NRG Stadium 	"></a><h3>	NRG Stadium 	</h3><p><strong>	Houston	</strong><p>	Capacity: 72,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	mercedes-benz-stadium-376x251.jpg	" alt="	Mercedes-Benz Stadium 	"></a><h3>	Mercedes-Benz Stadium 	</h3><p><strong>	Atlanta	</strong><p>	Capacity: 75,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	aerial-sofi-stadium-376x251.jpg	" alt="	SoFi Stadium 	"></a><h3>	SoFi Stadium 	</h3><p><strong>	Los Angeles	</strong><p>	Capacity: 70,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	lincoln-financial-field-aerial-view-376x248.jpg	" alt="	Lincoln Financial Field 	"></a><h3>	Lincoln Financial Field 	</h3><p><strong>	Philadelphia	</strong><p>	Capacity: 69,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	lumen-field-640x427.jpg	" alt="	Lumen Field 	"></a><h3>	Lumen Field 	</h3><p><strong>	Seattle	</strong><p>	Capacity: 69,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	levis-stadium-3596x2400.jpg	" alt="	Levi's Stadium 	"></a><h3>	Levi's Stadium 	</h3><p><strong>	San Francisco Bay Area	</strong><p>	Capacity: 71,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	gillette-stadium-1400x788.jpg	" alt="	Gillette Stadium 	"></a><h3>	Gillette Stadium 	</h3><p><strong>	Boston	</strong><p>	Capacity: 65,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	hard-rock-stadium-exterior-233303000-768x512.jpg	" alt="	Hard Rock Stadium 	"></a><h3>	Hard Rock Stadium 	</h3><p><strong>	Miami	</strong><p>	Capacity: 65,000			</p></li>
+        <li class="table-cell"><a href="venues/metlife-stadium.html"><img src="img/	metlife-stadium.webp	" alt="	MetLife Stadium 	"></a><h3>	MetLife Stadium 	</h3><p><strong>	New York/New Jersey	</strong><p>	Capacity: 82,500			</p></li>
+<li class="table-cell"><a href="venues/att-stadium.html"><img src="img/	att-stadium.webp	" alt="	AT&T Stadium 	"></a><h3>	AT&T Stadium 	</h3><p><strong>	Dallas	</strong><p>	Capacity: 94,000			</p></li>
+<li class="table-cell"><a href="venues/arrowhead-stadium.html"><img src="img/	geha-field-at-arrowhead-stadium-376x282.jpg	" alt="	GEHA Field at Arrowhead Stadium 	"></a><h3>	GEHA Field at Arrowhead Stadium 	</h3><p><strong>	Kansas City	</strong><p>	Capacity: 73,000			</p></li>
+<li class="table-cell"><a href="venues/nrg-stadium.html"><img src="img/	nrg-stadium-376x212.jpg	" alt="	NRG Stadium 	"></a><h3>	NRG Stadium 	</h3><p><strong>	Houston	</strong><p>	Capacity: 72,000			</p></li>
+<li class="table-cell"><a href="venues/mercedes-benz-stadium.html"><img src="img/	mercedes-benz-stadium-376x251.jpg	" alt="	Mercedes-Benz Stadium 	"></a><h3>	Mercedes-Benz Stadium 	</h3><p><strong>	Atlanta	</strong><p>	Capacity: 75,000			</p></li>
+<li class="table-cell"><a href="venues/sofi-stadium.html"><img src="img/	aerial-sofi-stadium-376x251.jpg	" alt="	SoFi Stadium 	"></a><h3>	SoFi Stadium 	</h3><p><strong>	Los Angeles	</strong><p>	Capacity: 70,000			</p></li>
+<li class="table-cell"><a href="venues/lincoln-financial-field.html"><img src="img/	lincoln-financial-field-aerial-view-376x248.jpg	" alt="	Lincoln Financial Field 	"></a><h3>	Lincoln Financial Field 	</h3><p><strong>	Philadelphia	</strong><p>	Capacity: 69,000			</p></li>
+<li class="table-cell"><a href="venues/lumen-field.html"><img src="img/	lumen-field-640x427.jpg	" alt="	Lumen Field 	"></a><h3>	Lumen Field 	</h3><p><strong>	Seattle	</strong><p>	Capacity: 69,000			</p></li>
+<li class="table-cell"><a href="venues/levis-stadium.html"><img src="img/	levis-stadium-3596x2400.jpg	" alt="	Levi's Stadium 	"></a><h3>	Levi's Stadium 	</h3><p><strong>	San Francisco Bay Area	</strong><p>	Capacity: 71,000			</p></li>
+<li class="table-cell"><a href="venues/gillette-stadium.html"><img src="img/	gillette-stadium-1400x788.jpg	" alt="	Gillette Stadium 	"></a><h3>	Gillette Stadium 	</h3><p><strong>	Boston	</strong><p>	Capacity: 65,000			</p></li>
+<li class="table-cell"><a href="venues/hard-rock-stadium.html"><img src="img/	hard-rock-stadium-exterior-233303000-768x512.jpg	" alt="	Hard Rock Stadium 	"></a><h3>	Hard Rock Stadium 	</h3><p><strong>	Miami	</strong><p>	Capacity: 65,000			</p></li>
         </ul><p><p><h2>																														
             Venues - Mexico														
         </h2><ul class="responsive-table">														
-        <li class="table-cell"><a href="		"><img src="img/	estadio-azteca-desde-el-aire-1-376x211.jpg	" alt="	Estadio Banorte	"></a><h3>	Estadio Banorte	</h3><p><strong>	Mexico City	</strong><p>	Capacity: 83,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	estadio-bbva-bancomer-1-376x238.jpg	" alt="	Estadio BBVA	"></a><h3>	Estadio BBVA	</h3><p><strong>	Monterrey	</strong><p>	Capacity: 53,500			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	estadio-akron.webp	" alt="	Estadio Akron	"></a><h3>	Estadio Akron	</h3><p><strong>	Guadalajara	</strong><p>	Capacity: 48,000			</p></li>
+        <li class="table-cell"><a href="venues/estadio-banorte.html"><img src="img/	estadio-azteca-desde-el-aire-1-376x211.jpg	" alt="	Estadio Banorte	"></a><h3>	Estadio Banorte	</h3><p><strong>	Mexico City	</strong><p>	Capacity: 83,000			</p></li>
+<li class="table-cell"><a href="venues/estadio-bbva.html"><img src="img/	estadio-bbva-bancomer-1-376x238.jpg	" alt="	Estadio BBVA	"></a><h3>	Estadio BBVA	</h3><p><strong>	Monterrey	</strong><p>	Capacity: 53,500			</p></li>
+<li class="table-cell"><a href="venues/estadio-akron.html"><img src="img/	estadio-akron.webp	" alt="	Estadio Akron	"></a><h3>	Estadio Akron	</h3><p><strong>	Guadalajara	</strong><p>	Capacity: 48,000			</p></li>
         <li ></li>
         <li ></li>
                 </ul><p><p><h2>														
         Venues - Canada														
         </h2><ul class="responsive-table">														
-        <li class="table-cell"><a href="		"><img src="img/	bc-place.webp	" alt="	BC Place	"></a><h3>	BC Place	</h3><p><strong>	Vancouver	</strong><p>	Capacity: 54,000			</p></li>
-<li class="table-cell"><a href="		"><img src="img/	bmo-field-376x212.jpg	" alt="	BMO Field	"></a><h3>	BMO Field	</h3><p><strong>	Toronto	</strong><p>	Capacity: 45,000			</p></li>
+        <li class="table-cell"><a href="venues/bc-place.html"><img src="img/	bc-place.webp	" alt="	BC Place	"></a><h3>	BC Place	</h3><p><strong>	Vancouver	</strong><p>	Capacity: 54,000			</p></li>
+<li class="table-cell"><a href="venues/bmo-field.html"><img src="img/	bmo-field-376x212.jpg	" alt="	BMO Field	"></a><h3>	BMO Field	</h3><p><strong>	Toronto	</strong><p>	Capacity: 45,000			</p></li>
         <li ></li>
         <li ></li>
         <li ></li>
