@@ -183,7 +183,11 @@ h3
      font: 32px/1.1 Merriweather, serif;
      color: #fff;
 }
-
+h4
+{
+     font: 14px/1.1 Merriweather, serif;
+     color: #fff;
+}
 .fo-1
 {
      font: 12px/1.9 'Source Code Pro', monospace;
@@ -605,5 +609,16 @@ text-decoration: underline; /* Add underline only on hover */
      pointer-events: none;
    }
 
+   .head::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.head > * {
+    position: relative;
+    z-index: 2;
+}
 
  
