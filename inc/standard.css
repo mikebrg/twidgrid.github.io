@@ -182,7 +182,15 @@ h3
 {
      font: 32px/1.1 Merriweather, serif;
      color: #fff;
+     background: #131313;
+     outline: 10px solid #131313;
+     width: fit-content;
+     line-height: 1.6;
+     border-top-left-radius: 8px;
+     border-top-right-radius: 8px;
+     padding-bottom: 5px;
 }
+
 h4
 {
      font: 14px/1.1 Merriweather, serif;
@@ -223,6 +231,12 @@ h4
 {
      font: 300 20px/1.7 Merriweather, serif;
 	color:white;
+     background: #131313;
+     outline: 10px solid #131313;
+     width: fit-content;
+     display: block;
+     line-height: 2;
+     border-radius: 8px;     
 }
 
 .fo-2 a
