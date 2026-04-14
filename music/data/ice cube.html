@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Ice Cube | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Ice Cube-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Ice Cube</h3><span class="fo-5">Los Angeles, California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/ice-cube-1280x720.jpg" alt="Ice Cube"><h3>Ice Cube</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>15 June 1969<p><strong>Age: </strong><span class='dob' data-dob='15-Jun-1969'></span><p><strong>Years Active: </strong>1986–present</p><p><strong>Genre/s: </strong>West Coast hip-hop, gangsta rap, political hip-hop</strong><p><strong>Label/s: </strong>Lench Mob, Priority, Aftermath, EMI, Interscope<p><strong>Member of: </strong>Mt. Westmore</p></li><li class="table-cell"><img src="" style="display: none;"><p>O'Shea Jackson (born June 15, 1969), known professionally as Ice Cube, is an American rapper, songwriter, actor, and film producer. His efforts on N.W.A's 1989 album Straight Outta Compton contributed to gangsta rap's popularity, and his political rap solo albums AmeriKKKa's Most Wanted (1990), Death Certificate (1991), and The Predator (1992) were all critically and commercially successful. He was inducted into the Rock and Roll Hall of Fame as a member of N.W.A in 2016.<p>A native of Los Angeles, Ice Cube formed his first rap group called C.I.A. in 1986. In 1987, with Eazy-E and Dr. Dre, he formed the gangsta rap group N.W.A. As its lead rapper, Ice Cube also wrote most of the lyrics on Straight Outta Compton, a landmark album that shaped West Coast hip-hop's early violent and controversial identity and helped differentiate it from East Coast rap. After a monetary dispute over the group's management by Eazy-E and Jerry Heller, Ice Cube left N.W.A in late 1989 and embarked on a solo career, releasing eleven albums, with seven charting within the top-10 on the U.S. Billboard 200. His singles "Straight Outta Compton", "It Was a Good Day", "Check Yo Self", "You Know How We Do It", "Bop Gun (One Nation)", "Pushin' Weight", and "You Can Do It" all charted in the top-40 on the U.S. Billboard Hot 100.<p>Ice Cube has also had an active film career since the early 1990s. His first acting role was in the hood film Boyz n the Hood (1991), named after a 1987 N.W.A. song he wrote. He also co-wrote and starred in the 1995 comedy film Friday, which spawned a franchise and reshaped his public image into an actor. He made his directorial debut with the 1998 film The Players Club, and also produced and curated the film's accompanying soundtrack. His film credits including the comedies Three Kings (1999), the Barbershop and Are We There Yet? franchises, 21 Jump Street (2012), 22 Jump Street, Ride Along (both 2014) and Ride Along 2 (2016). He has also appeared in the XXX franchise (2005–2017), the crime drama Rampart (2012), the animated fantasy The Book of Life (2014), and the thriller War of the Worlds (2025). Ice Cube has also acted as executive producer, including for the 2015 biopic Straight Outta Compton.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

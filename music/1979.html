@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Search | Music</title>
+<title>1979 Songs | Music</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -13,33 +13,29 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
 <link rel="stylesheet" href="../inc/standard.css">
-<script src="tipuesearch/tipuesearch_set.js"></script>
-<script src="tipuesearch/tipuesearch_content.js"></script>
-<link rel="stylesheet" href="tipuesearch/tipuesearch.css">
-<script src="tipuesearch/tipuesearch.js"></script>
 <link rel="icon" type="image/x-icon" href="img/favicon.png">
 <style>
-  
-    .head {
+    
+.head {
      position: relative;
      background-size: cover;
-     background-image: url('../img/music-bk.png');
+     background-image: url('img/songs-bk.jpg');
      background-position: center;
      min-height: 400px;
 }
-.head::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-}
+    
+    .table-cell img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }
+    
+    
 
-.head > * {
-    position: relative;
-    z-index: 2;
-}
+  </style>
 
-</style>
 </head><body>
 
 <div class="cont">
@@ -54,58 +50,39 @@
 </a><a href="index.html" class="not"><div class="ban">&#160> Music</div></a></div></div>
 
 <div class="head">
-    <div class="block" style="padding-top: 79px;">
-    <h3>Music Search</h3><span class="fo-5">Enter one or more keywords in the field below and search away.</span>
-    <p></p><p></p>
-    <div><a class="btn-1" href="index.html">Home</a>&nbsp;
-    </div>
-    <p></p><p></p>
-  <form onreset="setTimeout(() => this.querySelector('[name=q]').focus(), 0)">
-        <div class="tipue_search_group">
-        <input type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required autofocus>
-          <button type="reset" class="tipue_clear_button">X</button>
-          <button type="submit" class="tipue_search_button"><div class="tipue_search_icon">&#9906;</div></button>
-        </div>
-        </form>
+<div class="block" style="padding-top: 79px;">
+<h3>1979 Songs</h3><span class="fo-5">Discover the latest and greatest music videos from top-charted songs all in one place.</span>
+<p></p><p></p>    
+<div id="navbar"></div>
+<script>
+  fetch("nav-songs-years.html")
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById("navbar").innerHTML = html;
+    });
+</script>
 
-    
-    
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><a href="	https://www.youtube.com/watch?v=UGPh2CZog4Q	"><img src="img/	Be Like A WomanChris Rainbow1979.png	" alt="	Be Like A Woman	"></a><h3>	Be Like A Woman	</h3><p>	Chris Rainbow	</p></li>
+
+        <li></li>
+        <li></li>
+        <li></li>         
+        <li></li>
+         
+                        
+                                                                
+    </ul>
+            
     </div></div>
-    
-    
-    
-    <div id="top10" class="block-978" style="padding-bottom: 59px;">
-    
-    
-    <div style="padding-top: 36px;">
-    
-    
-    <div id="tipue_search_content"></div>
-    </div>
-    <p>
-    <h2>Top 10 Global Songs</h2>										
-<ul class="responsive-table">										
-
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=b4iVv91Z6lY	"><img src="img/	SwimBTS2026.png	" alt="	Swim	"></a><h3>	Swim	</h3><p>	BTS	</p></li>
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=nb8CnIo_-_A	"><img src="img/	BabydollDominic Fike2018.png	" alt="	Babydoll	"></a><h3>	Babydoll	</h3><p>	Dominic Fike	</p></li>
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=xnP7qKxwzjg	"><img src="img/	DraculaTame Impala2025.png	" alt="	Dracula	"></a><h3>	Dracula	</h3><p>	Tame Impala	</p></li>
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=oIv_Y2RPQ_A	"><img src="img/	Man I NeedOlivia Dean2025.png	" alt="	Man I Need	"></a><h3>	Man I Need	</h3><p>	Olivia Dean	</p></li>
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=vQ-a4VkeMZE	"><img src="img/	StatesidePinkPantheress2025.png	" alt="	Stateside	"></a><h3>	Stateside	</h3><p>	PinkPantheress	</p></li>
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=yebNIHKAC4A	"><img src="img/	GoldenHUNTRX, EJAE, Audrey Nuna & Rei Ami2025.png	" alt="	Golden	"></a><h3>	Golden	</h3><p>	HUNTRX, EJAE, Audrey Nuna & Rei Ami	</p></li>
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=OOcAnav8ASk	"><img src="img/	SwimBTS2026.png	" alt="	Body To Body	"></a><h3>	Body To Body	</h3><p>	BTS	</p></li>
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=hLOheGDwD_0	"><img src="img/	Choosin' TexasElla Langley2025.png	" alt="	Choosin' Texas	"></a><h3>	Choosin' Texas	</h3><p>	Ella Langley	</p></li>
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=A8dH4cKGa6s	"><img src="img/	OrdinaryAlex Warren2025.png	" alt="	Ordinary	"></a><h3>	Ordinary	</h3><p>	Alex Warren	</p></li>
-<li class="table-cell"><a href="	https://www.youtube.com/watch?v=ko70cExuzZM	"><img src="img/	The Fate Of OpheliaTaylor Swift2025.png	" alt="	The Fate Of Ophelia	"></a><h3>	The Fate Of Ophelia	</h3><p>	Taylor Swift	</p></li>
-										
-
-
-</ul>										
-
-    
-    
-    </div>
-    
-    </div>
 
 <!-- Modal Structure -->
 <div id="wikiModal" class="modal">
@@ -214,11 +191,5 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
         // JavaScript to update the year dynamically
         document.getElementById("current-year").textContent = new Date().getFullYear();
     </script>
-    <script>
-        $(document).ready(function() {
-             $('#tipue_search_input').tipuesearch();
-        });
-        </script>
-        
 </body>
 </html>
