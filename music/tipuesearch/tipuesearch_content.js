@@ -1,5 +1,22 @@
 
 var tipuesearch = {"pages": [
+
+{"title": "	Unfold	", "text": "	Unfold is an album by Monsta X released in 2026	", "img": "img/	UnfoldMonstaX2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Unfold	"},
+{"title": "	Broken View	", "text": "	Broken View is an album by Sam Barber released in 2026	", "img": "img/	BrokenViewSamBarber2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Broken View	"},
+{"title": "	The Weight Of The Woods	", "text": "	The Weight Of The Woods is an album by Dermot Kennedy released in 2026	", "img": "img/	TheWeightOfTheWoodsDermotKennedy2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Weight Of The Woods	"},
+{"title": "	Emotions	", "text": "	Emotions is an album by Nine Vicious released in 2026	", "img": "img/	EmotionsNineVicious2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Emotions	"},
+{"title": "	Distracted	", "text": "	Distracted is an album by Thundercat released in 2026	", "img": "img/	DistractedThundercat2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Distracted	"},
+     
+{"title": "	Jane!	", "text": "	Jane! is a song by The Long Faces released in 2018	", "img": "img/	Jane!The Long Faces2018.png	", "tags": "		", "note": "		", "url": "	2018.html#:~:text=Jane!	"},
+{"title": "	Tuition	", "text": "	Tuition is a song by Don Toliver released in 2026	", "img": "img/	TuitionDon Toliver2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Tuition	"},
+{"title": "	Hate How You Look	", "text": "	Hate How You Look is a song by Josh Ross released in 2025	", "img": "img/	Hate How You LookJosh Ross2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Hate How You Look	"},
+{"title": "	Self Aware	", "text": "	Self Aware is a song by Temper City released in 2026	", "img": "img/	Self AwareTemper City2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Self Aware	"},
+{"title": "	Girl You're Taking Home	", "text": "	Girl You're Taking Home is a song by Ella Langley released in 2024	", "img": "img/	Girl You're Taking HomeElla Langley2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Girl You're Taking Home	"},
+{"title": "	Be Like A Woman	", "text": "	Be Like A Woman is a song by Chris Rainbow released in 1979	", "img": "img/	Be Like A WomanChris Rainbow1979.png	", "tags": "		", "note": "		", "url": "	1979.html#:~:text=Be Like A Woman	"},
+{"title": "	Boston	", "text": "	Boston is a song by STELLA LEFTY released in 2026	", "img": "img/	BostonSTELLA LEFTY2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Boston	"},
+{"title": "	Say So	", "text": "	Say So is a song by Dan + Shay released in 2026	", "img": "img/	Say SoDan + Shay2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Say So	"},
+{"title": "	Sweet Boy	", "text": "	Sweet Boy is a song by Malcolm Todd released in 2024	", "img": "img/	Sweet BoyMalcolm Todd2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Sweet Boy	"},
+     
 {"title": "	Bully	", "text": "	Bully is an album by Ye released in 2026	", "img": "img/	BullyYe2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Bully	"},
 {"title": "	Hades	", "text": "	Hades is an album by Melanie Martinez released in 2026	", "img": "img/	HadesMelanieMartinez2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Hades	"},
 {"title": "	ADL	", "text": "	ADL is an album by Yeat released in 2026	", "img": "img/	ADLYeat2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=ADL	"},
