@@ -411,6 +411,7 @@ transition: all 0.5s ease;
      text-align: left;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
      padding: 16px;
+     color: #999;
  }
  .table-cell img {
          width: 100%;
