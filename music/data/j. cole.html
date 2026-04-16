@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>J. Cole | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/J. Cole-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>J. Cole</h3><span class="fo-5">Fayetteville, North Carolina, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/j.-cole-500x500.jpg" alt="J. Cole"><h3>J. Cole</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>28 January 1985<p><strong>Age: </strong><span class='dob' data-dob='28-Jan-1985'></span><p><strong>Years Active: </strong>2007–present</p><p><strong>Genre/s: </strong>Southern hip-hop, pop rap, East Coast hip-hop, conscious hip-hop</strong><p><strong>Label/s: </strong>Dreamville, Roc Nation, Interscope, Columbia, ByStorm</p></li><li class="table-cell"><img src="" style="display: none;"><p>Jermaine Lamarr Cole (born January 28, 1985) is an American rapper and record producer. Born on a military base in Germany and raised in Fayetteville, North Carolina, Cole initially gained attention as a rapper following the release of his debut mixtape, The Come Up, in early 2007. Intent on further pursuing a musical career, he signed with Jay-Z's Roc Nation in 2009 and released two additional mixtapes: The Warm Up (2009) and Friday Night Lights (2010) to further critical acclaim as he garnered a wider following.<p>Each of Cole's studio albums have peaked atop the US Billboard 200, beginning with his debut, Cole World: The Sideline Story (2011), and its follow-up, Born Sinner (2013). Both met with critical acclaim, the albums spawned the Billboard Hot 100-top 40 singles "Work Out", "Power Trip" (featuring Miguel), and "Crooked Smile" (featuring TLC). Despite commercial success, Cole departed from the pop-oriented sound of the albums in favor of conscious subject matter for his subsequent projects; themes of nostalgia, racial inequality, and materialism were explored respectively in his following releases: 2014 Forest Hills Drive (2014), 4 Your Eyez Only (2016) and KOD (2018). 4 Your Eyez Only yielded his furthest commercial success—selling an estimated 500,000 album-equivalent units in its first week, while the latter featured a then-record six simultaneous top 20 hits on the Billboard Hot 100—the first time a musical act achieved this feat since English rock band the Beatles in 1964. His sixth album, The Off-Season (2021), was met with continued success and spawned the single "My Life" (with 21 Savage and Morray), which peaked at number two on the Billboard Hot 100. Its chart success was matched by his guest appearance on the 2023 single "All My Life" by Lil Durk, and succeeded by his first song to top the chart, "First Person Shooter" by Drake that same year. His seventh album, marketed as his final album, The Fall-Off was released in 2026, and had several top-40 songs upon it's debut, with "Two Six" peaking at 16th on the Billboard Hot 100.<p>Self-taught on piano, Cole also acts as a producer alongside his recording career—having largely handled the production of his own projects—with credits on material for other artists, including Kendrick Lamar, Janet Jackson, Young Thug, Wale, and Mac Miller, among others. Cole's side ventures include his record label Dreamville Records, as well as its namesake media company and non-profit. The label, having signed artists including JID, Ari Lennox, Bas, and EarthGang, has released four compilation albums; their third, Revenge of the Dreamers III (2019), debuted atop the Billboard 200 and was nominated for Best Rap Album at the 62nd Annual Grammy Awards. In January 2015, Cole began housing single mothers rent-free at his childhood home in Fayetteville.<p>Cole has won two Grammy Awards from seventeen nominations, a Billboard Music Award for Top Rap Album, three Soul Train Music Awards, and eight BET Hip Hop Awards. Each of his albums—including Revenge of the Dreamers III—have received platinum certifications by the Recording Industry Association of America (RIAA). He is a minority owner of the Charlotte Hornets.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

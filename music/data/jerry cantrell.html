@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Jerry Cantrell | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Jerry Cantrell-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Jerry Cantrell</h3><span class="fo-5">Tacoma, Washington, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/jerry-cantrell-2200x1237.jpeg" alt="Jerry Cantrell"><h3>Jerry Cantrell</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>18 March 1966<p><strong>Age: </strong><span class='dob' data-dob='18-Mar-1966'></span><p><strong>Years Active: </strong>1985–present</p><p><strong>Genre/s: </strong>Alternative metal, grunge, heavy metal, doom metal, sludge metal, hard rock</strong><p><strong>Label/s: </strong>Columbia, Roadrunner, BMG<p><strong>Member of: </strong>Alice in Chains</p></li><li class="table-cell"><img src="" style="display: none;"><p>Jerry Fulton Cantrell Jr. (born March 18, 1966) is an American guitarist, singer, and songwriter. He is best known as the founder, lead guitarist, co-lead vocalist, and main songwriter of the rock band Alice in Chains. The band rose to international fame in the early 1990s during Seattle's grunge movement and is known for its distinctive vocal style which includes the harmonized vocals between Cantrell and Layne Staley (later Cantrell and William DuVall).<p>Cantrell started as a secondary lead vocalist on Alice in Chains' 1992 EP Sap. After Staley's death in 2002, Cantrell took the role of Alice in Chains' principal lead vocalist on Black Gives Way to Blue (2009), The Devil Put Dinosaurs Here (2013), and Rainier Fog (2018), with DuVall primarily singing older songs by Staley in live performances.<p>He also has a solo career and released the albums Boggy Depot in 1998 and Degradation Trip Volumes 1 & 2 in 2002. His third solo album, Brighten, was released in 2021. His most recent release is 2024's I Want Blood. Cantrell has also collaborated and performed with Heart, Ozzy Osbourne, Metallica, Pantera, Circus of Power, Metal Church, Gov't Mule, Damageplan, Pearl Jam, the Cult, Stone Temple Pilots, Danzig, Glenn Hughes, Duff McKagan, and Deftones, among others.<p>Cantrell was named "Riff Lord" by British hard rock/metal magazine Metal Hammer in 2006. Guitar World Magazine ranked Cantrell as the 38th out of "100 Greatest Heavy Metal Guitarists of All Time" in 2004, and the 37th "Greatest Guitar Player of All Time" in 2012. Guitar World also ranked Cantrell's solo in "Man in the Box" at No. 77 on its list of "100 Greatest Guitar Solos" in 2008. Cantrell has earned nine Grammy Award nominations as a member of Alice in Chains.<p>He also contributed to the soundtracks of The Cable Guy (1996), John Wick: Chapter 2 (2017), and Dark Nights: Metal (2018), and he has made cameos in films such as Jerry Maguire (1996), Rock Slyde (2009), Deadwood: The Movie (2019) and Sinners (2025). Cantrell also acted in the Alice in Chains mockumentaries The Nona Tapes (1995) and AIC 23 (2013).</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
