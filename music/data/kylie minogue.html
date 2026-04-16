@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Kylie Minogue | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Kylie Minogue-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Kylie Minogue</h3><span class="fo-5">Melbourne, Victoria, Australia</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/kylie-minogue-1478x832.jpg" alt="Kylie Minogue"><h3>Kylie Minogue</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>28 May 1968<p><strong>Age: </strong><span class='dob' data-dob='28-May-1968'></span><p><strong>Years Active: </strong>1979–present</p><p><strong>Genre/s: </strong>Pop, dance-pop, disco</strong><p><strong>Label/s: </strong>Astralwerks, BMG, Capitol, Deconstruction, Geffen, PWL, Mushroom, Parlophone, Warner</p></li><li class="table-cell"><img src="" style="display: none;"><p>Kylie Ann Minogue (born 28 May 1968) is an Australian singer, songwriter, and actress. Frequently referred to as the "Princess of Pop", she has achieved recognition in both the music industry and the fashion world as a major style icon. Her accolades include two Grammy Awards, four Brit Awards and eighteen ARIA Music Awards. Minogue is the highest-selling Australian female artist of all time, with sales surpassing 80 million records worldwide. In 2024, Time included her in its annual list of the 100 most influential people in the world.<p>Born and raised in Melbourne, Minogue first achieved recognition starring as Charlene Robinson in the Australian soap opera Neighbours (1986–1988). She began her music career in the late 1980s, releasing four dance-pop studio albums under PWL. By the early 1990s, Minogue had amassed several hit singles in Australia and the UK, including "The Loco-Motion", "I Should Be So Lucky", "Especially for You", "Hand on Your Heart", and "Better the Devil You Know". Taking more creative control over her music, she signed with Deconstruction Records in 1993 and released the albums Kylie Minogue (1994) and Impossible Princess (1997).<p>By joining Parlophone in 1999, Minogue returned to mainstream dance-oriented music with Light Years (2000), including the number-one hits "Spinning Around" and "On a Night Like This". The follow-up, Fever (2001), was an international breakthrough for Minogue, becoming her best-selling album to date. The lead single, "Can't Get You Out of My Head", was a worldwide chart-topper and became one of the most successful singles of the 2000s, selling over five million units. Follow-up singles "In Your Eyes" and "Love at First Sight" became hits as well. She continued reinventing her image and experimenting with a range of genres on her subsequent albums, which spawned successful singles such as "Slow", "I Believe in You", "2 Hearts" and "All the Lovers". In 2017, she signed with BMG, leading to several number-one albums in Australia and the UK – Golden (2018), Step Back in Time: The Definitive Collection (2019), Disco (2020), Tension (2023) and Tension II (2024). She is the only female artist in the UK charts with a number-one single in four decades and chart-topping albums in five consecutive decades.<p>In film, Minogue made her debut in The Delinquents (1989), and appeared in Street Fighter (1994), Moulin Rouge! (2001), Holy Motors (2012) and San Andreas (2015). In reality television, she appeared as a judge on The Voice UK and The Voice Australia, both in 2014. Her other ventures include product endorsements, books, perfumes, charitable work and a wine brand. Minogue's achievements include being an ARIA Hall of Fame inductee, Officer of the Order of Australia (AO), Officer of the Order of the British Empire, Chevalier (knight) of the Ordre des Arts et des Lettres and an honorary Doctor of Health Science (D.H.Sc.).</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Kane Brown | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Kane Brown-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Kane Brown</h3><span class="fo-5">Whites Creek, Tennessee, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/kane-brown-400x400.jpg" alt="Kane Brown"><h3>Kane Brown</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>21 October 1993<p><strong>Age: </strong><span class='dob' data-dob='21-Oct-1993'></span><p><strong>Years Active: </strong>2014–present</p><p><strong>Genre/s: </strong>Country, country pop, R&B</strong><p><strong>Label/s: </strong>Zone 4, RCA Nashville</p></li><li class="table-cell"><img src="" style="display: none;"><p>Kane Allen Brown (born October 21, 1993) is an American country music singer and songwriter. First garnering a mass following on social media, he released his debut extended play (EP) Closer in June 2015, and followed it up with the single, "Used to Love You Sober" in October of that year. After Brown signed with RCA Nashville in early 2016, the song was included on his second EP and major label debut, Chapter 1 in March 2016. He released his eponymous debut studio album later that year in December. The album spawned the single "What Ifs" (featuring Lauren Alaina), and in October 2017, Brown became the first artist to have simultaneous number ones on all five main Billboard country charts. Brown released his second album, Experiment, in November 2018, which became his first number one album on the Billboard 200.<p>Brown was raised in rural northwest Georgia and in the Chattanooga, Tennessee, area. He is biracial, with a white mother, Tabatha Brown and an African-American father who is also part Cherokee. In 2018, he told People magazine he did not know he was biracial until he was 7 or 8 years old: "I thought I was full white... I found out that I was biracial, and I still wasn't thinking anything of it, but then I started getting called the N-word ... I learned what it meant, and that's when it started affecting me. I got in fights over it when I was little." His father has been incarcerated since 1996, and he was raised by his single mother.<p>Sometimes homeless, Brown's family moved around northwest Georgia when he was younger from Rossville to Fort Oglethorpe to LaFayette before finally settling in Red Bank, Tennessee. As a result, he attended many schools, among them Lakeview Fort Oglethorpe High School in Fort Oglethorpe, where he sang in the choir with Lauren Alaina, the runner-up on Season 10 of American Idol. He also attended Red Bank, Ridgeland, and Soddy Daisy High School. After graduation, he lived with his grandmother, who had also helped raise him.<p>Brown grew up listening to country music but became interested in R&B music in middle school. However, after almost winning a school talent show in 11th grade with a rendition of Chris Young's "Gettin' You Home", he began to perform country music. He auditioned for both American Idol and The X Factor USA after the success of his school friend Lauren Alaina on American Idol. He was chosen for The X Factor USA after an audition in 2013 but left the show when its producers wanted to include him in a boy band. After that, he decided to post his cover versions of popular songs online.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

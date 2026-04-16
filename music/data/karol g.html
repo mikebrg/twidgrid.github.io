@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Karol G | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Karol G-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Karol G</h3><span class="fo-5">Medellín, Antioquia, Colombia</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/karol-g-2000x1333.jpg" alt="Karol G"><h3>Karol G</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>14 February 1991<p><strong>Age: </strong><span class='dob' data-dob='14-Feb-1991'></span><p><strong>Years Active: </strong>2012–present</p><p><strong>Genre/s: </strong>Reggaeton, urban pop, Latin R&B</strong><p><strong>Label/s: </strong>Universal Latino, Bichota, Interscope, Rimas Entertainment</p></li><li class="table-cell"><img src="" style="display: none;"><p>Carolina Giraldo Navarro (born 14 February 1991), known professionally as Karol G, is a Colombian singer and songwriter. Considered as one of the most influential reggaeton and urban pop artists, she has received awards including a Grammy, eight Latin Grammy Awards (including Album of the Year, Song of the Year and Best New Artist) and five Billboard Music Awards. She was recognised as Woman of the Year and with a Rulebreaker Award at Billboard Women in Music, with the Spirit of Hope Award at the Billboard Latin Music Awards, and has eleven Guinness World Records.<p>Born and raised in Medellín, Colombia, Giraldo launched her career as a teenager, appearing on the Colombian spinoff of The X Factor. She moved to New York in 2014 to learn more about the music industry and signed with Universal Music Latino. In late 2018, her duet "Secreto" became a hit in Latin America, as she and Puerto Rican artist Anuel AA publicly confirmed their relationship via the music video.<p>In July 2019, she released "China" in collaboration with Anuel AA, Daddy Yankee, Ozuna, and J Balvin, which became her first music video with over one billion views on YouTube. In May 2019, she released the album Ocean, which served as a stylistic departure from Unstoppable, incorporating a more relaxed and less "pop" sound while incorporating reggaetón influences. Popular singles from the album include the title track (later released as a remix with Jessie Reyez). Later that year, her song "Tusa" charted internationally and was certified 28× Latin platinum by the RIAA. In 2020, Giraldo received four nominations at the Latin Grammy Awards. Throughout the COVID-19 pandemic, and into early 2021, she would release successful songs, including some of her most famous ("Ay, Dios Mío!", "Bichota" and "Location"), in the lead-up to her third album, KG0516, which was released in spring of that year, topping the US Latin albums chart.<p>Giraldo released her fourth album, Mañana Será Bonito, in the spring of 2023; the record was immediately recognised as the first-ever Spanish-language album by a female artist to debut at No. 1 on the US Billboard 200. She achieved her highest-charting single on the US Billboard Hot 100 with the song "TQG", a collaboration with fellow Colombian singer-songwriter Shakira, reaching the No. 7 position. In early 2024, she received her first Grammy Award, at the 66th annual ceremony, for the recently created Música Urbana Album category.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

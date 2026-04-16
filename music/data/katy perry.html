@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Katy Perry | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Katy Perry-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Katy Perry</h3><span class="fo-5">Santa Barbara, California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/katy-perry.webp" alt="Katy Perry"><h3>Katy Perry</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>25 October 1984<p><strong>Age: </strong><span class='dob' data-dob='25-Oct-1984'></span><p><strong>Years Active: </strong>2001–present</p><p><strong>Genre/s: </strong>Pop, rock, disco</strong><p><strong>Label/s: </strong>Red Hill, Java, Columbia, Capitol</p></li><li class="table-cell"><img src="" style="display: none;"><p>Katheryn Elizabeth Hudson (born October 25, 1984), known professionally as Katy Perry, is an American singer, songwriter, and television personality. Known for her influence on pop music and her camp style, she has been dubbed the "Queen of Camp" by Vogue and Rolling Stone.<p>At 16, Perry released the unsuccessful gospel album Katy Hudson (2001) under Red Hill Records. After moving to Los Angeles at 17, she signed to Capitol Records and rose to fame with the pop rock album One of the Boys (2008). Its lead single, "I Kissed a Girl", topped the U.S. Billboard Hot 100. Perry's disco-influenced pop record Teenage Dream (2010) became the only album by a woman to spawn five U.S. number-one singles: "California Gurls", "Teenage Dream", "Firework", "E.T.", and "Last Friday Night (T.G.I.F.)". Its reissue, subtitled The Complete Confection (2012), produced the U.S. number-one single "Part of Me". The dance-inspired Prism (2013) yielded two U.S. number-one singles, "Roar" and "Dark Horse". Perry's subsequent albums, Witness (2017), Smile (2020) and 143 (2024), were met with varied critical and commmercial success.<p>Perry is one of the best-selling music artists of all time, with estimated sales of over 151 million records worldwide. Six of her songs have received Diamond certifications from the Recording Industry Association of America (RIAA). The world's highest-paid female musician in 2015 and 2018, she was named by Billboard as one of the greatest pop stars of the 21st century. Her accolades include 20 Guinness World Records, five Billboard Music Awards, five American Music Awards (including the Special Achievement Award), a Brit Award, a Juno Award, and seven MTV Video Music Awards (including the Michael Jackson Video Vanguard Award). Perry was the first artist to have multiple videos reach one billion views on Vevo and YouTube, with nine videos in total. With an estimated net worth of $360 million, she is among the world's wealthiest musicians.<p>Outside of music, Perry released an autobiographical documentary titled Katy Perry: Part of Me in 2012, voiced Smurfette in The Smurfs film series (2011–2013) and launched her own shoe line Katy Perry Collections in 2017. She served as a judge on American Idol from the sixteenth season in 2018 to the twenty-second season in 2024. In 2025, Perry flew into space aboard Blue Origin NS-31, the first all-female space flight since 1963, which received significant media coverage. She is an advocate for LGBT rights and women's rights, and was named a UNICEF Goodwill Ambassador in 2013. Her philanthropy and activism focus on children's education and HIV/AIDS awareness.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

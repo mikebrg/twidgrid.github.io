@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Kendrick Lamar | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Kendrick Lamar-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} </style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Kendrick Lamar</h3><span class="fo-5">Compton, California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/kendrick-lamar.webp" alt="Kendrick Lamar"><h3>Kendrick Lamar</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>17 June 1987<p><strong>Age: </strong><span class='dob' data-dob='17-Jun-1987'></span><p><strong>Years Active: </strong>2003–present</p><p><strong>Genre/s: </strong>West Coast hip hop, progressive rap, alternative rap, jazz rap, conscious hip hop</strong><p><strong>Label/s: </strong>PGLang, Interscope, Top Dawg, Aftermath</p></li><li class="table-cell"><img src="" style="display: none;"><p>Kendrick Lamar Duckworth (born June 17, 1987) is an American rapper, songwriter, and record producer. Rooted in West Coast hip-hop, Lamar's music features conscious, introspective lyrics, with political criticism and social commentary concerning African-American culture. Journalists have referred to Lamar as one of the greatest rappers of all time. In 2018, he became the first musician outside of the classical and jazz genres to receive the Pulitzer Prize for Music.<p>Born and raised in Compton, California, Lamar began releasing music under the stage name K.Dot in high school. He signed with Top Dawg Entertainment (TDE) in 2005 and co-founded the hip hop supergroup Black Hippy. His alternative rap debut album, Section.80, led to a joint contract with Dr. Dre's Aftermath Entertainment and Interscope Records. He rose to stardom with his gangsta rap–influenced second album Good Kid, M.A.A.D City (2012), which became the longest-charting hip hop studio album on the Billboard 200 and was named the greatest concept album of all time by Rolling Stone. In 2015, he had his first Billboard Hot 100 number-one single, with the remix of Taylor Swift's "Bad Blood", and released his first of five consecutive number-one albums on the Billboard 200, To Pimp a Butterfly, which infused hip-hop with historical African-American music genres such as jazz, funk, and soul.<p>Lamar's critical and commercial success continued with his R&B and pop-leaning fourth album Damn (2017), featuring his second US number-one single, "Humble". He contributed to the soundtrack of the 2018 film Black Panther, earning a nomination for the Academy Award for Best Original Song for "All the Stars". His fifth album, Mr. Morale & the Big Steppers (2022), delved into introspection and concluded his tenure with TDE and Aftermath. In 2024, his highly publicized feud with Drake and sixth album GNX spawned the Billboard Hot 100 number-one singles "Like That", "Not Like Us", "Squabble Up", and "Luther". "Not Like Us" won five Grammy Awards, including Song of the Year and Record of the Year, while "Luther" also won the latter and became his longest-charting number-one song in the US, at 13 weeks.<p>Lamar's accolades include 27 Grammy Awards—the most for a rapper—two Primetime Emmy Awards, a Brit Award, 5 American Music Awards, 7 Billboard Music Awards, 11 MTV Video Music Awards and a record 37 BET Hip Hop Awards. Time listed him as one of the 100 most influential people in the world in 2016. Three of his works were included in Rolling Stone's 2020 revision of the "500 Greatest Albums of All Time". In 2025, he headlined the most-watched Super Bowl halftime show in history, while his Grand National Tour with SZA became the highest-grossing co-headlining tour of all time. Outside of music, Lamar co-founded the creative company PGLang and ventured into film with his longtime creative partner, Dave Free.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
