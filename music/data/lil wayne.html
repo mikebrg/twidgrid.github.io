@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Lil Wayne | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Lil Wayne</h3><span class="fo-5">New Orleans, Louisiana, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/lil-wayne-500x500.jpg" alt="Lil Wayne"><h3>Lil Wayne</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>27 September 1982<p><strong>Age: </strong><span class='dob' data-dob='27-Sept-1982'></span><p><strong>Years Active: </strong>1991–present</p><p><strong>Genre/s: </strong>Southern hip-hop, bounce, gangsta rap, trap, pop rap</strong><p><strong>Label/s: </strong>Universal, Young Money, Republic, Cash Money<p><strong>Member of: </strong>Hot Boyz</p></li><li class="table-cell"><img src="" style="display: none;"><p>Dwayne Michael Carter Jr. (born September 27, 1982), known professionally as Lil Wayne, is an American rapper, singer and record producer. He is often regarded as one of the most influential hip-hop artists of his generation, as well as one of the greatest rappers of all time. Born and raised in New Orleans, he was discovered by hometown rapper Birdman in 1993 and signed with his record label, Cash Money Records, at age eleven. He emerged as the label's flagship artist until his departure in 2018.<p>Carter was first placed in a duo with Cash Money labelmate B.G. in 1994—known collectively as the B.G.'z—and they released the album True Story that year, although Carter (at the time known as Baby D) appeared on only three of its tracks. Carter and B.G. then formed the Southern hip-hop group Hot Boys with labelmates Juvenile and Turk in 1997, and released their debut album, Get It How U Live! that year. The Hot Boys gained mainstream success after the release of their second album Guerrilla Warfare (1999) and their appearance on B.G.'s single, "Bling Bling." The group briefly disbanded after the album due to each member (besides Carter) parting ways with the label, although one further album—Let 'Em Burn (2003)—was released.<p>Carter's debut studio album, Tha Block Is Hot (1999), was his breakthrough as a solo artist, quickly achieving commercial success. It was followed by Lights Out (2000) and 500 Degreez (2003). Carter is credited with revolutionizing the mixtape scene with his innovative approach in the 2000s. His fourth and fifth albums, Tha Carter (2004) and Tha Carter II (2005), both debuted within the top five of the Billboard 200 and received critical acclaim. His sixth album, Tha Carter III (2008), yielded the pinnacle of Wayne's career, with first-week sales of over one million units domestically. It won the Best Rap Album at the 51st Annual Grammy Awards and was supported by his first Billboard Hot 100-number one single "Lollipop" (featuring Static Major), and the top-ten singles "A Milli" and "Got Money" (featuring T-Pain).<p>Carter's seventh studio album, Rebirth (2010), experimented with rap rock and was released to generally negative critical reception. A month after its release, he began serving an 8-month jail sentence for criminal possession of a weapon stemming from an incident in 2007. His eighth album, I Am Not a Human Being (2010), was released during his incarceration, while his ninth album, Tha Carter IV (2011), followed months after his release from prison. Despite mixed reviews, Tha Carter IV sold 964,000 units in its first-week in the U.S. His twelfth studio album, Tha Carter V (2018)—preceded by I Am Not a Human Being II (2013) and Free Weezy Album (2015)—was released following long-term delays and label disputes, and was met with 480,000 in first-week sales. His thirteenth album, Funeral (2020), became his fifth non-consecutive number one album. He released his fourteenth album, Tha Carter VI, in June 2025.<p>Carter has sold over 120 million records worldwide, including over 25 million albums and 95 million digital tracks in the U.S, making him one of the world's best-selling music artists. He has won five Grammy Awards, eleven BET Awards, four Billboard Music Awards, two MTV Video Music Awards and eight NAACP Image Awards. On September 27, 2012, he became the first male artist to surpass Elvis Presley with the most entries on the Billboard Hot 100, with 109 songs. Carter founded the record label Young Money Entertainment in 2005, which has signed artists including Drake, Tyga and Nicki Minaj.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
