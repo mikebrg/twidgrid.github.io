@@ -702,11 +702,12 @@ text-decoration: underline; /* Add underline only on hover */
   transition: 0.3s ease;
   display: flex;
   flex-direction: column;
+  z-index: 1001;
 }
 
 .sidebar a {
   color: white;
-  padding: 15px 20px;
+  padding: 5px 20px;
   text-decoration: none;
 }
 
@@ -728,8 +729,12 @@ text-decoration: underline; /* Add underline only on hover */
   height: 100%;
   background: rgba(0,0,0,0.5);
   display: none;
+    pointer-events: none;
+    z-index: 1000;
+
 }
 
 .overlay.active {
   display: block;
+  pointer-events: all;
 }
