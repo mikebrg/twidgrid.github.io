@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 
-<html>
-
-<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Discipline Records | FIFA World Cup</title>
 
@@ -17,13 +14,6 @@
     <link rel="stylesheet" href="../inc/standard.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <style>
-        .headx {
-            position: relative;
-            background-size: cover;
-            background-image: url('../img/worldcup.jpg');
-            background-position: center;
-            min-height: 400px;
-        }
 
         table {
             width: 100%;
@@ -61,7 +51,32 @@
     <div class="cont">
 
         <div id="head">
-            <div class="block"><a href="../index.html" class="not">
+            <div class="block">
+                
+                <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+
+<a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+
+
+<a href="../index.html" class="not">
                     <div class="ban">TwidGrid - FIFA World Cup</div>
                 </a></div>
         </div>

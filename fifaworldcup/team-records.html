@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
-<html>
 
-<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Team Records | FIFA World Cup</title>
 
@@ -17,17 +15,11 @@
     <link rel="stylesheet" href="../inc/standard.css">
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <style>
-        .headx {
-            position: relative;
-            background-size: cover;
-            background-image: url('../img/worldcup.jpg');
-            background-position: center;
-            min-height: 400px;
-        }
-
+       
         table {
             width: 100%;
             border-collapse: collapse;
+            background-color:#fff;
         }
 
         th,
@@ -61,7 +53,31 @@
     <div class="cont">
 
         <div id="head">
-            <div class="block"><a href="../index.html" class="not">
+            <div class="block">
+                
+                <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+
+<a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+                
+                <a href="../index.html" class="not">
                     <div class="ban">TwidGrid - FIFA World Cup</div>
                 </a></div>
         </div>
@@ -84,9 +100,7 @@
             <p>
             <p>
             <h2>Overall Team Records</h2>
-            <p>The system used in the World Cup up to 1990 was 2 points for a win. In this ranking 3 points are awarded
-                for a win, 1 for a draw and 0 for a loss. As per statistical convention in football, matches decided in
-                extra time are counted as wins and losses, while matches decided by penalty shoot-outs are counted as
+            <p style="color: #fff;">The system used in the World Cup up to 1990 was 2 points for a win. In this ranking 3 points are awarded for a win, 1 for a draw and 0 for a loss. As per statistical convention in football, matches decided in extra time are counted as wins and losses, while matches decided by penalty shoot-outs are counted as
                 draws. Teams are ranked by total points, then by goal difference, then by goals scored.
             </p>
             <p>
@@ -1239,7 +1253,7 @@
             <p>
             <p>
             <h2>Finals Records by Team</h2>
-            <p>Performances in finals by team.
+            <p style="color: #fff;">Performances in finals by team.
             </p>
             <p>
             <p></p>
@@ -1330,7 +1344,7 @@
             <p>
             <p>
             <h2>Teams Statistics</h2>
-            <p>In case there are teams with equal quantities, they will be mentioned in chronological order of
+            <p style="color: #fff;">In case there are teams with equal quantities, they will be mentioned in chronological order of
                 tournament history (the teams that attained the quantity first, are listed first). If the quantity was
                 attained by more than one team in the same tournament, the teams will be listed alphabetically.
             </p>

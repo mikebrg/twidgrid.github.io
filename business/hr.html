@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 
-<html>
 
-<head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>HR & Payroll software | Business</title>
 
@@ -42,7 +40,25 @@
     <div class="cont">
 
         <div id="head">
-            <div class="block">
+  <div class="block">
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
 
 <a href="../index.html" class="not">
       <img src="../img/favicon.png" alt="TwidGrid" >
