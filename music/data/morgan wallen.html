@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Morgan Wallen | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Morgan Wallen</h3><span class="fo-5">Sneedville, Tennessee, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/morgan-wallen.webp" alt="Morgan Wallen"><h3>Morgan Wallen</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>13 May 1993<p><strong>Age: </strong><span class='dob' data-dob='13-May-1993'></span><p><strong>Years Active: </strong>2014–present</p><p><strong>Genre/s: </strong>Country, country pop</strong><p><strong>Label/s: </strong>Panacea, Big Loud, Republic, Mercury</p></li><li class="table-cell"><img src="" style="display: none;"><p>Morgan Cole Wallen (born May 13, 1993) is an American country and country pop singer from Sneedville, Tennessee. In 2014, he competed in the sixth season of The Voice. After being eliminated in the playoffs, he signed to Panacea Records and released his debut extended play Stand Alone (2015). Later in 2016, Wallen signed to Big Loud to release his second extended play The Way I Talk (2016). His debut studio album If I Know Me (2018) included four singles: "The Way I Talk", "Up Down" (featuring Florida Georgia Line), "Whiskey Glasses", and "Chasin' You". If I Know Me, after a record-breaking 114 weeks on the Billboard Top Country Albums chart, reached No. 1.<p>Wallen's second studio album Dangerous: The Double Album (2021) was an immediate commercial success, becoming the first country album to spend its first seven weeks atop the Billboard 200 chart. The album spent the three following weeks at number one, thus spending its first ten weeks atop the chart. Dangerous: The Double Album included four singles: "More Than My Hometown", "7 Summers", "Sand in My Boots", and "Wasted on You", as well as various promotional singles.<p>Wallen's third studio album One Thing at a Time (2023) spent its first 12 weeks atop the Billboard 200, and topped the Billboard 200 for seven more non-consecutive weeks throughout 2023 and 2024, thus spending 19 non-consecutive weeks atop the chart. All 36 tracks from the album charted on the Billboard Hot 100 simultaneously, breaking the record set by Drake (27), Wallen additionally charted five tracks in the top-ten of the chart. The album spawned eight singles: "You Proof", "Thought You Should Know", "Last Night", the title track, "Everything I Love", "Thinkin' Bout Me", "Man Made a Bar" (featuring Eric Church), and "Cowgirls" (featuring Ernest). The single "Last Night" peaked atop the Billboard Hot 100, marking Wallen's first number-one single on this chart, spent sixteen non-consecutive weeks atop the chart throughout 2023, and topped the 2023 year-end chart.<p>Wallen's fourth studio album I'm the Problem was released on May 16, 2025. The album debuted at number one on the Billboard 200, where it remained for its first 8 weeks. After a two-week absence from the top position, it returned to number one for an additional 4 consecutive weeks, accumulating a total of 12 non-consecutive weeks atop the chart. It spawned the Billboard Hot 100 chart-topping singles "Love Somebody" and "What I Want" (featuring Tate McRae). Thirty-six of the 37 tracks from the album charted on the Billboard Hot 100, and six charted in the top 10, which gave Wallen the record as the first country artist to do so.<p>Wallen has been praised for his cross-genre appeal and cultural impact. He has received several accolades, including an Academy of Country Music Award, fourteen Billboard Music Awards, and won Entertainer of the Year at the 58th Annual Country Music Association Awards. Aside from his various accolades, Wallen holds multiple Billboard chart records: Wallen is the only artist to have two albums spend at least 100 weeks in the top ten of the Billboard 200, the only artist to have two albums spend at least 10 first-weeks atop the Billboard 200, the artist with the most weeks at number-one on the Top Country Albums chart (187), and his single "You Proof" is the longest-running Billboard Country Airplay number-one of all time, with ten non-consecutive weeks atop the chart. He also holds the record for being the modern country artist with the most Billboard Hot 100 number-one hits, with four.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

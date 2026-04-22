@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Miranda Lambert | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Miranda Lambert</h3><span class="fo-5">Lindale, Texas, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/miranda-lambert.webp" alt="Miranda Lambert"><h3>Miranda Lambert</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>10 November 1983<p><strong>Age: </strong><span class='dob' data-dob='10-Nov-1983'></span><p><strong>Years Active: </strong>2000–present</p><p><strong>Genre/s: </strong>Country, country pop</strong><p><strong>Label/s: </strong>Epic Nashville, Columbia Nashville, RCA Nashville, Vanner, Republic Nashville, Big Loud<p><strong>Member of: </strong>Pistol Annies</p></li><li class="table-cell"><img src="" style="display: none;"><p>Miranda Leigh Lambert (born November 10, 1983) is an American country music singer–songwriter. Born in Longview, Texas, she started out in early 2001 when she released her self-titled debut album independently. In 2003, she finished in third place on the television program Nashville Star, a singing competition which aired on the USA Network. Outside her solo career, she is a member of the Pistol Annies, a group she formed in 2011 alongside Ashley Monroe and Angaleena Presley. Lambert has been honored by the Grammy Awards, the Academy of Country Music Awards and the Country Music Association Awards. Lambert has been honored with more Academy of Country Music Awards than any artist in history. In 2024, Lambert was awarded the Country Icon Award at the People's Choice Country Awards.<p>After signing with Epic Records, she released her first Epic album and second overall 2005's Kerosene. It was certified Platinum in the United States and produced the singles "Me and Charlie Talking", "Bring Me Down", "Kerosene" and "New Strings". All four singles reached the top 40 on the Billboard Hot Country Songs. Her second album, Crazy Ex-Girlfriend, was released in early 2007. Three of its singles ("Famous in a Small Town", "Gunpowder & Lead" and "More Like Her") peaked within the top 20 on the country songs chart, with "Gunpowder & Lead" becoming her first top 10 entry in July 2008. Her third album, Revolution, was released in September 2009. Two of its songs – "The House That Built Me" and "Heart Like Mine" – topped the Hot Country Songs chart.<p>2011's Four the Record included the singles "Baggage Claim", "Over You", "Fastest Girl in Town", "Mama's Broken Heart" and "All Kinds of Kinds". Lambert released her fifth album, Platinum, in 2014. The record won the Grammy Award for Best Country Album, and the album's lead single, "Automatic", reached the top five on the Country charts. Her sixth studio album, The Weight of These Wings, was released on November 18, 2016, and subsequently certified Platinum by the Recording Industry Association of America (RIAA). Her seventh studio album, Wildcard, was released on November 1, 2019, and went on to win the Grammy Award for Best Country Album in early 2021. Three singles from the album ("It All Comes out in the Wash", "Bluebird", "Settling Down") reached the top 20 of the country music charts, and the album's second official single, "Bluebird", became Lambert's first song to top the Billboard Country Airplay Chart as a solo artist since 2012.<p>She later collaborated with singer-songwriters Jon Randall and Jack Ingram for the album The Marfa Tapes, departing from her usual sound and opting for an acoustic, stripped-back feel. It was released on May 7, 2021, to acclaim from critics. Lambert released her eighth solo album, Palomino, on April 29, 2022. The same year she was listed on 100 Most Influential People by Time.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

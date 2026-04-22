@@ -1,6 +1,30 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Dandelion	", "text": "	Dandelion is an album by Ella Langley released in 2026	", "img": "img/	DandelionEllaLangley2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Dandelion	"},
+{"title": "	Chicken Talkin Bastard	", "text": "	Chicken Talkin Bastard is an album by BossMan Dlow released in 2026	", "img": "img/	ChickenTalkinBastardBossManDlow2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Chicken Talkin Bastard	"},
+{"title": "	Kinda Hard	", "text": "	Kinda Hard is an album by Bilmuri released in 2026	", "img": "img/	KindaHardBilmuri2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Kinda Hard	"},
+{"title": "	Journals	", "text": "	Journals is an album by Justin Bieber released in 2013	", "img": "img/	JournalsJustinBieber2013.png	", "tags": "		", "note": "		", "url": "	albums2013.html#:~:text=Journals	"},
+     
+{"title": "	Bottom Of Your Boots	", "text": "	Bottom Of Your Boots is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Bottom Of Your Boots	"},
+{"title": "	Pinky Up	", "text": "	Pinky Up is a song by KATSEYE released in 2026	", "img": "img/	Pinky UpKATSEYE2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Pinky Up	"},
+{"title": "	Runway	", "text": "	Runway is a song by Lady Gaga & Doechii released in 2026	", "img": "img/	RunwayLady Gaga & Doechii2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Runway	"},
+{"title": "	Broken	", "text": "	Broken is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Broken	"},
+{"title": "	We Know Us	", "text": "	We Know Us is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=We Know Us	"},
+{"title": "	You & Me Time	", "text": "	You & Me Time is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=You & Me Time	"},
+{"title": "	Obvious	", "text": "	Obvious is a song by Chris Brown released in 2026	", "img": "img/	ObviousChris Brown2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Obvious	"},
+{"title": "	Low Lights	", "text": "	Low Lights is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Low Lights	"},
+{"title": "	Speaking Terms	", "text": "	Speaking Terms is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Speaking Terms	"},
+{"title": "	One Of Them	", "text": "	One Of Them is a song by DJ Khaled, Future & Lil Baby released in 2026	", "img": "img/	One Of ThemDJ Khaled, Future & Lil Baby2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=One Of Them	"},
+{"title": "	Butterfly Season	", "text": "	Butterfly Season is a song by Ella Langley & Miranda Lambert released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Butterfly Season	"},
+{"title": "	Somethin' Simple	", "text": "	Somethin' Simple is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Somethin' Simple	"},
+{"title": "	Last Call For Us	", "text": "	Last Call For Us is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Last Call For Us	"},
+{"title": "	I Gotta Quit	", "text": "	I Gotta Quit is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Gotta Quit	"},
+{"title": "	Mr. Know It All	", "text": "	Mr. Know It All is a song by Teddy Swims released in 2026	", "img": "img/	Mr. Know It AllTeddy Swims2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Mr. Know It All	"},
+{"title": "	It Wasn't God Who Made Honky Tonk Angels	", "text": "	It Wasn't God Who Made Honky Tonk Angels is a song by Ella Langley released in 2026	", "img": "img/	Bottom Of Your BootsElla Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=It Wasn't God Who Made Honky Tonk Angels	"},
+{"title": "	Don't Tell On Me	", "text": "	Don't Tell On Me is a song by Jason Aldean released in 2026	", "img": "img/	Don't Tell On MeJason Aldean2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Don't Tell On Me	"},
+{"title": "	Beauty And A Beat	", "text": "	Beauty And A Beat is a song by Justin Bieber Featuring Nicki Minaj released in 2012	", "img": "img/	Beauty And A BeatJustin Bieber Featuring Nicki Minaj2012.png	", "tags": "		", "note": "		", "url": "	2012.html#:~:text=Beauty And A Beat	"},
+     
 {"title": "	Unfold	", "text": "	Unfold is an album by Monsta X released in 2026	", "img": "img/	UnfoldMonstaX2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Unfold	"},
 {"title": "	Broken View	", "text": "	Broken View is an album by Sam Barber released in 2026	", "img": "img/	BrokenViewSamBarber2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Broken View	"},
 {"title": "	The Weight Of The Woods	", "text": "	The Weight Of The Woods is an album by Dermot Kennedy released in 2026	", "img": "img/	TheWeightOfTheWoodsDermotKennedy2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Weight Of The Woods	"},

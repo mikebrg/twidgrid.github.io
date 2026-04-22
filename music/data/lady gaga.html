@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Lady Gaga | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Lady Gaga</h3><span class="fo-5">New York City, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/lady-gaga-376x277.jpg" alt="Lady Gaga"><h3>Lady Gaga</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>28 March 1986<p><strong>Age: </strong><span class='dob' data-dob='28-Mar-1986'></span><p><strong>Years Active: </strong>2000–present</p><p><strong>Genre/s: </strong>Pop, dance, electronic, jazz</strong><p><strong>Label/s: </strong>Def Jam, Cherrytree, KonLive, Streamline, Interscope</p></li><li class="table-cell"><img src="" style="display: none;"><p>Stefani Joanne Angelina Germanotta (born March 28, 1986), known professionally as Lady Gaga, is an American singer, songwriter, and actress. Known for her image reinventions and versatility across the entertainment industry, she is an influential figure in popular music. With estimated sales of 124 million records, she is one of the best-selling music artists of all time. Publications such as Billboard and Rolling Stone have ranked her among the greatest artists in history.<p>After signing with Interscope Records in 2007, Gaga achieved global recognition with her debut album, The Fame (2008), and its reissue, The Fame Monster (2009). The project yielded a string of successful singles, including "Just Dance", "Poker Face", and "Bad Romance", which made her one of the few artists with at least three Diamond-certified songs in the US. Her second studio album, Born This Way (2011), explored electronic rock and techno-pop and sold 1.1 million copies first-week in the US. Its title track became the fastest-selling song on the iTunes Store, with over one million downloads in less than a week. Following her electronic dance music-influenced third album, Artpop (2013), she pursued jazz on the album Cheek to Cheek (2014) with Tony Bennett, and delved into soft rock on the album Joanne (2016).<p>Gaga also ventured into acting, gaining praise for her leading roles in the miniseries American Horror Story: Hotel (2015–2016) and the films A Star Is Born (2018) and House of Gucci (2021). Her contributions to the A Star Is Born soundtrack, which spawned the chart-topping single "Shallow", made her the first person to win an Academy, BAFTA, Golden Globe, and Grammy Award in one year. Gaga returned to her early sound with the pop-oriented albums Chromatica (2020) and Mayhem (2025), which respectively included the number-one singles "Rain on Me" and "Die with a Smile". She also continued to explore jazz with Love for Sale (2021), her second and final album with Bennett, and the soundtrack Harlequin (2024).<p>In the United States, Gaga has seven number-one albums and six number-one songs on the Billboard 200 and Billboard Hot 100 charts, respectively. She is the only female artist with four singles that each sold at least 10 million copies globally and holds the record for the most-attended concert by a woman. The highest-paid female musician in 2011, she has received 16 Grammy Awards, 22 MTV Video Music Awards, 2 Golden Globe Awards, a Sports Emmy Award, and a recognition from the Songwriters Hall of Fame. Gaga's philanthropy and activism focus on mental health awareness and LGBTQ rights. Her business ventures include vegan cosmetics brand Haus Labs and the non-profit Born This Way Foundation, which supports the wellness of young people.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
