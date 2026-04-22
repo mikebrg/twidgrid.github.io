@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Nicki Minaj | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Nicki Minaj</h3><span class="fo-5">New York City, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/nicki-minaj-500x500.jpg" alt="Nicki Minaj"><h3>Nicki Minaj</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>08 December 1982<p><strong>Age: </strong><span class='dob' data-dob='08-Dec-1982'></span><p><strong>Years Active: </strong>2002–present</p><p><strong>Genre/s: </strong>Hip-hop, pop, R&B</strong><p><strong>Label/s: </strong>Republic, Heavy On It, Young Money, Cash Money</p></li><li class="table-cell"><img src="" style="display: none;"><p>Onika Tanya Maraj-Petty (born December 8, 1982), known professionally as Nicki Minaj, is a Trinidadian rapper, singer, and songwriter. Dubbed the "Queen of Rap" and one of the most influential rappers of all time, she is noted for her dynamic rap flow, witty lyrics, musical versatility, and alter egos, and is credited as a driving force in the mainstream resurgence of female rap since the 2010s.<p>Raised in New York City, Minaj began rapping professionally in the early 2000s and gained recognition with her three mixtapes between 2007 and 2009. Minaj's debut studio album, Pink Friday (2010), opened with the largest female rap album sales week of the 21st century, topped the US Billboard 200, and spawned the single "Super Bass". She explored dance-pop on her second US number-one album, Pink Friday: Roman Reloaded (2012), which produced the top-five single, "Starships". She returned to her hip-hop roots with The Pinkprint (2014) and Queen (2018), which yielded the singles "Anaconda" and "Chun-Li". Minaj achieved her first Billboard Hot 100 number-one singles with the 2020 duets "Say So" and "Trollz"; the former was the first female rap collaboration to top the chart. Her fifth album, Pink Friday 2 (2023), made her the female rapper with the most US number-one albums (three) and spawned her first solo US number-one single, "Super Freaky Girl". Its concert tour became the highest-grossing by a female rapper and one of the top five highest-grossing tours by a rapper in history.<p>Minaj is one of the world's best-selling music artists and the best-selling female rapper, with over 100 million records sold. She has over 54 million certified singles sold in the US and three diamond-certified singles, and in 2024 became the first female rapper with multiple diamond-certified solo songs (two) by the RIAA. In 2023, Billboard and Vibe ranked Minaj as the greatest female rapper of all time. Her various accolades include a Brit Award, five Billboard Music Awards, nine American Music Awards, eight MTV Video Music Awards (including the Michael Jackson Video Vanguard Award), eleven BET Awards, a Soul Train Music Award, and three Guinness World Records. Time named her one of the 100 most influential people in the world in 2016, and she was honored with the Billboard Women in Music Game Changer Award in 2019.<p>Minaj founded the record label imprint Heavy On It in 2023. Outside of music, her other endeavors include a fragrance line, a press on nails line, a Loci sneakers collection, and the radio show Queen Radio (2018–2023). She has also voice acted in the animated films Ice Age: Continental Drift (2012) and The Angry Birds Movie 2 (2019), and acted in the comedy films The Other Woman (2014) and Barbershop: The Next Cut (2016). On television, she served as a judge on the twelfth season of American Idol (2013). Her outspoken views have received significant media attention.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
