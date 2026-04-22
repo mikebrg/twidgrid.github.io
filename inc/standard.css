@@ -697,12 +697,15 @@ text-decoration: underline; /* Add underline only on hover */
   left: -250px; /* hidden */
   width: 250px;
   height: 100%;
-  background: #222;
+  background:#131313;
   padding-top: 60px;
   transition: 0.3s ease;
   display: flex;
   flex-direction: column;
   z-index: 1001;
+  border-right-width: 1px;
+  border-right-color: #333;
+  border-right-style: solid;
 }
 
 .sidebar a {
@@ -737,4 +740,11 @@ text-decoration: underline; /* Add underline only on hover */
 .overlay.active {
   display: block;
   pointer-events: all;
+}
+
+.material-symbols-outlined {
+  color:#999;
+  font-size: 18px !important;
+  display: inline-block;
+  vertical-align:text-bottom;
 }
