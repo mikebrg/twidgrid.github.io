@@ -23,8 +23,22 @@
 
 <div id="head">
   <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+
     <a href="index.html" class="not">
-      <img src="img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+      <img src="img/favicon.png" alt="TwidGrid">
     </a>
     <a href="index.html" class="not">
       <div class="ban">TwidGrid</div>
@@ -100,6 +114,15 @@ document.getElementById('back-to-top').addEventListener('click', function(e) {
         // JavaScript to update the year dynamically
         document.getElementById("current-year").textContent = new Date().getFullYear();
     </script>
+
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+
 </body>
 
 </html>
