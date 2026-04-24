@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Post Malone | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Post Malone</h3><span class="fo-5">Los Angeles, California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/post-malone-1000x1000.jpg" alt="Post Malone"><h3>Post Malone</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>04 July 1995<p><strong>Age: </strong><span class='dob' data-dob='04-Jul-1995'></span><p><strong>Years Active: </strong>2011–present</p><p><strong>Genre/s: </strong>Pop, hip-hop, country, R&B</strong><p><strong>Label/s: </strong>Republic, Mercury, Posty</p></li><li class="table-cell"><img src="" style="display: none;"><p>Austin Richard Post (born July 4, 1995), known professionally as Post Malone, is an American singer, rapper, songwriter, record producer, and actor. His music blends various genres including pop, hip-hop, trap, country, R&B, and rock.<p>Malone began his musical career in 2011, and earned mainstream recognition with his 2015 cloud rap debut single, "White Iverson". The song led him to sign with Republic Records, and served as lead single for his debut studio album, Stoney (2016), which spawned the Diamond-certified single "Congratulations" (featuring Quavo). His second album, Beerbongs & Bentleys (2018), debuted atop the US Billboard 200 and set numerous streaming records. It contained the US Billboard Hot 100 number-one singles "Rockstar" (featuring 21 Savage) and "Psycho" (featuring Ty Dolla Sign), and was nominated for Album of the Year at the 61st Grammy Awards. His third Hot 100 number-one single, "Sunflower", a duet with Swae Lee, was released for the accompanying soundtrack to the 2018 animated film Spider-Man: Into the Spider-Verse; it became the highest-certified song in RIAA history and was the first to receive a 2× Diamond certification.<p>Malone's third album, Hollywood's Bleeding (2019), became his second project to both debut atop the Billboard 200 and receive Grammy Award nomination for Album of the Year. It spawned the single "Circles", which spent 61 weeks on the Hot 100, becoming Malone's biggest hit single to date. Malone's fourth and fifth albums, Twelve Carat Toothache (2022) and Austin (2023), both peaked at number two on the Billboard 200. In 2024, he topped the Billboard Hot 100 twice more with his guest appearance on Taylor Swift's "Fortnight" and his first country pop song, "I Had Some Help" (featuring Morgan Wallen). The latter served as the lead single for Malone's sixth album and country music debut, F-1 Trillion (2024), which became his third number-one album on the Billboard 200.<p>Malone is among the best-selling music artists, with over 150 million records sold in the US alone according to the RIAA. His accolades include eleven Billboard Music Awards, five American Music Awards, six MTV Video Music Awards, and eighteen Grammy Award nominations. He holds several Billboard chart records: He is the first solo lead artist to top both the Rap Airplay and Adult Contemporary charts, while "Circles" set the record for longest climb to number one (41 weeks) on the Adult Contemporary chart by a solo artist. As of 2025, Malone is second only to Drake for artists with the most diamond-certified songs, with nine to his name.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

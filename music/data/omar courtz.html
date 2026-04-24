@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Omar Courtz | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Omar Courtz</h3><span class="fo-5">Carolina, Puerto Rico</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/omar-courtz-640x640.jpg" alt="Omar Courtz"><h3>Omar Courtz</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>11 October 1997<p><strong>Age: </strong><span class='dob' data-dob='11-Oct-1997'></span><p><strong>Years Active: </strong>2017–present</p><p><strong>Genre/s: </strong>Reggaeton, Latin R&B, Latin trap</strong><p><strong>Label/s: </strong>Mr. 305, Rimas</p></li><li class="table-cell"><img src="" style="display: none;"><p>Joshua Omar Medina Cortés (born October 11, 1997), known professionally as Omar Courtz, or Ousi is a Puerto Rican singer and songwriter.<p>Born on October 11, 1997, Courtz is a native of Carolina, Puerto Rico. During his adolescence, he worked at a clothing store known as Change, which gained popularity among reggaeton stars. Among the notable figures he encountered during his time there were his major inspirations, including Farruko, Anuel AA, and Ozuna. Courtz later found himself collaborating with some of these artists in his music career.<p>Courtz's debut, a SoundCloud track titled "Volvemos Otra Vez", released in 2017, swiftly gained local popularity, marking a significant early success in his music career. He persistently released music while simultaneously pursuing a degree in mechanical engineering at university, where he had been recruited for track and field. He garnered attention with releases like his viral single “En Tu Nota", released in 2020 amid the COVID-19 quarantine, and his four-track EP Invierno. This eventually led to a deal with Cuban-American singer Pitbull’s record label, Mr. 305. Courtz is the second Puerto Rican artist to be signed under the label.<p>Early in his career, Courtz secured a significant collaboration with the track "Ten Cuidado", featuring Pitbull, Farruko, el Alfa, and IAmChino. The song entered Billboard's Hot Latin Songs chart in 2021. Alongside collaborations with emerging artists like Young Miko, paopao, and Dei V, he has garnered recognition from more established acts, including Natti Natasha, Lenny Tavárez, and Justin Quiles. In 2023, Courtz collaborated with Daddy Yankee on "Beachy", Tainy on "Pasiempre", J Balvin on "En Alta", and Wisin on "Cuerpo a Cuerpo". In January 2024, Courtz released "Una Noti" via Mr. 305 Records.<p>In July 2023, it was announced that Courtz was among six artists chosen by TikTok for its "Elevate" music program, an initiative launched to support emerging artists that had gained substantial attention on the platform.<p>In May 2023, Courtz was nominated at the 2023 Premios Tu Música Urbano in the category of Top New Male Artist. Later that month, Billboard highlighted him as a rising artist to watch to watch. In January 2024, he was nominated for the Premio Lo Nuestro award for New Male Artist.<p>Courtz performed at the Latin American Music Awards of 2023 and at the 2023 Premios Juventud. In November, he took stage at the Coca Cola Flow Fest in Mexico City and headlined the "Ousi Fest" in San Juan, his first massive concert in Puerto Rico, marking the end of his tour in the United States.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
