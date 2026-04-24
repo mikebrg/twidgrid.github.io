@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Sierra Ferrell | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Sierra Ferrell</h3><span class="fo-5">Charleston, West Virginia, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/sierra-ferrell-1480x832.jpg" alt="Sierra Ferrell"><h3>Sierra Ferrell</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>03 August 1988<p><strong>Age: </strong><span class='dob' data-dob='03-Aug-1988'></span><p><strong>Years Active: </strong>2018–present</p><p><strong>Genre/s: </strong>Alternative country, bluegrass, Americana</strong><p><strong>Label/s: </strong>Rounder</p></li><li class="table-cell"><img src="" style="display: none;"><p>Sierra Elizabeth Ferrell (born August 3, 1988) is an American singer-songwriter and musician from West Virginia, whose music incorporates elements of folk, bluegrass, and gypsy jazz, and styles such as tango and calypso music.<p>After self-releasing the albums Pretty Magic Spell in 2018 and Washington by the Sea in 2019, she released Long Time Coming in 2021 with Rounder Records, to critical acclaim. Accompanying videos for singles "The Sea", "In Dreams", and "Bells of Every Chapel" (featuring Billy Strings) were uploaded to her YouTube channel in the weeks and months preceding the Long Time Coming's release. Ferrell stayed with the label for her fourth album Trail of Flowers in March 2024, which won her four Grammy Awards.<p>Sierra Ferrell was born in Charleston, West Virginia. After her parents divorced when she was around five years old, she lived with her mother and one of her two siblings in a trailer. This led to her spending less time with electronics and more time exploring outside. Despite her home state's deep-rooted history in bluegrass music, Ferrell instead grew up listening to cassette tapes of '90s music that her mother owned, taking interest in such acts as 10,000 Maniacs and Tracy Chapman.<p>Ferrell's musical journey began in childhood, playing clarinet and singing choir in school, eventually learning to play guitar and even once, performing Shania Twain covers at a local bar. In her teens, she joined 600 lbs of Sin! as the vocalist, who started as a Grateful Dead cover group, but later turned into a blues and roots jam band. She left the band for some time in 2012 to freighthop. Ferrell rejoined in 2013, but after feeling constrained creatively, she departed the band to independently pursue her musical aspirations.<p>In her early twenties, she adopted a nomadic lifestyle, hitch-hiking, freighthopping, and living in her van, with the majority of her time spent busking between Seattle and New Orleans. By this point, Ferrell had turned her attention towards playing folk music and its various offshoots, with fellow busking group Yes Ma'am making a particular impression on her musical style. It was also during this time that Ferrell was in the throes of drug addiction stemming from her wayfaring lifestyle, claiming to have died "five times" from narcotics overdoses. After these experiences, she decided to get clean and change her lifestyle in favor of improved health and positive relationships.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

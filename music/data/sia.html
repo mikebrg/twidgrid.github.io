@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Sia | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Sia</h3><span class="fo-5">Adelaide, South Australia, Australia</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/sia.jpg" alt="Sia"><h3>Sia</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>18 December 1975<p><strong>Age: </strong><span class='dob' data-dob='18-Dec-1975'></span><p><strong>Years Active: </strong>1993–present</p><p><strong>Genre/s: </strong>Pop, folk, electronica</strong><p><strong>Label/s: </strong>Flavoured, DancePool, Long Lost Brother, Astralwerks, Go! Beat, Monkey Puzzle, Hear, Jive, Inertia, RCA, Atlantic</p></li><li class="table-cell"><img src="" style="display: none;"><p>Sia Kate Isobelle Furler (born 18 December 1975) is an Australian singer and songwriter. Born and raised in Adelaide, she started her career as a singer in the acid jazz band Crisp in the mid-1990s. When Crisp disbanded in 1997, she released her debut studio album, OnlySee, in Australia. Sia moved to London and provided vocals for the English duo Zero 7. She released her second studio album, Healing Is Difficult, in 2001 and her third, Colour the Small One, in 2004.<p>Sia moved to New York City in 2005 and toured the US. Her fourth and fifth studio albums, Some People Have Real Problems and We Are Born, were released in 2008 and 2010 respectively, and both were certified gold by the Australian Recording Industry Association and attracted wider notice than her earlier albums. Uncomfortable with her growing fame, she took a hiatus from performing and focused on songwriting for other artists, producing successful collaborations "Titanium" (with David Guetta), "Diamonds" (for Rihanna), "Wild Ones" (with Flo Rida) and "Pretty Hurts" (for Beyoncé).<p>Sia's sixth studio album, 1000 Forms of Fear, debuted atop the US Billboard 200, generating the top-ten single "Chandelier" and a trilogy of music videos she co-directed, starring child dancer Maddie Ziegler. Her seventh album, This Is Acting (2016), spawned the Billboard Hot 100 number-one single, "Cheap Thrills". In 2016, she also began her Nostalgic for the Present Tour, which incorporated dancing by Ziegler and others, and other performance art elements. After releasing the Christmas album Everyday Is Christmas (2017), Sia, Diplo and Labrinth released a collaborative studio album, LSD (2019). Her tenth album, Reasonable Woman, was released in 2024.<p>Sia is an advocate for animal rights. She has written many songs for films. Alongside her feature film directorial debut, Music (2021), which received a negative reception, she wrote and produced an album Music – Songs from and Inspired by the Motion Picture. Since the release of 1000 Forms of Fear, in public she has usually worn a wig that obscures her face to protect her privacy. Among her accolades are ten ARIA Awards, an MTV Video Music Award, and nine Grammy Award nominations.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
