@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Stray Kids | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Stray Kids</h3><span class="fo-5">Seoul, South Korea</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/stray-kids-1024x957.jpg" alt="Stray Kids"><h3>Stray Kids</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong></strong><p><strong>Years Active: </strong>2017–present</p><p><strong>Genre/s: </strong>K-pop, hip-hop, electronic</strong><p><strong>Label/s: </strong>JYP, Epic Japan, Republic<p><strong>Members: </strong>Bang Chan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin, I.N</p></li><li class="table-cell"><img src="" style="display: none;"><p>Stray Kids (often abbreviated to SKZ; Korean: 스트레이 키즈; RR: Seuteurei Kijeu) is a South Korean boy band formed by JYP Entertainment in 2017. The band has eight members: Bang Chan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin, and I.N. Former member Woojin left the band in 2019. Stray Kids primarily self-produces its recordings; the main production team is 3Racha, consisting of Bang Chan, Changbin, and Han, with the other members frequently participating in songwriting.<p>The leader, Bang Chan, personally selected each member to be a part of the band before filming the eponymous 2017 reality television show, which is unusual in the K-pop industry, where that authority is usually held by the agency's executives and creative directors. The band released their unofficial debut extended play (EP) Mixtape in January 2018 and officially debuted on March 25 with the EP I Am Not, which was followed by the EPs I Am Who and I Am You, completing the I Am EP series. The Clé trilogy, consisting of Clé 1: Miroh, Clé 2: Yellow Wood, and Clé: Levanter, was released in 2019.<p>Stray Kids made their Japanese debut in 2020 with the compilation album SKZ2020, which was released through Epic Records Japan. Their debut Japanese single, "Top", debuted atop the Oricon Singles Chart, making them the fourth foreign male artist to do so with their first single. The band's first studio album, Go Live (2020), became its first platinum-certified album by the Korea Music Content Association (KMCA). Its lead single, "God's Menu", is regarded as the group's signature track. In 2021, Stray Kids' second studio album, Noeasy, was the group's first million-selling album.<p>After signing with Republic Records for promotions in the United States in 2022, Stray Kids' subsequent releases–Oddinary, Maxident (both 2022), 5-Star, Rock-Star (both 2023), Ate, Hop (both 2024), Karma, and Do It (both 2025)–debuted atop the Billboard 200, making them the first act to debut at the top of the chart with their first eight charted releases. The KMCA certified the band's 5-Star for selling 5 million albums, the third group to achieve this in South Korea. As of December 2024, Stray Kids has sold over 31 million albums, both Korean and Japanese releases. Rock-Star's lead single "Lalalala" became their first entry on the Billboard Hot 100. The band's Japanese EP Social Path / Super Bowl (Japanese Ver.) (2023) was their first million certification in Japan.<p>Stray Kids appeared on Time's list of Next Generation Leaders in 2023, and the Entertainment and Sports category of Forbes Asia's 30 Under 30 in 2025. They also received South Korea's Prime Minister's Commendation for their contributions to South Korea's pop culture. The band accolades include multiple Asia Artist Awards, Billboard Music Awards, Circle Chart Music Awards, The Fact Music Awards, Golden Disc Awards, Hanteo Music Awards, iHeartRadio Music Awards, Japan Gold Disc Awards, Korea Grand Music Awards, MAMA Awards, Seoul Music Awards, etc.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

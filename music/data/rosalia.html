@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Rosalia | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Rosalia</h3><span class="fo-5">Sant Esteve Sesrovires, Catalonia, Spain</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/rosalia-1600x900.jpg" alt="Rosalia"><h3>Rosalia</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>25 September 1992<p><strong>Age: </strong><span class='dob' data-dob='25-Sept-1992'></span><p><strong>Years Active: </strong>2013–present</p><p><strong>Genre/s: </strong>Flamenco pop, urbano, art pop, folk</strong><p><strong>Label/s: </strong>Columbia, Universal Spain</p></li><li class="table-cell"><img src="" style="display: none;"><p>Rosalia Vila Tobella (born 25 September 1992), known mononymously as Rosalía (Spanish: [rosaˈli.a], Catalan: [ruzəˈli.ə]), is a Spanish singer and songwriter. She has been described as an "atypical pop star" due to her genre-bending musical style. After being enthralled by Spanish folk music at age 14, she studied musicology at the Catalonia College of Music and graduated in 2017.<p>She completed her studies with honours by virtue of her debut and collaborative cover album with Raül Refree, Los Ángeles (2017), and her baccalaureate second album El mal querer (2018). Reimagining flamenco by mixing it with pop and hip-hop music, it spawned the singles "Malamente" and "Pienso en tu mirá", which caught the attention of the Spanish public, and were released to critical acclaim. A recipient of the Latin Grammy Award for Album of the Year and listed in Rolling Stone's 500 Greatest Albums of All Time, El mal querer started the ascent of Rosalía into the international music scene. Rosalía explored urbano music with her 2019 releases "Con altura" and "Yo x ti, tú x mí", achieving global success. She gave reggaeton an experimental twist on her third studio album Motomami (2022), departing from the new flamenco sound of its predecessor. The album caught international attention with its singles "La Fama", "Saoko", and "Despechá", to become the best reviewed album of the year on Metacritic. Her fourth album Lux (2025) broke several all-time records by a Spanish-speaking female artist, and was acclaimed by critics for its fusion of art pop and classical elements.<p>In the course of her career, Rosalía has accumulated thirteen number-ones in her home country, the most for a local artist. She has also won two Grammy Awards, eleven Latin Grammy Awards (including two Album of the Year wins), a BRIT Award, four MTV Video Music Awards, two MTV Europe Music Awards, three UK Music Video Awards and two Premio Ruido awards, among others. In 2019, Billboard gave her the Rising Star Award for "changing the sound of today's mainstream music with her fresh flamenco-influenced pop", and became the first Spanish-singing act in history to be nominated for Best New Artist at the Grammys. She is widely considered one of the most successful and influential Spanish singers of all time.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
