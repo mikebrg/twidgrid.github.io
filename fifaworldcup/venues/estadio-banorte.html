@@ -14,27 +14,6 @@
 
 <link rel="stylesheet" href="../../inc/standard.css">
 <link rel="icon" type="image/x-icon" href="../img/favicon.png">
-<style>
-    
-    .headx {
-     position: relative;
-     background-size: cover;
-     background-image: url('../img/3840px-Panorama_Estadio_Azteca_football_game_Club_America.jpg');
-     background-position: center;
-     min-height: 400px;
-}
-.head::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-}
-
-.head > * {
-    position: relative;
-    z-index: 2;
-}
-</style>
 
 </head><body>
 
@@ -48,7 +27,7 @@
 
 <div id="nav"></div>
 <script>
-fetch("../nav.html")
+fetch("../../nav.html")
   .then(res => res.text())
   .then(data => {
     document.getElementById("nav").innerHTML = data;
