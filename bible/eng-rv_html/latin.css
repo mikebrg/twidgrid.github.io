@@ -161,19 +161,20 @@ ul.vnav	{list-style-type:none;padding:5px;margin-left:0;text-align:center;float:
 div.bookList	{margin:0px;padding:3px;width:13rem;background:rgb(223,255,255)}
 
 .square-img {
-  width: 100%;
-  max-width: 385px;
-  aspect-ratio: 1 / 1;
+  width: 385px;
+  height: 385px;
   border-radius: 5px;
   border: 1px solid black;
-  margin: 20px 0;
-  object-fit: cover;
+  margin: 20px auto; /* this centers it */
+  display: block;    /* important for images */
 }
+
+/* Mobile */
 @media (max-width: 600px) {
   .square-img {
     width: 90%;
     max-width: 250px;
+    height: auto;
     aspect-ratio: 1 / 1;
   }
 }
-
