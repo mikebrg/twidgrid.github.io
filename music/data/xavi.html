@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Xavi | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Xavi</h3><span class="fo-5">Phoenix, Arizona, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/xavi.webp" alt="Xavi"><h3>Xavi</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>05 May 2004<p><strong>Age: </strong><span class='dob' data-dob='05-May-2004'></span><p><strong>Years Active: </strong>2020–present</p><p><strong>Genre/s: </strong>Regional Mexican, urban sierreño, corridos tumbados</strong><p><strong>Label/s: </strong>Interscope</p></li><li class="table-cell"><img src="" style="display: none;"><p>Joshua Xavier Gutierrez Alonso (born 2003 or 2004), known professionally as Xavi, is an American singer-songwriter of regional Mexican music, who rose to prominence in 2023 through his singles "La Víctima" and "La Diabla", which went viral on TikTok and led to the singer's debut on the Billboard Hot 100. Between the release of these two solo singles, he also released the collaborations "Poco a Poco" with Los Dareyes de la Sierra and "Modo DND" with Tony Aguirre, which also performed well on the charts.<p>Joshua Xavier Gutierrez was born in Phoenix, Arizona and raised between there and Nogales, Sonora. He started playing the guitar at the age of 10 and began writing songs at 12. Gutierrez embarked on his musical career in 2020 with the release of his debut single "Vete Ya", through Baga Music. He has cited acts such as Camila and Sin Bandera as early inspirations. As he released more of his work to the public, he attracted the attention of Interscope Records, who signed a record deal with him after his song "Amigos con Derecho" went viral. Gutierrez was injured in a car accident shortly after signing, which resulted in a facial and skull fracture. Due to these injuries, he was initially told he would no longer be able to sing. However, videos of Gutierrez singing and playing guitar in his hospital bed surfaced around social media, and he made a full recovery from his injuries. Following his recovery, in early 2022, he changed his musical style to tumbados románticos, which are corridos tumbados with lyrical themes revolving around romance. He marked this change by releasing several singles in this newly adopted style.<p>In May 2023, Xavi released his debut EP My Mom's Playlist, which features covers of songs such as Maná's "Rayando el Sol". In August 2023, he released "La Víctima", which became his breakthrough single with runaway popularity on TikTok. In December 2023, the song debuted at number 24 on the US Billboard Hot Latin Songs chart, later reaching the top 10. Following the runaway success of "La Víctima", he released two collaborative singles—"Poco a Poco" with Los Dareyes de la Sierra and "Modo DND" with Tony Aguirre—which also charted in the United States. Later that month, he released the single "La Diabla", which debuted on the Billboard Hot 100 at number 76, peaking at number 20 and becoming his second breakthrough single. The single also charted throughout Latin America and topped the US Hot Latin Songs chart, peaking at number 3 on the Billboard Global 200, and topping Spotify's Global chart. "La Diabla" eventually became the longest-running number-one Latin song on Spotify's Global chart.<p>In 2024, Xavi announced his first tour, the Poco a Poco Tour, along with its dates in the spring, starting in Mexico City and Guadalajara, with later dates in cities in the Western United States.<p>In October 2024, Xavi released his debut studio album, Next, with label Interscope. The album was number 77 on Rolling Stone's Best 100 Albums of 2024 list, with music journalist Tomás Mier observing that: "[Next] continues the 20-year-old’s mission of staying true to the genre’s roots while incorporating new sounds and skipping predictable chains and money lyrics to tell stories of love and heartbreak." Next features all of Xavi's most popular singles, including "La Víctima," "La Diabla," "Poco a Poco," and "Modo DND."</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

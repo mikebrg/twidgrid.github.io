@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>The Marias | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>The Marias</h3><span class="fo-5">Los Angeles, California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/the-marias-1052x592.jpg" alt="The Marias"><h3>The Marias</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong></strong><p><strong>Years Active: </strong>2016–present</p><p><strong>Genre/s: </strong>Alternative pop, indie pop</strong><p><strong>Label/s: </strong>Atlantic<p><strong>Members: </strong>María Zardoya, Josh Conway, Jesse Perlman, Edward James</p></li><li class="table-cell"><img src="" style="display: none;"><p>The Marías is an American alternative pop band from Los Angeles. They are known for performing songs in both English and Spanish in addition to infusing their music with elements including jazz percussion, guitar riffs, and horn solos. Their core lineup consists of lead vocalist María Zardoya, drummer/producer Josh Conway, guitarist Jesse Perlman, and keyboardist Edward James. The band has released two EPs and two studio albums, including Submarine (2024). They received their first solo Grammy nomination for Best New Artist for the 68th Annual Grammy Awards in 2026.<p>The band is named after its lead singer María Zardoya, who was born in Puerto Rico and grew up in Atlanta, Georgia. She and her then partner Josh Conway, the drummer/producer, met at a show at the Kibitz Room, a bar and music venue inside Canter's Deli in Los Angeles. She was performing on the bill and he was managing the sound, something he had never done before. They began writing almost immediately after meeting, and then began dating. Soon they recruited close friends to join as band members: Edward James on keyboards, and guitarist Jesse Perlman.<p>They were offered an opportunity to create songs for television, which helped them understand the visual and sonic feel they wanted. When the plans did not materialize, they made an EP, entitled Superclean Vol. I. from the recordings. Vol. I was released in 2017 and its counterpart Vol. II came out in 2018.<p>In 2018, they collaborated with Triathlon on the song "Drip", released as a single. In 2020–2021, the Marías signed to Atlantic Records. In September 2021, their single "Hush" topped the Billboard Adult Alternative Airplay chart, becoming their first chart-topping single. In 2022, the band went on tour in promotion of Cinema and opened for Halsey on her Love and Power Tour.<p>In 2022, they collaborated with Bad Bunny on the song "Otro Atardecer" from his album Un Verano Sin Ti. In 2023, they collaborated with Cuco on the song "Si Me Voy", which was released as a single, and also with Tainy and Young Miko on the song "Mañana" from Tainy's album Data.<p>Later in 2023, they collaborated with Eyedress on the songs "Separate Ways" and "A Room Up in the Sky". In February 2024, the Marías released a trailer for their second album Submarine. In March 2024, they released their first single from the album called "Run Your Mouth", as well as announcing that Submarine would release on May 31, 2024. In April 2024, they released the second single from Submarine, "Lejos de Ti" and later unveiling their tracklist for Submarine. On May 3, 2024, they released two singles simultaneously: "No One Noticed" and "If Only". On April 4, 2025, they released the non-album single "Back to Me".<p>The song "No One Noticed" from the album Submarine was a viral hit on social media, reaching number 22 on the Billboard Hot 100.<p>Zardoya also performed with Bad Bunny at several stadium concerts in front of up to 80,000 people. Her solo project Not for Radio, with the EP Melt, was reviewed by magazines such as Interview Magazine and HERO in October 2025. Zardoya described her style as "gothic fairy".<p>At the 68th Annual Grammy Awards, they received their first Grammy nomination for Best New Artist.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
