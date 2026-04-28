@@ -1,6 +1,23 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	7TH YEAR: A Moment Of Stillness In The Thorns (EP)	", "text": "	7TH YEAR: A Moment Of Stillness In The Thorns (EP) is an album by TOMORROW X TOGETHER released in 2026	", "img": "img/	7THYEARAMomentOfStillnessInTheThorns(EP)TOMORROWXTOGETHER2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=7TH YEAR: A Moment Of Stillness In The Thorns (EP)	"},
+{"title": "	KONNAKOL	", "text": "	KONNAKOL is an album by ZAYN released in 2026	", "img": "img/	KONNAKOLZAYN2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=KONNAKOL	"},
+{"title": "	Live From The Los Angeles Sports Arena, April 26th , 1975	", "text": "	Live From The Los Angeles Sports Arena, April 26th , 1975 is an album by Pink Floyd released in 2026	", "img": "img/	LiveFromTheLosAngelesSportsArena,April26th,1975PinkFloyd2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Live From The Los Angeles Sports Arena, April 26th , 1975	"},
+{"title": "	Caligo, Pt.2: 4th Mini (EP)	", "text": "	Caligo, Pt.2: 4th Mini (EP) is an album by PLAVE released in 2026	", "img": "img/	Caligo,Pt.24thMini(EP)PLAVE2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Caligo, Pt.2: 4th Mini (EP)	"},
+{"title": "	Nine Inch Noize	", "text": "	Nine Inch Noize is an album by Nine Inch Nails & Boys Noize released in 2026	", "img": "img/	NineInchNoizeNineInchNails&BoysNoize2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Nine Inch Noize	"},
+{"title": "	Live A L'Olympia	", "text": "	Live A L'Olympia is an album by Jeff Buckley released in 2001	", "img": "img/	LiveAL'OlympiaJeffBuckley2001.png	", "tags": "		", "note": "		", "url": "	albums2001.html#:~:text=Live A L'Olympia	"},
+{"title": "	CTRL ESCAPE	", "text": "	CTRL ESCAPE is an album by John Summit released in 2026	", "img": "img/	CTRLESCAPEJohnSummit2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=CTRL ESCAPE	"},
+     
+{"title": "	Drop Dead	", "text": "	Drop Dead is a song by Olivia Rodrigo released in 2026	", "img": "img/	Drop DeadOlivia Rodrigo2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Drop Dead	"},
+{"title": "	She Did It Again	", "text": "	She Did It Again is a song by Tyla Featuring Zara Larsson released in 2026	", "img": "img/	She Did It AgainTyla Featuring Zara Larsson2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=She Did It Again	"},
+{"title": "	Potential	", "text": "	Potential is a song by sombr released in 2026	", "img": "img/	Potentialsombr2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Potential	"},
+{"title": "	Ferrari	", "text": "	Ferrari is a song by Clave Especial, Fuerza Regida & Los Gemelos de Sinaloa released in 2026	", "img": "img/	FerrariClave Especial, Fuerza Regida & Los Gemelos de Sinaloa2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ferrari	"},
+{"title": "	I Want You	", "text": "	I Want You is a song by Cody Johnson released in 2026	", "img": "img/	I Want YouCody Johnson2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Want You	"},
+{"title": "	My Way	", "text": "	My Way is a song by Riley Green released in 2026	", "img": "img/	My WayRiley Green2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=My Way	"},
+{"title": "	Empty Words	", "text": "	Empty Words is a song by Corey Kent released in 2026	", "img": "img/	Empty WordsCorey Kent2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Empty Words	"},
+{"title": "	Baby	", "text": "	Baby is a song by Justin Bieber Featuring Ludacris released in 2010	", "img": "img/	BabyJustin Bieber Featuring Ludacris2010.png	", "tags": "		", "note": "		", "url": "	2010.html#:~:text=Baby	"},
+     
 {"title": "	Dandelion	", "text": "	Dandelion is an album by Ella Langley released in 2026	", "img": "img/	DandelionEllaLangley2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Dandelion	"},
 {"title": "	Chicken Talkin Bastard	", "text": "	Chicken Talkin Bastard is an album by BossMan Dlow released in 2026	", "img": "img/	ChickenTalkinBastardBossManDlow2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Chicken Talkin Bastard	"},
 {"title": "	Kinda Hard	", "text": "	Kinda Hard is an album by Bilmuri released in 2026	", "img": "img/	KindaHardBilmuri2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Kinda Hard	"},
