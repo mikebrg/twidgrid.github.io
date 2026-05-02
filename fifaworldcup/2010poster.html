@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2010 Poster | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2010 Poster</h3><span class="fo-5">designed by Switch</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><img src="img/2010-poster-376x376.jpg" alt="	Official Poster	"><h3>	Official Poster	</h3><p>The official 2010 FIFA World Cup poster was designed by the South African creative agency Switch (now Switch Branding) and was selected through a nationwide public vote in South Africa.</p><p>The poster features a stylized silhouette of a player's head and neck that merges into the shape of the African continent. The player is shown heading a football, looking upward to symbolize "hope and aspiration".</p><p>It utilizes a vibrant yellow-dominant scheme alongside other traditional African colors like gold, red, green, and blue.</p><p> The concept and typography were led by Gaby de Abreu (founder of Switch), with illustrations by Paul Dale.</p><p>The winning design was chosen from a shortlist of three posters in 2007. Public participation was central to the selection, with the Switch design emerging as the clear favorite after approximately 50,000 votes were cast during a five-day poll.</p></li>
+        
+        <li class="table-cell"><img src="img/277562486_634478481275249_4227972767024745195_n.jpg" alt="Switch"><h3>Switch</h3><p>Switch was appointed to design the Brand Identity and the Brand programme for the world’s largest sporting event, the 2010 FIFA World Cup. The brand identity reflected a dynamic combination of skill, culture, colour and pride which translated into a simple image that captured the essence of the world’s biggest football celebration in Africa.</p><p>Established in mid-1999 in Johannesburg, South Africa.</p><p> Led by founder and Group Executive Creative Director Gaby de Abreu, who personally conceptualized many of the FIFA designs.</p><p>Headquartered in Johannesburg with offices in Cape Town and London, it has grown to be the largest independent design consultancy in Africa.</p><p>Their portfolio includes brand identity work for Coca-Cola, MTN, Springbok Rugby, Four Seasons Hotels, and Investec.</p></li>
+    </ul>																		
+
+    
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

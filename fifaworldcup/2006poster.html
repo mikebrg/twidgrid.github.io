@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2006 Poster | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2006 Poster</h3><span class="fo-5">designed by WE DO Communication</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><img src="img/2006poster-376x376.jpg" alt="	Official Poster	"><h3>	Official Poster	</h3><p>The official 2006 FIFA World Cup poster was designed by the Berlin-based agency WE DO Communication.</p><p> The poster features a starry sky where the stars form the shape of a football against a night sky background. This design was intended to represent "wishing and dreaming" and the emotional connection of fans to the sport.</p><p> It was chosen through a public poll in Germany, beating four other shortlisted designs. Approximately 50,000 phone calls and text messages were received during the five-day voting period.</p><p>The design was officially unveiled in Stuttgart by Franz Beckenbauer, the president of the 2006 FIFA World Cup Organizing Committee.</p></li>
+        
+        <li class="table-cell"><img src="img/322942153_960178664944275_3952689776045337077_n.jpg" alt="WE DO Communication"><h3>WE DO Communication</h3><p>WE DO communication GmbH is a Berlin-based creative agency primarily known for its work in sustainability and social impact communications. Founded in 2002, the agency gained international recognition for designing the official 2006 FIFA World Cup poster.</p><p>The agency is led by Managing Partners Gregor Blach and Ina von Holly.</p><p>Since its founding, WE DO has pivoted toward "sustainable communication with content and attitude". They specialize in campaigns for ministries, NGOs, and institutions, often focusing on social responsibility and environmental issues like the energy transition.</p><p>While headquartered in Berlin-Mitte, they also maintain a presence in Hamburg.</p><p> Their offerings include strategy, brand identity, digital marketing, and event organization.</p></li>
+    </ul>																		
+
+    
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

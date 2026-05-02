@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1998 Poster | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1998 Poster</h3><span class="fo-5">designed by Nathalie le Gall</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><img src="img/1998poster-376x376.jpg" alt="	Official Poster	"><h3>	Official Poster	</h3><p>The official poster for the 1998 FIFA World Cup in France was designed by Nathalie le Gall, who was an art student at the Ecole Supérieure des Beaux-Arts de Montpellier at the time. Her design was selected through a competition organized by the France 1998 organizing committee.</p><p>The artwork features a vibrant, mixed-media design of a football pitch using dabs of bright colors—primarily blue, yellow, and red—to represent the festivities and playful identity of the tournament.</p></li>
+        <li class="table-cell"><img src="img/nathalie-le-gall-04.png" alt="Nathalie le Gall"><h3>Nathalie le Gall</h3><p>Nathalie le Gall (born 1970) is a French visual artist and illustrator best known for winning the design competition for the official 1998 FIFA World Cup poster while she was still a student.</p><p>Born in Paris, she was 27 years old and studying at the Ecole Supérieure des Beaux-Arts de Montpellier when her design was selected from 40 competing entries. Her winning artwork, which features a football pitch depicted in vibrant, textured dabs of blue, yellow, and red, helped launch her career on the international stage.</p><p>Following her success with the 1998 World Cup, le Gall established herself as an independent painter and illustrator.</p><p> In 2013, she opened this large workshop and creative space in the centre of Montpellier. It serves as her personal studio and a school where she teaches drawing, painting, and life drawing to the public.</p><p>Her work is highly diverse, utilizing techniques such as oil, acrylic, pastel, collage, and ceramics. She is noted for her study of "universal colour" and light, often rebuilding her paintings through deep layers of oil.</p><p>Beyond smaller canvas works, she collaborates with architects on the graphic design of monumental sculptures in the Occitanie region of France.</p><p> She has created illustrations for international companies and scientific organizations, including brochures for the CIRAD (a French agricultural research centre) for global summits.</p></li>
+    </ul>																		
+
+    
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
