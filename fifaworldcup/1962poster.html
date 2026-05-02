@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1962 Poster | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1962 Poster</h3><span class="fo-5">designed by Galvarino Ponce Morel</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><img src="img/1962-football-world-cup-poster-376x376.jpeg" alt="	Official Poster	"><h3>	Official Poster	</h3><p>The official poster for the 1962 FIFA World Cup in Chile was designed by the Chilean sculptor and graphic artist Galvarino Ponce Morel. His entry was selected by FIFA in 1961 from over 300 submissions.</p></li>
+        <li class="table-cell"><img src="img/Galvarino Ponce Morel.png" alt="Galvarino Ponce Morel"><h3>Galvarino Ponce Morel</h3><p>Galvarino Ponce Morel (1921–2012) was a prominent Chilean sculptor and commercial artist renowned for creating the official 1962 FIFA World Cup poster and for his massive, classical bronze monuments throughout Chile.<br>Beyond graphic design, Ponce Morel was a master of canonical figurative sculpture, often focusing on military and historic themes. He was an officer in the Chilean Army (Infantry) before turning to art full-time. He received a Doctorate in Fine Arts from the Accademia Albertina di Belle Arti in Turin, Italy, while on a military service commission in 1951. He created more than 100 busts and full statues, including those of Arturo Prat in Antofagasta and Gabriel González Videla in La Serena. His sculptures are located as far away as Canada, the United States, and Italy. He was the son of Galvarino Ponce Arellano, a Chilean politician and dentist. He passed away at the age of 91 in his home and workshop in San Bernardo on November 4, 2012. In recent years, the Chilean Army inaugurated a temporary exhibition hall in his name to showcase his life's work as a "soldier-sculptor".<p></li>
+    </ul>																		
+
+    
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
