@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1978 Poster | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1978 Poster</h3><span class="fo-5">designed by Mandatos Internacionales</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><img src="img/1978poster-376x376.jpg" alt="	Official Poster	"><h3>	Official Poster	</h3><p>The official poster for the 1978 FIFA World Cup, held in Argentina, features a stylized, pointillist depiction of two football players celebrating a goal with their arms raised.<p>Designed as a result of a 1978 contest, the poster’s graphic style is characterized by the use of dots (halftone patterns) in the colors of the Argentine flag—light blue and white—alongside a prominent "Argentina '78" vertical text.<p>Employs a pop-art or pointillist technique where the image is formed by colored dots.<p> The two figures with raised arms capture the "Goal Celebration," a universal symbol of football joy.<p>Features bold, clean sans-serif typography with "Argentina '78" and details of the host cities (Buenos Aires, Rosario, Córdoba, Mar del Plata, and Mendoza).</p><p>Another common visual from this tournament includes the "Sol de Mayo" (Sun of May) integrated with two stylized hands holding a football.</p></li>
+        <li class="table-cell"><img src="img/1978-logo-700x700.png" alt="Mandatos Internacionales"><h3>Mandatos Internacionales</h3><p>The official 1978 FIFA World Cup poster was created by the Argentine advertising and design agency Mandatos Internacionales.<p>Mandatos Internacionales is widely believed to have also produced propaganda for the military junta that ruled Argentina at the time.<p>Many observers have noted that the pointillist figures appear to "disappear" when viewed up close, a detail often interpreted as a chilling, perhaps unintentional, reference to the "disappeared" (victims of the regime's Dirty War).</p></li>
+    </ul>																		
+
+    
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

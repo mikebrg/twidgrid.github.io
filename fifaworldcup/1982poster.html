@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1982 Poster | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1982 Poster</h3><span class="fo-5">designed by Joan Miró</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><img src="img/1982poster-376x376.png" alt="	Official Poster	"><h3>	Official Poster	</h3><p>The official poster for the 1982 FIFA World Cup in Spain was designed by the legendary Catalan surrealist artist Joan Miró.</p><p>Miró's design broke away from traditional sports imagery, using his signature abstract style.</p><p>It features bold black lines, vibrant primary colors (red, yellow, and blue), and surrealist shapes.</p><p>The central figure is an abstract, celebratory character—often interpreted as a soccer player in a "celebratory somersault" or "leaping for joy".</p></li>
+        <li class="table-cell"><img src="img/joan-miro-foto-2.jpg" alt="Joan Miró"><h3>Joan Miró</h3><p>Joan Miró i Ferrà (20 April 1893 – 25 December 1983) was a Catalan painter, sculptor and ceramist from Spain. A museum dedicated to his work, the Fundació Joan Miró, was established in his native city of Barcelona in 1975, and another, the Fundació Pilar i Joan Miró, was established in his adoptive city of Palma, Mallorca in 1981. Earning international acclaim, his work has been interpreted as Surrealism but with a personal style, sometimes also veering into Fauvism and Expressionism. He was notable for his interest in the unconscious or the subconscious mind, reflected in his re-creation of the childlike. His difficult-to-classify works also had a manifestation of Catalan pride. In numerous interviews dating from the 1930s onwards, Miró expressed contempt for conventional painting methods as a way of supporting bourgeois society, and declared an "assassination of painting" in favour of upsetting the visual elements of established painting.</p></li>
+    </ul>																		
+
+    
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

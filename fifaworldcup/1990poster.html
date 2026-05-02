@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1990 Poster | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1990 Poster</h3><span class="fo-5">designed by Alberto Burri</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+        <li class="table-cell"><img src="img/1990poster-376x376.jpg" alt="	Official Poster	"><h3>	Official Poster	</h3><p>The official 1990 FIFA World Cup poster was designed by the renowned Italian artist Alberto Burri. It features a digitally elongated, photo-negative image of the Colosseum in Rome, which serves as a "theatre of football".</p><p>A black and white, negative-style image of the Colosseum.</p><p>A green football pitch is superimposed in the center of the Colosseum.</p><p>The pitch is bordered by the flags of the 24 participating nations.</p><p>The design deliberately links modern football to the spirit of gladiatorial Rome.</p><p> It includes bold lettering for "ITALIA '90" and the official FIFA logo.</p></li>
+        <li class="table-cell"><img src="img/Alberto_Burri,_photographed_by_Nanda_Lanfranco.jpg" alt="Alberto Burri"><h3>Alberto Burri</h3><p>Alberto Burri (12 March 1915 – 13 February 1995) was an Italian visual artist, painter, sculptor, and physician based in Città di Castello. He is associated with the matterism of the European informal art movement and described his style as a polymaterialist. He had connections with Lucio Fontana's spatialism and, with Antoni Tàpies, an influence on the revival of the art of post-war assembly in the United States (Robert Rauschenberg) as in Europe.</p><p>In 1987 Burri created the official 1990 FIFA World Cup posters. The Umbria Jazz Festival used the Sestante series for the 2015 edition poster, celebrating the artist's centenary of birth.</p></li>
+    </ul>																		
+
+    
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
