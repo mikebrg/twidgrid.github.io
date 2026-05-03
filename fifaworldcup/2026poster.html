@@ -14,27 +14,7 @@
 
 <link rel="stylesheet" href="../inc/standard.css">
 <link rel="icon" type="image/x-icon" href="img/favicon.png">
-<style>
-    
-    .headx {
-     position: relative;
-     background-size: cover;
-     background-image: url('img/2026.jpg');
-     background-position: center;
-     min-height: 400px;
-}
-.head::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-}
 
-.head > * {
-    position: relative;
-    z-index: 2;
-}
-</style>
 
 </head><body>
 
@@ -84,13 +64,17 @@ function toggleMenu() {
 
     <ul class="responsive-table">
 
-        <li class="table-cell"><img src="img/2026-logo-375x375.png" alt="	Official Poster	"><h3>	Official Poster	</h3><p>The Official FIFA World Cup 2026™ is the first ever FIFA World Cup tournament co-hosted by three nations. The Official Tournament Poster celebrates the collaborative spirit, excitement and unity of this unique moment in time.<p>For the first time in FIFA World Cup™ history, three artists collaborated to develop the Official FIFA World Cup 2026™ Tournament Poster. Artists Carson Ting (Canada), Minerva GM (Mexico) and Hank Willis Thomas (United States), combined their talent and artistic styles to create a piece that showcases how a shared passion for football unites the world.</p></li>
+        <li class="table-cell"><img src="img/2026-logo-375x375.png" alt="	Official Poster	" onclick="toggleSize(this)"><h3>	Official Poster	</h3><p>The Official FIFA World Cup 2026™ is the first ever FIFA World Cup tournament co-hosted by three nations. The Official Tournament Poster celebrates the collaborative spirit, excitement and unity of this unique moment in time.<p>For the first time in FIFA World Cup™ history, three artists collaborated to develop the Official FIFA World Cup 2026™ Tournament Poster. Artists Carson Ting (Canada), Minerva GM (Mexico) and Hank Willis Thomas (United States), combined their talent and artistic styles to create a piece that showcases how a shared passion for football unites the world.</p></li>
         <li class="table-cell"><img src="img/carson-ting.jpg" alt="	Carson Ting	"><h3>	Carson Ting	</h3><p>Born in Toronto and based in Vancouver, Carson is a Canadian artist, designer, and founder of Chairman Ting. A graduate of the Ontario College of Art & Design, he began as an advertising art director for brands like Lexus, Sony, and Honda. He later joined the lead creative team for the Nike Jordan brand, working on the award-winning #RiseAboveOlympic campaign. Today, he runs his studio from Vancouver’s West End, proudly representing Canadian creativity on the global stage.<p></li>
         <li class="table-cell"><img src="img/minerva-gm.jpg" alt="	Minerva GM	"><h3>	Minerva GM	</h3><p>Based in the Caribbean, Minerva is a Mexican illustrator with a career across editorial, advertising, and textile design. Born in Toluca, her creative identity was shaped by the city’s deep-rooted football culture and the landscapes of the Nevado de Toluca. After graduating from Tecnológico de Monterrey, she built her professional roots in Mexico City before expanding her practice to international exhibitions. Her work focuses on a multidisciplinary approach to storytelling, representing a vibrant and contemporary side of Mexican illustration.<p></li>
         <li class="table-cell"><img src="img/hank-willis-thomas.jpg" alt="	Hank Willis Thomas	"><h3>	Hank Willis Thomas	</h3><p>Based in New York, Hank Willis Thomas is a conceptual artist whose multidisciplinary practice explores identity, media, love, power, and popular culture. Born in Plainfield, New Jersey, he holds a BFA from NYU and an MFA from California College of the Arts, along with multiple honorary doctorates. His work reflects on American cultural influence and includes major public artworks such as The Embrace in Boston and additional permanent installations across Brooklyn, Chicago, Miami, Montgomery, and San Francisco.<p></li>
     </ul>																		
 
-    
+   <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
 
 
     </div></div>

@@ -748,3 +748,15 @@ text-decoration: underline; /* Add underline only on hover */
   display: inline-block;
   vertical-align:text-bottom;
 }
+
+.enlarged {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100vh !important;
+  width: auto !important;
+  max-height: none !important;
+  z-index: 9999;
+  background: #000; /* optional backdrop feel */
+}
