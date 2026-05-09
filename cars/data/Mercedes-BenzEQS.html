@@ -1,13 +1,145 @@
-﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-16"><title>Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body style="background-color: white;"><p><h1>
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 Mercedes-Benz EQS
-</h1><p><img src="../img/
+ | Cars</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Cars</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>
+Mercedes-Benz EQS
+</h3><span class="fo-5">
+Produced since 2021
+</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="javascript:history.back()">Back</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/
 Mercedes-BenzEQS.jpg
 " alt="
+EQS
+" onclick="toggleSize(this)">
+<li class="table-cell"><img src="" style="display: none;"><h3>
 Mercedes-Benz EQS
-" class="crimage"><p class="mttext">
+</h3><p><strong>
+2021
+<p>
 The Mercedes-Benz EQS (V297) is a battery electric full-size luxury liftback car produced by German automobile manufacturer Mercedes-Benz Group. It was released in September 2021 in Germany and the fourth quarter of 2021 in the United States. As a battery-electric vehicle, it is part of the Mercedes-Benz EQ family.<p>Presentation<p>The EQS was presented at the 2019 International Motor Show Germany (IAA) as the Mercedes-Benz Vision EQS and foreshadows the future Mercedes-Benz series luxury electric sedan cars announced for 2021. The production model debuted on 15 April 2021.<p>Technical details<p>The EQS is the first EQ model that is based on the technical platform specific to the electric models, called the MEA. Its automobile drag coefficient is as low as 0.20, making it the car with lowest drag coefficient in production at the time of its introduction (not to be confused with total air drag, which consists of drag coefficient and frontal area).<p>The car is powered by a water-cooled permanent magnet synchronous motor from Valeo Siemens in the EQS 450+ model, and by two of these motors in the EQS 580 4MATIC model. The torque is sent from the motor(s) to the wheels through a single-speed reduction gearbox. In the single-motor EQS 450+ model, the motor has a rated power of 245 kW (329 hp), and a braking power of 186 kW (249 hp), allowing a deceleration of 5 m·s. German motor journalist Alexander Bloch from Auto Motor und Sport found the energy consumption to be 150...160 W·h/km at 130 km/h (81 mph), and the average energy consumption to be 158 W·h/km. With the 107.8 kW·h secondary cell, the car has a range of more than 638 km. The average recharging power is 163 kW with a peak of >200 kW, allowing the car to reach a 79% state of charge in about half an hour.<p>The Mercedes-AMG EQS 53 4Matic+ was presented at the Munich Motor Show in September 2021 and is the first all-electric AMG car. It has two electric motors producing 560 kW (751 hp) of power and delivering 1,020 N⋅m (752 lbf⋅ft) of torque. Its handling characteristics as well as its cooling system have been upgraded to match the motors' higher power output.
-</p></body></html>
+<p></strong>
+</li></ul>
 
+            <ul class="responsive-table">
+<li></li><li></li><li></li><li></li></ul><p><p></div></div>
+<script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script>  <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
 
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
 
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

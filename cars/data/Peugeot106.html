@@ -1,9 +1,145 @@
-﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-16"><title>Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body style="background-color: white;"><p><h1>
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 Peugeot 106
-</h1><p><img src="../img/
+ | Cars</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Cars</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>
+Peugeot 106
+</h3><span class="fo-5">
+Produced since 1991
+</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="javascript:history.back()">Back</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/
 Peugeot106.jpg
 " alt="
+106
+" onclick="toggleSize(this)">
+<li class="table-cell"><img src="" style="display: none;"><h3>
 Peugeot 106
-" class="crimage"><p class="mttext">
+</h3><p><strong>
+1991
+<p>
 The Peugeot 106 is a popular and long-running city car (supermini) produced from 1991 to 2003, widely recognized for its agile handling, low running costs, and strong popularity as a first car and a platform for performance models like the 106 Rallye and GTi. <p>Overview<p>The 106 was the entry point into the Peugeot range for over a decade. It was praised for its nimble and fun driving experience, which earned it a strong following among enthusiasts. Designed primarily for European markets, it offered simple, robust mechanics and economical engines, making it a perfect urban runabout. <p>Key Variants<p>106 Rallye: A stripped-down, performance-focused version with stiffened suspension and steel wheels, celebrated for its pure driving dynamics.<p>106 GTi: The hot hatch variant, featuring a 1.6-litre 16V engine, body kit, and a more comfortable interior than the Rallye.<p>Electric (106 Électrique): A pioneering electric version was produced from 1995 to 2003, primarily for fleet use, long before mainstream electric vehicles became common. <p>Common Problems and Reliability<p>The 106 is a robust little car, but its age means that many have covered high mileages and require careful maintenance. <p>Rear Axle Wear: Like many Peugeots of this era (205, 306), the trailing arm bearings in the rear suspension are a major weak point. A sagging rear end or excessively positive camber (wheels tilting inwards at the bottom) indicates wear and a potentially costly repair if the axle beam needs replacing.<p>Head Gasket Failure: The 1.1L and 1.4L petrol engines, while generally reliable, are susceptible to head gasket failure, particularly if the cooling system is not meticulously maintained.<p>Rust: Corrosion can be an issue on older models, particularly around the rear wheel arches, sills, and front wings.<p>Electrical Issues: Minor electrical gremlins with central locking, intermittent wipers, and dashboard lights are common.<p>Clutch Cables: Clutch cables have been known to snap, so their condition should be monitored regularly. <p>Overall, the Peugeot 106 remains a cherished classic for its simplicity, lightweight design, and fun driving dynamics.
-</p></body></html>
+<p></strong>
+</li></ul>
+
+            <ul class="responsive-table">
+<li></li><li></li><li></li><li></li></ul><p><p></div></div>
+<script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script>  <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

@@ -1,13 +1,145 @@
-﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-16"><title>Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body style="background-color: white;"><p><h1>
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 Delage D6 3-litre
-</h1><p><img src="../img/
+ | Cars</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Cars</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>
+Delage D6 3-litre
+</h3><span class="fo-5">
+Produced since 1946-1954
+</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="javascript:history.back()">Back</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/
 DelageD6 3-litre.jpg
 " alt="
+D6 3-litre
+" onclick="toggleSize(this)">
+<li class="table-cell"><img src="" style="display: none;"><h3>
 Delage D6 3-litre
-" class="crimage"><p class="mttext">
+</h3><p><strong>
+1946-1954
+<p>
 By the end of the war Delage was firmly in the hands of Delahaye, Delage's British born chief, Walter Watney, having found himself obliged to leave France in 1942. Louis Delâge himself had not been welcome at the company that bore his name since 1935, and would die at the end of 1947.<p>1946 found Delage production resuming with a single model, the D6 3-litre, slotting in below the larger and (even) more powerful models for which Delahaye used their own name. Many things had changed in the intervening years, but post-war Delages, like the Delahayes, still had their steering wheels on the right, something which would have been mainstream in France thirty years earlier, but which now very firmly set the high-luxury end cars apart from the Peugeots, Renaults, Citroëns, Panhards, and Simcas that many French citizens would have seen daily on the roads, and which the more fortunate among them might have aspired to drive or purchase.<p>The D6 3-litre now came with a 2984 cc straight-6 engine. Quoted power of 90 hp (67 kW) at 3,800 rpm was slightly down on the figure quoted for the pre-war D6-70, possibly reflecting a lower compression ratio enforced by the lower octanes of the fuel available to car buyers at this time. Performance would have varied according to the weight and shape of the body fitted, but a top speed of approximately 135 km/h (84 mph) was quoted by the manufacturer.<p>The bespoke body builders had less work now than in the 1930s, but their craft based methods enabled them to respond more immediately to new styling trends than the volume automakers, and many of the Delages from the late 1940s and early 1950s look strangely modern when compared to the early post war products from Renault, Peugeot and Citroën. The coach builders were willing and able more immediately to copy and build on the developments in car design that during the early 1940s had been more apparent in North America than in Europe. Nevertheless, the Delage D6-3-litre of 1948 – 1954 came with exactly the same 3,150 mm (124 in) that had been standard on successive D6s since 1935. A longer 3,330 mm (131 in) was also available for longer bodies such as those for Limousine style cars.<p>The Delage D6 3-litre was listed as part of the Delahaye-Delage range till 1954: it is thought that the last of the cars, in bare chassis form, were constructed during the closing months of 1953, but the final batch were still available for purchase during 1954, most of them bodied by Chapron. 1954 marked the exit from auto-production of both brands. The political context and the state of the post-war French economy were hostile to large cars in France. In 1954 even Henry Ford gave up on French auto-production, selling his business to Simca. By 1955 Delahaye had been taken over by Hotchkiss whose own business now survived, at least for the time being, not from producing luxury cars but on the basis of rebuilding and, by now increasingly building from scratch, Jeep based vehicles.
-</p></body></html>
+<p></strong>
+</li></ul>
 
+            <ul class="responsive-table">
+<li></li><li></li><li></li><li></li></ul><p><p></div></div>
+<script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script>  <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
 
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
 
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

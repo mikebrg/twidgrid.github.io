@@ -1,13 +1,145 @@
-﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-16"><title>Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body style="background-color: white;"><p><h1>
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 Delage D4
-</h1><p><img src="../img/
+ | Cars</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Cars</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>
+Delage D4
+</h3><span class="fo-5">
+Produced since 1933-1934
+</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="javascript:history.back()">Back</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/
 DelageD4.jpg
 " alt="
+D4
+" onclick="toggleSize(this)">
+<li class="table-cell"><img src="" style="display: none;"><h3>
 Delage D4
-" class="crimage"><p class="mttext">
+</h3><p><strong>
+1933-1934
+<p>
 The Delage D4 was a 4-cylinder compact luxury car in the 8CV car tax band produced by the manufacturer between 1933 and 1934.<p>With the D4 the manufacturer returned to a market sector that it had neglected ever since ending production of the "Type AM" in 1921. A strategy of broadening the range downwards was understandable in the context of a French car market that failed to rebound from the economic depression in the way experienced in Britain and Germany. (French automobile production only returned to its 1928 level in 1938.<p>Launched in October 1933 at the 27th Paris Motor Show, the D4 was positioned at the lower end of the Delage range, below the 2-litre D6-11 which had been introduced the previous year initially to complement and then effectively to replace the manufacturer's DS. The D4 was, therefore, part of a broader change in focus by Delage away from the larger cars, reflecting a more general switch towards middle-class cars in the overall French auto-market during the first five or so years of the 1930s.<p>The D4 sat on a 2,800 mm (110 in) wheelbase, and was designed to incorporate the maximum possible level of component commonality with other Delage models. It was nevertheless fitted with the manufacturer's only four cylinder engine, an overhead valve unit of 1480cc (8CV). The maximum listed output was 40 hp (30 kW), produced at 4,200 rpm. Performance would have varied according to the body type selected and driving conditions, but a value of "approximately 100 km/h (63 mph)" was quoted.<p>The car could be ordered in bare chassis form, permitting customers to make their own arrangements with bespoke coach builders for clothing the chassis. That reflected normal practice among more traditional auto-makers, especially in respect of larger cars. Nevertheless, the catalogue given out at the Motor Show listed six "standard" body types from which customers could also choose. These included 2-door and 4-door saloon/sedan bodies as well as a coupe, a four-seater cabriolet and a two-seater "roadster" style cabriolet.<p>Commercial<p>The arrival of the D4 coincided with a renewed interest in the 8CV (8HP) class by what were already becoming France's "Big-3" automakers, with the introduction for 1934 of the new "all-steel" bodied versions of the Peugeot 301 and Renault Monaquatre YN3. "All-steel" car bodies were transforming the economics of automobile manufacturing, polarizing the market between automakers with access to the funds necessary to invest in heavy steel presses and dies and the second tier automakers. Once the capital cost of the steel presses had been found, the unit cost of production was much lower with "all-steel" bodied cars than with the traditional labour-intensive timber frame car bodies, but the economics only worked where the volume of cars produced was sufficient to cover the initial capital cost.<p>Delage did not have the dealer/service network across France necessary for a volume automaker, and it is unlikely that the production processes for the D4 were as cost-effective as those for its competitors in the now hotly contested 8CV class. In price terms the Delage found itself undercut by Peugeot, Citroën and Renault. Its larger cylinder diameter and the overhead valves for which that gave space gives credibility to the higher listed power output figure which implied a performance advantage, but even allowing for the somewhat approximate nature of manufacturers' performance data at this time, the D4 appears to have been only marginally faster than the 8CV models from the volume manufacturers: the Delage D4 was marginally heavier than the volume manufacturer's rival products, presumably reflecting more conservative production processes.<p>The D4 did, for a time, boost Delage sales, but the effect proved short-lived. In 1934 production came to an end.
-</p></body></html>
+<p></strong>
+</li></ul>
 
+            <ul class="responsive-table">
+<li></li><li></li><li></li><li></li></ul><p><p></div></div>
+<script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script>  <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
 
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
 
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

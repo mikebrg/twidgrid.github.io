@@ -1,9 +1,145 @@
-﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-16"><title>Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body style="background-color: white;"><p><h1>
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 Renault Mégane E-Tech Electric
-</h1><p><img src="../img/
+ | Cars</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Cars</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>
+Renault Mégane E-Tech Electric
+</h3><span class="fo-5">
+Produced since 2021
+</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="javascript:history.back()">Back</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/
 RenaultMégane E-Tech Electric.jpg
 " alt="
+Mégane E-Tech Electric
+" onclick="toggleSize(this)">
+<li class="table-cell"><img src="" style="display: none;"><h3>
 Renault Mégane E-Tech Electric
-" class="crimage"><p class="mttext">
+</h3><p><strong>
+2021
+<p>
 The Renault Mégane E-Tech Electric is an electric car produced by French manufacturer Renault since 2022. It is a five-door hatchback in the small family car market segment. Using the Mégane nameplate, it is the first Renault model based on a dedicated battery electric vehicle platform known as the AmpR Medium. It was previewed by the Renault Mégane eVision concept car in 2020.<p>Overview<p>The Renault Mégane eVision was a concept car unveiled in October 2020, previewing the Mégane E-Tech. The Mégane E-Tech was subsequently previewed by a near-production prototype in June 2021. The production version was revealed at the 2021 IAA in Munich in September 2021, and sales in Europe started in February 2022. In early 2023, the model was intended to go on sale in Australia at the end of 2023, with Renault's Australian distributor saying supply was limited by high-demand in Europe and that they were viewing the Mégane E-Tech as "a 2024 model".<p>Production of the internal-combustion engine powered Renault Mégane IV initially continued alongside production of the newer electric model. The car uses the CMF‑EV platform, which it shares with the larger Nissan Ariya model. The car received a five-star safety rating from Euro NCAP.<p>The Megane is one of the lightest EVs on the market due to aluminium and carbon fibre in its construction.<p>Design<p>Two prototypes were initially presented, with Renault chief-executive-officer Luca de Meo choosing the one with the "sporty" design and the company's design chief commenting on the car's aerodynamics, calling it an "Electric GTi". The car has been noted for having proportions that make its size hard to judge in photographs, being slightly shorter than many other family hatchbacks. The battery is located underneath the floor of the car, and thus the cabin is raised slightly compared to the combustion-engine powered Megane, being 50 millimetres (2.0 in) taller than the Mégane IV. The design has elements which some find reminiscent of 4x4s, however various automotive publications describe it as a hatchback with design elements from coupés and crossovers. Euro NCAP classify it as a small family car.<p>The car has a high seating position with limited headroom for rear passengers, although the front is considered more spacious by motor journalists. The Mégane's high window sill line and small windows were criticized for having a very enclosed, oppressive and claustrophobic feel. Its physical temperature controls, however, were acknowledged for not being distracting while driving.<p>The Mégane has a boot capacity of 440 litres (16 cu ft). The majority of its capacity comes from its depth rather than its length, leading it to have a high loading lip. The car does not have a front boot, due to the presence of motors and other equipment within the bonnet. The Megane does have limited rear visibility, but this has been helped by a wide-angle camera rear-view mirror.
-</p></body></html>
+<p></strong>
+</li></ul>
+
+            <ul class="responsive-table">
+<li></li><li></li><li></li><li></li></ul><p><p></div></div>
+<script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script>  <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

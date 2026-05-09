@@ -1,9 +1,145 @@
-﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-16"><title>Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body style="background-color: white;"><p><h1>
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 Peugeot Traveller Expert Combi
-</h1><p><img src="../img/
+ | Cars</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Cars</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>
+Peugeot Traveller Expert Combi
+</h3><span class="fo-5">
+Produced since 2015
+</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="javascript:history.back()">Back</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/
 PeugeotTravellerExpert Combi.jpg
 " alt="
+Traveller Expert Combi
+" onclick="toggleSize(this)">
+<li class="table-cell"><img src="" style="display: none;"><h3>
 Peugeot Traveller Expert Combi
-" class="crimage"><p class="mttext">
+</h3><p><strong>
+2015
+<p>
 The Peugeot Traveller and Peugeot Expert Combi are nearly identical multi-passenger vehicles based on the same platform, with the primary distinction often being in the trim levels and target markets (leisure/family vs. business/shuttle). In many markets, particularly Europe, these models are now available exclusively as the all-electric Peugeot e-Traveller and Peugeot e-Expert Combi. <p>Model Types and Modularity<p>Both vehicles share the same core design, dimensions, and engine options, prioritizing flexibility and passenger comfort. <p>Seating Configuration: Both are highly modular, offering configurations for 5, 7, 8, or up to 9 seats. The rear seats are typically independent, sliding on rails, and can be removed entirely to maximize cargo space.<p>Dimensions: They are available in different lengths, commonly "Standard" (around 4.96m) and "Long" (around 5.31m), while maintaining a consistent height of under 1.9m, which allows for easy access to most car parks.<p>Cargo Space: With all seats in place, they offer generous boot space (e.g., 989 liters in the Long version), expanding to a maximum capacity of over 3,000 liters (or up to 4,000 litres for the long version) with seats folded or removed. <p>Powertrain Options<p>In certain markets, older or specific trims of the Expert Combi might still be available with diesel engines, but the general trend, especially for newer models, is towards electrification. <p>Electric (e-Traveller / e-Expert Combi)<p>Motor: A single electric motor producing 100 kW (136 hp) and 260 Nm of torque.<p>Battery & Range: Two battery options are available:<p>50 kWh battery: Offers a WLTP range of approximately 220-230 km (around 143 miles).<p>75 kWh battery: Offers a longer WLTP range of up to 330 km (around 204 miles).<p>Charging: Supports 100 kW DC fast charging, allowing the battery to charge from 10 to 80% in about 30-45 minutes depending on battery size. <p>Diesel (Select Markets/Older Models)<p>Engine: A 2.0-litre BlueHDi diesel engine is often cited in specific markets or past models, with power outputs of around 150 hp or 180 hp.<p>Transmission: These models usually feature a 6-speed manual or an 8-speed EAT8 automatic transmission. <p>Interior and Technology<p>The interior is designed for comfort and functionality, whether for family trips or professional transport. <p>Infotainment: Features a 7-inch or 10-inch touchscreen infotainment system with DAB radio, Bluetooth, and smartphone integration (Apple CarPlay and Android Auto).<p>Comfort: Includes features like dual-zone climate control, power-adjustable and heated/massaging front seats (on premium trims), and rear window blinds for passenger comfort.<p>Driver Aids: Available driver assistance systems include a 360° camera, front and rear parking sensors, driver attention alert, and blind spot assist. 
-</p></body></html>
+<p></strong>
+</li></ul>
+
+            <ul class="responsive-table">
+<li></li><li></li><li></li><li></li></ul><p><p></div></div>
+<script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script>  <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
