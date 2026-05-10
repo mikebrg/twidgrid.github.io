@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Marco Polo | People</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> People</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Marco Polo</h3><span class="fo-5">Venice</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../explorers.html">Explorers & Great Travelers</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Marco Polo.jpg" alt="Marco Polo"><h3>Marco Polo</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>07 June 1903<p><strong>Known for: </strong>The Travels of Marco Polo</p><p><strong>Died: </strong>08 January 1324<p><strong>Age: </strong>70<p><strong>Allegiance: </strong>Marco Polo maintained a complex, dual allegiance throughout his life, serving as a loyal emissary to the Mongol Emperor for nearly two decades while remaining a devoted citizen of Venice.</strong><p><strong>Conflicts: </strong>The Venetian–Genoese War (1298)<p><strong>Cause of Death: </strong>In 1323, Polo was confined to bed due to illness. On 8 January 1324, despite physicians' efforts to treat him, Polo was on his deathbed. Due to the Venetian law stating that the day ends at sunset, the exact date of Marco Polo's death cannot be determined, but according to some scholars it was between the sunsets of 8 and 9 January 1324. Biblioteca Marciana, which holds the original copy of his testament, dates the testament on 9 January 1324, and it gives the date of his death at some time in June 1324.<p><strong>Resting Place: </strong>Church of San Lorenzo, Venice, Italy<p><strong>Spouses: </strong>Donata Badoer ​(m. 1300)</p></li><li class="table-cell"><img src="" style="display: none;"><p>Marco Polo (c. 1254 – 8 January 1324) was a Venetian merchant, explorer, and writer who travelled through Asia along the Silk Road between 1271 and 1295. His travels are recorded in The Travels of Marco Polo (also known as Book of the Marvels of the World and Il Milione, c. 1300), a book that described the then-mysterious culture and inner workings of the Eastern world, including the wealth and great size of the Mongol Empire and China under the Yuan dynasty, giving Europeans their first comprehensive look into China, Persia, India, Japan, and other Asian societies.<p>Born in Venice, Marco learned the mercantile trade from his father and his uncle, Niccolò and Maffeo, who travelled through Asia and met Kublai Khan. In 1269, they returned to Venice to meet Marco for the first time. The three of them embarked on an epic journey to Asia, exploring many places along the Silk Road until they reached "Cathay". They were received by the royal court of Kublai Khan, who was impressed by Marco's intelligence and humility. Marco was appointed to serve as Kublai's foreign emissary, and he was sent on many diplomatic missions throughout the empire and Southeast Asia, visiting present-day Myanmar, India, Indonesia, Sri Lanka, and Vietnam. As part of this appointment, Marco also travelled extensively inside China, living in the emperor's lands for 17 years and seeing many things previously unknown to Europeans.<p>Around 1291, the Polos offered to accompany the Mongol princess Kököchin to Persia; they arrived there around 1293. After leaving the princess, they travelled overland to Constantinople and then to Venice, returning home after 24 years. At this time, Venice was at war with Genoa. Marco joined the war effort on behalf of Venice and was captured by the Genoans. While imprisoned, he dictated stories of his travels to Rustichello da Pisa, a cellmate. He was released in 1299, became a wealthy merchant, married, and had three children. He died in 1324 and was buried in the church of San Lorenzo in Venice.<p>Though he was not the first European to reach China, Marco Polo was the first to leave a detailed chronicle of his experience. His account provided the Europeans with a clear picture of the East's geography and ethnic customs, and it included the first Western record of porcelain, gunpowder, paper money, and some Asian plants and exotic animals. His narrative inspired Christopher Columbus and many other travellers. There is substantial literature based on Polo's writings; he also influenced European cartography, leading to the introduction of the Catalan Atlas and the Fra Mauro map.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
