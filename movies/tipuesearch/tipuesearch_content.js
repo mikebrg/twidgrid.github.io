@@ -1,6 +1,12 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Sheep Detectives (2026)	", "text": "	Every night a shepherd reads aloud a murder mystery, pretending his sheep can understand. When he is found dead, the sheep realize at once that it was a murder and think they know everything about how to go about solving it.	", "img": "img/	The Sheep Detectives (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Sheep Detectives	"},
+{"title": "	Billie Eilish: Hit Me Hard and Soft - The Tour Live in 3D (2026)	", "text": "	An accompanying 3D concert film, documenting the Manchester shows and co-directed by Eilish and James Cameron.	", "img": "img/	Billie Eilish Hit Me Hard and Soft - The Tour Live in 3D (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Billie Eilish: Hit Me Hard and Soft - The Tour Live in 3D	"},
+{"title": "	Tony (2026)	", "text": "	A 19-year-old Anthony Bourdain travels to Provincetown and stumbles into the chaotic world of a restaurant kitchen, setting off a summer that will shape the course of his life.	", "img": "img/	Tony (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Tony	"},
+{"title": "	Elle (2026)	", "text": "	Follows Elle Woods' journey through high school, exploring the formative experiences that mold her into the iconic, confident character we meet in the Legally Blonde film.	", "img": "img/	Elle (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Elle	"},
+{"title": "	Cape Fear (2026)	", "text": "	A happily married couple faces a growing threat when a notorious killer from their past, Max Cady, is released from prison and seeks revenge.	", "img": "img/	Cape Fear (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Cape Fear	"},
+	
 {"title": "	Ted Lasso (2020)	", "text": "	American college football coach Ted Lasso is hired to manage AFC Richmond, a struggling English soccer club, and must win over skeptical players, staff, and fans.	", "img": "img/	Ted Lasso (2020).webp	", "tags": "		", "note": "		", "url": "	tv2020.html#:~:text=Ted Lasso	"},
 	
 {"title": "	Hokum (2026)	", "text": "	A horror writer visits an Irish inn to scatter his parents' ashes, unaware the property is said to be haunted by a witch.	", "img": "img/	Hokum (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hokum	"},
