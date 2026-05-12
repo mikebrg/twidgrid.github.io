@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>The Alchemist | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>The Alchemist</h3><span class="fo-5">Beverly Hills, California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/The Alchemist.jpg" alt="The Alchemist"><h3>The Alchemist</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>25 October 1977<p><strong>Age: </strong><span class='dob' data-dob='25-Oct-1977'></span><p><strong>Years Active: </strong>1991–present</p><p><strong>Genre/s: </strong>Hip-hop, alternative hip-hop, jazz rap, underground rap, instrumental, lo-fi</strong><p><strong>Label/s: </strong>ALC, Decon, Shady<p><strong>Member of: </strong>Boldy James & the Alchemist, Gangrene, Step Brothers, The Whooliganz</p></li><li class="table-cell"><img src="" style="display: none;"><p>Alan Daniel Maman (born October 25, 1977), known professionally as the Alchemist, is an American record producer, DJ and rapper. Critically acclaimed for his sample-heavy production style, he is regarded as one of the most influential producers in modern hip-hop and underground rap. His frequent collaborators include Mobb Deep, Larry June, Action Bronson, Freddie Gibbs, Roc Marciano, ScHoolboy Q, Griselda, Boldy James, Earl Sweatshirt, and Curren$y.<p>Raised in Beverly Hills, California, Maman began his career in music as a rapper in the early 1990s as part of the duo the Whooliganz. He transitioned to production in the late 1990s, gaining recognition for his work with Dilated Peoples and Mobb Deep. Maman relocated to New York City to further his career, during which he worked extensively with East Coast artists including Nas, Jadakiss, and Prodigy.<p>Maman gained wider recognition for producing the 1999 single "The Realest" for Mobb Deep, which helped establish his signature sound. He was credited on a string of critically acclaimed projects throughout the 2000s and 2010s, including work on Action Bronson's Mr. Wonderful.<p>As a solo artist, Maman has released several instrumental albums and collaborative projects. His debut solo album, 1st Infantry (2004), featured a mix of well-known and underground rappers. He has since released numerous acclaimed projects, including Russian Roulette (2012), the Rapper's Best Friend series, and The Food Villain (2020). Together with collaborators Oh No (with whom he forms the group Gangrene), Woody Jackson and Tangerine Dream he composed the official score to the 2013 video game Grand Theft Auto V and hosts the radio station "The Lab" in it.<p>Furthermore, he has released collaborative projects with various artists, including Covert Coup (2011) with Currensy, Albert Einstein (2013) with Prodigy, Fetti (2018) with Freddie Gibbs and Currensy, Haram (2021) and Mercy (2025) with Armand Hammer, The Great Escape (2023) with Larry June, Voir Dire (2023) with Earl Sweatshirt, Faith Is a Rock with Mike and Wiki (2023) and Alfredo (2020) with Freddie Gibbs, which was nominated for Best Rap Album at the 63rd Annual Grammy Awards. As a member of a duo with Boldy James, they have released four albums and one EP.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Pharrell Williams | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Pharrell Williams</h3><span class="fo-5">Virginia Beach, Virginia, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Pharrell Williams.jpg" alt="Pharrell Williams"><h3>Pharrell Williams</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>05 April 1973<p><strong>Age: </strong><span class='dob' data-dob='05-Apr-1973'></span><p><strong>Years Active: </strong>1992–present</p><p><strong>Genre/s: </strong>Hip-hop, R&B, pop, funk, rock</strong><p><strong>Label/s: </strong>I Am Other, Columbia, Virgin, Arista, Interscope, Star Trak</p></li><li class="table-cell"><img src="" style="display: none;"><p>Pharrell Lanscilo Williams (born April 5, 1973) is an American musician, songwriter, record producer and fashion designer. He initially became known as one half of the music production duo the Neptunes, which he established alongside Chad Hugo in 1992. Fifteen of their productions have peaked within the top ten of the Billboard Hot 100, which includes four songs that peaked atop the chart. The two also formed the rock and hip-hop band N.E.R.D. with Shay Haley in 1999, for which Williams served as lead vocalist. He has been regarded as one of the most influential producers in modern popular music. He has also contributed music to all Despicable Me animated films.<p>Williams co-founded the record label Star Trak Entertainment with Hugo in 2001, as an imprint of Arista Records. Williams's 2003 debut single, "Frontin'" (featuring Jay-Z), peaked at number five on the Billboard Hot 100. He then signed with Virgin and Interscope Records to release his debut studio album, In My Mind (2006), which peaked at number three on the Billboard 200 despite mixed critical reception. Williams produced and guest performed alongside T.I. on Star Trak signee Robin Thicke's 2013 single "Blurred Lines", which peaked atop the Billboard Hot 100 and received diamond certification by the Recording Industry Association of America (RIAA). That same year, his guest appearance alongside Nile Rodgers on Daft Punk's single "Get Lucky" peaked at number two on the chart and won Record of the Year and Best Pop Duo/Group Performance at the 56th Annual Grammy Awards. Williams's 2013 single, "Happy"—released for the soundtrack to Despicable Me 2—became his second song to peak atop the chart that same year. It also served as lead single for his second album, Girl (2014), which peaked at number two on the Billboard 200 and saw positive critical reception.<p>Williams has received numerous accolades and nominations. He has won 13 Grammy Awards, including three for Producer of the Year, Non-Classical (one as a member of the Neptunes). He is also a two-time Academy Award nominee: in 2014 for Best Original Song for "Happy"; and in 2017 for Best Picture as a producer of Hidden Figures. As sole proprietor, he founded the multi-disciplinary media company I Am Other in 2012, which acts as both a record label and creative umbrella for his other endeavors, including his fashion label and retailer, Billionaire Boys Club. He has served as Men's creative director for Louis Vuitton since 2023.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

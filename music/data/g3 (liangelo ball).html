@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>G3 (LiAngelo Ball) | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>G3 (LiAngelo Ball)</h3><span class="fo-5">Anaheim, California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/G3 (LiAngelo Ball).jpeg" alt="G3 (LiAngelo Ball)"><h3>G3 (LiAngelo Ball)</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>24 November 1998<p><strong>Age: </strong><span class='dob' data-dob='24-Nov-1998'></span><p><strong>Years Active: </strong>2025–present</p><p><strong>Genre/s: </strong>Hip hop, trap</strong><p><strong>Label/s: </strong>Def Jam</p></li><li class="table-cell"><img src="" style="display: none;"><p>LiAngelo Robert "Gelo" Ball (born November 24, 1998) is an American former professional basketball player and rapper currently signed to Def Jam Recordings. He is he second son of Big Baller Brand founder LaVar Ball and brother to NBA guards Lonzo and LaMelo.<p>While a junior at Chino Hills High School in Chino Hills, California, Ball won a state championship alongside his brothers – all three achieved celebrity status through their family's Facebook Watch reality show Ball in the Family. Having become a three-star recruit and UCLA signee, a 2017 suspension for shoplifting led him to forgo college basketball. He instead joined Lithuanian professional team Prienai alongside LaMelo and played in the Junior Basketball Association (JBA), a league founded by his father, before entering the G League at the end of the 2019–20 season.<p>Ball was briefly signed to the Detroit Pistons in late 2020, but was waived prior to the start of the 2020–21 season. He then joined the Greensboro Swarm, the satellite team of LaMelo's Charlotte Hornets, in 2021 – another hiatus and a brief tenure on CIBACOPA side Astros de Jalisco followed. Afterwards, Ball ventured into hip hop music with the stage name GELO, releasing his debut single "Tweaker" in 2025 that charted in several countries, and then agreeing to a multi-million dollar record deal with Def Jam. He confirmed his full retirement from basketball in August 2025.<p>On August 6, 2025, Ball confirmed his retirement from basketball, shifting his focus to music following the success of his single, "Tweaker".<p>On January 3, 2025, Ball released his debut single "Tweaker" to viral success, initially previewed on a livestream with internet personality N3on. The remix of the song featuring vocals from Lil Wayne was released on February 7, 2025. Writer Alphonse Pierre of Pitchfork pegs the track as inspired by 2000s Louisiana hip-hop, stating Ball "is putting out music that sounds like he wants to convince us he grew up crooning on the porches of Baton Rouge with Boosie and Webbie." The song debuted at No. 29 on the Billboard Hot 100.<p>On January 13, 2025, NBA insider Shams Charania of ESPN reported that Ball signed a record deal with Def Jam Recordings worth up to $13 million with a guaranteed $8 million.<p>In February, he previewed "Law & Order" and "Can You Please" on PlaqueBoyMax's livestream; the latter was previously teased by Ball's brother, Lonzo.<p>On July 18, 2025, he released his debut studio album under Def Jam, League of My Own.<p>On November 17, 2025, it was announced that his debut single "Tweaker" had reached certified platinum status by the Recording Industry Association of America, having sold one million copies in digital units.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Fleetwood Mac | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Fleetwood Mac</h3><span class="fo-5">London, England, U.K.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Fleetwood Mac.jpg" alt="Fleetwood Mac"><h3>Fleetwood Mac</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong></strong><p><strong>Years Active: </strong>1967–1995, 1997–2022</p><p><strong>Genre/s: </strong>Pop rock, soft rock, blues rock, art pop</strong><p><strong>Label/s: </strong>Blue Horizon, Reprise, Sire, CBS, Warner Bros., LMJS Productions</p></li><li class="table-cell"><img src="" style="display: none;"><p>Fleetwood Mac were a British and American rock band formed in London in 1967 by singer and guitarist Peter Green. He named the band by combining the surnames of drummer Mick Fleetwood, the only constant member of the band throughout its history, and bassist John McVie, who joined the band soon after it was formed. Fleetwood Mac have sold more than 120 million records worldwide, making them one of the world's best-selling musical acts.<p>Primarily a British blues band in their early years, Fleetwood Mac achieved a UK number one single in 1968 with the instrumental "Albatross" and had other UK top ten hits with "Man of the World", "Oh Well" (both 1969), and "The Green Manalishi (With the Two Prong Crown)" (1970). Green left the band in May 1970 and McVie's wife, Christine McVie, joined as an official member on vocals and keyboards two months later, having previously contributed to the band as a session musician. Other key members during the band's early years were Jeremy Spencer, Danny Kirwan, and Bob Welch. By the end of 1974, these members had departed, which left the band without a guitarist and male singer. While Fleetwood was scouting studios in Los Angeles, he heard the American folk rock duo Buckingham Nicks, consisting of guitarist and singer Lindsey Buckingham and singer Stevie Nicks. In December 1974, he asked Buckingham to join Fleetwood Mac, with Buckingham agreeing on the condition that Nicks could also join. The addition of Buckingham and Nicks gave the band a more pop rock sound, and their 1975 album Fleetwood Mac topped the Billboard 200 chart in the United States. Their next album, Rumours (1977), reached number one in multiple countries around the world and won the Grammy Award for Album of the Year in 1978.<p>The line-up remained stable through three more studio albums, but by the late 1980s began to disintegrate. After Buckingham left in 1987, he was replaced by Billy Burnette and Rick Vito, although Vito left in 1990 along with Nicks. A 1993 one-off performance for the first inauguration of President Bill Clinton reunited the classic 1974–1987 line-up for the first time in six years. A full-scale reunion took place four years later, and Fleetwood Mac released their fourth U.S. No. 1 album, The Dance (1997), a live album marking the 20th anniversary of Rumours and the band's 30th anniversary. Christine McVie left in 1998 after the completion of The Dance Tour, but rejoined in 2014 for their On With the Show Tour. Fleetwood Mac released their final studio album, Say You Will, in 2003. In 2018, Buckingham was fired and replaced by Mike Campbell, formerly of Tom Petty and the Heartbreakers, and Neil Finn of Split Enz and Crowded House. After Christine McVie's death in 2022, Nicks stated her belief in 2024 that the band would not continue without her.<p>In 1979, Fleetwood Mac were honoured with a star on the Hollywood Walk of Fame. In 1998, they were inducted into the Rock and Roll Hall of Fame and received the Brit Award for Outstanding Contribution to Music. In 2018, Fleetwood Mac received the MusiCares Person of the Year award from the Recording Academy in recognition of their artistic achievement in the music industry and dedication to philanthropy.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
