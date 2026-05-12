@@ -1,6 +1,20 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Middle Of Nowhere	", "text": "	Middle Of Nowhere is an album by Kacey Musgraves released in 2026	", "img": "img/	MiddleOfNowhereKaceyMusgraves2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Middle Of Nowhere	"},
+{"title": "	...It's Been Awful	", "text": "	...It's Been Awful is an album by Isaiah Rashad released in 2026	", "img": "img/	...It'sBeenAwfulIsaiahRashad2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=...It's Been Awful	"},
+{"title": "	MAMIHLAPINATAPAI (EP)	", "text": "	MAMIHLAPINATAPAI (EP) is an album by ILLIT released in 2026	", "img": "img/	MAMIHLAPINATAPAI(EP)ILLIT2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=MAMIHLAPINATAPAI (EP)	"},
+{"title": "	PEACHES!	", "text": "	PEACHES! is an album by The Black Keys released in 2026	", "img": "img/	PEACHES!TheBlackKeys2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=PEACHES!	"},
+{"title": "	CORSA	", "text": "	CORSA is an album by Eladio Carrion released in 2026	", "img": "img/	CORSAEladioCarrion2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=CORSA	"},
+     
+{"title": "	Bring Your Love	", "text": "	Bring Your Love is a song by Madonna & Sabrina Carpenter released in 2026	", "img": "img/	Bring Your LoveMadonna & Sabrina Carpenter2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Bring Your Love	"},
+{"title": "	Horses And Divorces	", "text": "	Horses And Divorces is a song by Kacey Musgraves Featuring Miranda Lambert released in 2026	", "img": "img/	Horses And DivorcesKacey Musgraves Featuring Miranda Lambert2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Horses And Divorces	"},
+{"title": "	Fine Place To Die	", "text": "	Fine Place To Die is a song by Alex Warren released in 2026	", "img": "img/	Fine Place To DieAlex Warren2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Fine Place To Die	"},
+{"title": "	Fallin'	", "text": "	Fallin' is a song by Chris Brown Featuring Leon Thomas released in 2026	", "img": "img/	Fallin'Chris Brown Featuring Leon Thomas2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Fallin'	"},
+{"title": "	Damned If I Do	", "text": "	Damned If I Do is a song by Vincent Mason released in 2025	", "img": "img/	Damned If I DoVincent Mason2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Damned If I Do	"},
+{"title": "	Noble	", "text": "	Noble is a song by F3miii released in 2025	", "img": "img/	NobleF3miii2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Noble	"},
+{"title": "	Beat It	", "text": "	Beat It is a song by Michael Jackson released in 1983	", "img": "img/	Beat ItMichael Jackson1983.png	", "tags": "		", "note": "		", "url": "	1983.html#:~:text=Beat It	"},
+     
 {"title": "	The Great Divide	", "text": "	The Great Divide is an album by Noah Kahan released in 2026	", "img": "img/	TheGreatDivideNoahKahan2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Great Divide	"},
 {"title": "	Kehlani	", "text": "	Kehlani is an album by Kehlani released in 2026	", "img": "img/	KehlaniKehlani2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Kehlani	"},
 {"title": "	Your Favorite Toy	", "text": "	Your Favorite Toy is an album by Foo Fighters released in 2026	", "img": "img/	YourFavoriteToyFooFighters2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Your Favorite Toy	"},
