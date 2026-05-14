@@ -24,7 +24,15 @@ function toggleMenu() {
             <ul class="responsive-table">
                 <li class="table-cell"><img src="../img/alex-warren-900x900.jpg" alt="Alex Warren"><h3>Alex Warren</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>18 September 2000<p><strong>Age: </strong><span class='dob' data-dob='18-Sept-2000'></span><p><strong>Years Active: </strong>2019-present</p><p><strong>Genre/s: </strong>Folk-pop</strong><p><strong>Label/s: </strong>Atlantic</p></li><li class="table-cell"><img src="" style="display: none;"><p>Alexander Warren Hughes (born September 18, 2000) is an American singer, songwriter, and YouTuber. He was a founding member of the collaborative TikTok group the Hype House from 2019 to 2022. He began independently releasing music in 2021 before signing with Atlantic Records the following year. His 2024 single "Burning Down" from his debut EP, You'll Be Alright, Kid (Chapter 1) (2024), was his first song to appear on the Billboard Hot 100 chart. His 2025 single "Ordinary" topped the Billboard Hot 100 and numerous other charts, including in Australia, Canada, and the United Kingdom, for several weeks. He was nominated for the Grammy Award for Best New Artist in 2026.<p>Alexander Warren Hughes was born on September 18, 2000, in Carlsbad, California, and grew up there. He has two sisters and one brother. His father died from kidney cancer when he was nine years old, and his mother, an alcoholic, kicked him out of the house at age 18, leaving him homeless and frequently sleeping in friends' cars. She died in 2021. Warren began dating Kouvr Annon, a fellow former member of the Hype House whom he met on Snapchat, in 2018. She moved to California from her parents' home in Hawaii to live with Warren in his car. The couple were engaged on New Year's Eve in 2022 and they married on June 22, 2024, in Escondido, California. He was raised as a Catholic and said that his songs are inspired by worship music.</li></ul>
 
-            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+            <ul class="responsive-table">
+              <li class="table-cell"><a href="	https://www.youtube.com/watch?v=hkUSnrHQJHg	"><img src="../img/	Fever DreamAlex Warren2026.png	" alt="	Fever Dream	"></a><h3>	Fever Dream	</h3><p>	Alex Warren	</p></li>
+<li class="table-cell"><a href="	https://www.youtube.com/watch?v=523Vk5VC5Eg	"><img src="../img/	Fine Place To DieAlex Warren2026.png	" alt="	Fine Place To Die	"></a><h3>	Fine Place To Die	</h3><p>	Alex Warren	</p></li>
+<li class="table-cell"><a href="	https://www.youtube.com/watch?v=A8dH4cKGa6s	"><img src="../img/	OrdinaryAlex Warren2025.png	" alt="	Ordinary	"></a><h3>	Ordinary	</h3><p>	Alex Warren	</p></li>
+<li class="table-cell"><a href="	https://www.youtube.com/watch?v=jXqf3uqLkkU	"><img src="../img/	EternityAlex Warren2025.png	" alt="	Eternity	"></a><h3>	Eternity	</h3><p>	Alex Warren	</p></li>
+<li class="table-cell"><a href="	https://www.youtube.com/watch?v=GdAbRtmIRto	"><img src="../img/	burning-down-alex-warren-2024-340x340.png 	" alt="	Burning Down 	"></a><h3>	Burning Down 	</h3><p>	Alex Warren	</p></li>
+<li class="table-cell"><a href="	https://www.youtube.com/watch?v=AX0jQYaIeDc	"><img src="../img/	On My MindAlex Warren & ROSE2025.png	" alt="	On My Mind	"></a><h3>	On My Mind	</h3><p>	Alex Warren & ROSE	</p></li>
+<li class="table-cell"><a href="	https://www.youtube.com/watch?v=UBtfcphWKBY	"><img src="../img/	BloodlineAlex Warren With Jelly Roll2025.png	" alt="	Bloodline	"></a><h3>	Bloodline	</h3><p>	Alex Warren With Jelly Roll	</p></li>
+<li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
 document.querySelectorAll('.dob').forEach(el => {
   const dob = new Date(el.dataset.dob);
   const today = new Date();
@@ -35,76 +43,83 @@ document.querySelectorAll('.dob').forEach(el => {
   }
   el.textContent = age;
 });
-</script><!-- Modal Structure -->
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title">Content Viewer</h5>
-      <button class="close-btn" id="closeModal">&times;</button>
-    </div>
-    <div class="modal-body">
-      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
-    </div>
-    <div class="modal-footer">
-      <button class="close-btn" id="closeFooter">Close</button>
+ </script><!-- Modal Structure -->
+<div id="wikiModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Music Video</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="wikiIframe" src="" allowfullscreen></iframe> <!-- Added allowfullscreen -->
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
     </div>
   </div>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
-    const modal = document.getElementById('modal');
-    const iframe = document.getElementById('contentIframe');
-    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
-
-    // Function to adjust iframe height
-    function adjustIframeHeight() {
-      const modalContent = document.querySelector('.modal-content');
-      const headerHeight = document.querySelector('.modal-header').offsetHeight;
-      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
-      const modalHeight = modalContent.offsetHeight;
-
-      // Set iframe height based on the remaining space
-      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
-      iframe.style.height = iframeHeight + 'px';
-    }
-
-    // Open modal and set iframe source on click
-    links.forEach(link => {
-      link.addEventListener('click', function (event) {
-        event.preventDefault();
-        const url = this.href;
-
-        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
-          iframe.src = url;
-        }
-
-        modal.style.display = 'flex'; // Show modal
-        adjustIframeHeight(); // Adjust iframe height on modal open
-      });
-    });
-
-    // Close modal and clear iframe content
-    closeModalButtons.forEach(button => {
-      button.addEventListener('click', function () {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
-      });
-    });
-
-    // Close modal when clicking outside modal content
-    modal.addEventListener('click', function (event) {
-      if (event.target === modal) {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
+      const modal = document.getElementById('wikiModal');
+      const iframe = document.getElementById('wikiIframe');
+      const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+  
+      // Function to adjust iframe height
+      function adjustIframeHeight() {
+        const modalContent = document.querySelector('.modal-content');
+        const headerHeight = document.querySelector('.modal-header').offsetHeight;
+        const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+        const modalHeight = modalContent.offsetHeight;
+        
+        // Set iframe height based on the remaining space
+        const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+        iframe.style.height = iframeHeight + 'px';
       }
+  
+      // Open modal and set iframe source on click
+      links.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const url = this.href;
+  
+          // Check if the link is a YouTube link
+          if (url.includes('youtube')) {
+            // Embed YouTube video
+            const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+          } else {
+            // Load Wikipedia page
+            iframe.src = url;
+          }
+  
+          modal.style.display = 'flex'; // Show modal (flex layout for centering)
+          adjustIframeHeight(); // Adjust iframe height on modal open
+        });
+      });
+  
+      // Close modal and clear iframe content
+      closeModalButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        });
+      });
+  
+      // Close modal when clicking outside modal content
+      modal.addEventListener('click', function(event) {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        }
+      });
+  
+      // Recalculate iframe height when the window is resized
+      window.addEventListener('resize', adjustIframeHeight);
     });
-
-    // Recalculate iframe height when the window is resized
-    window.addEventListener('resize', adjustIframeHeight);
-  });
-</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+  </script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
     <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
     <footer class="foot">
         <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>

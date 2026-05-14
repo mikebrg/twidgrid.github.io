@@ -24,7 +24,9 @@ function toggleMenu() {
             <ul class="responsive-table">
                 <li class="table-cell"><img src="../img/Aleman.jpg" alt="Aleman"><h3>Aleman</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>20 February 1990<p><strong>Age: </strong><span class='dob' data-dob='20-Feb-1990'></span><p><strong>Years Active: </strong>2014–present</p><p><strong>Genre/s: </strong>Trap, Latin Trap, Boom Bap, R&B, Reggaetón, Latin Urban</strong><p><strong>Label/s: </strong>Sony Music Mexico, Homegrown Mafia</p></li><li class="table-cell"><img src="" style="display: none;"><p>Alemán, whose real name is Erick Raúl Alemán Ramírez, is a prominent Mexican rapper known for his influence in the Latin trap and hip-hop scenes. Born in Cabo San Lucas in 1990, he rose to international fame with his album Eclipse (2018) and is often cited as one of the best Spanish-language rappers.</li></ul>
 
-            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+            <ul class="responsive-table">
+              <li class="table-cell"><a href="	https://www.youtube.com/watch?v=Fu3u83byc5A	"><img src="../img/	Te Queria VerAleman X Neton Vega2025.png	" alt="	Te Queria Ver	"></a><h3>	Te Queria Ver	</h3><p>	Aleman X Neton Vega	</p></li>
+<li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
 document.querySelectorAll('.dob').forEach(el => {
   const dob = new Date(el.dataset.dob);
   const today = new Date();
@@ -35,76 +37,83 @@ document.querySelectorAll('.dob').forEach(el => {
   }
   el.textContent = age;
 });
-</script><!-- Modal Structure -->
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title">Content Viewer</h5>
-      <button class="close-btn" id="closeModal">&times;</button>
-    </div>
-    <div class="modal-body">
-      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
-    </div>
-    <div class="modal-footer">
-      <button class="close-btn" id="closeFooter">Close</button>
+ </script><!-- Modal Structure -->
+<div id="wikiModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Music Video</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="wikiIframe" src="" allowfullscreen></iframe> <!-- Added allowfullscreen -->
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
     </div>
   </div>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
-    const modal = document.getElementById('modal');
-    const iframe = document.getElementById('contentIframe');
-    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
-
-    // Function to adjust iframe height
-    function adjustIframeHeight() {
-      const modalContent = document.querySelector('.modal-content');
-      const headerHeight = document.querySelector('.modal-header').offsetHeight;
-      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
-      const modalHeight = modalContent.offsetHeight;
-
-      // Set iframe height based on the remaining space
-      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
-      iframe.style.height = iframeHeight + 'px';
-    }
-
-    // Open modal and set iframe source on click
-    links.forEach(link => {
-      link.addEventListener('click', function (event) {
-        event.preventDefault();
-        const url = this.href;
-
-        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
-          iframe.src = url;
-        }
-
-        modal.style.display = 'flex'; // Show modal
-        adjustIframeHeight(); // Adjust iframe height on modal open
-      });
-    });
-
-    // Close modal and clear iframe content
-    closeModalButtons.forEach(button => {
-      button.addEventListener('click', function () {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
-      });
-    });
-
-    // Close modal when clicking outside modal content
-    modal.addEventListener('click', function (event) {
-      if (event.target === modal) {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
+      const modal = document.getElementById('wikiModal');
+      const iframe = document.getElementById('wikiIframe');
+      const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+  
+      // Function to adjust iframe height
+      function adjustIframeHeight() {
+        const modalContent = document.querySelector('.modal-content');
+        const headerHeight = document.querySelector('.modal-header').offsetHeight;
+        const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+        const modalHeight = modalContent.offsetHeight;
+        
+        // Set iframe height based on the remaining space
+        const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+        iframe.style.height = iframeHeight + 'px';
       }
+  
+      // Open modal and set iframe source on click
+      links.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const url = this.href;
+  
+          // Check if the link is a YouTube link
+          if (url.includes('youtube')) {
+            // Embed YouTube video
+            const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+          } else {
+            // Load Wikipedia page
+            iframe.src = url;
+          }
+  
+          modal.style.display = 'flex'; // Show modal (flex layout for centering)
+          adjustIframeHeight(); // Adjust iframe height on modal open
+        });
+      });
+  
+      // Close modal and clear iframe content
+      closeModalButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        });
+      });
+  
+      // Close modal when clicking outside modal content
+      modal.addEventListener('click', function(event) {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        }
+      });
+  
+      // Recalculate iframe height when the window is resized
+      window.addEventListener('resize', adjustIframeHeight);
     });
-
-    // Recalculate iframe height when the window is resized
-    window.addEventListener('resize', adjustIframeHeight);
-  });
-</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+  </script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
     <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
     <footer class="foot">
         <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>

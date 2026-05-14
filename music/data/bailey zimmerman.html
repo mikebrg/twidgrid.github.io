@@ -24,7 +24,10 @@ function toggleMenu() {
             <ul class="responsive-table">
                 <li class="table-cell"><img src="../img/Bailey Zimmerman.jpg" alt="Bailey Zimmerman"><h3>Bailey Zimmerman</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>27 January 2000<p><strong>Age: </strong><span class='dob' data-dob='27-Jan-2000'></span><p><strong>Years Active: </strong>2020–present</p><p><strong>Genre/s: </strong>Country, country rock, Southern rock</strong><p><strong>Label/s: </strong>Warner Nashville, Elektra</p></li><li class="table-cell"><img src="" style="display: none;"><p>Bailey Lynn Zimmerman (born January 27, 2000) is an American country singer. His debut album, Religiously. The Album., was released on May 12, 2023, and spawned four singles: "Fall in Love", "Rock and a Hard Place", "Religiously", and "Where It Ends", all reached number one on the Billboard Country Airplay chart. Zimmerman followed this in 2025 with his second album Different Night Same Rodeo, which included "Backup Plan" with Luke Combs, which became his fifth number one on the Canada Country chart.<p>Zimmerman is known for his raspy vocals, energetic stage presence, and fusion of country and rock sounds in his music.<p>Bailey Lynn Zimmerman was born January 27, 2000, in Louisville, Illinois. He began playing the guitar at the age of nine, devoting much of his childhood to riding dirt bikes and playing baseball. His mother first introduced him to various hair metal bands as well as Kid Rock, Avenged Sevenfold, and Nickelback when he was a teenager. In 2012, his mother took him to his first concert, which was performed by Tesla. It was the only other concert he had attended before he became a singer. In comparison, his father would take long trips with Zimmerman playing country music on the radio.<p>Prior to making music, he worked in the meat-packing industry in 2016. Shortly after graduating, he relocated to West Virginia to work on a union gas pipeline. He graduated from North Clay High School on May 12, 2018. Due to a lack of time spent with his family, he quit pipelining to pursue a truck lift venture with his stepbrother's welding business Top Notch Metal Worx. He started promoting the business through his TikTok account to acquire customers.</li></ul>
 
-            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+            <ul class="responsive-table">
+              <li class="table-cell"><a href="	https://www.youtube.com/watch?v=2gQencb_8jk	"><img src="../img/	Backup PlanBailey Zimmerman & Luke Combs2025.png	" alt="	Backup Plan	"></a><h3>	Backup Plan	</h3><p>	Bailey Zimmerman & Luke Combs	</p></li>
+<li class="table-cell"><a href="	https://www.youtube.com/watch?v=9Z97tEfd2Ws	"><img src="../img/	LostBailey Zimmerman & The Kid LAROI2025.png	" alt="	Lost	"></a><h3>	Lost	</h3><p>	Bailey Zimmerman & The Kid LAROI	</p></li>
+<li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
 document.querySelectorAll('.dob').forEach(el => {
   const dob = new Date(el.dataset.dob);
   const today = new Date();
@@ -35,76 +38,83 @@ document.querySelectorAll('.dob').forEach(el => {
   }
   el.textContent = age;
 });
-</script><!-- Modal Structure -->
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title">Content Viewer</h5>
-      <button class="close-btn" id="closeModal">&times;</button>
-    </div>
-    <div class="modal-body">
-      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
-    </div>
-    <div class="modal-footer">
-      <button class="close-btn" id="closeFooter">Close</button>
+ </script><!-- Modal Structure -->
+<div id="wikiModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Music Video</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="wikiIframe" src="" allowfullscreen></iframe> <!-- Added allowfullscreen -->
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
     </div>
   </div>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
-    const modal = document.getElementById('modal');
-    const iframe = document.getElementById('contentIframe');
-    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
-
-    // Function to adjust iframe height
-    function adjustIframeHeight() {
-      const modalContent = document.querySelector('.modal-content');
-      const headerHeight = document.querySelector('.modal-header').offsetHeight;
-      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
-      const modalHeight = modalContent.offsetHeight;
-
-      // Set iframe height based on the remaining space
-      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
-      iframe.style.height = iframeHeight + 'px';
-    }
-
-    // Open modal and set iframe source on click
-    links.forEach(link => {
-      link.addEventListener('click', function (event) {
-        event.preventDefault();
-        const url = this.href;
-
-        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
-          iframe.src = url;
-        }
-
-        modal.style.display = 'flex'; // Show modal
-        adjustIframeHeight(); // Adjust iframe height on modal open
-      });
-    });
-
-    // Close modal and clear iframe content
-    closeModalButtons.forEach(button => {
-      button.addEventListener('click', function () {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
-      });
-    });
-
-    // Close modal when clicking outside modal content
-    modal.addEventListener('click', function (event) {
-      if (event.target === modal) {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
+      const modal = document.getElementById('wikiModal');
+      const iframe = document.getElementById('wikiIframe');
+      const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+  
+      // Function to adjust iframe height
+      function adjustIframeHeight() {
+        const modalContent = document.querySelector('.modal-content');
+        const headerHeight = document.querySelector('.modal-header').offsetHeight;
+        const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+        const modalHeight = modalContent.offsetHeight;
+        
+        // Set iframe height based on the remaining space
+        const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+        iframe.style.height = iframeHeight + 'px';
       }
+  
+      // Open modal and set iframe source on click
+      links.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const url = this.href;
+  
+          // Check if the link is a YouTube link
+          if (url.includes('youtube')) {
+            // Embed YouTube video
+            const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+          } else {
+            // Load Wikipedia page
+            iframe.src = url;
+          }
+  
+          modal.style.display = 'flex'; // Show modal (flex layout for centering)
+          adjustIframeHeight(); // Adjust iframe height on modal open
+        });
+      });
+  
+      // Close modal and clear iframe content
+      closeModalButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        });
+      });
+  
+      // Close modal when clicking outside modal content
+      modal.addEventListener('click', function(event) {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        }
+      });
+  
+      // Recalculate iframe height when the window is resized
+      window.addEventListener('resize', adjustIframeHeight);
     });
-
-    // Recalculate iframe height when the window is resized
-    window.addEventListener('resize', adjustIframeHeight);
-  });
-</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+  </script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
     <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
     <footer class="foot">
         <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>

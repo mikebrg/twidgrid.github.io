@@ -24,7 +24,10 @@ function toggleMenu() {
             <ul class="responsive-table">
                 <li class="table-cell"><img src="../img/ateez-640x640.jpg" alt="ATEEZ"><h3>ATEEZ</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong></strong><p><strong>Years Active: </strong>2018-present</p><p><strong>Genre/s: </strong>K-pop, hip hop, trap, EDM</strong><p><strong>Label/s: </strong>KQ, Legacy, RCA, Nippon Columbia, Universal Sigma<p><strong>Members: </strong>Hongjoong, Seonghwa, Yunho, Yeosang, San, Mingi, Wooyoung, Jongho</p></li><li class="table-cell"><img src="" style="display: none;"><p>Ateez is a South Korean boy band formed by KQ Entertainment. The group consists of eight members: Hongjoong, Seonghwa, Yunho, Yeosang, San, Mingi, Wooyoung and Jongho. They debuted on October 24, 2018, with the extended play (EP) Treasure EP.1: All to Zero.<p>As of February 2026, Ateez have released thirteen EPs, two studio albums, twenty-eight singles, two single albums, one deluxe and repackaged album in the Korean language, as well as two single albums, three EPs and three studio albums in the Japanese language. Many of their albums each topped the South Korean Circle Album Chart, with Zero: Fever Part.1 becoming the group's first to be certified platinum and The World EP.1: Movement becoming their first to be certified million in the country. The group achieved their first No.1 on the Billboard 200 with their second studio album The World EP.Fin: Will and has secured multiple No.1's on the Billboard Top Albums Sales Chart. They are also the first South Korean musical act to have three different releases chart in the top 10 of the UK Official Albums Chart within a single year.<p>Often referred to as "Global Performance Idols" by Korean media and dubbed "Next Generation Leaders" by the Korean Ministry of Culture, Sports, and Tourism in 2020, Ateez have sold over eleven million physical albums worldwide. Their accolades include Prime Minister's Commendation at the 2025 Korean Popular Culture and Arts Awards and multiple bonsang (main prize) awards. They have also won daesang (grand prize) awards at the 2024 and 2025 Korea Grand Music Awards, 10th Asia Artist Awards and at the 33rd Hanteo Music Awards. The group has also served as official global ambassadors for Korean culture and tourism. In 2024, Ateez became the first K-pop boy group to perform at Coachella and also the first K-pop group to headline the Mawazine music festival in Morocco.</li></ul>
 
-            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+            <ul class="responsive-table">
+              <li class="table-cell"><a href="	https://www.youtube.com/watch?v=H4H99b1CjPU	"><img src="../img/	Lemon DropATEEZ2025.png	" alt="	Lemon Drop	"></a><h3>	Lemon Drop	</h3><p>	ATEEZ	</p></li>
+<li class="table-cell"><a href="	https://www.youtube.com/watch?v=JOF2ZTqvzwY	"><img src="../img/	In Your FantasyATEEZ2025.png	" alt="	In Your Fantasy	"></a><h3>	In Your Fantasy	</h3><p>	ATEEZ	</p></li>
+<li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
 document.querySelectorAll('.dob').forEach(el => {
   const dob = new Date(el.dataset.dob);
   const today = new Date();
@@ -35,76 +38,83 @@ document.querySelectorAll('.dob').forEach(el => {
   }
   el.textContent = age;
 });
-</script><!-- Modal Structure -->
-<div id="modal" class="modal">
-  <div class="modal-content">
-    <div class="modal-header">
-      <h5 class="modal-title">Content Viewer</h5>
-      <button class="close-btn" id="closeModal">&times;</button>
-    </div>
-    <div class="modal-body">
-      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
-    </div>
-    <div class="modal-footer">
-      <button class="close-btn" id="closeFooter">Close</button>
+ </script><!-- Modal Structure -->
+<div id="wikiModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Music Video</h5>
+        <button class="close-btn" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <iframe id="wikiIframe" src="" allowfullscreen></iframe> <!-- Added allowfullscreen -->
+      </div>
+      <div class="modal-footer">
+        <button class="close-btn" id="closeFooter">Close</button>
+      </div>
     </div>
   </div>
-</div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
-    const modal = document.getElementById('modal');
-    const iframe = document.getElementById('contentIframe');
-    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
-
-    // Function to adjust iframe height
-    function adjustIframeHeight() {
-      const modalContent = document.querySelector('.modal-content');
-      const headerHeight = document.querySelector('.modal-header').offsetHeight;
-      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
-      const modalHeight = modalContent.offsetHeight;
-
-      // Set iframe height based on the remaining space
-      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
-      iframe.style.height = iframeHeight + 'px';
-    }
-
-    // Open modal and set iframe source on click
-    links.forEach(link => {
-      link.addEventListener('click', function (event) {
-        event.preventDefault();
-        const url = this.href;
-
-        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
-          iframe.src = url;
-        }
-
-        modal.style.display = 'flex'; // Show modal
-        adjustIframeHeight(); // Adjust iframe height on modal open
-      });
-    });
-
-    // Close modal and clear iframe content
-    closeModalButtons.forEach(button => {
-      button.addEventListener('click', function () {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
-      });
-    });
-
-    // Close modal when clicking outside modal content
-    modal.addEventListener('click', function (event) {
-      if (event.target === modal) {
-        modal.style.display = 'none';
-        iframe.src = ''; // Clear the iframe content when the modal is closed
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
+      const modal = document.getElementById('wikiModal');
+      const iframe = document.getElementById('wikiIframe');
+      const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+  
+      // Function to adjust iframe height
+      function adjustIframeHeight() {
+        const modalContent = document.querySelector('.modal-content');
+        const headerHeight = document.querySelector('.modal-header').offsetHeight;
+        const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+        const modalHeight = modalContent.offsetHeight;
+        
+        // Set iframe height based on the remaining space
+        const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+        iframe.style.height = iframeHeight + 'px';
       }
+  
+      // Open modal and set iframe source on click
+      links.forEach(link => {
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          const url = this.href;
+  
+          // Check if the link is a YouTube link
+          if (url.includes('youtube')) {
+            // Embed YouTube video
+            const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
+            iframe.src = `https://www.youtube.com/embed/${videoId}`;
+          } else {
+            // Load Wikipedia page
+            iframe.src = url;
+          }
+  
+          modal.style.display = 'flex'; // Show modal (flex layout for centering)
+          adjustIframeHeight(); // Adjust iframe height on modal open
+        });
+      });
+  
+      // Close modal and clear iframe content
+      closeModalButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        });
+      });
+  
+      // Close modal when clicking outside modal content
+      modal.addEventListener('click', function(event) {
+        if (event.target === modal) {
+          modal.style.display = 'none';
+          iframe.src = ''; // Clear the iframe content when the modal is closed
+        }
+      });
+  
+      // Recalculate iframe height when the window is resized
+      window.addEventListener('resize', adjustIframeHeight);
     });
-
-    // Recalculate iframe height when the window is resized
-    window.addEventListener('resize', adjustIframeHeight);
-  });
-</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+  </script>
+<a href="#" id="back-to-top" title="Back to top">↑</a>
     <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
     <footer class="foot">
         <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
