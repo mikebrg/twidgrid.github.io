@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Elton John | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Elton John</h3><span class="fo-5">Pinner, Middlesex, England, U.K.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Elton John.jpg" alt="Elton John"><h3>Elton John</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>25 March 1947<p><strong>Age: </strong><span class='dob' data-dob='25-Mar-1947'></span><p><strong>Years Active: </strong>1962–present</p><p><strong>Genre/s: </strong>Pop, rock</strong><p><strong>Label/s: </strong>Philips, Congress, DJM, Uni, Paramount, MCA, Geffen, Rocket, Island, Mercury, Island Def Jam, Interscope, Virgin EMI, EMI<p><strong>Member of: </strong>Elton John Band</p></li><li class="table-cell"><img src="" style="display: none;"><p>Sir Elton Hercules John (born Reginald Kenneth Dwight; 25 March 1947) is a British singer, songwriter and pianist. His music and showmanship have had a significant, lasting effect on the music industry, and his songwriting partnership with the lyricist Bernie Taupin is one of the most successful in history. John was the 19th person to achieve an "EGOT", winning Emmy, Grammy, Oscar, and Tony awards. He has sold over 300 million records worldwide, making him one of the best-selling music artists of all time.<p>John learnt to play piano at an early age, winning a scholarship to the Royal Academy of Music. In the 1960s he formed the blues band Bluesology, wrote songs for other artists alongside Taupin, and worked as a session musician, before releasing his debut album, Empty Sky (1969). Throughout the next six decades, John cemented his status as a cultural icon with 32 studio albums, including Honky Château (1972), Goodbye Yellow Brick Road (1973), Rock of the Westies (1975), Sleeping with the Past (1989), The One (1992), Songs from the West Coast (2001), The Diving Board (2013) and The Lockdown Sessions (2021). His catalogue of hit singles includes "Your Song", "Tiny Dancer", "Rocket Man", "Crocodile Rock", "Bennie and the Jets", "Don't Go Breaking My Heart", "I'm Still Standing", "Sacrifice", "Can You Feel the Love Tonight" and "Cold Heart". He has also had success in musical films and theatre, composing music for The Lion King (1994), Aida (2000), and Billy Elliot the Musical (2005). John's final tour, Farewell Yellow Brick Road (2018–2023), became the highest-grossing tour ever at the time. His life and career were dramatised in the 2019 biographical film Rocketman.<p>John is an HIV/AIDS charity fundraiser and has been involved in the fight against AIDS since the late 1980s. In 1992 he established the Elton John AIDS Foundation, which has raised over £300 million since its inception, and a year later he began hosting his annual AIDS Foundation Academy Awards Party, which has since become one of the biggest high-profile Oscars parties in the Hollywood film industry. John was the chairman and director of Watford Football Club from 1976 to 1987, and again from 1997 to 2002, and is an honorary life president of the club. From the late 1970s to the late 1980s, John developed a severe addiction to drugs and alcohol, but has been clean and sober since 1990. In 2005 he entered a civil partnership with his long-term partner, the Canadian filmmaker David Furnish. They married in 2014, when same-sex marriage was legalised in England and Wales.<p>John has had more than fifty top-40 hits on the UK singles chart and US Billboard Hot 100, including nine number ones in each country, as well as seven consecutive number-one albums in the US. He is the most successful solo artist in the history of the US Billboard charts. His tribute single to Diana, Princess of Wales, "Candle in the Wind 1997", a rewritten version of his 1974 single, sold over 33 million copies worldwide and is the best-selling chart single of all time. In 2021 he became the first solo artist with UK top 10 singles across six decades. John's awards include a Primetime Emmy Award, five Grammy Awards, two Academy Awards, a Tony Award, two Golden Globe Awards, a Laurence Olivier Award and the Kennedy Center Honors. He was inducted into the Songwriters Hall of Fame in 1992 and the Rock and Roll Hall of Fame in 1994, and is a fellow of The Ivors Academy. He was appointed Knight Bachelor for services to music and charity in 1998 and was appointed a member of the Order of the Companions of Honour in 2020.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
