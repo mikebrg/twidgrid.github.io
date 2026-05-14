@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>The Doobie Brothers | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>The Doobie Brothers</h3><span class="fo-5">San Jose, California, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/The Doobie Brothers.jpg" alt="The Doobie Brothers"><h3>The Doobie Brothers</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong></strong><p><strong>Years Active: </strong>1970–1982, 1987–present</p><p><strong>Genre/s: </strong>Rock, soft rock, pop, blue-eyed soul</strong><p><strong>Label/s: </strong>Warner Bros., Capitol, Arista, Sony<p><strong>Members: </strong>Tom Johnston, Patrick Simmons, Michael McDonald, John McFee</p></li><li class="table-cell"><img src="" style="display: none;"><p>The Doobie Brothers are an American rock band formed in San Jose, California, in 1970. Known for their flexibility in performing across numerous genres and their vocal harmonies, the band has been active for over five decades, with their greatest success taking place in the 1970s. The group's current lineup consists of founding members Tom Johnston (guitars, keyboards, harmonica, vocals) and Patrick Simmons (guitars, banjo, recorder, vocals), alongside Michael McDonald (keyboards, synthesizers, mandolin, vocals) and John McFee (guitars, pedal steel guitar, mandolin, banjo, violin, cello, harmonica, vocals), and touring musicians including John Cowan (bass, vocals), Marc Russo (saxophones), Ed Toth (drums), and Marc Quiñones (percussion, backing vocals). Long-serving former members include guitarist Jeff "Skunk" Baxter, bassist Tiran Porter, and drummers John Hartman, Michael Hossack, and Keith Knudsen.<p>Johnston provided the lead vocals from 1970 to 1975, when they featured a mainstream rock sound with elements of folk, country and R&B. McDonald joined the band in 1975 as a keyboardist and additional lead vocalist, to give some relief to Johnston, who was suffering health problems at the time. McDonald's interest in soul music introduced a new sound to the band. Johnston, Simmons, Porter, and McDonald performed together as lead vocalists for one album, Takin' It to the Streets, before Johnston left in 1977. Frequent lineup changes followed through the rest of the 1970s, and the band broke up in 1982 with Simmons the only constant member having appeared on all of their albums. In 1987, the Doobie Brothers reformed with Johnston back in the fold. McDonald, who made several guest appearances after their reformation, returned full-time in 2019.<p>The group's sixteen studio albums include six top-ten appearances on the Billboard 200 album chart. Their 1978 album Minute by Minute reached number one for five weeks, and won a Grammy for Best Pop Vocal Performance by a Duo or Group. Their song "What a Fool Believes" from that album, written by McDonald and Kenny Loggins, won two Grammys, including Song of the Year and Record of the Year. The band had 16 Billboard Hot 100 top-40 hits, including "Listen to the Music", "Jesus Is Just Alright", "Long Train Runnin'", "China Grove", "Black Water" (#1 in 1974), "Takin' It to the Streets", "What a Fool Believes" (#1 in 1979), and "The Doctor", all of which receive rotation on classic hits radio stations. They have also released six live albums and numerous greatest hits compilations, including 1976's Best of the Doobies, certified diamond by the RIAA for reaching album sales of ten million copies. The Doobie Brothers were inducted into the Vocal Group Hall of Fame in 2004, and the Rock and Roll Hall of Fame in 2020. The group has sold more than 40 million records worldwide.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

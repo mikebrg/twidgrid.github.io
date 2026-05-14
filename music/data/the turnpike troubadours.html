@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>The Turnpike Troubadours | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>The Turnpike Troubadours</h3><span class="fo-5">Tahlequah, Oklahoma U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/The Turnpike Troubadours.jpg" alt="The Turnpike Troubadours"><h3>The Turnpike Troubadours</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong></strong><p><strong>Years Active: </strong>2007–2019, 2021–present</p><p><strong>Genre/s: </strong>Red dirt, Americana, country, country rock</strong><p><strong>Label/s: </strong>Bossier City Records, Thirty Tigers<p><strong>Members: </strong>RC Edwards, Kyle Nix, Ryan Engleman, Evan Felker, Gabriel Pearson, Hank Early</p></li><li class="table-cell"><img src="" style="display: none;"><p>The Turnpike Troubadours are an American country music band from Tahlequah, Oklahoma, founded in 2005. They started their own imprint, Bossier City Records, in 2007 and have released seven studio albums. Their self-titled 2015 album peaked at number 17 on the Billboard 200.<p>The band was formed in 2005 by Evan Felker and R.C. Edwards. Their debut album, Bossier City, was recorded a month after the formation of the band, in order to have a recording to sell at live shows. Felker later said the musical arrangements were "not a good representation" of what the band later became.<p>Their sophomore album, Diamonds & Gasoline, followed in 2010.<p>The songs "Easton and Main" and "Bossier City" were re-recorded for their 2015 self-titled album. The album peaked at number three on the Billboard Top Country Albums chart.<p>In October 2017, the album A Long Way from Your Heart was released, peaking at number three on the Billboard Top Country Albums chart.<p>Following a string of poor performances in late 2018, stemming from Felker's insobriety, the band was forced to cancel 12 shows slated to be held in the weeks to follow, returning on November 30 to play at ACL Live. Felker's personal battles continued the following year, spurring the band to cancel all remaining tour dates. It left the band's future undecided but noting a possible return to the stage once "everyone is of strong mind, body and spirit and can deliver what our fans deserve."<p>In November 2021, the band's Instagram was cleaned of all previous posts and their website displayed only the band's logo and a message that read "Coming Soon". In January 2022, the band announced their long-awaited reunion and return to live performances, holding their first shows on April 8–9, 2022 at Cain's Ballroom. One month later, another two-night run of shows were held May 14–15 at Red Rocks Amphitheatre.<p>On August 25, 2023, the band released their album A Cat in the Rain after releasing three earlier singles: "Mean Old Sun," "Chipping Mill," and "Brought Me."<p>On April 11, 2025, the band released a surprise album The Price of Admission, an 11-track record dropped prior to The Boys of Oklahoma concerts with Cross Canadian Ragweed in Stillwater, OK. This is their sixth studio album, and the second produced by Shooter Jennings.<p>In 2026, they are the guest stars from the children's television in Yo Gabba Gabbaland in Season 2, they performed the song, Sunrise, Sunset.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

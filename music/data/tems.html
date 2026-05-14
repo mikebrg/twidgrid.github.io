@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Tems | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Tems</h3><span class="fo-5">Lagos, Nigeria</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Tems.jpg" alt="Tems"><h3>Tems</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>11 June 1995<p><strong>Age: </strong><span class='dob' data-dob='11-Jun-1995'></span><p><strong>Years Active: </strong>2018–present</p><p><strong>Genre/s: </strong>Afrobeats, R&B, Alté</strong><p><strong>Label/s: </strong>Since '93, RCA, Leading Vibes</p></li><li class="table-cell"><img src="" style="display: none;"><p>Temilade Openiyi (born 11 June 1995), known professionally as Tems, is a Nigerian singer, songwriter, and record producer. She rose to prominence after being featured on Wizkid's 2020 single "Essence", which peaked at number 9 on the Billboard Hot 100 chart following the release of the remix version with Justin Bieber. The song earned her a Grammy Award nomination. That same year, she was featured on the song "Fountains" by Canadian rapper Drake.<p>In 2020, Tems released her debut extended play (EP), For Broken Ears. She signed with RCA Records to release her second EP, If Orange Was a Place (2021). In 2022, Tems' vocals from her song "Higher" were sampled by Future on his single "Wait for U", which led to her being credited as a guest artist alongside Drake. The song debuted atop the Billboard Hot 100, making her the first African artist and second Nigerian artist to have a song do so on the chart. The song earned her the Grammy Award for Best Melodic Rap Performance. Tems covered Bob Marley's "No Woman, No Cry" for the Black Panther: Wakanda Forever soundtrack in July 2022 and in the same month, her song "Free Mind" (from her debut EP) debuted on the Billboard Hot 100, peaking at number 46 and breaking the female record for longest charting number one song on R&B/Hip-Hop Airplay chart. She also co-wrote and rendered background vocals on the song "Lift Me Up" by Rihanna, which earned her nominations for the Academy Award for Best Original Song, the Golden Globe Award for Best Original Song and the Grammy Award for Best Song Written for Visual Media.<p>In 2024, Tems released her debut studio album Born in the Wild to critical acclaim. The album reached the top 30 in the Netherlands, Switzerland and in the United Kingdom, where it peaked at number 24. She embarked on her ongoing Born in the Wild Tour, a supporting world tour. Tems won a Grammy Award from three nominations at the 67th Annual Grammy Awards: her song "Love Me JeJe" won Best African Music Performance, while Born in the Wild was nominated for Best Global Music Album and its third single "Burning" was nominated for Best R&B Song. Tems became the first Nigerian artist with multiple Grammy Awards. In 2026, Tems earned her first number-one single of the UK Singles Chart with "Raindance" along side Dave. The song subsequently earned her six Billboard Hot 100 entry.<p>Throughout her career, Tems has received several accolades, including two Grammy Awards, a Billboard Women in Music Award, four NAACP Image Awards, four BET Awards and three Soul Train Music Awards. As of 2025, Tems has sold over 25 million certified units worldwide, including 12 million RIAA certified units.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
