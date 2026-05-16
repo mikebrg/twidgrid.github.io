@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2002 Host | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2002 Host</h3><span class="fo-5">South Korea and Japan from 31 May to 30 June 2002.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">`
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+<li class="table-cell"><img src="img/flag-of-south-korea.svg-376x376.png" alt="South Korea Flag"><h3>South Korea Flag</h3><p>
+    
+    South Korea and Japan were selected as hosts by FIFA on 31 May 1996. The decision was made by the FIFA Executive Committee in Zürich, Switzerland, with South Korea and Japan beating Morocco, England and Mexico in the final vote. This was the first time that the World Cup would be hosted by more than one country, and the first time it would be held in Asia. The decision to award the tournament to South Korea and Japan was met with criticism from some quarters, with allegations of bribery and corruption being made against FIFA officials. However, both countries successfully hosted the tournament, which was widely regarded as a success.
+
+</p></li>
+<li class="table-cell"><img src="img/Republic_of_Korea_(orthographic_projection).svg.png" alt="South Korea Location"><h3>South Korea Location</h3><p>
+    
+    Initially, South Korea, Japan and Mexico presented three rival bids. South Korea's entry into the race was seen by some as a response to the bid of political and sporting rival Japan. FIFA leaders were split on whom to favor as host as politics within the world governing body held sway.
+
+</p></li>
+<li class="table-cell"><img src="img/2002bidlogokorea.png" alt="Bid logo"><h3>South Korea Bid Logo</h3><p>
+    
+    With Mexico regarded as a long shot, the battle to host the tournament came down to South Korea and Japan. The two Asian rivals went on a massive and expensive PR blitz around the world, prompting Sultan Ahmad Shah, the head of the Asian Football Confederation, to step in.
+
+</p></li></ul><ul class="responsive-table">
+
+<li class="table-cell"><img src="img/japan.png" alt="Japan Flag"><h3>Japan Flag</h3><p>
+    
+    FIFA boss João Havelange had long backed the Japanese bid, but his rival in FIFA, UEFA chief Lennart Johansson, sought to undermine Havelange's plans. UEFA and the AFC viewed co-hosting between the two Asian rivals as the best option. South Korea and Japan were finally faced with a choice of having no World Cup or a shared World Cup and they reluctantly chose to go along with co-hosting. South Korea and Japan were chosen unanimously as co-hosts in preference to Mexico.
+
+</p></li>
+<li class="table-cell"><img src="img/Japan_(orthographic_projection).svg (1).jpg" alt="Japan Location"><h3>Japan Location</h3><p>
+    
+    This was the first World Cup to be hosted by more than one country, the second being the 2026 World Cup, which will be hosted by the United States, Mexico and Canada. This is also the first ever World Cup to be hosted in Asia, the other being the 2022 World Cup hosted by Qatar twenty years later and the first World Cup to be held outside of Europe and the Americas.
+
+</p></li>
+<li class="table-cell"><img src="img/2002bidlogojapan.png" alt="Bid logo"><h3>Japan Bid Logo</h3><p>
+    
+    The general secretary of South Korea's bidding committee, Song Young-shik, stated that FIFA was interested in staging some matches in North Korea in order to aid Korean reunification, but it was ruled out. Though co-hosting the World Cup allowed Japan and South Korea to collaborate, the event did not significantly alter relations between the two countries, which have historically been strained. Even so, the World Cup promoted a global vision of cooperation between Japan and South Korea.
+
+</p></li>
+
+    
+</ul>
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

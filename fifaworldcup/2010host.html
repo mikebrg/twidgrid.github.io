@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2010 Host | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2010 Host</h3><span class="fo-5">South Africa from 11 June to 11 July 2010.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+<li class="table-cell"><img src="img/300011-375x375.png" alt="South Africa Flag"><h3>South Africa Flag</h3><p>
+    
+    The winning bid was announced by FIFA president Sepp Blatter at a media conference on 15 May 2004 in Zürich; in the first round of voting, South Africa received 14 votes, Morocco received 10 and Egypt no votes. South Africa, which had narrowly failed to win the right to host the 2006 event, was thus awarded the right to host the tournament.
+
+</p></li>
+<li class="table-cell"><img src="img/South_Africa_(centered_orthographic_projection).svg.png" alt="South Africa Location"><h3>South Africa Location</h3><p>
+    
+    Campaigning for South Africa to be granted host status, Nelson Mandela had previously spoken of the importance of football in his life, stating that while incarcerated in Robben Island prison playing football "made us feel alive and triumphant despite the situation we found ourselves in". With South Africa winning their bid, an emotional Mandela raised the FIFA World Cup Trophy.
+
+</p></li>
+<li class="table-cell"><img src="img/2010southafricabidlogo.jpg" alt="Bid logo"><h3>Bid Logo</h3><p>
+    
+    During 2006 and 2007, rumours circulated in various news sources that the 2010 World Cup could be moved to another country. Franz Beckenbauer, Horst R. Schmidt, and, reportedly, some FIFA executives expressed concern over the planning, organisation, and pace of South Africa's preparations. FIFA officials repeatedly expressed their confidence in South Africa as host, stating that a contingency plan existed only to cover natural catastrophes, as had been in place at previous FIFA World Cups.
+
+</p></li>
+
+    
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

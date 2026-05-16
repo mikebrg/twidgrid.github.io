@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>2006 Host | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>2006 Host</h3><span class="fo-5">Germany from 9 June to 9 July 2006.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">`
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+<li class="table-cell"><img src="img/300049-375x375.png" alt="Germany Flag"><h3>Germany Flag</h3><p>
+    
+    The vote to choose the hosts of the 2006 tournament was held in July 2000 in Zürich, Switzerland. It involved four bidding nations after Brazil had withdrawn three days earlier: Germany, South Africa, England and Morocco. Three rounds of voting were required, each round eliminating the nation with the fewest votes. The first two rounds were held on 6 July 2000, and the final round was held on 7 July 2000, which Germany won over South Africa.
+
+</p></li>
+<li class="table-cell"><img src="img/EU-Germany_(orthographic_projection).svg.png" alt="Germany Location"><h3>Germany Location</h3><p>
+    
+    Accusations of bribery and corruption had marred the success of Germany's bid from the very beginning. On the very day of the vote, a hoax bribery affair was made public, leading to calls for a re-vote. On the night before the vote, German satirical magazine Titanic sent letters to FIFA representatives, offering joke gifts like cuckoo clocks and Black Forest ham in exchange for their vote for Germany. Oceania delegate Charlie Dempsey, who had initially backed England, had then been instructed to support South Africa following England's elimination. He abstained, citing "intolerable pressure" on the eve of the vote. Had Dempsey voted as originally instructed, the vote would have resulted with a 12–12 tie, and FIFA president Sepp Blatter, who favoured the South African bid, would have had to cast the deciding vote.
+
+</p></li>
+<li class="table-cell"><img src="img/2006bidlogogermany.png" alt="Bid logo"><h3>Bid Logo</h3><p>
+    
+    More irregularities surfaced soon after, including, in the months leading up to the decision, the sudden interest of German politicians and major businesses in the four Asian countries whose delegates were decisive for the vote. Just a week before the vote, the German government under Chancellor Gerhard Schröder lifted their arms embargo on Saudi Arabia and agreed to send grenade launchers to the country. DaimlerChrysler invested several hundred million euros in Hyundai, where one of the sons of the company's founder was a member of FIFA's executive committee. Both Volkswagen and Bayer announced investments in Thailand and South Korea, whose respective delegates Worawi Makudi and Chung Mong-joon were possible voters for Germany. Makudi additionally received a payment by a company of German media mogul Leo Kirch, who also paid millions for usually worthless TV rights for friendly matches of the Germany team and FC Bayern Munich.
+
+</p></li>
+
+    
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
