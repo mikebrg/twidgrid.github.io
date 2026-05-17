@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1994 Host | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1994 Host</h3><span class="fo-5">United States from 17 June to 17 July 1994.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">`
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+<li class="table-cell"><img src="img/299985-375x375.png" alt="Flag"><h3>United States Flag</h3><p>
+    
+    Three nations bid to host the event: United States, Brazil, and Morocco. The vote was held in Zurich on July 4, 1988 (Independence Day in the United States), and only took one round with the United States bid receiving a little over half of the votes by the FIFA Executive Committee members. FIFA hoped that by staging the world's most prestigious tournament there, it would lead to a growth of interest in the sport.
+
+</p></li>
+<li class="table-cell"><img src="img/USA_orthographic.svg.jpg" alt="Location"><h3>United States Location</h3><p>
+    
+    An inspection committee also found that the proposed Brazilian stadiums were deficient, while the Moroccan bid relied on the construction of nine new stadiums. Conversely, all the proposed stadiums in the United States were already built and fully functioning; U.S. Soccer spent $500 million preparing and organizing the tournament, far less than the billions other countries previously had spent and subsequently would spend on preparing for this tournament. The U.S. bid was seen as the favorite and was prepared in response to losing the right to be the replacement host for the 1986 tournament following Colombia's withdrawal.
+
+</p></li>
+
+<li class="table-cell"><img src="img/1994bidlogousa.png" alt="Logo"><h3>Bid Logo</h3><p>
+    
+    One condition FIFA imposed was the creation of a professional soccer league – Major League Soccer was founded in 1993 and began operating in 1996. There was some initial controversy about awarding the World Cup to a country where soccer was not a nationally popular sport, and at the time, in 1988, the U.S. no longer had a professional league; the North American Soccer League, established in 1967, had folded in 1984 after attendance faded. The success of the 1984 Summer Olympics in Los Angeles, particularly the soccer tournament that drew 1.4 million spectators throughout the event, also contributed to FIFA's decision.
+
+</p></li>
+
+</ul>
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1990 Host | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1990 Host</h3><span class="fo-5">Italy from 8 June to 8 July 1990.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">`
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+<li class="table-cell"><img src="img/300198-375x375.png" alt="Flag"><h3>Italy Flag</h3><p>
+    
+    The vote to choose the hosts of the 1990 tournament was held on 19 May 1984 in Zürich, Switzerland. Here, the FIFA Executive Committee chose Italy ahead of the only rival bid, the USSR, by 11 votes to 5. This awarding made Italy only the second nation to host two World Cup tournaments after Mexico had also achieved this with their 1986 staging, having agreed to replace Colombia as hosts the year before the 1990 hosts were chosen. Italy had previously held the event in 1934, where they had won their first championship.
+
+</p></li>
+<li class="table-cell"><img src="img/EU-Italy_(orthographic_projection).svg.png" alt="Location"><h3>Italy Location</h3><p>
+    
+    Austria, England, France, Greece, West Germany and Yugoslavia also submitted initial applications for the 31 July 1983 deadline. A month later, only England, Greece, Italy and the Soviet Union remained in the hunt after the other contenders all withdrew. All four bids were assessed by FIFA in late 1983, with the final decision over-running into 1984 due to the volume of paperwork involved. In early 1984, England and Greece also withdrew, leading to a two-horse race in the final vote. The Soviet boycott of the 1984 Olympic Games, announced on the eve of the World Cup decision, was speculated to have been a major factor behind Italy winning the vote so decisively, although this was denied by the FIFA President João Havelange. The Soviet state media responded by accusing FIFA of political corruption, and blamed the organisation's American sponsors (chiefly Coca-Cola) for influencing the decision.
+
+</p></li>
+
+<li></li>
+
+</ul>
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

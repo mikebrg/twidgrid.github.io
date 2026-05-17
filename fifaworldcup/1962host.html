@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1962 Host | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1962 Host</h3><span class="fo-5">Chile from 30 May to 17 June 1962.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">`
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+<li class="table-cell"><img src="img/300080-375x375.png" alt="Flag"><h3>Chile Flag</h3><p>
+    
+After Europe hosted two consecutive World Cups, the American federations demanded the 1962 edition must be held in South America or they would stage a complete boycott of the tournament, similar to 1938. Argentina, after previously failed candidacies, was the favourite. Magallanes' chairman, Ernesto Alvear, attended a FIFA Congress held in Helsinki while the Finnish city was hosting the 1952 Summer Olympics. He considered that Chile was able to organise the World Cup. Several sources also say that FIFA did not want Argentina to run alone, requesting the participation of Chile as almost symbolic. Chile registered its candidacy in 1954 alongside Argentina and West Germany, the latter withdrawing at the request of FIFA.
+
+</p></li>
+<li class="table-cell"><img src="img/CHL_orthographic.svg.png" alt="Location"><h3>Chile Location</h3><p>
+    
+   Chile's football federation committee, led by Carlos Dittborn and Juan Pinto Durán, toured many countries convincing various football associations about the country's ability to organise the tournament in comparison to Argentina's superior sports infrastructure and prestige. The FIFA Congress met in Lisbon, Portugal on 10 June 1956. That day, Raul Colombo, representing Argentina's candidacy, ended his speech with the phrase "We can start the World Cup tomorrow. We have it all." The next day, Dittborn presented four arguments that supported Chile's candidacy: Chile's continued participations at FIFA-organised conferences and tournaments, sports climate, tolerance of race and creed and political and institutional stability of the country. In addition, Dittborn invoked Article 2 of the FIFA statutes that addressed the tournament's role in promoting the sport in countries deemed "underdeveloped". In a counter-point to Colombo's claim that "We have it all" Dittborn coined the phrase "Because we have nothing, we want to do it all" (Spanish: Porque no tenemos nada, queremos hacerlo todo) around the fifteenth minute of his speech. Chile won 32 votes to Argentina's 10. Fourteen members abstained from voting.
+
+</p></li>
+
+<li></li>
+
+</ul>
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

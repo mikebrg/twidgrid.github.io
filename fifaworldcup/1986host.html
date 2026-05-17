@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>1986 Host | FIFA World Cup</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link rel="stylesheet" href="../inc/standard.css">
+<link rel="icon" type="image/x-icon" href="img/favicon.png">
+
+</head><body>
+
+<div class="cont">
+
+<div id="head">
+  <div class="block">
+
+
+<button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script>
+    <a href="../index.html" class="not">
+      <img src="../img/favicon.png" alt="TwidGrid" >
+    </a>
+    <a href="../index.html" class="not">
+      <div class="ban">TwidGrid</div>
+</a><a href="index.html" class="not"><div class="ban">&#160/ FIFA World Cup</div></a></div></div>
+
+<div class="head">
+<div class="block" style="padding-top: 79px;">
+<h3>1986 Host</h3><span class="fo-5">Mexico from 31 May to 29 June 1986.</span>
+<p></p><p></p>    
+<div><a class="btn-1" href="index.html">Main Categories</a></div>
+
+</div></div>
+
+
+<div class="block-978" style="padding-bottom: 39px;">`
+
+<p><p>
+
+
+    <ul class="responsive-table">
+
+<li class="table-cell"><img src="img/299959-376x376.png" alt="Flag"><h3>Mexico Flag</h3><p>
+    
+    Colombia was originally chosen as hosts by FIFA in June 1974, with Bogotá, Medellín, Cali, Pereira and Bucaramanga intended as the host cities, plus potentially Barranquilla. Colombia agreed to host a 16-team competition. However, days before the 1978 FIFA World Cup's opening match, FIFA later allowed an expansion to 24 teams for the 1982 World Cup in Spain, which was more challenging for Colombia to host, although FIFA President João Havelange initially gave assurances that they could revert to a 16-team tournament. Colombian president Julio César Turbay Ayala was initially against holding the tournament in his country, but reluctantly granted permission in October 1980. However, the next Colombian president, Belisario Betancur, declared on 5 November 1982 that they could not afford to host the World Cup under the terms that FIFA demanded.
+
+</p></li>
+<li class="table-cell"><img src="img/Mexico_(orthographic_projection).svg.png" alt="Location"><h3>Mexico Location</h3><p>
+    
+    Although Mexico, United States and Canada submitted bids on 11 March 1983 to be the replacement host, (Brazil was the only other eligible bidder but did not bid) the five-person special FIFA committee responsible for recommending the bids to the Executive Committee (Exco) announced on 31 March that it would only consider Mexico's bid, saying the United States and Canada had "deviated" from FIFA's criteria and Exco members refused to visit Canadian and American stadium sites. On 20 May, the committee announced Mexico as the replacement hosts despite Havelange stating that the United States and Canada had made better presentations. Mexico became the first nation to host two World Cups, as it had hosted the 1970 FIFA World Cup.
+
+</p></li>
+
+<li></li>
+
+</ul>
+
+
+    </div></div>
+
+    <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+
+<script>
+window.addEventListener('scroll', function() {
+    let backToTop = document.getElementById('back-to-top');
+    
+    if (window.scrollY > 300) { // Show button after scrolling 300px
+        backToTop.style.display = 'block';
+    } else {
+        backToTop.style.display = 'none';
+    }
+});
+
+document.getElementById('back-to-top').addEventListener('click', function(e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
+});
+</script>
+
+<footer class="foot">
+
+        <div class="block fo-1">
+            TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../contact.html">Contact Us</a>&#160<a class="btn-4" href="../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript to update the year dynamically
+        document.getElementById("current-year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
