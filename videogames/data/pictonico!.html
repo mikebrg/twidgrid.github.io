@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Pictonico! | Video Games</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Video Games</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Pictonico!</h3><span class="fo-5">Nintendo</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div></div><div class="block-978" style="padding-bottom:39px;"><p><p><ul class="responsive-table"><li class="table-cell"><img src="../img/Pictonico!.jpg" alt="Pictonico!"><h3>Pictonico!</h3><p><strong>Genres: </strong>Party</p><p></p><p></p><a class="btn-2" href="https://pictonico.nintendo.com/" target="_blank">Website</a></p></li><li class="table-cell"><img src="../img/Nintendo.jpg" alt="Nintendo"><p><strong>Developer: </strong>Nintendo</p><p><strong>Publisher: </strong>Nintendo</p><p><strong>Platforms: </strong>iOS (iPhone/iPad)</p><p><strong>Released: </strong>2026, May 28</p><p><strong>Rated: </strong>Not Rated</p><p></p></li><li class="table-cell"><img src="" style="display: none;"><p>Turn your photos into minigames! Sure, it's kind of silly... But there's no telling what will happen next! You can try a few minigames for free, or purchase volumes to unlock up to 80 minigames in total, ranging from easy to pretty tricky. Get ready to laugh out loud when you look back at old photos! You can even take photos with friends on the spot and use them right away.</p></li></ul><p><p></div></div><a href="#" id="back-to-top" title="Back to top">↑</a><script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script><footer class="foot"><div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p><p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p></div></footer><script>document.getElementById("current-year").textContent = new Date().getFullYear();</script></body></html>
