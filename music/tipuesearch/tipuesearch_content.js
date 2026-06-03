@@ -1,6 +1,15 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	PUREFLOW	", "text": "	PUREFLOW is an album by Le Sserafim released in 2026	", "img": "img/	PUREFLOWLeSserafim2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=PUREFLOW	"},
+{"title": "	Florescence	", "text": "	Florescence is an album by Maisie Peters released in 2026	", "img": "img/	FlorescenceMaisiePeters2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Florescence	"},
+{"title": "	everyone for ten minutes	", "text": "	everyone for ten minutes is an album by Bleachers released in 2026	", "img": "img/	everyonefortenminutesBleachers2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=everyone for ten minutes	"},
+{"title": "	Love Is The New Gangsta	", "text": "	Love Is The New Gangsta is an album by 6LACK released in 2026	", "img": "img/	LoveIsTheNewGangsta6LACK2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Love Is The New Gangsta	"},
+
+{"title": "	The Cure	", "text": "	The Cure is a song by Olivia Rodrigo released in 2026	", "img": "img/	The CureOlivia Rodrigo2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Cure	"},
+{"title": "	Spend Dat	", "text": "	Spend Dat is a song by Yung Miami released in 2026	", "img": "img/	Spend DatYung Miami2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Spend Dat	"},
+{"title": "	Chicago	", "text": "	Chicago is a song by Michael Jackson released in 2014	", "img": "img/	ChicagoMichael Jackson2014.png	", "tags": "		", "note": "		", "url": "	2014.html#:~:text=Chicago	"},
+
 {"title": "	ICEMAN	", "text": "	ICEMAN is an album by Drake released in 2026	", "img": "img/	ICEMANDrake2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=ICEMAN	"},
 {"title": "	HABIBTI	", "text": "	HABIBTI is an album by Drake released in 2026	", "img": "img/	HABIBTIDrake2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=HABIBTI	"},
 {"title": "	MAID OF HONOUR	", "text": "	MAID OF HONOUR is an album by Drake released in 2026	", "img": "img/	MAIDOFHONOURDrake2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=MAID OF HONOUR	"},
