@@ -1,6 +1,13 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Lucky (2026)	", "text": "	A reformed criminal is forced to confront her past and return to illicit activities for one final job, hoping to secure her freedom and leave her former life behind for good.	", "img": "img/	Lucky (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Lucky	"},
+	
+{"title": "	How to Rob a Bank (2026)	", "text": "	Bank robbers are posting their heists on social media, causing police to chase them.	", "img": "img/	How to Rob a Bank (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=How to Rob a Bank	"},
+{"title": "	Ice Age: Boiling Point (2027)	", "text": "	A wild adventure through dinosaurs and lava as Manny, Sid, Diego, Ellie, Scrat and the herd explore uncharted regions of the dangerous Lost World.	", "img": "img/	Ice Age Boiling Point (2027).webp	", "tags": "		", "note": "		", "url": "	2027.html#:~:text=Ice Age: Boiling Point	"},
+{"title": "	Scary Movie (2026)	", "text": "	Two friends find themselves caught up in mayhem involving killers, monsters and supernatural creatures once again.	", "img": "img/	Scary Movie (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Scary Movie	"},
+{"title": "	The Amazing Digital Circus: The Last Act (2026)	", "text": "	Feature length version of the final two episodes (episode 8 and 9) of The Amazing Digital Circus, showing the conclusion of the cast of characters trapped in a digital realm under the mercy of an unstable ringmaster.	", "img": "img/	The Amazing Digital Circus The Last Act (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Amazing Digital Circus: The Last Act	"},
+	
 {"title": "	X-Men '97 (2024)	", "text": "	A band of mutants use their uncanny gifts to protect a world that hates and fears them; they're challenged like never before, forced to face a dangerous and unexpected new future.	", "img": "img/	X-Men '97 (2024).webp	", "tags": "		", "note": "		", "url": "	tv2024.html#:~:text=X-Men '97	"},
 
 {"title": "	Spa Weekend (2026)	", "text": "	Three friends go on a spa weekend that descends into chaos when their trainwreck friend joins, leading to hilarious consequences.	", "img": "img/	Spa Weekend (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Spa Weekend	"},
