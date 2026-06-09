@@ -1,6 +1,19 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Hate That I Made You Love Me	", "text": "	Hate That I Made You Love Me is a song by Ariana Grande released in 2026	", "img": "img/	Hate That I Made You Love MeAriana Grande2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hate That I Made You Love Me	"},
+{"title": "	Mexico Honey	", "text": "	Mexico Honey is a song by Kacey Musgraves released in 2026	", "img": "img/	Mexico HoneyKacey Musgraves2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Mexico Honey	"},
+{"title": "	Something To Lose	", "text": "	Something To Lose is a song by Stella Lefty Featuring Vincent Mason released in 2026	", "img": "img/	Something To LoseStella Lefty Featuring Vincent Mason2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Something To Lose	"},
+{"title": "	Hostage	", "text": "	Hostage is a song by Latto Featuring 21 Savage released in 2026	", "img": "img/	HostageLatto Featuring 21 Savage2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hostage	"},
+{"title": "	Think As You Drunk	", "text": "	Think As You Drunk is a song by Riley Green released in 2026	", "img": "img/	Think As You DrunkRiley Green2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Think As You Drunk	"},
+{"title": "	The Boys Of Dungeon Lane	", "text": "	The Boys Of Dungeon Lane is an album by Paul McCartney released in 2026	", "img": "img/	TheBoysOfDungeonLanePaulMcCartney2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Boys Of Dungeon Lane	"},	
+{"title": "	Lemonade	", "text": "	Lemonade is an album by Aespa released in 2026	", "img": "img/	LemonadeAespa2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Lemonade	"},	
+{"title": "	EI8HT	", "text": "	EI8HT is an album by Shinedown released in 2026	", "img": "img/	EI8HTShinedown2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=EI8HT	"},	
+{"title": "	Big Mama	", "text": "	Big Mama is an album by Latto released in 2026	", "img": "img/	BigMamaLatto2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Big Mama	"},	
+{"title": "	Inferno	", "text": "	Inferno is an album by Boards of Canada released in 2026	", "img": "img/	InfernoBoardsofCanada2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Inferno	"},	
+{"title": "	ACOMODO	", "text": "	ACOMODO is an album by Tito Double P released in 2026	", "img": "img/	ACOMODOTitoDoubleP2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=ACOMODO	"},	
+{"title": "	runaway	", "text": "	runaway is an album by Scrim released in 2026	", "img": "img/	runawayScrim2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=runaway	"},	
+     
 {"title": "	PUREFLOW	", "text": "	PUREFLOW is an album by Le Sserafim released in 2026	", "img": "img/	PUREFLOWLeSserafim2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=PUREFLOW	"},
 {"title": "	Florescence	", "text": "	Florescence is an album by Maisie Peters released in 2026	", "img": "img/	FlorescenceMaisiePeters2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Florescence	"},
 {"title": "	everyone for ten minutes	", "text": "	everyone for ten minutes is an album by Bleachers released in 2026	", "img": "img/	everyonefortenminutesBleachers2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=everyone for ten minutes	"},
