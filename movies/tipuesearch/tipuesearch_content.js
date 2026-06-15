@@ -1,6 +1,12 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Furious (2026)	", "text": "	A father fights fiercely against ruthless kidnappers to save his abducted daughter.	", "img": "img/	The Furious (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Furious	"},
+{"title": "	Stop! That! Train! (2026)	", "text": "	Two train stewardess BFFs switch from a dull railway to the luxurious Glamazonian Express. During a massive storm, they must work with snooty first-class crew and President Gagwell to prevent disaster in LA.	", "img": "img/	Stop! That! Train! (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Stop! That! Train!	"},
+{"title": "	Heart of the Beast (2026)	", "text": "	After a harrowing plane crash, a Special Forces officer and his combat dog find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.	", "img": "img/	Heart of the Beast (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Heart of the Beast	"},
+{"title": "	The Social Reckoning (2026)	", "text": "	Follows Frances Haugen, a young Facebook engineer, who enlisted the help of Jeff Horwitz, a Wall Street Journal reporter, to blow the whistle on the social network's most guarded secrets.	", "img": "img/	The Social Reckoning (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Social Reckoning	"},
+{"title": "	Gatto (2027)	", "text": "	Indebted to a feline mob boss, a black cat named Nero finds himself forced to forge an unexpected friendship that may finally lead him to his purpose.	", "img": "img/	Gatto (2027).webp	", "tags": "		", "note": "		", "url": "	2027.html#:~:text=Gatto	"},
+	
 {"title": "	Lucky (2026)	", "text": "	A reformed criminal is forced to confront her past and return to illicit activities for one final job, hoping to secure her freedom and leave her former life behind for good.	", "img": "img/	Lucky (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Lucky	"},
 	
 {"title": "	How to Rob a Bank (2026)	", "text": "	Bank robbers are posting their heists on social media, causing police to chase them.	", "img": "img/	How to Rob a Bank (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=How to Rob a Bank	"},
