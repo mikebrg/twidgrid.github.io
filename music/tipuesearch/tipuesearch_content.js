@@ -1,6 +1,25 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	I Knew It, I Knew You	", "text": "	I Knew It, I Knew You is a song by Taylor Swift released in 2026	", "img": "img/	I Knew It, I Knew YouTaylor Swift2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Knew It, I Knew You	"},
+{"title": "	Rubberz	", "text": "	Rubberz is a song by Fenix Flexin released in 2026	", "img": "img/	RubberzFenix Flexin2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Rubberz	"},
+{"title": "	The Feeling	", "text": "	The Feeling is a song by Steve Lacy released in 2026	", "img": "img/	The FeelingSteve Lacy2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Feeling	"},
+{"title": "	Phone, Keys, Wallet	", "text": "	Phone, Keys, Wallet is a song by Lainey Wilson & John Mayer released in 2026	", "img": "img/	Phone, Keys, WalletLainey Wilson & John Mayer2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Phone, Keys, Wallet	"},
+{"title": "	Bloodstream	", "text": "	Bloodstream is a song by Alyssa Grace released in 2026	", "img": "img/	BloodstreamAlyssa Grace2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Bloodstream	"},
+{"title": "	High Hopes 3000	", "text": "	High Hopes 3000 is a song by Role Model released in 2026	", "img": "img/	High Hopes 3000Role Model2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=High Hopes 3000	"},
+{"title": "	Kingdom Of Fear	", "text": "	Kingdom Of Fear is a song by Cameron Whitcomb released in 2026	", "img": "img/	Kingdom Of FearCameron Whitcomb2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Kingdom Of Fear	"},
+{"title": "	Difficult Love	", "text": "	Difficult Love is a song by Malcolm Todd released in 2026	", "img": "img/	Difficult LoveMalcolm Todd2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Difficult Love	"},
+{"title": "	Cowgirl	", "text": "	Cowgirl is a song by Shaboozey released in 2026	", "img": "img/	CowgirlShaboozey2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Cowgirl	"},
+{"title": "	Passenger	", "text": "	Passenger is a song by Alex Warren released in 2026	", "img": "img/	PassengerAlex Warren2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Passenger	"},
+{"title": "	Do That Again	", "text": "	Do That Again is an album by Malcolm Todd released in 2026	", "img": "img/	DoThatAgainMalcolmTodd2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Do That Again	"},
+{"title": "	Dinner Party	", "text": "	Dinner Party is an album by Niall Horan released in 2026	", "img": "img/	DinnerPartyNiallHoran2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Dinner Party	"},
+{"title": "	Sanctuary	", "text": "	Sanctuary is an album by Evanescence released in 2026	", "img": "img/	SanctuaryEvanescence2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Sanctuary	"},
+{"title": "	Grateful	", "text": "	Grateful is an album by The Red Clay Strays released in 2026	", "img": "img/	GratefulTheRedClayStrays2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Grateful	"},
+{"title": "	Cry Baby	", "text": "	Cry Baby is an album by Vince Staples released in 2026	", "img": "img/	CryBabyVinceStaples2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Cry Baby	"},
+{"title": "	I Built You A Tower	", "text": "	I Built You A Tower is an album by Death Cab for Cutie released in 2026	", "img": "img/	IBuiltYouATowerDeathCabforCutie2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=I Built You A Tower	"},
+{"title": "	8-Tracks	", "text": "	8-Tracks is an album by Pink Floyd released in 2026	", "img": "img/	8-TracksPinkFloyd2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=8-Tracks	"},
+{"title": "	An Eraser And A Maze	", "text": "	An Eraser And A Maze is an album by Modest Mouse released in 2026	", "img": "img/	AnEraserAndAMazeModestMouse2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=An Eraser And A Maze	"},
+     
 {"title": "	Hate That I Made You Love Me	", "text": "	Hate That I Made You Love Me is a song by Ariana Grande released in 2026	", "img": "img/	Hate That I Made You Love MeAriana Grande2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hate That I Made You Love Me	"},
 {"title": "	Mexico Honey	", "text": "	Mexico Honey is a song by Kacey Musgraves released in 2026	", "img": "img/	Mexico HoneyKacey Musgraves2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Mexico Honey	"},
 {"title": "	Something To Lose	", "text": "	Something To Lose is a song by Stella Lefty Featuring Vincent Mason released in 2026	", "img": "img/	Something To LoseStella Lefty Featuring Vincent Mason2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Something To Lose	"},
