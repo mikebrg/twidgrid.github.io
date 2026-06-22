@@ -1,6 +1,10 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Last House (2026)	", "text": "	A family of four are suddenly sealed inside their home with no way out. They must work together to survive against both their dwindling resources and the mysterious, looming threat that is keeping them trapped.	", "img": "img/	The Last House (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Last House	"},
+{"title": "	Hexed (2026)	", "text": "	An awkward teen and her Type-A mother learn her peculiarities might be magical powers, transforming their lives and revealing a hidden magical realm.	", "img": "img/	Hexed (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hexed	"},
+{"title": "	The Death of Robin Hood (2026)	", "text": "	Grappling with his past after a life of crime and murder, Robin Hood finds himself gravely injured after a battle he thought would be his last. In the hands of a mysterious woman, he is offered a chance at salvation.	", "img": "img/	The Death of Robin Hood (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Death of Robin Hood	"},
+	
 {"title": "	The Furious (2026)	", "text": "	A father fights fiercely against ruthless kidnappers to save his abducted daughter.	", "img": "img/	The Furious (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Furious	"},
 {"title": "	Stop! That! Train! (2026)	", "text": "	Two train stewardess BFFs switch from a dull railway to the luxurious Glamazonian Express. During a massive storm, they must work with snooty first-class crew and President Gagwell to prevent disaster in LA.	", "img": "img/	Stop! That! Train! (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Stop! That! Train!	"},
 {"title": "	Heart of the Beast (2026)	", "text": "	After a harrowing plane crash, a Special Forces officer and his combat dog find themselves stranded deep in the Alaskan wilderness. Together, they are forced into a brutal fight for survival against the elements.	", "img": "img/	Heart of the Beast (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Heart of the Beast	"},
