@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Flash	", "text": "	Jess Chambers, also known as Kid Quick and eventually The Flash, is a DC Comics speedster who made history as the publisher's first non-binary, genderfluid Flash family character. Created by writer Ivan Cohen and artist Eleonora Carlini, Jess debuted in DC's Very Merry Multiverse #1. They utilize they/them pronouns.	", "img": "img/	the-flash.jpg	", "tags": "		", "note": "		", "url": "	index.html#:~:text=The Flash	"},
+
 {"title": "	Sojourner Mullein	", "text": "	Sojourner 'Jo' Mullein was raised a child of divorce in New York City. After witnessing the 9/11 attacks, Jo was inspired to make a difference in the world. She graduated valedictorian in her high school and joining the United States Army, and later the New York City Police Department. During her police career, she witnessed her partner beat a suspect nearly to death. Before being able to turn him in, Jo was suddenly fired after being tagged in a Black Lives Matter Facebook post. After being fired, Jo was approached by a Guardian of the Universe, who issued her a Power ring and a challenge: 'One year to make a difference.'	", "img": "img/	sojourner-mullein.jpg	", "tags": "		", "note": "		", "url": "	index.html#:~:text=Sojourner Mullein	"},
 {"title": "	Monolith	", "text": "	In Todd McFarlane's Spawn comic universe, Monolith is a massive, hulking, crimson-skinned Hellspawn. While originally assumed to be a traditional demon, lore reveals that Monolith actually hails from an alien planet populated entirely by Hellspawn.	", "img": "img/	monolith.jpg	", "tags": "		", "note": "		", "url": "	index.html#:~:text=Monolith	"},
 
