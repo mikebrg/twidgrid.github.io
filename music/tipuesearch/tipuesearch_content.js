@@ -1,6 +1,12 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Project X	", "text": "	Project X is an album by Key Glock released in 2026	", "img": "img/	ProjectXKeyGlock2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Project X	"},
+{"title": "	Toy Story 5	", "text": "	Toy Story 5 is an album by Soundtrack released in 2026	", "img": "img/	ToyStory5Soundtrack2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Toy Story 5	"},
+{"title": "	My Mess, My Heart, My Life.	", "text": "	My Mess, My Heart, My Life. is an album by Myles Smith released in 2026	", "img": "img/	MyMess,MyHeart,MyLife.MylesSmith2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=My Mess, My Heart, My Life.	"},
+{"title": "	Chevy Silverado	", "text": "	Chevy Silverado is a song by Bailey Zimmerman released in 2025	", "img": "img/	Chevy SilveradoBailey Zimmerman2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Chevy Silverado	"},
+{"title": "	Carry On	", "text": "	Carry On is a song by Kenny Chesney released in 2026	", "img": "img/	Carry OnKenny Chesney2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Carry On	"},
+     
 {"title": "	Stupid Song	", "text": "	Stupid Song is a song by Olivia Rodrigo released in 2026	", "img": "img/	youseemprettysadforagirlsoinloveOliviaRodrigo2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Stupid Song	"},
 {"title": "	Honeybee	", "text": "	Honeybee is a song by Olivia Rodrigo released in 2026	", "img": "img/	youseemprettysadforagirlsoinloveOliviaRodrigo2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Honeybee	"},
 {"title": "	Maggots For Brains	", "text": "	Maggots For Brains is a song by Olivia Rodrigo released in 2026	", "img": "img/	youseemprettysadforagirlsoinloveOliviaRodrigo2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Maggots For Brains	"},
