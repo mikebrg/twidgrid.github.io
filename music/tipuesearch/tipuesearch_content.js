@@ -1,6 +1,21 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	GOLDEN HOUR : PART.5 (EP)	", "text": "	GOLDEN HOUR : PART.5 (EP) is an album by ATEEZ released in 2026	", "img": "img/	GOLDENHOURPART.5(EP)ATEEZ2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=GOLDEN HOUR : PART.5 (EP)	"},
+{"title": "	ML2	", "text": "	ML2 is an album by YoungBoy Never Broke Again released in 2026	", "img": "img/	ML2YoungBoyNeverBrokeAgain2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=ML2	"},
+{"title": "	Banks Of The Trinity	", "text": "	Banks Of The Trinity is an album by Cody Johnson released in 2026	", "img": "img/	BanksOfTheTrinityCodyJohnson2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Banks Of The Trinity	"},
+{"title": "	KILL THE KING	", "text": "	KILL THE KING is an album by T.I. released in 2026	", "img": "img/	KILLTHEKINGT.I.2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=KILL THE KING	"},
+{"title": "	The Wow! Signal	", "text": "	The Wow! Signal is an album by Muse released in 2026	", "img": "img/	TheWow!SignalMuse2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Wow! Signal	"},
+{"title": "	Dear God	", "text": "	Dear God is an album by The Pretty Reckless released in 2026	", "img": "img/	DearGodThePrettyReckless2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Dear God	"},
+     
+{"title": "	My Body Isn't Ready	", "text": "	My Body Isn't Ready is a song by sombr released in 2026	", "img": "img/	My Body Isn't Readysombr2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=My Body Isn't Ready	"},
+{"title": "	Look At My Life	", "text": "	Look At My Life is a song by Gracie Abrams released in 2026	", "img": "img/	Look At My LifeGracie Abrams2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Look At My Life	"},
+{"title": "	The Time Of My Life	", "text": "	The Time Of My Life is a song by Benson Boone released in 2026	", "img": "img/	The Time Of My LifeBenson Boone2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Time Of My Life	"},
+{"title": "	Radio	", "text": "	Radio is a song by Future released in 2026	", "img": "img/	RadioFuture2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Radio	"},
+{"title": "	Piece Of Your Love	", "text": "	Piece Of Your Love is a song by Rod Wave released in 2026	", "img": "img/	Piece Of Your LoveRod Wave2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Piece Of Your Love	"},
+{"title": "	Is It Cool?	", "text": "	Is It Cool? is a song by Steve Lacy Featuring SZA released in 2026	", "img": "img/	Is It CoolSteve Lacy Featuring SZA2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Is It Cool?	"},
+{"title": "	No Need For Leavin'	", "text": "	No Need For Leavin' is a song by Kameron Marlowe released in 2026	", "img": "img/	No Need For Leavin'Kameron Marlowe2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=No Need For Leavin'	"},
+     
 {"title": "	Project X	", "text": "	Project X is an album by Key Glock released in 2026	", "img": "img/	ProjectXKeyGlock2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Project X	"},
 {"title": "	Toy Story 5	", "text": "	Toy Story 5 is an album by Soundtrack released in 2026	", "img": "img/	ToyStory5Soundtrack2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Toy Story 5	"},
 {"title": "	My Mess, My Heart, My Life.	", "text": "	My Mess, My Heart, My Life. is an album by Myles Smith released in 2026	", "img": "img/	MyMess,MyHeart,MyLife.MylesSmith2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=My Mess, My Heart, My Life.	"},
