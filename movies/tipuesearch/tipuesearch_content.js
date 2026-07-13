@@ -1,6 +1,12 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Fightland (2026)	", "text": "	A disgraced boxing champion is released from prison and returns to London to take revenge on the crime family that betrayed him	", "img": "img/	Fightland (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Fightland	"},
+	
+{"title": "	Godzilla Minus Zero (2026)	", "text": "	Set in 1949, the Shikishima family confronts a fresh catastrophe two years after surviving their previous ordeal with the legendary monster.	", "img": "img/	Godzilla Minus Zero (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Godzilla Minus Zero	"},
+{"title": "	Avatar Aang: The Last Airbender (2026)	", "text": "	Avatar Aang, the world's last Airbender, learns of an ancient power that could save his culture from extinction. With the help of his friends, he embarks on a global quest to find it before it falls into the wrong hands.	", "img": "img/	Avatar Aang The Last Airbender (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Avatar Aang: The Last Airbender	"},
+{"title": "	Evil Dead Burn (2026)	", "text": "	After the loss of her husband, a woman seeks solace with her in-laws. As one by one they transform into deadites, she comes to discover that the vows she took in life - survive even in death.	", "img": "img/	Evil Dead Burn (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Evil Dead Burn	"},
+	
 {"title": "	Young Washington (2026)	", "text": "	A young George Washington faces war, betrayal, and impossible choices that will forge a leader.	", "img": "img/	Young Washington (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Young Washington	"},
 {"title": "	The Devil's Mouth (2026)	", "text": "	A group of college friends' Thailand adventure turns deadly when they become trapped in submerged caves with a dangerous predator. As oxygen runs low, past conflicts emerge in their desperate fight for survival.	", "img": "img/	The Devil's Mouth (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Devil's Mouth	"},
 {"title": "	The Angry Birds Movie 3 (2026)	", "text": "	Red faces his 'greatest challenge yet,' which is being a dad - and also saving the world.	", "img": "img/	The Angry Birds Movie 3 (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Angry Birds Movie 3	"},
