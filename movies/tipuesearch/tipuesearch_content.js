@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Money Heist: Korea - Joint Economic Area (2022)	", "text": "	A genius strategist and people with different personalities and abilities fighting an extraordinary variable and engaging in an unprecedented hostage play.	", "img": "img/	Money Heist Korea - Joint Economic Area (2022).webp	", "tags": "		", "note": "		", "url": "	tv2022.html#:~:text=Money Heist: Korea - Joint Economic Area	"},
+	
 {"title": "	Jackass (2000)	", "text": "	The cast performs various crazy stunts for our amusement.	", "img": "img/	Jackass (2000).webp	", "tags": "		", "note": "		", "url": "	tv2000.html#:~:text=Jackass	"},
 	
 {"title": "	Jackass: The Movie (2002)	", "text": "	Johnny Knoxville and his band of maniacs perform a variety of stunts and gross-out gags on the big screen for the first time.	", "img": "img/	Jackass The Movie (2002).webp	", "tags": "		", "note": "		", "url": "	2002.html#:~:text=Jackass: The Movie	"},
