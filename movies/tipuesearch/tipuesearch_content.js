@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Home Alone 3 (1997)	", "text": "	Alex Pruitt, an 8-year-old boy living in Chicago, must fend off four international criminals who are seeking a top-secret microchip in his toy car.	", "img": "img/	Home Alone 3 (1997).webp	", "tags": "		", "note": "		", "url": "	1997.html#:~:text=Home Alone 3	"},
+{"title": "	Home Alone 4 (2002)	", "text": "	Amidst his parents' impending divorce, Kevin McCallister must foil his old nemesis Marv and his wife Vera's plot to kidnap a Crown Prince.	", "img": "img/	Home Alone 4 (2002).webp	", "tags": "		", "note": "		", "url": "	2002.html#:~:text=Home Alone 4	"},
+{"title": "	Home Alone: The Holiday Heist (2012)	", "text": "	Finn Baxter sets up booby traps to catch the ghost of his new home's former occupant, then discovers that he must protect the house and his sister from three bumbling art thieves.	", "img": "img/	Home Alone The Holiday Heist (2012).webp	", "tags": "		", "note": "		", "url": "	2012.html#:~:text=Home Alone: The Holiday Heist	"},
+{"title": "	Home Sweet Home Alone (2021)	", "text": "	A married couple tries to steal back a valuable heirloom from a troublesome kid.	", "img": "img/	Home Sweet Home Alone (2021).webp	", "tags": "		", "note": "		", "url": "	2021.html#:~:text=Home Sweet Home Alone	"},
+	
 {"title": "	Fightland (2026)	", "text": "	A disgraced boxing champion is released from prison and returns to London to take revenge on the crime family that betrayed him	", "img": "img/	Fightland (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Fightland	"},
 	
 {"title": "	Godzilla Minus Zero (2026)	", "text": "	Set in 1949, the Shikishima family confronts a fresh catastrophe two years after surviving their previous ordeal with the legendary monster.	", "img": "img/	Godzilla Minus Zero (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Godzilla Minus Zero	"},
