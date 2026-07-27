@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Addams Family (1973)	", "text": "	The spooky family finds adventures while on a cross-country road trip in a camper shaped like their mansion.	", "img": "img/	The Addams Family (1973).webp	", "tags": "		", "note": "		", "url": "	tv1973.html#:~:text=The Addams Family	"},
+{"title": "	The Addams Family (1992)	", "text": "	The further misadventures of the eccentrically macabre family.	", "img": "img/	The Addams Family (1992).webp	", "tags": "		", "note": "		", "url": "	tv1992.html#:~:text=The Addams Family	"},
+{"title": "	Halloween with the New Addams Family (1977)	", "text": "	A revival of the popular '60s TV comedy series 'The Addams Family' has them preparing for Halloween in their own inimitable way.	", "img": "img/	Halloween with the New Addams Family (1977).webp	", "tags": "		", "note": "		", "url": "	1977.html#:~:text=Halloween with the New Addams Family	"},
+{"title": "	Addams Family Reunion (1998)	", "text": "	The Addams Family goes on a search for their relatives.	", "img": "img/	Addams Family Reunion (1998).webp	", "tags": "		", "note": "		", "url": "	1998.html#:~:text=Addams Family Reunion	"},
+	
 {"title": "	Hadestown: The Musical (2026)	", "text": "	A musical juxtaposition of the Orpheus/Eurydice and Hades/Persephone myths that examines the way real life can impact our quest for a perfect world.	", "img": "img/	Hadestown The Musical (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hadestown: The Musical	"},
 {"title": "	It Ends (2026)	", "text": "	Friends on a late-night food run become trapped on an infinite highway with otherworldly terrors lurking beyond. Confined in their Jeep Cherokee, they must decide whether to accept their fate or attempt escape.	", "img": "img/	It Ends (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=It Ends	"},
 {"title": "	Other Mommy (2026)	", "text": "	Bela, an 8-year-old girl living in a home with marital problems, confronts a sinister entity that comes out of her closet. The presence, who she calls 'Other Mommy,' becomes increasingly threatening to her and her family.	", "img": "img/	Other Mommy (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Other Mommy	"},
