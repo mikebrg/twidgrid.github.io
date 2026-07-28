@@ -1,6 +1,19 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Dead Fresh	", "text": "	Dead Fresh is a song by Lil Baby released in 2026	", "img": "img/	Dead FreshLil Baby2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Dead Fresh	"},
+{"title": "	Good Reason	", "text": "	Good Reason is a song by Gracie Abrams released in 2026	", "img": "img/	Good ReasonGracie Abrams2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Good Reason	"},
+{"title": "	Freaked Out	", "text": "	Freaked Out is a song by Fat Papi released in 2026	", "img": "img/	Freaked OutFat Papi2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Freaked Out	"},
+{"title": "	Minibar	", "text": "	Minibar is a song by Gracie Abrams released in 2026	", "img": "img/	MinibarGracie Abrams2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Minibar	"},
+{"title": "	Daughter From Hell	", "text": "	Daughter From Hell is an album by Gracie Abrams released in 2026	", "img": "img/	DaughterFromHellGracieAbrams2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Daughter From Hell	"},
+{"title": "	Oh yeah?	", "text": "	Oh yeah? is an album by Steve Lacy released in 2026	", "img": "img/	OhyeahSteveLacy2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Oh yeah?	"},
+{"title": "	Decades	", "text": "	Decades is an album by Motionless in White released in 2026	", "img": "img/	DecadesMotionlessinWhite2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Decades	"},
+{"title": "	Who Coppin	", "text": "	Who Coppin is an album by Larry June released in 2026	", "img": "img/	WhoCoppinLarryJune2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Who Coppin	"},
+{"title": "	Made You Think I Was Gone ...But	", "text": "	Made You Think I Was Gone ...But is an album by Tory Lanez released in 2026	", "img": "img/	MadeYouThinkIWasGone...ButToryLanez2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Made You Think I Was Gone ...But	"},
+{"title": "	Set In Stone	", "text": "	Set In Stone is an album by Rick Ro$$ released in 2026	", "img": "img/	SetInStoneRickRo$$2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Set In Stone	"},
+{"title": "	Descendants: Wicked Wonderland	", "text": "	Descendants: Wicked Wonderland is an album by Soundtrack released in 2026	", "img": "img/	DescendantsWickedWonderlandSoundtrack2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Descendants: Wicked Wonderland	"},
+{"title": "	A Stranger To You	", "text": "	A Stranger To You is an album by LOATHE released in 2026	", "img": "img/	AStrangerToYouLOATHE2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=A Stranger To You	"},
+     
 {"title": "	California Girls	", "text": "	California Girls is a song by Future released in 2026	", "img": "img/	TheRealMeFuture2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=California Girls	"},
 {"title": "	Fukk A Interview	", "text": "	Fukk A Interview is a song by Future released in 2026	", "img": "img/	TheRealMeFuture2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Fukk A Interview	"},
 {"title": "	Konnichiwa	", "text": "	Konnichiwa is a song by Future released in 2026	", "img": "img/	TheRealMeFuture2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Konnichiwa	"},
