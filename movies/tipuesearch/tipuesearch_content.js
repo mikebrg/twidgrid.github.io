@@ -1,6 +1,9 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Thomas Crown Affair (2027)	", "text": "	Third take on the Thomas Crown Affair movies.	", "img": "img/	The Thomas Crown Affair (2027).webp	", "tags": "		", "note": "		", "url": "	2027.html#:~:text=The Thomas Crown Affair	"},
+{"title": "	Children of Blood and Bone (2027)	", "text": "	A woman, blessed with magical powers by the gods and living in a place where she is forbidden to use them, teams up with a princess to summon the gods and bring down the oppressive regime.	", "img": "img/	Children of Blood and Bone (2027).webp	", "tags": "		", "note": "		", "url": "	2027.html#:~:text=Children of Blood and Bone	"},
+	
 {"title": "	The Addams Family (1973)	", "text": "	The spooky family finds adventures while on a cross-country road trip in a camper shaped like their mansion.	", "img": "img/	The Addams Family (1973).webp	", "tags": "		", "note": "		", "url": "	tv1973.html#:~:text=The Addams Family	"},
 {"title": "	The Addams Family (1992)	", "text": "	The further misadventures of the eccentrically macabre family.	", "img": "img/	The Addams Family (1992).webp	", "tags": "		", "note": "		", "url": "	tv1992.html#:~:text=The Addams Family	"},
 {"title": "	Halloween with the New Addams Family (1977)	", "text": "	A revival of the popular '60s TV comedy series 'The Addams Family' has them preparing for Halloween in their own inimitable way.	", "img": "img/	Halloween with the New Addams Family (1977).webp	", "tags": "		", "note": "		", "url": "	1977.html#:~:text=Halloween with the New Addams Family	"},
