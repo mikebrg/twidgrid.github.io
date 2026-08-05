@@ -1,6 +1,21 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Music, Fashion, Film	", "text": "	Music, Fashion, Film is an album by Charli xcx released in 2026	", "img": "img/	Music,Fashion,FilmCharlixcx2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Music, Fashion, Film	"},
+{"title": "	Reality Awaits	", "text": "	Reality Awaits is an album by The Strokes released in 2026	", "img": "img/	RealityAwaitsTheStrokes2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Reality Awaits	"},
+{"title": "	A*POP	", "text": "	A*POP is an album by Tyla released in 2026	", "img": "img/	APOPTyla2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=A*POP	"},
+{"title": "	Pretty Girlz Run The World	", "text": "	Pretty Girlz Run The World is an album by Loe Shimmy released in 2026	", "img": "img/	PrettyGirlzRunTheWorldLoeShimmy2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Pretty Girlz Run The World	"},
+{"title": "	Little Miss Twain	", "text": "	Little Miss Twain is an album by Shania Twain released in 2026	", "img": "img/	LittleMissTwainShaniaTwain2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Little Miss Twain	"},
+{"title": "	JINX	", "text": "	JINX is an album by Waterparks released in 2026	", "img": "img/	JINXWaterparks2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=JINX	"},
+     
+{"title": "	Been By Now	", "text": "	Been By Now is a song by Morgan Wallen released in 2026	", "img": "img/	Been By NowMorgan Wallen2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Been By Now	"},
+{"title": "	Animal	", "text": "	Animal is a song by KATSEYE released in 2026	", "img": "img/	AnimalKATSEYE2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Animal	"},
+{"title": "	Camera	", "text": "	Camera is a song by Charli xcx released in 2026	", "img": "img/	CameraCharli xcx2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Camera	"},
+{"title": "	I See Why	", "text": "	I See Why is a song by Moneybagg Yo released in 2026	", "img": "img/	I See WhyMoneybagg Yo2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I See Why	"},
+{"title": "	Matadora	", "text": "	Matadora is a song by Karol G released in 2026	", "img": "img/	MatadoraKarol G2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Matadora	"},
+{"title": "	Sue Me	", "text": "	Sue Me is a song by Audrey Hobert released in 2025	", "img": "img/	Sue MeAudrey Hobert2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Sue Me	"},
+{"title": "	Hands Up	", "text": "	Hands Up is a song by Jelly Roll released in 2026	", "img": "img/	Hands UpJelly Roll2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hands Up	"},
+     
 {"title": "	Dead Fresh	", "text": "	Dead Fresh is a song by Lil Baby released in 2026	", "img": "img/	Dead FreshLil Baby2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Dead Fresh	"},
 {"title": "	Good Reason	", "text": "	Good Reason is a song by Gracie Abrams released in 2026	", "img": "img/	Good ReasonGracie Abrams2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Good Reason	"},
 {"title": "	Freaked Out	", "text": "	Freaked Out is a song by Fat Papi released in 2026	", "img": "img/	Freaked OutFat Papi2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Freaked Out	"},
