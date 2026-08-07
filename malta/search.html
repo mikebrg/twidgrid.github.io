@@ -105,7 +105,7 @@ function toggleMenu() {
 
       <h2>Currently in Malta</h2>													
  <ul class="responsive-table">													
-<li class="table-cell"><a href="tgmdb/	gov001	.html"><img src="img/		malta-partit-laburista-emblem-big-376x376.jpg	" alt="	Maltese Government 2022–27	"></a><h3>	Maltese Government 2022–27	</h3><p>	Labour Party			</p></li>
+<li class="table-cell"><a href="tgmdb/	gov024	.html"><img src="img/		malta-partit-laburista-emblem-big-376x376.jpg	" alt="	Maltese Government 2022–27	"></a><h3>	Maltese Government 2022–27	</h3><p>	Labour Party			</p></li>
 <li class="table-cell"><a href="tgmdb/	p012	.html"><img src="img/		433984318-122106608432260567-1008970078448603564-n-376x376.jpg	" alt="	Myriam Spiteri Debono	"></a><h3>	Myriam Spiteri Debono	</h3><p>	President			</p></li>
 <li class="table-cell"><a href="tgmdb/	pm014	.html"><img src="img/		robert-abela-376x251.jpg	" alt="	Robert Abela	"></a><h3>	Robert Abela	</h3><p>	Prime Minister			</p></li>
 <li class="table-cell"><a href="tgmdb/	dpm013	.html"><img src="img/		Ian-Borg-scaled-e1664175074499-200x200-1.jpg	" alt="	Ian Borg	"></a><h3>	Ian Borg	</h3><p>	Deputy Prime Minister			</p></li>
@@ -127,15 +127,15 @@ function toggleMenu() {
     
     </div>
 
-<!-- Modal Structure -->
-<div id="wikiModal" class="modal">
+                        <!-- Modal Structure -->
+<div id="modal" class="modal">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title">Article or Video</h5>
+        <h5 class="modal-title">Content Viewer</h5>
         <button class="close-btn" id="closeModal">&times;</button>
       </div>
       <div class="modal-body">
-        <iframe id="wikiIframe" src="" allowfullscreen></iframe> <!-- Added allowfullscreen -->
+        <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
       </div>
       <div class="modal-footer">
         <button class="close-btn" id="closeFooter">Close</button>
@@ -143,66 +143,60 @@ function toggleMenu() {
     </div>
   </div>
   
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"]');
-      const modal = document.getElementById('wikiModal');
-      const iframe = document.getElementById('wikiIframe');
-      const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
-  
-      // Function to adjust iframe height
-      function adjustIframeHeight() {
-        const modalContent = document.querySelector('.modal-content');
-        const headerHeight = document.querySelector('.modal-header').offsetHeight;
-        const footerHeight = document.querySelector('.modal-footer').offsetHeight;
-        const modalHeight = modalContent.offsetHeight;
-        
-        // Set iframe height based on the remaining space
-        const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
-        iframe.style.height = iframeHeight + 'px';
-      }
-  
-      // Open modal and set iframe source on click
-      links.forEach(link => {
-        link.addEventListener('click', function(event) {
-          event.preventDefault();
-          const url = this.href;
-  
-          // Check if the link is a YouTube link
-          if (url.includes('youtube')) {
-            // Embed YouTube video
-            const videoId = url.split('v=')[1]?.split('&')[0]; // Extract video ID
-            iframe.src = `https://www.youtube.com/embed/${videoId}`;
-          } else {
-            // Load Wikipedia page
-            iframe.src = url;
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+          const modal = document.getElementById('modal');
+          const iframe = document.getElementById('contentIframe');
+          const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+      
+          // Function to adjust iframe height
+          function adjustIframeHeight() {
+            const modalContent = document.querySelector('.modal-content');
+            const headerHeight = document.querySelector('.modal-header').offsetHeight;
+            const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+            const modalHeight = modalContent.offsetHeight;
+      
+            // Set iframe height based on the remaining space
+            const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+            iframe.style.height = iframeHeight + 'px';
           }
-  
-          modal.style.display = 'flex'; // Show modal (flex layout for centering)
-          adjustIframeHeight(); // Adjust iframe height on modal open
+      
+          // Open modal and set iframe source on click
+          links.forEach(link => {
+            link.addEventListener('click', function (event) {
+              event.preventDefault();
+              const url = this.href;
+      
+              if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+                iframe.src = url;
+              }
+      
+              modal.style.display = 'flex'; // Show modal
+              adjustIframeHeight(); // Adjust iframe height on modal open
+            });
+          });
+      
+          // Close modal and clear iframe content
+          closeModalButtons.forEach(button => {
+            button.addEventListener('click', function () {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            });
+          });
+      
+          // Close modal when clicking outside modal content
+          modal.addEventListener('click', function (event) {
+            if (event.target === modal) {
+              modal.style.display = 'none';
+              iframe.src = ''; // Clear the iframe content when the modal is closed
+            }
+          });
+      
+          // Recalculate iframe height when the window is resized
+          window.addEventListener('resize', adjustIframeHeight);
         });
-      });
-  
-      // Close modal and clear iframe content
-      closeModalButtons.forEach(button => {
-        button.addEventListener('click', function() {
-          modal.style.display = 'none';
-          iframe.src = ''; // Clear the iframe content when the modal is closed
-        });
-      });
-  
-      // Close modal when clicking outside modal content
-      modal.addEventListener('click', function(event) {
-        if (event.target === modal) {
-          modal.style.display = 'none';
-          iframe.src = ''; // Clear the iframe content when the modal is closed
-        }
-      });
-  
-      // Recalculate iframe height when the window is resized
-      window.addEventListener('resize', adjustIframeHeight);
-    });
-  </script>
+      </script>
   
     <a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
 
