@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Danny DeVito | Movies</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"><style>.head {position: relative; background-size: cover; background-image: url('../img/Danny DeVito-bk.jpg'); background-position: center; min-height: 400px } .head::before {content: ""; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5);}.head > * { position: relative; z-index: 2;} .table-cell img {
+            width: 100%;
+            height: 260px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 8px;
+    }</style></head><body><div class="cont"><div id="head"><div class="block"><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Movies</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Danny DeVito</h3><span class="fo-5">United States</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../actors.html">Actors</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Danny DeVito.jpg" alt="Danny DeVito"><h3>Danny DeVito</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>17 November 1944<p><strong>Age: </strong><span class="dob" data-dob="17-Nov-44"></span><p><strong>Years Active: </strong>1969–present</p><p><strong></strong></p><p><strong></strong></p><p><strong></strong></p></li><li class="table-cell"><img src="" style="display: none;"><p>Daniel Michael DeVito Jr., (born November 17, 1944) is an American actor, comedian and filmmaker. Known for his short stature, raspy voice, distinct accent, and energetic comedy roles, he gained prominence for his portrayal of the taxi dispatcher Louie De Palma in the television series Taxi (1978–1983), which won him a Golden Globe Award and an Emmy Award. Since 2006, he has played Frank Reynolds on the FX/FXX sitcom It's Always Sunny in Philadelphia.<p>DeVito is known for his film roles in One Flew Over the Cuckoo's Nest (1975), Terms of Endearment (1983), Romancing the Stone (1984), The Jewel of the Nile (1985), Ruthless People (1986), Throw Momma from the Train (1987), Twins (1988), The War of the Roses (1989), Batman Returns (1992), Jack the Bear (1993), Junior (1994), Matilda (1996), L.A. Confidential (1997), The Big Kahuna (1999), Big Fish (2003), Deck the Halls (2006), When in Rome (2010), Wiener-Dog (2016), and Jumanji: The Next Level (2019). He has voiced roles in such films as Disney's Hercules (1997), The Lorax (2012), Smallfoot (2018), and Migration (2023).<p>In 1991, DeVito and Michael Shamberg founded production company Jersey Films. Soon afterwards, Stacey Sher became an equal partner. The production company is known for films such as Pulp Fiction (1994), Garden State (2004) and Freedom Writers (2007). He would later create a second production company, Jersey Films 2nd Avenue, with his daughter, Lucy, and son, Jake. DeVito also owned Jersey Television, which produced the Comedy Central series Reno 911!. DeVito and wife Rhea Perlman starred together in his 1996 film Matilda, based on Roald Dahl's children's novel. DeVito was also one of the producers nominated for an Academy Award for Best Picture for Erin Brockovich (2000).<p>From 2012 to 2013, DeVito played Willie Clark in the West End revival of Neil Simon's The Sunshine Boys. He made his Broadway debut as Gregory Solomon in the revival of Arthur Miller's The Price (2017), earning a Tony Award nomination for his performance. He returned to Broadway in the Theresa Rebeck play I Need That (2023).</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top">↑</a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
