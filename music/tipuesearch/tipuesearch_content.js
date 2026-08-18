@@ -1,6 +1,24 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Jaded	", "text": "	Jaded is a song by Koe Wetzel & Ella Langley released in 2026	", "img": "img/	JadedKoe Wetzel & Ella Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Jaded	"},
+{"title": "	This & That	", "text": "	This & That is a song by Stray Kids released in 2026	", "img": "img/	This & ThatStray Kids2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=This & That	"},
+{"title": "	Still	", "text": "	Still is a song by Karol G & Bruno Mars released in 2026	", "img": "img/	StillKarol G & Bruno Mars2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Still	"},
+{"title": "	Last Man Breathin	", "text": "	Last Man Breathin is a song by Pooh Shiesty released in 2026	", "img": "img/	Last Man BreathinPooh Shiesty2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Last Man Breathin	"},
+{"title": "	Ahi	", "text": "	Ahi is a song by Karol G & Drake released in 2026	", "img": "img/	AhiKarol G & Drake2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ahi	"},
+{"title": "	Reap What You Sow	", "text": "	Reap What You Sow is a song by Pooh Shiesty released in 2026	", "img": "img/	Reap What You SowPooh Shiesty2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Reap What You Sow	"},
+{"title": "	BbY WOW	", "text": "	BbY WOW is a song by Karol G, Judeline & rusowsky released in 2026	", "img": "img/	BbY WOWKarol G, Judeline & rusowsky2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=BbY WOW	"},
+{"title": "	I'm Back	", "text": "	I'm Back is a song by Pooh Shiesty released in 2026	", "img": "img/	I'm BackPooh Shiesty2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I'm Back	"},
+{"title": "	Federal Reality	", "text": "	Federal Reality is a song by Pooh Shiesty released in 2026	", "img": "img/	Federal RealityPooh Shiesty2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Federal Reality	"},
+{"title": "	String By	", "text": "	String By is a song by Mack Geiger released in 2025	", "img": "img/	String ByMack Geiger2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=String By	"},
+{"title": "	This & That	", "text": "	This & That is an album by Stray Kids released in 2026	", "img": "img/	This&ThatStrayKids2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=This & That	"},
+{"title": "	All Eyes On Shiest	", "text": "	All Eyes On Shiest is an album by Pooh Shiesty released in 2026	", "img": "img/	AllEyesOnShiestPoohShiesty2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=All Eyes On Shiest	"},
+{"title": "	No Me Arrepiento de Sentir Tanto	", "text": "	No Me Arrepiento de Sentir Tanto is an album by Karol G released in 2026	", "img": "img/	NoMeArrepientodeSentirTantoKarolG2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=No Me Arrepiento de Sentir Tanto	"},
+{"title": "	Chuck Timely & The Hourglass	", "text": "	Chuck Timely & The Hourglass is an album by Role Model released in 2026	", "img": "img/	ChuckTimely&TheHourglassRoleModel2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Chuck Timely & The Hourglass	"},
+{"title": "	Weathering The World	", "text": "	Weathering The World is an album by Hurricane Wisdom released in 2026	", "img": "img/	WeatheringTheWorldHurricaneWisdom2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Weathering The World	"},
+{"title": "	WH1TNEY	", "text": "	WH1TNEY is an album by Whitney Houston released in 2026	", "img": "img/	WH1TNEYWhitneyHouston2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=WH1TNEY	"},
+{"title": "	THERAPY AT THE CLUB	", "text": "	THERAPY AT THE CLUB is an album by FLO released in 2026	", "img": "img/	THERAPYATTHECLUBFLO2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=THERAPY AT THE CLUB	"},
+     
 {"title": "	Petal	", "text": "	Petal is a song by Ariana Grande released in 2026	", "img": "img/	petalArianaGrande2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Petal	"},
 {"title": "	Kiss Me	", "text": "	Kiss Me is a song by Ariana Grande released in 2026	", "img": "img/	petalArianaGrande2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Kiss Me	"},
 {"title": "	Stay	", "text": "	Stay is a song by Ariana Grande released in 2026	", "img": "img/	petalArianaGrande2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Stay	"},
