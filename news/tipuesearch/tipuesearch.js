@@ -394,11 +394,11 @@ http://www.tipue.com/search
                                         {
                                              if (set.imageZoom)
                                              {
-                                                  out += '<div class="tipue_search_image"><img class="tipue_search_img tipue_search_image_zoom" src="' + found[i].img + '" alt="' + found[i].title + '" data-url="' + found[i].url + '"></div>';     
+                                                  out += '<div class="tipue_search_image"><img class="tipue_search_img tipue_search_image_zoom" src="' + found[i].img + '" loading="lazy" alt="' + found[i].title + '" data-url="' + found[i].url + '"></div>';     
                                              }
                                              else
                                              {
-                                                  out += '<div class="tipue_search_image"><a href="' + found[i].url + '"' + tipue_search_w + '><img class="tipue_search_img" src="' + found[i].img + '" alt="' + found[i].title + '"></a></div>';
+                                                  out += '<div class="tipue_search_image"><a href="' + found[i].url + '"' + tipue_search_w + '><img class="tipue_search_img" src="' + found[i].img + '" loading="lazy" alt="' + found[i].title + '"></a></div>';
                                              }
                                         }
                                         
