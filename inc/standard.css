@@ -410,14 +410,48 @@ transition: all 0.5s ease;
      margin: 0;
  }
 
-/* On mobile: force 3 cards per row */
+/* On mobile: force 1 cards per row */
 @media (max-width: 500px) {
   .responsive-table {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
 	  gap: 8px;
      padding: 8px;
   }
 }
+
+.responsive-table-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 16px;
+    list-style-type: none;
+    margin: 0;
+}
+
+/* Mobile: 1 card per row */
+@media (max-width: 500px) {
+    .responsive-table-3 {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding: 8px;
+    }
+}
+
+/* Card height automatically follows its content */
+.responsive-table-3 .table-cell {
+    height: auto;
+}
+
+/* Responsive rectangular images */
+.responsive-table-3 .table-cell img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
  .table-cell {
      background-color:#131313;
      border: 1px solid #333;
@@ -455,6 +489,15 @@ transition: all 0.5s ease;
      transition: all 0.5s ease;
 
  }
+
+ .table-cell iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 0;
+    border-radius: 8px;
+    display: block;
+}
 
  ul a {
 text-decoration: none; /* Remove underline by default */
