@@ -1,6 +1,23 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Hootie Frutti	", "text": "	Hootie Frutti is a song by KATSEYE released in 2026	", "img": "img/	Hootie FruttiKATSEYE2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Hootie Frutti	"},
+{"title": "	Take Me Back (Leave Me There)	", "text": "	Take Me Back (Leave Me There) is a song by Cody Johnson released in 2026	", "img": "img/	Take Me Back (Leave Me There)Cody Johnson2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Take Me Back (Leave Me There)	"},
+{"title": "	The Governor’s Waltz	", "text": "	The Governor’s Waltz is a song by Phoebe Bridgers released in 2026	", "img": "img/	The Governor’s WaltzPhoebe Bridgers2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Governor’s Waltz	"},
+{"title": "	Lost Boys	", "text": "	Lost Boys is a song by Phoebe Bridgers released in 2026	", "img": "img/	Lost BoysPhoebe Bridgers2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Lost Boys	"},
+{"title": "	Bobby	", "text": "	Bobby is a song by Phoebe Bridgers released in 2026	", "img": "img/	BobbyPhoebe Bridgers2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Bobby	"},
+{"title": "	Kid Myself	", "text": "	Kid Myself is a song by John Morgan released in 2025	", "img": "img/	Kid MyselfJohn Morgan2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Kid Myself	"},
+{"title": "	Bet On That	", "text": "	Bet On That is a song by Blake Whiten released in 2026	", "img": "img/	Bet On ThatBlake Whiten2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Bet On That	"},
+{"title": "	Ayudame	", "text": "	Ayudame is a song by Los Dos de Tamaulipas released in 2026	", "img": "img/	AyudameLos Dos de Tamaulipas2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ayudame	"},
+{"title": "	Kill Me	", "text": "	Kill Me is a song by Phoebe Bridgers released in 2026	", "img": "img/	Kill MePhoebe Bridgers2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Kill Me	"},
+{"title": "	WILD (EP)	", "text": "	WILD (EP) is an album by KATSEYE released in 2026	", "img": "img/	WILD(EP)KATSEYE2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=WILD (EP)	"},
+{"title": "	Lost Weekend	", "text": "	Lost Weekend is an album by Phoebe Bridgers released in 2026	", "img": "img/	LostWeekendPhoebeBridgers2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Lost Weekend	"},
+{"title": "	PROLIFIC	", "text": "	PROLIFIC is an album by Nipsey Hussle & Bino Rideaux released in 2026	", "img": "img/	PROLIFICNipseyHussle&BinoRideaux2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=PROLIFIC	"},
+{"title": "	One Assassination Under God: Chapter 2	", "text": "	One Assassination Under God: Chapter 2 is an album by Marilyn Manson released in 2026	", "img": "img/	OneAssassinationUnderGodChapter2MarilynManson2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=One Assassination Under God: Chapter 2	"},
+{"title": "	NDA	", "text": "	NDA is an album by Trippie Redd released in 2026	", "img": "img/	NDATrippieRedd2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=NDA	"},
+{"title": "	Sunshine	", "text": "	Sunshine is an album by Jungle released in 2026	", "img": "img/	SunshineJungle2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Sunshine	"},
+{"title": "	Who's The Clown?	", "text": "	Who's The Clown? is an album by Audrey Hobert released in 2025	", "img": "img/	Who'sTheClownAudreyHobert2025.png	", "tags": "		", "note": "		", "url": "	albums2025.html#:~:text=Who's The Clown?	"},
+     
 {"title": "	Jaded	", "text": "	Jaded is a song by Koe Wetzel & Ella Langley released in 2026	", "img": "img/	JadedKoe Wetzel & Ella Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Jaded	"},
 {"title": "	This & That	", "text": "	This & That is a song by Stray Kids released in 2026	", "img": "img/	This & ThatStray Kids2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=This & That	"},
 {"title": "	Still	", "text": "	Still is a song by Karol G & Bruno Mars released in 2026	", "img": "img/	StillKarol G & Bruno Mars2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Still	"},
