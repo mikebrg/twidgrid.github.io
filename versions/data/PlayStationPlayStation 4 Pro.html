@@ -1,13 +1,145 @@
-﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-16"><title>Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body style="background-color: white;"><p><h1>
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 PlayStation 4 Pro
-</h1><p><img src="../img/
+ | Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Versions</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>
+PlayStation 4 Pro
+</h3><span class="fo-5">
+Released 2016, November 10
+</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="javascript:history.back()">Back</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/
 PlayStationPlayStation 4 Pro2016, November 10.jpg
 " alt="
+4 Pro
+" onclick="toggleSize(this)">
+<li class="table-cell"><img src="" style="display: none;"><h3>
 PlayStation 4 Pro
-" class="mtimage"><p class="mttext">
+</h3><p><strong>
+2016, November 10
+<p>
 The PlayStation 4 Pro (codenamed Neo, model number CUH-7000) was announced on September 7, 2016, and launched worldwide on November 10, 2016. It is an upgraded version of the PlayStation 4 with improved hardware to enable 4K rendering and improved PlayStation VR performance, including an upgraded GPU with 4.2 teraflops of processing power and hardware support for checkerboard rendering, and a higher CPU clock. As with PS4 "Slim", this model also features support for USB 3.1, Bluetooth 4.0 and 5.0 GHz Wi-Fi. The PS4 Pro also includes 1 GB of DDR3 memory that is used to swap out non-gaming applications that run in the background, allowing games to utilize an additional 512 MB of the console's GDDR5 memory. Although capable of streaming 4K video, the PS4 Pro does not support Ultra HD Blu-ray. The Pro model has a release price of $399 (NA), €399 (Europe), and £349 (UK).<p>Games marketed by Sony as PS4 Pro Enhanced have specific optimizations when played on this model, such as 4K resolution graphics or higher performance. For games not specifically optimized, an option known as "Boost Mode" was added on system software 4.5, which can be enabled to force higher CPU and GPU clock rates to possibly improve performance.<p>Rendering games at 4K resolution is achieved through various rendering techniques and hardware features; PlayStation technical chief Mark Cerny explained that Sony could not "brute force" 4K without compromising form factor and cost, so the console was designed to support "streamlined rendering techniques" using custom hardware, "best-in-breed temporal and spatial anti-aliasing algorithms", and "many new features from the AMD Polaris architecture as well as several even beyond it". The most prominent technique used is checkerboard rendering, wherein the console only renders portions of a scene using a checkerboard pattern, and then uses algorithms to fill in the non-rendered segments. The checkerboarded screen can then be smoothed using an anti-aliasing filter. Hermen Hulst of Guerrilla Games explained that PS4 Pro could render something "perceptively so close [to 4K] that you wouldn't be able to see the difference".<p>PS4 Pro supports Remote Play, Share Play, and streaming at up to 1080p resolution at 60 frames per second, as well as capturing screenshots at 2160p, and 1080p video at 30 frames per second.<p>In late 2017, Sony issued a new PS4 Pro revision (model number CUH-7100) that featured updated internal components. The actual hardware specifications and performance remained the same as the original model, although it was found that the revised console has a slightly quieter fan profile than the original and as a result was operating at a slightly higher temperature under load than the CUH-7000. In October 2018, Sony quietly issued another revision (model number CUH-7200), initially as part of Red Dead Redemption 2 hardware bundles. The revision has a different power supply which uses the same type of cord as the "Slim" model, and was shown to have further improvements to acoustics.
-</p></body></html>
+<p></strong>
+</li></ul>
 
+            <ul class="responsive-table">
+<li></li><li></li><li></li><li></li></ul><p><p></div></div>
+<script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script>  <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
 
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
 
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+<a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

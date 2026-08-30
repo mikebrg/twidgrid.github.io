@@ -1,13 +1,145 @@
-﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-16"><title>Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body style="background-color: white;"><p><h1>
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 Microsoft Office Suite Office 95 (7.0)
-</h1><p><img src="../img/
+ | Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Versions</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>
+Microsoft Office Suite Office 95 (7.0)
+</h3><span class="fo-5">
+Released 1995, August 24
+</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="javascript:history.back()">Back</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/
 Microsoft Office SuiteOffice 95 (7.0)1995, August 24.jpg
 " alt="
+Office 95 (7.0)
+" onclick="toggleSize(this)">
+<li class="table-cell"><img src="" style="display: none;"><h3>
 Microsoft Office Suite Office 95 (7.0)
-" class="mtimage"><p class="mttext">
+</h3><p><strong>
+1995, August 24
+<p>
 Microsoft Office 95 (version 7.0) is the fourth major release of the Microsoft Office office suite for Windows systems, released by Microsoft on August 24, 1995. It is the successor to both Office 4.2 and 4.3 and it bumps up the version number of both the suite itself and all its components to 7.0, so that each Office program's number matches the rest. The suite is officially compatible with Windows NT 3.51 through Windows 2000. It was superseded by Microsoft Office 97 and support ended on December 31, 2001. It is the last version of Microsoft Office to support Windows NT 3.51 RTM–SP4.<p>Features<p>Microsoft Office 95 includes six applications: Word (a word processor), Excel (a spreadsheet editor), PowerPoint (a presentation program), Access (a database management system), Schedule+ (a time management app) and Binder (a program for binding the work of the mentioned apps together). The CD-ROM version includes Microsoft Bookshelf.<p>Previously, Microsoft had released Office 4.2 for Windows NT for several architectures, which included 32‑bit Word 6.0 for Windows NT and Excel 5.0 for Windows NT, but PowerPoint 4.0 and the Office Manager were 16‑bit. With Office 95, all components in the suite were 32-bit. All the Office 95 programs are OLE 2-enabled, meaning that they allow interoperability between themselves and other applications that support the protocol. Binder uses this protocol to bind OLE objects together.<p>Office 95 moves the version number of its applications to 7.0 to match Word's version number. Other components bear the same version numbers to show that they are contemporaries, although their predecessors are not version 6.0. The previous versions of components are Word 6.0, Excel 5.0, PowerPoint 4.0, Schedule+ 1.0 and Access 2.0. Binder had no predecessor at the time.<p>The Office 95 programs utilize a two-tone gradient in the title bar at the top of the window, gradually turning from black at the left side to dark blue at the right. At the time, this was unique to Office 95; no other program running under Windows 95 or Windows NT utilized gradient title bars. This feature was eventually incorporated into the shell of Windows 98 and later, which would allow customizable gradient colors and extend the feature to include dialog boxes as well.<p>Microsoft Excel contains an Easter egg, a hidden Doom–like game called Hall of Tortured Souls crediting the application's writers.<p>Contemporaneous components<p>Additional programs have been marketed as "compatible with Microsoft Office 95":<p>Microsoft Project (Version 4.1a)<p>Microsoft Publisher (Version 3.0)<p>Microsoft FrontPage 1.1<p>Office Small Business Pack<p>Small Business Financial Manager for Excel<p>Other contemporaneous Microsoft products include:<p>Microsoft Works 4.0<p>Microsoft Money 4.0
-</p></body></html>
+<p></strong>
+</li></ul>
 
+            <ul class="responsive-table">
+<li></li><li></li><li></li><li></li></ul><p><p></div></div>
+<script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script>  <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
 
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
 
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+<a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

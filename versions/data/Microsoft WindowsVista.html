@@ -1,13 +1,145 @@
-﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-16"><title>Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body style="background-color: white;"><p><h1>
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>
 Microsoft Windows Vista
-</h1><p><img src="../img/
+ | Versions</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">
+</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Versions</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>
+Microsoft Windows Vista
+</h3><span class="fo-5">
+Released 2007, January 30
+</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="javascript:history.back()">Back</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/
 Microsoft WindowsVista2007, January 30.jpg
 " alt="
+Vista
+" onclick="toggleSize(this)">
+<li class="table-cell"><img src="" style="display: none;"><h3>
 Microsoft Windows Vista
-" class="mtimage"><p class="mttext">
+</h3><p><strong>
+2007, January 30
+<p>
 Windows Vista is a major release of the Windows NT operating system developed by Microsoft. It was the direct successor to Windows XP, released five years earlier, which was then the longest time span between successive releases of Microsoft Windows. It was released to manufacturing on November 8, 2006, and over the following two months, it was released in stages to business customers, original equipment manufacturers (OEMs), and retail channels. On January 30, 2007, it was released internationally and was made available for purchase and download from the Windows Marketplace; it is the first release of Windows to be made available through a digital distribution platform.<p>Development of Windows Vista began in 2001 under the codename "Longhorn"; originally envisioned as a minor successor to Windows XP, it gradually included numerous new features from the then-next major release of Windows codenamed "Blackcomb", after which it was repositioned as a major release of Windows, and it subsequently underwent a period of protracted development that was unprecedented for Microsoft. Most new features were prominently based on a new presentation layer codenamed Avalon, a new communications architecture codenamed Indigo, and a relational storage platform codenamed WinFS — all built on the .NET Framework; however, this proved to be untenable due to incompleteness of technologies and ways in which new features were added, and Microsoft reset the project in 2004. Many features were eventually reimplemented after the reset, but Microsoft ceased using managed code to develop the operating system.<p>New features of Windows Vista include a graphical user interface and visual style referred to as Windows Aero; a content index and desktop search platform called Windows Search; new peer-to-peer technologies to simplify sharing files and media between computers and devices on a home network; and new multimedia tools such as Windows DVD Maker. Windows Vista included version 3.0 of the .NET Framework, allowing software developers to write applications without traditional Windows APIs. There are major architectural overhauls to audio, display, network, and print sub-systems; deployment, installation, servicing, and startup procedures are also revised. It is the first release of Windows built on Microsoft's Trustworthy Computing initiative and emphasized security with the introduction of many new security and safety features such as BitLocker and User Account Control.<p>The ambitiousness and scope of these changes, and the abundance of new features earned positive reviews, but Windows Vista was the subject of frequent negative press and significant criticism. Criticism of Windows Vista focused on driver, peripheral, and program incompatibility; digital rights management; excessive authorization from the new User Account Control; inordinately high system requirements when contrasted with Windows XP; its protracted development; longer boot time; and more restrictive product licensing. Windows Vista deployment and satisfaction rates were consequently lower than those of Windows XP, and it is considered a market failure; however, its use surpassed Microsoft's pre-launch two-year-out expectations of achieving 200 million users (with an estimated 330 million users by 2009). Two service packs were released, in 2008 and 2009 respectively. Windows Vista was succeeded by Windows 7 in 2009, and on October 22, 2010, Microsoft ceased retail distribution of Windows Vista; OEM supply ceased a year later. Mainstream support for Windows Vista ended on April 10, 2012, and extended support ended on April 11, 2017. As of January 2026, it is estimated that 0.02% of computers are still running Windows Vista.
-</p></body></html>
+<p></strong>
+</li></ul>
 
+            <ul class="responsive-table">
+<li></li><li></li><li></li><li></li></ul><p><p></div></div>
+<script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script>  <script>
+function toggleSize(img) {
+  img.classList.toggle("enlarged");
+}
+</script>
+<!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
 
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
 
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script>
+<a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
