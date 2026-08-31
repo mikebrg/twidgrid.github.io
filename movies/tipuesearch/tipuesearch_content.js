@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Buddy (2026)	", "text": "	A brave girl and her friends must escape a kids television show.	", "img": "img/	Buddy (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Buddy	"},
+{"title": "	Fjord (2026)	", "text": "	An immigrant Romanian family living in Norway is subject to an investigation and faces the scrutiny of the local judicial system.	", "img": "img/	Fjord (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Fjord	"},
+{"title": "	Unabomber (2026)	", "text": "	A Harvard student becomes the Unabomber after psychological experiments. Years later, an FBI agent's pursuit reveals how his past shaped his deadly campaign that killed 3 and injured 23 from 1978-1995.	", "img": "img/	Unabomber (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Unabomber	"},
+{"title": "	The Love Hypothesis (2026)	", "text": "	After an impulsive kiss, two scientists end up in a fake relationship, testing their theories about love and each other.	", "img": "img/	The Love Hypothesis (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Love Hypothesis	"},
+	
 {"title": "	Never After Dark (2026)	", "text": "	A traveling psychic who helps lost souls cross over encounters a powerful entity at a remote house. While investigating its origins, she uncovers dark secrets and faces a deadly threat from an unexpected source.	", "img": "img/	Never After Dark (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Never After Dark	"},
 {"title": "	Whalefall (2026)	", "text": "	Follows a scuba diver who, while looking for his father's remains, is swallowed by an 80-foot, 60-ton sperm whale and has just one hour to get out before his oxygen runs out..	", "img": "img/	Whalefall (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Whalefall	"},
 {"title": "	Teenage Sex and Death at Camp Miasma (2026)	", "text": "	A director making a slasher sequel becomes obsessed with casting the original film's 'final girl,' leading both women into psychological and sexual chaos.	", "img": "img/	Teenage Sex and Death at Camp Miasma (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Teenage Sex and Death at Camp Miasma	"},
