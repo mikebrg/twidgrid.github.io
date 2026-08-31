@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Enola Holmes (2020)	", "text": "	When Enola Holmes, Sherlock's sister, discovers her mother is missing, she endeavors to find her, becoming a super-sleuth in her own right as she outwits her famous brother and unravels a dangerous conspiracy.	", "img": "img/	Enola Holmes (2020).webp	", "tags": "		", "note": "		", "url": "	2020.html#:~:text=Enola Holmes	"},
+	
 {"title": "	Buddy (2026)	", "text": "	A brave girl and her friends must escape a kids television show.	", "img": "img/	Buddy (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Buddy	"},
 {"title": "	Fjord (2026)	", "text": "	An immigrant Romanian family living in Norway is subject to an investigation and faces the scrutiny of the local judicial system.	", "img": "img/	Fjord (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Fjord	"},
 {"title": "	Unabomber (2026)	", "text": "	A Harvard student becomes the Unabomber after psychological experiments. Years later, an FBI agent's pursuit reveals how his past shaped his deadly campaign that killed 3 and injured 23 from 1978-1995.	", "img": "img/	Unabomber (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Unabomber	"},
