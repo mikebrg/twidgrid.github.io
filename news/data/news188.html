@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>UN issues strong warning about the 2026–27 El Niño | News</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png">news188.jpg</head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" loading="lazy" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ News</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>UN issues strong warning about the 2026–27 El Niño</h3><span class="fo-5">2026, September 3</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../search.html#latestnews">Latest News</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/news188.jpg" alt="UN issues strong warning about the 2026–27 El Niño"><li class="table-cell"><img src="" style="display: none;"><h3>UN issues strong warning about the 2026–27 El Niño</h3><p><strong>2026, September 3<p>Worldwide<p></strong>The UN is issuing an unusually strong warning about the 2026–27 El Niño, saying it could become an exceptionally powerful event and significantly increase the risk of extreme weather worldwide.<p>🌊 What is happening?<p>The World Meteorological Organization (WMO) says El Niño is already firmly established and strengthening. It expects the event to become “very strong” toward the end of 2026 and persist into at least February 2027. The WMO puts the probability of it continuing through February at close to 100%—an unusually confident forecast.<p>The warming in the tropical Pacific is extraordinary:<p>Niño 3.4 sea-surface temperatures reached about 2°C above average in July.<p>Weekly measurements subsequently reached 2.2–2.6°C above average.<p>Subsurface waters in parts of the Pacific were more than 8°C above normal.<p>The event is expected to peak around October–December 2026.<p>UN Secretary-General António Guterres described it bluntly:<p>“El Niño is being supersized before our eyes.”<p>He warned that the combination of this natural phenomenon with an already warming planet is pushing the world into a “danger zone of extreme weather.”<p>🌡️ Why is this one particularly worrying?<p>El Niño itself is not caused by climate change. It is a natural Pacific Ocean–atmosphere cycle that normally occurs every 2–7 years.<p>But today's atmosphere and oceans are already considerably warmer because of greenhouse-gas emissions. Consequently, a powerful El Niño is effectively being added on top of an already warmer baseline.<p>That can produce:<p>🔥 Extreme heat<p>El Niño normally raises global average temperatures because heat stored in the Pacific is transferred into the atmosphere. The effect can persist after the El Niño peak. Scientists therefore expect 2027 could be exceptionally hot and potentially the hottest year on record.<p>🌧️ Flooding<p>Changes in atmospheric circulation can bring unusually heavy rainfall to some regions, increasing the risk of flooding.<p>🏜️ Drought<p>Other regions experience suppressed rainfall, worsening water shortages, agricultural losses and wildfire conditions.<p>🌾 Food insecurity<p>Agriculture is particularly vulnerable because the same event can produce drought in one major food-producing region and excessive rain in another.<p>🌪️ Storm changes<p>El Niño shifts global jet streams and atmospheric circulation, changing where storms develop and travel.<p>🚨 The really important point<p>This isn't simply another El Niño forecast.<p>The WMO says this is the first time one of its El Niño/La Niña updates has been this unequivocal, reflecting unusually strong agreement among its forecasting centres. WMO Secretary-General Celeste Saulo said the event could deliver a “massive blow” to communities and economies and called for exceptional preparation.<p>And there is a potentially important climate sequence here:<p>Very strong El Niño → huge release of ocean heat → exceptionally warm global temperatures → 2026/27 potentially setting new temperature records.<p>The UN's concern is therefore not that El Niño will cause climate change, but that it could temporarily turbocharge the effects of an already warming climate.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4"
+                    href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
