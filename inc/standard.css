@@ -499,6 +499,13 @@ transition: all 0.5s ease;
     display: block;
 }
 
+.table-cell iframe:hover {
+     border: 1px solid rgba(246, 185, 59, 0.9);
+     filter: brightness(100%);
+     transition: all 0.5s ease;
+
+ }
+ 
  ul a {
 text-decoration: none; /* Remove underline by default */
 color: black; /* Optional: Set the link color */
@@ -507,6 +514,7 @@ color: black; /* Optional: Set the link color */
 ul a:hover {
 text-decoration: underline; /* Add underline only on hover */
 }
+
 
 /* Modal styling */
 .modal {
