@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Mewgenics | Video Games</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160/ Video Games</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Mewgenics</h3><span class="fo-5">Edmund McMillen</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div></div><div class="block-978" style="padding-bottom:39px;"><p><p><ul class="responsive-table"><li class="table-cell"><img src="../img/Mewgenics.jpg" alt="Mewgenics"><h3>Mewgenics</h3><p><strong>Genres: </strong>Turn-Based Tactics</p><p></p><p></p><a class="btn-2" href="https://store.steampowered.com/app/686060/Mewgenics/" target="_blank">Website</a></p></li><li class="table-cell"><img src="../img/Edmund McMillen.jpg" alt="Edmund McMillen"><p><strong>Developer: </strong>Edmund McMillen</p><p><strong>Publisher: </strong>Edmund McMillen</p><p><strong>Platforms: </strong>PC, Xbox Series X, Nintendo Switch 2, PlayStation 5</p><p><strong>Released: </strong>2026, February 10</p><p><strong>Rated: </strong>Not Rated</p><p></p></li><li class="table-cell"><img src="" style="display: none;"><p>From the creator of The Binding of Isaac, Super Meat Boy and The End is Nigh comes... Mewgenics! A game where you hoard, breed, train and set cats out on epic adventures through a sprawling world of complete chaos. Level up your team as you venture further and further from your home, collect unique items, defeat epic bosses, gain mutations and return home so you you can breed and further your bloodline, in this turn based legacy roguelike draft sim about cats!</p></li></ul><p><p></div></div><a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a><script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script><footer class="foot"><div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p><p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p></div></footer><script>document.getElementById("current-year").textContent = new Date().getFullYear();</script></body></html>
