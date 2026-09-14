@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Runner (2026)	", "text": "	A former soldier and his unlikely partner become the targets of a ruthless cartel while racing to complete a critical medical delivery and save the life of a little girl.	", "img": "img/	Runner (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Runner	"},	
+	
 {"title": "	The Uprising (2026)	", "text": "	Based on the true story of the uprising that inspired the legend of Robin Hood, Andrew Garfield stars as the leader of a rebellion against the tyranny of King Richard II in a fight for justice.	", "img": "img/	The Uprising (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Uprising	"},	
 {"title": "	Mr. Irrelevant (2026)	", "text": "	The heartfelt story of the inspiring, enduring impact John Tuggle had on his team and teammates after being drafted by the New York Giants.	", "img": "img/	Mr. Irrelevant (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Mr. Irrelevant	"},	
 {"title": "	The Mosquito Bowl (2026)	", "text": "	After Pearl Harbor, four star college footballers join the Marines. Before facing Okinawa's invasion, they participate in a historic game with legendary players - for many, their final match.	", "img": "img/	The Mosquito Bowl (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Mosquito Bowl	"},	
