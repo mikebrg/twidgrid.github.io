@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Brenda Lee | Music</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Brenda Lee</h3><span class="fo-5">Nashville, Tennessee, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Brenda Lee.jpg" alt="Brenda Lee"><h3>Brenda Lee</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>11 December 1944<p><strong>Age: </strong><span class='dob' data-dob='11-Dec-1944'></span><p><strong>Years Active: </strong>1955–present</p><p><strong>Genre/s: </strong>Rock and roll, rockabilly, pop, country, gospel</strong><p><strong>Label/s: </strong>Decca, MCA, Elektra, Monument, Warner Bros., Brenda Lee Productions, Provident</p></li><li class="table-cell"><img src="" style="display: none;"><p>Brenda Mae Tarpley (born December 11, 1944) known professionally as Brenda Lee, is an American singer. Known for her musical versatility, she had commercial success with recordings in the genres of pop, country, rock and roll and gospel. She was also one of the best-selling music artists of the 1960s. Her Christmas song "Rockin' Around the Christmas Tree" (1958) reached number 1 on the U.S. Billboard Hot 100 in December 2023 after a music video was released for the song, making Lee the oldest artist ever to reach number 1 the chart. She has been inducted into both the Country Music Hall of Fame and the Rock and Roll Hall of Fame.<p>Lee was considered a child prodigy for her ability to sing from a young age. After making appearances on 1950s television programs, she signed a recording contract with Decca Records (later named MCA) at age 11. Her earliest recordings were rock and roll, first achieving a commercial breakthrough with "Sweet Nothin's" (1959). Her music shifted towards pop after reaching number 1 with "I'm Sorry" (1960). That year, "Rockin' Around the Christmas Tree" was re-released and became a commercial success for the first time. This new style appealed to teens and adults. Lee had a series of Top 10 hits in multiple countries including "Fool No. 1" (1961), "Break It to Me Gently" (1961), "All Alone Am I" (1962) and "Losing You" (1963). Her single "One Rainy Night in Tokyo" (1965), recorded in Japanese reached the Top 10 in Japan.<p>Lee then experimented with different musical styles, including an album of New Orleans music titled For the First Time (1968) and a soul-inspired project titled Memphis Portrait (1970). After several personal challenges, Lee was reinvented as a country music artist in adulthood. This began with the country song, "Nobody Wins" (1973). She then reached the Top 10 with "Sunday Sunrise" (1973), "Big Four Poster Bed" (1974) and "Rock on Baby" (1974). L. A. Sessions (1976), a pop album, dud poorly and Le reverted back to the country genre again with "Tell Me What It's Like" (1979), which reached the Top 10. She had two more Top 10 country songs through 1981 and recorded country-flavored albums until leaving MCA in 1986.<p>"Rockin' Around the Christmas Tree" received another revival when it was featured in the film Home Alone (1990). Warner Bros. signed Lee to a new contract and released Brenda Lee (1991), which failed to become a commercial success. It was followed by A Brenda Lee Christmas: In the New Old Fashioned Way (1991). Lee recorded and performed with less frequency during the 1990s and 2000s. Among her new material was a collection of gospel material titled Gospel Duets with Treasured Friends (2007). In 2023, "Rockin' Around the Christmas Tree" topped the US charts after Lee issued a music video to promote the track.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

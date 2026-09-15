@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>BONES | Music</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>BONES</h3><span class="fo-5">Howell, Michigan, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/BONES.jpg" alt="BONES"><h3>BONES</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>11 January 1994<p><strong>Age: </strong><span class='dob' data-dob='11-Jan-1994'></span><p><strong>Years Active: </strong>2010–present</p><p><strong>Genre/s: </strong>Cloud rap, emo rap, underground rap, trap metal</strong><p><strong>Label/s: </strong>TeamSESH<p><strong>Member of: </strong>Surrenderdorothy, Oregontrail</p></li><li class="table-cell"><img src="" style="display: none;"><p>Elmo Kennedy O'Connor (born January 11, 1994), known artistically as BONES, is an American rapper, singer, and songwriter from Howell, Michigan. He is also the founder of the music collective TeamSESH.<p>O'Connor is known for his pioneering work in sub-genres of hip-hop referred to as emo rap and trap metal. Since 2010, O'Connor has released an extensive discography and developed a large fan base. As of 2024, he has released over 100 albums, mixtapes and EPs across several aliases.<p>Elmo Kennedy O'Connor was born in Muir Beach, California in 1994 to mother Rachel Culp, a clothing designer, and father Danny O'Connor, who worked in the music business. His parents had met at a rock concert. His maternal grandfather was actor Robert Culp. His parents moved from Chicago, Illinois to Muir Beach, California, before moving to Howell, Michigan when O'Connor was seven years old. A few years later, he met fellow artists Xavier Wulf, Chris Travis, and Eddy Baker online. The four artists would later come together to form the collective Seshollowaterboyz.<p>When he was 16 years old, he dropped out of Howell High School and moved to Los Angeles, where his brother and current manager, Elliott, had already been living. In an interview early in his career, O'Connor stated that he had wanted to pursue a music career since he was nine years old: "I started recording raps on the computer. I just didn't know how to go about making it public." Despite moving away from his parents at a young age, O'Connor has spoken positively of them, stating, "If I tried to write a book about, 'oh, what would be dream parents?', I couldn't even make anything better than them. All they do is shower me in love. Unconditional love, forever." O'Connor's older brother Elliott has mentioned the support Elmo received growing up, being quoted in a 2011 article for the Livingston County Daily Press & Argus: "From the start, our parents have been very supportive of Elmo's decision... They've always been open to a lot of different things." O'Connor has described Howell as a "mundane" place where its residents are "born and they die there", also calling it "one of the most racist towns in Michigan".<p>O'Connor has a son, Howl, born in August 2019, and a daughter, Sunday, born in July 2026. In 2023, O'Connor married fiancée Samantha Strysko in Avalon, California, whom he met at Disneyland through his brother Elliott. Since 2017, O'Connor has resided in Glendale, California.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

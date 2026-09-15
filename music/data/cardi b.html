@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><title>Cardi B | Music</title><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link href="https://fonts.googleapis.com/css?family=Squada+One|Source+Code+Pro|Merriweather:300|Abril+Fatface"rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"><link rel="stylesheet" href="../../inc/standard.css"><link rel="icon" type="image/x-icon" href="../img/favicon.png"></head><body><div class="cont"><div id="head"><div class="block"><button class="hamburger" onclick="toggleMenu()">☰</button>
+
+<div id="nav"></div>
+<script>
+fetch("../../nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("nav").innerHTML = data;
+  });
+</script>
+
+<script>
+function toggleMenu() {
+  document.getElementById("sidebar").classList.toggle("active");
+  document.getElementById("overlay").classList.toggle("active");
+}
+</script><a href="../../index.html" class="not">
+      <img src="../../img/favicon.png" alt="TwidGrid" width="20" height="20" style="float: left;padding-top: 8px;margin-right: 10px;">
+    </a><a href="../../index.html" class="not"><div class="ban">TwidGrid</div></a><a href="../index.html" class="not"><span class="ban">&#160> Music</span></a></div></div><div class="head"><div class="block" style="padding-top:79px;"><h3>Cardi B</h3><span class="fo-5">New York City, U.S.</span><p></p><p></p><div><a class="btn-1" href="../index.html">Home</a>&nbsp;<a class="btn-1"  href="../artists.html">Artists</a>&nbsp;<a class="btn-1" href="../search.html">Search</a></div></div>
+        </div>
+        <div class="block-978" style="padding-bottom:39px;">
+            <p>
+            <p>
+            <ul class="responsive-table">
+                <li class="table-cell"><img src="../img/Cardi B.jpg" alt="Cardi B"><h3>Cardi B</h3><p><li class="table-cell"><p><img src="" style="display: none;"><strong>Born: </strong>11 October 1992<p><strong>Age: </strong><span class='dob' data-dob='11-Oct-1992'></span><p><strong>Years Active: </strong>2015–present</p><p><strong>Genre/s: </strong>East Coast hip-hop, trap, dirty rap</strong><p><strong>Label/s: </strong>KSR, Atlantic</p></li><li class="table-cell"><img src="" style="display: none;"><p>Belcalis Marlenis Almánzar (formerly Cephus; born October 11, 1992), known professionally as Cardi B, is an American rapper. Born and raised in New York City, she is known for her energetic rap flow and outspoken lyrics. Since launching her music career in 2016 and releasing her two mixtapes, Cardi B has been credited for elevating the relevance of female rappers in popular music.<p>Her first studio album, Invasion of Privacy (2018), debuted atop the Billboard 200 with the largest female rap album streaming week of all time and became the best-selling and the highest-certified female rap album of the 21st century. Ranked by Rolling Stone as the best debut album of all time by a female rapper, it made Cardi B the first solo female artist in history to win the Grammy Award for Best Rap Album. Its singles "Bodak Yellow" and "I Like It" both topped the Billboard Hot 100 and were certified diamond by the RIAA; the former made Cardi B the first female rapper in the 21st century to top the Hot 100 with a solo song and the first in history to achieve a diamond-certified song, while the latter made her the first-ever with multiple number-one songs. Her third US number-one, the collaboration "Girls Like You" in 2018, made her the first female rapper ever to earn multiple RIAA diamond-certified songs.<p>Cardi B's second album, Am I the Drama? (2025), made her the only female rapper in history to have her first two albums debut atop the Billboard 200. It became the female rap album with the highest certification of the 2020s, the most weeks inside the top ten of the Billboard 200 in the 2020s, and the most charting songs (18) in Billboard Hot 100 history. Including the US top-ten song "Outside" and US number-ones "WAP" and "Up", it is tied with Invasion of Privacy as the female rap album with the most Hot 100 number-ones (two each). "WAP" is the only female rap collaboration to debut atop the Hot 100 and had a large cultural impact.<p>Cardi B is the female rapper with the most number-one singles (five) on the Billboard Hot 100, the only female rapper to achieve multiple solo number-ones, and the only to earn number-one singles in two decades (2010s and 2020s). The highest-certified female rapper in US digital single sales (70 million), Cardi B has the most diamond-certified songs (four) among female rappers—with "Bodak Yellow" being the highest-certified female rap song. Furthermore, Invasion of Privacy is the most-streamed female rap album on Apple Music and Spotify. A Grammy Award winner and the female rapper with the most Billboard Music Awards (8), Guinness World Records (8), BET Awards (21) and ASCAP Songwriter of the Year awards (2), Cardi B has also won nine American Music Awards, four MTV Video Music Awards, four NAACP Image Awards, and four Soul Train Music Awards. Time listed her as one of the 100 most influential people in the world in 2018, while Billboard named her Woman of the Year in 2020 and ranked Invasion of Privacy as the top female rap album of the 2010s.</li></ul>
+
+            <ul class="responsive-table"><li></li><li></li><li></li><li></li></ul><p><p></div></div><script>
+document.querySelectorAll('.dob').forEach(el => {
+  const dob = new Date(el.dataset.dob);
+  const today = new Date();
+  let age = today.getFullYear() - dob.getFullYear();
+  const m = today.getMonth() - dob.getMonth();
+  if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+    age--;
+  }
+  el.textContent = age;
+});
+</script><!-- Modal Structure -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title">Content Viewer</h5>
+      <button class="close-btn" id="closeModal">&times;</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="contentIframe" src="" allowfullscreen allow="encrypted-media"></iframe>
+    </div>
+    <div class="modal-footer">
+      <button class="close-btn" id="closeFooter">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const links = document.querySelectorAll('a[href*="wikipedia"], a[href*="youtube"], a[href*="tgmdb"]');
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('contentIframe');
+    const closeModalButtons = document.querySelectorAll('#closeModal, #closeFooter');
+
+    // Function to adjust iframe height
+    function adjustIframeHeight() {
+      const modalContent = document.querySelector('.modal-content');
+      const headerHeight = document.querySelector('.modal-header').offsetHeight;
+      const footerHeight = document.querySelector('.modal-footer').offsetHeight;
+      const modalHeight = modalContent.offsetHeight;
+
+      // Set iframe height based on the remaining space
+      const iframeHeight = modalHeight - headerHeight - footerHeight - 40; // 40px for padding
+      iframe.style.height = iframeHeight + 'px';
+    }
+
+    // Open modal and set iframe source on click
+    links.forEach(link => {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        const url = this.href;
+
+        if (url.includes('wikipedia') || url.includes('youtube') || url.includes('tgmdb')) {
+          iframe.src = url;
+        }
+
+        modal.style.display = 'flex'; // Show modal
+        adjustIframeHeight(); // Adjust iframe height on modal open
+      });
+    });
+
+    // Close modal and clear iframe content
+    closeModalButtons.forEach(button => {
+      button.addEventListener('click', function () {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      });
+    });
+
+    // Close modal when clicking outside modal content
+    modal.addEventListener('click', function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+        iframe.src = ''; // Clear the iframe content when the modal is closed
+      }
+    });
+
+    // Recalculate iframe height when the window is resized
+    window.addEventListener('resize', adjustIframeHeight);
+  });
+</script><a href="#" id="back-to-top" title="Back to top"><img src="http://www.twidgrid.com/img/uparrow.png" width="60px"></a>
+    <script>window.addEventListener('scroll', function () { let b = document.getElementById('back-to-top'); window.scrollY > 300 ? b.style.display = 'block' : b.style.display = 'none' }); document.getElementById('back-to-top').addEventListener('click', function (e) { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) });</script>
+    <footer class="foot">
+        <div class="block fo-1">TwidGrid is a small web development studio based in Central Malta.<p><a class="btn-4" href="../../contact.html">Contact Us</a>&#160<a class="btn-4" href="../../donate.html">Donate</a></p>
+            <p>&copy; <span id="current-year"></span> TwidGrid. Est Malta.</p>
+        </div>
+    </footer>
+    <script>document.getElementById("current-year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
