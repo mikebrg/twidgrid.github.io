@@ -1,6 +1,22 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Westside Whimsy	", "text": "	Westside Whimsy is an album by Jhene Aiko released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Westside Whimsy	"},
+{"title": "	BIGGER THAN THE DEVIL	", "text": "	BIGGER THAN THE DEVIL is an album by EST Gee released in 2026	", "img": "img/	BIGGERTHANTHEDEVILESTGee2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=BIGGER THAN THE DEVIL	"},
+     
+{"title": "	So Good	", "text": "	So Good is a song by Jhene Aiko Featuring Kendrick Lamar released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=So Good	"},
+{"title": "	He Belongs	", "text": "	He Belongs is a song by Jhene Aiko released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=He Belongs	"},
+{"title": "	Ghost	", "text": "	Ghost is a song by Jhene Aiko released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ghost	"},
+{"title": "	Ceiling	", "text": "	Ceiling is a song by Jhene Aiko released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Ceiling	"},
+{"title": "	Love Bomb	", "text": "	Love Bomb is a song by Jhene Aiko & Ab-Soul released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Love Bomb	"},
+{"title": "	Nothing Nice To Say	", "text": "	Nothing Nice To Say is a song by Jhene Aiko released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Nothing Nice To Say	"},
+{"title": "	Like, Whatever	", "text": "	Like, Whatever is a song by Jhene Aiko released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Like, Whatever	"},
+{"title": "	Break	", "text": "	Break is a song by Jhene Aiko released in 2025	", "img": "img/	BreakJhene Aiko2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Break	"},
+{"title": "	Wild Cat(s)	", "text": "	Wild Cat(s) is a song by Jhene Aiko released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Wild Cat(s)	"},
+{"title": "	onsra	", "text": "	onsra is a song by comehelpglo released in 2026	", "img": "img/	onsracomehelpglo2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=onsra	"},
+{"title": "	You	", "text": "	You is a song by Jhene Aiko released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=You	"},
+{"title": "	Washed	", "text": "	Washed is a song by ELEVATION RHYTHM released in 2026	", "img": "img/	WashedELEVATION RHYTHM2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Washed	"},
+     
 {"title": "	Bass Persuades	", "text": "	Bass Persuades is a song by Miley released in 2026	", "img": "img/	Bass PersuadesMiley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Bass Persuades	"},
 {"title": "	Nicole Kidman	", "text": "	Nicole Kidman is a song by ADELA released in 2026	", "img": "img/	Nicole KidmanADELA2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Nicole Kidman	"},
 {"title": "	SaWaDiKa	", "text": "	SaWaDiKa is a song by LISA released in 2026	", "img": "img/	SaWaDiKaLISA2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=SaWaDiKa	"},
