@@ -1,6 +1,13 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Madden (2026)	", "text": "	John Madden's remarkable journey-from a Super Bowl-winning partnership with Al Davis and the Raiders, to creating Madden NFL, and becoming one of the most iconic voices in football history.	", "img": "img/	Madden (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Madden	"},
+{"title": "	Wild Horse Nine (2026)	", "text": "	CIA agents Chris and Lee face a trust-testing mission from Santiago to Easter Island during 1973 in Chile.	", "img": "img/	Wild Horse Nine (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Wild Horse Nine	"},
+{"title": "	The Further Mis-Adventures of Cliff Booth (2026)	", "text": "	Showcases more of Cliff Booth's backstory in his new role as a Hollywood fixer.	", "img": "img/	The Further Mis-Adventures of Cliff Booth (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Further Mis-Adventures of Cliff Booth	"},
+{"title": "	Masterplan (2026)	", "text": "	A master thief enlists two strangers for a Louvre heist targeting the Mona Lisa, then reveals they're his children and siblings who must cooperate to pull off history's greatest art theft.	", "img": "img/	Masterplan (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Masterplan	"},
+{"title": "	Misty Green (2026)	", "text": "	Years after her Hollywood breakthrough, a talented actress whose career has stalled fights for her second act.	", "img": "img/	Misty Green (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Misty Green	"},
+{"title": "	You Can See Everything (2026)	", "text": "	Thirty-four days before she's sent to prison, notorious Theranos founder Elizabeth Holmes invites a skeptical film crew to document her every move. What begins as an intimate portrait becomes a mind-bending three-year journey.	", "img": "img/	You Can See Everything (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=You Can See Everything	"},
+	
 {"title": "	Widow's Bay (2026)	", "text": "	A skeptical mayor leads the superstitious residents of a cursed New England island.	", "img": "img/	Widow's Bay (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Widow's Bay	"},
 
 {"title": "	Sacrifice (2026)	", "text": "	At an elite fundraising gala, celebrities and socialites find themselves in danger when armed activists storm the venue in pursuit of a legendary relic that could unlock supernatural powers.	", "img": "img/	Sacrifice (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Sacrifice	"},	
