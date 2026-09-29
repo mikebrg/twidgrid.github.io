@@ -1,6 +1,32 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Bass Persuades	", "text": "	Bass Persuades is an album by Miley released in 2026	", "img": "img/	BassPersuadesMiley2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Bass Persuades	"},
+{"title": "	That's Just Me	", "text": "	That's Just Me is an album by Riley Green released in 2026	", "img": "img/	That'sJustMeRileyGreen2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=That's Just Me	"},
+{"title": "	Pylon	", "text": "	Pylon is an album by beabadoobee released in 2026	", "img": "img/	Pylonbeabadoobee2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Pylon	"},
+{"title": "	Angel	", "text": "	Angel is an album by Lizzy McAlpine released in 2026	", "img": "img/	AngelLizzyMcAlpine2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Angel	"},
+{"title": "	Cursum Perficio	", "text": "	Cursum Perficio is an album by Anthrax released in 2026	", "img": "img/	CursumPerficioAnthrax2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Cursum Perficio	"},
+{"title": "	Day And Night	", "text": "	Day And Night is an album by Carly Rae Jepsen released in 2026	", "img": "img/	DayAndNightCarlyRaeJepsen2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Day And Night	"},
+{"title": "	Signs	", "text": "	Signs is an album by Luke Bryan released in 2026	", "img": "img/	SignsLukeBryan2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Signs	"},
+{"title": "	Death Of Me	", "text": "	Death Of Me is an album by EVAN released in 2026	", "img": "img/	DeathOfMeEVAN2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Death Of Me	"},
+{"title": "	Ride Lonesome	", "text": "	Ride Lonesome is an album by Beck released in 2026	", "img": "img/	RideLonesomeBeck2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Ride Lonesome	"},
+{"title": "	COCOON	", "text": "	COCOON is an album by Yeat released in 2026	", "img": "img/	COCOONYeat2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=COCOON	"},
+{"title": "	The Great Divide: The Last Of The Bugs (EP)	", "text": "	The Great Divide: The Last Of The Bugs (EP) is an album by Noah Kahan released in 2026	", "img": "img/	TheGreatDivideTheLastOfTheBugs(EP)NoahKahan2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Great Divide: The Last Of The Bugs (EP)	"},
+{"title": "	WATCH ME (EP)	", "text": "	WATCH ME (EP) is an album by BE:FIRST released in 2026	", "img": "img/	WATCHME(EP)BEFIRST2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=WATCH ME (EP)	"},
+{"title": "	Mule	", "text": "	Mule is an album by Orville Peck released in 2026	", "img": "img/	MuleOrvillePeck2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Mule	"},
+{"title": "	ESTRUS	", "text": "	ESTRUS is an album by Tove Lo released in 2026	", "img": "img/	ESTRUSToveLo2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=ESTRUS	"},
+     
+{"title": "	Last Thing You Need	", "text": "	Last Thing You Need is a song by Morgan Wallen released in 2026	", "img": "img/	Last Thing You NeedMorgan Wallen2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Last Thing You Need	"},
+{"title": "	Miss My Dawg	", "text": "	Miss My Dawg is a song by Yeat & Drake released in 2026	", "img": "img/	Miss My DawgYeat & Drake2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Miss My Dawg	"},
+{"title": "	That's Just Me	", "text": "	That's Just Me is a song by Riley Green released in 2026	", "img": "img/	That's Just MeRiley Green2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=That's Just Me	"},
+{"title": "	Joseph	", "text": "	Joseph is a song by Falling in Reverse, Corey Taylor & Serj Tankian released in 2026	", "img": "img/	JosephFalling in Reverse, Corey Taylor & Serj Tankian2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Joseph	"},
+{"title": "	Finders Keepers	", "text": "	Finders Keepers is a song by Luke Bryan & Luke Combs released in 2026	", "img": "img/	Finders KeepersLuke Bryan & Luke Combs2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Finders Keepers	"},
+{"title": "	RHYNO	", "text": "	RHYNO is a song by Travis Scott released in 2026	", "img": "img/	RHYNOTravis Scott2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=RHYNO	"},
+{"title": "	Babydoll	", "text": "	Babydoll is a song by Jamie Miller released in 2026	", "img": "img/	BabydollJamie Miller2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Babydoll	"},
+{"title": "	Duvet	", "text": "	Duvet is a song by boa released in 1998	", "img": "img/	Duvetboa1998.png	", "tags": "		", "note": "		", "url": "	1998.html#:~:text=Duvet	"},
+{"title": "	Nothing	", "text": "	Nothing is a song by Steve Lacy released in 2026	", "img": "img/	NothingSteve Lacy2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Nothing	"},
+{"title": "	Let’s Get Married	", "text": "	Let’s Get Married is a song by Miley Cyrus released in 2026	", "img": "img/	Let’s Get MarriedMiley Cyrus2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Let’s Get Married	"},
+     
 {"title": "	Westside Whimsy	", "text": "	Westside Whimsy is an album by Jhene Aiko released in 2026	", "img": "img/	WestsideWhimsyJheneAiko2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Westside Whimsy	"},
 {"title": "	BIGGER THAN THE DEVIL	", "text": "	BIGGER THAN THE DEVIL is an album by EST Gee released in 2026	", "img": "img/	BIGGERTHANTHEDEVILESTGee2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=BIGGER THAN THE DEVIL	"},
      
