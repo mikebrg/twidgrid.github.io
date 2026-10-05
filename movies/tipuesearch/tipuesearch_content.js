@@ -1,6 +1,10 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Drishyam: The Conclusion (2026)	", "text": "	Follows the Salgaonkar family as they try to cover up a murder.	", "img": "img/	Drishyam The Conclusion (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Drishyam: The Conclusion	"},
+{"title": "	The Man with the Bag (2026)	", "text": "	When Santa's magic bag is stolen, he turns to his naughty list to find Vance, a former thief, to help him get it back.	", "img": "img/	The Man with the Bag (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Man with the Bag	"},
+{"title": "	Elsinore (2026)	", "text": "	A powerful, deeply moving and inspiring story of the actor Ian Charleson who faced incredible odds while preparing to give the performance of his life in Hamlet at the National Theatre in London.	", "img": "img/	Elsinore (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Elsinore	"},
+	
 {"title": "	Madden (2026)	", "text": "	John Madden's remarkable journey-from a Super Bowl-winning partnership with Al Davis and the Raiders, to creating Madden NFL, and becoming one of the most iconic voices in football history.	", "img": "img/	Madden (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Madden	"},
 {"title": "	Wild Horse Nine (2026)	", "text": "	CIA agents Chris and Lee face a trust-testing mission from Santiago to Easter Island during 1973 in Chile.	", "img": "img/	Wild Horse Nine (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Wild Horse Nine	"},
 {"title": "	The Further Mis-Adventures of Cliff Booth (2026)	", "text": "	Showcases more of Cliff Booth's backstory in his new role as a Hollywood fixer.	", "img": "img/	The Further Mis-Adventures of Cliff Booth (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Further Mis-Adventures of Cliff Booth	"},
