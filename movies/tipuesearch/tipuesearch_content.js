@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Small Prophets (2026)	", "text": "	Eccentric Michael Sleep, whose darling partner, Clea, disappeared seven years ago, sets out to create Homunculi - magical prophesying spirits that can predict the future.	", "img": "img/	Small Prophets (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Small Prophets	"},
+	
 {"title": "	Drishyam: The Conclusion (2026)	", "text": "	Follows the Salgaonkar family as they try to cover up a murder.	", "img": "img/	Drishyam The Conclusion (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Drishyam: The Conclusion	"},
 {"title": "	The Man with the Bag (2026)	", "text": "	When Santa's magic bag is stolen, he turns to his naughty list to find Vance, a former thief, to help him get it back.	", "img": "img/	The Man with the Bag (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=The Man with the Bag	"},
 {"title": "	Elsinore (2026)	", "text": "	A powerful, deeply moving and inspiring story of the actor Ian Charleson who faced incredible odds while preparing to give the performance of his life in Hamlet at the National Theatre in London.	", "img": "img/	Elsinore (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Elsinore	"},
