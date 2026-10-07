@@ -1,6 +1,22 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Patient Zero	", "text": "	Patient Zero is a song by Taylor Swift released in 2026	", "img": "img/	Patient ZeroTaylor Swift2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Patient Zero	"},
+{"title": "	Cleveland!	", "text": "	Cleveland! is a song by Taylor Swift released in 2026	", "img": "img/	Cleveland!Taylor Swift2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Cleveland!	"},
+{"title": "	Babylon	", "text": "	Babylon is a song by Taylor Swift released in 2026	", "img": "img/	BabylonTaylor Swift2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Babylon	"},
+{"title": "	Pink Clouding	", "text": "	Pink Clouding is a song by Taylor Swift released in 2026	", "img": "img/	Pink CloudingTaylor Swift2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Pink Clouding	"},
+{"title": "	Pink Blush	", "text": "	Pink Blush is a song by Dolly Babe & Megan Thee Stallion released in 2026	", "img": "img/	Pink BlushDolly Babe & Megan Thee Stallion2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Pink Blush	"},
+{"title": "	Pure	", "text": "	Pure is a song by Sienna Spiro released in 2026	", "img": "img/	PureSienna Spiro2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Pure	"},
+{"title": "	POPSTAR	", "text": "	POPSTAR is an album by Tinashe released in 2026	", "img": "img/	POPSTARTinashe2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=POPSTAR	"},
+{"title": "	Silver Sands Marina	", "text": "	Silver Sands Marina is an album by Kenny Chesney released in 2026	", "img": "img/	SilverSandsMarinaKennyChesney2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Silver Sands Marina	"},
+{"title": "	I'm So Happy	", "text": "	I'm So Happy is an album by Ms. Rachel released in 2026	", "img": "img/	I'mSoHappyMs.Rachel2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=I'm So Happy	"},
+{"title": "	Mark On Me (EP)	", "text": "	Mark On Me (EP) is an album by &TEAM released in 2026	", "img": "img/	MarkOnMe(EP)&TEAM2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Mark On Me (EP)	"},
+{"title": "	Rise Up! Hamilton: The Anthology	", "text": "	Rise Up! Hamilton: The Anthology is an album by Original Broadway Cast Recording & Various Artists released in 2026	", "img": "img/	RiseUp!HamiltonTheAnthologyOriginalBroadwayCastRecording&VariousArtists2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Rise Up! Hamilton: The Anthology	"},
+{"title": "	Happiness Anytime	", "text": "	Happiness Anytime is an album by Leon Bridges released in 2026	", "img": "img/	HappinessAnytimeLeonBridges2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Happiness Anytime	"},
+{"title": "	Tough Love	", "text": "	Tough Love is an album by Nessa Barrett released in 2026	", "img": "img/	ToughLoveNessaBarrett2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Tough Love	"},
+{"title": "	HIT-A-THON	", "text": "	HIT-A-THON is an album by DDG released in 2026	", "img": "img/	HIT-A-THONDDG2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=HIT-A-THON	"},
+{"title": "	Los Ojos del Condor	", "text": "	Los Ojos del Condor is an album by Hermanos Gutierrez released in 2026	", "img": "img/	LosOjosdelCondorHermanosGutierrez2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Los Ojos del Condor	"},
+     
 {"title": "	Bass Persuades	", "text": "	Bass Persuades is an album by Miley released in 2026	", "img": "img/	BassPersuadesMiley2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Bass Persuades	"},
 {"title": "	That's Just Me	", "text": "	That's Just Me is an album by Riley Green released in 2026	", "img": "img/	That'sJustMeRileyGreen2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=That's Just Me	"},
 {"title": "	Pylon	", "text": "	Pylon is an album by beabadoobee released in 2026	", "img": "img/	Pylonbeabadoobee2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Pylon	"},
