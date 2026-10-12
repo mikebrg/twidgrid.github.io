@@ -1,6 +1,10 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Bloodaxe (2027)	", "text": "	Viking warrior Erik Bloodaxe and wife Gunnhild battle for Norway's throne amid betrayals and rival kings. Their saga draws in rulers from England and Scandinavia as war and chaos engulf the kingdom.	", "img": "img/	Bloodaxe (2027).webp	", "tags": "		", "note": "		", "url": "	tv2027.html#:~:text=Bloodaxe	"},
+{"title": "	The Exorcist: Martyrs (2027)	", "text": "	A determined rookie detective eager to establish herself confronts a horrifying darkness that challenges her deepest convictions and tests everything she thought she knew about right and wrong.	", "img": "img/	The Exorcist Martyrs (2027).webp	", "tags": "		", "note": "		", "url": "	2027.html#:~:text=The Exorcist: Martyrs	"},
+{"title": "	Angel and the Badman (2026)	", "text": "	A wounded outlaw finds unexpected mercy in the care of a rancher's daughter. The hope of love pulls him toward a different life until the law, and his violent past, close in on his new home. Now he must choose the kind of man he'll become.	", "img": "img/	Angel and the Badman (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Angel and the Badman	"},
+	
 {"title": "	Small Prophets (2026)	", "text": "	Eccentric Michael Sleep, whose darling partner, Clea, disappeared seven years ago, sets out to create Homunculi - magical prophesying spirits that can predict the future.	", "img": "img/	Small Prophets (2026).webp	", "tags": "		", "note": "		", "url": "	tv2026.html#:~:text=Small Prophets	"},
 	
 {"title": "	Drishyam: The Conclusion (2026)	", "text": "	Follows the Salgaonkar family as they try to cover up a murder.	", "img": "img/	Drishyam The Conclusion (2026).webp	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Drishyam: The Conclusion	"},
