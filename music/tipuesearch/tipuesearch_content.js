@@ -1,6 +1,22 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Solar Eclipse	", "text": "	Solar Eclipse is a song by Drake & Don Toliver released in 2026	", "img": "img/	Solar EclipseDrake & Don Toliver2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Solar Eclipse	"},
+{"title": "	Quebec	", "text": "	Quebec is a song by Drake released in 2026	", "img": "img/	QuebecDrake2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Quebec	"},
+{"title": "	Cold Shoulder	", "text": "	Cold Shoulder is a song by Drake, Don Toliver & Yebba released in 2026	", "img": "img/	Cold ShoulderDrake, Don Toliver & Yebba2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Cold Shoulder	"},
+{"title": "	Draw You Out	", "text": "	Draw You Out is a song by Noah Kahan released in 2026	", "img": "img/	Draw You OutNoah Kahan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Draw You Out	"},
+{"title": "	Snakeskin Boots	", "text": "	Snakeskin Boots is a song by Miranda Lambert & Ella Langley released in 2026	", "img": "img/	Snakeskin BootsMiranda Lambert & Ella Langley2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Snakeskin Boots	"},
+{"title": "	Storm II	", "text": "	Storm II is a song by GENER8ION & Yung Lean released in 2026	", "img": "img/	Storm IIGENER8ION & Yung Lean2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Storm II	"},
+{"title": "	BA	", "text": "	BA is a song by Quavo & Future released in 2026	", "img": "img/	BAQuavo & Future2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=BA	"},
+{"title": "	Why Don't You Say So	", "text": "	Why Don't You Say So is a song by Dexter And The Moonrocks & Avery Anna released in 2026	", "img": "img/	Why Don't You Say SoDexter And The Moonrocks & Avery Anna2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Why Don't You Say So	"},
+{"title": "	Crisco	", "text": "	Crisco is an album by Miranda Lambert released in 2026	", "img": "img/	CriscoMirandaLambert2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Crisco	"},
+{"title": "	Friends That I Don't Like	", "text": "	Friends That I Don't Like is an album by Dexter And The Moonrocks released in 2026	", "img": "img/	FriendsThatIDon'tLikeDexterAndTheMoonrocks2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Friends That I Don't Like	"},
+{"title": "	The Day I Hang It Up	", "text": "	The Day I Hang It Up is an album by Gavin Adcock released in 2026	", "img": "img/	TheDayIHangItUpGavinAdcock2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Day I Hang It Up	"},
+{"title": "	Frequency Of Love	", "text": "	Frequency Of Love is an album by Victoria Monet released in 2026	", "img": "img/	FrequencyOfLoveVictoriaMonet2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Frequency Of Love	"},
+{"title": "	Heaven On Mars	", "text": "	Heaven On Mars is an album by NoCap released in 2026	", "img": "img/	HeavenOnMarsNoCap2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Heaven On Mars	"},
+{"title": "	QROMELIFE	", "text": "	QROMELIFE is an album by Quavo released in 2026	", "img": "img/	QROMELIFEQuavo2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=QROMELIFE	"},
+{"title": "	ANIMAL (EP)	", "text": "	ANIMAL (EP) is an album by JO1 released in 2026	", "img": "img/	ANIMAL(EP)JO12026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=ANIMAL (EP)	"},
+     
 {"title": "	Patient Zero	", "text": "	Patient Zero is a song by Taylor Swift released in 2026	", "img": "img/	Patient ZeroTaylor Swift2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Patient Zero	"},
 {"title": "	Cleveland!	", "text": "	Cleveland! is a song by Taylor Swift released in 2026	", "img": "img/	Cleveland!Taylor Swift2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Cleveland!	"},
 {"title": "	Babylon	", "text": "	Babylon is a song by Taylor Swift released in 2026	", "img": "img/	BabylonTaylor Swift2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Babylon	"},
