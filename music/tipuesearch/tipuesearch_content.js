@@ -1,6 +1,13 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Pop It	", "text": "	Pop It is a song by Gunna released in 2026	", "img": "img/	Pop ItGunna2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Pop It	"},
+{"title": "	Kinda Love It	", "text": "	Kinda Love It is a song by Lainey Wilson released in 2026	", "img": "img/	Kinda Love ItLainey Wilson2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Kinda Love It	"},
+{"title": "	Palace For The People	", "text": "	Palace For The People is an album by Greta Van Fleet released in 2026	", "img": "img/	PalaceForThePeopleGretaVanFleet2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Palace For The People	"},
+{"title": "	Mud	", "text": "	Mud is an album by Remi Wolf released in 2026	", "img": "img/	MudRemiWolf2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Mud	"},
+{"title": "	She's The Best	", "text": "	She's The Best is an album by Troye Sivan released in 2026	", "img": "img/	She'sTheBestTroyeSivan2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=She's The Best	"},
+{"title": "	Live At Carnegie Hall	", "text": "	Live At Carnegie Hall is an album by Cameron Winter released in 2026	", "img": "img/	LiveAtCarnegieHallCameronWinter2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Live At Carnegie Hall	"},
+     
 {"title": "	Solar Eclipse	", "text": "	Solar Eclipse is a song by Drake & Don Toliver released in 2026	", "img": "img/	Solar EclipseDrake & Don Toliver2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Solar Eclipse	"},
 {"title": "	Quebec	", "text": "	Quebec is a song by Drake released in 2026	", "img": "img/	QuebecDrake2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Quebec	"},
 {"title": "	Cold Shoulder	", "text": "	Cold Shoulder is a song by Drake, Don Toliver & Yebba released in 2026	", "img": "img/	Cold ShoulderDrake, Don Toliver & Yebba2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Cold Shoulder	"},
