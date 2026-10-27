@@ -1,6 +1,24 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Housewife	", "text": "	Housewife is a song by Tate McRae released in 2026	", "img": "img/	HousewifeTate McRae2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Housewife	"},
+{"title": "	Lies	", "text": "	Lies is a song by Zach Bryan Featuring Lana Del Rey released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Lies	"},
+{"title": "	Lodi When	", "text": "	Lodi When is a song by Zach Bryan released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Lodi When	"},
+{"title": "	Robot Killed The Working Man	", "text": "	Robot Killed The Working Man is a song by Zach Bryan released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Robot Killed The Working Man	"},
+{"title": "	Plainsman	", "text": "	Plainsman is a song by Zach Bryan Featuring Turnpike Troubadours released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Plainsman	"},
+{"title": "	Backwards	", "text": "	Backwards is a song by Zach Bryan released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Backwards	"},
+{"title": "	You'll Get By	", "text": "	You'll Get By is a song by Zach Bryan released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=You'll Get By	"},
+{"title": "	Dog Days	", "text": "	Dog Days is a song by Zach Bryan released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Dog Days	"},
+{"title": "	Is The Blue Tangled In You?	", "text": "	Is The Blue Tangled In You? is a song by Zach Bryan released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Is The Blue Tangled In You?	"},
+{"title": "	Flower In A Hurricane	", "text": "	Flower In A Hurricane is a song by Justice, Tame Impala, SZA & King Gizzard & The Lizard Wizard released in 2026	", "img": "img/	Flower In A HurricaneJustice, Tame Impala, SZA & King Gizzard & The Lizard Wizard2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Flower In A Hurricane	"},
+{"title": "	Impulsive	", "text": "	Impulsive is a song by Thekidszn released in 2026	", "img": "img/	ImpulsiveThekidszn2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Impulsive	"},
+{"title": "	Neon	", "text": "	Neon is a song by A20 LITE released in 2026	", "img": "img/	NeonA20 LITE2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Neon	"},
+{"title": "	Young Manhood And Other Donatable Organs	", "text": "	Young Manhood And Other Donatable Organs is an album by Zach Bryan released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Young Manhood And Other Donatable Organs	"},
+{"title": "	Dopamine Chamber	", "text": "	Dopamine Chamber is an album by FONTAINES D.C. released in 2026	", "img": "img/	DopamineChamberFONTAINESD.C.2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Dopamine Chamber	"},
+{"title": "	The Girl Of Your Dreams	", "text": "	The Girl Of Your Dreams is an album by Ashe released in 2026	", "img": "img/	TheGirlOfYourDreamsAshe2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=The Girl Of Your Dreams	"},
+{"title": "	HYPERDRIVE (EP)	", "text": "	HYPERDRIVE (EP) is an album by PLAVE released in 2026	", "img": "img/	HYPERDRIVE(EP)PLAVE2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=HYPERDRIVE (EP)	"},
+{"title": "	Last Laugh	", "text": "	Last Laugh is an album by LUCKI released in 2026	", "img": "img/	LastLaughLUCKI2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Last Laugh	"},
+     
 {"title": "	Pop It	", "text": "	Pop It is a song by Gunna released in 2026	", "img": "img/	Pop ItGunna2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Pop It	"},
 {"title": "	Kinda Love It	", "text": "	Kinda Love It is a song by Lainey Wilson released in 2026	", "img": "img/	Kinda Love ItLainey Wilson2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Kinda Love It	"},
 {"title": "	Palace For The People	", "text": "	Palace For The People is an album by Greta Van Fleet released in 2026	", "img": "img/	PalaceForThePeopleGretaVanFleet2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Palace For The People	"},
