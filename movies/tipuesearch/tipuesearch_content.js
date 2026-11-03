@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Pride and Prejudice (2026)	", "text": "	Elizabeth Bennet and wealthy landowner Fitzwilliam Darcy navigate pride and prejudice as obstacles in their complex relationship before finding love and marriage.	", "img": "img/	Pride and Prejudice (2026).webp	", "tags": "		", "note": "		", "url": "data/	Pride and Prejudice (2026).html	"},
+	
 {"title": "	BTS World Tour 'Arirang' in São Paulo: Live Viewing (2026)	", "text": "	The first-ever BTS Live Viewing broadcast from South America, broadcasting from São Paulo, Brazil. Marking the grand finale of their Latin America tour, this monumental concert will bring the explosive energy of packed stadiums in Argentina straight to the big screen.	", "img": "img/	BTS World Tour 'Arirang' in São Paulo Live Viewing (2026).webp	", "tags": "		", "note": "		", "url": "data/	BTS World Tour 'Arirang' in São Paulo Live Viewing (2026).html	"},
 {"title": "	Behemoth! (2026)	", "text": "	Follows a musician from a family of musicians who returns to Los Angeles. A love letter to the music of the movies and the people who make it.	", "img": "img/	Behemoth! (2026).webp	", "tags": "		", "note": "		", "url": "data/	Behemoth! (2026).html	"},
 {"title": "	Jumanji: Open World (2026)	", "text": "	The players have escaped the ever-changing jungles of Jumanji, but this time the game breaks free of its console, unleashing chaos into our world.	", "img": "img/	Jumanji Open World (2026).webp	", "tags": "		", "note": "		", "url": "data/	Jumanji Open World (2026).html	"},
