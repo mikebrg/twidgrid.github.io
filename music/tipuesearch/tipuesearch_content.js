@@ -1,6 +1,20 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Heavy Is The Crown	", "text": "	Heavy Is The Crown is an album by Anderson .Paak & Cordae released in 2026	", "img": "img/	HeavyIsTheCrownAnderson.Paak&Cordae2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Heavy Is The Crown	"},
+{"title": "	Damascus Road	", "text": "	Damascus Road is an album by Josiah Queen released in 2026	", "img": "img/	DamascusRoadJosiahQueen2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Damascus Road	"},
+{"title": "	PRESS PLAY (EP)	", "text": "	PRESS PLAY (EP) is an album by LISA released in 2026	", "img": "img/	PRESSPLAY(EP)LISA2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=PRESS PLAY (EP)	"},
+{"title": "	Muse	", "text": "	Muse is an album by John Legend released in 2026	", "img": "img/	MuseJohnLegend2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Muse	"},
+{"title": "	Luh Leakyz, Vol. 1	", "text": "	Luh Leakyz, Vol. 1 is an album by Yeat released in 2026	", "img": "img/	LuhLeakyz,Vol.1Yeat2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Luh Leakyz, Vol. 1	"},
+{"title": "	Watch Dis!	", "text": "	Watch Dis! is an album by Yung Miami released in 2026	", "img": "img/	WatchDis!YungMiami2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Watch Dis!	"},
+{"title": "	From The Dark	", "text": "	From The Dark is an album by Tony Iommi & Jorn released in 2026	", "img": "img/	FromTheDarkTonyIommi&Jorn2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=From The Dark	"},
+{"title": "	No Hay Angeles Aqui	", "text": "	No Hay Angeles Aqui is an album by Victor Mendivil released in 2026	", "img": "img/	NoHayAngelesAquiVictorMendivil2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=No Hay Angeles Aqui	"},
+     
+{"title": "	Thin Ice	", "text": "	Thin Ice is a song by Megan Thee Stallion released in 2026	", "img": "img/	Thin IceMegan Thee Stallion2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Thin Ice	"},
+{"title": "	Angel Of My Dreams	", "text": "	Angel Of My Dreams is a song by JADE released in 2024	", "img": "img/	Angel Of My DreamsJADE2024.png	", "tags": "		", "note": "		", "url": "	2024.html#:~:text=Angel Of My Dreams	"},
+{"title": "	Tom And Jerry	", "text": "	Tom And Jerry is a song by John Mayer released in 2026	", "img": "img/	Tom And JerryJohn Mayer2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Tom And Jerry	"},
+{"title": "	Water At A Wedding	", "text": "	Water At A Wedding is a song by Greylan James released in 2025	", "img": "img/	Water At A WeddingGreylan James2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Water At A Wedding	"},
+     
 {"title": "	Housewife	", "text": "	Housewife is a song by Tate McRae released in 2026	", "img": "img/	HousewifeTate McRae2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Housewife	"},
 {"title": "	Lies	", "text": "	Lies is a song by Zach Bryan Featuring Lana Del Rey released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Lies	"},
 {"title": "	Lodi When	", "text": "	Lodi When is a song by Zach Bryan released in 2026	", "img": "img/	YoungManhoodAndOtherDonatableOrgansZachBryan2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Lodi When	"},
