@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Christopher Abbott	", "text": "	Christopher Jacob Abbott (born February 10, 1986) is an American actor known for his work in film, television, and theater. His accolades include a nomination for the Independent Spirit Award for Best Male Lead for the film James White (2015), a Golden Globe Award nomination for the Hulu miniseries Catch-22 (2019), and a nomination for the Tony Award for Best Featured Actor in a Play for portraying Biff Loman in the Broadway revival of Death of a Salesman (2026).<p>On television, he had his breakout in 2012 with a recurring role in the HBO series Girls. His film roles include Martha Marcy May Marlene (2011), Hello I Must Be Going (2012), Sweet Virginia (2017), First Man (2018), Black Bear (2020), Possessor (2020), On the Count of Three (2021), Sanctuary (2022), Poor Things (2023), Wolf Man (2025), The Testament of Ann Lee (2025), and You Can See Everything (2026). In 2026, he starred in the Netflix miniseries adaptation of East of Eden.	", "img": "img/	Christopher Abbott.jpg	", "tags": "		", "note": "		", "url": "data/	christopher abbott.html	"},
+	
 {"title": "	Criminal (2027)	", "text": "	An inter-generational story of families connected through shared criminal history.	", "img": "img/	Criminal (2027).webp	", "tags": "		", "note": "		", "url": "data/	Criminal (2027).html	"},
 {"title": "	Trinity (2026)	", "text": "	A dedicated Naval Officer's life takes an unexpected turn when her connection to the Secretary of Defense leads her into a web of political intrigue and potential conspiracy.	", "img": "img/	Trinity (2026).webp	", "tags": "		", "note": "		", "url": "data/	Trinity (2026).html	"},
 	
