@@ -1,6 +1,14 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Criminal (2027)	", "text": "	An inter-generational story of families connected through shared criminal history.	", "img": "img/	Criminal (2027).webp	", "tags": "		", "note": "		", "url": "data/	Criminal (2027).html	"},
+{"title": "	Trinity (2026)	", "text": "	A dedicated Naval Officer's life takes an unexpected turn when her connection to the Secretary of Defense leads her into a web of political intrigue and potential conspiracy.	", "img": "img/	Trinity (2026).webp	", "tags": "		", "note": "		", "url": "data/	Trinity (2026).html	"},
+	
+{"title": "	Drummer Boy (2026)	", "text": "	As America's fight for independence begins, a young drummer boy, an enslaved woman, and a divided family search for freedom. Through battle and loss, music carries hope in a deeply human story of faith and forgiveness.	", "img": "img/	Drummer Boy (2026).webp	", "tags": "		", "note": "		", "url": "data/	Drummer Boy (2026).html	"},
+{"title": "	Jimmy (2026)	", "text": "	The story of the iconic role that saved America's most-beloved actor.	", "img": "img/	Jimmy (2026).webp	", "tags": "		", "note": "		", "url": "data/	Jimmy (2026).html	"},
+{"title": "	Bad Day (2026)	", "text": "	A single mother struggles to fulfill a small promise to her daughter during the most devastating day she's ever faced.	", "img": "img/	Bad Day (2026).webp	", "tags": "		", "note": "		", "url": "data/	Bad Day (2026).html	"},
+{"title": "	The Liberation (2026)	", "text": "	Rita, a mother escaping the weight of a harrowing past, finds solace in a secluded all-women's cult - but when her daughters arrive she must choose between the freedom she's found and the life she left behind. Based on a true story.	", "img": "img/	The Liberation (2026).webp	", "tags": "		", "note": "		", "url": "data/	The Liberation (2026).html	"},
+	
 {"title": "	Pride and Prejudice (2026)	", "text": "	Elizabeth Bennet and wealthy landowner Fitzwilliam Darcy navigate pride and prejudice as obstacles in their complex relationship before finding love and marriage.	", "img": "img/	Pride and Prejudice (2026).webp	", "tags": "		", "note": "		", "url": "data/	Pride and Prejudice (2026).html	"},
 	
 {"title": "	BTS World Tour 'Arirang' in São Paulo: Live Viewing (2026)	", "text": "	The first-ever BTS Live Viewing broadcast from South America, broadcasting from São Paulo, Brazil. Marking the grand finale of their Latin America tour, this monumental concert will bring the explosive energy of packed stadiums in Argentina straight to the big screen.	", "img": "img/	BTS World Tour 'Arirang' in São Paulo Live Viewing (2026).webp	", "tags": "		", "note": "		", "url": "data/	BTS World Tour 'Arirang' in São Paulo Live Viewing (2026).html	"},
