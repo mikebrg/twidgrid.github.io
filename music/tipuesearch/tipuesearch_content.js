@@ -1,6 +1,22 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	BREAK EVEN (EP)	", "text": "	BREAK EVEN (EP) is an album by ILLIT released in 2026	", "img": "img/	BREAKEVEN(EP)ILLIT2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=BREAK EVEN (EP)	"},
+{"title": "	BETTER OVER TIME	", "text": "	BETTER OVER TIME is an album by BigXthaPlug released in 2026	", "img": "img/	BETTEROVERTIMEBigXthaPlug2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=BETTER OVER TIME	"},
+{"title": "	Perfecth	", "text": "	Perfecth is an album by Queens Of The Stone Age released in 2026	", "img": "img/	PerfecthQueensOfTheStoneAge2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Perfecth	"},
+{"title": "	Everything Under The Sun	", "text": "	Everything Under The Sun is an album by Nickelback released in 2026	", "img": "img/	EverythingUnderTheSunNickelback2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Everything Under The Sun	"},
+{"title": "	HOW TO QUIT SMOKING	", "text": "	HOW TO QUIT SMOKING is an album by Dominic Fike released in 2026	", "img": "img/	HOWTOQUITSMOKINGDominicFike2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=HOW TO QUIT SMOKING	"},
+{"title": "	Looks Can Kill (EP)	", "text": "	Looks Can Kill (EP) is an album by IVE released in 2026	", "img": "img/	LooksCanKill(EP)IVE2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Looks Can Kill (EP)	"},
+
+{"title": "	Spooky, Scary Skeletons (Undead Tombstone Remix)	", "text": "	Spooky, Scary Skeletons (Undead Tombstone Remix) is a song by Andrew Gold released in 2013	", "img": "img/	Spooky, Scary Skeletons (Undead Tombstone Remix)Andrew Gold2013.png	", "tags": "		", "note": "		", "url": "	2013.html#:~:text=Spooky, Scary Skeletons (Undead Tombstone Remix)	"},
+{"title": "	Burn	", "text": "	Burn is a song by BigXthaPlug Featuring Ava Max released in 2026	", "img": "img/	BurnBigXthaPlug Featuring Ava Max2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Burn	"},
+{"title": "	Here You Come, There You Go	", "text": "	Here You Come, There You Go is a song by Gracie Abrams released in 2026	", "img": "img/	Here You Come, There You GoGracie Abrams2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Here You Come, There You Go	"},
+{"title": "	I Like It	", "text": "	I Like It is a song by BigXthaPlug Featuring Loe Shimmy released in 2026	", "img": "img/	I Like ItBigXthaPlug Featuring Loe Shimmy2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=I Like It	"},
+{"title": "	Anytime Soon	", "text": "	Anytime Soon is a song by Jason Aldean released in 2026	", "img": "img/	Anytime SoonJason Aldean2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Anytime Soon	"},
+{"title": "	Okayyy	", "text": "	Okayyy is a song by Latto Featuring Doja Cat released in 2026	", "img": "img/	OkayyyLatto Featuring Doja Cat2026.png	", "tags": "		", "note": "		", "url": "	2026.html#:~:text=Okayyy	"},
+{"title": "	Worth Your Wild	", "text": "	Worth Your Wild is a song by Russell Dickerson released in 2025	", "img": "img/	Worth Your WildRussell Dickerson2025.png	", "tags": "		", "note": "		", "url": "	2025.html#:~:text=Worth Your Wild	"},
+{"title": "	Thriller	", "text": "	Thriller is a song by Michael Jackson released in 1982	", "img": "img/	ThrillerMichael Jackson1982.png	", "tags": "		", "note": "		", "url": "	1982.html#:~:text=Thriller	"},
+     
 {"title": "	Heavy Is The Crown	", "text": "	Heavy Is The Crown is an album by Anderson .Paak & Cordae released in 2026	", "img": "img/	HeavyIsTheCrownAnderson.Paak&Cordae2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Heavy Is The Crown	"},
 {"title": "	Damascus Road	", "text": "	Damascus Road is an album by Josiah Queen released in 2026	", "img": "img/	DamascusRoadJosiahQueen2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=Damascus Road	"},
 {"title": "	PRESS PLAY (EP)	", "text": "	PRESS PLAY (EP) is an album by LISA released in 2026	", "img": "img/	PRESSPLAY(EP)LISA2026.png	", "tags": "		", "note": "		", "url": "	albums2026.html#:~:text=PRESS PLAY (EP)	"},
