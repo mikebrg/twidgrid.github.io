@@ -1,6 +1,11 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Ghost Soldier (2026)	", "text": "	A weapon systems engineer and former Green Beret protects his Wyoming neighbors against a ruthless corporation threatening their rural community.	", "img": "img/	Ghost Soldier (2026).webp	", "tags": "		", "note": "		", "url": "data/	Ghost Soldier (2026).html	"},
+{"title": "	Clashing Through the Snow (2026)	", "text": "	Holiday travel chaos forces two competing coworkers to road-trip cross-country together, sparking an unexpected connection. A contemporary twist on Planes, Trains and Automobiles.	", "img": "img/	Clashing Through the Snow (2026).webp	", "tags": "		", "note": "		", "url": "data/	Clashing Through the Snow (2026).html	"},
+
+{"title": "	Emily in Paris (2020)	", "text": "	A young American woman from the Midwest is hired by a marketing firm in Paris to provide them with an American perspective on things.	", "img": "img/	Emily in Paris (2020).webp	", "tags": "		", "note": "		", "url": "data/	Emily in Paris (2020).html	"},
+
 {"title": "	Christopher Abbott	", "text": "	Christopher Jacob Abbott (born February 10, 1986) is an American actor known for his work in film, television, and theater. His accolades include a nomination for the Independent Spirit Award for Best Male Lead for the film James White (2015), a Golden Globe Award nomination for the Hulu miniseries Catch-22 (2019), and a nomination for the Tony Award for Best Featured Actor in a Play for portraying Biff Loman in the Broadway revival of Death of a Salesman (2026).<p>On television, he had his breakout in 2012 with a recurring role in the HBO series Girls. His film roles include Martha Marcy May Marlene (2011), Hello I Must Be Going (2012), Sweet Virginia (2017), First Man (2018), Black Bear (2020), Possessor (2020), On the Count of Three (2021), Sanctuary (2022), Poor Things (2023), Wolf Man (2025), The Testament of Ann Lee (2025), and You Can See Everything (2026). In 2026, he starred in the Netflix miniseries adaptation of East of Eden.	", "img": "img/	Christopher Abbott.jpg	", "tags": "		", "note": "		", "url": "data/	christopher abbott.html	"},
 	
 {"title": "	Criminal (2027)	", "text": "	An inter-generational story of families connected through shared criminal history.	", "img": "img/	Criminal (2027).webp	", "tags": "		", "note": "		", "url": "data/	Criminal (2027).html	"},
