@@ -1,6 +1,14 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	The Nightingale (2027)	", "text": "	The lives of two sisters living in France are torn apart at the onset of World War II. Based on Kristin Hannah's novel 'The Nightingale'.	", "img": "img/	The Nightingale (2027).webp	", "tags": "		", "note": "		", "url": "data/	The Nightingale (2027).html	"},
+{"title": "	Remain (2027)	", "text": "	A grieving architect moves to Cape Cod for work after leaving a psychiatric facility. While staying at a historic B&B, he meets a mysterious woman who makes him question his rational beliefs about life and loss.	", "img": "img/	Remain (2027).webp	", "tags": "		", "note": "		", "url": "data/	Remain (2027).html	"},
+{"title": "	The Comeback King (2027)	", "text": "	A country western star experiences a dramatic downfall and must navigate their career in free fall.	", "img": "img/	The Comeback King (2027).webp	", "tags": "		", "note": "		", "url": "data/	The Comeback King (2027).html	"},
+{"title": "	Artificial (2026)	", "text": "	Follows the confusing firing and rehiring cycle of Sam Altman at OpenAI where the board gained control of the company and removed him, and Altman still returned.	", "img": "img/	Artificial (2026).webp	", "tags": "		", "note": "		", "url": "data/	Artificial (2026).html	"},
+	
+{"title": "	Presumed Innocent (2024)	", "text": "	A horrific murder upends the Chicago Prosecuting Attorney's' office when one of its own is suspected of the crime.	", "img": "img/	Presumed Innocent (2024).webp	", "tags": "		", "note": "		", "url": "data/	Presumed Innocent (2024).html	"},
+{"title": "	Frisco King (2026)	", "text": "	Ex-con Russell Lee Washington Jr. befriends Dwight in prison. Sent by the mob to kill him in Tulsa, he's instead inspired to build his own criminal empire in Frisco, Texas.	", "img": "img/	Frisco King (2026).webp	", "tags": "		", "note": "		", "url": "data/	Frisco King (2026).html	"},
+	
 {"title": "	Ghost Soldier (2026)	", "text": "	A weapon systems engineer and former Green Beret protects his Wyoming neighbors against a ruthless corporation threatening their rural community.	", "img": "img/	Ghost Soldier (2026).webp	", "tags": "		", "note": "		", "url": "data/	Ghost Soldier (2026).html	"},
 {"title": "	Clashing Through the Snow (2026)	", "text": "	Holiday travel chaos forces two competing coworkers to road-trip cross-country together, sparking an unexpected connection. A contemporary twist on Planes, Trains and Automobiles.	", "img": "img/	Clashing Through the Snow (2026).webp	", "tags": "		", "note": "		", "url": "data/	Clashing Through the Snow (2026).html	"},
 
