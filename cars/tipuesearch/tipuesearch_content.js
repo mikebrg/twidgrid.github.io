@@ -1,6 +1,7 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Audi	", "text": "	Audi AG is a German automotive manufacturer of luxury vehicles headquartered in Ingolstadt, Bavaria, Germany. As a wholly owned subsidiary of the Volkswagen Group, Audi produces vehicles in nine production facilities worldwide.	", "img": "img/	Audi.jpg	", "tags": "		", "note": "		", "url": "	audi.html	"},
 {"title": "	Aixam	", "text": "	Aixam-Mega is a French automobile manufacturer based in Aix-les-Bains, Savoie. It was founded in 1983 to make microcars following the acquisition of Arola. On 11 April 2013, US based Polaris Industries announced that it had acquired Aixam-Mega from previous owners Axa Private Equity.	", "img": "img/	Aixam.jpg	", "tags": "		", "note": "		", "url": "	aixam.html	"},
 {"title": "	Alpine	", "text": "	Société des Automobiles Alpine SAS, commonly known as Alpine, is a French manufacturer of sports cars and racing cars established in 1955. The Alpine car marque was created in 1954.	", "img": "img/	Alpine.jpg	", "tags": "		", "note": "		", "url": "	alpine.html	"},
 {"title": "	Bolloré	", "text": "	Bolloré SE is a French conglomerate headquartered in Puteaux, on the western outskirts of Paris, France. Founded in 1822, the company has interests in Vivendi, international freight forwarding, oil storage and pipelines in France, solid state batteries, access control systems for buildings, palm oil and rubber in Asia and Africa, olive groves in the US and wine production in France.	", "img": "img/	Bolloré.jpg	", "tags": "	Bollore	", "note": "		", "url": "	bollore.html	"},
