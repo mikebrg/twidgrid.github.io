@@ -1,6 +1,8 @@
 
 var tipuesearch = {"pages": [
 
+{"title": "	Appulse	", "text": "	An intense top-down shooter roguelite inspired by pinball mechanics. Master every shot with precision in the heat of the battle, and protect your mothership from waves of invading robots. Upgrade your equipment and conquer spaceships to win the war!	", "img": "img/	Appulse.jpg	", "tags": "	PC	", "note": "		", "url": "	appulse.html	"},
+	
 {"title": "	Volvy's Adventure: Reslimed	", "text": "	Adventure across four revamped worlds full of naughty baddies and menacing boss fiights while collecting delicious onions to keep Volvy at extreme levels of awesome! Whip out your big hand for whatever comes your way - from helicoptering over huge chasms and grinding radical rails to dashing through the skies and fisting your way deep underground. And just when you think you've met your match, scarf down a bundle of onions to transform into the muscular Swolvy and rage your way out of any situation.	", "img": "img/	Volvy's Adventure Reslimed.jpg	", "tags": "	PC	", "note": "		", "url": "	volvy's adventure reslimed.html	"},
 {"title": "	Grand Theft Auto VI	", "text": "	Vice City, USA. Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the state of Leonida – forced to rely on each other more than ever if they want to make it out alive.	", "img": "img/	Grand Theft Auto VI.jpg	", "tags": "	PlayStation 5, Xbox Series X	", "note": "		", "url": "	grand theft auto vi.html	"},
 	
